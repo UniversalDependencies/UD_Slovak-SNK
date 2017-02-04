@@ -3891,15 +3891,15 @@
 2	Kipling	kipling	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 
 # sent_id = dev-s274
-# text = Preslávená je najmä jeho báseň „ If “ (Keď).
+# text = Preslávená je najmä jeho báseň „If“ (Keď).
 # orig_file_sentence 003#74
 1	Preslávená	preslávený	VERB	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	najmä	najmä	PART	T	_	5	advmod:emph	_	_
 4	jeho	jeho	PRON	PUfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Prs	5	nmod	_	_
 5	báseň	báseň	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
-6	„	„	PUNCT	Z	_	7	punct	_	_
-7	If	if	X	%	Foreign=Yes	5	nmod	_	_
+6	„	„	PUNCT	Z	_	7	punct	_	SpaceAfter=No
+7	If	if	X	%	Foreign=Yes	5	nmod	_	SpaceAfter=No
 8	“	“	PUNCT	Z	_	7	punct	_	_
 9	(	(	PUNCT	Z	_	10	punct	_	SpaceAfter=No
 10	Keď	keď	CCONJ	O	_	7	appos	_	SpaceAfter=No
@@ -3967,15 +3967,15 @@
 17	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = dev-s279
-# text = Vtedajší kronikári píšu o „ zlých rokoch “.
+# text = Vtedajší kronikári píšu o „zlých rokoch“.
 # orig_file_sentence 003#79
 1	Vtedajší	vtedajší	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
 2	kronikári	kronikár	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	píšu	písať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
-5	„	„	PUNCT	Z	_	7	punct	_	_
+5	„	„	PUNCT	Z	_	7	punct	_	SpaceAfter=No
 6	zlých	zlý	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
-7	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obj	_	_
+7	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
 8	“	“	PUNCT	Z	_	7	punct	_	SpaceAfter=No
 9	.	.	PUNCT	Z	_	3	punct	_	_
 
@@ -4803,7 +4803,7 @@
 2	Gigas	gigas	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
 
 # sent_id = dev-s348
-# text = Zámerom autora bolo zhrnúť všetko poznanie do jediného diela, vytvoriť akúsi „ knižnicu v jedinej knihe “.
+# text = Zámerom autora bolo zhrnúť všetko poznanie do jediného diela, vytvoriť akúsi „knižnicu v jedinej knihe“.
 # orig_file_sentence 004#48
 1	Zámerom	zámer	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
 2	autora	autor	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
@@ -4817,11 +4817,11 @@
 10	,	,	PUNCT	Z	_	11	punct	_	_
 11	vytvoriť	vytvoriť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	conj	_	_
 12	akúsi	akýsi	PRON	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs	14	nmod	_	_
-13	„	„	PUNCT	Z	_	14	punct	_	_
+13	„	„	PUNCT	Z	_	14	punct	_	SpaceAfter=No
 14	knižnicu	knižnica	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
 15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
 16	jedinej	jediný	NUM	NAfs6	Case=Loc|Gender=Fem|Number=Sing	17	nummod	_	_
-17	knihe	kniha	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_
+17	knihe	kniha	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 18	“	“	PUNCT	Z	_	14	punct	_	SpaceAfter=No
 19	.	.	PUNCT	Z	_	1	punct	_	_
 
@@ -7586,7 +7586,7 @@
 21	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = dev-s513
-# text = Spolu s inými zajatcami boli deportovaní do dnešních provincií Fárs a Chúzistán, kde podľa kronikára Tabarího museli pracovať na stavbe priehrady blízko Šúštaru (tej sa potom vravelo „ cisárska priehrada “).
+# text = Spolu s inými zajatcami boli deportovaní do dnešních provincií Fárs a Chúzistán, kde podľa kronikára Tabarího museli pracovať na stavbe priehrady blízko Šúštaru (tej sa potom vravelo „cisárska priehrada“).
 # orig_file_sentence 006#13
 1	Spolu	spolu	ADV	Dx	Degree=Pos	4	case	_	_
 2	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	1	fixed	_	_
@@ -7617,9 +7617,9 @@
 27	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	29	expl:pass	_	_
 28	potom	potom	ADV	Dx	Degree=Pos	29	advmod	_	_
 29	vravelo	vravieť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	18	parataxis	_	_
-30	„	„	PUNCT	Z	_	32	punct	_	_
+30	„	„	PUNCT	Z	_	32	punct	_	SpaceAfter=No
 31	cisárska	cisársky	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
-32	priehrada	priehrada	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	29	obl	_	_
+32	priehrada	priehrada	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
 33	“	“	PUNCT	Z	_	32	punct	_	SpaceAfter=No
 34	)	)	PUNCT	Z	_	29	punct	_	SpaceAfter=No
 35	.	.	PUNCT	Z	_	6	punct	_	_
@@ -8490,14 +8490,14 @@
 6	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = dev-s574
-# text = Opačné tvrdenie je „ nemorálna ekvivalencia “.
+# text = Opačné tvrdenie je „nemorálna ekvivalencia“.
 # orig_file_sentence 006#74
 1	Opačné	opačný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
 2	tvrdenie	tvrdenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
-4	„	„	PUNCT	Z	_	6	punct	_	_
+4	„	„	PUNCT	Z	_	6	punct	_	SpaceAfter=No
 5	nemorálna	nemorálny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
-6	ekvivalencia	ekvivalencia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+6	ekvivalencia	ekvivalencia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
 7	“	“	PUNCT	Z	_	6	punct	_	SpaceAfter=No
 8	.	.	PUNCT	Z	_	2	punct	_	_
 
@@ -8776,7 +8776,7 @@
 2	Snyder	snyder	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 
 # sent_id = dev-s593
-# text = Vďaka svojmu umeniu prepojiť budhistickú spiritualitu a prírodu je občas nazývaný „ laureátom hlbinnej ekológie “.
+# text = Vďaka svojmu umeniu prepojiť budhistickú spiritualitu a prírodu je občas nazývaný „laureátom hlbinnej ekológie“.
 # orig_file_sentence 006#93
 1	Vďaka	vďaka	ADP	Eu3	AdpType=Prep|Case=Dat	3	case	_	_
 2	svojmu	svoj	PRON	PFns3	Case=Dat|Gender=Neut|Number=Sing|PronType=Prs	3	nmod	_	_
@@ -8789,10 +8789,10 @@
 9	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
 10	občas	občas	ADV	Dx	Degree=Pos	11	advmod	_	_
 11	nazývaný	nazývaný	VERB	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
-12	„	„	PUNCT	Z	_	13	punct	_	_
+12	„	„	PUNCT	Z	_	13	punct	_	SpaceAfter=No
 13	laureátom	laureát	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
 14	hlbinnej	hlbinný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
-15	ekológie	ekológia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	ekológie	ekológia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
 16	“	“	PUNCT	Z	_	13	punct	_	SpaceAfter=No
 17	.	.	PUNCT	Z	_	11	punct	_	_
 
@@ -9171,7 +9171,7 @@
 2	tvorby	tvorba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 
 # sent_id = dev-s614
-# text = Zdá sa, že indiánske chápanie „ chodníkov “ rezonovalo s jeho vlastným poňatím.
+# text = Zdá sa, že indiánske chápanie „chodníkov“ rezonovalo s jeho vlastným poňatím.
 # orig_file_sentence 007#14
 1	Zdá	zdať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	SpaceAfter=No
@@ -9179,8 +9179,8 @@
 4	že	že	CCONJ	O	_	10	mark	_	_
 5	indiánske	indiánsky	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
 6	chápanie	chápanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
-7	„	„	PUNCT	Z	_	8	punct	_	_
-8	chodníkov	chodník	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+7	„	„	PUNCT	Z	_	8	punct	_	SpaceAfter=No
+8	chodníkov	chodník	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
 9	“	“	PUNCT	Z	_	8	punct	_	_
 10	rezonovalo	rezonovať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	1	csubj	_	_
 11	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	14	case	_	_
@@ -12075,7 +12075,7 @@
 21	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = dev-s787
-# text = V pozadí stojí popredný predstaviteľ zarathuštrovskej „ štátnej “ cirkvi, kňaz Kartír.
+# text = V pozadí stojí popredný predstaviteľ zarathuštrovskej „štátnej“ cirkvi, kňaz Kartír.
 # orig_file_sentence 008#87
 1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
 2	pozadí	pozadie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
@@ -12083,8 +12083,8 @@
 4	popredný	popredný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 5	predstaviteľ	predstaviteľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 6	zarathuštrovskej	zarathuštrovský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
-7	„	„	PUNCT	Z	_	8	punct	_	_
-8	štátnej	štátny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+7	„	„	PUNCT	Z	_	8	punct	_	SpaceAfter=No
+8	štátnej	štátny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
 9	“	“	PUNCT	Z	_	8	punct	_	_
 10	cirkvi	cirkev	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	Z	_	13	punct	_	_
@@ -13793,14 +13793,14 @@
 10	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = dev-s897
-# text = Dostal titul „ Bakalára filozofických vied ” z histórie v roku 1968.
+# text = Dostal titul „Bakalára filozofických vied” z histórie v roku 1968.
 # orig_file_sentence 009#97
 1	Dostal	dostať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 2	titul	titul	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
-3	„	„	PUNCT	Z	_	4	punct	_	_
+3	„	„	PUNCT	Z	_	4	punct	_	SpaceAfter=No
 4	Bakalára	bakalár	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 5	filozofických	filozofický	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
-6	vied	veda	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	vied	veda	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
 7	”	”	PUNCT	Z	_	4	punct	_	_
 8	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
 9	histórie	história	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
@@ -13864,7 +13864,7 @@
 9	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = dev-s901
-# text = Bush označil dni predchádzajúce náboženskej konverzii ako svoje „ nomádske ” obdobie a „ nezodpovednú mladosť ”.
+# text = Bush označil dni predchádzajúce náboženskej konverzii ako svoje „nomádske” obdobie a „nezodpovednú mladosť”.
 # orig_file_sentence 010#1
 1	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	označil	označiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
@@ -13874,19 +13874,19 @@
 6	konverzii	konverzia	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	4	obj	_	_
 7	ako	ako	CCONJ	O	_	12	cc	_	_
 8	svoje	svoj	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs	12	nmod	_	_
-9	„	„	PUNCT	Z	_	10	punct	_	_
-10	nomádske	nomádsky	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+9	„	„	PUNCT	Z	_	10	punct	_	SpaceAfter=No
+10	nomádske	nomádsky	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	SpaceAfter=No
 11	”	”	PUNCT	Z	_	10	punct	_	_
 12	obdobie	obdobie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	3	xcomp	_	_
 13	a	a	CCONJ	O	_	16	cc	_	_
-14	„	„	PUNCT	Z	_	16	punct	_	_
+14	„	„	PUNCT	Z	_	16	punct	_	SpaceAfter=No
 15	nezodpovednú	nezodpovedný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
-16	mladosť	mladosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	conj	_	_
+16	mladosť	mladosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
 17	”	”	PUNCT	Z	_	16	punct	_	SpaceAfter=No
 18	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = dev-s902
-# text = Priznal, že v tých dňoch pil „ príliš ”.
+# text = Priznal, že v tých dňoch pil „príliš”.
 # orig_file_sentence 010#2
 1	Priznal	priznať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	7	punct	_	_
@@ -13895,15 +13895,15 @@
 5	tých	ten	PRON	PFip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|PronType=Prs	6	nmod	_	_
 6	dňoch	deň	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	_
 7	pil	piť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	1	ccomp	_	_
-8	„	„	PUNCT	Z	_	9	punct	_	_
-9	príliš	príliš	ADV	Dx	Degree=Pos	7	advmod	_	_
+8	„	„	PUNCT	Z	_	9	punct	_	SpaceAfter=No
+9	príliš	príliš	ADV	Dx	Degree=Pos	7	advmod	_	SpaceAfter=No
 10	”	”	PUNCT	Z	_	9	punct	_	SpaceAfter=No
 11	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = dev-s903
-# text = „ Prestal som piť v roku 1986 a odvtedy som nevypil ani kvapku ”.
+# text = „Prestal som piť v roku 1986 a odvtedy som nevypil ani kvapku”.
 # orig_file_sentence 010#3
-1	„	„	PUNCT	Z	_	2	punct	_	_
+1	„	„	PUNCT	Z	_	2	punct	_	SpaceAfter=No
 2	Prestal	prestať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 3	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	aux	_	_
 4	piť	piť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
@@ -13915,7 +13915,7 @@
 10	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	nevypil	nevypiť	VERB	VLdscm-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Part	2	conj	_	_
 12	ani	ani	PART	T	_	13	advmod:emph	_	_
-13	kvapku	kvapka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	kvapku	kvapka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
 14	”	”	PUNCT	Z	_	2	punct	_	SpaceAfter=No
 15	.	.	PUNCT	Z	_	2	punct	_	_
 
@@ -14067,14 +14067,14 @@
 4	2000	2000	NUM	0	NumForm=Digit	3	nummod	_	_
 
 # sent_id = dev-s913
-# text = Sám seba vyhlasoval za „ súcitného ” konzervatívca.
+# text = Sám seba vyhlasoval za „súcitného” konzervatívca.
 # orig_file_sentence 010#13
 1	Sám	sám	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	3	xcomp	_	_
 2	seba	seba	PRON	PPhs4	Case=Acc|Number=Sing|PronType=Prs	3	iobj	_	_
 3	vyhlasoval	vyhlasovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 4	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
-5	„	„	PUNCT	Z	_	6	punct	_	_
-6	súcitného	súcitný	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+5	„	„	PUNCT	Z	_	6	punct	_	SpaceAfter=No
+6	súcitného	súcitný	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
 7	”	”	PUNCT	Z	_	6	punct	_	_
 8	konzervatívca	konzervatívec	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	iobj	_	SpaceAfter=No
 9	.	.	PUNCT	Z	_	3	punct	_	_
@@ -14279,7 +14279,7 @@
 14	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = dev-s924
-# text = Spojené štáty sa tak z pohľadu celosvetového rastu a z pohľadu vývoja európskych ekonomík stali „ hospodárskym skokanom roku 2003 ”.
+# text = Spojené štáty sa tak z pohľadu celosvetového rastu a z pohľadu vývoja európskych ekonomík stali „hospodárskym skokanom roku 2003”.
 # orig_file_sentence 010#24
 1	Spojené	spojený	VERB	Gtip1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	_
 2	štáty	štát	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
@@ -14296,11 +14296,11 @@
 13	európskych	európsky	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
 14	ekonomík	ekonomika	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
 15	stali	stať	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
-16	„	„	PUNCT	Z	_	18	punct	_	_
+16	„	„	PUNCT	Z	_	18	punct	_	SpaceAfter=No
 17	hospodárskym	hospodársky	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
 18	skokanom	skokan	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	obj	_	_
 19	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
-20	2003	2003	NUM	0	NumForm=Digit	19	nummod	_	_
+20	2003	2003	NUM	0	NumForm=Digit	19	nummod	_	SpaceAfter=No
 21	”	”	PUNCT	Z	_	18	punct	_	SpaceAfter=No
 22	.	.	PUNCT	Z	_	15	punct	_	_
 
@@ -14699,7 +14699,7 @@
 37	.	.	PUNCT	Z	_	14	punct	_	_
 
 # sent_id = dev-s944
-# text = Jeho konverzia je spájaná s menom reverenda Billyho Grahama, neoficiálne nazývaného „ evanjelikálny pápež “.
+# text = Jeho konverzia je spájaná s menom reverenda Billyho Grahama, neoficiálne nazývaného „evanjelikálny pápež“.
 # orig_file_sentence 010#44
 1	Jeho	jeho	PRON	PUfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Prs	2	nmod	_	_
 2	konverzia	konverzia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
@@ -14713,9 +14713,9 @@
 10	,	,	PUNCT	Z	_	12	punct	_	_
 11	neoficiálne	neoficiálne	ADV	Dx	Degree=Pos	12	advmod	_	_
 12	nazývaného	nazývaný	VERB	Gtms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	acl	_	_
-13	„	„	PUNCT	Z	_	15	punct	_	_
+13	„	„	PUNCT	Z	_	15	punct	_	SpaceAfter=No
 14	evanjelikálny	evanjelikálny	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
-15	pápež	pápež	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	obl	_	_
+15	pápež	pápež	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 16	“	“	PUNCT	Z	_	15	punct	_	SpaceAfter=No
 17	.	.	PUNCT	Z	_	4	punct	_	_
 
@@ -15324,12 +15324,12 @@
 8	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = dev-s981
-# text = Husajn odpovedal: „ Nechceli sme, aby išli do našich prezidentských priestorov a narušovali naše súkromie. “
+# text = Husajn odpovedal: „Nechceli sme, aby išli do našich prezidentských priestorov a narušovali naše súkromie.“
 # orig_file_sentence 010#81
 1	Husajn	husajn	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	odpovedal	odpovedať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	Z	_	5	punct	_	_
-4	„	„	PUNCT	Z	_	5	punct	_	_
+4	„	„	PUNCT	Z	_	5	punct	_	SpaceAfter=No
 5	Nechceli	nechcieť	VERB	VLepah-	Aspect=Imp|Number=Plur|Person=1|Polarity=Neg|Tense=Past|VerbForm=Part	2	ccomp	_	_
 6	sme	byť	AUX	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
 7	,	,	PUNCT	Z	_	9	punct	_	_
@@ -15343,7 +15343,7 @@
 15	narušovali	narušovať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	9	conj	_	_
 16	naše	náš	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs	17	nmod	_	_
 17	súkromie	súkromie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	SpaceAfter=No
-18	.	.	PUNCT	Z	_	2	punct	_	_
+18	.	.	PUNCT	Z	_	2	punct	_	SpaceAfter=No
 19	“	“	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = dev-s982
@@ -15652,16 +15652,16 @@
 18	.	.	PUNCT	Z	_	17	punct	_	_
 
 # sent_id = dev-s996
-# text = Informáciu priniesol internetový server „ Guerrilla News Network “.
+# text = Informáciu priniesol internetový server „Guerrilla News Network“.
 # orig_file_sentence 010#96
 1	Informáciu	informácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
 2	priniesol	priniesť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 3	internetový	internetový	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 4	server	server	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
-5	„	„	PUNCT	Z	_	8	punct	_	_
+5	„	„	PUNCT	Z	_	8	punct	_	SpaceAfter=No
 6	Guerrilla	guerrilla	X	%	Foreign=Yes	8	flat:foreign	_	_
 7	News	news	X	%	Foreign=Yes	8	flat:foreign	_	_
-8	Network	network	X	%	Foreign=Yes	4	nmod	_	_
+8	Network	network	X	%	Foreign=Yes	4	nmod	_	SpaceAfter=No
 9	“	“	PUNCT	Z	_	8	punct	_	SpaceAfter=No
 10	.	.	PUNCT	Z	_	2	punct	_	_
 
@@ -16042,7 +16042,7 @@
 2	politika	politika	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 
 # sent_id = dev-s1024
-# text = Bush kritizoval Irán a označil ho za „ hlavného štátneho sponzora teroru “ a prisľúbil iránskym reformátorom podporu USA.
+# text = Bush kritizoval Irán a označil ho za „hlavného štátneho sponzora teroru“ a prisľúbil iránskym reformátorom podporu USA.
 # orig_file_sentence 011#24
 1	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	kritizoval	kritizovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
@@ -16051,11 +16051,11 @@
 5	označil	označiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
 6	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	5	obj	_	_
 7	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
-8	„	„	PUNCT	Z	_	11	punct	_	_
+8	„	„	PUNCT	Z	_	11	punct	_	SpaceAfter=No
 9	hlavného	hlavný	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
 10	štátneho	štátny	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
 11	sponzora	sponzor	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	iobj	_	_
-12	teroru	teror	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+12	teroru	teror	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
 13	“	“	PUNCT	Z	_	11	punct	_	_
 14	a	a	CCONJ	O	_	15	cc	_	_
 15	prisľúbil	prisľúbiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
@@ -16235,7 +16235,7 @@
 3	Európou	európa	PROPN	SSfs7:r	Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	_
 
 # sent_id = dev-s1035
-# text = 20. februára 2005 Bush začal svoje „ turné “ po Európe.
+# text = 20. februára 2005 Bush začal svoje „turné“ po Európe.
 # orig_file_sentence 011#35
 1	20	20	NUM	0	NumForm=Digit	3	nummod	_	SpaceAfter=No
 2	.	.	PUNCT	Z	_	1	punct	_	_
@@ -16244,8 +16244,8 @@
 5	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 6	začal	začať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 7	svoje	svoj	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs	9	nmod	_	_
-8	„	„	PUNCT	Z	_	9	punct	_	_
-9	turné	turné	NOUN	SUns4	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	„	„	PUNCT	Z	_	9	punct	_	SpaceAfter=No
+9	turné	turné	NOUN	SUns4	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
 10	“	“	PUNCT	Z	_	9	punct	_	_
 11	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
 12	Európe	európa	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
@@ -16427,16 +16427,16 @@
 23	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = dev-s1046
-# text = Magazín TIME označil Busha za „ Osobnosť roka “ dvakrát: v roku 2000 a v roku 2004.
+# text = Magazín TIME označil Busha za „Osobnosť roka“ dvakrát: v roku 2000 a v roku 2004.
 # orig_file_sentence 011#46
 1	Magazín	magazín	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	TIME	time	X	%	Foreign=Yes	1	nmod	_	_
 3	označil	označiť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 4	Busha	bush	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 5	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
-6	„	„	PUNCT	Z	_	7	punct	_	_
+6	„	„	PUNCT	Z	_	7	punct	_	SpaceAfter=No
 7	Osobnosť	osobnosť	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	3	iobj	_	_
-8	roka	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+8	roka	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
 9	“	“	PUNCT	Z	_	7	punct	_	_
 10	dvakrát	dvakrát	NUM	ND	_	3	advmod	_	SpaceAfter=No
 11	:	:	PUNCT	Z	_	13	punct	_	_
@@ -16518,19 +16518,19 @@
 19	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = dev-s1052
-# text = Prieskumy v Európe ukazovali „ transatlantické rozdelenie kvôli vojne v Iraku “. [19]
+# text = Prieskumy v Európe ukazovali „transatlantické rozdelenie kvôli vojne v Iraku“. [19]
 # orig_file_sentence 011#52
 1	Prieskumy	prieskum	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
 3	Európe	európa	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
 4	ukazovali	ukazovať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
-5	„	„	PUNCT	Z	_	7	punct	_	_
+5	„	„	PUNCT	Z	_	7	punct	_	SpaceAfter=No
 6	transatlantické	transatlantický	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
 7	rozdelenie	rozdelenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
 8	kvôli	kvôli	ADP	Eu3	AdpType=Prep|Case=Dat	9	case	_	_
 9	vojne	vojna	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
 10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
-11	Iraku	irak	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+11	Iraku	irak	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 12	“	“	PUNCT	Z	_	7	punct	_	SpaceAfter=No
 13	.	.	PUNCT	Z	_	4	punct	_	_
 14	[	[	PUNCT	Z	_	4	punct	_	SpaceAfter=No
