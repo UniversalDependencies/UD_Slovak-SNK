@@ -36,3 +36,8 @@ UD_Slovak contains the same data with annotation converted to conform to the
 Universal Dependencies guidelines. The original treebank was prepared by a team
 led by Katarína Gajdošová and Mária Šimková. Selection of sentences for this
 subset and conversion to Universal Dependencies was done by Dan Zeman.
+
+Changelog:
+
+2017-03-01 v2.0
+  * Converted to UD v2 guidelines.
