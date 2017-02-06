@@ -43,4 +43,5 @@ Changelog:
   * Converted to UD v2 guidelines.
   * Improved advmod vs. obl distinction.
   * Verb negation no longer treated as derivational morphology.
+  * Distinguished numeral types.
 

@@ -95,7 +95,7 @@
 # text = V prvom rade vraj došlo k nepochopeniu.
 # orig_file_sentence 001#8
 1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
-2	prvom	prvý	NUM	NAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nummod	_	_
+2	prvom	prvý	ADJ	NAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 3	rade	rad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
 4	vraj	vraj	PART	T	_	5	advmod	_	_
 5	došlo	dôjsť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
@@ -303,7 +303,7 @@
 # sent_id = dev-s24
 # text = Prvou Kimovou zástavkou je centrum čínskeho biznisu - Šanghaj.
 # orig_file_sentence 001#24
-1	Prvou	prvý	NUM	NAfs7	Case=Ins|Gender=Fem|Number=Sing	3	nummod	_	_
+1	Prvou	prvý	ADJ	NAfs7	Case=Ins|Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
 2	Kimovou	kimov	ADJ	AFfs7x:r	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 3	zástavkou	zástavka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
 4	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
@@ -516,7 +516,7 @@
 3	mačka	mačka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 4	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	cop	_	_
 5	už	už	PART	T	_	6	advmod:emph	_	_
-6	druhý	druhý	NUM	NAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nummod	_	_
+6	druhý	druhý	ADJ	NAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
 7	deň	deň	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 8	veľmi	veľmi	ADV	Dx	Degree=Pos	9	advmod	_	_
 9	nepokojná	nepokojný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
@@ -1307,7 +1307,7 @@
 11	pravej	pravý	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
 12	viery	viera	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
 13	v	v	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
-14	jediného	jediný	NUM	NAms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	15	nummod	_	_
+14	jediného	jediný	ADJ	NAms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|NumType=Mult	15	amod	_	_
 15	Boha	boh	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	Z	_	3	punct	_	_
 
@@ -1437,7 +1437,7 @@
 5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
 6	trón	trón	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	_
 7	a	a	CCONJ	O	_	9	cc	_	_
-8	prvé	prvý	NUM	NAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nummod	_	_
+8	prvé	prvý	ADJ	NAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumType=Ord	9	amod	_	_
 9	pokusy	pokus	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
 10	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
 11	reformu	reforma	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_
@@ -1499,7 +1499,7 @@
 2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
 3	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
 4	vonkajšom	vonkajší	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
-5	prvom	prvý	NUM	NAns6	Case=Loc|Gender=Neut|Number=Sing	6	nummod	_	_
+5	prvom	prvý	ADJ	NAns6	Case=Loc|Gender=Neut|Number=Sing|NumType=Ord	6	amod	_	_
 6	nádvorí	nádvorie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
 7	paláca	palác	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 8	Topkapi	topkapi	PROPN	SUis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
@@ -1715,7 +1715,7 @@
 # sent_id = dev-s127
 # text = Prvé roky Mahmúdovho panovania plynuli v tieni spomienok na Selimov osud a v strachu z novej vlny násilia.
 # orig_file_sentence 002#27
-1	Prvé	prvý	NUM	NAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nummod	_	_
+1	Prvé	prvý	ADJ	NAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumType=Ord	2	amod	_	_
 2	roky	rok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 3	Mahmúdovho	mahmúdov	ADJ	AFns2x:r	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
 4	panovania	panovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
@@ -1873,7 +1873,7 @@
 # sent_id = dev-s136
 # text = Poslednou baštou balkánskeho feudálneho separatizmu bola doména Aliho Pašu z Janiny (1741 – 1822).
 # orig_file_sentence 002#36
-1	Poslednou	posledný	NUM	NAfs7	Case=Ins|Gender=Fem|Number=Sing	2	nummod	_	_
+1	Poslednou	posledný	ADJ	NAfs7	Case=Ins|Gender=Fem|Number=Sing|NumType=Ord	2	amod	_	_
 2	baštou	bašta	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
 3	balkánskeho	balkánsky	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 4	feudálneho	feudálny	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
@@ -2063,7 +2063,7 @@
 # text = Za prvého vládcu bol zvolený vzdelaný fanariot Alexandros Mavrokordatos (1791 – 1865).
 # orig_file_sentence 002#47
 1	Za	za	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
-2	prvého	prvý	NUM	NAms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	nummod	_	_
+2	prvého	prvý	ADJ	NAms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 3	vládcu	vládca	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
 4	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	5	cop	_	_
 5	zvolený	zvolený	VERB	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -2694,7 +2694,7 @@
 2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
 3	preto	preto	PRON	PD	PronType=Prs	1	obl	_	_
 4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
-5	posledné	posledný	NUM	NAns4	Case=Acc|Gender=Neut|Number=Sing	8	nummod	_	_
+5	posledné	posledný	ADJ	NAns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Ord	8	amod	_	_
 6	veľké	veľký	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
 7	vojenské	vojenský	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
 8	ťaženie	ťaženie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	SpaceAfter=No
@@ -2759,7 +2759,7 @@
 # text = Nasledovalo druhé sýrske ťaženie Ibrahíma Pašu.
 # orig_file_sentence 002#92
 1	Nasledovalo	nasledovať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
-2	druhé	druhý	NUM	NAns1	Case=Nom|Gender=Neut|Number=Sing	4	nummod	_	_
+2	druhé	druhý	ADJ	NAns1	Case=Nom|Gender=Neut|Number=Sing|NumType=Ord	4	amod	_	_
 3	sýrske	sýrsky	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
 4	ťaženie	ťaženie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
 5	Ibrahíma	ibrahím	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
@@ -3330,7 +3330,7 @@
 # sent_id = dev-s232
 # text = Prvá úspešná sériová výroba začala v roku 1955.
 # orig_file_sentence 003#32
-1	Prvá	prvý	NUM	NAfs1	Case=Nom|Gender=Fem|Number=Sing	4	nummod	_	_
+1	Prvá	prvý	ADJ	NAfs1	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
 2	úspešná	úspešný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 3	sériová	sériový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 4	výroba	výroba	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -3666,7 +3666,7 @@
 # text = V dvadsiatych rokoch bol usilovným študentom bratislavského gymnázia.
 # orig_file_sentence 003#58
 1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
-2	dvadsiatych	dvadsiaty	NUM	NAip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	nummod	_	_
+2	dvadsiatych	dvadsiaty	ADJ	NAip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|NumType=Ord	3	amod	_	_
 3	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obl	_	_
 4	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	6	cop	_	_
 5	usilovným	usilovný	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
@@ -3723,7 +3723,7 @@
 13	1971	1971	NUM	0	NumForm=Digit	12	nummod	_	_
 14	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	17	cop	_	_
 15	jej	jej	PRON	PUms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|PronType=Prs	17	nmod	_	_
-16	prvým	prvý	NUM	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	nummod	_	_
+16	prvým	prvý	ADJ	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|NumType=Ord	17	amod	_	_
 17	tajomníkom	tajomník	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
 18	,	,	PUNCT	Z	_	19	punct	_	_
 19	potom	potom	ADV	Dx	Degree=Pos	17	conj	_	_
@@ -3917,7 +3917,7 @@
 6	.	.	PUNCT	Z	_	5	punct	_	_
 7	a	a	CCONJ	O	_	13	cc	_	_
 8	jeho	jeho	PRON	PUfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Prs	10	nmod	_	_
-9	druhej	druhý	NUM	NAfs2	Case=Gen|Gender=Fem|Number=Sing	10	nummod	_	_
+9	druhej	druhý	ADJ	NAfs2	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
 10	manželky	manželka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
 11	uhorskej	uhorský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
 12	princeznej	princezná	NOUN	SFfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
@@ -4663,7 +4663,7 @@
 9	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
 10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
 11	tak	tak	PRON	PD	PronType=Prs	9	obl	_	_
-12	prvým	prvý	NUM	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	nummod	_	_
+12	prvým	prvý	ADJ	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|NumType=Ord	14	amod	_	_
 13	rímskym	rímsky	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
 14	imperátorom	imperátor	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
 15	,	,	PUNCT	Z	_	17	punct	_	_
@@ -4730,7 +4730,7 @@
 10	povýšil	povýšiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
 11	kresťanstvo	kresťanstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
 12	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
-13	jediné	jediný	NUM	NAns4	Case=Acc|Gender=Neut|Number=Sing	16	nummod	_	_
+13	jediné	jediný	ADJ	NAns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Mult	16	amod	_	_
 14	oficiálne	oficiálne	ADV	Dx	Degree=Pos	15	advmod	_	_
 15	uznávané	uznávaný	VERB	Gtns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	16	acl	_	_
 16	náboženstvo	náboženstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
@@ -4812,7 +4812,7 @@
 5	všetko	všetok	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs	6	nmod	_	_
 6	poznanie	poznanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
 7	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
-8	jediného	jediný	NUM	NAns2	Case=Gen|Gender=Neut|Number=Sing	9	nummod	_	_
+8	jediného	jediný	ADJ	NAns2	Case=Gen|Gender=Neut|Number=Sing|NumType=Mult	9	amod	_	_
 9	diela	dielo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
 10	,	,	PUNCT	Z	_	11	punct	_	_
 11	vytvoriť	vytvoriť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	conj	_	_
@@ -4820,7 +4820,7 @@
 13	„	„	PUNCT	Z	_	14	punct	_	SpaceAfter=No
 14	knižnicu	knižnica	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
 15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
-16	jedinej	jediný	NUM	NAfs6	Case=Loc|Gender=Fem|Number=Sing	17	nummod	_	_
+16	jedinej	jediný	ADJ	NAfs6	Case=Loc|Gender=Fem|Number=Sing|NumType=Mult	17	amod	_	_
 17	knihe	kniha	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 18	“	“	PUNCT	Z	_	14	punct	_	SpaceAfter=No
 19	.	.	PUNCT	Z	_	1	punct	_	_
@@ -5060,7 +5060,7 @@
 4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
 5	skončila	skončiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
-7	štvrtom	štvrtý	NUM	NAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nummod	_	_
+7	štvrtom	štvrtý	ADJ	NAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
 8	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
 9	jeho	jeho	PRON	PUfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Prs	10	nmod	_	_
 10	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
@@ -5687,7 +5687,7 @@
 15	Álp	alpy	PROPN	SSfp2:r	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
 16	a	a	CCONJ	O	_	24	cc	_	_
 17	začiatkom	začiatkom	ADP	Eu2	AdpType=Prep|Case=Gen	19	case	_	_
-18	tridsiatych	tridsiaty	NUM	NAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nummod	_	_
+18	tridsiatych	tridsiaty	ADJ	NAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Ord	19	amod	_	_
 19	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	obl	_	_
 20	16	16	NUM	0	NumForm=Digit	22	nummod	_	SpaceAfter=No
 21	.	.	PUNCT	Z	_	20	punct	_	_
@@ -5862,7 +5862,7 @@
 11	opustiť	opustiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	7	xcomp	_	_
 12	Rím	rím	PROPN	SSis4:r	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
 13	a	a	CCONJ	O	_	19	cc	_	_
-14	posledné	posledný	NUM	NAip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	nummod	_	_
+14	posledné	posledný	ADJ	NAip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumType=Ord	16	amod	_	_
 15	dva	dva	NUM	NNip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	nummod	_	_
 16	roky	rok	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	19	obl	_	_
 17	svojho	svoj	PRON	PFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Prs	18	nmod	_	_
@@ -5919,7 +5919,7 @@
 # text = Svoje prvé básne publikoval v časopisoch, napríklad v Sešitech alebo Mladé tvorbě.
 # orig_file_sentence 005#18
 1	Svoje	svoj	PRON	PFfp4	Case=Acc|Gender=Fem|Number=Plur|PronType=Prs	3	nmod	_	_
-2	prvé	prvý	NUM	NAfp4	Case=Acc|Gender=Fem|Number=Plur	3	nummod	_	_
+2	prvé	prvý	ADJ	NAfp4	Case=Acc|Gender=Fem|Number=Plur|NumType=Ord	3	amod	_	_
 3	básne	báseň	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
 4	publikoval	publikovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
@@ -6003,7 +6003,7 @@
 # sent_id = dev-s424
 # text = Tretia ríša
 # orig_file_sentence 005#24
-1	Tretia	tretí	NUM	NAfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nummod	_	_
+1	Tretia	tretí	ADJ	NAfs1:r	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	2	amod	_	_
 2	ríša	ríša	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 
 # sent_id = dev-s425
@@ -6366,7 +6366,7 @@
 # text = Počas prvej svetovej vojny bol v rokoch 1915 až 1917 nasadený na Východný front v Haliči.
 # orig_file_sentence 005#46
 1	Počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
-2	prvej	prvý	NUM	NAfs2	Case=Gen|Gender=Fem|Number=Sing	4	nummod	_	_
+2	prvej	prvý	ADJ	NAfs2	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
 3	svetovej	svetový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 4	vojny	vojna	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
 5	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	11	cop	_	_
@@ -6756,7 +6756,7 @@
 21	synov	syn	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
 22	oslepili	oslepiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
 23	a	a	CCONJ	O	_	28	cc	_	_
-24	tretieho	tretí	NUM	NAms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	28	obj	_	SpaceAfter=No
+24	tretieho	tretí	ADJ	NAms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	28	obj	_	SpaceAfter=No
 25	,	,	PUNCT	Z	_	26	punct	_	_
 26	Hormizda	hormizd	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	24	appos	_	SpaceAfter=No
 27	,	,	PUNCT	Z	_	26	punct	_	_
@@ -7146,7 +7146,7 @@
 4	života	život	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 5	ostala	ostať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 6	jeho	jeho	PRON	PUfs7	Case=Ins|Gender=Fem|Number=Sing|PronType=Prs	8	nmod	_	_
-7	jedinou	jediný	NUM	NAfs7	Case=Ins|Gender=Fem|Number=Sing	8	nummod	_	_
+7	jedinou	jediný	ADJ	NAfs7	Case=Ins|Gender=Fem|Number=Sing|NumType=Mult	8	amod	_	_
 8	láskou	láska	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
 9	.	.	PUNCT	Z	_	5	punct	_	_
 
@@ -7155,7 +7155,7 @@
 # orig_file_sentence 005#91
 1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
 2	začiatku	začiatok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
-3	Prvej	prvý	NUM	NAfs2:r	Case=Gen|Gender=Fem|Number=Sing	5	nummod	_	_
+3	Prvej	prvý	ADJ	NAfs2:r	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
 4	svetovej	svetový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	vojny	vojna	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 6	narukoval	narukovať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
@@ -7917,7 +7917,7 @@
 7	II	ii	NUM	0	NumForm=Digit	6	nummod	_	SpaceAfter=No
 8	.	.	PUNCT	Z	_	7	punct	_	_
 9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
-10	šesťdesiatych	šesťdesiaty	NUM	NAip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	nummod	_	_
+10	šesťdesiatych	šesťdesiaty	ADJ	NAip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|NumType=Ord	11	amod	_	_
 11	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
 12	4	4	NUM	0	NumForm=Digit	14	nummod	_	SpaceAfter=No
 13	.	.	PUNCT	Z	_	12	punct	_	_
@@ -8308,7 +8308,7 @@
 # sent_id = dev-s556
 # text = Prvý diel románu nám predstavuje hlavnú postavu knihy, Ulricha.
 # orig_file_sentence 006#56
-1	Prvý	prvý	NUM	NAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nummod	_	_
+1	Prvý	prvý	ADJ	NAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
 2	diel	diel	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	románu	román	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	nám	my	PRON	PPhp3	Case=Dat|Number=Plur|PronType=Prs	5	iobj	_	_
@@ -8910,7 +8910,7 @@
 7	Snyder	snyder	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 8	ukončil	ukončiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 9	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
-10	jedinom	jediný	NUM	NAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nummod	_	_
+10	jedinom	jediný	ADJ	NAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|NumType=Mult	11	amod	_	_
 11	semestri	semester	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
 12	a	a	CCONJ	O	_	13	cc	_	_
 13	vrátil	vrátiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	8	conj	_	_
@@ -9047,7 +9047,7 @@
 13	ktorej	ktorý	PRON	PAfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Prs	14	obl	_	_
 14	zhŕňa	zhŕňať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	acl	_	_
 15	tvorbu	tvorba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
-16	posledných	posledný	NUM	NAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nummod	_	_
+16	posledných	posledný	ADJ	NAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Ord	18	amod	_	_
 17	dvadsiatich	dvadsať	NUM	NUip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nummod	_	_
 18	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	Z	_	4	punct	_	_
@@ -9074,7 +9074,7 @@
 17	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	18	expl:pv	_	_
 18	narodil	narodiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	14	acl	_	_
 19	ich	ich	PRON	PUms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	21	nmod	_	_
-20	prvý	prvý	NUM	NAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nummod	_	_
+20	prvý	prvý	ADJ	NAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	21	amod	_	_
 21	syn	syn	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No
 22	.	.	PUNCT	Z	_	11	punct	_	_
 
@@ -9315,7 +9315,7 @@
 # text = V sedemdesiatych rokoch sa stretol s mnohými ďalšími vodcami organizácií spochybňujúcimi holokaust.
 # orig_file_sentence 007#21
 1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
-2	sedemdesiatych	sedemdesiaty	NUM	NAip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	nummod	_	_
+2	sedemdesiatych	sedemdesiaty	ADJ	NAip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|NumType=Ord	3	amod	_	_
 3	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
 4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
 5	stretol	stretnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
@@ -9338,8 +9338,8 @@
 5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
 6	Zündel	zündel	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 7	po	po	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
-8	druhý	druhý	NUM	NAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	nummod	_	_
-9	raz	raz	NUM	NSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+8	druhý	druhý	ADJ	NAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	9	amod	_	_
+9	raz	raz	ADV	NSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Mult	10	obl	_	_
 10	pokúšal	pokúšať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 11	získať	získať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	10	xcomp	_	_
 12	kanadské	kanadský	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
@@ -9448,7 +9448,7 @@
 2	tohto	toto	PRON	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Prs	3	nmod	_	_
 3	obdobia	obdobie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
 4	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	prvý	prvý	NUM	NAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nummod	_	_
+5	prvý	prvý	ADJ	NAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
 6	monoskop	monoskop	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
 8	nápisom	nápis	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	_
@@ -9876,7 +9876,7 @@
 2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
 3	tak	tak	PRON	PD	PronType=Prs	1	obl	_	_
 4	vôbec	vôbec	PART	T	_	5	advmod:emph	_	_
-5	prvým	prvý	NUM	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	nummod	_	_
+5	prvým	prvý	ADJ	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
 6	japonským	japonský	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 7	vládcom	vládca	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
 8	,	,	PUNCT	Z	_	11	punct	_	_
@@ -10191,7 +10191,7 @@
 # sent_id = dev-s676
 # text = Prvýkrát boli Nobelove ceny udeľované v roku 1901, ceremoniál sa uskutočnil v Štokholme.
 # orig_file_sentence 007#76
-1	Prvýkrát	prvýkrát	NUM	ND	_	5	obl	_	_
+1	Prvýkrát	prvýkrát	ADV	ND	NumType=Mult	5	obl	_	_
 2	boli	byť	AUX	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	5	aux:pass	_	_
 3	Nobelove	nobelov	ADJ	AFfp1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
 4	ceny	cena	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	_
@@ -10861,7 +10861,7 @@
 # text = Od deväťdesiatych rokov sa angažoval v kalifornskom Institute for Historical Review.
 # orig_file_sentence 008#15
 1	Od	od	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
-2	deväťdesiatych	deväťdesiaty	NUM	NAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nummod	_	_
+2	deväťdesiatych	deväťdesiaty	ADJ	NAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Ord	3	amod	_	_
 3	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
 4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
 5	angažoval	angažovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
@@ -10883,12 +10883,12 @@
 # text = Koncom osemdesiatych rokov a na začiatku deväťdesiatych rokov zastával názor, že v Osvienčime neexistovali plynové komory.
 # orig_file_sentence 008#17
 1	Koncom	koncom	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
-2	osemdesiatych	osemdesiaty	NUM	NAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nummod	_	_
+2	osemdesiatych	osemdesiaty	ADJ	NAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Ord	3	amod	_	_
 3	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
 4	a	a	CCONJ	O	_	6	cc	_	_
 5	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
 6	začiatku	začiatok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	conj	_	_
-7	deväťdesiatych	deväťdesiaty	NUM	NAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nummod	_	_
+7	deväťdesiatych	deväťdesiaty	ADJ	NAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Ord	8	amod	_	_
 8	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
 9	zastával	zastávať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 10	názor	názor	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
@@ -11048,7 +11048,7 @@
 # sent_id = dev-s729
 # text = Druhá tetrarchia a občianska vojna
 # orig_file_sentence 008#29
-1	Druhá	druhý	NUM	NAfs1	Case=Nom|Gender=Fem|Number=Sing	2	nummod	_	_
+1	Druhá	druhý	ADJ	NAfs1	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	2	amod	_	_
 2	tetrarchia	tetrarchia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 3	a	a	CCONJ	O	_	5	cc	_	_
 4	občianska	občiansky	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
@@ -11187,7 +11187,7 @@
 5	a	a	CCONJ	O	_	6	cc	_	_
 6	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
 7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
-8	jediným	jediný	NUM	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	nummod	_	_
+8	jediným	jediný	ADJ	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|NumType=Mult	9	amod	_	_
 9	vladárom	vladár	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obj	_	_
 10	Východu	východ	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	Z	_	4	punct	_	_
@@ -12540,7 +12540,7 @@
 3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
 4	tzv	tzv	X	W	Abbr=Yes	7	nmod	_	SpaceAfter=No
 5	.	.	PUNCT	Z	_	4	punct	_	_
-6	druhom	druhý	NUM	NAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nummod	_	_
+6	druhom	druhý	ADJ	NAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
 7	protokole	protokol	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
 8	vyjadril	vyjadriť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
@@ -12750,7 +12750,7 @@
 3	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
 4	Eagla	eagle	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
 5	ako	ako	CCONJ	O	_	6	mark	_	_
-6	prvý	prvý	NUM	NAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	xcomp	_	SpaceAfter=No
+6	prvý	prvý	ADJ	NAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	1	xcomp	_	SpaceAfter=No
 7	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = dev-s829
@@ -12851,7 +12851,7 @@
 # sent_id = dev-s836
 # text = Prvý preklad bol grécky.
 # orig_file_sentence 009#36
-1	Prvý	prvý	NUM	NAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nummod	_	_
+1	Prvý	prvý	ADJ	NAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
 2	preklad	preklad	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	cop	_	_
 4	grécky	grécky	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -13612,7 +13612,7 @@
 # orig_file_sentence 009#85
 1	Pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
 2	príležitosti	príležitosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
-3	tristého	tristý	NUM	NAns2	Case=Gen|Gender=Neut|Number=Sing	4	nummod	_	_
+3	tristého	tristý	ADJ	NAns2	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord	4	amod	_	_
 4	výročia	výročie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
 5	jeho	jeho	PRON	PUns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Prs	6	nmod	_	_
 6	narodenia	narodenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
@@ -14144,7 +14144,7 @@
 # text = Počas prvého volebného obdobia dosiahol v Kongrese schválenie zníženia troch hlavných daní.
 # orig_file_sentence 010#18
 1	Počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
-2	prvého	prvý	NUM	NAns2	Case=Gen|Gender=Neut|Number=Sing	4	nummod	_	_
+2	prvého	prvý	ADJ	NAns2	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord	4	amod	_	_
 3	volebného	volebný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
 4	obdobia	obdobie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
 5	dosiahol	dosiahnuť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
@@ -14209,7 +14209,7 @@
 1	Zatiaľ	zatiaľ	CCONJ	O	_	9	mark	_	_
 2	čo	čo	CCONJ	O	_	1	fixed	_	_
 3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
-4	poslednom	posledný	NUM	NAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nummod	_	_
+4	poslednom	posledný	ADJ	NAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
 5	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
 6	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
 7	Billa	bill	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
@@ -14401,7 +14401,7 @@
 6	negatívom	negatívum	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	0	root	_	_
 7	amerického	americký	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
 8	hospodárstva	hospodárstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
-9	dvojitý	dvojitý	NUM	NAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nummod	_	_
+9	dvojitý	dvojitý	ADJ	NAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|NumType=Mult	10	amod	_	_
 10	deficit	deficit	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
 11	.	.	PUNCT	Z	_	6	punct	_	_
 
@@ -14416,7 +14416,7 @@
 # orig_file_sentence 010#31
 1	Jedným	jeden	NUM	NFns7	Case=Ins|Gender=Neut|Number=Sing	0	root	_	_
 2	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
-3	prvých	prvý	NUM	NAnp2	Case=Gen|Gender=Neut|Number=Plur	4	nummod	_	_
+3	prvých	prvý	ADJ	NAnp2	Case=Gen|Gender=Neut|Number=Plur|NumType=Ord	4	amod	_	_
 4	rozhodnutí	rozhodnutie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
 5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
 6	tejto	táto	PRON	PFfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Prs	7	nmod	_	_
@@ -14477,7 +14477,7 @@
 3	naznačujú	naznačovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Z	_	10	punct	_	_
 5	že	že	CCONJ	O	_	10	mark	_	_
-6	mnohí	mnohý	NUM	NAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nummod	_	_
+6	mnohí	mnohý	ADJ	NAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|NumType=Mult	7	amod	_	_
 7	členovia	člen	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
 8	Bushovej	bushov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 9	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
@@ -14511,13 +14511,13 @@
 5	dvoch	dva	NUM	NNfp6	Case=Loc|Gender=Fem|Number=Plur	6	nummod	_	_
 6	fázach	fáza	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
 7	,	,	PUNCT	Z	_	9	punct	_	_
-8	prvá	prvý	NUM	NAfs1	Case=Nom|Gender=Fem|Number=Sing	9	dep	_	_
+8	prvá	prvý	ADJ	NAfs1	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	9	dep	_	_
 9	končí	končiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
 10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
 11	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
 12	2010	2010	NUM	0	NumForm=Digit	11	nummod	_	_
 13	a	a	CCONJ	O	_	14	cc	_	_
-14	druhá	druhý	NUM	NAfs1	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	_
+14	druhá	druhý	ADJ	NAfs1	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	9	conj	_	_
 15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
 16	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	orphan	_	_
 17	2018	2018	NUM	0	NumForm=Digit	16	nummod	_	SpaceAfter=No
@@ -14662,7 +14662,7 @@
 # orig_file_sentence 010#43
 1	Počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
 2	Bushovho	bushov	ADJ	AFns2x:r	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
-3	prvého	prvý	NUM	NAns2	Case=Gen|Gender=Neut|Number=Sing	5	nummod	_	_
+3	prvého	prvý	ADJ	NAns2	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord	5	amod	_	_
 4	volebného	volebný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
 5	obdobia	obdobie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	14	obl	_	_
 6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pv	_	_
@@ -14674,7 +14674,7 @@
 12	.	.	PUNCT	Z	_	11	punct	_	_
 13	Guest	guest	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
 14	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
-15	prvým	prvý	NUM	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	nummod	_	_
+15	prvým	prvý	ADJ	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|NumType=Ord	18	amod	_	_
 16	otvorene	otvorene	ADV	Dx	Degree=Pos	17	advmod	_	_
 17	homosexuálnym	homosexuálny	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
 18	politikom	politik	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
@@ -14685,7 +14685,7 @@
 23	veľvyslanca	veľvyslanec	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
 24	USA	usa	X	W	Abbr=Yes	23	nmod	_	_
 25	(	(	PUNCT	Z	_	33	punct	_	SpaceAfter=No
-26	prvému	prvý	NUM	NAms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	29	nummod	_	_
+26	prvému	prvý	ADJ	NAms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	29	amod	_	_
 27	otvorene	otvorene	ADV	Dx	Degree=Pos	28	advmod	_	_
 28	homosexuálnemu	homosexuálny	ADJ	AAms3x	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
 29	veľvyslancovi	veľvyslanec	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	31	nmod	_	_
@@ -15745,7 +15745,7 @@
 # sent_id = dev-s1003
 # text = Prvá návšteva Európy sa uskutočnila v júni 2001.
 # orig_file_sentence 011#3
-1	Prvá	prvý	NUM	NAfs1	Case=Nom|Gender=Fem|Number=Sing	2	nummod	_	_
+1	Prvá	prvý	ADJ	NAfs1	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	2	amod	_	_
 2	návšteva	návšteva	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 3	Európy	európa	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
@@ -15900,7 +15900,7 @@
 # sent_id = dev-s1013
 # text = Poslednému republikánskemu kandidátovi sa to podarilo v roku 1900.
 # orig_file_sentence 011#13
-1	Poslednému	posledný	NUM	NAms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	nummod	_	_
+1	Poslednému	posledný	ADJ	NAms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 2	republikánskemu	republikánsky	ADJ	AAms3x	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 3	kandidátovi	kandidát	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	6	obj	_	_
 4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
@@ -16019,7 +16019,7 @@
 10	tomu	to	PRON	PFns3	Case=Dat|Gender=Neut|Number=Sing|PronType=Prs	7	obl	_	SpaceAfter=No
 11	,	,	PUNCT	Z	_	21	punct	_	_
 12	že	že	CCONJ	O	_	21	mark	_	_
-13	ostatné	ostatný	NUM	NAfp1	Case=Nom|Gender=Fem|Number=Plur	14	nummod	_	_
+13	ostatné	ostatný	ADJ	NAfp1	Case=Nom|Gender=Fem|Number=Plur|NumType=Mult	14	amod	_	_
 14	krajiny	krajina	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	21	nsubj	_	_
 15	G8	g8	X	W	Abbr=Yes	14	nmod	_	_
 16	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	21	expl:pv	_	_
@@ -16353,7 +16353,7 @@
 12	Norman	norman	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
 13	Mineta	mineta	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
 14	,	,	PUNCT	Z	_	16	punct	_	_
-15	prvý	prvý	NUM	NAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nummod	_	_
+15	prvý	prvý	ADJ	NAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	16	amod	_	_
 16	minister	minister	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
 17	ázijského	ázijský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
 18	pôvodu	pôvod	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
@@ -16438,7 +16438,7 @@
 7	Osobnosť	osobnosť	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	3	iobj	_	_
 8	roka	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
 9	“	“	PUNCT	Z	_	7	punct	_	_
-10	dvakrát	dvakrát	NUM	ND	_	3	obl	_	SpaceAfter=No
+10	dvakrát	dvakrát	ADV	ND	NumType=Mult	3	obl	_	SpaceAfter=No
 11	:	:	PUNCT	Z	_	13	punct	_	_
 12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
 13	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	appos	_	_
