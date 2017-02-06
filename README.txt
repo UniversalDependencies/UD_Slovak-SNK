@@ -45,4 +45,5 @@ Changelog:
   * Verb negation no longer treated as derivational morphology.
   * Distinguished numeral types.
   * Distinguished pronouns, determiners and pronominal adverbs.
+  * Distinguished coordinating and subordinating conjunctions.
 

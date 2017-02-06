@@ -11,12 +11,12 @@
   <forms unique="25906" /><!-- ., ,, a, sa, “, na, v, som, to, je, že, do, s, z, o -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
-  <tags unique="16">
+  <tags unique="17">
     <tag name="ADJ">8278</tag><!-- veľký, prvý, celý, nový, ďalší, druhý, dobrý, starý, posledný, slovenský -->
     <tag name="ADP">8558</tag><!-- v, na, s, z, do, o, k, po, za, od -->
     <tag name="ADV">4393</tag><!-- veľmi, potom, tu, tam, kde, tak, opäť, vtedy, nikdy, teraz -->
     <tag name="AUX">3712</tag><!-- byť, by, sa, sto, bývať, mať, stať -->
-    <tag name="CCONJ">5262</tag><!-- a, že, keď, ako, ale, aby, aj, alebo, i, ak -->
+    <tag name="CCONJ">3374</tag><!-- a, ale, aj, alebo, i, ani, či, však, lebo, no -->
     <tag name="DET">4407</tag><!-- to, ktorý, jeho, svoj, ten, všetok, môj, jej, táto, tento -->
     <tag name="INTJ">66</tag><!-- mhm, haló, pozor, bum, aha, amen, klap, ach, pche, preboha -->
     <tag name="NOUN">21661</tag><!-- rok, vláda, deň, človek, chvíľa, oko, ruka, mama, tvár, život -->
@@ -25,6 +25,7 @@
     <tag name="PRON">6450</tag><!-- sa, ja, on, ona, si, čo, ty, my, niečo, nič -->
     <tag name="PROPN">4568</tag><!-- maja, chris, winston, aladin, vilko, Mauglí, jazmína, lori, bush, marga -->
     <tag name="PUNCT">19130</tag><!-- ., ,, “, !, ?, ", ), (, :, „ -->
+    <tag name="SCONJ">1888</tag><!-- že, keď, ako, aby, ak, kým, keby, akoby, čo, pretože -->
     <tag name="SYM">22</tag><!-- %, +, = -->
     <tag name="VERB">15261</tag><!-- mať, byť, povedať, môcť, chcieť, ísť, vedieť, musieť, prísť, stať -->
     <tag name="X">774</tag><!-- j, o, tzv, sv, sr, usa, a, eú, c, p -->
@@ -57,7 +58,7 @@
     <feat name="Gender[psor]" value="Fem" upos="DET">155</feat><!-- jej -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET">325</feat><!-- jeho, ich, jej -->
     <feat name="Hyph" value="Yes" upos="X">124</feat><!-- O, po, česko, San, rostovsko, v, KLIP, El, a, al -->
-    <feat name="Mood" value="Cnd" upos="AUX,CCONJ,PART">460</feat><!-- aby, by, akoby, keby, Niežeby -->
+    <feat name="Mood" value="Cnd" upos="AUX,PART,SCONJ">460</feat><!-- aby, by, akoby, keby, Niežeby -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">277</feat><!-- pozri, poď, počkajte, počkaj, Prestaň, daj, nerob, pustite, čujte, Dotkni -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">5930</feat><!-- som, je, sme, sú, bude, si, má, ste, ide, môže -->
     <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">12637</feat><!-- sme, sú, ich, boli, ktoré, jeho, nás, nich, oči, ste -->
@@ -97,14 +98,14 @@
   <deps unique="39">
     <dep name="acl">1767</dep>
     <dep name="advcl">840</dep>
-    <dep name="advmod">4948</dep>
+    <dep name="advmod">4899</dep>
     <dep name="advmod:emph">940</dep>
     <dep name="amod">7237</dep>
     <dep name="appos">295</dep>
     <dep name="aux">2038</dep>
     <dep name="aux:pass">102</dep>
     <dep name="case">8555</dep>
-    <dep name="cc">3258</dep>
+    <dep name="cc">3307</dep>
     <dep name="ccomp">1264</dep>
     <dep name="compound">5</dep>
     <dep name="conj">4053</dep>
