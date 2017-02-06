@@ -41,3 +41,5 @@ Changelog:
 
 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
+  * Improved advmod vs. obl distinction.
+
