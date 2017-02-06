@@ -46,4 +46,5 @@ Changelog:
   * Distinguished numeral types.
   * Distinguished pronouns, determiners and pronominal adverbs.
   * Distinguished coordinating and subordinating conjunctions.
+  * L-participles are verbs, other participles are adjectives.
 
