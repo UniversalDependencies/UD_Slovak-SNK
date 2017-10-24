@@ -52,7 +52,7 @@
 2	elektrárne	elektráreň	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 3	počítali	počítať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 4	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	5	case	_	_
-5	tým	to	DET	PFns7	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	SpaceAfter=No
+5	tým	to	DET	PFns7	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	3	obl:arg	_	SpaceAfter=No
 6	,	,	PUNCT	Z	_	12	punct	_	_
 7	že	že	SCONJ	O	_	12	mark	_	_
 8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
@@ -308,7 +308,7 @@
 4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
 5	podieľali	podieľať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	1	acl	_	_
 6	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
-7	obnove	obnova	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	obj	_	_
+7	obnove	obnova	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	obl:arg	_	_
 8	a	a	CCONJ	O	_	9	cc	_	_
 9	vyčistení	vyčistenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	7	conj	_	_
 10	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
@@ -330,7 +330,7 @@
 5	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	8	case	_	_
 6	zaznamenaného	zaznamenaný	ADJ	Gtis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
 7	výrazného	výrazný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
-8	nárastu	nárast	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obj	_	_
+8	nárastu	nárast	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl:arg	_	_
 9	rakoviny	rakovina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
 10	štítnej	štítny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
 11	žľazy	žľaza	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
@@ -488,7 +488,7 @@
 5	,	,	PUNCT	Z	_	6	punct	_	_
 6	reagujúce	reagujúci	ADJ	Gkfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	1	amod	_	_
 7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
-8	haváriu	havária	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	haváriu	havária	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obl:arg	_	_
 9	(	(	PUNCT	Z	_	10	punct	_	SpaceAfter=No
 10	úpravy	úprava	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	1	appos	_	_
 11	prostredia	prostredie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
@@ -683,7 +683,7 @@
 5	prispieva	prispievať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	8	case	_	_
 7	ďalšej	ďalší	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
-8	erózii	erózia	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	5	obj	_	_
+8	erózii	erózia	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	5	obl:arg	_	_
 9	jeho	jeho	DET	PUfs2	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Poss=Yes|PronType=Prs	11	det	_	_
 10	oceľovej	oceľový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
 11	konštrukcie	konštrukcia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
@@ -777,7 +777,7 @@
 3	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	4	obj	_	_
 4	nepovažoval	považovať	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
 5	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
-6	fyzikálny	fyzikálny	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	iobj	_	SpaceAfter=No
+6	fyzikálny	fyzikálny	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	obl:arg	_	SpaceAfter=No
 7	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = test-s49
@@ -908,7 +908,7 @@
 7	všeobecno	všeobecno	X	Q	Hyph=Yes	10	nmod	_	_
 8	‐	‐	PUNCT	Z	_	9	punct	_	_
 9	relativitistickej	relativitistický	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	conj	_	_
-10	predstavy	predstava	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obj	_	_
+10	predstavy	predstava	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl:arg	_	_
 11	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
 12	zakrivení	zakrivenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	_
 13	časopriestoru	časopriestor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
@@ -918,7 +918,7 @@
 17	vlastnosti	vlastnosť	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	_
 18	závisia	závisieť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
 19	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
-20	zakrivenia	zakrivenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	18	obj	_	_
+20	zakrivenia	zakrivenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	18	obl:arg	_	_
 21	geometrie	geometria	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
 22	vesmíru	vesmír	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
 23	okolo	okolo	ADP	Eu2	AdpType=Prep|Case=Gen	24	case	_	_
@@ -1056,7 +1056,7 @@
 10	,	,	PUNCT	Z	_	8	punct	_	_
 11	závisí	závisieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
-13	veľkosti	veľkosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	obj	_	_
+13	veľkosti	veľkosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	obl:arg	_	_
 14	čiernej	čierny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
 15	diery	diera	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	Z	_	11	punct	_	_
@@ -1249,7 +1249,7 @@
 18	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	21	case	_	_
 19	ich	ich	DET	PUfs4	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Poss=Yes|PronType=Prs	21	det	_	_
 20	fundamentálnu	fundamentálny	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
-21	odlišnosť	odlišnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+21	odlišnosť	odlišnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	17	obl:arg	_	_
 22	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	23	case	_	_
 23	galaxií	galaxia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	Z	_	2	punct	_	_
@@ -1426,7 +1426,7 @@
 3	zmietala	zmietať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 4	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	6	case	_	_
 5	vnútorných	vnútorný	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
-6	problémoch	problém	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	problémoch	problém	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl:arg	_	SpaceAfter=No
 7	,	,	PUNCT	Z	_	10	punct	_	_
 8	ktoré	ktorý	DET	PAip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Int,Rel	10	obj	_	_
 9	ešte	ešte	PART	T	_	10	advmod:emph	_	_
@@ -1466,7 +1466,7 @@
 17	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	18	obj	_	_
 18	korunovali	korunovať	VERB	VLjpcm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
 19	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	20	case	_	_
-20	cisára	cisár	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	18	iobj	_	SpaceAfter=No
+20	cisára	cisár	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	18	obl:arg	_	SpaceAfter=No
 21	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = test-s92
@@ -1531,7 +1531,7 @@
 3	aj	aj	PART	T	_	6	advmod:emph	_	_
 4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
 5	egejské	egejský	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
-6	ostrovy	ostrov	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+6	ostrovy	ostrov	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obl:arg	_	_
 7	a	a	CCONJ	O	_	9	cc	_	_
 8	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
 9	Krétu	kréta	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
@@ -1658,7 +1658,7 @@
 14	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
 15	pripravovať	pripravovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	13	xcomp	_	_
 16	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
-17	vojnu	vojna	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+17	vojnu	vojna	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	15	obl:arg	_	SpaceAfter=No
 18	,	,	PUNCT	Z	_	21	punct	_	_
 19	ktorú	ktorý	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	23	obj	_	_
 20	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	21	expl:pv	_	_
@@ -2092,7 +2092,7 @@
 2	debatujú	debatovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	nad	nad	ADP	Eu7	AdpType=Prep|Case=Ins	5	case	_	_
 4	jeho	jeho	DET	PUis7	Animacy=Inan|Case=Ins|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Poss=Yes|PronType=Prs	5	det	_	_
-5	účelom	účel	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	účelom	účel	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl:arg	_	SpaceAfter=No
 6	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = test-s134
@@ -2303,7 +2303,7 @@
 13	zabrániť	zabrániť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	5	conj	_	_
 14	je	ona	PRON	PFfs3:q	Case=Dat|Gender=Fem|Number=Sing|PronType=Prs|Typo=Yes	13	obj	_	_
 15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
-16	návrate	návrat	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obj	_	_
+16	návrate	návrat	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl:arg	_	_
 17	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	18	case	_	_
 18	povrch	povrch	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	_
 19	mora	more	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
@@ -2694,7 +2694,7 @@
 # text = Na loď zaútočil asi dvadsaťčlenné stádo.
 # orig_file_sentence 002#64
 1	Na	na	ADP	Eu4	AdpType=Prep|Case=Acc	2	case	_	_
-2	loď	loď	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+2	loď	loď	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obl:arg	_	_
 3	zaútočil	zaútočiť	VERB	VLdscn+:q	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Typo=Yes|VerbForm=Part	0	root	_	_
 4	asi	asi	PART	T	_	5	advmod:emph	_	_
 5	dvadsaťčlenné	dvadsaťčlenný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
@@ -2982,7 +2982,7 @@
 8	išlo	ísť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	5	acl	_	_
 9	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
 10	postupný	postupný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
-11	proces	proces	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+11	proces	proces	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl:arg	_	_
 12	alebo	alebo	CCONJ	O	_	15	cc	_	_
 13	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
 14	šťastnú	šťastný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
@@ -3003,7 +3003,7 @@
 9	Amerike	amerika	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
 10	dochádza	dochádzať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	csubj:pass	_	_
 11	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	12	case	_	_
-12	prenosu	prenos	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	obj	_	_
+12	prenosu	prenos	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	obl:arg	_	_
 13	génov	gén	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
 14	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	15	case	_	_
 15	populáciami	populácia	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	12	nmod	_	_
@@ -3046,7 +3046,7 @@
 7	jadre	jadro	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
 8	premení	premeniť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	v	v	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
-10	paru	para	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	paru	para	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obl:arg	_	_
 11	a	a	CCONJ	O	_	15	cc	_	_
 12	tá	tá	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	15	nsubj	_	_
 13	plášť	plášť	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
@@ -3177,7 +3177,7 @@
 17	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	20	case	_	_
 18	GM	gm	X	W	Abbr=Yes	20	nmod	_	_
 19	‐	‐	PUNCT	Z	_	18	punct	_	_
-20	odrody	odroda	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+20	odrody	odroda	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	16	obl:arg	_	SpaceAfter=No
 21	)	)	PUNCT	Z	_	12	punct	_	SpaceAfter=No
 22	.	.	PUNCT	Z	_	4	punct	_	_
 
@@ -3250,7 +3250,7 @@
 # orig_file_sentence 002#100
 1	Na	na	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
 2	ich	ich	DET	PUfs4	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Poss=Yes|PronType=Prs	3	det	_	_
-3	dôležitosť	dôležitosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+3	dôležitosť	dôležitosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obl:arg	_	_
 4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
 5	uvedenej	uvedený	ADJ	Gtfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
 6	kultúre	kultúra	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
@@ -3311,7 +3311,7 @@
 5	pohanskú	pohanský	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 6	a	a	CCONJ	O	_	7	cc	_	_
 7	nekresťanskú	nekresťanský	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	_
-8	plodinu	plodina	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+8	plodinu	plodina	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obl:arg	_	SpaceAfter=No
 9	,	,	PUNCT	Z	_	11	punct	_	_
 10	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
 11	plodinu	plodina	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	conj	_	_
@@ -3470,7 +3470,7 @@
 7	nich	on	PRON	PFip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|PronType=Prs	8	obl	_	_
 8	dochádza	dochádzať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	advcl	_	_
 9	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	10	case	_	_
-10	hydrolýze	hydrolýza	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	8	obj	_	_
+10	hydrolýze	hydrolýza	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	8	obl:arg	_	_
 11	škrobu	škrob	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
 12	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
 13	nízkomolekulárne	nízkomolekulárny	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
@@ -3632,7 +3632,7 @@
 # orig_file_sentence 003#27
 1	S	s	ADP	Eu7	AdpType=Prep|Case=Ins	3	case	_	_
 2	politickými	politický	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
-3	stranami	strana	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	7	obj	_	_
+3	stranami	strana	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	7	obl:arg	_	_
 4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
 5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
 6	minulosti	minulosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
@@ -3687,7 +3687,7 @@
 10	a	a	CCONJ	O	_	11	cc	_	_
 11	dovozu	dovoz	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
 12	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
-13	Nemecko	nemecko	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No
+13	Nemecko	nemecko	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	4	obl:arg	_	SpaceAfter=No
 14	,	,	PUNCT	Z	_	15	punct	_	_
 15	Francúzsko	francúzsko	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	13	conj	_	SpaceAfter=No
 16	,	,	PUNCT	Z	_	17	punct	_	_
@@ -3845,7 +3845,7 @@
 12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
 13	zhodujú	zhodovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	csubj	_	_
 14	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	15	case	_	_
-15	voličmi	volič	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	13	obj	_	_
+15	voličmi	volič	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	13	obl:arg	_	_
 16	obidvoch	obidva	NUM	NNfp2	Case=Gen|Gender=Fem|Number=Plur	19	nummod	_	_
 17	hlavných	hlavný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
 18	politických	politický	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
@@ -3939,7 +3939,7 @@
 7	uzol	uzol	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 8	stretne	stretnúť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 9	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	10	case	_	_
-10	Mesiacom	mesiac	PROPN	SSis7:r	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obj	_	_
+10	Mesiacom	mesiac	PROPN	SSis7:r	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl:arg	_	_
 11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
 12	nove	nov	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
 13	;	;	PUNCT	Z	_	14	punct	_	_
@@ -3951,7 +3951,7 @@
 19	uzol	uzol	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
 20	stretne	stretnúť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	orphan	_	_
 21	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	22	case	_	_
-22	Mesiacom	mesiac	PROPN	SSis7:r	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	obj	_	_
+22	Mesiacom	mesiac	PROPN	SSis7:r	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	obl:arg	_	_
 23	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
 24	splne	spln	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	Z	_	3	punct	_	_
@@ -4049,7 +4049,7 @@
 5	rozsiahle	rozsiahly	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
 6	prastaré	prastarý	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
 7	čadičové	čadičový	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
-8	prúdy	prúd	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+8	prúdy	prúd	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obl:arg	_	_
 9	lávy	láva	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	Z	_	12	punct	_	_
 11	ktoré	ktorý	DET	PAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	12	nsubj	_	_
@@ -4636,7 +4636,7 @@
 8	občas	občas	ADV	Dx	Degree=Pos	9	advmod	_	_
 9	dochádza	dochádzať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
 10	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	11	case	_	_
-11	javu	jav	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	obj	_	_
+11	javu	jav	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	obl:arg	_	_
 12	odplyňovania	odplyňovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	Z	_	5	punct	_	_
 
@@ -5452,7 +5452,7 @@
 12	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	cop	_	_
 13	odlišné	odlišný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	csubj	_	_
 14	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
-15	podmienok	podmienka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	13	obj	_	_
+15	podmienok	podmienka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	13	obl:arg	_	_
 16	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
 17	minulosti	minulosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_
 18	alebo	alebo	CCONJ	O	_	20	cc	_	_
@@ -5630,7 +5630,7 @@
 3	procesu	proces	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 4	závisia	závisieť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
-6	množstva	množstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	obj	_	_
+6	množstva	množstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	obl:arg	_	_
 7	a	a	CCONJ	O	_	8	cc	_	_
 8	typu	typ	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	conj	_	_
 9	hmoty	hmota	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
@@ -5671,7 +5671,7 @@
 6	závisí	závisieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
 8	troch	tri	NUM	NNip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	nummod	_	_
-9	predpokladoch	predpoklad	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+9	predpokladoch	predpoklad	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obl:arg	_	SpaceAfter=No
 10	:	:	PUNCT	Z	_	11	punct	_	_
 11	Univerzálnosť	univerzálnosť	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	9	appos	_	_
 12	fyzikálnych	fyzikálny	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_
@@ -5757,7 +5757,7 @@
 4	závislé	závislý	ADJ	AAnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	0	root	_	_
 5	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
 6	jediného	jediný	ADJ	NAis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumType=Mult	7	amod	_	_
-7	parametra	parameter	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	parametra	parameter	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl:arg	_	SpaceAfter=No
 8	,	,	PUNCT	Z	_	11	punct	_	_
 9	a	a	CCONJ	O	_	11	cc	_	_
 10	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	cc	_	_
@@ -5818,7 +5818,7 @@
 4	štatisticky	štatisticky	ADV	Dx	Degree=Pos	5	advmod	_	_
 5	zhodujú	zhodovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	7	case	_	_
-7	simuláciami	simulácia	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+7	simuláciami	simulácia	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	5	obl:arg	_	SpaceAfter=No
 8	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = test-s360
@@ -5957,7 +5957,7 @@
 10	%	%	SYM	Z	_	9	nmod	_	_
 11	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	12	aux:pass	_	_
 12	tvorených	tvorený	ADJ	Gtnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	4	obj	_	_
-13	zložkou	zložka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	12	obj	_	_
+13	zložkou	zložka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	12	obl:agent	_	_
 14	energie	energia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
 15	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	17	case	_	_
 16	negatívnym	negatívny	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
@@ -6058,7 +6058,7 @@
 8	spojený	spojený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 9	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	11	case	_	_
 10	žiadnym	žiaden	DET	PFns7	Case=Ins|Gender=Neut|Number=Sing|PronType=Neg	11	det	_	_
-11	náboženstvom	náboženstvo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No
+11	náboženstvom	náboženstvo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	8	obl:arg	_	SpaceAfter=No
 12	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = test-s378
@@ -6254,7 +6254,7 @@
 3	boli	byť	AUX	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	7	cop	_	_
 4	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	6	case	_	_
 5	súčasným	súčasný	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
-6	stavom	stav	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obj	_	_
+6	stavom	stav	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl:arg	_	_
 7	spokojné	spokojný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	_
 8	a	a	CCONJ	O	_	9	cc	_	_
 9	plánovali	plánovať	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
@@ -6286,7 +6286,7 @@
 19	by	by	AUX	Y	Mood=Cnd	20	aux	_	_
 20	dohliadala	dohliadať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	16	acl	_	_
 21	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	22	case	_	_
-22	mier	mier	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+22	mier	mier	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obl:arg	_	_
 23	a	a	CCONJ	O	_	24	cc	_	_
 24	spoluprácu	spolupráca	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	22	conj	_	_
 25	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	26	case	_	_
@@ -6375,7 +6375,7 @@
 # text = S Nemeckom uzatvorilo pakt o neútočení.
 # orig_file_sentence 004#96
 1	S	s	ADP	Eu7	AdpType=Prep|Case=Ins	2	case	_	_
-2	Nemeckom	nemecko	PROPN	SSns7:r	Case=Ins|Gender=Neut|Number=Sing	3	iobj	_	_
+2	Nemeckom	nemecko	PROPN	SSns7:r	Case=Ins|Gender=Neut|Number=Sing	3	obl:arg	_	_
 3	uzatvorilo	uzatvoriť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 4	pakt	pakt	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 5	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
@@ -6473,7 +6473,7 @@
 10	ide	ísť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	advcl	_	_
 11	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
 12	materiálnu	materiálny	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
-13	stránku	stránka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+13	stránku	stránka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obl:arg	_	_
 14	veci	vec	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	Z	_	10	punct	_	_
 16	hrubo	hrubo	ADV	Dx	Degree=Pos	17	advmod	_	_
@@ -6635,7 +6635,7 @@
 7	považovaná	považovaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 8	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
 9	priamu	priamy	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
-10	predohru	predohra	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+10	predohru	predohra	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obl:arg	_	_
 11	druhej	druhý	ADJ	NAfs2	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	13	amod	_	_
 12	svetovej	svetový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
 13	vojny	vojna	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
@@ -6678,7 +6678,7 @@
 18	najradšej	rád	ADJ	AUms1z	Animacy=Anim|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	19	obl	_	_
 19	rokuje	rokovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
 20	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	21	case	_	_
-21	diktátormi	diktátor	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	19	obj	_	SpaceAfter=No
+21	diktátormi	diktátor	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	19	obl:arg	_	SpaceAfter=No
 22	,	,	PUNCT	Z	_	28	punct	_	_
 23	pretože	pretože	SCONJ	O	_	28	mark	_	_
 24	tam	tam	ADV	PD	PronType=Dem	28	advmod	_	_
@@ -6718,7 +6718,7 @@
 2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
 3	obrátil	obrátiť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
-5	Fínsko	fínsko	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
+5	Fínsko	fínsko	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	3	obl:arg	_	SpaceAfter=No
 6	,	,	PUNCT	Z	_	11	punct	_	_
 7	aby	aby	SCONJ	OY	Mood=Cnd	11	mark	_	_
 8	si	si	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
@@ -6727,7 +6727,7 @@
 11	vynútil	vynútiť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	3	advcl	_	_
 12	aj	aj	PART	T	_	14	advmod:emph	_	_
 13	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
-14	neho	ono	PRON	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Prs	11	iobj	_	SpaceAfter=No
+14	neho	ono	PRON	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Prs	11	obl:arg	_	SpaceAfter=No
 15	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = test-s418
@@ -6745,7 +6745,7 @@
 10	prišiel	prísť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
 11	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	13	case	_	_
 12	hrubým	hrubý	ADJ	AAfp3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_
-13	vyhrážkam	vyhrážka	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	10	obj	_	_
+13	vyhrážkam	vyhrážka	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	10	obl:arg	_	_
 14	a	a	CCONJ	O	_	33	cc	_	_
 15	keď	keď	SCONJ	O	_	18	mark	_	_
 16	ani	ani	PART	T	_	17	advmod:emph	_	_
@@ -7076,7 +7076,7 @@
 2	Slovania	slovan	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	Z	_	6	punct	_	_
 4	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	5	case	_	_
-5	ktorými	ktorý	DET	PAmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|PronType=Int,Rel	6	iobj	_	_
+5	ktorými	ktorý	DET	PAmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|PronType=Int,Rel	6	obl:arg	_	_
 6	viedol	viesť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	2	acl	_	_
 7	Maurikios	maurikios	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 8	prudké	prudký	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
@@ -7196,7 +7196,7 @@
 7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
 8	a	a	CCONJ	O	_	11	cc	_	_
 9	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
-10	život	život	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+10	život	život	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl:arg	_	_
 11	prosiaceho	prosiaci	ADJ	Gkms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	6	conj	_	_
 12	cisára	cisár	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
 13	,	,	PUNCT	Z	_	3	punct	_	_
@@ -7912,7 +7912,7 @@
 7	blízkym	blízky	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
 8	priateľom	priateľ	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	_
 9	Pietrom	pietro	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	_
-10	Saponarom	saponaro	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+10	Saponarom	saponaro	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl:arg	_	SpaceAfter=No
 11	,	,	PUNCT	Z	_	15	punct	_	_
 12	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	15	nsubj	_	_
 13	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	15	obj	_	_
@@ -8033,7 +8033,7 @@
 11	veľmi	veľmi	ADV	Dx	Degree=Pos	12	advmod	_	_
 12	nestaral	starať	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Part	7	acl	_	_
 13	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
-14	typ	typ	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	typ	typ	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl:arg	_	_
 15	svojho	svoj	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	_
 16	oblečenia	oblečenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	Z	_	7	punct	_	_
@@ -8064,7 +8064,7 @@
 11	a	a	CCONJ	O	_	12	cc	_	_
 12	bol	byť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
 13	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	14	case	_	_
-14	indeterminizmu	indeterminizmus	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+14	indeterminizmu	indeterminizmus	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	obl:arg	_	SpaceAfter=No
 15	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = test-s511
@@ -8181,7 +8181,7 @@
 5	medicínu	medicína	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
 6	,	,	PUNCT	Z	_	11	punct	_	_
 7	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
-8	ktorej	ktorý	DET	PAfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Int,Rel	11	iobj	_	_
+8	ktorej	ktorý	DET	PAfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Int,Rel	11	obl:arg	_	_
 9	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	11	obj	_	_
 10	otec	otec	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 11	nútil	nútiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	5	acl	_	SpaceAfter=No
@@ -8379,7 +8379,7 @@
 3	zahĺbil	zahĺbiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 4	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
 5	svojich	svoj	DET	PFnp2	Case=Gen|Gender=Neut|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	_
-6	štúdií	štúdium	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	3	obj	_	_
+6	štúdií	štúdium	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	3	obl:arg	_	_
 7	a	a	CCONJ	O	_	8	cc	_	_
 8	pokusov	pokus	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
 9	.	.	PUNCT	Z	_	3	punct	_	_
@@ -8396,7 +8396,7 @@
 7	,	,	PUNCT	Z	_	8	punct	_	_
 8	pokračoval	pokračovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
 9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
-10	prácach	práca	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+10	prácach	práca	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	8	obl:arg	_	SpaceAfter=No
 11	,	,	PUNCT	Z	_	12	punct	_	_
 12	týkajúcich	týkajúci	ADJ	Gkfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	10	amod	_	_
 13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
@@ -8436,7 +8436,7 @@
 # orig_file_sentence 006#36
 1	Proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	3	case	_	_
 2	Galileiho	galileiho	ADJ	AFfs3x:r	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
-3	práci	práca	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	6	obj	_	_
+3	práci	práca	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	6	obl:arg	_	_
 4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
 5	ostro	ostro	ADV	Dx	Degree=Pos	6	advmod	_	_
 6	postavil	postaviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
@@ -8591,7 +8591,7 @@
 7	pohyby	pohyb	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	xcomp	_	_
 8	zložené	zložený	ADJ	Gtip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	_	_
 9	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
-10	pohybu	pohyb	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obj	_	_
+10	pohybu	pohyb	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl:arg	_	_
 11	priamočiareho	priamočiary	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
 12	,	,	PUNCT	Z	_	13	punct	_	_
 13	rovnomerného	rovnomerný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	conj	_	_
@@ -8632,7 +8632,7 @@
 5	premýšľal	premýšľať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 6	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
 7	fyzikálnych	fyzikálny	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
-8	problémoch	problém	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+8	problémoch	problém	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl:arg	_	SpaceAfter=No
 9	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = test-s551
@@ -8708,7 +8708,7 @@
 1	Galilei	galilei	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	vychádzal	vychádzať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 3	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
-4	uznania	uznanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	2	obj	_	_
+4	uznania	uznanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	2	obl:arg	_	_
 5	Kopernikovej	kopernikov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
 6	heliocentrickej	heliocentrický	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
 7	sústavy	sústava	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
@@ -8929,7 +8929,7 @@
 4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
 5	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	7	case	_	_
 6	diplomatickými	diplomatický	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
-7	úlohami	úloha	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+7	úlohami	úloha	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	3	obl:arg	_	SpaceAfter=No
 8	,	,	PUNCT	ZIP	VerbForm=Inf	12	punct	_	_
 9	ale	ale	CCONJ	O	_	12	cc	_	_
 10	aj	aj	CCONJ	O	_	12	cc	_	_
@@ -8993,7 +8993,7 @@
 2	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
 3	Iňigov	iňigov	ADJ	AFis4x:r	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 4	ďalší	ďalší	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
-5	život	život	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+5	život	život	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl:arg	_	_
 6	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	1	cop	_	_
 7	francúzsko	francúzsko	X	Q	Hyph=Yes	10	nmod	_	_
 8	-	-	PUNCT	ZIP	VerbForm=Inf	9	punct	_	_
@@ -9027,7 +9027,7 @@
 16	romány	román	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
 17	,	,	PUNCT	ZIP	VerbForm=Inf	22	punct	_	_
 18	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	19	case	_	_
-19	akými	aký	DET	PAip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|PronType=Int,Rel	22	obj	_	_
+19	akými	aký	DET	PAip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|PronType=Int,Rel	22	obl:arg	_	_
 20	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	22	expl:pv	_	_
 21	kedysi	kedysi	ADV	PD	PronType=Ind	22	advmod	_	_
 22	stretol	stretnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	16	acl	_	_
@@ -9084,7 +9084,7 @@
 6	dal	dať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 7	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
 8	ich	ich	DET	PUnp2	Case=Gen|Gender=Neut|Number=Plur|Number[psor]=Plur|Poss=Yes|PronType=Prs	9	det	_	_
-9	čítania	čítanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
+9	čítania	čítanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	obl:arg	_	SpaceAfter=No
 10	.	.	PUNCT	ZIP	VerbForm=Inf	6	punct	_	_
 
 # sent_id = test-s581
@@ -9197,7 +9197,7 @@
 6	pútnikov	pútnik	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
 7	pokračovala	pokračovať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
-9	ceste	cesta	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+9	ceste	cesta	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl:arg	_	SpaceAfter=No
 10	.	.	PUNCT	ZIP	VerbForm=Inf	7	punct	_	_
 
 # sent_id = test-s587
@@ -9266,7 +9266,7 @@
 12	napokon	napokon	ADV	Dx	Degree=Pos	16	advmod	_	_
 13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
 14	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	15	case	_	_
-15	ním	on	PRON	PFms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|PronType=Prs	16	obj	_	_
+15	ním	on	PRON	PFms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|PronType=Prs	16	obl:arg	_	_
 16	rozlúčil	rozlúčiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	ZIP	VerbForm=Inf	16	punct	_	_
 
@@ -9306,7 +9306,7 @@
 2	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
 3	krátkej	krátky	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 4	plánovanej	plánovaný	ADJ	Gtfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	amod	_	_
-5	zastávky	zastávka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	obj	_	_
+5	zastávky	zastávka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	obl:arg	_	_
 6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
 7	stalo	stať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 8	jedenásť	jedenásť	NUM	NUnp1	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
@@ -9433,7 +9433,7 @@
 5	možností	možnosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
 6	prišiel	prísť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 7	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	8	case	_	_
-8	presvedčeniu	presvedčenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
+8	presvedčeniu	presvedčenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	6	obl:arg	_	SpaceAfter=No
 9	,	,	PUNCT	ZIP	VerbForm=Inf	14	punct	_	_
 10	že	že	SCONJ	O	_	14	mark	_	_
 11	spomenutý	spomenutý	ADJ	Gtis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	_	_
@@ -9474,7 +9474,7 @@
 9	poučovali	poučovať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
 10	ľudí	človek	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
 11	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
-12	viere	viera	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	9	iobj	_	_
+12	viere	viera	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	9	obl:arg	_	_
 13	a	a	CCONJ	O	_	15	cc	_	_
 14	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
 15	zachovávaní	zachovávanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	12	conj	_	_
@@ -9489,7 +9489,7 @@
 2	pokladal	pokladať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 3	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
 4	najvýznamnejšiu	významný	ADJ	AAfs4z	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	5	amod	_	_
-5	čnosť	čnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	iobj	_	_
+5	čnosť	čnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obl:arg	_	_
 6	chudobu	chudoba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 7	.	.	PUNCT	ZIP	VerbForm=Inf	2	punct	_	_
 
@@ -9508,7 +9508,7 @@
 10	vyžadoval	vyžadovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
 11	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
 12	svojich	svoj	DET	PFmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	13	det	_	_
-13	nasledovníkov	nasledovník	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	iobj	_	_
+13	nasledovníkov	nasledovník	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	obl:arg	_	_
 14	dôsledné	dôsledný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
 15	dodržiavanie	dodržiavanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
 16	chudoby	chudoba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
@@ -9567,7 +9567,7 @@
 1	Jeho	jeho	DET	PUmp1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Poss=Yes|PronType=Prs	2	det	_	_
 2	spoločníci	spoločník	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 3	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	4	case	_	_
-4	tým	to	DET	PFns7	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	5	obj	_	_
+4	tým	to	DET	PFns7	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	5	obl:arg	_	_
 5	súhlasili	súhlasiť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 6	a	a	CCONJ	O	_	9	cc	_	_
 7	zároveň	zároveň	ADV	Dx	Degree=Pos	9	advmod	_	_
@@ -9687,7 +9687,7 @@
 4	pokračovať	pokračovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
 5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
 6	spoločnom	spoločný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
-7	programe	program	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	programe	program	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl:arg	_	SpaceAfter=No
 8	.	.	PUNCT	ZIP	VerbForm=Inf	2	punct	_	_
 
 # sent_id = test-s616
@@ -9695,7 +9695,7 @@
 # orig_file_sentence 007#16
 1	Na	na	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
 2	obidve	obidva	NUM	NNfp4	Case=Acc|Gender=Fem|Number=Plur	3	nummod	_	_
-3	úlohy	úloha	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+3	úlohy	úloha	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	5	obl:arg	_	_
 4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
 5	pripravovali	pripravovať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 6	modlitbou	modlitba	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
@@ -9733,7 +9733,7 @@
 17	vysviacku	vysviacka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
 18	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
 19	hociktorého	hociktorý	DET	PAms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|PronType=Ind	20	det	_	_
-20	biskupa	biskup	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	iobj	_	_
+20	biskupa	biskup	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	obl:arg	_	_
 21	aj	aj	PART	T	_	25	advmod:emph	_	_
 22	mimo	mimo	ADP	Eu2	AdpType=Prep|Case=Gen	25	case	_	_
 23	jeho	jeho	DET	PUfs2	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Poss=Yes|PronType=Prs	25	det	_	_
@@ -10060,7 +10060,7 @@
 9	Ignáca	ignác	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
 10	Loyolského	loyolský	PROPN	SAms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
 11	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
-12	blahoslaveného	blahoslavený	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	iobj	_	_
+12	blahoslaveného	blahoslavený	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	obl:arg	_	_
 13	a	a	CCONJ	O	_	15	cc	_	_
 14	pápež	pápež	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
 15	Gregor	gregor	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
@@ -10358,7 +10358,7 @@
 16	vymenoval	vymenovať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	5	ccomp	_	_
 17	za	za	ADP	Eu2	AdpType=Prep|Case=Gen	19	case	_	_
 18	titulárneho	titulárny	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
-19	biskupa	biskup	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+19	biskupa	biskup	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	16	obl:arg	_	_
 20	ombijského	ombijský	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
 21	a	a	CCONJ	O	_	23	cc	_	_
 22	pomocného	pomocný	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
@@ -10431,7 +10431,7 @@
 14	Wojtyła	wojtyła	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
 15	zúčastnil	zúčastniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 16	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
-17	konkláve	konkláve	NOUN	SUns6	Case=Loc|Gender=Neut|Number=Sing	15	obj	_	SpaceAfter=No
+17	konkláve	konkláve	NOUN	SUns6	Case=Loc|Gender=Neut|Number=Sing	15	obl:arg	_	SpaceAfter=No
 18	,	,	PUNCT	Z	_	20	punct	_	_
 19	ktoré	ktorý	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	20	nsubj	_	_
 20	zvolilo	zvoliť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	17	acl	_	_
@@ -10445,7 +10445,7 @@
 28	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	31	case	_	_
 29	pápeža	pápež	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	31	nmod	_	_
 30	Jána	ján	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	31	nmod	_	_
-31	Pavla	pavol	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	20	iobj	_	_
+31	Pavla	pavol	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	20	obl:arg	_	_
 32	I	i	NUM	0	NumForm=Digit	31	nummod	_	SpaceAfter=No
 33	.	.	PUNCT	Z	_	15	punct	_	SpaceAfter=No
 34	.	.	PUNCT	Z	_	15	punct	_	_
@@ -10508,7 +10508,7 @@
 4	pokračoval	pokračovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 5	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	7	case	_	_
 6	svojich	svoj	DET	PFfp6	Case=Loc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	_
-7	cestách	cesta	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	4	obj	_	_
+7	cestách	cesta	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	4	obl:arg	_	_
 8	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
 9	celom	celý	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 10	svete	svet	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
@@ -10773,7 +10773,7 @@
 38	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	39	expl:pass	_	_
 39	odpovedalo	odpovedať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	33	advcl	_	_
 40	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	41	case	_	_
-41	otázky	otázka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	39	obj	_	_
+41	otázky	otázka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	39	obl:arg	_	_
 42	novej	nový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	43	amod	_	_
 43	doby	doba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
 44	.	.	PUNCT	Z	_	11	punct	_	_
@@ -10814,7 +10814,7 @@
 7	pápeži	pápež	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
 8	obracajú	obracať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	acl	_	_
 9	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
-10	cirkev	cirkev	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	cirkev	cirkev	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obl:arg	_	_
 11	a	a	CCONJ	O	_	12	cc	_	_
 12	veriacich	veriaci	NOUN	SAmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	10	conj	_	_
 13	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
@@ -10831,7 +10831,7 @@
 5	pokračoval	pokračovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
 7	tomto	tento	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	8	det	_	_
-8	zameraní	zameranie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obj	_	_
+8	zameraní	zameranie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obl:arg	_	_
 9	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
 10	Boha	boh	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	Z	_	5	punct	_	_
@@ -10972,7 +10972,7 @@
 13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
 14	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	16	case	_	_
 15	ortodoxnej	ortodoxný	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
-16	cirkvi	cirkev	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	12	obj	_	_
+16	cirkvi	cirkev	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	12	obl:arg	_	_
 17	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	18	case	_	_
 18	čias	čas	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
 19	východnej	východný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
@@ -11010,7 +11010,7 @@
 3	Umajjovcov	umajjovec	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	Z	_	8	punct	_	_
 5	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
-6	ktorej	ktorý	DET	PAfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Int,Rel	8	obj	_	_
+6	ktorej	ktorý	DET	PAfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Int,Rel	8	obl:arg	_	_
 7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pass	_	_
 8	predpokladá	predpokladať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	acl	_	SpaceAfter=No
 9	,	,	PUNCT	Z	_	14	punct	_	_
@@ -11049,7 +11049,7 @@
 2	často	často	ADV	Dx	Degree=Pos	3	advmod	_	_
 3	hovoril	hovoriť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 4	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
-5	vzťahu	vzťah	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obj	_	_
+5	vzťahu	vzťah	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl:arg	_	_
 6	cirkvi	cirkev	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
 7	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	8	case	_	_
 8	židom	žid	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
@@ -11090,7 +11090,7 @@
 13	presadil	presadiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 14	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
 15	hlavnú	hlavný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
-16	hodnotu	hodnota	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	iobj	_	_
+16	hodnotu	hodnota	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	obl:arg	_	_
 17	cirkvi	cirkev	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
 18	ľudský	ľudský	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
 19	život	život	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
@@ -11116,7 +11116,7 @@
 15	hrdinovia	hrdina	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	conj	_	_
 16	zodpovední	zodpovedný	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
 17	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	18	case	_	_
-18	ukončenie	ukončenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+18	ukončenie	ukončenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	16	obl:arg	_	_
 19	komunistického	komunistický	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
 20	útlaku	útlak	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	Z	_	3	punct	_	_
@@ -11164,7 +11164,7 @@
 9	ich	on	PRON	PFmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Prs	10	obj	_	_
 10	označila	označiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 11	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
-12	ľudí	človek	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	10	iobj	_	_
+12	ľudí	človek	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	10	obl:arg	_	_
 13	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	16	case	_	_
 14	"	"	PUNCT	Z	_	16	punct	_	SpaceAfter=No
 15	mentálnymi	mentálny	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	_
@@ -11215,7 +11215,7 @@
 4	zameriavala	zameriavať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
 6	jeho	jeho	DET	PUnp4	Case=Acc|Gender=Neut|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Poss=Yes|PronType=Prs	7	det	_	_
-7	presvedčenia	presvedčenie	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No
+7	presvedčenia	presvedčenie	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	4	obl:arg	_	SpaceAfter=No
 8	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = test-s701
@@ -11240,7 +11240,7 @@
 1	Zaslúžil	zaslúžiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
 3	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
-4	obnovu	obnova	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	obnovu	obnova	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obl:arg	_	_
 5	tradičného	tradičný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 6	katolicizmu	katolicizmus	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	Z	_	1	punct	_	_
@@ -11331,7 +11331,7 @@
 12	ktorého	ktorý	DET	PAms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|PronType=Int,Rel	11	det	_	_
 13	došlo	dôjsť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
 14	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	15	case	_	_
-15	urýchleniu	urýchlenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	13	obj	_	_
+15	urýchleniu	urýchlenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	13	obl:arg	_	_
 16	transformácie	transformácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
 17	rímskeho	rímsky	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
 18	antického	antický	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
@@ -11428,7 +11428,7 @@
 17	považuje	považovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
 18	bezpečnosť	bezpečnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
 19	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	20	case	_	_
-20	prioritu	priorita	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	17	iobj	_	_
+20	prioritu	priorita	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	17	obl:arg	_	_
 21	číslo	číslo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	20	nmod	_	_
 22	jeden	jeden	NUM	NFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nummod	_	SpaceAfter=No
 23	.	.	PUNCT	Z	_	3	punct	_	_
@@ -11468,7 +11468,7 @@
 6	Microsoft	microsoft	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
 7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
 8	novou	nový	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
-9	iniciatívou	iniciatíva	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	4	obj	_	_
+9	iniciatívou	iniciatíva	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	4	obl:arg	_	_
 10	týkajucou	týkajuci	ADJ	Gkfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	9	amod	_	_
 11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
 12	bezpečnosti	bezpečnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
@@ -11988,7 +11988,7 @@
 12	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
 13	jeho	jeho	DET	PUns4	Case=Acc|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Poss=Yes|PronType=Prs	15	det	_	_
 14	národné	národný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
-15	povedomie	povedomie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+15	povedomie	povedomie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	16	obl:arg	_	_
 16	vplýval	vplývať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	9	csubj:pass	_	_
 17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
 18	Kobeliarove	kobeliarovo	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
@@ -12017,7 +12017,7 @@
 4	ide	ísť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
 6	tamojšieho	tamojší	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
-7	učiteľa	učiteľ	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	učiteľa	učiteľ	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obl:arg	_	SpaceAfter=No
 8	,	,	PUNCT	Z	_	13	punct	_	_
 9	„	„	PUNCT	Z	_	10	punct	_	SpaceAfter=No
 10	ludimagistra	ludimagister	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
@@ -12038,7 +12038,7 @@
 7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
 8	Šafárikovo	šafárikov	ADJ	AFns4x:r	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
 9	národné	národný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
-10	povedomie	povedomie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+10	povedomie	povedomie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	obl:arg	_	_
 11	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	2	cop	_	_
 12	prostredie	prostredie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
 13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
@@ -12050,7 +12050,7 @@
 # text = O hĺbke a intenzite vplyvu kobeliarovského prostredia na Šafárika, svedčia jeho spomienky na detstvo.
 # orig_file_sentence 008#51
 1	O	o	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
-2	hĺbke	hĺbka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	11	obj	_	_
+2	hĺbke	hĺbka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	11	obl:arg	_	_
 3	a	a	CCONJ	O	_	4	cc	_	_
 4	intenzite	intenzita	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	2	conj	_	_
 5	vplyvu	vplyv	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
@@ -12125,7 +12125,7 @@
 18	mohol	môcť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	5	advcl	_	_
 19	pokračovať	pokračovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	18	xcomp	_	_
 20	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	_	_
-21	syntaxi	syntax	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	19	obj	_	_
+21	syntaxi	syntax	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	19	obl:arg	_	_
 22	a	a	CCONJ	O	_	23	cc	_	_
 23	rétorike	rétorika	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
 24	.	.	PUNCT	Z	_	5	punct	_	_
@@ -12237,7 +12237,7 @@
 4	pôsobení	pôsobenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
 5	pokračoval	pokračovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
-7	štúdiu	štúdium	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obj	_	_
+7	štúdiu	štúdium	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obl:arg	_	_
 8	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
 9	Univerzite	univerzita	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
 10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
@@ -12252,7 +12252,7 @@
 3	skromne	skromne	ADV	Dx	Degree=Pos	1	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	Z	_	7	punct	_	_
 5	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
-6	čom	čo	PRON	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Int,Rel	7	obj	_	_
+6	čom	čo	PRON	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Int,Rel	7	obl:arg	_	_
 7	svedčí	svedčiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
 8	jeho	jeho	DET	PUns1	Case=Nom|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Poss=Yes|PronType=Prs	9	det	_	_
 9	rozprávanie	rozprávanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
@@ -12420,7 +12420,7 @@
 2	riaditeľ	riaditeľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	zapôsobil	zapôsobiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
-5	Srbov	srb	PROPN	SSmp4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+5	Srbov	srb	PROPN	SSmp4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	3	obl:arg	_	_
 6	veľmi	veľmi	ADV	Dx	Degree=Pos	7	advmod	_	_
 7	priaznivým	priaznivý	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
 8	dojmom	dojem	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
@@ -12617,7 +12617,7 @@
 12	úsilie	úsilie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
 13	predovšetkým	predovšetkým	PART	T	_	15	advmod:emph	_	_
 14	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
-15	zabezpečenie	zabezpečenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+15	zabezpečenie	zabezpečenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	10	obl:arg	_	_
 16	svojej	svoj	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	17	det	_	_
 17	rodiny	rodina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
 18	a	a	CCONJ	O	_	20	cc	_	_
@@ -12626,7 +12626,7 @@
 21	pokračovať	pokračovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	20	acl	_	_
 22	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	24	case	_	_
 23	vedeckej	vedecký	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
-24	práci	práca	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+24	práci	práca	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	21	obl:arg	_	SpaceAfter=No
 25	.	.	PUNCT	Z	_	10	punct	_	_
 
 # sent_id = test-s783
@@ -12637,7 +12637,7 @@
 3	,	,	PUNCT	Z	_	7	punct	_	_
 4	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	7	obj	_	_
 5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
-6	obom	oba	NUM	NNnp6	Case=Loc|Gender=Neut|Number=Plur	7	obj	_	_
+6	obom	oba	NUM	NNnp6	Case=Loc|Gender=Neut|Number=Plur	7	obl:arg	_	_
 7	pomáhali	pomáhať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Z	_	7	punct	_	_
 
@@ -12958,7 +12958,7 @@
 22	českú	český	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
 23	verejnosť	verejnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
 24	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	25	case	_	_
-25	Slovensku	slovensko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	21	iobj	_	SpaceAfter=No
+25	Slovensku	slovensko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	21	obl:arg	_	SpaceAfter=No
 26	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = test-s803
@@ -13017,7 +13017,7 @@
 11	1904	1904	NUM	0	NumForm=Digit	10	nummod	_	_
 12	promoval	promovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
 13	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
-14	doktora	doktor	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	doktora	doktor	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	obl:arg	_	_
 15	filozofie	filozofia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	Z	_	2	punct	_	_
 
@@ -13032,7 +13032,7 @@
 6	dlho	dlho	ADV	Dx	Degree=Pos	5	advmod	_	_
 7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
 8	existenčnými	existenčný	ADJ	AAip7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
-9	problémami	problém	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+9	problémami	problém	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	obl:arg	_	SpaceAfter=No
 10	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = test-s808
@@ -13281,7 +13281,7 @@
 9	zoznámila	zoznámiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	3	parataxis	_	_
 10	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	12	case	_	_
 11	najvyššími	vysoký	ADJ	AAmp7z	Animacy=Anim|Case=Ins|Degree=Sup|Gender=Masc|Number=Plur	12	amod	_	_
-12	politikmi	politik	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	9	iobj	_	SpaceAfter=No
+12	politikmi	politik	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	9	obl:arg	_	SpaceAfter=No
 13	:	:	PUNCT	Z	_	17	punct	_	_
 14	ministerským	ministerský	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
 15	predsedom	predseda	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	nmod	_	_
@@ -13303,7 +13303,7 @@
 # orig_file_sentence 009#21
 1	O	o	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
 2	týchto	tento	DET	PFip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
-3	plánoch	plán	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	iobj	_	_
+3	plánoch	plán	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl:arg	_	_
 4	informoval	informovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 5	aj	aj	CCONJ	O	_	9	advmod:emph	_	_
 6	ministerského	ministerský	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
@@ -13474,7 +13474,7 @@
 26	ČSNR	čsnr	X	W	Abbr=Yes	25	obj	_	_
 27	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	29	case	_	_
 28	vedúci	vedúci	ADJ	Gkis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	29	amod	_	_
-29	orgán	orgán	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
+29	orgán	orgán	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obl:arg	_	_
 30	českého	český	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	33	amod	_	_
 31	a	a	CCONJ	O	_	32	cc	_	_
 32	slovenského	slovenský	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	30	conj	_	_
@@ -13521,7 +13521,7 @@
 7	zapojil	zapojiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 8	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
 9	diplomatických	diplomatický	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	10	amod	_	_
-10	rokovaní	rokovanie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	7	obj	_	_
+10	rokovaní	rokovanie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	7	obl:arg	_	_
 11	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
 12	ustanovení	ustanovenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	_
 13	samostatnej	samostatný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
@@ -13758,7 +13758,7 @@
 2	zapôsobila	zapôsobiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
 4	americkú	americký	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
-5	verejnosť	verejnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	verejnosť	verejnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obl:arg	_	_
 6	i	i	CCONJ	O	_	9	cc	_	_
 7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
 8	prezidenta	prezident	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
@@ -13780,7 +13780,7 @@
 # orig_file_sentence 009#45
 1	Došlo	dojsť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 2	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	3	case	_	_
-3	vystúpeniu	vystúpenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	1	obj	_	_
+3	vystúpeniu	vystúpenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	1	obl:arg	_	_
 4	domáceho	domáci	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 5	odboja	odboj	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 6	a	a	CCONJ	O	_	9	cc	_	_
@@ -13811,7 +13811,7 @@
 1	Štefánik	štefánik	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
 3	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
-4	všetkom	všetok	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Tot	5	obj	_	_
+4	všetkom	všetok	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Tot	5	obl:arg	_	_
 5	dozvedel	dozvedieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
 7	Japonsku	japonsko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
@@ -13826,7 +13826,7 @@
 4	dohodnúť	dohodnúť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
 5	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	7	case	_	_
 6	vojenským	vojenský	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
-7	velením	velenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	4	iobj	_	_
+7	velením	velenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	4	obl:arg	_	_
 8	podrobnosti	podrobnosť	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
 9	presunu	presun	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
 10	legionárov	legionár	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
@@ -13893,7 +13893,7 @@
 # orig_file_sentence 009#52
 1	Na	na	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
 2	rodnú	rodný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
-3	vlasť	vlasť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+3	vlasť	vlasť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obl:arg	_	_
 4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
 5	veľmi	veľmi	ADV	Dx	Degree=Pos	6	advmod	_	_
 6	tešil	tešiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
@@ -13999,7 +13999,7 @@
 5	Turci	turek	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
 6	pristúpili	pristúpiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
-8	rokovania	rokovanie	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
+8	rokovania	rokovanie	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	6	obl:arg	_	_
 9	mieri	mier	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	Z	_	12	punct	_	_
 11	ktoré	ktorý	DET	PAnp1	Case=Nom|Gender=Neut|Number=Plur|PronType=Int,Rel	12	nsubj	_	_
@@ -14092,7 +14092,7 @@
 4	kalifa	kalifa	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
 5	Abdulmalik	abdulmalik	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 6	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
-7	obnovenie	obnovenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+7	obnovenie	obnovenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	3	obl:arg	_	_
 8	mierovej	mierový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 9	zmluvy	zmluva	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
 10	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	11	case	_	_
@@ -14126,7 +14126,7 @@
 3	často	často	ADV	Dx	Degree=Pos	4	advmod	_	_
 4	porovnávaný	porovnávaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 5	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	6	case	_	_
-6	jazykmi	jazyk	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	obj	_	_
+6	jazykmi	jazyk	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	obl:arg	_	_
 7	Tcl	tcl	X	W	Abbr=Yes	6	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	Z	_	9	punct	_	_
 9	Perl	perl	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
@@ -14245,7 +14245,7 @@
 8	považujú	považovať	VERB	VKesc+:q	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	_
 9	Python	python	PROPN	SSis4:r	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
 10	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
-11	príťažlivý	príťažlivý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	iobj	_	SpaceAfter=No
+11	príťažlivý	príťažlivý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	obl:arg	_	SpaceAfter=No
 12	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = test-s874
@@ -14476,7 +14476,7 @@
 8	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	cop	_	_
 9	založený	založený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	ccomp	_	_
 10	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
-11	nezávislosti	nezávislosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	9	obj	_	_
+11	nezávislosti	nezávislosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	9	obl:arg	_	_
 12	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
 13	dodávateľovi	dodávateľ	NOUN	SSms6	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	Z	_	17	punct	_	_
@@ -14753,7 +14753,7 @@
 4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pass	_	_
 5	uvažuje	uvažovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
-7	zlúčení	zlúčenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obj	_	_
+7	zlúčení	zlúčenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obl:arg	_	_
 8	Berlína	berlín	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 9	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	10	case	_	_
 10	Brandenburskom	brandenbursko	PROPN	SSns7:r	Case=Ins|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
@@ -14770,14 +14770,14 @@
 6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
 7	dostali	dostať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 8	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	9	case	_	_
-9	moci	moc	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	7	obj	_	_
+9	moci	moc	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	7	obl:arg	_	_
 10	ľudia	človek	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
 11	,	,	PUNCT	Z	_	14	punct	_	_
 12	ktorý	ktorý	DET	PAmp1:q	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel|Typo=Yes	14	nsubj	_	_
 13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pv	_	_
 14	pokúšali	pokúšať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
 15	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
-16	znovuobnovenie	znovuobnovenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+16	znovuobnovenie	znovuobnovenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	14	obl:arg	_	_
 17	Uhorska	uhorsko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	Z	_	7	punct	_	_
 
@@ -14970,7 +14970,7 @@
 1	Mnohí	mnohý	ADJ	NAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|NumType=Mult	2	nsubj	_	_
 2	prišli	prísť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 3	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
-4	život	život	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+4	život	život	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl:arg	_	SpaceAfter=No
 5	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = test-s917
@@ -15050,7 +15050,7 @@
 # orig_file_sentence 010#23
 1	Nezabúdajme	zabúdať	VERB	VMepa-	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|Polarity=Neg|VerbForm=Fin	0	root	_	_
 2	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
-3	Dom	dom	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+3	Dom	dom	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl:arg	_	_
 4	kultúry	kultúra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 5	a	a	CCONJ	O	_	7	cc	_	_
 6	Pezinský	pezinský	ADJ	AAis4x:r	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
@@ -15232,7 +15232,7 @@
 10	došlo	dôjsť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
 11	aj	aj	PART	T	_	13	advmod:emph	_	_
 12	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	13	case	_	_
-13	vyostreniu	vyostrenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	10	obj	_	_
+13	vyostreniu	vyostrenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	10	obl:arg	_	_
 14	vzťahov	vzťah	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
 15	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	17	case	_	_
 16	západnou	západný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
@@ -15650,7 +15650,7 @@
 14	Tiberia	tiberios	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
 15	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
 16	svojho	svoj	DET	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	17	det	_	_
-17	spolucisára	spolucisár	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	iobj	_	SpaceAfter=No
+17	spolucisára	spolucisár	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obl:arg	_	SpaceAfter=No
 18	.	.	PUNCT	Z	_	11	punct	_	_
 
 # sent_id = test-s961
@@ -15777,7 +15777,7 @@
 # orig_file_sentence 010#69
 1	Za	za	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
 2	jeho	jeho	DET	PUms4	Animacy=Anim|Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Poss=Yes|PronType=Prs	3	det	_	_
-3	nástupcou	nástupca	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	iobj	_	_
+3	nástupcou	nástupca	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obl:arg	_	_
 4	Anastasios	anastasios	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 5	vymenoval	vymenovať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
 6	monofyzitského	monofyzitský	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
@@ -15986,7 +15986,7 @@
 5	veľa	veľa	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
 6	spoločného	spoločný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
 7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
-8	taekwondom	taekwondo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
+8	taekwondom	taekwondo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	6	obl:arg	_	SpaceAfter=No
 9	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = test-s986
@@ -16266,7 +16266,7 @@
 # orig_file_sentence 011#2
 1	O	o	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
 2	dôležitom	dôležitý	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
-3	postavení	postavenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obj	_	_
+3	postavení	postavenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obl:arg	_	_
 4	mesta	mesto	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
 5	svedčí	svedčiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	aj	aj	CCONJ	O	_	7	advmod:emph	_	_
@@ -16371,7 +16371,7 @@
 15	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	18	case	_	_
 16	pozoruhodným	pozoruhodný	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
 17	architektonickým	architektonický	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
-18	súborom	súbor	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+18	súborom	súbor	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl:arg	_	SpaceAfter=No
 19	,	,	PUNCT	Z	_	23	punct	_	_
 20	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	23	nsubj	_	_
 21	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	23	expl:pv	_	_
@@ -16399,7 +16399,7 @@
 13	zameriava	zameriavať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	conj	_	_
 14	viac	veľa	ADV	Dy	Degree=Cmp	13	advmod	_	_
 15	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
-16	pozorovanie	pozorovanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+16	pozorovanie	pozorovanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	13	obl:arg	_	_
 17	a	a	CCONJ	O	_	18	cc	_	_
 18	pochopenie	pochopenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	16	conj	_	_
 19	skutočnej	skutočný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
@@ -16463,7 +16463,7 @@
 5	možno	možno	PART	T	_	0	root	_	_
 6	považovať	považovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
 7	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
-8	odvetvie	odvetvie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	odvetvie	odvetvie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	obl:arg	_	_
 9	astronómie	astronómia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	Z	_	5	punct	_	_
 
@@ -16931,7 +16931,7 @@
 9	sústavy	sústava	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	Z	_	13	punct	_	_
 11	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
-12	ktorej	ktorý	DET	PAfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Int,Rel	13	iobj	_	_
+12	ktorej	ktorý	DET	PAfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Int,Rel	13	obl:arg	_	_
 13	vieme	vedieť	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	acl	_	SpaceAfter=No
 14	,	,	PUNCT	Z	_	19	punct	_	_
 15	že	že	SCONJ	O	_	19	mark	_	_
@@ -17216,7 +17216,7 @@
 5	Zem	zem	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
 6	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
 7	podstatnou	podstatný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
-8	časťou	časť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	iobj	_	_
+8	časťou	časť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	obl:arg	_	_
 9	slnečného	slnečný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
 10	žiarenia	žiarenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	Z	_	3	punct	_	_
