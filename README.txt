@@ -1,11 +1,17 @@
-=== Machine-readable metadata =================================================
-Documentation status: stub
-Data source: automatic
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.4
 License: CC BY-SA 4.0
+Includes text: yes
 Genre: fiction nonfiction news
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: converted from manual
 Contributors: Gajdošová, Katarína; Šimková, Mária; Zeman, Daniel
+Contributing: elsewhere
 Contact: zeman@ufal.mff.cuni.cz
+Paragraphs to web: 5
 ===============================================================================
 
 Slovak Dependency Treebank (Slovenský závislostný korpus) was created as part
