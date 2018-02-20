@@ -46,6 +46,8 @@ subset and conversion to Universal Dependencies was done by Dan Zeman.
 
 # Changelog:
 
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Slovak to UD_Slovak-SNK.
 * 2017-11-15 v2.1
   * Prepositional objects are now “obl:arg” instead of “obj”.
   * Instrumental phrases for demoted agents in passives are now “obl:agent”.
