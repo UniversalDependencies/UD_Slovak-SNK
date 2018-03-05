@@ -128,13 +128,13 @@
 10	„	„	PUNCT	Z	_	11	punct	_	SpaceAfter=No
 11	AZ	az	X	W	Abbr=Yes	9	nmod	_	SpaceAfter=No
 12	“	“	PUNCT	Z	_	11	punct	_	_
-13	(	(	PUNCT	Z	_	15	punct	_	SpaceAfter=No
-14	аварийная	аварийная	X	%	Foreign=Yes	15	flat:foreign	_	_
-15	защита	защита	X	%	Foreign=Yes	11	appos	_	_
+13	(	(	PUNCT	Z	_	14	punct	_	SpaceAfter=No
+14	аварийная	аварийная	X	%	Foreign=Yes	11	appos	_	_
+15	защита	защита	X	%	Foreign=Yes	14	flat:foreign	_	_
 16	–	–	PUNCT	Z	_	18	punct	_	_
 17	havarijná	havarijný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
-18	ochrana	ochrana	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	15	appos	_	SpaceAfter=No
-19	)	)	PUNCT	Z	_	15	punct	_	SpaceAfter=No
+18	ochrana	ochrana	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	14	appos	_	SpaceAfter=No
+19	)	)	PUNCT	Z	_	14	punct	_	SpaceAfter=No
 20	,	,	PUNCT	Z	_	22	punct	_	_
 21	ktoré	ktorý	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	22	nsubj	_	_
 22	znamená	znamenať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	acl	_	_
@@ -421,11 +421,11 @@
 1	Ich	ich	DET	PUfp4	Case=Acc|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
 2	správy	správa	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
 3	potvrdil	potvrdiť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
-4	International	international	X	%	Foreign=Yes	6	flat:foreign	_	_
-5	Chernobyl	chernobyl	X	%	Foreign=Yes	6	flat:foreign	_	_
-6	Project	project	X	%	Foreign=Yes	3	nsubj	_	_
+4	International	international	X	%	Foreign=Yes	3	nsubj	_	_
+5	Chernobyl	chernobyl	X	%	Foreign=Yes	4	flat:foreign	_	_
+6	Project	project	X	%	Foreign=Yes	4	flat:foreign	_	_
 7	Mezinárodnej	medzinárodný	ADJ	AAfs2x:rq	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
-8	agentúry	agentúra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	agentúry	agentúra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 9	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
 10	atómovú	atómový	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
 11	energiu	energia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
@@ -1305,10 +1305,10 @@
 # sent_id = test-s81
 # text = (nature news)
 # orig_file_sentence 001#81
-1	(	(	PUNCT	Z	_	3	punct	_	SpaceAfter=No
-2	nature	nature	X	%	Foreign=Yes	3	flat:foreign	_	_
-3	news	news	X	%	Foreign=Yes	0	root	_	SpaceAfter=No
-4	)	)	PUNCT	Z	_	3	punct	_	_
+1	(	(	PUNCT	Z	_	2	punct	_	SpaceAfter=No
+2	nature	nature	X	%	Foreign=Yes	0	root	_	_
+3	news	news	X	%	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+4	)	)	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = test-s82
 # text = (originál)
@@ -3857,8 +3857,8 @@
 # orig_file_sentence 003#43
 1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
 2	víťazstve	víťazstvo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
-3	Labour	labour	X	%	Foreign=Yes	4	flat:foreign	_	_
-4	Party	party	X	%	Foreign=Yes	2	nmod	_	_
+3	Labour	labour	X	%	Foreign=Yes	2	nmod	_	_
+4	Party	party	X	%	Foreign=Yes	3	flat:foreign	_	_
 5	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	6	case	_	_
 6	voľbách	voľba	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	2	nmod	_	_
 7	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
@@ -8307,10 +8307,10 @@
 13	spise	spis	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
 14	Hviezdny	hviezdny	ADJ	AAms1x:r	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
 15	posol	posol	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
-16	(	(	PUNCT	Z	_	18	punct	_	SpaceAfter=No
-17	Sidereus	sidereus	X	%	Foreign=Yes	18	flat:foreign	_	_
-18	nuntius	nuntius	X	%	Foreign=Yes	15	appos	_	SpaceAfter=No
-19	)	)	PUNCT	Z	_	18	punct	_	SpaceAfter=No
+16	(	(	PUNCT	Z	_	17	punct	_	SpaceAfter=No
+17	Sidereus	sidereus	X	%	Foreign=Yes	15	appos	_	_
+18	nuntius	nuntius	X	%	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	)	)	PUNCT	Z	_	17	punct	_	SpaceAfter=No
 20	,	,	PUNCT	Z	_	26	punct	_	_
 21	lebo	lebo	CCONJ	O	_	26	mark	_	_
 22	latinčinu	latinčina	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
@@ -8975,15 +8975,15 @@
 18	a	a	CCONJ	O	_	19	cc	_	_
 19	odporúčanie	odporúčanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	13	conj	_	_
 20	nájerskému	nájerský	ADJ	AAms3x	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
-21	vojvodovi	vojvoda	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	24	nmod	_	_
-22	Manriquovi	manriquo	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	24	nmod	_	_
-23	de	de	X	%	Foreign=Yes	24	flat:foreign	_	_
-24	Lara	lara	X	%	Foreign=Yes	19	nmod	_	SpaceAfter=No
+21	vojvodovi	vojvoda	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	23	nmod	_	_
+22	Manriquovi	manriquo	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	23	nmod	_	_
+23	de	de	X	%	Foreign=Yes	19	nmod	_	_
+24	Lara	lara	X	%	Foreign=Yes	23	flat:foreign	_	SpaceAfter=No
 25	,	,	PUNCT	ZIP	_	29	punct	_	_
 26	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	29	nsubj	_	_
 27	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	29	cop	_	_
 28	navarrským	navarrský	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
-29	miestokráľom	miestokráľ	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	acl	_	SpaceAfter=No
+29	miestokráľom	miestokráľ	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	23	acl	_	SpaceAfter=No
 30	.	.	PUNCT	ZIP	_	1	punct	_	_
 
 # sent_id = test-s576
