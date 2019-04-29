@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>10604</sentences><tokens>106043</tokens><words>106043</words><fused>0</fused></total>
+    <train><sentences>8483</sentences><tokens>80575</tokens><words>80575</words><fused>0</fused></train>
+    <dev><sentences>1060</sentences><tokens>12440</tokens><words>12440</words><fused>0</fused></dev>
+    <test><sentences>1061</sentences><tokens>13028</tokens><words>13028</words><fused>0</fused></test>
   </size>
   <lemmas unique="14218" /><!-- ., ,, byť, sa, a, “, v, na, ja, to, on, s, že, z, do -->
   <forms unique="25906" /><!-- ., ,, a, sa, “, na, v, som, to, je, že, do, s, z, o -->
@@ -14,7 +17,7 @@
   <tags unique="17">
     <tag name="ADJ">9480</tag><!-- veľký, prvý, celý, nový, ďalší, druhý, dobrý, starý, posledný, slovenský -->
     <tag name="ADP">8558</tag><!-- v, na, s, z, do, o, k, po, za, od -->
-    <tag name="ADV">4393</tag><!-- veľmi, potom, tu, tam, kde, tak, opäť, vtedy, nikdy, teraz -->
+    <tag name="ADV">4402</tag><!-- veľmi, potom, tu, tam, kde, tak, opäť, vtedy, nikdy, teraz -->
     <tag name="AUX">3712</tag><!-- byť, by, sa, sto, bývať, mať, stať -->
     <tag name="CCONJ">3374</tag><!-- a, ale, aj, alebo, i, ani, či, však, lebo, no -->
     <tag name="DET">4407</tag><!-- to, ktorý, jeho, svoj, ten, všetok, môj, jej, táto, tento -->
@@ -28,11 +31,11 @@
     <tag name="SCONJ">1888</tag><!-- že, keď, ako, aby, ak, kým, keby, akoby, čo, pretože -->
     <tag name="SYM">22</tag><!-- %, +, = -->
     <tag name="VERB">14059</tag><!-- mať, byť, povedať, môcť, chcieť, ísť, vedieť, musieť, prísť, stať -->
-    <tag name="X">774</tag><!-- j, o, tzv, sv, sr, usa, a, eú, c, p -->
+    <tag name="X">765</tag><!-- j, o, tzv, sv, sr, usa, a, eú, c, p -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="61">
-    <feat name="Abbr" value="Yes" upos="X">404</feat><!-- j, tzv, sv, SR, USA, EÚ, P, c, r, A -->
+    <feat name="Abbr" value="Yes" upos="ADV,X">404</feat><!-- j, tzv, sv, SR, USA, EÚ, P, c, r, A -->
     <feat name="AdpType" value="Prep" upos="ADP">8102</feat><!-- na, v, do, s, z, o, po, za, k, od -->
     <feat name="AdpType" value="Preppron" upos="PRON">54</feat><!-- naňho, naň, doň, preňho, doňho, uňho, oňho, poňho, zaňho -->
     <feat name="AdpType" value="Voc" upos="ADP">456</feat><!-- vo, so, zo, ku, nado, odo, predo, bezo, podo -->
@@ -57,7 +60,7 @@
     <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">9115</feat><!-- to, čo, bolo, niečo, nič, jeho, všetko, oči, toho, ktoré -->
     <feat name="Gender[psor]" value="Fem" upos="DET">155</feat><!-- jej -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET">325</feat><!-- jeho, ich, jej -->
-    <feat name="Hyph" value="Yes" upos="X">124</feat><!-- O, po, česko, San, rostovsko, v, KLIP, El, a, al -->
+    <feat name="Hyph" value="Yes" upos="ADV,X">124</feat><!-- O, po, česko, San, rostovsko, v, KLIP, El, a, al -->
     <feat name="Mood" value="Cnd" upos="AUX,PART,SCONJ">460</feat><!-- aby, by, akoby, keby, Niežeby -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">277</feat><!-- pozri, poď, počkajte, počkaj, Prestaň, daj, nerob, pustite, čujte, Dotkni -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">5930</feat><!-- som, je, sme, sú, bude, si, má, ste, ide, môže -->
@@ -98,7 +101,7 @@
   <deps unique="41">
     <dep name="acl">982</dep>
     <dep name="advcl">833</dep>
-    <dep name="advmod">4896</dep>
+    <dep name="advmod">4862</dep>
     <dep name="advmod:emph">940</dep>
     <dep name="amod">8022</dep>
     <dep name="appos">295</dep>
@@ -123,12 +126,12 @@
     <dep name="flat:foreign">81</dep>
     <dep name="iobj">752</dep>
     <dep name="mark">1947</dep>
-    <dep name="nmod">6958</dep>
+    <dep name="nmod">6960</dep>
     <dep name="nsubj">7124</dep>
     <dep name="nsubj:pass">221</dep>
     <dep name="nummod">1072</dep>
-    <dep name="obj">6295</dep>
-    <dep name="obl">5915</dep>
+    <dep name="obj">6293</dep>
+    <dep name="obl">5949</dep>
     <dep name="obl:agent">7</dep>
     <dep name="obl:arg">1147</dep>
     <dep name="orphan">128</dep>
