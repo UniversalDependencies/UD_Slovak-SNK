@@ -17,29 +17,29 @@
   <tags unique="17">
     <tag name="ADJ">9480</tag><!-- veľký, prvý, celý, nový, ďalší, druhý, dobrý, starý, posledný, slovenský -->
     <tag name="ADP">8558</tag><!-- v, na, s, z, do, o, k, po, za, od -->
-    <tag name="ADV">4402</tag><!-- veľmi, potom, tu, tam, kde, tak, opäť, vtedy, nikdy, teraz -->
-    <tag name="AUX">3712</tag><!-- byť, by, sa, sto, bývať, mať, stať -->
-    <tag name="CCONJ">3374</tag><!-- a, ale, aj, alebo, i, ani, či, však, lebo, no -->
+    <tag name="ADV">4408</tag><!-- veľmi, potom, tu, tam, kde, tak, opäť, vtedy, nikdy, teraz -->
+    <tag name="AUX">3709</tag><!-- byť, by, sa, sto, bývať, stať -->
+    <tag name="CCONJ">3377</tag><!-- a, ale, aj, alebo, i, ani, či, však, lebo, no -->
     <tag name="DET">4407</tag><!-- to, ktorý, jeho, svoj, ten, všetok, môj, jej, táto, tento -->
     <tag name="INTJ">66</tag><!-- mhm, haló, pozor, bum, aha, amen, klap, ach, pche, preboha -->
     <tag name="NOUN">21661</tag><!-- rok, vláda, deň, človek, chvíľa, oko, ruka, mama, tvár, život -->
     <tag name="NUM">1573</tag><!-- jeden, dva, tri, oba, ii, 1, štyri, 11, 2, mnoho -->
-    <tag name="PART">1928</tag><!-- aj, však, nie, len, už, a, až, iba, ani, ešte -->
+    <tag name="PART">1925</tag><!-- aj, však, nie, len, už, a, až, iba, ani, ešte -->
     <tag name="PRON">6450</tag><!-- sa, ja, on, ona, si, čo, ty, my, niečo, nič -->
-    <tag name="PROPN">4568</tag><!-- maja, chris, winston, aladin, vilko, Mauglí, jazmína, lori, bush, marga -->
+    <tag name="PROPN">4830</tag><!-- maja, chris, winston, aladin, vilko, Mauglí, jazmína, lori, bush, marga -->
     <tag name="PUNCT">19130</tag><!-- ., ,, “, !, ?, ", ), (, :, „ -->
     <tag name="SCONJ">1888</tag><!-- že, keď, ako, aby, ak, kým, keby, akoby, čo, pretože -->
     <tag name="SYM">22</tag><!-- %, +, = -->
-    <tag name="VERB">14059</tag><!-- mať, byť, povedať, môcť, chcieť, ísť, vedieť, musieť, prísť, stať -->
-    <tag name="X">765</tag><!-- j, o, tzv, sv, sr, usa, a, eú, c, p -->
+    <tag name="VERB">14062</tag><!-- mať, byť, povedať, môcť, chcieť, ísť, vedieť, musieť, prísť, stať -->
+    <tag name="X">497</tag><!-- o, tzv, sv, po, česko, km, c, r, the, č -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="61">
-    <feat name="Abbr" value="Yes" upos="ADV,X">404</feat><!-- j, tzv, sv, SR, USA, EÚ, P, c, r, A -->
+  <feats unique="62">
+    <feat name="Abbr" value="Yes" upos="ADV,PROPN,X">404</feat><!-- j, tzv, sv, SR, USA, EÚ, P, c, r, A -->
     <feat name="AdpType" value="Prep" upos="ADP">8102</feat><!-- na, v, do, s, z, o, po, za, k, od -->
     <feat name="AdpType" value="Preppron" upos="PRON">54</feat><!-- naňho, naň, doň, preňho, doňho, uňho, oňho, poňho, zaňho -->
     <feat name="AdpType" value="Voc" upos="ADP">456</feat><!-- vo, so, zo, ku, nado, odo, predo, bezo, podo -->
-    <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">12239</feat><!-- ho, bol, mu, mal, povedal, Chris, Winston, ich, ktorý, Aladin -->
+    <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">12239</feat><!-- ho, bol, mu, mal, povedal, Chris, Winston, ich, ktorý, Aladin -->
     <feat name="Animacy" value="Inan" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">12178</feat><!-- roku, bol, ktorý, jeho, ho, deň, ten, ich, jej, rokov -->
     <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">10164</feat><!-- som, je, bol, sme, bola, bolo, sú, bude, mal, boli -->
     <feat name="Aspect" value="Imp,Perf" upos="VERB">292</feat><!-- dal, venovať, počul, dali, venoval, dala, dá, stačilo, daj, dať -->
@@ -49,14 +49,15 @@
     <feat name="Case" value="Gen" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN">11093</feat><!-- do, z, od, roku, zo, podľa, jeho, toho, okolo, bez -->
     <feat name="Case" value="Ins" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">4505</feat><!-- s, pred, so, za, medzi, pod, nad, ním, jeho, mnou -->
     <feat name="Case" value="Loc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">7416</feat><!-- v, na, po, o, pri, vo, roku, tom, jeho, rokoch -->
-    <feat name="Case" value="Nom" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,X">14605</feat><!-- to, ja, Maja, vláda, jeho, ktoré, ktorý, čo, Chris, ktorá -->
+    <feat name="Case" value="Nom" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN">14605</feat><!-- to, ja, Maja, vláda, jeho, ktoré, ktorý, čo, Chris, ktorá -->
     <feat name="Case" value="Voc" upos="NOUN,PROPN">42</feat><!-- Winston, Baghíra, mami, Džafar, pane, slečna, chlapče, ocko, Abubu, Ali -->
+    <feat name="ConjType" value="Oper" upos="SYM">2</feat><!-- + -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">240</feat><!-- viac, lepšie, bližšie, dlhšie, vyššie, menej, nižšie, radšej, silnejšie, starší -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">12018</feat><!-- veľmi, potom, opäť, teraz, stále, už, dnes, neskôr, dobre, celý -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">189</feat><!-- najlepšie, najradšej, najväčším, najčastejšie, najviac, najväčšie, najvýznamnejších, najdôležitejšie, najlepšia, najlepší -->
     <feat name="Foreign" value="Yes" upos="X">241</feat><!-- the, of, REUTERS, Energy, Evangelium, Film, Grazie, Harken, International, Lara -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">19032</feat><!-- bola, jej, ju, Maja, jeho, vláda, povedala, ktorá, chvíľu, mama -->
-    <feat name="Gender" value="Masc" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">24417</feat><!-- bol, ho, mu, roku, ktorý, mal, jeho, povedal, ich, ten -->
+    <feat name="Gender" value="Masc" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">24417</feat><!-- bol, ho, mu, roku, ktorý, mal, jeho, povedal, ich, ten -->
     <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">9115</feat><!-- to, čo, bolo, niečo, nič, jeho, všetko, oči, toho, ktoré -->
     <feat name="Gender[psor]" value="Fem" upos="DET">155</feat><!-- jej -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET">325</feat><!-- jeho, ich, jej -->
@@ -65,7 +66,7 @@
     <feat name="Mood" value="Imp" upos="AUX,VERB">277</feat><!-- pozri, poď, počkajte, počkaj, Prestaň, daj, nerob, pustite, čujte, Dotkni -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">5930</feat><!-- som, je, sme, sú, bude, si, má, ste, ide, môže -->
     <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">12637</feat><!-- sme, sú, ich, boli, ktoré, jeho, nás, nich, oči, ste -->
-    <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">47856</feat><!-- som, to, je, mi, bol, ho, jej, ma, jeho, bola -->
+    <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">47856</feat><!-- som, to, je, mi, bol, ho, jej, ma, jeho, bola -->
     <feat name="Number[psor]" value="Plur" upos="DET">204</feat><!-- ich, naše, našej, náš, nášho, našu, vaše, našich, našom, naša -->
     <feat name="Number[psor]" value="Sing" upos="DET">727</feat><!-- jeho, jej, môj, moja, moje, môjho, mojich, mojej, moju, tvoj -->
     <feat name="NumForm" value="Digit" upos="NUM">945</feat><!-- II, 1, 11, 2, I, 2004, 4, 20, 10, III -->
@@ -101,7 +102,7 @@
   <deps unique="41">
     <dep name="acl">982</dep>
     <dep name="advcl">833</dep>
-    <dep name="advmod">4862</dep>
+    <dep name="advmod">4861</dep>
     <dep name="advmod:emph">940</dep>
     <dep name="amod">8022</dep>
     <dep name="appos">295</dep>
@@ -112,25 +113,25 @@
     <dep name="ccomp">1256</dep>
     <dep name="compound">5</dep>
     <dep name="conj">4053</dep>
-    <dep name="cop">1587</dep>
+    <dep name="cop">1584</dep>
     <dep name="csubj">162</dep>
     <dep name="csubj:pass">20</dep>
     <dep name="dep">605</dep>
     <dep name="det">2560</dep>
     <dep name="det:numgov">43</dep>
-    <dep name="discourse">45</dep>
+    <dep name="discourse">46</dep>
     <dep name="expl:pass">221</dep>
     <dep name="expl:pv">2621</dep>
     <dep name="fixed">185</dep>
-    <dep name="flat">14</dep>
+    <dep name="flat">18</dep>
     <dep name="flat:foreign">81</dep>
     <dep name="iobj">752</dep>
     <dep name="mark">1947</dep>
-    <dep name="nmod">6960</dep>
+    <dep name="nmod">6958</dep>
     <dep name="nsubj">7124</dep>
     <dep name="nsubj:pass">221</dep>
     <dep name="nummod">1072</dep>
-    <dep name="obj">6293</dep>
+    <dep name="obj">6291</dep>
     <dep name="obl">5949</dep>
     <dep name="obl:agent">7</dep>
     <dep name="obl:arg">1147</dep>
@@ -139,6 +140,6 @@
     <dep name="punct">19129</dep>
     <dep name="root">10604</dep>
     <dep name="vocative">34</dep>
-    <dep name="xcomp">1212</dep>
+    <dep name="xcomp">1215</dep>
   </deps>
 </treebank>
