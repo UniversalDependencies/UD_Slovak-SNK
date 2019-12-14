@@ -17,14 +17,14 @@
   <tags unique="17">
     <tag name="ADJ">9474</tag><!-- veľký, prvý, celý, nový, ďalší, druhý, dobrý, starý, posledný, slovenský -->
     <tag name="ADP">8558</tag><!-- v, na, s, z, do, o, k, po, za, od -->
-    <tag name="ADV">4433</tag><!-- veľmi, potom, tu, tam, kde, tak, opäť, vtedy, ako, nikdy -->
+    <tag name="ADV">4445</tag><!-- veľmi, potom, tu, tam, kde, tak, opäť, vtedy, ako, nikdy -->
     <tag name="AUX">3723</tag><!-- byť, by, bývať -->
     <tag name="CCONJ">3376</tag><!-- a, ale, aj, alebo, i, ani, či, však, lebo, no -->
     <tag name="DET">4404</tag><!-- to, ktorý, jeho, svoj, ten, všetok, môj, jej, táto, tento -->
     <tag name="INTJ">66</tag><!-- mhm, haló, pozor, bum, aha, amen, klap, ach, pche, preboha -->
     <tag name="NOUN">21661</tag><!-- rok, vláda, deň, človek, chvíľa, oko, ruka, mama, tvár, život -->
     <tag name="NUM">1573</tag><!-- jeden, dva, tri, oba, ii, 1, štyri, 11, 2, mnoho -->
-    <tag name="PART">1928</tag><!-- aj, však, nie, len, už, a, až, iba, ani, ešte -->
+    <tag name="PART">1916</tag><!-- aj, však, nie, len, už, a, až, iba, ani, ešte -->
     <tag name="PRON">6435</tag><!-- sa, ja, on, ona, si, čo, ty, my, niečo, nič -->
     <tag name="PROPN">4830</tag><!-- maja, chris, winston, aladin, vilko, Mauglí, jazmína, lori, bush, marga -->
     <tag name="PUNCT">19130</tag><!-- ., ,, “, !, ?, ", ), (, :, „ -->
@@ -62,7 +62,7 @@
     <feat name="Gender[psor]" value="Fem" upos="DET">155</feat><!-- jej -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET">325</feat><!-- jeho, ich, jej -->
     <feat name="Hyph" value="Yes" upos="ADV,X">123</feat><!-- O, po, česko, San, rostovsko, v, KLIP, El, a, al -->
-    <feat name="Mood" value="Cnd" upos="AUX,PART,SCONJ">460</feat><!-- aby, by, akoby, keby, Niežeby -->
+    <feat name="Mood" value="Cnd" upos="ADV,AUX,PART,SCONJ">460</feat><!-- aby, by, akoby, keby, Niežeby -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">277</feat><!-- pozri, poď, počkajte, počkaj, Prestaň, daj, nerob, pustite, čujte, Dotkni -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">5950</feat><!-- som, je, sme, sú, bude, si, má, ste, ide, môže -->
     <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">12637</feat><!-- sme, sú, ich, boli, ktoré, jeho, nás, nich, oči, ste -->
@@ -99,10 +99,11 @@
     <feat name="Voice" value="Pass" upos="ADJ">976</feat><!-- ozbrojených, sledovaných, zmätený, Zhlúpnutý, nájdené, otvorené, pripravená, pripravený, uvedených, zatajeným -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="40">
-    <dep name="acl">984</dep>
+  <deps unique="41">
+    <dep name="acl">263</dep>
+    <dep name="acl:relcl">721</dep>
     <dep name="advcl">833</dep>
-    <dep name="advmod">4846</dep>
+    <dep name="advmod">4858</dep>
     <dep name="advmod:emph">940</dep>
     <dep name="amod">8020</dep>
     <dep name="appos">295</dep>
@@ -126,7 +127,7 @@
     <dep name="flat">18</dep>
     <dep name="flat:foreign">81</dep>
     <dep name="iobj">128</dep>
-    <dep name="mark">1962</dep>
+    <dep name="mark">1950</dep>
     <dep name="nmod">6957</dep>
     <dep name="nsubj">7124</dep>
     <dep name="nsubj:pass">221</dep>
