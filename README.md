@@ -46,6 +46,12 @@ subset and conversion to Universal Dependencies was done by Dan Zeman.
 
 # Changelog:
 
+* 2020-05-15 v2.6
+  * Genitive, dative and instrumental nominals are now considered oblique.
+  * Added enhanced relations with case information.
+  * Added enhanced relations around relative clauses.
+  * Added enhanced external subjects in control verb constructions.
+  * Added empty nodes to enhanced graphs (but orphans are just converted to dep).
 * 2019-05-15 v2.4
   * Fixed some bugs identified by the new validator.
 * 2018-04-15 v2.2
