@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Slovak-SNK:
-commit 1b83de3f4e618e7d906d119dfc2183cd765cbe50
+commit cfb631c63646aaca1c1e4acb5804326883f6e84c
+Merge: 190993e a2f8a8b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 10 21:41:57 2019 +0200
 Size: counted 106043 of 106043 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.327689344463.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,7 +19,7 @@ Features: 79921 out of 106043 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 1746 bugs.
+Udapi: found 1716 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 106043 words.
 Genres: found 3 out of 17 known.
 validate.py --lang sk --max-err=10 UD_Slovak-SNK/sk_snk-ud-dev.conllu
@@ -35,8 +35,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.675160668534674) = 0.173118120137096
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.835349810925757) = 0.257030711054079
+(weight=0.307692307692308) * (score{udapi}=0.838178851975142) = 0.257901185223121
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.732843380944548) * (availability=1) * (validity=1) = 0.732843380944548
+(TOTAL score=0.73371385511359) * (availability=1) * (validity=1) = 0.73371385511359
 STARS = 3.5
-UD_Slovak-SNK	0.732843380944548	3.5
+UD_Slovak-SNK	0.73371385511359	3.5
