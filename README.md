@@ -46,6 +46,8 @@ subset and conversion to Universal Dependencies was done by Dan Zeman.
 
 # Changelog:
 
+* 2021-05-15 v2.8
+  * Fixed recognition of clauses with passive participles (ADJ).
 * 2020-05-15 v2.6
   * Changed sentence ids to preserve the name of the source text.
     * Side effect: The order of the sentences changed, and so did the train-dev-test data split.
