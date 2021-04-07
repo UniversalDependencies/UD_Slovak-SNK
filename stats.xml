@@ -5,18 +5,18 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>10604</sentences><tokens>106043</tokens><words>106043</words><fused>0</fused></total>
-    <train><sentences>8483</sentences><tokens>80575</tokens><words>80575</words><fused>0</fused></train>
+    <total><sentences>10604</sentences><tokens>106043</tokens><words>106097</words><fused>54</fused></total>
+    <train><sentences>8483</sentences><tokens>80575</tokens><words>80628</words><fused>53</fused></train>
     <dev><sentences>1060</sentences><tokens>12733</tokens><words>12733</words><fused>0</fused></dev>
-    <test><sentences>1061</sentences><tokens>12735</tokens><words>12735</words><fused>0</fused></test>
+    <test><sentences>1061</sentences><tokens>12735</tokens><words>12736</words><fused>1</fused></test>
   </size>
-  <lemmas unique="14220" /><!-- ., ,, byť, sa, a, “, v, na, ja, to, on, s, že, z, do -->
-  <forms unique="25906" /><!-- ., ,, a, sa, “, na, v, som, to, je, že, do, s, z, o -->
-  <fusions unique="0" /><!--  -->
+  <lemmas unique="14210" /><!-- ., ,, byť, sa, a, “, v, na, ja, on, to, s, že, z, do -->
+  <forms unique="25897" /><!-- ., ,, a, sa, “, na, v, som, to, je, že, do, s, z, o -->
+  <fusions unique="9" /><!-- naňho, naň, doň, preňho, doňho, uňho, oňho, poňho, zaňho -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">9474</tag><!-- veľký, prvý, celý, nový, ďalší, druhý, dobrý, starý, posledný, slovenský -->
-    <tag name="ADP">8558</tag><!-- v, na, s, z, do, o, k, po, za, od -->
+    <tag name="ADP">8612</tag><!-- v, na, s, z, do, o, k, po, za, od -->
     <tag name="ADV">4445</tag><!-- veľmi, potom, tu, tam, kde, tak, opäť, vtedy, ako, nikdy -->
     <tag name="AUX">3723</tag><!-- byť, by, bývať -->
     <tag name="CCONJ">3376</tag><!-- a, ale, aj, alebo, i, ani, či, však, lebo, no -->
@@ -34,19 +34,18 @@
     <tag name="X">496</tag><!-- o, tzv, sv, po, česko, km, c, r, the, č -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="62">
+  <feats unique="61">
     <feat name="Abbr" value="Yes" upos="ADV,PROPN,X">404</feat><!-- j, tzv, sv, SR, USA, EÚ, P, c, r, A -->
-    <feat name="AdpType" value="Prep" upos="ADP">8102</feat><!-- na, v, do, s, z, o, po, za, k, od -->
-    <feat name="AdpType" value="Preppron" upos="PRON">54</feat><!-- naňho, naň, doň, preňho, doňho, uňho, oňho, poňho, zaňho -->
+    <feat name="AdpType" value="Prep" upos="ADP">8156</feat><!-- na, v, do, s, z, o, po, za, k, od -->
     <feat name="AdpType" value="Voc" upos="ADP">456</feat><!-- vo, so, zo, ku, nado, odo, predo, bezo, podo -->
-    <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">12238</feat><!-- ho, bol, mu, mal, povedal, Chris, Winston, ich, ktorý, Aladin -->
+    <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">12238</feat><!-- ho, bol, mu, mal, povedal, Chris, Winston, ich, ktorý, neho -->
     <feat name="Animacy" value="Inan" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">12176</feat><!-- roku, bol, ktorý, jeho, ho, deň, ten, ich, jej, rokov -->
     <feat name="Aspect" value="Imp" upos="AUX,VERB">10179</feat><!-- som, je, bol, sme, bola, bolo, sú, bude, mal, boli -->
     <feat name="Aspect" value="Imp,Perf" upos="VERB">292</feat><!-- dal, venovať, počul, dali, venoval, dala, dá, stačilo, daj, dať -->
     <feat name="Aspect" value="Perf" upos="VERB">7135</feat><!-- povedal, povedala, odvetil, spýtal, odvetila, zvolala, začal, stal, prišiel, spýtala -->
-    <feat name="Case" value="Acc" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN">12509</feat><!-- na, ho, to, ma, o, za, ju, pre, ich, čo -->
+    <feat name="Case" value="Acc" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN">12554</feat><!-- na, ho, to, ma, o, za, ju, pre, ich, čo -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">2630</feat><!-- mi, k, mu, jej, im, tomu, ku, ti, mne, proti -->
-    <feat name="Case" value="Gen" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN">11093</feat><!-- do, z, od, roku, zo, podľa, jeho, toho, okolo, bez -->
+    <feat name="Case" value="Gen" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN">11102</feat><!-- do, z, od, roku, zo, podľa, jeho, toho, okolo, bez -->
     <feat name="Case" value="Ins" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">4505</feat><!-- s, pred, so, za, medzi, pod, nad, ním, jeho, mnou -->
     <feat name="Case" value="Loc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">7416</feat><!-- v, na, po, o, pri, vo, roku, tom, jeho, rokoch -->
     <feat name="Case" value="Nom" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN">14600</feat><!-- to, ja, Maja, vláda, jeho, ktoré, ktorý, čo, Chris, ktorá -->
@@ -109,7 +108,7 @@
     <dep name="appos">295</dep>
     <dep name="aux">2037</dep>
     <dep name="aux:pass">102</dep>
-    <dep name="case">8557</dep>
+    <dep name="case">8611</dep>
     <dep name="cc">3303</dep>
     <dep name="ccomp">1260</dep>
     <dep name="compound">5</dep>
