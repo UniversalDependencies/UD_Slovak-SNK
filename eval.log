@@ -1,13 +1,13 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Slovak-SNK:
-commit cde0405d6719b4f68b42517d573a3a491cd986de
+commit 55d422e0ceef4e4cc38f79613905ca0578c60516
+Merge: 81dafa1 a2b670a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 10 18:42:17 2020 +0200
-Size: counted 106043 of 106043 words (nodes).
-Size: min(0, log((N/1000)**2)) = 9.327689344463.
+Size: counted 106097 of 106097 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.32870754001624.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,12 +15,14 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 79921 out of 106043 total words have one or more features.
+Features: 79975 out of 106097 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
+Udapi:
+               TOTAL       1716
 Udapi: found 1716 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 106043 words.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 106097 words.
 Genres: found 3 out of 17 known.
 validate.py --lang sk --max-err=10 UD_Slovak-SNK/sk_snk-ud-dev.conllu
 *** PASSED ***
@@ -32,11 +34,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.675160668534674) = 0.173118120137096
+(weight=0.256410256410256) * (score{size}=0.675234367986386) = 0.173137017432407
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.838178851975142) = 0.257901185223121
+(weight=0.307692307692308) * (score{udapi}=0.838261213794923) = 0.257926527321515
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.73371385511359) * (availability=1) * (validity=1) = 0.73371385511359
+(TOTAL score=0.733758094507295) * (availability=1) * (validity=1) = 0.733758094507295
 STARS = 3.5
-UD_Slovak-SNK	0.73371385511359	3.5
+UD_Slovak-SNK	0.733758094507295	3.5
