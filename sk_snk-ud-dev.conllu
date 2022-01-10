@@ -2643,7 +2643,7 @@
 5	daní	daň	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	4	nmod	4:nmod:gen	_
 6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	mark	8:mark	_
 7	cieľom	cieľ	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	fixed	6:fixed	_
-8	oživiť	oživiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	advcl	1:advcl:s_cieľ	_
+8	oživiť	oživiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	advcl	1:advcl:s_cieľom	_
 9	americkú	americký	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	10:amod	_
 10	spotrebu	spotreba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obj	8:obj	SpaceAfter=No
 11	.	.	PUNCT	Z	_	1	punct	1:punct	_
@@ -3988,7 +3988,7 @@
 1	Verejná	verejný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	2:amod	_
 2	mienka	mienka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	11:nsubj	_
 3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	4:case	_
-4	USA	usa	PROPN	W	Abbr=Yes	2	nmod	2:nmod:v	_
+4	USA	usa	PROPN	W	Abbr=Yes	2	nmod	2:nmod:v:loc	_
 5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	11:expl:pv	_
 6	postupne	postupne	ADV	Dx	Degree=Pos	11	advmod	11:advmod	_
 7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	9:case	_
@@ -4040,7 +4040,7 @@
 3	vyšetrovania	vyšetrovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	8	obl	8:obl:podľa:gen	_
 4	vedeného	vedený	ADJ	Gtns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	amod	3:amod	_
 5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	6:case	_
-6	USA	usa	PROPN	W	Abbr=Yes	4	obl	4:obl:v	_
+6	USA	usa	PROPN	W	Abbr=Yes	4	obl	4:obl:v:loc	_
 7	vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	8:nsubj	_
 8	nezasahovala	zasahovať	VERB	VLescf-	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	0:root	_
 9	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	10:case	_
@@ -4428,7 +4428,7 @@
 3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	4:expl:pv	_
 4	dostavilo	dostaviť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
 5	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	6:case	_
-6	12	12	NUM	0	NumForm=Digit	9	obl	9:obl:o	_
+6	12	12	NUM	0	NumForm=Digit	9	obl	9:obl:o:acc	_
 7	miliónov	milión	NUM	NSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nummod	6:nummod	_
 8	ľudí	človek	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	7:nmod:gen	_
 9	viac	viac	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	4	nsubj	4:nsubj	_
@@ -5265,7 +5265,7 @@
 # text = O 1: 23: 04 sa začal experiment.
 # orig_file_sentence 004#28
 1	O	o	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	2:case	_
-2	1	1	NUM	0	NumForm=Digit	8	obl	8:obl:o	SpaceAfter=No
+2	1	1	NUM	0	NumForm=Digit	8	obl	8:obl:o:loc	SpaceAfter=No
 3	:	:	PUNCT	Z	_	4	punct	4:punct	_
 4	23	23	NUM	0	NumForm=Digit	2	conj	2:conj|8:obl:o	SpaceAfter=No
 5	:	:	PUNCT	Z	_	6	punct	6:punct	_
@@ -5306,7 +5306,7 @@
 # text = O 1: 23: 40 stlačili operátori tlačidlo „AZ“ (аварийная защита – havarijná ochrana), ktoré znamená rýchle odstavenie reaktora – kompletné zasunutie všetkých regulačných tyčí, vrátane ručne ovládaných tyčí, ktoré boli predtým neobozretne vytiahnuté.
 # orig_file_sentence 004#30
 1	O	o	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	2:case	_
-2	1	1	NUM	0	NumForm=Digit	7	obl	7:obl:o	SpaceAfter=No
+2	1	1	NUM	0	NumForm=Digit	7	obl	7:obl:o:loc	SpaceAfter=No
 3	:	:	PUNCT	Z	_	4	punct	4:punct	_
 4	23	23	NUM	0	NumForm=Digit	2	conj	2:conj|7:obl:o	SpaceAfter=No
 5	:	:	PUNCT	Z	_	6	punct	6:punct	_
@@ -7728,12 +7728,12 @@
 13	rokmi	rok	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	obl	11:obl:medzi:ins	_
 14	200	200	NUM	0	NumForm=Digit	13	nummod	13:nummod	_
 15	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	16	case	16:case	_
-16	Kr	kr	X	W	Abbr=Yes	14	nmod	14:nmod:pred	SpaceAfter=No
+16	Kr	kr	X	W	Abbr=Yes	14	nmod	14:nmod:pred:ins	SpaceAfter=No
 17	.	.	PUNCT	Z	_	16	punct	16:punct	_
 18	a	a	CCONJ	O	_	19	cc	19:cc	_
 19	600	600	NUM	0	NumForm=Digit	14	conj	13:nummod|14:conj	_
 20	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	21:case	_
-21	Kr	kr	X	W	Abbr=Yes	19	nmod	19:nmod:po	SpaceAfter=No
+21	Kr	kr	X	W	Abbr=Yes	19	nmod	19:nmod:po:loc	SpaceAfter=No
 22	.	.	PUNCT	Z	_	4	punct	4:punct	_
 
 # sent_id = wikipedia:kosatka006:kosatka006-p8s1
@@ -7752,7 +7752,7 @@
 11	asi	asi	PART	T	_	12	advmod:emph	12:advmod:emph	_
 12	50	50	NUM	0	NumForm=Digit	10	obl	10:obl	_
 13	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	14	case	14:case	_
-14	Kr	kr	X	W	Abbr=Yes	12	nmod	12:nmod:pred	SpaceAfter=No
+14	Kr	kr	X	W	Abbr=Yes	12	nmod	12:nmod:pred:ins	SpaceAfter=No
 15	.	.	PUNCT	Z	_	14	punct	14:punct	SpaceAfter=No
 16	)	)	PUNCT	Z	_	10	punct	10:punct	SpaceAfter=No
 17	.	.	PUNCT	Z	_	4	punct	4:punct	_
@@ -9543,7 +9543,7 @@
 23	septembra	september	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	obl	20:obl:gen	_
 24	1959	1959	NUM	0	NumForm=Digit	23	nummod	23:nummod	_
 25	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	26	case	26:case	_
-26	21	21	NUM	0	NumForm=Digit	20	obl	20:obl:o	SpaceAfter=No
+26	21	21	NUM	0	NumForm=Digit	20	obl	20:obl:o:loc	SpaceAfter=No
 27	:	:	PUNCT	Z	_	28	punct	28:punct	_
 28	02	02	NUM	0	NumForm=Digit	26	conj	20:obl:o|26:conj	SpaceAfter=No
 29	:	:	PUNCT	Z	_	30	punct	30:punct	_
@@ -12355,7 +12355,7 @@
 18	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	19	case	19:case	_
 19	Kartága	kartágo	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	15	obl	15:obl:z:gen	_
 20	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	21:case	_
-21	ústreti	ústrety	ADP	Eu3	AdpType=Prep|Case=Dat	15	obl	15:obl:v:dat	_
+21	ústreti	ústrety	ADP	Eu3	AdpType=Prep|Case=Dat	15	obl	15:obl:v:loc	_
 22	Konštantínopolu	konštantínopol	PROPN	SSis3:r	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	21	nmod	21:nmod:dat	SpaceAfter=No
 23	.	.	PUNCT	Z	_	15	punct	15:punct	_
 
@@ -12575,7 +12575,7 @@
 # orig_file_sentence 008#82
 1	Mlieko	mlieko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	0	root	0:root	_
 2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	3:case	_
-3	SR	sr	PROPN	W	Abbr=Yes	1	nmod	1:nmod:v	_
+3	SR	sr	PROPN	W	Abbr=Yes	1	nmod	1:nmod:v:loc	_
 
 # sent_id = wikipedia:wiki-04:wiki_04-p6s2
 # text = V roku 1841 jeho syn Johann začal hromadnú výrobu.

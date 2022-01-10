@@ -859,7 +859,7 @@
 6	lidu	lidu	X	%	Foreign=Yes	4	flat:foreign	4:flat:foreign	_
 7	slovenského	slovenský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	6:amod	_
 8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	9:case	_
-9	Uhřích	uhřích	X	%	Foreign=Yes	6	nmod	6:nmod:v	SpaceAfter=No
+9	Uhřích	uhřích	X	%	Foreign=Yes	6	nmod	6:nmod:v:loc	SpaceAfter=No
 10	.	.	PUNCT	Z	_	1	punct	1:punct	_
 
 # sent_id = wikipedia:wiki2367:wiki2367-p1s152
@@ -2458,7 +2458,7 @@
 6	jednoducho	jednoducho	ADV	Dx	Degree=Pos	7	advmod	7:advmod	_
 7	napísane	napísaný	ADJ	Gtip1x:q	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Typo=Yes|VerbForm=Part|Voice=Pass	4	xcomp	4:xcomp	_
 8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	9:case	_
-9	C	c	PROPN	W	Abbr=Yes	7	obl	7:obl:v	_
+9	C	c	PROPN	W	Abbr=Yes	7	obl	7:obl:v:loc	_
 10	alebo	alebo	CCONJ	O	_	11	cc	11:cc	_
 11	C	c	PROPN	W	Abbr=Yes	9	conj	7:obl:v|9:conj	_
 12	+	+	SYM	Z	_	11	nmod	11:nmod	_
@@ -2684,10 +2684,10 @@
 8	modulmi	modul	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	obl	6:obl:ins	_
 9	napísanými	napísaný	ADJ	Gtip7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	8:amod	_
 10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	11:case	_
-11	C	c	PROPN	W	Abbr=Yes	9	obl	9:obl:v	_
+11	C	c	PROPN	W	Abbr=Yes	9	obl	9:obl:v:loc	_
 12	alebo	alebo	CCONJ	O	_	14	cc	14:cc	_
 13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	14:case	_
-14	Pythone	python	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	conj	9:obl:v|11:conj	SpaceAfter=No
+14	Pythone	python	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	conj	9:obl:v:loc|11:conj	SpaceAfter=No
 15	.	.	PUNCT	Z	_	4	punct	4:punct	_
 
 # sent_id = wikipedia:wiki2642:wiki2642-p1s75
@@ -2707,7 +2707,7 @@
 12	môžu	môcť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	conj	0:root|6:conj	_
 13	pracovať	pracovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	12	xcomp	12:xcomp	_
 14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	15:case	_
-15	UNIX	unix	PROPN	W	Abbr=Yes	13	obl	13:obl:v	SpaceAfter=No
+15	UNIX	unix	PROPN	W	Abbr=Yes	13	obl	13:obl:v:loc	SpaceAfter=No
 16	,	,	PUNCT	Z	_	17	punct	17:punct	_
 17	Windows	windows	PROPN	SUis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	conj	13:obl:v|15:conj	SpaceAfter=No
 18	,	,	PUNCT	Z	_	19	punct	19:punct	_
@@ -3248,7 +3248,7 @@
 5	pätdesiat	pätdesiat	NUM	NUnp4	Case=Acc|Gender=Neut|Number=Plur	3	obl	3:obl:za:acc	_
 6	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	5:nmod:gen	_
 7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	8:case	_
-8	742	742	NUM	0	NumForm=Digit	3	obl	3:obl:na	SpaceAfter=No
+8	742	742	NUM	0	NumForm=Digit	3	obl	3:obl:na:acc	SpaceAfter=No
 9	.	.	PUNCT	Z	_	3	punct	3:punct	_
 
 # sent_id = wikipedia:wiki2681:wiki2681-p1s38
@@ -3263,7 +3263,7 @@
 7	obce	obec	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	6:nmod:gen	_
 8	zvýšil	zvýšiť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
 9	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	10:case	_
-10	1232	1232	NUM	0	NumForm=Digit	8	obl	8:obl:na	_
+10	1232	1232	NUM	0	NumForm=Digit	8	obl	8:obl:na:acc	_
 10.1	_	_	_	_	_	_	_	0:root|8:conj	_
 11	a	a	CCONJ	O	_	12	cc	10.1:cc	_
 12	počet	počet	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	10.1:dep	_
@@ -5093,7 +5093,7 @@
 9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	10:expl:pv	_
 10	otočí	otočiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	0:root|3:conj	_
 11	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	12:case	_
-12	24	24	NUM	0	NumForm=Digit	10	obl	10:obl:za	_
+12	24	24	NUM	0	NumForm=Digit	10	obl	10:obl:za:acc	_
 13	hviezdnych	hviezdny	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	14	amod	14:amod	_
 14	hodín	hodina	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	12	nmod	12:nmod:gen	SpaceAfter=No
 15	.	.	PUNCT	Z	_	3	punct	3:punct	_
@@ -5177,7 +5177,7 @@
 10	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	13	case	13:case	_
 11	4	4	NUM	0	NumForm=Digit	13	nummod	13:nummod	SpaceAfter=No
 12	,	,	PUNCT	Z	_	13	punct	13:punct	_
-13	6	6	NUM	0	NumForm=Digit	2	obl	2:obl:pred	_
+13	6	6	NUM	0	NumForm=Digit	2	obl	2:obl:pred:ins	_
 14	miliardami	miliarda	NUM	NSfp7	Case=Ins|Gender=Fem|Number=Plur	13	nummod	13:nummod	_
 15	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	14:nmod:gen	SpaceAfter=No
 16	.	.	PUNCT	Z	_	2	punct	2:punct	_
@@ -7064,7 +7064,7 @@
 4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	5:expl:pv	_
 5	stanovila	stanoviť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
 6	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	7:case	_
-7	8	8	NUM	0	NumForm=Digit	5	obl	5:obl:na	_
+7	8	8	NUM	0	NumForm=Digit	5	obl	5:obl:na:acc	_
 8	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	7:nmod:gen	SpaceAfter=No
 9	.	.	PUNCT	Z	_	5	punct	5:punct	_
 
@@ -11350,7 +11350,7 @@
 2	profesora	profesor	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	3:nmod:gen	_
 3	Rashbolda	rashbold	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	1:nmod:gen	_
 4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	5:case	_
-5	The	the	X	%	Foreign=Yes	1	nmod	1:nmod:v	_
+5	The	the	X	%	Foreign=Yes	1	nmod	1:nmod:v:loc	_
 6	Notion	notion	X	%	Foreign=Yes	5	flat:foreign	5:flat:foreign	_
 7	Club	club	X	%	Foreign=Yes	5	flat:foreign	5:flat:foreign	_
 8	Papers	papers	X	%	Foreign=Yes	5	flat:foreign	5:flat:foreign	_
@@ -15176,7 +15176,7 @@
 2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	0:root	_
 3	640	640	NUM	0	NumForm=Digit	2	nummod	2:nummod	_
 4	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	5:case	_
-5	Kr	kr	X	W	Abbr=Yes	2	nmod	2:nmod:po	SpaceAfter=No
+5	Kr	kr	X	W	Abbr=Yes	2	nmod	2:nmod:po:loc	SpaceAfter=No
 6	.	.	PUNCT	Z	_	2	punct	2:punct	_
 
 # sent_id = wikipedia2:wiki-nove-088:wiki_nove_088-p1s1
@@ -15295,7 +15295,7 @@
 5	angažoval	angažovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
 6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	8:case	_
 7	kalifornskom	kalifornský	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	8:amod	_
-8	Institute	institute	X	%	Foreign=Yes	5	obl	5:obl:v	_
+8	Institute	institute	X	%	Foreign=Yes	5	obl	5:obl:v:loc	_
 9	for	for	X	%	Foreign=Yes	10	case	10:case	_
 10	Historical	historical	X	%	Foreign=Yes	8	flat:foreign	8:flat:foreign	_
 11	Review	review	X	%	Foreign=Yes	10	flat:foreign	10:flat:foreign	SpaceAfter=No
@@ -16410,7 +16410,7 @@
 7	september	september	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	dep	1:dep	_
 8	490	490	NUM	0	NumForm=Digit	7	nummod	7:nummod	_
 9	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	10	case	10:case	_
-10	Kr	kr	X	W	Abbr=Yes	8	nmod	8:nmod:pred	SpaceAfter=No
+10	Kr	kr	X	W	Abbr=Yes	8	nmod	8:nmod:pred:ins	SpaceAfter=No
 11	.	.	PUNCT	Z	_	10	punct	10:punct	SpaceAfter=No
 12	)	)	PUNCT	Z	_	1	punct	1:punct	_
 13	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	cop	14:cop	_
