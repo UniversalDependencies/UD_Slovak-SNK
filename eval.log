@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Slovak-SNK:
-commit 65bd90ee8341356e2013d33d21360cdd4ef2e298
+commit 437651806cb03b0bb8ef675bd54221d961ace03b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat May 14 15:24:00 2022 +0200
+Date:   Mon Nov 14 12:32:23 2022 +0100
 Size: counted 106097 of 106097 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.32870754001624.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -24,11 +24,11 @@ Udapi:
 Udapi: found 1716 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 106097 words.
 Genres: found 3 out of 17 known.
-validate.py --lang sk --max-err=10 UD_Slovak-SNK/sk_snk-ud-dev.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang sk --max-err=10 UD_Slovak-SNK/sk_snk-ud-dev.conllu
 *** PASSED ***
-validate.py --lang sk --max-err=10 UD_Slovak-SNK/sk_snk-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang sk --max-err=10 UD_Slovak-SNK/sk_snk-ud-test.conllu
 *** PASSED ***
-validate.py --lang sk --max-err=10 UD_Slovak-SNK/sk_snk-ud-train.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang sk --max-err=10 UD_Slovak-SNK/sk_snk-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
