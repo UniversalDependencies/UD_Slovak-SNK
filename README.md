@@ -46,6 +46,10 @@ subset and conversion to Universal Dependencies was done by Dan Zeman.
 
 # Changelog:
 
+* 2024-05-15 v2.14
+  * Added the enhanced relation subtype nsubj:xsubj.
+  * More restrictive use of orphans and empty nodes: Not in non-verbal coordinated sentences.
+  * Improved form and position of abstract predicates in gapping.
 * 2021-05-15 v2.8
   * Fixed recognition of clauses with passive participles (ADJ).
   * Split multi-word tokens of the type "naňho".
