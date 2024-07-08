@@ -1,0 +1,331 @@
+# sent_id = s1
+# text = “ Prosím ! “ nástojil .
+# orig_file_sentence laa068_bugajova_laa068_tencerova#1
+1	“	“	PUNCT	Z	_	5	punct	_	_
+2	Prosím	prosiť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	dep	_	_
+3	!	!	PUNCT	Z	_	5	punct	_	_
+4	“	“	PUNCT	Z	_	5	punct	_	_
+5	nástojil	nástojiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s2
+# text = “ Nevydržím to , ak ťa celý večer neuvidím . “
+# orig_file_sentence laa068_bugajova_laa068_tencerova#2
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Nevydržím	vydržať	VERB	VKdsa-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	_
+4	,	,	PUNCT	Z	_	9	punct	_	_
+5	ak	ak	SCONJ	O	_	9	mark	_	_
+6	ťa	ty	PRON	PPhs4	Case=Acc|Number=Sing|Person=2|PronType=Prs	9	obj	_	_
+7	celý	celý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	večer	večer	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+9	neuvidím	uvidieť	VERB	VKdsa-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	acl	_	_
+10	.	.	PUNCT	Z	_	2	punct	_	_
+11	“	“	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s3
+# text = Cítila som , ako sa mi rozbúchalo srdce .
+# orig_file_sentence laa068_bugajova_laa068_tencerova#3
+1	Cítila	cítiť	VERB	VLesaf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	,	,	PUNCT	Z	_	7	punct	_	_
+4	ako	ako	SCONJ	O	_	7	mark	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+6	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+7	rozbúchalo	rozbúchať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	ccomp	_	_
+8	srdce	srdce	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+9	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s4
+# text = Vážila som si tie slová , snívala o tom , že mi ich raz povie .
+# orig_file_sentence laa068_bugajova_laa068_tencerova#4
+1	Vážila	vážiť	VERB	VLesaf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	si	si	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+4	tie	to	DET	PFnp4	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	5	det	_	_
+5	slová	slovo	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	snívala	snívať	VERB	VLesaf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+8	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	tom	to	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	7	obl:arg	_	_
+10	,	,	PUNCT	Z	_	15	punct	_	_
+11	že	že	SCONJ	O	_	15	mark	_	_
+12	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+13	ich	ono	PRON	PFnp4	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+14	raz	raz	ADV	Dx	Degree=Pos	15	advmod	_	_
+15	povie	povedať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	acl	_	_
+16	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s5
+# text = Ako som mohla teraz odmietnuť ?
+# orig_file_sentence laa068_bugajova_laa068_tencerova#5
+1	Ako	ako	ADV	PD	PronType=Int,Rel	3	advmod	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	mohla	môcť	VERB	VLesaf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	teraz	teraz	ADV	Dx	Degree=Pos	3	advmod	_	_
+5	odmietnuť	odmietnuť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+6	?	?	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s6
+# text = Zdvihla som od sušienok zafarbený oranžový ukazovák a namierila ho naňho : “ Ak mi sľúbiš , že ma necháš učiť sa , a ak sľúbiš , že pôjdeme skoro domov , aby sme sa pred zajtrajšími pretekmi vyspali . “
+# orig_file_sentence laa068_bugajova_laa068_tencerova#6
+1	Zdvihla	zdvihnúť	VERB	VLdsaf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	sušienok	sušienka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+5	zafarbený	zafarbený	ADJ	Gtis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	_	_
+6	oranžový	oranžový	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	ukazovák	ukazovák	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	namierila	namieriť	VERB	VLdsaf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+10	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	naňho	na_on	PRON	PFms4g	AdpType=Preppron|Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	9	obl	_	_
+12	:	:	PUNCT	Z	_	16	punct	_	_
+13	“	“	PUNCT	Z	_	16	punct	_	_
+14	Ak	ak	SCONJ	O	_	16	mark	_	_
+15	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+16	sľúbiš	sľúbiť	VERB	VKdsb+	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+17	,	,	PUNCT	Z	_	20	punct	_	_
+18	že	že	SCONJ	O	_	20	mark	_	_
+19	ma	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	iobj	_	_
+20	necháš	nechať	VERB	VKdsb+	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
+21	učiť	učiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	20	xcomp	_	_
+22	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	21	expl:pv	_	_
+23	,	,	PUNCT	Z	_	20	punct	_	_
+24	a	a	CCONJ	O	_	26	cc	_	_
+25	ak	ak	SCONJ	O	_	26	mark	_	_
+26	sľúbiš	sľúbiť	VERB	VKdsb+	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	conj	_	_
+27	,	,	PUNCT	Z	_	29	punct	_	_
+28	že	že	SCONJ	O	_	29	mark	_	_
+29	pôjdeme	ísť	VERB	VBepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	26	ccomp	_	_
+30	skoro	skoro	ADV	Dx	Degree=Pos	29	advmod	_	_
+31	domov	domov	ADV	Dx	Degree=Pos	29	advmod	_	_
+32	,	,	PUNCT	Z	_	39	punct	_	_
+33	aby	aby	SCONJ	OY	Mood=Cnd	39	mark	_	_
+34	sme	byť	AUX	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	39	aux	_	_
+35	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	39	expl:pv	_	_
+36	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	38	case	_	_
+37	zajtrajšími	zajtrajší	ADJ	AAip7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	38	amod	_	_
+38	pretekmi	preteky	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	39	obl	_	_
+39	vyspali	vyspať	VERB	VLdpah+	Aspect=Perf|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	29	advcl	_	_
+40	.	.	PUNCT	Z	_	1	punct	_	_
+41	“	“	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s7
+# text = “ Sľubujem , “ naradostene odvetil .
+# orig_file_sentence laa068_bugajova_laa068_tencerova#7
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Sľubujem	sľubovať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+3	,	,	PUNCT	Z	_	2	punct	_	_
+4	“	“	PUNCT	Z	_	2	punct	_	_
+5	naradostene	naradostene	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	odvetil	odvetiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s8
+# text = “ Naozaj sľubujem . “
+# orig_file_sentence laa068_bugajova_laa068_tencerova#8
+1	“	“	PUNCT	Z	_	3	punct	_	_
+2	Naozaj	naozaj	PART	T	_	3	advmod	_	_
+3	sľubujem	sľubovať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+5	“	“	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s9
+# text = Zhodil ma na trávu a veľmi dlho sme sa bozkávali .
+# orig_file_sentence laa068_bugajova_laa068_tencerova#9
+1	Zhodil	zhodiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	ma	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	trávu	tráva	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
+5	a	a	CCONJ	O	_	10	cc	_	_
+6	veľmi	veľmi	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	dlho	dlho	ADV	Dx	Degree=Pos	10	advmod	_	_
+8	sme	byť	AUX	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+10	bozkávali	bozkávať	VERB	VLepah+	Aspect=Imp|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+11	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s10
+# text = Práve vtedy mohli ísť okolo učitelia , tréner Augustus , alebo decká z plaveckého oddielu .
+# orig_file_sentence laa068_bugajova_laa068_tencerova#10
+1	Práve	práve	ADV	Dx	Degree=Pos	2	advmod:emph	_	_
+2	vtedy	vtedy	ADV	PD	PronType=Dem	3	advmod	_	_
+3	mohli	môcť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	ísť	ísť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+5	okolo	okolo	ADV	Dx	Degree=Pos	4	advmod	_	_
+6	učitelia	učiteľ	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	tréner	tréner	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+9	Augustus	augustus	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	alebo	alebo	CCONJ	O	_	12	cc	_	_
+12	decká	decko	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	6	conj	_	_
+13	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+14	plaveckého	plavecký	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	oddielu	oddiel	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+16	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s11
+# text = Mohli si nás všimnúť a vyjavene sa na nás dívať .
+# orig_file_sentence laa068_bugajova_laa068_tencerova#11
+1	Mohli	môcť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	si	si	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	nás	my	PRON	PPhp4	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obj	_	_
+4	všimnúť	všimnúť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	xcomp	_	_
+5	a	a	CCONJ	O	_	10	cc	_	_
+6	vyjavene	vyjavene	ADV	Dx	Degree=Pos	10	advmod	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+8	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+9	nás	my	PRON	PPhp4	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obl:arg	_	_
+10	dívať	dívať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	conj	_	_
+11	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s12
+# text = Aj riaditeľ mohol vyzrieť z okna svojej kancelárie , určite by sa čudoval , čo sa to porobilo praktickej a zodpovednej Amy Wiseovej .
+# orig_file_sentence laa068_bugajova_laa068_tencerova#12
+1	Aj	aj	PART	T	_	2	advmod:emph	_	_
+2	riaditeľ	riaditeľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	mohol	môcť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	vyzrieť	vyzrieť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+5	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	okna	okno	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+7	svojej	svoj	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	_
+8	kancelárie	kancelária	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	,	,	PUNCT	Z	_	13	punct	_	_
+10	určite	určite	PART	T	_	13	advmod:emph	_	_
+11	by	by	AUX	Y	Mood=Cnd	13	aux	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+13	čudoval	čudovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+14	,	,	PUNCT	Z	_	18	punct	_	_
+15	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	18	nsubj	_	_
+16	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	18	expl:pv	_	_
+17	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	18	discourse	_	_
+18	porobilo	porobiť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	ccomp	_	_
+19	praktickej	praktický	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+20	a	a	CCONJ	O	_	21	cc	_	_
+21	zodpovednej	zodpovedný	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	19	conj	_	_
+22	Amy	amy	PROPN	SUfs3:r	Case=Dat|Gender=Fem|Number=Sing	23	nmod	_	_
+23	Wiseovej	wiseová	PROPN	SAfs3:r	Case=Dat|Gender=Fem|Number=Sing	18	obj	_	_
+24	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s13
+# text = Lenže ten bozk bol taký bohovský , že mi na ničom nezáležalo .
+# orig_file_sentence laa068_bugajova_laa068_tencerova#13
+1	Lenže	lenže	CCONJ	O	_	6	cc	_	_
+2	ten	ten	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	bozk	bozk	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	cop	_	_
+5	taký	taký	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	bohovský	bohovský	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+7	,	,	PUNCT	Z	_	12	punct	_	_
+8	že	že	SCONJ	O	_	12	mark	_	_
+9	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+10	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	ničom	nič	PRON	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Neg	12	obl:arg	_	_
+12	nezáležalo	záležať	VERB	VLescn-	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	5	advcl	_	_
+13	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s14
+# text = “ Najprv si prečítam celú astronómiu od začiatku do konca , “ hovorila som Chrisovi , keď sme v Saabe jeho matky uháňali do verejnej knižnice .
+# orig_file_sentence laa068_bugajova_laa068_tencerova#14
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	Najprv	najprv	ADV	Dx	Degree=Pos	4	advmod	_	_
+3	si	si	PRON	R	PronType=Prs|Reflex=Yes	4	iobj	_	_
+4	prečítam	prečítať	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+5	celú	celý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	astronómiu	astronómia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	začiatku	začiatok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+9	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	konca	koniec	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+11	,	,	PUNCT	Z	_	4	punct	_	_
+12	“	“	PUNCT	Z	_	4	punct	_	_
+13	hovorila	hovoriť	VERB	VLesaf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+14	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	_
+15	Chrisovi	chris	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	13	iobj	_	_
+16	,	,	PUNCT	Z	_	23	punct	_	_
+17	keď	keď	SCONJ	O	_	23	mark	_	_
+18	sme	byť	AUX	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	23	aux	_	_
+19	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+20	Saabe	saab	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_
+21	jeho	jeho	DET	PUfs2	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det	_	_
+22	matky	matka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+23	uháňali	uháňať	VERB	VLepah+	Aspect=Imp|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	13	advcl	_	_
+24	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	26	case	_	_
+25	verejnej	verejný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	knižnice	knižnica	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	23	obl	_	_
+27	.	.	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s15
+# text = “ A potom si prejdem . . . “
+# orig_file_sentence laa068_bugajova_laa068_tencerova#15
+1	“	“	PUNCT	Z	_	5	punct	_	_
+2	A	a	CCONJ	O	_	5	cc	_	_
+3	potom	potom	ADV	Dx	Degree=Pos	5	advmod	_	_
+4	si	si	PRON	R	PronType=Prs|Reflex=Yes	5	discourse	_	_
+5	prejdem	prejsť	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	.	.	PUNCT	Z	_	5	punct	_	_
+8	.	.	PUNCT	Z	_	5	punct	_	_
+9	“	“	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s16
+# text = “ Uf ! “ zvolal Chris , ktorý sa uprene díval na svetlá , čo blikali v diaľke .
+# orig_file_sentence laa068_bugajova_laa068_tencerova#16
+1	“	“	PUNCT	Z	_	5	punct	_	_
+2	Uf	uf	INTJ	J	_	5	dep	_	_
+3	!	!	PUNCT	Z	_	5	punct	_	_
+4	“	“	PUNCT	Z	_	5	punct	_	_
+5	zvolal	zvolať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	Chris	chris	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	,	,	PUNCT	Z	_	11	punct	_	_
+8	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	11	nsubj	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+10	uprene	uprene	ADV	Dx	Degree=Pos	11	advmod	_	_
+11	díval	dívať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
+12	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+13	svetlá	svetlo	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	11	obl:arg	_	_
+14	,	,	PUNCT	Z	_	16	punct	_	_
+15	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	16	nsubj	_	_
+16	blikali	blikať	VERB	VLepcn+	Aspect=Imp|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	13	acl	_	_
+17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+18	diaľke	diaľka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+19	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s17
+# text = Uvedomila som si , že ma nepočúval .
+# orig_file_sentence laa068_bugajova_laa068_tencerova#17
+1	Uvedomila	uvedomiť	VERB	VLdsaf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	si	si	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+4	,	,	PUNCT	Z	_	7	punct	_	_
+5	že	že	SCONJ	O	_	7	mark	_	_
+6	ma	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+7	nepočúval	počúvať	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	1	ccomp	_	_
+8	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s18
+# text = “ Čo je ? “
+# orig_file_sentence laa068_bugajova_laa068_tencerova#18
+1	“	“	PUNCT	Z	_	3	punct	_	_
+2	Čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	3	nsubj	_	_
+3	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	?	?	PUNCT	Z	_	3	punct	_	_
+5	“	“	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s19
+# text = Chris sa zrazu nadšene zatváril a prešiel do ľavého pruhu .
+# orig_file_sentence laa068_bugajova_laa068_tencerova#19
+1	Chris	chris	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+3	zrazu	zrazu	ADV	Dx	Degree=Pos	5	advmod	_	_
+4	nadšene	nadšene	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	zatváril	zatváriť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	prešiel	prejsť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+8	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+9	ľavého	ľavý	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	pruhu	pruh	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+11	.	.	PUNCT	Z	_	5	punct	_	_
+

@@ -1,0 +1,775 @@
+# sent_id = s1
+# text = Johansson je proti vysokým platom
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#1
+1	Johansson	johansson	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	5	case	_	_
+4	vysokým	vysoký	ADJ	AAip3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+5	platom	plat	NOUN	SSip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	2	obl:arg	_	_
+
+# sent_id = s2
+# text = Prezident Európskej futbalovej asociácie ( UEFA ) Švéd Lennart Johansson na recepcii v bratislavskom hoteli Forum , v ktorom strávil dva dni počas svojej oficiálnej návštevy Slovenska . ŠTARTFOTO - JÁN SÚKUP
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#2
+1	Prezident	prezident	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	cc	_	_
+2	Európskej	európsky	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+3	futbalovej	futbalový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	asociácie	asociácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	0	root	_	_
+5	(	(	PUNCT	ZIP	_	6	punct	_	_
+6	UEFA	UEFA	X	W	Abbr=Yes	4	appos	_	_
+7	)	)	PUNCT	ZIP	_	6	punct	_	_
+8	Švéd	švéd	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+9	Lennart	lennart	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+10	Johansson	johansson	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+11	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	recepcii	recepcia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+14	bratislavskom	bratislavský	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	hoteli	hotel	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+16	Forum	forum	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
+17	,	,	PUNCT	ZIP	_	20	punct	_	_
+18	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	20	mark	_	_
+19	ktorom	ktorý	DET	PAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Int,Rel	20	mark	_	_
+20	strávil	stráviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	15	acl	_	_
+21	dva	dva	NUM	NNip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	22	nummod	_	_
+22	dni	deň	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
+23	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	26	case	_	_
+24	svojej	svoj	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	26	det	_	_
+25	oficiálnej	oficiálny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	návštevy	návšteva	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	22	obl	_	_
+27	Slovenska	slovensko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_
+28	.	.	PUNCT	ZIP	_	4	punct	_	_
+29	ŠTARTFOTO	štartfoto	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	4	dep	_	_
+30	-	-	PUNCT	ZIP	_	32	punct	_	_
+31	JÁN	ján	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	cc	_	_
+32	SÚKUP	súkup	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	flat	_	_
+
+# sent_id = s3
+# text = BRATISLAVA - Predseda Európskej futbalovej asociácie ( UEFA ) Švéd Lennart Johansson svoje sľuby plní .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#3
+1	BRATISLAVA	bratislava	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	-	-	PUNCT	ZIP	_	1	punct	_	_
+3	Predseda	predseda	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	cc	_	_
+4	Európskej	európsky	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+5	futbalovej	futbalový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	asociácie	asociácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	appos	_	_
+7	(	(	PUNCT	ZIP	_	8	punct	_	_
+8	UEFA	uefa	X	W	Abbr=Yes	1	appos	_	_
+9	)	)	PUNCT	ZIP	_	8	punct	_	_
+10	Švéd	švéd	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+11	Lennart	lennart	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+12	Johansson	johansson	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
+13	svoje	svoj	DET	PFip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	_	_
+14	sľuby	sľub	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_
+15	plní	plniť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+16	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s4
+# text = Vlani v lete mu v účasti na európskom šampionáte hráčov do 21 rokov zabránila choroba , ale rest dobehol v závere tohto týždňa , keď na dva dni navštívil Bratislavu .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#4
+1	Vlani	vlani	ADV	Dx	Degree=Pos	14	advmod	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	lete	leto	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_
+4	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	účasti	účasť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	14	obl	_	_
+7	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+8	európskom	európsky	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	šampionáte	šampionát	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+10	hráčov	hráč	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+12	21	21	NUM	0	NumForm=Digit	13	nummod	_	_
+13	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+14	zabránila	zabrániť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+15	choroba	choroba	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	14	obj	_	_
+16	,	,	PUNCT	ZIP	_	19	punct	_	_
+17	ale	ale	CCONJ	O	_	19	cc	_	_
+18	rest	rest	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+19	dobehol	dobehnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	conj	_	_
+20	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	_	_
+21	závere	záver	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+22	tohto	tento	DET	PFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+23	týždňa	týždeň	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	obl	_	_
+24	,	,	PUNCT	ZIP	_	29	punct	_	_
+25	keď	keď	SCONJ	O	_	29	mark	_	_
+26	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	28	case	_	_
+27	dva	dva	NUM	NNip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	28	nummod	_	_
+28	dni	deň	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	29	obl	_	_
+29	navštívil	navštíviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	23	acl	_	_
+30	Bratislavu	bratislava	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	29	obj	_	_
+31	.	.	PUNCT	ZIP	_	14	punct	_	_
+
+# sent_id = s5
+# text = Z futbalového hľadiska nemá na slovenskú metropolu dobré spomienky , lebo ešte v šesťdesiatych rokoch za čias aktívnej činnosti v drese AIK Štokholm prehral jeho klub dvakrát so Slovanom v Interpohári .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#5
+1	Z	z	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	futbalového	futbalový	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	hľadiska	hľadisko	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	obl:arg	_	_
+4	nemá	mať	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+6	slovenskú	slovenský	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	metropolu	metropola	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obl:arg	_	_
+8	dobré	dobrý	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
+9	spomienky	spomienka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+10	,	,	PUNCT	ZIP	_	24	punct	_	_
+11	lebo	lebo	CCONJ	O	_	24	mark	_	_
+12	ešte	ešte	PART	T	_	24	advmod	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+14	šesťdesiatych	šesťdesiaty	ADJ	NAip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|NumType=Ord	15	amod	_	_
+15	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	24	obl	_	_
+16	za	za	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+17	čias	čas	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	_
+18	aktívnej	aktívny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	činnosti	činnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+20	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	_	_
+21	drese	dres	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+22	AIK	aik	X	W	Abbr=Yes	23	nmod	_	_
+23	Štokholm	štokholm	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nmod	_	_
+24	prehral	prehrať	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	acl	_	_
+25	jeho	jeho	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	26	det	_	_
+26	klub	klub	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+27	dvakrát	dvakrát	ADV	ND	NumType=Mult	26	obl	_	_
+28	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	29	case	_	_
+29	Slovanom	slovan	PROPN	SSis7:r	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	26	obl:arg	_	_
+30	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	31	case	_	_
+31	Interpohári	interpohár	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	obl	_	_
+32	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s6
+# text = Oveľa spokojnejší bol severan , keď sa zúčastnil na delení bývalej česko - slovenskej futbalovej asociácie , ktoré podľa neho prebehlo bez komplikácií .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#6
+1	Oveľa	oveľa	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	spokojnejší	spokojný	ADJ	AAms1y	Animacy=Anim|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	3	amod	_	_
+3	bol	byť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	severan	severan	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	,	,	PUNCT	ZIP	_	8	punct	_	_
+6	keď	keď	SCONJ	O	_	8	mark	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+8	zúčastnil	zúčastniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	advcl	_	_
+9	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	delení	delenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	8	obl:arg	_	_
+11	bývalej	bývalý	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+12	česko	česko	X	Q	Hyph=Yes	16	nmod	_	_
+13	-	-	PUNCT	ZIP	_	14	punct	_	_
+14	slovenskej	slovenský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	conj	_	_
+15	futbalovej	futbalový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	asociácie	asociácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+17	,	,	PUNCT	ZIP	_	21	punct	_	_
+18	ktoré	ktorý	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	21	mark	_	_
+19	podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+20	neho	on	PRON	PFms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl:arg	_	_
+21	prebehlo	prebehnúť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	acl	_	_
+22	bez	bez	ADP	Eu2	AdpType=Prep|Case=Gen	23	case	_	_
+23	komplikácií	komplikácia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	21	obl:arg	_	_
+24	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s7
+# text = Vyslovil radosť , že medzi oboma stranami zostali korektné vzťahy .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#7
+1	Vyslovil	vysloviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	radosť	radosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	,	,	PUNCT	ZIP	_	8	punct	_	_
+4	že	že	SCONJ	O	_	8	mark	_	_
+5	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	7	case	_	_
+6	oboma	oba	NUM	NNfp7	Case=Ins|Gender=Fem|Number=Plur	7	nummod	_	_
+7	stranami	strana	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	8	obl	_	_
+8	zostali	zostať	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	2	acl	_	_
+9	korektné	korektný	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+10	vzťahy	vzťah	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	obj	_	_
+11	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s8
+# text = „ Šport by sa nemal miešať s politikou , ale bez toho sa nedajú riešiť niektoré veci , “ zdôraznil šéf európskeho futbalu na včerajšom stretnutí s novinármi v bratislavskom hoteli Forum .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#8
+1	„	„	PUNCT	ZIP	_	20	punct	_	_
+2	Šport	šport	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	by	by	AUX	Y	Mood=Cnd	5	aux	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	nemal	mať	VERB	VLesci-	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	20	parataxis	_	_
+6	miešať	miešať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+8	politikou	politika	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	6	obl:arg	_	_
+9	,	,	PUNCT	ZIP	_	14	punct	_	_
+10	ale	ale	CCONJ	O	_	14	cc	_	_
+11	bez	bez	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+12	toho	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	14	obl:arg	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pv	_	_
+14	nedajú	dať	VERB	VKepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	conj	_	_
+15	riešiť	riešiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	14	xcomp	_	_
+16	niektoré	niektorý	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
+17	veci	vec	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	15	obj	_	_
+18	,	,	PUNCT	ZIP	_	20	punct	_	_
+19	“	“	PUNCT	ZIP	_	20	punct	_	_
+20	zdôraznil	zdôrazniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+21	šéf	šéf	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+22	európskeho	európsky	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	futbalu	futbal	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+24	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	26	case	_	_
+25	včerajšom	včerajší	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	stretnutí	stretnutie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	23	obl	_	_
+27	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	28	case	_	_
+28	novinármi	novinár	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	26	obl:arg	_	_
+29	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	31	case	_	_
+30	bratislavskom	bratislavský	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	hoteli	hotel	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	28	obl	_	_
+32	Forum	forum	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	nmod	_	_
+33	.	.	PUNCT	ZIP	_	20	punct	_	_
+
+# sent_id = s9
+# text = Reagoval tak na momentálne spory medzi UEFA a komisármi Európskej únie pri riešení pohybu profesionálnych hráčov .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#9
+1	Reagoval	reagovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	tak	tak	ADV	PD	PronType=Dem	1	advmod	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+4	momentálne	momentálny	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+5	spory	spor	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obl:arg	_	_
+6	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	7	case	_	_
+7	UEFA	uefa	X	W	Abbr=Yes	5	obl:arg	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	komisármi	komisár	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	conj	_	_
+10	Európskej	európsky	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	únie	únia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	obj	_	_
+12	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	riešení	riešenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obl:arg	_	_
+14	pohybu	pohyb	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	profesionálnych	profesionálny	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
+16	hráčov	hráč	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+17	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s10
+# text = Práve včera sa malo v Bruseli uskutočniť ďalšie kolo rokovaní , ale na žiadosť Medzinárodnej futbalovej asociácie ( FIFA ) ho odložili .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#10
+1	Práve	práve	PART	T	_	2	advmod	_	_
+2	včera	včera	ADV	Dx	Degree=Pos	4	advmod	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	malo	mať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	Bruseli	brusel	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+7	uskutočniť	uskutočniť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+8	ďalšie	ďalší	ADJ	AAnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	_
+9	kolo	kolo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	7	obj	_	_
+10	rokovaní	rokovanie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
+11	,	,	PUNCT	ZIP	_	22	punct	_	_
+12	ale	ale	CCONJ	O	_	22	mark	_	_
+13	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+14	žiadosť	žiadosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	22	obl:arg	_	_
+15	Medzinárodnej	medzinárodný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+16	futbalovej	futbalový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	asociácie	asociácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+18	(	(	PUNCT	ZIP	_	19	punct	_	_
+19	FIFA	fifa	X	W	Abbr=Yes	17	dep	_	_
+20	)	)	PUNCT	ZIP	_	19	punct	_	_
+21	ho	ono	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+22	odložili	odložiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
+23	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s11
+# text = Európska komisia podrobila UEFA kritike , že až príliš striktne obhajuje záujmy klubov . „ Zástupcovia komisie nesúhlasia s našimi pravidlami , ktoré obmedzujú pohyb futbalistov .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#11
+1	Európska	európsky	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	komisia	komisia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	podrobila	podrobiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	UEFA	uefa	X	W	Abbr=Yes	3	obj	_	_
+5	kritike	kritika	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	4	obj	_	_
+6	,	,	PUNCT	ZIP	_	11	punct	_	_
+7	že	že	SCONJ	O	_	11	mark	_	_
+8	až	až	PART	T	_	10	cc	_	_
+9	príliš	príliš	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	striktne	striktne	ADV	Dx	Degree=Pos	11	advmod	_	_
+11	obhajuje	obhajovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	acl	_	_
+12	záujmy	záujem	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+13	klubov	klub	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	.	.	PUNCT	ZIP	_	3	punct	_	_
+15	„	„	PUNCT	ZIP	_	18	punct	_	_
+16	Zástupcovia	zástupca	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+17	komisie	komisia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	nesúhlasia	súhlasiť	VERB	VKepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+19	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	21	case	_	_
+20	našimi	náš	DET	PFnp7	Case=Ins|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	21	det	_	_
+21	pravidlami	pravidlo	NOUN	SSnp7	Case=Ins|Gender=Neut|Number=Plur	18	obl:arg	_	_
+22	,	,	PUNCT	ZIP	_	24	punct	_	_
+23	ktoré	ktorý	DET	PAnp1	Case=Nom|Gender=Neut|Number=Plur|PronType=Int,Rel	24	mark	_	_
+24	obmedzujú	obmedzovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	acl	_	_
+25	pohyb	pohyb	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
+26	futbalistov	futbalista	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+27	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s12
+# text = Navrhujú napríklad , aby mohli kluby uzatvárať s hráčmi zmluvy iba na jeden rok .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#12
+1	Navrhujú	navrhovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	napríklad	napríklad	PART	T	_	1	obj	_	_
+3	,	,	PUNCT	ZIP	_	5	punct	_	_
+4	aby	aby	SCONJ	OY	Mood=Cnd	5	mark	_	_
+5	mohli	môcť	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	advcl	_	_
+6	kluby	klub	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	obj	_	_
+7	uzatvárať	uzatvárať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+8	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+9	hráčmi	hráč	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	_
+10	zmluvy	zmluva	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	9	nmod	_	_
+11	iba	iba	PART	T	_	14	cc	_	_
+12	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+13	jeden	jeden	NUM	NFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	nummod	_	_
+14	rok	rok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+15	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s13
+# text = Ak by to malo platiť , vznikli by problémy predovšetkým pre trénerov , ktorí by nevedeli , aká bude situácia v ich mužstve na budúci rok .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#13
+1	Ak	ak	SCONJ	O	_	4	mark	_	_
+2	by	by	AUX	Y	Mood=Cnd	4	aux	_	_
+3	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+4	malo	mať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	platiť	platiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+6	,	,	PUNCT	ZIP	_	4	punct	_	_
+7	vznikli	vzniknúť	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	4	cc	_	_
+8	by	by	AUX	Y	Mood=Cnd	4	aux	_	_
+9	problémy	problém	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	obj	_	_
+10	predovšetkým	predovšetkým	PART	T	_	9	advmod:emph	_	_
+11	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	trénerov	tréner	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	9	obl:arg	_	_
+13	,	,	PUNCT	ZIP	_	16	punct	_	_
+14	ktorí	ktorý	DET	PAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	16	mark	_	_
+15	by	by	AUX	Y	Mood=Cnd	16	aux	_	_
+16	nevedeli	vedieť	VERB	VLepcm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	12	acl	_	_
+17	,	,	PUNCT	ZIP	_	19	punct	_	_
+18	aká	aký	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	19	mark	_	_
+19	bude	byť	VERB	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	16	advcl	_	_
+20	situácia	situácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	19	obj	_	_
+21	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	23	case	_	_
+22	ich	ich	DET	PUns6	Case=Loc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+23	mužstve	mužstvo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+24	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	26	case	_	_
+25	budúci	budúci	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	rok	rok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obl	_	_
+27	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s14
+# text = Pritom väčšina hráčov dala najavo , že im vyhovujú viacročné kontrakty , “ povedal Johansson .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#14
+1	Pritom	pritom	CCONJ	O	_	4	cc	_	_
+2	väčšina	väčšina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	hráčov	hráč	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	dala	dať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	parataxis	_	_
+5	najavo	najavo	ADV	Dx	Degree=Pos	4	obj	_	_
+6	,	,	PUNCT	ZIP	_	9	punct	_	_
+7	že	že	SCONJ	O	_	9	mark	_	_
+8	im	on	PRON	PFmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+9	vyhovujú	vyhovovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+10	viacročné	viacročný	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_
+11	kontrakty	kontrakt	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	obj	_	_
+12	,	,	PUNCT	ZIP	_	4	punct	_	_
+13	“	“	PUNCT	ZIP	_	14	punct	_	_
+14	povedal	povedať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+15	Johansson	johansson	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+16	.	.	PUNCT	ZIP	_	14	punct	_	_
+
+# sent_id = s15
+# text = UEFA pracuje na inovácii transfer systému najmä v oblasti mládeže .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#15
+1	UEFA	uefa	X	W	Abbr=Yes	2	nsubj	_	_
+2	pracuje	pracovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	inovácii	inovácia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	2	obl:arg	_	_
+5	transfer	transfer	ADJ	AUis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+6	systému	systém	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	najmä	najmä	PART	T	_	6	cc	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	oblasti	oblasť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+10	mládeže	mládež	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s16
+# text = Podľa Johanssona nie je dobré , ak 14 - 15 - roční hráči odchádzajú do neznámeho prostredia , lebo to môže mať negatívny vplyv na ich ďalší výkonnostný rast .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#16
+1	Podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	Johanssona	johansson	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	obl:arg	_	_
+3	nie	nie	PART	T	_	5	advmod	_	_
+4	je	byť	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	dobré	dobrý	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+6	,	,	PUNCT	ZIP	_	14	punct	_	_
+7	ak	ak	SCONJ	O	_	14	mark	_	_
+8	14	14	NUM	0	NumForm=Digit	12	nummod	_	_
+9	-	-	PUNCT	ZIP	_	12	punct	_	_
+10	15	15	NUM	0	NumForm=Digit	12	nummod	_	_
+11	-	-	PUNCT	ZIP	_	12	punct	_	_
+12	roční	ročný	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_
+13	hráči	hráč	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+14	odchádzajú	odchádzať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+15	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+16	neznámeho	neznámy	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	prostredia	prostredie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	14	obl	_	_
+18	,	,	PUNCT	ZIP	_	21	punct	_	_
+19	lebo	lebo	CCONJ	O	_	21	mark	_	_
+20	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	21	nsubj	_	_
+21	môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	acl	_	_
+22	mať	mať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	21	xcomp	_	_
+23	negatívny	negatívny	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	vplyv	vplyv	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
+25	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	29	case	_	_
+26	ich	ich	DET	PUip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	29	det	_	_
+27	ďalší	ďalší	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+28	výkonnostný	výkonnostný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	rast	rast	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	_
+30	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s17
+# text = Je to pre nich veľká záťaž , ak musia opustiť svoj domov a pokúsiť sa presadiť tam , kde nie sú veľmi vítaní , pretože predstavujú konkurenciu .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#17
+1	Je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	discourse	_	_
+3	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	nich	on	PRON	PFmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	obl	_	_
+5	veľká	veľký	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	záťaž	záťaž	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	obj	_	_
+7	,	,	PUNCT	ZIP	_	9	punct	_	_
+8	ak	ak	SCONJ	O	_	9	mark	_	_
+9	musia	musieť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	acl	_	_
+10	opustiť	opustiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	9	xcomp	_	_
+11	svoj	svoj	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	_	_
+12	domov	domov	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	pokúsiť	pokúsiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	9	conj	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+16	presadiť	presadiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	14	xcomp	_	_
+17	tam	tam	ADV	PD	PronType=Dem	16	advmod	_	_
+18	,	,	PUNCT	ZIP	_	21	punct	_	_
+19	kde	kde	ADV	PD	PronType=Int,Rel	21	mark	_	_
+20	nie	nie	PART	T	_	21	advmod	_	_
+21	sú	byť	VERB	VKepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+22	veľmi	veľmi	ADV	Dx	Degree=Pos	23	advmod	_	_
+23	vítaní	vítaný	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_
+24	,	,	PUNCT	ZIP	_	26	punct	_	_
+25	pretože	pretože	SCONJ	O	_	26	mark	_	_
+26	predstavujú	predstavovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+27	konkurenciu	konkurencia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+28	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s18
+# text = Európsky futbalový vrcholný orgán sa čoraz viac ocitá medzi dvoma mlynskými kameňmi .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#18
+1	Európsky	európsky	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+2	futbalový	futbalový	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	vrcholný	vrcholný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	orgán	orgán	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+6	čoraz	čoraz	ADV	Dx	Degree=Pos	7	cc	_	_
+7	viac	viac	ADV	Dx	Degree=Pos	8	advmod	_	_
+8	ocitá	ocitať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	12	case	_	_
+10	dvoma	dva	NUM	NNip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	12	nummod	_	_
+11	mlynskými	mlynský	ADJ	AAip7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
+12	kameňmi	kameň	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	obl	_	_
+13	.	.	PUNCT	ZIP	_	8	punct	_	_
+
+# sent_id = s19
+# text = Z jednej strany ho torpéduje skupina štrnástich ekonomicky najsilnejších klubov ( G - 14 ) , ktorá je signatárom založenia takzvanej superligy , čo by zrejme úplne zlikvidovalo terajšiu Ligu majstrov .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#19
+1	Z	z	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	jednej	jeden	NUM	NFfs2	Case=Gen|Gender=Fem|Number=Sing	3	nummod	_	_
+3	strany	strana	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+4	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	torpéduje	torpédovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	skupina	skupina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	iobj	_	_
+7	štrnástich	štrnásť	NUM	NUip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nummod	_	_
+8	ekonomicky	ekonomicky	ADV	Dx	Degree=Pos	9	advmod	_	_
+9	najsilnejších	silný	ADJ	AAip2z	Animacy=Inan|Case=Gen|Degree=Sup|Gender=Masc|Number=Plur	10	amod	_	_
+10	klubov	klub	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+11	(	(	PUNCT	ZIP	_	13	punct	_	_
+12	G	g	X	W	Abbr=Yes	13	dep	_	_
+13	-	-	PUNCT	ZIP	_	10	punct	_	_
+14	14	14	NUM	0	NumForm=Digit	13	dep	_	_
+15	)	)	PUNCT	ZIP	_	13	punct	_	_
+16	,	,	PUNCT	ZIP	_	18	punct	_	_
+17	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	18	mark	_	_
+18	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	acl	_	_
+19	signatárom	signatár	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	obj	_	_
+20	založenia	založenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	takzvanej	takzvaný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	advmod:emph	_	_
+22	superligy	superliga	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	20	obj	_	_
+23	,	,	PUNCT	ZIP	_	28	punct	_	_
+24	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	28	nsubj	_	_
+25	by	by	AUX	Y	Mood=Cnd	28	aux	_	_
+26	zrejme	zrejme	PART	T	_	28	advmod	_	_
+27	úplne	úplne	ADV	Dx	Degree=Pos	29	advmod	_	_
+28	zlikvidovalo	zlikvidovať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
+29	terajšiu	terajší	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	Ligu	liga	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	28	obj	_	_
+31	majstrov	majster	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_
+32	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s20
+# text = Z druhej strany naň vyvíjajú nátlak mužstvá z menších krajín , ktoré by sa rady videli v novo vzniknutej Eurolige .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#20
+1	Z	z	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	druhej	druhý	ADJ	NAfs2	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	strany	strana	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+4	naň	na_on	PRON	PFis4g	AdpType=Preppron|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	5	obj	_	_
+5	vyvíjajú	vyvíjať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	nátlak	nátlak	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	mužstvá	mužstvo	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	6	obj	_	_
+8	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+9	menších	malý	ADJ	AAfp2y	Case=Gen|Degree=Cmp|Gender=Fem|Number=Plur	10	amod	_	_
+10	krajín	krajina	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	7	obl	_	_
+11	,	,	PUNCT	ZIP	_	16	punct	_	_
+12	ktoré	ktorý	DET	PAnp1	Case=Nom|Gender=Neut|Number=Plur|PronType=Int,Rel	16	mark	_	_
+13	by	by	AUX	Y	Mood=Cnd	16	aux	_	_
+14	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+15	rady	rád	ADJ	AUnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	16	obl	_	_
+16	videli	vidieť	VERB	VLepcn+	Aspect=Imp|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
+17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+18	novo	novo	ADV	Dx	Degree=Pos	19	advmod	_	_
+19	vzniknutej	vzniknutý	ADJ	Gtfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	20	amod	_	_
+20	Eurolige	euroliga	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+21	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s21
+# text = UEFA rázne odmieta návrhy jedných i druhých .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#21
+1	UEFA	uefa	X	W	Abbr=Yes	3	nsubj	_	_
+2	rázne	rázne	ADV	Dx	Degree=Pos	4	advmod	_	_
+3	odmieta	odmietať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	návrhy	návrh	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+5	jedných	jeden	NUM	NFmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nummod	_	_
+6	i	i	CCONJ	O	_	7	cc	_	_
+7	druhých	druhý	ADJ	NAmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|NumType=Ord	5	conj	_	_
+8	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s22
+# text = A verbálne útoky , najmä nemecké , sú aj proti súčasnej štruktúre Ligy majstrov . „ Nemôžeme meniť jej model každé dva roky .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#22
+1	A	a	CCONJ	O	_	8	cc	_	_
+2	verbálne	verbálny	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	útoky	útok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+4	,	,	PUNCT	ZIP	_	3	punct	_	_
+5	najmä	najmä	PART	T	_	3	cc	_	_
+6	nemecké	nemecký	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+7	,	,	PUNCT	ZIP	_	3	punct	_	_
+8	sú	byť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	aj	aj	PART	T	_	8	advmod	_	_
+10	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	12	case	_	_
+11	súčasnej	súčasný	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	štruktúre	štruktúra	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	8	obl:arg	_	_
+13	Ligy	liga	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	majstrov	majster	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	.	.	PUNCT	ZIP	_	8	punct	_	_
+16	„	„	PUNCT	ZIP	_	17	punct	_	_
+17	Nemôžeme	môcť	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+18	meniť	meniť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	17	xcomp	_	_
+19	jej	jej	DET	PUis4	Animacy=Inan|Case=Acc|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	model	model	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+21	každé	každý	DET	PAip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	23	det	_	_
+22	dva	dva	NUM	NNip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	23	nummod	_	_
+23	roky	rok	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obl	_	_
+24	.	.	PUNCT	ZIP	_	8	punct	_	_
+
+# sent_id = s23
+# text = Je pravda , že hráči cítia záťaž , lebo hrajú veľa zápasov .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#23
+1	Je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	pravda	pravda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	obj	_	_
+3	,	,	PUNCT	ZIP	_	6	punct	_	_
+4	že	že	SCONJ	O	_	6	mark	_	_
+5	hráči	hráč	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	cítia	cítiť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	acl	_	_
+7	záťaž	záťaž	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	,	,	PUNCT	ZIP	_	10	punct	_	_
+9	lebo	lebo	CCONJ	O	_	10	mark	_	_
+10	hrajú	hrať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	acl	_	_
+11	veľa	veľa	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	_
+12	zápasov	zápas	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obj	_	_
+13	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s24
+# text = Veľké kluby sú rady , keď sú tam a keď nie , tak majú veľa kritických pripomienok .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#24
+1	Veľké	veľký	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+2	kluby	klub	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	rady	rád	ADJ	AUip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	_
+5	,	,	PUNCT	ZIP	_	7	punct	_	_
+6	keď	keď	SCONJ	O	_	7	mark	_	_
+7	sú	byť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+8	tam	tam	ADV	PD	PronType=Dem	7	advmod	_	_
+9	a	a	CCONJ	O	_	11	cc	_	_
+10	keď	keď	SCONJ	O	_	11	mark	_	_
+11	nie	nie	PART	T	_	7	conj	_	_
+12	,	,	PUNCT	ZIP	_	14	punct	_	_
+13	tak	tak	PART	T	_	14	mark	_	_
+14	majú	mať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+15	veľa	veľa	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	17	obl	_	_
+16	kritických	kritický	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_
+17	pripomienok	pripomienka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	14	obj	_	_
+18	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s25
+# text = Do úvahy však musíme brať aj to , že päť veľkých európskych krajín tvorí 90 percent našich príjmov . “
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#25
+1	Do	do	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	úvahy	úvaha	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+3	však	však	PART	T	_	5	advmod	_	_
+4	musíme	musieť	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	brať	brať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+6	aj	aj	PART	T	_	7	cc	_	_
+7	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obj	_	_
+8	,	,	PUNCT	ZIP	_	14	punct	_	_
+9	že	že	SCONJ	O	_	14	mark	_	_
+10	päť	päť	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	13	nummod	_	_
+11	veľkých	veľký	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_
+12	európskych	európsky	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_
+13	krajín	krajina	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	14	obj	_	_
+14	tvorí	tvoriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+15	90	90	NUM	0	NumForm=Digit	16	nummod	_	_
+16	percent	percento	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	14	obj	_	_
+17	našich	náš	DET	PFip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	18	det	_	_
+18	príjmov	príjem	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+19	.	.	PUNCT	ZIP	_	4	punct	_	_
+20	“	“	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s26
+# text = Johansson potvrdil zrušenie letnej súťaže Intertoto cup , lebo peniaze investované do nej sa dajú účelnejšie využiť pre menšie krajiny .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#26
+1	Johansson	johansson	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	potvrdil	potvrdiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	zrušenie	zrušenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	letnej	letný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	súťaže	súťaž	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	Intertoto	intertoto	X	%	Foreign=Yes	5	nmod	_	_
+7	cup	cup	X	%	Foreign=Yes	6	flat:foreign	_	_
+8	,	,	PUNCT	ZIP	_	15	punct	_	_
+9	lebo	lebo	CCONJ	O	_	15	mark	_	_
+10	peniaze	peniaz	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+11	investované	investovaný	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	xcomp	_	_
+12	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+13	nej	ona	PRON	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+15	dajú	dať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	acl	_	_
+16	účelnejšie	účelne	ADV	Dy	Degree=Cmp	17	advmod	_	_
+17	využiť	využiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	15	xcomp	_	_
+18	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	20	case	_	_
+19	menšie	malý	ADJ	AAfp4y	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	20	amod	_	_
+20	krajiny	krajina	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	17	obl:arg	_	_
+21	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s27
+# text = Nie je nadšený neustálym nárastom prestupových súm . „ V Európe existuje voľný trh a ten rozhoduje o konečných hraniciach .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#27
+1	Nie	nie	PART	T	_	3	advmod	_	_
+2	je	byť	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	nadšený	nadšený	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+4	neustálym	neustály	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	nárastom	nárast	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obj	_	_
+6	prestupových	prestupový	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
+7	súm	suma	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	.	.	PUNCT	ZIP	_	3	punct	_	_
+9	„	„	PUNCT	ZIP	_	12	punct	_	_
+10	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	Európe	európa	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+12	existuje	existovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+13	voľný	voľný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	trh	trh	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	obj	_	_
+15	a	a	CCONJ	O	_	17	cc	_	_
+16	ten	ten	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	17	discourse	_	_
+17	rozhoduje	rozhodovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	conj	_	_
+18	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+19	konečných	konečný	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	_
+20	hraniciach	hranica	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	17	obl:arg	_	_
+21	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s28
+# text = Pracujeme dva roky na tom , aby mohli kluby hráčom udeliť licenciu a aby sa znížili platové limity .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#28
+1	Pracujeme	pracovať	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	dva	dva	NUM	NNip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	nummod	_	_
+3	roky	rok	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obl	_	_
+4	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	tom	to	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	_
+6	,	,	PUNCT	ZIP	_	8	punct	_	_
+7	aby	aby	SCONJ	OY	Mood=Cnd	8	mark	_	_
+8	mohli	môcť	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	5	advcl	_	_
+9	kluby	klub	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	iobj	_	_
+10	hráčom	hráč	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	9	obj	_	_
+11	udeliť	udeliť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	8	xcomp	_	_
+12	licenciu	licencia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	a	a	CCONJ	O	_	16	cc	_	_
+14	aby	aby	SCONJ	OY	Mood=Cnd	16	mark	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+16	znížili	znížiť	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	8	conj	_	_
+17	platové	platový	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	_
+18	limity	limit	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	obj	_	_
+19	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s29
+# text = Raz sa to musí skončiť .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#29
+1	Raz	raz	ADV	Dx	Degree=Pos	5	advmod	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+3	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+4	musí	musieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	skončiť	skončiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+6	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s30
+# text = Tvrdím , že ja sám nemôžem míňať peniaze , kým ich nezarobím .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#30
+1	Tvrdím	tvrdiť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	,	,	PUNCT	ZIP	_	6	punct	_	_
+3	že	že	SCONJ	O	_	6	mark	_	_
+4	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	sám	sám	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	7	det	_	_
+6	nemôžem	môcť	VERB	VKesa-	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+7	míňať	míňať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+8	peniaze	peniaz	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+9	,	,	PUNCT	ZIP	_	12	punct	_	_
+10	kým	kým	SCONJ	O	_	12	mark	_	_
+11	ich	on	PRON	PFip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+12	nezarobím	zarobiť	VERB	VKdsa-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	8	acl	_	_
+13	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s31
+# text = To by sa mali naučiť aj kluby .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#31
+1	To	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	iobj	_	_
+2	by	by	AUX	Y	Mood=Cnd	4	aux	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	mali	mať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	naučiť	naučiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+6	aj	aj	PART	T	_	5	advmod	_	_
+7	kluby	klub	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	obj	_	_
+8	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s32
+# text = Nie je predsa normálne , ak futbalista zarába desaťnásobne viac ako prezident krajiny , “ zdôraznil predseda UEFA L .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#32
+1	Nie	nie	PART	T	_	4	advmod	_	_
+2	je	byť	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	predsa	predsa	PART	T	_	4	advmod:emph	_	_
+4	normálne	normálny	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	parataxis	_	_
+5	,	,	PUNCT	ZIP	_	8	punct	_	_
+6	ak	ak	SCONJ	O	_	8	mark	_	_
+7	futbalista	futbalista	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	zarába	zarábať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+9	desaťnásobne	desaťnásobne	NUM	ND	_	10	nummod	_	_
+10	viac	viac	ADV	Dx	Degree=Pos	8	advmod	_	_
+11	ako	ako	SCONJ	O	_	12	mark	_	_
+12	prezident	prezident	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+13	krajiny	krajina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	,	,	PUNCT	ZIP	_	16	punct	_	_
+15	“	“	PUNCT	ZIP	_	16	punct	_	_
+16	zdôraznil	zdôrazniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+17	predseda	predseda	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+18	UEFA	uefa	X	W	Abbr=Yes	17	nmod	_	_
+19	L	L	X	W	Abbr=Yes	18	nmod	_	_
+20	.	.	PUNCT	ZIP	_	16	punct	_	_
+
+# sent_id = s33
+# text = Johansson .
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#33
+1	Johansson	johansson	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s34
+# text = MIROSLAV BUKOV
+# orig_file_sentence 100201_barboras_fsnew_100201_katarinag_fsnew#34
+1	MIROSLAV	miroslav	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	BUKOV	bukov	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+

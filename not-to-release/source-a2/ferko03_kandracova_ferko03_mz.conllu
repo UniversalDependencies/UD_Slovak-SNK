@@ -1,0 +1,848 @@
+# sent_id = s1
+# text = A . Rostovsko ‐ suzdaľska oblasť .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#1
+1	A	a	X	W	Abbr=Yes	0	root	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+3	Rostovsko	rostovsko	X	Q	Hyph=Yes	6	nmod	_	_
+4	‐	‐	PUNCT	Z	_	5	punct	_	_
+5	suzdaľska	suzdaľský	ADJ	AAfs1x:q	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Typo=Yes	3	conj	_	_
+6	oblasť	oblasť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	dep	_	_
+7	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s2
+# text = Politicko ‐ sociálny aspekt — začiatkom jedenásteho storočia bola uvedená oblasť pod vládou Jaroslava Vladimiroviča .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#2
+1	Politicko	politicko	X	Q	Hyph=Yes	4	nmod	_	_
+2	‐	‐	PUNCT	Z	_	3	punct	_	_
+3	sociálny	sociálny	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	conj	_	_
+4	aspekt	aspekt	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	—	—	PUNCT	Z	_	9	punct	_	_
+6	začiatkom	začiatkom	ADP	Eu2	AdpType=Prep|Case=Gen	9	advmod	_	_
+7	jedenásteho	jedenásty	ADJ	NAns2	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord	8	amod	_	_
+8	storočia	storočie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	bola	byť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	appos	_	_
+10	uvedená	uvedený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	oblasť	oblasť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+12	pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	13	case	_	_
+13	vládou	vláda	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+14	Jaroslava	jaroslav	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+15	Vladimiroviča	vladimirovič	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s3
+# text = Po smrti Jaroslava Staršieho brata Vyšeslava sa Jaroslav stal miestodržiteľom v Novgorode a Rostov pripadol Borisovi .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#3
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	smrti	smrť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+3	Jaroslava	jaroslav	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+4	Staršieho	starší	PROPN	SAms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	brata	brat	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	dep	_	_
+6	Vyšeslava	vyšeslav	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+8	Jaroslav	jaroslav	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	miestodržiteľom	miestodržiteľ	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obj	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	Novgorode	novgorod	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+13	a	a	CCONJ	O	_	15	cc	_	_
+14	Rostov	rostov	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	pripadol	pripadnúť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	conj	_	_
+16	Borisovi	boris	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	15	obj	_	_
+17	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s4
+# text = Jaroslavove zväzky s Rostovom sa prejavili roku 1019 , keď ta / ako do spoľahlivej oblasti / vyhnal vzpurného miestodržiteľa Konštantína .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#4
+1	Jaroslavove	jaroslavov	ADJ	AFip1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+2	zväzky	zväzok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+3	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	4	case	_	_
+4	Rostovom	rostov	PROPN	SSis7:r	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+6	prejavili	prejaviť	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+8	1019	1019	NUM	0	NumForm=Digit	7	nummod	_	_
+9	,	,	PUNCT	Z	_	18	punct	_	_
+10	keď	keď	SCONJ	O	_	18	mark	_	_
+11	ta	ta	DET	PD	PronType=Dem	18	obl	_	_
+12	/	/	PUNCT	Z	_	16	punct	_	_
+13	ako	ako	SCONJ	O	_	16	mark	_	_
+14	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+15	spoľahlivej	spoľahlivý	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	oblasti	oblasť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	xcomp	_	_
+17	/	/	PUNCT	Z	_	16	punct	_	_
+18	vyhnal	vyhnať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
+19	vzpurného	vzpurný	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	miestodržiteľa	miestodržiteľ	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	21	nmod	_	_
+21	Konštantína	konštantín	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+22	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s5
+# text = Roku 1024 potláča suzdaľské nepokoje , dajúc kraju nový štatút .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#5
+1	Roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+2	1024	1024	NUM	0	NumForm=Digit	1	nummod	_	_
+3	potláča	potláčať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	suzdaľské	suzdaľský	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+5	nepokoje	nepokoj	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	iobj	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	dajúc	dať	VERB	VHj+	Aspect=Imp,Perf|Polarity=Pos|VerbForm=Conv	3	xcomp	_	_
+8	kraju	kraj	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	_
+9	nový	nový	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	štatút	štatút	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+11	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s6
+# text = Po jeho smrti územie ovládol Vsevolod Jaroslavič , ktorý sídlil nie priamo v Rostove , ale v Perejaslavli Zaleskom , ovládajúc však zároveň i Suzdaľ a Beloozero .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#6
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	jeho	jeho	DET	PUfs6	Case=Loc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	smrti	smrť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+4	územie	územie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+5	ovládol	ovládnuť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	Vsevolod	vsevolod	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+7	Jaroslavič	jaroslavič	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+8	,	,	PUNCT	Z	_	10	punct	_	_
+9	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	10	nsubj	_	_
+10	sídlil	sídliť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
+11	nie	nie	PART	T	_	12	advmod	_	_
+12	priamo	priamo	ADV	Dx	Degree=Pos	10	advmod	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	Rostove	rostov	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+15	,	,	PUNCT	Z	_	18	punct	_	_
+16	ale	ale	CCONJ	O	_	18	cc	_	_
+17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+18	Perejaslavli	perejaslavľ	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	conj	_	_
+19	Zaleskom	zaleský	ADJ	AAis6x:r	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+20	,	,	PUNCT	Z	_	21	punct	_	_
+21	ovládajúc	ovládať	VERB	VHe+	Aspect=Imp|Polarity=Pos|VerbForm=Conv	10	xcomp	_	_
+22	však	však	PART	T	_	21	mark	_	_
+23	zároveň	zároveň	ADV	Dx	Degree=Pos	21	advmod	_	_
+24	i	i	CCONJ	O	_	25	advmod:emph	_	_
+25	Suzdaľ	suzdaľ	PROPN	SSis4:r	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
+26	a	a	CCONJ	O	_	27	cc	_	_
+27	Beloozero	beloozero	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	25	conj	_	_
+28	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s7
+# text = V sedemdesiatych rokoch tu však mal údel Vsevolodov brat Sviatoslav vzbúrení volchvi , zajatí Jánom Vyšatičom sa totiž odvolávajú priamo na neho / . . . a my môžeme byť súdení len Sviatoslavom v Kyjeva , ty nám nič spraviť nemôžeš
+# orig_file_sentence ferko03_kandracova_ferko03_mz#7
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	sedemdesiatych	sedemdesiaty	ADJ	NAip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|NumType=Ord	3	amod	_	_
+3	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obl	_	_
+4	tu	tu	ADV	PD	PronType=Dem	6	advmod	_	_
+5	však	však	PART	T	_	6	cc	_	_
+6	mal	mať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	údel	údel	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	Vsevolodov	vsevolodov	ADJ	AFms1x:r	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	brat	brat	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
+10	Sviatoslav	sviatoslav	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+11	vzbúrení	vzbúrený	ADJ	Gtmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	volchvi	volchv	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+13	,	,	PUNCT	Z	_	14	punct	_	_
+14	zajatí	zajatý	ADJ	Gtmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	_	_
+15	Jánom	ján	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	nmod	_	_
+16	Vyšatičom	vyšatič	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	obj	_	_
+17	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	19	expl:pv	_	_
+18	totiž	totiž	PART	T	_	19	advmod	_	_
+19	odvolávajú	odvolávať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	dep	_	_
+20	priamo	priamo	ADV	Dx	Degree=Pos	19	advmod	_	_
+21	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	22	case	_	_
+22	neho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl:arg	_	_
+23	/	/	PUNCT	Z	_	19	punct	_	_
+24	.	.	PUNCT	Z	_	29	punct	_	_
+25	.	.	PUNCT	Z	_	29	punct	_	_
+26	.	.	PUNCT	Z	_	29	punct	_	_
+27	a	a	CCONJ	O	_	29	cc	_	_
+28	my	my	PRON	PPhp1	Case=Nom|Number=Plur|Person=1|PronType=Prs	29	nsubj	_	_
+29	môžeme	môcť	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	dep	_	_
+30	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	31	aux:pass	_	_
+31	súdení	súdený	ADJ	Gtmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	29	obj	_	_
+32	len	len	PART	T	_	33	advmod:emph	_	_
+33	Sviatoslavom	sviatoslav	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	31	obl:agent	_	_
+34	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	35	case	_	_
+35	Kyjeva	kyjev	PROPN	SSis6:rq	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	33	nmod	_	_
+36	,	,	PUNCT	Z	_	41	punct	_	_
+37	ty	ty	PRON	PPhs1	Case=Nom|Number=Sing|Person=2|PronType=Prs	41	nsubj	_	_
+38	nám	my	PRON	PPhp3	Case=Dat|Number=Plur|Person=1|PronType=Prs	40	iobj	_	_
+39	nič	nič	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	40	obj	_	_
+40	spraviť	spraviť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	41	xcomp	_	_
+41	nemôžeš	môcť	VERB	VKesb-	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	29	conj	_	_
+
+# sent_id = s8
+# text = / Sviatoslav v kraji vládol v rokoch 1073 — 1076 , urobiac jeho centrom pre zmenu Beloozero , kam vyslal Jána ako svojho splnomocnenca .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#8
+1	/	/	PUNCT	Z	_	5	punct	_	_
+2	Sviatoslav	sviatoslav	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	kraji	kraj	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+5	vládol	vládnuť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
+8	1073	1073	NUM	0	NumForm=Digit	7	nummod	_	_
+9	—	—	PUNCT	Z	_	10	punct	_	_
+10	1076	1076	NUM	0	NumForm=Digit	8	conj	_	_
+11	,	,	PUNCT	Z	_	12	punct	_	_
+12	urobiac	urobiť	VERB	VHd+	Aspect=Perf|Polarity=Pos|VerbForm=Conv	5	xcomp	_	_
+13	jeho	jeho	DET	PUns7	Case=Ins|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	centrom	centrum	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	12	iobj	_	_
+15	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
+16	zmenu	zmena	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+17	Beloozero	beloozero	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+18	,	,	PUNCT	Z	_	20	punct	_	_
+19	kam	kam	ADV	PD	PronType=Int,Rel	20	advmod	_	_
+20	vyslal	vyslať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	17	acl	_	_
+21	Jána	ján	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+22	ako	ako	SCONJ	O	_	24	mark	_	_
+23	svojho	svoj	DET	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	24	det	_	_
+24	splnomocnenca	splnomocnenec	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	21	xcomp	_	_
+25	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s9
+# text = Po Sviatoslavovej smrti sa k moci opäť vrátil Vsevolod .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#9
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	Sviatoslavovej	sviatoslavov	ADJ	AFfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	smrti	smrť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+5	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	6	case	_	_
+6	moci	moc	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+7	opäť	opäť	ADV	Dx	Degree=Pos	8	advmod	_	_
+8	vrátil	vrátiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	Vsevolod	vsevolod	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+10	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s10
+# text = Počas jeho panovania / 1078 — 1093 / nie je v oblasti knieža .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#10
+1	Počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	jeho	jeho	DET	PUns2	Case=Gen|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	panovania	panovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+4	/	/	PUNCT	Z	_	3	punct	_	_
+5	1078	1078	NUM	0	NumForm=Digit	3	dep	_	_
+6	—	—	PUNCT	Z	_	7	punct	_	_
+7	1093	1093	NUM	0	NumForm=Digit	5	conj	_	_
+8	/	/	PUNCT	Z	_	3	punct	_	_
+9	nie	nie	PART	T	_	10	advmod	_	_
+10	je	byť	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	oblasti	oblasť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+13	knieža	knieža	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+14	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s11
+# text = V rokoch 1096 — 1097 tu mal napokon svoj údel Vsevolodov syn Vladimír Monomach .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#11
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	_
+3	1096	1096	NUM	0	NumForm=Digit	2	nummod	_	_
+4	—	—	PUNCT	Z	_	5	punct	_	_
+5	1097	1097	NUM	0	NumForm=Digit	3	conj	_	_
+6	tu	tu	ADV	PD	PronType=Dem	7	advmod	_	_
+7	mal	mať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	napokon	napokon	ADV	Dx	Degree=Pos	7	advmod	_	_
+9	svoj	svoj	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	_
+10	údel	údel	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+11	Vsevolodov	vsevolodov	ADJ	AFms1x:r	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	syn	syn	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_
+13	Vladimír	vladimír	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_
+14	Monomach	monomach	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+15	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s12
+# text = Miestodržiteľom uvedenej oblasti bol Monomachov syn Mstislav / od roku 1093 do roku 1096 , kedy sa začali jeho boje s Olegom Sviatoslavičom / .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#12
+1	Miestodržiteľom	miestodržiteľ	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+2	uvedenej	uvedený	ADJ	Gtfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	oblasti	oblasť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	cop	_	_
+5	Monomachov	monomachov	ADJ	AFms1x:r	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	syn	syn	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+7	Mstislav	mstislav	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+8	/	/	PUNCT	Z	_	10	punct	_	_
+9	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl	_	_
+11	1093	1093	NUM	0	NumForm=Digit	10	nummod	_	_
+12	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+13	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl	_	_
+14	1096	1096	NUM	0	NumForm=Digit	13	nummod	_	_
+15	,	,	PUNCT	Z	_	18	punct	_	_
+16	kedy	kedy	ADV	PD	PronType=Int,Rel	18	advmod	_	_
+17	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	18	expl:pv	_	_
+18	začali	začať	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	13	acl	_	_
+19	jeho	jeho	DET	PUip1	Animacy=Inan|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	boje	boj	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+21	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	23	case	_	_
+22	Olegom	oleg	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	23	nmod	_	_
+23	Sviatoslavičom	sviatoslavič	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	20	nmod	_	_
+24	/	/	PUNCT	Z	_	13	punct	_	_
+25	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s13
+# text = Mimoriadne spletitý bol vývoj kristianizácie .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#13
+1	Mimoriadne	mimoriadne	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	spletitý	spletitý	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+3	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	cop	_	_
+4	vývoj	vývoj	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	kristianizácie	kristianizácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s14
+# text = Okolo roku 1071 bol miestnymi pohanmi zabitý biskup Leontij .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#14
+1	Okolo	okolo	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+3	1071	1071	NUM	0	NumForm=Digit	2	nummod	_	_
+4	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+5	miestnymi	miestny	ADJ	AAmp7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+6	pohanmi	pohan	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	obl:agent	_	_
+7	zabitý	zabitý	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+8	biskup	biskup	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+9	Leontij	leontij	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+10	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s15
+# text = Po povstaní volchvov je v Rostove zriadené biskupstvo na čele s Isajom / do 1089 / .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#15
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	povstaní	povstanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+3	volchvov	volchv	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	Rostove	rostov	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+7	zriadené	zriadený	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+8	biskupstvo	biskupstvo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	7	nsubj:pass	_	_
+9	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+10	čele	čelo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	9	fixed	_	_
+11	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	fixed	_	_
+12	Isajom	isaj	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	nmod	_	_
+13	/	/	PUNCT	Z	_	7	punct	_	_
+14	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+15	1089	1089	NUM	0	NumForm=Digit	7	dep	_	_
+16	/	/	PUNCT	Z	_	7	punct	_	_
+17	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s16
+# text = Po Isajovej smrti však biskupský úrad ostavá neobsadený , čo súvisí so zmenou politickej situácie — vznik biskupstva bol totiž spojený s tzv . „ triumvirátom “ synov Jaroslava , počas ktorého si každý z bratov zriadil na svojom území metropolitnú katedru .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#16
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	Isajovej	isajov	ADJ	AFfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	smrti	smrť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+4	však	však	PART	T	_	7	cc	_	_
+5	biskupský	biskupský	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	úrad	úrad	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	ostavá	ostávať	VERB	VKesc+:q	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	_
+8	neobsadený	obsadený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	7	obj	_	_
+9	,	,	PUNCT	Z	_	11	punct	_	_
+10	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	11	nsubj	_	_
+11	súvisí	súvisieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	13	case	_	_
+13	zmenou	zmena	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	11	obl:arg	_	_
+14	politickej	politický	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	situácie	situácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	—	—	PUNCT	Z	_	21	punct	_	_
+17	vznik	vznik	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+18	biskupstva	biskupstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	21	cop	_	_
+20	totiž	totiž	PART	T	_	21	advmod	_	_
+21	spojený	spojený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	parataxis	_	_
+22	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	26	case	_	_
+23	tzv	tzv	X	W	Abbr=Yes	26	nmod	_	_
+24	.	.	PUNCT	Z	_	23	punct	_	_
+25	„	„	PUNCT	Z	_	26	punct	_	_
+26	triumvirátom	triumvirát	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	21	obl:arg	_	_
+27	“	“	PUNCT	Z	_	26	punct	_	_
+28	synov	syn	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+29	Jaroslava	jaroslav	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	,	,	PUNCT	Z	_	37	punct	_	_
+31	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	32	case	_	_
+32	ktorého	ktorý	DET	PAis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Int,Rel	37	obl	_	_
+33	si	si	PRON	R	PronType=Prs|Reflex=Yes	37	obl	_	_
+34	každý	každý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	37	nsubj	_	_
+35	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	36	case	_	_
+36	bratov	brat	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	_
+37	zriadil	zriadiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	26	acl	_	_
+38	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	40	case	_	_
+39	svojom	svoj	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	40	det	_	_
+40	území	územie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	37	obl	_	_
+41	metropolitnú	metropolitný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	_
+42	katedru	katedra	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	37	obj	_	_
+43	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s17
+# text = V danom prípade išlo o katedru so sídlom v Perejaslavli .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#17
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	danom	daný	ADJ	Gtis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	prípade	prípad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+4	išlo	ísť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	katedru	katedra	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obl:arg	_	_
+7	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	8	case	_	_
+8	sídlom	sídlo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	6	nmod	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	Perejaslavli	perejaslavľ	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+11	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s18
+# text = Po Sviatoslavovej smrti však Vsevolod krajinu zjednotil , zjednotil i metropoliu — a tak biskupstvo vzniknuté počas činnosti neuznaného úradu zaniklo .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#18
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	Sviatoslavovej	sviatoslavov	ADJ	AFfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	smrti	smrť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+4	však	však	PART	T	_	7	cc	_	_
+5	Vsevolod	vsevolod	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	krajinu	krajina	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+7	zjednotil	zjednotiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	,	,	PUNCT	Z	_	9	punct	_	_
+9	zjednotil	zjednotiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+10	i	i	CCONJ	O	_	11	advmod:emph	_	_
+11	metropoliu	metropolia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+12	—	—	PUNCT	Z	_	21	punct	_	_
+13	a	a	CCONJ	O	_	21	cc	_	_
+14	tak	tak	CCONJ	O	_	21	cc	_	_
+15	biskupstvo	biskupstvo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+16	vzniknuté	vzniknutý	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	15	amod	_	_
+17	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	18	case	_	_
+18	činnosti	činnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	obl	_	_
+19	neuznaného	uznaný	ADJ	Gtis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	20	amod	_	_
+20	úradu	úrad	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	zaniklo	zaniknúť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+22	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s19
+# text = Kristianizácia tu začína akoby odznova — v pečorskom pateriku sa spomína blažený mučeník Kukša , krstiaci Vjatičov okolo roku 1100 .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#19
+1	Kristianizácia	kristianizácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	tu	tu	ADV	PD	PronType=Dem	3	advmod	_	_
+3	začína	začínať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	akoby	akoby	SCONJ	OY	Mood=Cnd	3	advmod	_	_
+5	odznova	odznova	ADV	Dx	Degree=Pos	3	advmod	_	_
+6	—	—	PUNCT	Z	_	11	punct	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+8	pečorskom	pečorský	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	pateriku	paterik	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pass	_	_
+11	spomína	spomínať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+12	blažený	blažený	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	mučeník	mučeník	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_
+14	Kukša	kukša	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+15	,	,	PUNCT	Z	_	16	punct	_	_
+16	krstiaci	krstiaci	ADJ	Gkms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	14	amod	_	_
+17	Vjatičov	vjatičov	PROPN	SSis4:r	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+18	okolo	okolo	ADP	Eu2	AdpType=Prep|Case=Gen	19	case	_	_
+19	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+20	1100	1100	NUM	0	NumForm=Digit	19	nummod	_	_
+21	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s20
+# text = Hlavné strediská oblasti .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#20
+1	Hlavné	hlavný	ADJ	AAnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	2	amod	_	_
+2	strediská	stredisko	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
+3	oblasti	oblasť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s21
+# text = 1 .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#21
+1	1	1	NUM	0	NumForm=Digit	0	root	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s22
+# text = Beloozero — je centrom najsevernejším , rozkladajúcim sa na juhovýchodnom brehu Bieleho jazera / dnešný Beloozersk / .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#22
+1	Beloozero	beloozero	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	—	—	PUNCT	Z	_	4	punct	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	centrom	centrum	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	1	conj	_	_
+5	najsevernejším	severný	ADJ	AAns7z	Case=Ins|Degree=Sup|Gender=Neut|Number=Sing	4	amod	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	rozkladajúcim	rozkladajúci	ADJ	Gkns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	4	amod	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+9	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+10	juhovýchodnom	juhovýchodný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	brehu	breh	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+12	Bieleho	biely	ADJ	AAns2x:r	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	jazera	jazero	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+14	/	/	PUNCT	Z	_	11	punct	_	_
+15	dnešný	dnešný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	Beloozersk	beloozersk	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	dep	_	_
+17	/	/	PUNCT	Z	_	11	punct	_	_
+18	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s23
+# text = V mestečku a jeho okolí sa dlho udržiavali prežitky pohanstva — o čom svedčí už spomínaná letopisná pasáž o volchvoch .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#23
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	mestečku	mestečko	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+3	a	a	CCONJ	O	_	5	cc	_	_
+4	jeho	jeho	DET	PUns6	Case=Loc|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	okolí	okolie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	2	conj	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pass	_	_
+7	dlho	dlho	ADV	Dx	Degree=Pos	8	advmod	_	_
+8	udržiavali	udržiavať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	prežitky	prežitok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+10	pohanstva	pohanstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	—	—	PUNCT	Z	_	14	punct	_	_
+12	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	čom	čo	PRON	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Int,Rel	14	obl:arg	_	_
+14	svedčí	svedčiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	conj	_	_
+15	už	už	PART	T	_	16	advmod	_	_
+16	spomínaná	spomínaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	18	amod	_	_
+17	letopisná	letopisný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	pasáž	pasáž	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+19	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+20	volchvoch	volchv	NOUN	SSmp6	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	18	nmod	_	_
+21	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s24
+# text = Dlhé pretrvávanie predkresťanských ideí sa vysvetľuje etnicky nerovnomerným obyvateľstvom .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#24
+1	Dlhé	dlhý	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	pretrvávanie	pretrvávanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	6	nsubj:pass	_	_
+3	predkresťanských	predkresťanský	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+4	ideí	idea	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pass	_	_
+6	vysvetľuje	vysvetľovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	etnicky	etnicky	ADV	Dx	Degree=Pos	8	advmod	_	_
+8	nerovnomerným	nerovnomerný	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	obyvateľstvom	obyvateľstvo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_
+10	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s25
+# text = Okrem Slovanov , prisťahovaných z juhu , tu žilo i domorodé obyvateľstvo ugrofínskeho pôvodu .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#25
+1	Okrem	okrem	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	Slovanov	slovan	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	prisťahovaných	prisťahovaný	ADJ	Gtmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	juhu	juh	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+7	,	,	PUNCT	Z	_	4	punct	_	_
+8	tu	tu	ADV	PD	PronType=Dem	9	advmod	_	_
+9	žilo	žiť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	i	i	CCONJ	O	_	12	advmod:emph	_	_
+11	domorodé	domorodý	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	obyvateľstvo	obyvateľstvo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+13	ugrofínskeho	ugrofínsky	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	pôvodu	pôvod	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s26
+# text = „ Ves “ .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#26
+1	„	„	PUNCT	Z	_	2	punct	_	_
+2	Ves	ves	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	“	“	PUNCT	Z	_	2	punct	_	_
+4	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s27
+# text = U ruského obyvateľstva tak môžeme sledovať znovuožívania starších tradícií .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#27
+1	U	u	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	ruského	ruský	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	obyvateľstva	obyvateľstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+4	tak	tak	PART	T	_	5	advmod	_	_
+5	môžeme	môcť	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	sledovať	sledovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+7	znovuožívania	znovuožívanie	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
+8	starších	starý	ADJ	AAfp2y	Case=Gen|Degree=Cmp|Gender=Fem|Number=Plur	9	amod	_	_
+9	tradícií	tradícia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+10	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s28
+# text = Uvedené teórie sú podopreté bohatým archeologickým materiálom .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#28
+1	Uvedené	uvedený	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	teórie	teória	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+3	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	podopreté	podopretý	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+5	bohatým	bohatý	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	archeologickým	archeologický	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	materiálom	materiál	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+8	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s29
+# text = Typické sú veské ozdoby v podobe liatych šumiacich špirálových príveskov .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#29
+1	Typické	typický	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	_
+2	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	veské	veské	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+4	ozdoby	ozdoba	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	podobe	podoba	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
+7	liatych	liaty	ADJ	Gtip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	_	_
+8	šumiacich	šumiaci	ADJ	Gkip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	10	amod	_	_
+9	špirálových	špirálový	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+10	príveskov	prívesok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+11	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s30
+# text = Tieto pri akomkoľvek prudšom pohybe vydávali prenikavý zvuk , čo sa využívalo pri rituálnych prosbách ducha — u Samojedov sa napr . duchovia privolávali spevom , údermi palice a hrotmi šípov so zvončekami na koncoch .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#30
+1	Tieto	tento	DET	PFip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	6	nsubj	_	_
+2	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+3	akomkoľvek	akýkoľvek	DET	PAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+4	prudšom	prudký	ADJ	AAis6y	Animacy=Inan|Case=Loc|Degree=Cmp|Gender=Masc|Number=Sing	5	amod	_	_
+5	pohybe	pohyb	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+6	vydávali	vydávať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	prenikavý	prenikavý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	zvuk	zvuk	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+9	,	,	PUNCT	Z	_	12	punct	_	_
+10	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	12	nsubj:pass	_	_
+11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pass	_	_
+12	využívalo	využívať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+13	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+14	rituálnych	rituálny	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
+15	prosbách	prosba	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	12	obl	_	_
+16	ducha	duch	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	—	—	PUNCT	Z	_	24	punct	_	_
+18	u	u	ADP	Eu2	AdpType=Prep|Case=Gen	19	case	_	_
+19	Samojedov	samojed	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	24	obl	_	_
+20	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	24	expl:pass	_	_
+21	napr	napr	X	W	Abbr=Yes	24	advmod	_	_
+22	.	.	PUNCT	Z	_	21	punct	_	_
+23	duchovia	duch	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	24	nsubj:pass	_	_
+24	privolávali	privolávať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	12	conj	_	_
+25	spevom	spev	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	24	obl	_	_
+26	,	,	PUNCT	Z	_	27	punct	_	_
+27	údermi	úder	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	25	conj	_	_
+28	palice	palica	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+29	a	a	CCONJ	O	_	30	cc	_	_
+30	hrotmi	hrot	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	25	conj	_	_
+31	šípov	šíp	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_
+32	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	33	case	_	_
+33	zvončekami	zvonček	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	31	nmod	_	_
+34	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	35	case	_	_
+35	koncoch	koniec	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	33	nmod	_	_
+36	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s31
+# text = Na ženských šatách sa často vyskytujú prívesky koníkov , ktoré sú dôkazom stykov oblasti s povodím Kamy , kde bolo stredisko ich výroby .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#31
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	ženských	ženský	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
+3	šatách	šaty	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	6	obl	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+5	často	často	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	vyskytujú	vyskytovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	prívesky	prívesok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+8	koníkov	koník	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	,	,	PUNCT	Z	_	12	punct	_	_
+10	ktoré	ktorý	DET	PAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	12	nsubj	_	_
+11	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	dôkazom	dôkaz	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	acl	_	_
+13	stykov	styk	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	oblasti	oblasť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	16	case	_	_
+16	povodím	povodie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	13	nmod	_	_
+17	Kamy	kama	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	,	,	PUNCT	Z	_	20	punct	_	_
+19	kde	kde	ADV	PD	PronType=Int,Rel	20	advmod	_	_
+20	bolo	byť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	acl	_	_
+21	stredisko	stredisko	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+22	ich	ich	DET	PUfs2	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+23	výroby	výroba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+24	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s32
+# text = Kôň sa v tejto oblasti chápal ako symbol slnca , čo zapadalo i do slovanských predkresťanských predstáv . / spomeňme napokon i slovenskú rozprávku o slncovom koni / Je zároveň symbolom šťastia , plodnosti , preto bol posvätným zvieraťom , často obetúvaným bohu .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#32
+1	Kôň	kôň	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pass	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+4	tejto	táto	DET	PFfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	oblasti	oblasť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+6	chápal	chápať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	ako	ako	SCONJ	O	_	8	mark	_	_
+8	symbol	symbol	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	xcomp	_	_
+9	slnca	slnce	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	12	nsubj	_	_
+12	zapadalo	zapadať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+13	i	i	PART	T	_	17	advmod:emph	_	_
+14	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+15	slovanských	slovanský	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_
+16	predkresťanských	predkresťanský	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_
+17	predstáv	predstava	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	12	obl:arg	_	_
+18	.	.	PUNCT	Z	_	31	punct	_	_
+19	/	/	PUNCT	Z	_	20	punct	_	_
+20	spomeňme	spomenúť	VERB	VMdpa+	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|Polarity=Pos|VerbForm=Fin	12	parataxis	_	_
+21	napokon	napokon	ADV	Dx	Degree=Pos	20	advmod	_	_
+22	i	i	PART	T	_	24	advmod:emph	_	_
+23	slovenskú	slovenský	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	rozprávku	rozprávka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+25	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	27	case	_	_
+26	slncovom	slncový	ADJ	AAms6x	Animacy=Anim|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	koni	kôň	NOUN	SSms6	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	24	nmod	_	_
+28	/	/	PUNCT	Z	_	20	punct	_	_
+29	Je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	31	cop	_	_
+30	zároveň	zároveň	ADV	Dx	Degree=Pos	31	advmod	_	_
+31	symbolom	symbol	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	conj	_	_
+32	šťastia	šťastie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_
+33	,	,	PUNCT	Z	_	34	punct	_	_
+34	plodnosti	plodnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	32	conj	_	_
+35	,	,	PUNCT	Z	_	39	punct	_	_
+36	preto	preto	CCONJ	O	_	39	cc	_	_
+37	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	39	cop	_	_
+38	posvätným	posvätný	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	39	amod	_	_
+39	zvieraťom	zviera	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	31	conj	_	_
+40	,	,	PUNCT	Z	_	42	punct	_	_
+41	často	často	ADV	Dx	Degree=Pos	42	advmod	_	_
+42	obetúvaným	obetúvaný	ADJ	Gtns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	39	amod	_	_
+43	bohu	boh	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	42	obj	_	_
+44	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s33
+# text = Z jeho správania boli často vyvodzované veštby / napr . u polabských Slovanov v Arkone , alebo tiež u baltských národov , kde sa verilo , že ak kôň prekročí kopiju najprv pravou nohou prinesie to šťastie , v opačnom prípade dôjde k pohrome .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#33
+1	Z	z	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	jeho	jeho	DET	PUns2	Case=Gen|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	správania	správanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+4	boli	byť	AUX	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+5	často	často	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	vyvodzované	vyvodzovaný	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+7	veštby	veštba	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	6	nsubj:pass	_	_
+8	/	/	PUNCT	Z	_	13	punct	_	_
+9	napr	napr	X	W	Abbr=Yes	13	advmod:emph	_	_
+10	.	.	PUNCT	Z	_	9	punct	_	_
+11	u	u	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+12	polabských	polabský	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_
+13	Slovanov	slovan	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	Arkone	arkon	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
+16	,	,	PUNCT	Z	_	21	punct	_	_
+17	alebo	alebo	CCONJ	O	_	21	cc	_	_
+18	tiež	tiež	PART	T	_	21	advmod:emph	_	_
+19	u	u	ADP	Eu2	AdpType=Prep|Case=Gen	21	case	_	_
+20	baltských	baltský	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_
+21	národov	národ	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	conj	_	_
+22	,	,	PUNCT	Z	_	25	punct	_	_
+23	kde	kde	ADV	PD	PronType=Int,Rel	25	advmod	_	_
+24	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	25	expl:pass	_	_
+25	verilo	veriť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	21	acl	_	_
+26	,	,	PUNCT	Z	_	35	punct	_	_
+27	že	že	SCONJ	O	_	35	mark	_	_
+28	ak	ak	SCONJ	O	_	30	mark	_	_
+29	kôň	kôň	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	_
+30	prekročí	prekročiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	35	advcl	_	_
+31	kopiju	kopija	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	30	obj	_	_
+32	najprv	najprv	ADV	Dx	Degree=Pos	30	advmod	_	_
+33	pravou	pravý	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	nohou	noha	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	30	obl	_	_
+35	prinesie	priniesť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	25	csubj:pass	_	_
+36	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	35	nsubj	_	_
+37	šťastie	šťastie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	35	obj	_	_
+38	,	,	PUNCT	Z	_	42	punct	_	_
+39	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	41	case	_	_
+40	opačnom	opačný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	_
+41	prípade	prípad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	42	obl	_	_
+42	dôjde	dôjsť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	35	conj	_	_
+43	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	44	case	_	_
+44	pohrome	pohroma	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	42	obl:arg	_	_
+45	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s34
+# text = Jeho zobrazenie slúžilo ako ochrana pred nečistými silami — preto bola v streche nad pecou zobrazovaná konská hlava / útvar mal nedvojzmyselný názov „ konek “
+# orig_file_sentence ferko03_kandracova_ferko03_mz#34
+1	Jeho	jeho	DET	PUns1	Case=Nom|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	zobrazenie	zobrazenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	slúžilo	slúžiť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	ako	ako	SCONJ	O	_	5	mark	_	_
+5	ochrana	ochrana	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	xcomp	_	_
+6	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+7	nečistými	nečistý	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	silami	sila	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	5	nmod	_	_
+9	—	—	PUNCT	Z	_	16	punct	_	_
+10	preto	preto	CCONJ	O	_	16	cc	_	_
+11	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	aux:pass	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	streche	strecha	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+14	nad	nad	ADP	Eu7	AdpType=Prep|Case=Ins	15	case	_	_
+15	pecou	pec	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	13	nmod	_	_
+16	zobrazovaná	zobrazovaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	conj	_	_
+17	konská	konský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	hlava	hlava	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	16	nsubj:pass	_	_
+19	/	/	PUNCT	Z	_	21	punct	_	_
+20	útvar	útvar	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+21	mal	mať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	parataxis	_	_
+22	nedvojzmyselný	nedvojzmyselný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	názov	názov	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
+24	„	„	PUNCT	Z	_	25	punct	_	_
+25	konek	konek	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nmod	_	_
+26	“	“	PUNCT	Z	_	25	punct	_	_
+
+# sent_id = s35
+# text = Podľa viery ugrofínskych Čuvašov výšivka konskej hlavy na ženskej hrudi chráni pred nebezpečím pôrodu .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#35
+1	Podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	viery	viera	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+3	ugrofínskych	ugrofínsky	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	Čuvašov	čuvaš	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	výšivka	výšivka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+6	konskej	konský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	hlavy	hlava	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+9	ženskej	ženský	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	hrudi	hruď	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+11	chráni	chrániť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	13	case	_	_
+13	nebezpečím	nebezpečie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	11	obl:arg	_	_
+14	pôrodu	pôrod	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s36
+# text = Kôň s ôsmimi nohami je symbolom šamanov / podobne ako predstava konského prízraku , dreveného koňa , či drevenej palice s konskou hlavou / a má jednak pohrebnú funkciu / , privádza mŕtveho do podsvetia / ako i funkciu extatickú / rituálne tance s palicami s konskou hlavou / .
+# orig_file_sentence ferko03_kandracova_ferko03_mz#36
+1	Kôň	kôň	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	4	case	_	_
+3	ôsmimi	osem	NUM	NUfp7	Case=Ins|Gender=Fem|Number=Plur	4	nummod	_	_
+4	nohami	noha	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	1	nmod	_	_
+5	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	symbolom	symbol	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+7	šamanov	šaman	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	/	/	PUNCT	Z	_	9	punct	_	_
+9	podobne	podobne	ADV	Dx	Degree=Pos	6	advmod	_	_
+10	ako	ako	SCONJ	O	_	11	mark	_	_
+11	predstava	predstava	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	dep	_	_
+12	konského	konský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	prízraku	prízrak	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	,	,	PUNCT	Z	_	16	punct	_	_
+15	dreveného	drevený	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	koňa	kôň	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	conj	_	_
+17	,	,	PUNCT	Z	_	20	punct	_	_
+18	či	či	CCONJ	O	_	20	cc	_	_
+19	drevenej	drevený	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	palice	palica	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	conj	_	_
+21	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	23	case	_	_
+22	konskou	konský	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	hlavou	hlava	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	20	nmod	_	_
+24	/	/	PUNCT	Z	_	9	punct	_	_
+25	a	a	CCONJ	O	_	26	cc	_	_
+26	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	conj	_	_
+27	jednak	jednak	CCONJ	O	_	39	cc	_	_
+28	pohrebnú	pohrebný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	funkciu	funkcia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+30	/	/	PUNCT	Z	_	32	punct	_	_
+31	,	,	PUNCT	Z	_	39	punct	_	_
+32	privádza	privádzať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	26	parataxis	_	_
+33	mŕtveho	mŕtvy	NOUN	SAms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	32	obj	_	_
+34	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	35	case	_	_
+35	podsvetia	podsvetie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	32	obl	_	_
+36	/	/	PUNCT	Z	_	32	punct	_	_
+37	ako	ako	SCONJ	O	_	39	cc	_	_
+38	i	i	CCONJ	O	_	39	cc	_	_
+39	funkciu	funkcia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	26	conj	_	_
+40	extatickú	extatický	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+41	/	/	PUNCT	Z	_	39	punct	_	_
+42	rituálne	rituálny	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	43	amod	_	_
+43	tance	tanec	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	39	orphan	_	_
+44	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	45	case	_	_
+45	palicami	palica	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	43	nmod	_	_
+46	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	48	case	_	_
+47	konskou	konský	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	48	amod	_	_
+48	hlavou	hlava	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	45	nmod	_	_
+49	/	/	PUNCT	Z	_	26	punct	_	_
+50	.	.	PUNCT	Z	_	6	punct	_	_
+

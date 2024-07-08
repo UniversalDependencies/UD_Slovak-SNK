@@ -1,0 +1,361 @@
+# sent_id = s1
+# text = Hirohito
+# orig_file_sentence wiki-nove-076_mz_wiki-nove-076_kandracova#1
+1	Hirohito	hirohito	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s2
+# text = Hirohito ( * 29 . marec 1901 – † 7 . január 1989 ) bol 124 . japonský císar , ktorý vládol v rokoch 1926 až 1989 .
+# orig_file_sentence wiki-nove-076_mz_wiki-nove-076_kandracova#2
+1	Hirohito	hirohito	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+2	(	(	PUNCT	Z	_	1	punct	_	_
+3	*	*	PUNCT	#	_	6	punct	_	_
+4	29	29	NUM	0	NumForm=Digit	6	nummod	_	_
+5	.	.	PUNCT	Z	_	4	punct	_	_
+6	marec	marec	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	dep	_	_
+7	1901	1901	NUM	0	NumForm=Digit	6	nummod	_	_
+8	–	–	PUNCT	Z	_	12	punct	_	_
+9	†	†	PUNCT	#	_	12	punct	_	_
+10	7	7	NUM	0	NumForm=Digit	12	nummod	_	_
+11	.	.	PUNCT	Z	_	10	punct	_	_
+12	január	január	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+13	1989	1989	NUM	0	NumForm=Digit	12	nummod	_	_
+14	)	)	PUNCT	Z	_	1	punct	_	_
+15	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	19	cop	_	_
+16	124	124	NUM	0	NumForm=Digit	19	nummod	_	_
+17	.	.	PUNCT	Z	_	16	punct	_	_
+18	japonský	japonský	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	císar	císar	NOUN	SSms1:q	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Typo=Yes	0	root	_	_
+20	,	,	PUNCT	Z	_	22	punct	_	_
+21	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	22	nsubj	_	_
+22	vládol	vládnuť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	19	acl	_	_
+23	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+24	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	22	obl	_	_
+25	1926	1926	NUM	0	NumForm=Digit	24	nummod	_	_
+26	až	až	PART	T	_	27	cc	_	_
+27	1989	1989	NUM	0	NumForm=Digit	25	conj	_	_
+28	.	.	PUNCT	Z	_	19	punct	_	_
+
+# sent_id = s3
+# text = Po smrti je v Japonsku známy ako Cisár éry Šówa ( 昭和天皇 , Šówa tennó ; Šówa – „ žiariaci mier “ – bol názov jeho panovníckej éry , ktorý si volí každý cisár sám ) .
+# orig_file_sentence wiki-nove-076_mz_wiki-nove-076_kandracova#3
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	smrti	smrť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	Japonsku	japonsko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+6	známy	známy	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+7	ako	ako	SCONJ	O	_	8	xcomp	_	_
+8	Cisár	cisár	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+9	éry	éra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	Šówa	šówa	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	9	nmod	_	_
+11	(	(	PUNCT	Z	_	12	punct	_	_
+12	昭和天皇	昭和天皇	X	%	Foreign=Yes	6	dep	_	_
+13	,	,	PUNCT	Z	_	14	punct	_	_
+14	Šówa	šówa	X	%	Foreign=Yes	12	appos	_	_
+15	tennó	tennó	X	%	Foreign=Yes	14	flat:foreign	_	_
+16	;	;	PUNCT	Z	_	25	punct	_	_
+17	Šówa	šówa	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+18	–	–	PUNCT	Z	_	21	punct	_	_
+19	„	„	PUNCT	Z	_	21	punct	_	_
+20	žiariaci	žiariaci	ADJ	Gkis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	21	amod	_	_
+21	mier	mier	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	appos	_	_
+22	“	“	PUNCT	Z	_	21	punct	_	_
+23	–	–	PUNCT	Z	_	21	punct	_	_
+24	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	25	cop	_	_
+25	názov	názov	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_
+26	jeho	jeho	DET	PUfs2	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	28	det	_	_
+27	panovníckej	panovnícky	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	éry	éra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+29	,	,	PUNCT	Z	_	32	punct	_	_
+30	ktorý	ktorý	DET	PAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	32	nsubj	_	_
+31	si	si	PRON	R	PronType=Prs|Reflex=Yes	32	obl	_	_
+32	volí	voliť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	25	acl	_	_
+33	každý	každý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	34	det	_	_
+34	cisár	cisár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	_
+35	sám	sám	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	34	xcomp	_	_
+36	)	)	PUNCT	Z	_	12	punct	_	_
+37	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s4
+# text = Mimo Japonska býva pomenovaný Hirohito , alebo Cisár Hirohito .
+# orig_file_sentence wiki-nove-076_mz_wiki-nove-076_kandracova#4
+1	Mimo	mimo	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	Japonska	japonsko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	býva	bývať	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	pomenovaný	pomenovaný	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+5	Hirohito	hirohito	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_
+6	,	,	PUNCT	Z	_	9	punct	_	_
+7	alebo	alebo	CCONJ	O	_	9	cc	_	_
+8	Cisár	cisár	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+9	Hirohito	hirohito	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat	_	_
+10	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s5
+# text = Pred svojou smrťou bol jednoducho označený ako Tennó Heika ( Jeho Výsosť Syn nebies ) .
+# orig_file_sentence wiki-nove-076_mz_wiki-nove-076_kandracova#5
+1	Pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	3	case	_	_
+2	svojou	svoj	DET	PFfs7	Case=Ins|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	_	_
+3	smrťou	smrť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+4	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	cop	_	_
+5	jednoducho	jednoducho	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	označený	označený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+7	ako	ako	SCONJ	O	_	8	cc	_	_
+8	Tennó	tennó	X	%	Foreign=Yes	6	obj	_	_
+9	Heika	heika	X	%	Foreign=Yes	8	flat:foreign	_	_
+10	(	(	PUNCT	Z	_	13	punct	_	_
+11	Jeho	jeho	DET	PUfs1:r	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	Výsosť	výsosť	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	13	nmod	_	_
+13	Syn	syn	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
+14	nebies	nebesá	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	_
+15	)	)	PUNCT	Z	_	13	punct	_	_
+16	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s6
+# text = Vládol najdlhšie zo všetkých japonských cisárov a jeho vláda priniesla japonskej spoločnosti obrovské zmeny .
+# orig_file_sentence wiki-nove-076_mz_wiki-nove-076_kandracova#6
+1	Vládol	vládnuť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	najdlhšie	dlho	ADV	Dz	Degree=Sup	1	advmod	_	_
+3	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	6	case	_	_
+4	všetkých	všetok	DET	PFmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	6	det	_	_
+5	japonských	japonský	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+6	cisárov	cisár	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+7	a	a	CCONJ	O	_	10	cc	_	_
+8	jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	priniesla	priniesť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+11	japonskej	japonský	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	spoločnosti	spoločnosť	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	10	iobj	_	_
+13	obrovské	obrovský	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
+14	zmeny	zmena	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+15	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s7
+# text = Mladosť
+# orig_file_sentence wiki-nove-076_mz_wiki-nove-076_kandracova#7
+1	Mladosť	mladosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = s8
+# text = Narodil sa v paláci Aojama v Tokiu .
+# orig_file_sentence wiki-nove-076_mz_wiki-nove-076_kandracova#8
+1	Narodil	narodiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	paláci	palác	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	_
+5	Aojama	aojama	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	Tokiu	tokio	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_
+8	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s9
+# text = Ako prvorodený syn cisára Taišo Jošihity bol 2 . novembra 1916 ustanovený za korunného princa .
+# orig_file_sentence wiki-nove-076_mz_wiki-nove-076_kandracova#9
+1	Ako	ako	SCONJ	O	_	3	mark	_	_
+2	prvorodený	prvorodený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	syn	syn	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	xcomp	_	_
+4	cisára	cisár	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+5	Taišo	taišo	PROPN	SUms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+6	Jošihity	jošihita	PROPN	SSms2:rq	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+7	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	cop	_	_
+8	2	2	NUM	0	NumForm=Digit	10	nummod	_	_
+9	.	.	PUNCT	Z	_	8	punct	_	_
+10	novembra	november	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+11	1916	1916	NUM	0	NumForm=Digit	10	nummod	_	_
+12	ustanovený	ustanovený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+13	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+14	korunného	korunný	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	princa	princ	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	obl:arg	_	_
+16	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s10
+# text = Dňa 29 . novembra 1921 sa stáva regentom a preberá vládu namiesto svojho ťažko chorého otca .
+# orig_file_sentence wiki-nove-076_mz_wiki-nove-076_kandracova#10
+1	Dňa	deň	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+2	29	29	NUM	0	NumForm=Digit	4	nummod	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+4	novembra	november	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl	_	_
+5	1921	1921	NUM	0	NumForm=Digit	4	nummod	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+7	stáva	stávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	regentom	regent	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obj	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	preberá	preberať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	conj	_	_
+11	vládu	vláda	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	namiesto	namiesto	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+13	svojho	svoj	DET	PFms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	_
+14	ťažko	ťažko	ADV	Dx	Degree=Pos	15	advmod	_	_
+15	chorého	chorý	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	otca	otec	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	obl:arg	_	_
+17	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s11
+# text = V roku 1922 Hirohito podnikol šesťmesačnú cestu do Spojeného kráľovstva a ďalších európskych krajín ( Francúzsko , Taliansko , Vatikán , Holandsko a Belgicko ) .
+# orig_file_sentence wiki-nove-076_mz_wiki-nove-076_kandracova#11
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	1922	1922	NUM	0	NumForm=Digit	2	nummod	_	_
+4	Hirohito	hirohito	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	podnikol	podniknúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	šesťmesačnú	šesťmesačný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	cestu	cesta	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+9	Spojeného	spojený	ADJ	Gtns2x:r	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	kráľovstva	kráľovstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+11	a	a	CCONJ	O	_	14	cc	_	_
+12	ďalších	ďalší	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
+13	európskych	európsky	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
+14	krajín	krajina	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	10	conj	_	_
+15	(	(	PUNCT	Z	_	16	punct	_	_
+16	Francúzsko	francúzsko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	14	appos	_	_
+17	,	,	PUNCT	Z	_	18	punct	_	_
+18	Taliansko	taliansko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	16	conj	_	_
+19	,	,	PUNCT	Z	_	20	punct	_	_
+20	Vatikán	vatikán	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	conj	_	_
+21	,	,	PUNCT	Z	_	22	punct	_	_
+22	Holandsko	holandsko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	16	conj	_	_
+23	a	a	CCONJ	O	_	24	cc	_	_
+24	Belgicko	belgicko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	16	conj	_	_
+25	)	)	PUNCT	Z	_	16	punct	_	_
+26	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s12
+# text = Stal sa tak vôbec prvým japonským vládcom , ktorý kedy vycestoval do zahraničia .
+# orig_file_sentence wiki-nove-076_mz_wiki-nove-076_kandracova#12
+1	Stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	tak	tak	ADV	PD	PronType=Dem	1	advmod	_	_
+4	vôbec	vôbec	PART	T	_	5	advmod:emph	_	_
+5	prvým	prvý	ADJ	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
+6	japonským	japonský	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	vládcom	vládca	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	1	obj	_	_
+8	,	,	PUNCT	Z	_	11	punct	_	_
+9	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	11	nsubj	_	_
+10	kedy	kedy	ADV	PD	PronType=Int,Rel	11	advmod	_	_
+11	vycestoval	vycestovať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
+12	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+13	zahraničia	zahraničie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	11	obl	_	_
+14	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s13
+# text = Začiatok vlády
+# orig_file_sentence wiki-nove-076_mz_wiki-nove-076_kandracova#13
+1	Začiatok	začiatok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+
+# sent_id = s14
+# text = 25 . decembra 1926 zomiera jeho otec .
+# orig_file_sentence wiki-nove-076_mz_wiki-nove-076_kandracova#14
+1	25	25	NUM	0	NumForm=Digit	3	nummod	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+3	decembra	december	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+4	1926	1926	NUM	0	NumForm=Digit	3	nummod	_	_
+5	zomiera	zomierať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	jeho	jeho	DET	PUms1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	otec	otec	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+8	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s15
+# text = Hirohito je korunovaný za cisára 10 . novembra 1928 .
+# orig_file_sentence wiki-nove-076_mz_wiki-nove-076_kandracova#15
+1	Hirohito	hirohito	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	korunovaný	korunovaný	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	cisára	cisár	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obl:arg	_	_
+6	10	10	NUM	0	NumForm=Digit	8	nummod	_	_
+7	.	.	PUNCT	Z	_	6	punct	_	_
+8	novembra	november	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+9	1928	1928	NUM	0	NumForm=Digit	8	nummod	_	_
+10	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s16
+# text = Začiatok Hirohitovej vlády ( medzi rokmi 1926 až 1945 ) je poznamenaný silnou pozíciou japonských armádnych kruhov vo vláde .
+# orig_file_sentence wiki-nove-076_mz_wiki-nove-076_kandracova#16
+1	Začiatok	začiatok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+2	Hirohitovej	hirohitov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	(	(	PUNCT	Z	_	6	punct	_	_
+5	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	6	case	_	_
+6	rokmi	rok	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	1	nmod	_	_
+7	1926	1926	NUM	0	NumForm=Digit	6	nummod	_	_
+8	až	až	PART	T	_	9	cc	_	_
+9	1945	1945	NUM	0	NumForm=Digit	7	conj	_	_
+10	)	)	PUNCT	Z	_	6	punct	_	_
+11	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	poznamenaný	poznamenaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+13	silnou	silný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	pozíciou	pozícia	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	12	obj	_	_
+15	japonských	japonský	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_
+16	armádnych	armádny	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_
+17	kruhov	kruh	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+18	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	19	case	_	_
+19	vláde	vláda	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_
+20	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s17
+# text = V roku 1932 došlo k faktickej strate civilnej kontroly nad armádou .
+# orig_file_sentence wiki-nove-076_mz_wiki-nove-076_kandracova#17
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	1932	1932	NUM	0	NumForm=Digit	2	nummod	_	_
+4	došlo	dôjsť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	7	case	_	_
+6	faktickej	faktický	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	strate	strata	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	4	obl:arg	_	_
+8	civilnej	civilný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	kontroly	kontrola	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	nad	nad	ADP	Eu7	AdpType=Prep|Case=Ins	11	case	_	_
+11	armádou	armáda	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	_
+12	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s18
+# text = Ta ovládla takmer všetkú politickú moc v krajine , začala sa pripravovať na agresívnu vojnu vo východnej Ázii a postupne zatiahla Japonsko do 2 . svetovej vojny .
+# orig_file_sentence wiki-nove-076_mz_wiki-nove-076_kandracova#18
+1	Ta	ta	DET	PFfs1:q	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem|Typo=Yes	2	nsubj	_	_
+2	ovládla	ovládnuť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	takmer	takmer	PART	T	_	4	advmod:emph	_	_
+4	všetkú	všetok	DET	PFfs4:q	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot|Typo=Yes	6	det	_	_
+5	politickú	politický	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	moc	moc	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	krajine	krajina	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
+9	,	,	PUNCT	Z	_	10	punct	_	_
+10	začala	začať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+12	pripravovať	pripravovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	10	xcomp	_	_
+13	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+14	agresívnu	agresívny	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	vojnu	vojna	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	obl:arg	_	_
+16	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	18	case	_	_
+17	východnej	východný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	Ázii	ázia	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_
+19	a	a	CCONJ	O	_	21	cc	_	_
+20	postupne	postupne	ADV	Dx	Degree=Pos	21	advmod	_	_
+21	zatiahla	zatiahnuť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+22	Japonsko	japonsko	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
+23	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	27	case	_	_
+24	2	2	NUM	0	NumForm=Digit	27	nummod	_	_
+25	.	.	PUNCT	Z	_	24	punct	_	_
+26	svetovej	svetový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	vojny	vojna	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	21	obl	_	_
+28	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s19
+# text = Japonský cisár fakticky nemal žiadne právomoci k tomu , aby sled udalostí mohol akokoľvek ovplyvniť .
+# orig_file_sentence wiki-nove-076_mz_wiki-nove-076_kandracova#19
+1	Japonský	japonský	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	cisár	cisár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	fakticky	fakticky	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	nemal	mať	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+5	žiadne	žiaden	DET	PAfp4	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg	6	det	_	_
+6	právomoci	právomoc	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+7	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	8	case	_	_
+8	tomu	to	DET	PFns3	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	4	obl	_	_
+9	,	,	PUNCT	Z	_	13	punct	_	_
+10	aby	aby	SCONJ	OY	Mood=Cnd	13	mark	_	_
+11	sled	sled	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+12	udalostí	udalosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+13	mohol	môcť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+14	akokoľvek	akokoľvek	ADV	PD	PronType=Ind	15	advmod	_	_
+15	ovplyvniť	ovplyvniť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	13	xcomp	_	_
+16	.	.	PUNCT	Z	_	4	punct	_	_
+

@@ -1,0 +1,216 @@
+# sent_id = s1
+# text = Pangea
+# orig_file_sentence wiki-24_kandracova_wiki-24_hudekova#1
+1	Pangea	pangea	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = s2
+# text = Pangea ( gr . " všetka krajina " ) je názov prvotnej obrovskej pevniny ( superkontinentu ) , obklopeného zo všetkych strán oceánom ( Panthalassa ) , zvrásnená a vybudovaná už pred prvohorami .
+# orig_file_sentence wiki-24_kandracova_wiki-24_hudekova#2
+1	Pangea	pangea	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+2	(	(	PUNCT	Z	_	7	punct	_	_
+3	gr	gr	X	W	Abbr=Yes	7	nmod	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+5	"	"	PUNCT	Z	_	7	punct	_	_
+6	všetka	všetok	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	7	det	_	_
+7	krajina	krajina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+8	"	"	PUNCT	Z	_	7	punct	_	_
+9	)	)	PUNCT	Z	_	7	punct	_	_
+10	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	názov	názov	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+12	prvotnej	prvotný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+13	obrovskej	obrovský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	pevniny	pevnina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+15	(	(	PUNCT	Z	_	16	punct	_	_
+16	superkontinentu	superkontinent	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	appos	_	_
+17	)	)	PUNCT	Z	_	16	punct	_	_
+18	,	,	PUNCT	Z	_	19	punct	_	_
+19	obklopeného	obklopený	ADJ	Gtis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	14	amod	_	_
+20	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	22	case	_	_
+21	všetkych	všetok	DET	PFfp2	Case=Gen|Gender=Fem|Number=Plur|PronType=Tot	22	det	_	_
+22	strán	strana	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	19	obl	_	_
+23	oceánom	oceán	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	_
+24	(	(	PUNCT	Z	_	25	punct	_	_
+25	Panthalassa	panthalassa	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	23	appos	_	_
+26	)	)	PUNCT	Z	_	25	punct	_	_
+27	,	,	PUNCT	Z	_	14	punct	_	_
+28	zvrásnená	zvrásnený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	14	dep	_	_
+29	a	a	CCONJ	O	_	30	cc	_	_
+30	vybudovaná	vybudovaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	28	conj	_	_
+31	už	už	PART	T	_	33	advmod:emph	_	_
+32	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	33	case	_	_
+33	prvohorami	prvohora	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	28	obl	_	_
+34	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s3
+# text = Pangea sa začala neskôr ( 180 mil . pred Kr . ) trieštiť na jednotlivé bloky , na severe sa utvorila pevnina Laurázia , na juhu Gondwana .
+# orig_file_sentence wiki-24_kandracova_wiki-24_hudekova#3
+1	Pangea	pangea	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	začala	začať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	neskôr	neskôr	ADV	Dx	Degree=Pos	3	advmod	_	_
+5	(	(	PUNCT	Z	_	7	punct	_	_
+6	180	180	NUM	0	NumForm=Digit	7	nummod	_	_
+7	mil	mil	X	W	Abbr=Yes	3	advmod	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+9	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	10	case	_	_
+10	Kr	kr	X	W	Abbr=Yes	7	nmod	_	_
+11	.	.	PUNCT	Z	_	10	punct	_	_
+12	)	)	PUNCT	Z	_	7	punct	_	_
+13	trieštiť	trieštiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+14	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
+15	jednotlivé	jednotlivý	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
+16	bloky	blok	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obl	_	_
+17	,	,	PUNCT	Z	_	21	punct	_	_
+18	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	severe	sever	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_
+20	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	21	expl:pv	_	_
+21	utvorila	utvoriť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+22	pevnina	pevnina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	23	nmod	_	_
+23	Laurázia	laurázia	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+24	,	,	PUNCT	Z	_	26	punct	_	_
+25	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	26	case	_	_
+26	juhu	juh	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	conj	_	_
+27	Gondwana	gondwana	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	26	orphan	_	_
+28	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s4
+# text = Pangea mala tvar písmena C .
+# orig_file_sentence wiki-24_kandracova_wiki-24_hudekova#4
+1	Pangea	pangea	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	mala	mať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	tvar	tvar	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	písmena	písmeno	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	C	c	X	W	Abbr=Yes	4	nmod	_	_
+6	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s5
+# text = V dôsledku veľkosti Pangey nedochádzalo ve vnútrozemí k zrážkam a preto bolo extrémne suché .
+# orig_file_sentence wiki-24_kandracova_wiki-24_hudekova#5
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	dôsledku	dôsledok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	veľkosti	veľkosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+4	Pangey	pangea	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	nedochádzalo	dochádzať	VERB	VLescn-	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+6	ve	v	ADP	Ev6	AdpType=Voc|Case=Loc	7	case	_	_
+7	vnútrozemí	vnútrozemie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+8	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	9	case	_	_
+9	zrážkam	zrážka	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	5	obl:arg	_	_
+10	a	a	CCONJ	O	_	14	cc	_	_
+11	preto	preto	CCONJ	O	_	14	cc	_	_
+12	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	cop	_	_
+13	extrémne	extrémne	ADV	Dx	Degree=Pos	14	advmod	_	_
+14	suché	suchý	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	conj	_	_
+15	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s6
+# text = Veľký prakontinent by potenciálne ( nebyť sucha ) umožňoval zvieratstvu migrovať od Južného až po Severný pól .
+# orig_file_sentence wiki-24_kandracova_wiki-24_hudekova#6
+1	Veľký	veľký	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	prakontinent	prakontinent	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+3	by	by	AUX	Y	Mood=Cnd	9	aux	_	_
+4	potenciálne	potenciálne	ADV	Dx	Degree=Pos	9	advmod	_	_
+5	(	(	PUNCT	Z	_	6	punct	_	_
+6	nebyť	byť	VERB	VIe-	Aspect=Imp|Polarity=Neg|VerbForm=Inf	9	advcl	_	_
+7	sucha	sucho	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	)	)	PUNCT	Z	_	6	punct	_	_
+9	umožňoval	umožňovať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	zvieratstvu	zvieratstvo	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	9	iobj	_	_
+11	migrovať	migrovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	9	xcomp	_	_
+12	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+13	Južného	južný	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	obl	_	_
+14	až	až	SCONJ	O	_	17	cc	_	_
+15	po	po	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
+16	Severný	severný	ADJ	AAis4x:r	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	pól	pól	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	conj	_	_
+18	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s7
+# text = Plášť pod pôvodným umiestením Pangey bol rozpálený viac ako zbytok Zeme a preto se snažil vyvyšovať .
+# orig_file_sentence wiki-24_kandracova_wiki-24_hudekova#7
+1	Plášť	plášť	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	4	case	_	_
+3	pôvodným	pôvodný	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	umiestením	umiestenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	_
+5	Pangey	pangea	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	cop	_	_
+7	rozpálený	rozpálený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+8	viac	viac	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	7	obl	_	_
+9	ako	ako	SCONJ	O	_	10	mark	_	_
+10	zbytok	zbytok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	dep	_	_
+11	Zeme	zem	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	a	a	CCONJ	O	_	15	cc	_	_
+13	preto	preto	CCONJ	O	_	15	cc	_	_
+14	se	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+15	snažil	snažiť	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+16	vyvyšovať	vyvyšovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	15	xcomp	_	_
+17	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s8
+# text = Ako dôsledek je dnešná Afrika o niekoľko desiatok metrov vyššie než ostatné kontinenty .
+# orig_file_sentence wiki-24_kandracova_wiki-24_hudekova#8
+1	Ako	ako	SCONJ	O	_	2	mark	_	_
+2	dôsledek	dôsledok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	obl	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	_
+4	dnešná	dnešný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	Afrika	afrika	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+6	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+7	niekoľko	niekoľko	DET	PUns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Card|PronType=Ind	8	det:numgov	_	_
+8	desiatok	desiatka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	10	obl	_	_
+9	metrov	meter	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	vyššie	vysoko	ADV	Dy	Degree=Cmp	0	root	_	_
+11	než	než	SCONJ	O	_	13	mark	_	_
+12	ostatné	ostatný	ADJ	NAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumType=Mult	13	amod	_	_
+13	kontinenty	kontinent	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	advcl	_	_
+14	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s9
+# text = Pangea pravdepodobne nebola prvý superkontinent .
+# orig_file_sentence wiki-24_kandracova_wiki-24_hudekova#9
+1	Pangea	pangea	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	pravdepodobne	pravdepodobne	PART	T	_	5	advmod	_	_
+3	nebola	byť	AUX	VLescf-	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	5	cop	_	_
+4	prvý	prvý	ADJ	NAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	superkontinent	superkontinent	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s10
+# text = Predpokladá sa , že Pannotia sa sformovala pred 600 miliónmi rokov a rozpadla sa pred 550 miliónmi rokov , Rodínia se potom sformovala približne pred 1 100 miliónmi rokov a rozdelila sa pred 750 miliónmi rokov .
+# orig_file_sentence wiki-24_kandracova_wiki-24_hudekova#10
+1	Predpokladá	predpokladať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pass	_	_
+3	,	,	PUNCT	Z	_	7	punct	_	_
+4	že	že	SCONJ	O	_	7	mark	_	_
+5	Pannotia	pannotia	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pass	_	_
+7	sformovala	sformovať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	ccomp	_	_
+8	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	10	case	_	_
+9	600	600	NUM	0	NumForm=Digit	10	nummod	_	_
+10	miliónmi	milión	NUM	NSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	_
+11	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	a	a	CCONJ	O	_	13	cc	_	_
+13	rozpadla	rozpadnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+14	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pass	_	_
+15	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	17	case	_	_
+16	550	550	NUM	0	NumForm=Digit	17	nummod	_	_
+17	miliónmi	milión	NUM	NSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	obl	_	_
+18	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	,	,	PUNCT	Z	_	23	punct	_	_
+20	Rodínia	rodínia	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	23	nsubj:pass	_	_
+21	se	sa	PRON	R	PronType=Prs|Reflex=Yes	23	expl:pass	_	_
+22	potom	potom	ADV	Dx	Degree=Pos	23	advmod	_	_
+23	sformovala	sformovať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+24	približne	približne	PART	T	_	23	advmod	_	_
+25	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	28	case	_	_
+26	1	1	NUM	0	NumForm=Digit	27	nummod	_	_
+27	100	100	NUM	0	NumForm=Digit	28	nummod	_	_
+28	miliónmi	milión	NUM	NSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	23	obl	_	_
+29	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+30	a	a	CCONJ	O	_	31	cc	_	_
+31	rozdelila	rozdeliť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	23	conj	_	_
+32	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	31	expl:pass	_	_
+33	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	35	case	_	_
+34	750	750	NUM	0	NumForm=Digit	35	nummod	_	_
+35	miliónmi	milión	NUM	NSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	31	obl	_	_
+36	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	35	nmod	_	_
+37	.	.	PUNCT	Z	_	1	punct	_	_
+

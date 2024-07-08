@@ -1,0 +1,209 @@
+# sent_id = s1
+# text = Kukurica siata
+# orig_file_sentence kukurica000_tencerova_kukurica000_kandracova#1
+1	Kukurica	kukurica	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	siata	siaty	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	1	amod	_	_
+
+# sent_id = s2
+# text = História
+# orig_file_sentence kukurica000_tencerova_kukurica000_kandracova#2
+1	História	história	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = s3
+# text = Spôsob jej domestikácie je jednou z najväčších záhad genetiky .
+# orig_file_sentence kukurica000_tencerova_kukurica000_kandracova#3
+1	Spôsob	spôsob	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	jej	jej	DET	PUfs2	Case=Gen|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	domestikácie	domestikácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	jednou	jeden	NUM	NFfs7	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+6	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+7	najväčších	veľký	ADJ	AAfp2z	Case=Gen|Degree=Sup|Gender=Fem|Number=Plur	8	amod	_	_
+8	záhad	záhada	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+9	genetiky	genetika	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s4
+# text = Predpokladá sa , že kukurica vznikla vývojom a selekciou z teosintu ( skupina amerických tráv z rodu Zea ) , s ktorým si však dnes kultúrna kukurica nie je vzhľadovo príliš podobná .
+# orig_file_sentence kukurica000_tencerova_kukurica000_kandracova#4
+1	Predpokladá	predpokladať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pass	_	_
+3	,	,	PUNCT	Z	_	6	punct	_	_
+4	že	že	SCONJ	O	_	6	mark	_	_
+5	kukurica	kukurica	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	vznikla	vzniknúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	csubj:pass	_	_
+7	vývojom	vývoj	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	selekciou	selekcia	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	7	conj	_	_
+10	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+11	teosintu	teosint	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	(	(	PUNCT	Z	_	13	punct	_	_
+13	skupina	skupina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	11	appos	_	_
+14	amerických	americký	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
+15	tráv	tráva	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+16	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+17	rodu	rod	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	Zea	zea	X	%	Foreign=Yes	17	nmod	_	_
+19	)	)	PUNCT	Z	_	13	punct	_	_
+20	,	,	PUNCT	Z	_	32	punct	_	_
+21	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	22	case	_	_
+22	ktorým	ktorý	DET	PAis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|PronType=Int,Rel	32	obl	_	_
+23	si	si	PRON	R	PronType=Prs|Reflex=Yes	32	discourse	_	_
+24	však	však	PART	T	_	32	advmod	_	_
+25	dnes	dnes	ADV	Dx	Degree=Pos	32	advmod	_	_
+26	kultúrna	kultúrny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	kukurica	kukurica	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	_
+28	nie	nie	PART	T	_	32	advmod	_	_
+29	je	byť	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	32	cop	_	_
+30	vzhľadovo	vzhľadovo	ADV	Dx	Degree=Pos	32	advmod	_	_
+31	príliš	príliš	ADV	Dx	Degree=Pos	32	advmod	_	_
+32	podobná	podobný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	acl	_	_
+33	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s5
+# text = Na rozdiel od ostatných kultúrnych plodín nie sú známe žiadne medzistupne medzi divokým predchodcom kukurice a kultúrnou plodinou .
+# orig_file_sentence kukurica000_tencerova_kukurica000_kandracova#5
+1	Na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+2	rozdiel	rozdiel	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	1	fixed	_	_
+4	ostatných	ostatný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+5	kultúrnych	kultúrny	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+6	plodín	plodina	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	9	obl	_	_
+7	nie	nie	PART	T	_	9	advmod	_	_
+8	sú	byť	AUX	VKepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	známe	známy	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	_
+10	žiadne	žiadny	DET	PFip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Neg	11	det	_	_
+11	medzistupne	medzistupeň	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+12	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	14	case	_	_
+13	divokým	divoký	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	predchodcom	predchodca	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
+15	kukurice	kukurica	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	a	a	CCONJ	O	_	18	cc	_	_
+17	kultúrnou	kultúrny	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	plodinou	plodina	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	14	conj	_	_
+19	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s6
+# text = Kukurica nie je schopná samostatnej existencie bez pomoci poľnohospodára .
+# orig_file_sentence kukurica000_tencerova_kukurica000_kandracova#6
+1	Kukurica	kukurica	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	nie	nie	PART	T	_	4	advmod	_	_
+3	je	byť	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	schopná	schopný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+5	samostatnej	samostatný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	existencie	existencia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	obj	_	_
+7	bez	bez	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	pomoci	pomoc	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	poľnohospodára	poľnohospodár	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s7
+# text = Záhadu ešte umocňuje fakt , že dávni obyvatelia Ameriky nemali na domestikáciu kukurice príliš veľa času .
+# orig_file_sentence kukurica000_tencerova_kukurica000_kandracova#7
+1	Záhadu	záhada	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+2	ešte	ešte	PART	T	_	3	advmod	_	_
+3	umocňuje	umocňovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	fakt	fakt	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	,	,	PUNCT	Z	_	10	punct	_	_
+6	že	že	SCONJ	O	_	10	mark	_	_
+7	dávni	dávny	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	obyvatelia	obyvateľ	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+9	Ameriky	amerika	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	nemali	mať	VERB	VLepcm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	4	acl	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	domestikáciu	domestikácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_
+13	kukurice	kukurica	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	príliš	príliš	ADV	Dx	Degree=Pos	15	advmod	_	_
+15	veľa	veľa	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+16	času	čas	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s8
+# text = Súčasné teórie predpokladajú , že kukurica " vznikla " niekedy medzi rokmi 4000 ‐ 3000 pred Kr . v údolí rieky Balzas .
+# orig_file_sentence kukurica000_tencerova_kukurica000_kandracova#8
+1	Súčasné	súčasný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
+2	teórie	teória	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	predpokladajú	predpokladať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	,	,	PUNCT	Z	_	8	punct	_	_
+5	že	že	SCONJ	O	_	8	mark	_	_
+6	kukurica	kukurica	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+7	"	"	PUNCT	Z	_	8	punct	_	_
+8	vznikla	vzniknúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	ccomp	_	_
+9	"	"	PUNCT	Z	_	8	punct	_	_
+10	niekedy	niekedy	ADV	PD	PronType=Ind	8	advmod	_	_
+11	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	12	case	_	_
+12	rokmi	rok	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	obl	_	_
+13	4000	4000	NUM	0	NumForm=Digit	12	nummod	_	_
+14	‐	‐	PUNCT	Z	_	15	punct	_	_
+15	3000	3000	NUM	0	NumForm=Digit	13	conj	_	_
+16	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	17	case	_	_
+17	Kr	kr	X	W	Abbr=Yes	13	nmod	_	_
+18	.	.	PUNCT	Z	_	17	punct	_	_
+19	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+20	údolí	údolie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+21	rieky	rieka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	Balzas	balzas	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nmod	_	_
+23	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s9
+# text = Vedú sa spory o tom , či išlo o postupný proces alebo o šťastnú udalosť .
+# orig_file_sentence kukurica000_tencerova_kukurica000_kandracova#9
+1	Vedú	viesť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pass	_	_
+3	spory	spor	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj:pass	_	_
+4	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	tom	to	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	či	či	CCONJ	O	_	8	mark	_	_
+8	išlo	ísť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	acl	_	_
+9	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+10	postupný	postupný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	proces	proces	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl:arg	_	_
+12	alebo	alebo	CCONJ	O	_	15	cc	_	_
+13	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+14	šťastnú	šťastný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	udalosť	udalosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	_
+16	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s10
+# text = S niektorými druhmi teosintu sa môže kukurica krížiť , kríženci majú väčšinou zníženú životaschopnosť .
+# orig_file_sentence kukurica000_tencerova_kukurica000_kandracova#10
+1	S	s	ADP	Eu7	AdpType=Prep|Case=Ins	3	case	_	_
+2	niektorými	niektorý	DET	PAip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	druhmi	druh	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	obl	_	_
+4	teosintu	teosint	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+6	môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	kukurica	kukurica	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+8	krížiť	krížiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+9	,	,	PUNCT	Z	_	11	punct	_	_
+10	kríženci	kríženec	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	majú	mať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	conj	_	_
+12	väčšinou	väčšinou	ADV	Dx	Degree=Pos	11	advmod	_	_
+13	zníženú	znížený	ADJ	Gtfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	životaschopnosť	životaschopnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+15	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s11
+# text = Napriek tomu sa predpokladá , že v Strednej Amerike dochádza k prenosu génov medzi populáciami teosintu a kukurice .
+# orig_file_sentence kukurica000_tencerova_kukurica000_kandracova#11
+1	Napriek	napriek	ADP	Eu3	AdpType=Prep|Case=Dat	2	case	_	_
+2	tomu	to	DET	PFns3	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	4	obl	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pass	_	_
+4	predpokladá	predpokladať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	,	,	PUNCT	Z	_	10	punct	_	_
+6	že	že	SCONJ	O	_	10	mark	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+8	Strednej	stredný	ADJ	AAfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	Amerike	amerika	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+10	dochádza	dochádzať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	csubj:pass	_	_
+11	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	12	case	_	_
+12	prenosu	prenos	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	obl:arg	_	_
+13	génov	gén	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	15	case	_	_
+15	populáciami	populácia	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	12	nmod	_	_
+16	teosintu	teosint	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	kukurice	kukurica	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	conj	_	_
+19	.	.	PUNCT	Z	_	4	punct	_	_
+

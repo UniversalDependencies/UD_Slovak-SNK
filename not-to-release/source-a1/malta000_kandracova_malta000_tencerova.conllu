@@ -1,0 +1,121 @@
+# sent_id = s1
+# text = Malta
+# orig_file_sentence malta000_kandracova_malta000_tencerova#1
+1	Malta	malta	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = s2
+# text = Maltská republika
+# orig_file_sentence malta000_kandracova_malta000_tencerova#2
+1	Maltská	maltský	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	republika	republika	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = s3
+# text = Malta , dlhý tvar Maltská republika , ( oficiálny názov : po maltsky Repubblika ta ’ Malta a po anglicky Republic of Malta ) je ostrovný štát v Stredozemnom mori .
+# orig_file_sentence malta000_kandracova_malta000_tencerova#3
+1	Malta	malta	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+2	,	,	PUNCT	Z	_	1	punct	_	_
+3	dlhý	dlhý	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	tvar	tvar	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	dep	_	_
+5	Maltská	maltský	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	republika	republika	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	dep	_	_
+7	,	,	PUNCT	Z	_	1	punct	_	_
+8	(	(	PUNCT	Z	_	14	punct	_	_
+9	oficiálny	oficiálny	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	názov	názov	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_
+11	:	:	PUNCT	Z	_	14	punct	_	_
+12	po	po	X	Q	Hyph=Yes	13	case	_	_
+13	maltsky	maltsky	ADV	Dx	Degree=Pos	14	advmod	_	_
+14	Repubblika	repubblika	X	%	Foreign=Yes	27	parataxis	_	_
+15	ta	ta	X	%	Foreign=Yes	14	flat:foreign	_	_
+16	’	’	PUNCT	Z	_	15	punct	_	_
+17	Malta	malta	X	%	Foreign=Yes	15	flat:foreign	_	_
+18	a	a	CCONJ	O	_	20	cc	_	_
+19	po	po	X	Q	Hyph=Yes	20	case	_	_
+20	anglicky	anglicky	ADV	Dx	Degree=Pos	14	conj	_	_
+21	Republic	republic	X	%	Foreign=Yes	20	orphan	_	_
+22	of	of	X	%	Foreign=Yes	23	case	_	_
+23	Malta	malta	X	%	Foreign=Yes	21	flat:foreign	_	_
+24	)	)	PUNCT	Z	_	14	punct	_	_
+25	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	27	cop	_	_
+26	ostrovný	ostrovný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	štát	štát	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+28	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	30	case	_	_
+29	Stredozemnom	stredozemný	ADJ	AAns6x:r	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
+30	mori	more	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	27	nmod	_	_
+31	.	.	PUNCT	Z	_	27	punct	_	_
+
+# sent_id = s4
+# text = Geografia
+# orig_file_sentence malta000_kandracova_malta000_tencerova#4
+1	Geografia	geografia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = s5
+# text = Maltské súostrovie leží na strategickom mieste v Stredozemnom mori , 95 km južne od Sicílie a 290 km západne od Tuniska .
+# orig_file_sentence malta000_kandracova_malta000_tencerova#5
+1	Maltské	maltský	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	súostrovie	súostrovie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	leží	ležať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+5	strategickom	strategický	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	mieste	miesto	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+8	Stredozemnom	stredozemný	ADJ	AAns6x:r	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	mori	more	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	95	95	NUM	0	NumForm=Digit	6	appos	_	_
+12	km	km	X	W	Abbr=Yes	11	nmod	_	_
+13	južne	južne	ADV	Dx	Degree=Pos	12	advmod	_	_
+14	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+15	Sicílie	sicília	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+16	a	a	CCONJ	O	_	17	cc	_	_
+17	290	290	NUM	0	NumForm=Digit	11	conj	_	_
+18	km	km	X	W	Abbr=Yes	17	nmod	_	_
+19	západne	západne	ADV	Dx	Degree=Pos	18	advmod	_	_
+20	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	21	case	_	_
+21	Tuniska	tunisko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	19	obl	_	_
+22	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s6
+# text = Pozostáva z nasledujúcich obývaných ostrovov : Malta , 246 km² Gozo ( po maltsky Ghawdex ) , 67 km² ( okolo 30000 obyvateľov ) Comino ( po maltsky Kemmuna ) , 3 km² ( obývaný predovšetkým počas turistickej sezóny )
+# orig_file_sentence malta000_kandracova_malta000_tencerova#6
+1	Pozostáva	pozostávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+3	nasledujúcich	nasledujúci	ADJ	Gkip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	5	amod	_	_
+4	obývaných	obývaný	ADJ	Gtip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	ostrovov	ostrov	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	obl:arg	_	_
+6	:	:	PUNCT	Z	_	7	punct	_	_
+7	Malta	malta	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	_
+8	,	,	PUNCT	Z	_	7	punct	_	_
+9	246	246	NUM	0	NumForm=Digit	7	dep	_	_
+10	km²	km2	X	W	Abbr=Yes	9	nmod	_	_
+11	Gozo	gozo	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	5	appos	_	_
+12	(	(	PUNCT	Z	_	11	punct	_	_
+13	po	po	X	Q	Hyph=Yes	14	case	_	_
+14	maltsky	maltsky	ADV	Dx	Degree=Pos	11	dep	_	_
+15	Ghawdex	ghawdex	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	dep	_	_
+16	)	)	PUNCT	Z	_	11	punct	_	_
+17	,	,	PUNCT	Z	_	11	punct	_	_
+18	67	67	NUM	0	NumForm=Digit	11	dep	_	_
+19	km²	km2	X	W	Abbr=Yes	18	nmod	_	_
+20	(	(	PUNCT	Z	_	11	punct	_	_
+21	okolo	okolo	PART	T	_	22	advmod:emph	_	_
+22	30000	30000	NUM	0	NumForm=Digit	11	dep	_	_
+23	obyvateľov	obyvateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	)	)	PUNCT	Z	_	11	punct	_	_
+25	Comino	comino	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	5	appos	_	_
+26	(	(	PUNCT	Z	_	25	punct	_	_
+27	po	po	X	Q	Hyph=Yes	28	case	_	_
+28	maltsky	maltsky	ADV	Dx	Degree=Pos	25	advmod	_	_
+29	Kemmuna	kemmuna	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	25	dep	_	_
+30	)	)	PUNCT	Z	_	25	punct	_	_
+31	,	,	PUNCT	Z	_	25	punct	_	_
+32	3	3	NUM	0	NumForm=Digit	25	dep	_	_
+33	km²	km2	X	W	Abbr=Yes	32	nmod	_	_
+34	(	(	PUNCT	Z	_	35	punct	_	_
+35	obývaný	obývaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	25	amod	_	_
+36	predovšetkým	predovšetkým	PART	T	_	38	advmod:emph	_	_
+37	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	39	case	_	_
+38	turistickej	turistický	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+39	sezóny	sezóna	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	35	obl	_	_
+40	)	)	PUNCT	Z	_	35	punct	_	_
+

@@ -1,0 +1,727 @@
+# sent_id = s1
+# text = Justinius II .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#1
+1	Justinius	justinius	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	II	ii	NUM	0	NumForm=Digit	1	nummod	_	_
+3	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s2
+# text = Justinius II . ( * 520 , † 5 . október 578 ) bol byzantským cisárom od 14 . novembra 565 až do smrti .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#2
+1	Justinius	justinius	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+2	II	ii	NUM	0	NumForm=Digit	1	nummod	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+4	(	(	PUNCT	Z	_	1	punct	_	_
+5	*	*	PUNCT	#	_	6	punct	_	_
+6	520	520	NUM	0	NumForm=Digit	1	dep	_	_
+7	,	,	PUNCT	Z	_	11	punct	_	_
+8	†	†	PUNCT	#	_	11	punct	_	_
+9	5	5	NUM	0	NumForm=Digit	11	nummod	_	_
+10	.	.	PUNCT	Z	_	9	punct	_	_
+11	október	október	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+12	578	578	NUM	0	NumForm=Digit	11	nummod	_	_
+13	)	)	PUNCT	Z	_	1	punct	_	_
+14	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	cop	_	_
+15	byzantským	byzantský	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	cisárom	cisár	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+17	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+18	14	14	NUM	0	NumForm=Digit	20	nummod	_	_
+19	.	.	PUNCT	Z	_	18	punct	_	_
+20	novembra	november	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+21	565	565	NUM	0	NumForm=Digit	20	nummod	_	_
+22	až	až	PART	T	_	24	cc	_	_
+23	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	24	case	_	_
+24	smrti	smrť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	20	conj	_	_
+25	.	.	PUNCT	Z	_	16	punct	_	_
+
+# sent_id = s3
+# text = Nástup na trón
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#3
+1	Nástup	nástup	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+3	trón	trón	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	_
+
+# sent_id = s4
+# text = Justiniovými rodičmi boli Dulcidius a Vigilantia , sestra cisára Justiniána I .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#4
+1	Justiniovými	justiniov	ADJ	AFmp7x:r	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+2	rodičmi	rodič	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	0	root	_	_
+3	boli	byť	AUX	VLepco+	Aspect=Imp|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	2	cop	_	_
+4	Dulcidius	dulcidius	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	Vigilantia	vigilantia	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	_
+7	,	,	PUNCT	Z	_	8	punct	_	_
+8	sestra	sestra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	_
+9	cisára	cisár	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+10	Justiniána	justinián	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	I	i	NUM	0	NumForm=Digit	10	nummod	_	_
+12	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s5
+# text = Vďaka svojmu postaveniu na cisárskom dvore a svojej žene Sofii , ktorá bola neterou cisárovnej Theodory , získal po Justiniánovej smrti cisársky titul .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#5
+1	Vďaka	vďaka	ADP	Eu3	AdpType=Prep|Case=Dat	3	case	_	_
+2	svojmu	svoj	DET	PFns3	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	_	_
+3	postaveniu	postavenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	_
+4	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+5	cisárskom	cisársky	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	dvore	dvor	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+7	a	a	CCONJ	O	_	10	cc	_	_
+8	svojej	svoj	DET	PFfs3	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	_
+9	žene	žena	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	_
+10	Sofii	sofia	PROPN	SSfs3:r	Case=Dat|Gender=Fem|Number=Sing	3	conj	_	_
+11	,	,	PUNCT	Z	_	14	punct	_	_
+12	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	14	nsubj	_	_
+13	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	cop	_	_
+14	neterou	neter	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	10	acl	_	_
+15	cisárovnej	cisárovná	NOUN	SFfs2	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+16	Theodory	theodora	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	,	,	PUNCT	Z	_	14	punct	_	_
+18	získal	získať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+19	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	_	_
+20	Justiniánovej	justiniánov	ADJ	AFfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	smrti	smrť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	18	obl	_	_
+22	cisársky	cisársky	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	titul	titul	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+24	.	.	PUNCT	Z	_	18	punct	_	_
+
+# sent_id = s6
+# text = Existoval síce ešte iný kandidát , ktorý sa menoval tiež Justinius a aj on bol synovcom Justiniána , toho však čoskoro odstránili .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#6
+1	Existoval	existovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	síce	síce	CCONJ	O	_	1	cc	_	_
+3	ešte	ešte	ADV	Dx	Degree=Pos	4	advmod:emph	_	_
+4	iný	iný	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	kandidát	kandidát	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+6	,	,	PUNCT	Z	_	9	punct	_	_
+7	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	9	nsubj	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+9	menoval	menovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	acl	_	_
+10	tiež	tiež	PART	T	_	11	advmod:emph	_	_
+11	Justinius	justinius	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	obl	_	_
+12	a	a	CCONJ	O	_	16	cc	_	_
+13	aj	aj	PART	T	_	14	advmod:emph	_	_
+14	on	on	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	cop	_	_
+16	synovcom	synovec	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	conj	_	_
+17	Justiniána	justinián	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	,	,	PUNCT	Z	_	22	punct	_	_
+19	toho	ten	DET	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	22	obj	_	_
+20	však	však	CCONJ	O	_	22	cc	_	_
+21	čoskoro	čoskoro	ADV	Dx	Degree=Pos	22	advmod	_	_
+22	odstránili	odstrániť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+23	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s7
+# text = Prvé dni Justiniovej vlády boli celkom sľubné : zaplatil dlhy svojho strýka , osobne sa staral o súdnictvo a vyzval na rešpektovanie náboženskej tolerancie .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#7
+1	Prvé	prvý	ADJ	NAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumType=Ord	2	amod	_	_
+2	dni	deň	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+3	Justiniovej	justiniov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	boli	byť	AUX	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	7	cop	_	_
+6	celkom	celkom	PART	T	_	7	advmod	_	_
+7	sľubné	sľubný	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	_
+8	:	:	PUNCT	Z	_	9	punct	_	_
+9	zaplatil	zaplatiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+10	dlhy	dlh	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+11	svojho	svoj	DET	PFms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	_	_
+12	strýka	strýko	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	,	,	PUNCT	Z	_	16	punct	_	_
+14	osobne	osobne	ADV	Dx	Degree=Pos	16	advmod	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+16	staral	starať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	conj	_	_
+17	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	18	case	_	_
+18	súdnictvo	súdnictvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	16	obl:arg	_	_
+19	a	a	CCONJ	O	_	20	cc	_	_
+20	vyzval	vyzvať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	conj	_	_
+21	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	22	case	_	_
+22	rešpektovanie	rešpektovanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	20	obl:arg	_	_
+23	náboženskej	náboženský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	tolerancie	tolerancia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+25	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s8
+# text = Nezanedbával západ , ale snažil sa udržať tamojšie územia .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#8
+1	Nezanedbával	zanedbávať	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+2	západ	západ	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+3	,	,	PUNCT	Z	_	5	punct	_	_
+4	ale	ale	CCONJ	O	_	5	cc	_	_
+5	snažil	snažiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+7	udržať	udržať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+8	tamojšie	tamojší	ADJ	AAnp4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	_
+9	územia	územie	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	_
+10	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s9
+# text = Avšak kvôli chýbajúcej aristokracii a nevraživosti miestneho miestodržiteľa zostalo jeho úsilie neúčinné .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#9
+1	Avšak	avšak	CCONJ	O	_	9	cc	_	_
+2	kvôli	kvôli	ADP	Eu3	AdpType=Prep|Case=Dat	4	case	_	_
+3	chýbajúcej	chýbajúci	ADJ	Gkfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	4	amod	_	_
+4	aristokracii	aristokracia	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	nevraživosti	nevraživosť	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	4	conj	_	_
+7	miestneho	miestny	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	miestodržiteľa	miestodržiteľ	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	zostalo	zostať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	jeho	jeho	DET	PUns1	Case=Nom|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	úsilie	úsilie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+12	neúčinné	neúčinný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	obj	_	_
+13	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s10
+# text = Vo vnútorných záležitostiach spôsobila onedlho problémy jeho protimonofyzitská náboženská politika .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#10
+1	Vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	3	case	_	_
+2	vnútorných	vnútorný	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
+3	záležitostiach	záležitosť	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	4	obl	_	_
+4	spôsobila	spôsobiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	onedlho	onedlho	ADV	Dx	Degree=Pos	4	advmod	_	_
+6	problémy	problém	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+7	jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+8	protimonofyzitská	protimonofyzitský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	náboženská	náboženský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	politika	politika	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+11	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s11
+# text = Obrana ríše
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#11
+1	Obrana	obrana	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	ríše	ríša	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+
+# sent_id = s12
+# text = Jednou z kľúčových udalostí jeho vlády bola invázia Langobardov vedených kráľom Alboinom do Talianska v roku 568 .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#12
+1	Jednou	jeden	NUM	NFfs7	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+2	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+3	kľúčových	kľúčový	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+4	udalostí	udalosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+5	jeho	jeho	DET	PUfs2	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	cop	_	_
+8	invázia	invázia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+9	Langobardov	langobard	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	vedených	vedený	ADJ	Gtmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	9	amod	_	_
+11	kráľom	kráľ	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	nmod	_	_
+12	Alboinom	alboin	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obj	_	_
+13	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+14	Talianska	taliansko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+16	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+17	568	568	NUM	0	NumForm=Digit	16	nummod	_	_
+18	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s13
+# text = Germánski Langobardi si počas niekoľkých rokov podrobili veľké časti krajiny a takmer úplne tým zmarili reštauračné dielo Justiniána I .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#13
+1	Germánski	germánsky	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+2	Langobardi	langobard	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+3	si	si	PRON	R	PronType=Prs|Reflex=Yes	7	obl	_	_
+4	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+5	niekoľkých	niekoľko	DET	PUip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	6	det	_	_
+6	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+7	podrobili	podrobiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	veľké	veľký	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
+9	časti	časť	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+10	krajiny	krajina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	a	a	CCONJ	O	_	15	cc	_	_
+12	takmer	takmer	PART	T	_	13	advmod:emph	_	_
+13	úplne	úplne	ADV	Dx	Degree=Pos	15	advmod	_	_
+14	tým	to	DET	PFns7	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	15	obl	_	_
+15	zmarili	zmariť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+16	reštauračné	reštauračný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	dielo	dielo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+18	Justiniána	justinián	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	I	i	NUM	0	NumForm=Digit	18	nummod	_	_
+20	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s14
+# text = Ich vpád je všeobecne považovaný za poslednú etapu germánskeho sťahovania národov a za jeden z možných koncov antiky .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#14
+1	Ich	ich	DET	PUis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	vpád	vpád	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	všeobecne	všeobecne	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	považovaný	považovaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+6	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+7	poslednú	posledný	ADJ	NAfs4	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	_
+8	etapu	etapa	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obl:arg	_	_
+9	germánskeho	germánsky	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	sťahovania	sťahovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+11	národov	národ	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	a	a	CCONJ	O	_	14	cc	_	_
+13	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+14	jeden	jeden	NUM	NFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	conj	_	_
+15	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+16	možných	možný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_
+17	koncov	koniec	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+18	antiky	antika	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s15
+# text = Justinius sa nedokázal postaviť na odpor proti útočníkom aj preto , že svoju pozornosť musel sústrediť na sever a na východ : Na Dunaji dal pokyn na celý rad skôr neúspešných ťažení proti prenikajúcim Avarom , kým na východe v roku 572 znovu vypukla vojna proti Sasánovcom , s ktorými uzatvorili Rímania mier iba pred desiatimi rokmi .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#15
+1	Justinius	justinius	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	nedokázal	dokázať	VERB	VLdscm-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+4	postaviť	postaviť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	odpor	odpor	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+7	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	8	case	_	_
+8	útočníkom	útočník	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	_
+9	aj	aj	PART	T	_	10	advmod:emph	_	_
+10	preto	preto	ADV	PD	PronType=Dem	3	advmod	_	_
+11	,	,	PUNCT	Z	_	15	punct	_	_
+12	že	že	SCONJ	O	_	15	mark	_	_
+13	svoju	svoj	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	_	_
+14	pozornosť	pozornosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+15	musel	musieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	advcl	_	_
+16	sústrediť	sústrediť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	15	xcomp	_	_
+17	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	18	case	_	_
+18	sever	sever	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
+19	a	a	CCONJ	O	_	21	cc	_	_
+20	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	21	case	_	_
+21	východ	východ	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	conj	_	_
+22	:	:	PUNCT	Z	_	25	punct	_	_
+23	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+24	Dunaji	dunaj	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	obl	_	_
+25	dal	dať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+26	pokyn	pokyn	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
+27	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	29	case	_	_
+28	celý	celý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	rad	rad	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	nmod	_	_
+30	skôr	skôr	ADV	Dx	Degree=Pos	31	advmod:emph	_	_
+31	neúspešných	neúspešný	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	32	amod	_	_
+32	ťažení	ťaženie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	29	nmod	_	_
+33	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	35	case	_	_
+34	prenikajúcim	prenikajúci	ADJ	Gkmp3x	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	35	amod	_	_
+35	Avarom	avar	PROPN	SSmp3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	32	nmod	_	_
+36	,	,	PUNCT	Z	_	44	punct	_	_
+37	kým	kým	SCONJ	O	_	44	mark	_	_
+38	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	39	case	_	_
+39	východe	východ	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	44	obl	_	_
+40	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	41	case	_	_
+41	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	44	obl	_	_
+42	572	572	NUM	0	NumForm=Digit	41	nummod	_	_
+43	znovu	znovu	ADV	Dx	Degree=Pos	44	advmod	_	_
+44	vypukla	vypuknúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	25	advcl	_	_
+45	vojna	vojna	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	44	nsubj	_	_
+46	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	47	case	_	_
+47	Sasánovcom	sasán	PROPN	SSmp3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	45	nmod	_	_
+48	,	,	PUNCT	Z	_	51	punct	_	_
+49	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	50	case	_	_
+50	ktorými	ktorý	DET	PAmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|PronType=Int,Rel	51	obl:arg	_	_
+51	uzatvorili	uzatvoriť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	47	acl	_	_
+52	Rímania	riman	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	51	nsubj	_	_
+53	mier	mier	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	51	obj	_	_
+54	iba	iba	PART	T	_	56	advmod:emph	_	_
+55	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	57	case	_	_
+56	desiatimi	desať	NUM	NUip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	57	nummod	_	_
+57	rokmi	rok	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	51	obl	_	_
+58	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s16
+# text = Príčinou boli dovtedy nevyriešené spory v oblasti Kaukazu , okrem toho neustále dochádzalo k prepadom rímskeho územia arabským kmeňom Lachmovcov , ktorí boli perzskými spojencami .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#16
+1	Príčinou	príčina	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+2	boli	byť	AUX	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	cop	_	_
+3	dovtedy	dovtedy	ADV	PD	PronType=Dem	4	advmod	_	_
+4	nevyriešené	vyriešený	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Neg|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	spory	spor	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+7	oblasti	oblasť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	6	fixed	_	_
+8	Kaukazu	kaukaz	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+9	,	,	PUNCT	Z	_	13	punct	_	_
+10	okrem	okrem	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+11	toho	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	13	obl	_	_
+12	neustále	neustále	ADV	Dx	Degree=Pos	13	advmod	_	_
+13	dochádzalo	dochádzať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+14	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	15	case	_	_
+15	prepadom	prepad	NOUN	SSip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	13	obl:arg	_	_
+16	rímskeho	rímsky	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	územia	územie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+18	arabským	arabský	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	kmeňom	kmeň	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	nmod	_	_
+20	Lachmovcov	lachma	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+21	,	,	PUNCT	Z	_	25	punct	_	_
+22	ktorí	ktorý	DET	PAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	25	nsubj	_	_
+23	boli	byť	AUX	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	25	cop	_	_
+24	perzskými	perzský	ADJ	AAmp7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	25	amod	_	_
+25	spojencami	spojenec	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	20	acl	_	_
+26	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s17
+# text = Neskoroantickí autori Justiniovi vytýkali aj to , že ľahkomyselne vyprovokoval vojnu tým , že podporoval povstanie v Peržanmi kontrolovanej časti Arménie .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#17
+1	Neskoroantickí	neskoroantický	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+2	autori	autor	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	Justiniovi	justinius	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	iobj	_	_
+4	vytýkali	vytýkať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	aj	aj	PART	T	_	6	advmod:emph	_	_
+6	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	_
+7	,	,	PUNCT	Z	_	10	punct	_	_
+8	že	že	SCONJ	O	_	10	mark	_	_
+9	ľahkomyselne	ľahkomyselne	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	vyprovokoval	vyprovokovať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
+11	vojnu	vojna	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	tým	to	DET	PFns7	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	10	obl	_	_
+13	,	,	PUNCT	Z	_	15	punct	_	_
+14	že	že	SCONJ	O	_	15	mark	_	_
+15	podporoval	podporovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	acl	_	_
+16	povstanie	povstanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+18	Peržanmi	peržan	PROPN	SSmp7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	19	obj	_	_
+19	kontrolovanej	kontrolovaný	ADJ	Gtfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	20	amod	_	_
+20	časti	časť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+21	Arménie	arménia	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s18
+# text = Dôvodom na vojnu bola tiež nespokojnosť Rímanov s potrebou platiť Peržanom každoročný tribut , ktorý dojednal Justinián v roku 562 .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#18
+1	Dôvodom	dôvod	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+2	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+3	vojnu	vojna	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	_
+4	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	cop	_	_
+5	tiež	tiež	PART	T	_	6	advmod:emph	_	_
+6	nespokojnosť	nespokojnosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+7	Rímanov	riman	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+9	potrebou	potreba	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	_
+10	platiť	platiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	9	acl	_	_
+11	Peržanom	peržan	PROPN	SSmp3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	10	iobj	_	_
+12	každoročný	každoročný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	tribut	tribut	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+14	,	,	PUNCT	Z	_	16	punct	_	_
+15	ktorý	ktorý	DET	PAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	16	nsubj	_	_
+16	dojednal	dojednať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	acl	_	_
+17	Justinián	justinián	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	obj	_	_
+18	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+20	562	562	NUM	0	NumForm=Digit	19	nummod	_	_
+21	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s19
+# text = Aj keď obe strany boli pripravené na vojnu rovnako zle , dosiahli Peržania pod vedením Husrava I . niekoľko významných úspechov .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#19
+1	Aj	aj	CCONJ	O	_	6	mark	_	_
+2	keď	keď	SCONJ	O	_	1	fixed	_	_
+3	obe	oba	NUM	NNfp1	Case=Nom|Gender=Fem|Number=Plur	4	nummod	_	_
+4	strany	strana	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+5	boli	byť	AUX	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	6	cop	_	_
+6	pripravené	pripravený	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	advcl	_	_
+7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+8	vojnu	vojna	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obl:arg	_	_
+9	rovnako	rovnako	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	zle	zle	ADV	Dx	Degree=Pos	6	advmod	_	_
+11	,	,	PUNCT	Z	_	6	punct	_	_
+12	dosiahli	dosiahnuť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+13	Peržania	peržan	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+14	pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	15	case	_	_
+15	vedením	vedenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+16	Husrava	husrav	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	I	i	X	W	Abbr=Yes	16	nmod	_	_
+18	.	.	PUNCT	Z	_	17	punct	_	_
+19	niekoľko	niekoľko	DET	PUns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Card|PronType=Ind	21	det:numgov	_	_
+20	významných	významný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_
+21	úspechov	úspech	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obj	_	_
+22	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s20
+# text = Sasánovske vojska sa prevalili Mezopotámiou a v roku 573 dobyli dôležitú pevnosť Daru .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#20
+1	Sasánovske	sasánovský	ADJ	AAnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	2	amod	_	_
+2	vojska	vojsko	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	prevalili	prevaliť	VERB	VLdpcn+	Aspect=Perf|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	Mezopotámiou	mezopotámia	PROPN	SSfs7:r	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+6	a	a	CCONJ	O	_	10	cc	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+9	573	573	NUM	0	NumForm=Digit	8	nummod	_	_
+10	dobyli	dobyť	VERB	VLdpcn+	Aspect=Perf|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+11	dôležitú	dôležitý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	pevnosť	pevnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+13	Daru	dara	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+14	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s21
+# text = Spojenectvo s Turkami , ktorí mali napadnúť Peržanov zozadu , neprinieslo očakávaný výsledok .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#21
+1	Spojenectvo	spojenectvo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+2	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	3	case	_	_
+3	Turkami	turek	PROPN	SSmp7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	1	nmod	_	_
+4	,	,	PUNCT	Z	_	6	punct	_	_
+5	ktorí	ktorý	DET	PAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	6	nsubj	_	_
+6	mali	mať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	3	acl	_	_
+7	napadnúť	napadnúť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+8	Peržanov	peržan	PROPN	SSmp4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+9	zozadu	zozadu	ADV	Dx	Degree=Pos	7	advmod	_	_
+10	,	,	PUNCT	Z	_	6	punct	_	_
+11	neprinieslo	priniesť	VERB	VLdscn-	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+12	očakávaný	očakávaný	ADJ	Gtis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	výsledok	výsledok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+14	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s22
+# text = Naopak , Turci sami onedlho zaútočili na východorímsku ríšu .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#22
+1	Naopak	naopak	PART	T	_	6	advmod	_	_
+2	,	,	PUNCT	Z	_	1	punct	_	_
+3	Turci	turek	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+4	sami	sám	DET	PFmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Emp	3	xcomp	_	_
+5	onedlho	onedlho	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	zaútočili	zaútočiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+8	východorímsku	východorímsky	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	ríšu	ríša	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+10	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s23
+# text = Zdá sa , že zlé správy z bojiska uškodili Justinianovmu duševnému zdraviu .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#23
+1	Zdá	zdať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	,	,	PUNCT	Z	_	9	punct	_	_
+4	že	že	SCONJ	O	_	9	mark	_	_
+5	zlé	zlý	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+6	správy	správa	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+7	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	bojiska	bojisko	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	uškodili	uškodiť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	csubj	_	_
+10	Justinianovmu	justinianov	ADJ	AFns3x:r	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+11	duševnému	duševný	ADJ	AAns3x	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	zdraviu	zdravie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	9	obj	_	_
+13	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s24
+# text = Napriek tomu ale aj Rímania dosiahli niektoré úspechy : Justinianov vojvodca Justinián , brat cisárom odstráneného pretendenta trónu Justina , dosiahol skvelé víťazstvo v bitke pri Melitene .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#24
+1	Napriek	napriek	ADP	Eu3	AdpType=Prep|Case=Dat	2	case	_	_
+2	tomu	to	DET	PFns3	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	6	obl	_	_
+3	ale	ale	CCONJ	O	_	6	cc	_	_
+4	aj	aj	CCONJ	O	_	5	advmod:emph	_	_
+5	Rímania	riman	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	dosiahli	dosiahnuť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	niektoré	niektorý	DET	PAip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	úspechy	úspech	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+9	:	:	PUNCT	Z	_	21	punct	_	_
+10	Justinianov	justiniánov	ADJ	AFms1x:r	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	vojvodca	vojvodca	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_
+12	Justinián	justinián	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+13	,	,	PUNCT	Z	_	14	punct	_	_
+14	brat	brat	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	_
+15	cisárom	cisár	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obj	_	_
+16	odstráneného	odstránený	ADJ	Gtms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	17	amod	_	_
+17	pretendenta	pretendent	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+18	trónu	trón	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	Justina	justinius	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+20	,	,	PUNCT	Z	_	14	punct	_	_
+21	dosiahol	dosiahnuť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	appos	_	_
+22	skvelé	skvelý	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	víťazstvo	víťazstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
+24	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	25	case	_	_
+25	bitke	bitka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_
+26	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	27	case	_	_
+27	Melitene	melitena	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	25	nmod	_	_
+28	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s25
+# text = Bola to do tých čias jedna z najťažších perzských porážok v bojoch s Rímanmi .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#25
+1	Bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	cop	_	_
+2	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
+3	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+4	tých	ten	DET	PFip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	čias	čas	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+6	jedna	jeden	NUM	NFfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+7	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+8	najťažších	ťažký	ADJ	AAfp2z	Case=Gen|Degree=Sup|Gender=Fem|Number=Plur	10	amod	_	_
+9	perzských	perzský	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
+10	porážok	porážka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	bojoch	boj	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	nmod	_	_
+13	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	14	case	_	_
+14	Rímanmi	riman	PROPN	SSmp7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	12	nmod	_	_
+15	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s26
+# text = Kráľ Husrav I . vyviazol len s veľkou námahou .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#26
+1	Kráľ	kráľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Husrav	husrav	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	I	i	NUM	0	NumForm=Digit	2	nummod	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+5	vyviazol	vyviaznuť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	len	len	PART	T	_	9	advmod:emph	_	_
+7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+8	veľkou	veľký	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	námahou	námaha	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+10	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s27
+# text = Napriek tomu tento úspech sa neukázal ako rozhodujúci .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#27
+1	Napriek	napriek	ADP	Eu3	AdpType=Prep|Case=Dat	2	case	_	_
+2	tomu	to	DET	PFns3	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	6	obl	_	_
+3	tento	tento	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	úspech	úspech	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+6	neukázal	ukázať	VERB	VLdsci-	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+7	ako	ako	SCONJ	O	_	8	cc	_	_
+8	rozhodujúci	rozhodujúci	ADJ	Gkis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	6	obj	_	_
+9	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s28
+# text = Peržania sa z porážky rýchlo spamätali a Justinius bol nakoniec nútený vykupovať si neistý kľud zbraní každoročným poplatkom .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#28
+1	Peržania	peržan	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+3	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	porážky	porážka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+5	rýchlo	rýchlo	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	spamätali	spamätať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	a	a	CCONJ	O	_	11	cc	_	_
+8	Justinius	justinius	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+9	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	cop	_	_
+10	nakoniec	nakoniec	ADV	Dx	Degree=Pos	11	advmod	_	_
+11	nútený	nútený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	6	conj	_	_
+12	vykupovať	vykupovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	11	xcomp	_	_
+13	si	si	PRON	R	PronType=Prs|Reflex=Yes	12	obl	_	_
+14	neistý	neistý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	kľud	kľud	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+16	zbraní	zbraň	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	každoročným	každoročný	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	poplatkom	poplatok	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+19	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s29
+# text = Toto prímerie sa ale vzťahovalo len na Mezopotámiu , Arménia bola z tohto ustanovenia vyňatá a prímerie nevydržalo príliš dlho .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#29
+1	Toto	toto	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+2	prímerie	prímerie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+4	ale	ale	CCONJ	O	_	5	cc	_	_
+5	vzťahovalo	vzťahovať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	len	len	PART	T	_	8	advmod:emph	_	_
+7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+8	Mezopotámiu	mezopotámia	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	5	obl:arg	_	_
+9	,	,	PUNCT	Z	_	15	punct	_	_
+10	Arménia	arménia	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+11	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	15	cop	_	_
+12	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+13	tohto	toto	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	14	det	_	_
+14	ustanovenia	ustanovenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+15	vyňatá	vyňatý	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	conj	_	_
+16	a	a	CCONJ	O	_	18	cc	_	_
+17	prímerie	prímerie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+18	nevydržalo	vydržať	VERB	VLdscn-	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	5	conj	_	_
+19	príliš	príliš	ADV	Dx	Degree=Pos	20	advmod	_	_
+20	dlho	dlho	ADV	Dx	Degree=Pos	18	advmod	_	_
+21	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s30
+# text = Už v roku 578 boje začali nanovo .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#30
+1	Už	už	ADV	Dx	Degree=Pos	4	advmod:emph	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	578	578	NUM	0	NumForm=Digit	3	nummod	_	_
+5	boje	boj	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	začali	začať	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	nanovo	nanovo	ADV	Dx	Degree=Pos	6	advmod	_	_
+8	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s31
+# text = Smrť a nástupníctvo
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#31
+1	Smrť	smrť	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	a	a	CCONJ	O	_	3	cc	_	_
+3	nástupníctvo	nástupníctvo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	_
+
+# sent_id = s32
+# text = Od roku 574 sa prejavovali príznaky Justiniovej duševnej choroby .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#32
+1	Od	od	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+3	574	574	NUM	0	NumForm=Digit	2	nummod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	prejavovali	prejavovať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	príznaky	príznak	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+7	Justiniovej	justiniov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	duševnej	duševný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	choroby	choroba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+10	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s33
+# text = Na radu svojej manželky Sofie Justinius 7 . decembra 574 ustanovil úspešného vojvodcu Tiberia za svojho spolucisára .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#33
+1	Na	na	ADP	Eu4	AdpType=Prep|Case=Acc	2	case	_	_
+2	radu	rada	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+3	svojej	svoj	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	4	det	_	_
+4	manželky	manželka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+5	Sofie	sofia	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+6	Justinius	justinius	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+7	7	7	NUM	0	NumForm=Digit	9	nummod	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+9	decembra	december	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+10	574	574	NUM	0	NumForm=Digit	9	nummod	_	_
+11	ustanovil	ustanoviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	úspešného	úspešný	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	vojvodcu	vojvodca	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	_
+14	Tiberia	tiberios	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+15	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
+16	svojho	svoj	DET	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	17	det	_	_
+17	spolucisára	spolucisár	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obl:arg	_	_
+18	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s34
+# text = Ten odvtedy prakticky sám vykonával všetky štátne záležitosti .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#34
+1	Ten	ten	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	odvtedy	odvtedy	ADV	PD	PronType=Dem	5	advmod	_	_
+3	prakticky	prakticky	PART	T	_	4	mark	_	_
+4	sám	sám	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	1	xcomp	_	_
+5	vykonával	vykonávať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	všetky	všetok	DET	PFfp4	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	8	det	_	_
+7	štátne	štátny	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	záležitosti	záležitosť	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+9	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s35
+# text = Keď Justinius , ktorého vláda je moderným výskumom hodnotená prevážne negatívne ( oproti historickým prameňom ) , roku 578 zomrel , stal sa Tiberios bez problémov jeho nástupcom .
+# orig_file_sentence wiki-29_kandracova_wiki-29_hudekova#35
+1	Keď	keď	SCONJ	O	_	20	mark	_	_
+2	Justinius	justinius	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+3	,	,	PUNCT	Z	_	9	punct	_	_
+4	ktorého	ktorý	DET	PAms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|PronType=Int,Rel	5	amod	_	_
+5	vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+6	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+7	moderným	moderný	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	výskumom	výskum	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+9	hodnotená	hodnotený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	amod	_	_
+10	prevážne	prevažne	ADV	Dx	Degree=Pos	11	advmod	_	_
+11	negatívne	negatívne	ADV	Dx	Degree=Pos	9	advmod	_	_
+12	(	(	PUNCT	Z	_	15	punct	_	_
+13	oproti	oproti	ADP	Eu3	AdpType=Prep|Case=Dat	15	case	_	_
+14	historickým	historický	ADJ	AAip3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
+15	prameňom	prameň	NOUN	SSip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	9	obl	_	_
+16	)	)	PUNCT	Z	_	15	punct	_	_
+17	,	,	PUNCT	Z	_	9	punct	_	_
+18	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	obl	_	_
+19	578	578	NUM	0	NumForm=Digit	18	nummod	_	_
+20	zomrel	zomrieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	22	advcl	_	_
+21	,	,	PUNCT	Z	_	20	punct	_	_
+22	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+23	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	22	expl:pv	_	_
+24	Tiberios	tiberios	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+25	bez	bez	ADP	Eu2	AdpType=Prep|Case=Gen	26	case	_	_
+26	problémov	problém	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	obl	_	_
+27	jeho	jeho	DET	PUms7	Animacy=Anim|Case=Ins|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	28	det	_	_
+28	nástupcom	nástupca	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	22	obj	_	_
+29	.	.	PUNCT	Z	_	22	punct	_	_
+

@@ -1,0 +1,426 @@
+# sent_id = s1
+# text = Maja prepočula otázku a vraví : “ Aký je to kvet ?
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#1
+1	Maja	maja	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	prepočula	prepočuť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	otázku	otázka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	a	a	CCONJ	O	_	5	cc	_	_
+5	vraví	vravieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	:	:	PUNCT	Z	_	8	punct	_	_
+7	“	“	PUNCT	Z	_	8	punct	_	_
+8	Aký	aký	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	5	ccomp	_	_
+9	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_
+10	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	discourse	_	_
+11	kvet	kvet	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+12	?	?	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s2
+# text = Poviete mi , ako sa volá ? “
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#2
+1	Poviete	povedať	VERB	VMdpb+	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+2	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
+3	,	,	PUNCT	Z	_	6	punct	_	_
+4	ako	ako	ADV	PD	PronType=Int,Rel	6	advmod	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+6	volá	volať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+7	?	?	PUNCT	Z	_	1	punct	_	_
+8	“	“	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s3
+# text = Chrobák zhovievavo pokrútil hlavou .
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#3
+1	Chrobák	chrobák	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	zhovievavo	zhovievavo	ADV	Dx	Degree=Pos	3	advmod	_	_
+3	pokrútil	pokrútiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	hlavou	hlava	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	obj	_	_
+5	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s4
+# text = Včielka by sa mala vyznať v kvetoch , pomyslel si .
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#4
+1	Včielka	včielka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	by	by	AUX	Y	Mood=Cnd	4	aux	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+4	mala	mať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	ccomp	_	_
+5	vyznať	vyznať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	kvetoch	kvet	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl:arg	_	_
+8	,	,	PUNCT	Z	_	4	punct	_	_
+9	pomyslel	pomyslieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	si	si	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pass	_	_
+11	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s5
+# text = Ale táto je asi trocha zaostalá .
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#5
+1	Ale	ale	PART	T	_	6	cc	_	_
+2	táto	táto	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	6	nsubj	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	asi	asi	PART	T	_	6	advmod	_	_
+5	trocha	trocha	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	zaostalá	zaostalý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+7	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s6
+# text = “ To je ruža , milá moja .
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#6
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	To	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	ruža	ruža	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	,	,	PUNCT	Z	_	4	punct	_	_
+6	milá	milý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	moja	môj	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	dep	_	_
+8	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s7
+# text = Nasťahovali sme sa sem iba pred štyrmi dňami .
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#7
+1	Nasťahovali	nasťahovať	VERB	VLdpah+	Aspect=Perf|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sme	byť	AUX	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+4	sem	sem	ADV	PD	PronType=Dem	1	advmod	_	_
+5	iba	iba	PART	T	_	8	advmod:emph	_	_
+6	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+7	štyrmi	štyri	NUM	NNip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	nummod	_	_
+8	dňami	deň	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	1	obl	_	_
+9	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s8
+# text = Ale prosím , len poďte ďalej . “
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#8
+1	Ale	ale	PART	T	_	2	cc	_	_
+2	prosím	prosím	PART	T	_	5	advmod	_	_
+3	,	,	PUNCT	Z	_	2	punct	_	_
+4	len	len	PART	T	_	5	advmod	_	_
+5	poďte	ísť	VERB	VMepb+	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+6	ďalej	ďalej	ADV	Dx	Degree=Pos	5	advmod	_	_
+7	.	.	PUNCT	Z	_	5	punct	_	_
+8	“	“	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s9
+# text = “ Rada , “ odvetila Maja a nasledovala chrobáka pomedzi okvetné lístky .
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#9
+1	“	“	PUNCT	Z	_	5	punct	_	_
+2	Rada	rada	ADJ	AUfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	dep	_	_
+3	,	,	PUNCT	Z	_	5	punct	_	_
+4	“	“	PUNCT	Z	_	5	punct	_	_
+5	odvetila	odvetiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	Maja	maja	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	nasledovala	nasledovať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+9	chrobáka	chrobák	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	pomedzi	pomedzi	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+11	okvetné	okvetný	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
+12	lístky	lístok	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_
+13	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s10
+# text = Do chrobákovho obydlia dopadalo tlmené červené svetlo a sladká vôňa bola oveľa prenikavejšia .
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#10
+1	Do	do	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	chrobákovho	chrobákov	ADJ	AFns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	obydlia	obydlie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+4	dopadalo	dopadať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	tlmené	tlmený	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	_	_
+6	červené	červený	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	svetlo	svetlo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+8	a	a	CCONJ	O	_	13	cc	_	_
+9	sladká	sladký	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	vôňa	vôňa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+11	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	cop	_	_
+12	oveľa	oveľa	ADV	Dx	Degree=Pos	13	advmod	_	_
+13	prenikavejšia	prenikavý	ADJ	AAfs1y	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	4	conj	_	_
+14	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s11
+# text = Tu sa určite prekrásne býva , pomyslela si Maja , tisíckrát krajšie ako v tesnom dusnom úli .
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#11
+1	Tu	tu	ADV	PD	PronType=Dem	5	advmod	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pass	_	_
+3	určite	určite	PART	T	_	5	advmod	_	_
+4	prekrásne	prekrásne	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	býva	bývať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+6	,	,	PUNCT	Z	_	5	punct	_	_
+7	pomyslela	pomyslieť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	si	si	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pass	_	_
+9	Maja	maja	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	tisíckrát	tisíckrát	ADV	ND	NumType=Mult	12	obl	_	_
+12	krajšie	pekne	ADV	Dy	Degree=Cmp	5	advmod	_	_
+13	ako	ako	SCONJ	O	_	17	mark	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+15	tesnom	tesný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+16	dusnom	dusný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	úli	úľ	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	dep	_	_
+18	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s12
+# text = “ Jedli ste už ? “ vyzvedal chrobák a keď Maja záporne pokrútila hlavou , zdvorilo pokračoval : “ Nedáte si troška medu ? “
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#12
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Jedli	jesť	VERB	VLepbh+	Aspect=Imp|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	7	ccomp	_	_
+3	ste	byť	AUX	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	aux	_	_
+4	už	už	PART	T	_	2	advmod	_	_
+5	?	?	PUNCT	Z	_	2	punct	_	_
+6	“	“	PUNCT	Z	_	2	punct	_	_
+7	vyzvedal	vyzvedať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	chrobák	chrobák	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	a	a	CCONJ	O	_	17	cc	_	_
+10	keď	keď	SCONJ	O	_	13	mark	_	_
+11	Maja	maja	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+12	záporne	záporne	ADV	Dx	Degree=Pos	13	advmod	_	_
+13	pokrútila	pokrútiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	17	advcl	_	_
+14	hlavou	hlava	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	13	obj	_	_
+15	,	,	PUNCT	Z	_	13	punct	_	_
+16	zdvorilo	zdvorilo	ADV	Dx	Degree=Pos	17	advmod	_	_
+17	pokračoval	pokračovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+18	:	:	PUNCT	Z	_	20	punct	_	_
+19	“	“	PUNCT	Z	_	20	punct	_	_
+20	Nedáte	dať	VERB	VKdpb-	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	17	conj	_	_
+21	si	si	PRON	R	PronType=Prs|Reflex=Yes	20	expl:pv	_	_
+22	troška	troška	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	20	obj	_	_
+23	medu	med	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	?	?	PUNCT	Z	_	7	punct	_	_
+25	“	“	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s13
+# text = “ Ó , áno , “ vyhŕkla Maja , “ to by bolo výborné ! “
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#13
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Ó	ó	INTJ	J	_	7	dep	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	áno	áno	PART	T	_	2	conj	_	_
+5	,	,	PUNCT	Z	_	14	punct	_	_
+6	“	“	PUNCT	Z	_	14	punct	_	_
+7	vyhŕkla	vyhŕknuť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	Maja	maja	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+9	,	,	PUNCT	Z	_	14	punct	_	_
+10	“	“	PUNCT	Z	_	14	punct	_	_
+11	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj	_	_
+12	by	by	AUX	Y	Mood=Cnd	14	aux	_	_
+13	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	cop	_	_
+14	výborné	výborný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	conj	_	_
+15	!	!	PUNCT	Z	_	7	punct	_	_
+16	“	“	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s14
+# text = Chrobák zmizol medzi okvetnými lístkami .
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#14
+1	Chrobák	chrobák	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	zmizol	zmiznúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	5	case	_	_
+4	okvetnými	okvetný	ADJ	Gtip7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	lístkami	lístok	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	obl	_	_
+6	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s15
+# text = Zrazu v tom tichu zaburácal jeho hlas .
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#15
+1	Zrazu	zrazu	ADV	Dx	Degree=Pos	5	advmod	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+3	tom	to	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	tichu	ticho	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+5	zaburácal	zaburácať	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	jeho	jeho	DET	PUis1	Animacy=Inan|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	hlas	hlas	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+8	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s16
+# text = Iný zvučný hlas mu odpovedal : “ Taká nehanebnosť !
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#16
+1	Iný	iný	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+2	zvučný	zvučný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	hlas	hlas	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	odpovedal	odpovedať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	:	:	PUNCT	Z	_	5	punct	_	_
+7	“	“	PUNCT	Z	_	5	punct	_	_
+8	Taká	taký	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	nehanebnosť	hanebnosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	dep	_	_
+10	!	!	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s17
+# text = Vy grobian jeden !
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#17
+1	Vy	vy	PRON	PPhp1	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	nmod	_	_
+2	grobian	grobian	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	jeden	jeden	NUM	NFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nummod	_	_
+4	!	!	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s18
+# text = Vari nám nikdy nedáte pokoj !
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#18
+1	Vari	vari	PART	T	_	4	advmod	_	_
+2	nám	my	PRON	PPhp3	Case=Dat|Number=Plur|Person=1|PronType=Prs	4	iobj	_	_
+3	nikdy	nikdy	ADV	PD	PronType=Neg	4	advmod	_	_
+4	nedáte	dať	VERB	VKjpb-	Aspect=Imp,Perf|Mood=Ind|Number=Plur|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	pokoj	pokoj	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	!	!	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s19
+# text = Von , ale už aj ! “
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#19
+1	Von	von	ADV	Dx	Degree=Pos	0	root	_	_
+2	,	,	PUNCT	Z	_	4	punct	_	_
+3	ale	ale	PART	T	_	4	cc	_	_
+4	už	už	PART	T	_	1	conj	_	_
+5	aj	aj	PART	T	_	4	orphan	_	_
+6	!	!	PUNCT	Z	_	1	punct	_	_
+7	“	“	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s20
+# text = “ Len sa nenafukujte !
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#20
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	Len	len	PART	T	_	4	advmod	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	nenafukujte	nafukovať	VERB	VMepb-	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|Polarity=Neg|VerbForm=Fin	0	root	_	_
+5	!	!	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s21
+# text = Myslíte si , že môžete byť hrubý , keď som tu sám ?
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#21
+1	Myslíte	myslieť	VERB	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	si	si	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pass	_	_
+3	,	,	PUNCT	Z	_	5	punct	_	_
+4	že	že	SCONJ	O	_	5	mark	_	_
+5	môžete	môcť	VERB	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+6	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	7	cop	_	_
+7	hrubý	hrubý	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	xcomp	_	_
+8	,	,	PUNCT	Z	_	12	punct	_	_
+9	keď	keď	SCONJ	O	_	12	mark	_	_
+10	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	tu	tu	ADV	PD	PronType=Dem	12	advmod	_	_
+12	sám	sám	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	5	advcl	_	_
+13	?	?	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s22
+# text = Prestaňte ! “
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#22
+1	Prestaňte	prestať	VERB	VMdpb+	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+2	!	!	PUNCT	Z	_	1	punct	_	_
+3	“	“	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s23
+# text = “ Zmiznite !
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#23
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Zmiznite	zmiznúť	VERB	VMdpb+	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+3	!	!	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s24
+# text = Toto je môj dom ! “
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#24
+1	Toto	toto	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	môj	môj	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
+4	dom	dom	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	!	!	PUNCT	Z	_	4	punct	_	_
+6	“	“	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s25
+# text = “ Tak dobre , už idem .
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#25
+1	“	“	PUNCT	Z	_	6	punct	_	_
+2	Tak	tak	PART	T	_	3	cc	_	_
+3	dobre	dobre	PART	T	_	6	advmod	_	_
+4	,	,	PUNCT	Z	_	3	punct	_	_
+5	už	už	PART	T	_	6	advmod	_	_
+6	idem	ísť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s26
+# text = Ale nabudúce neprídem sám , privediem si kamarátov ! “
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#26
+1	Ale	ale	PART	T	_	3	cc	_	_
+2	nabudúce	nabudúce	ADV	Dx	Degree=Pos	3	advmod	_	_
+3	neprídem	prísť	VERB	VKdsa-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sám	sám	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	3	obl	_	_
+5	,	,	PUNCT	Z	_	6	punct	_	_
+6	privediem	priviesť	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	si	si	PRON	R	PronType=Prs|Reflex=Yes	6	discourse	_	_
+8	kamarátov	kamarát	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+9	!	!	PUNCT	Z	_	3	punct	_	_
+10	“	“	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s27
+# text = Keď sa chrobák zjavil znovu , vyzeral namrzene a hodil na zem kúsok medu .
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#27
+1	Keď	keď	SCONJ	O	_	4	mark	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	chrobák	chrobák	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	zjavil	zjaviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	advcl	_	_
+5	znovu	znovu	ADV	Dx	Degree=Pos	4	advmod	_	_
+6	,	,	PUNCT	Z	_	4	punct	_	_
+7	vyzeral	vyzerať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	namrzene	namrzene	ADV	Dx	Degree=Pos	7	advmod	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	hodil	hodiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	zem	zem	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+13	kúsok	kúsok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+14	medu	med	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s28
+# text = Maja sa naň lačno vrhla .
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#28
+1	Maja	maja	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+3	naň	na_on	PRON	PFis4g	AdpType=Preppron|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	5	obj	_	_
+4	lačno	lačno	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	vrhla	vrhnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s29
+# text = “ Čo sa stalo ?
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#29
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	Čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	stalo	stať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	?	?	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s30
+# text = Kto to bol ? “ spýtala sa .
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#30
+1	Kto	kto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	2	nsubj	_	_
+2	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	ccomp	_	_
+3	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	cop	_	_
+4	?	?	PUNCT	Z	_	2	punct	_	_
+5	“	“	PUNCT	Z	_	2	punct	_	_
+6	spýtala	spýtať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+8	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s31
+# text = “ S plnými ústami sa nerozpráva , “ prísne ju napomenul chrobák .
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#31
+1	“	“	PUNCT	Z	_	6	punct	_	_
+2	S	s	ADP	Eu7	AdpType=Prep|Case=Ins	4	case	_	_
+3	plnými	plný	ADJ	AAnp7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	_
+4	ústami	ústa	NOUN	SSnp7	Case=Ins|Gender=Neut|Number=Plur	6	obl	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pass	_	_
+6	nerozpráva	rozprávať	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	,	,	PUNCT	Z	_	11	punct	_	_
+8	“	“	PUNCT	Z	_	6	punct	_	_
+9	prísne	prísne	ADV	Dx	Degree=Pos	11	advmod	_	_
+10	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	napomenul	napomenúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+12	chrobák	chrobák	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+13	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s32
+# text = “ Najprv prehltnite , až potom hovorte ! “
+# orig_file_sentence maja05_olejkarova_maja05_tencerova#32
+1	“	“	PUNCT	Z	_	3	punct	_	_
+2	Najprv	najprv	ADV	Dx	Degree=Pos	3	advmod	_	_
+3	prehltnite	prehltnúť	VERB	VMdpb+	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+4	,	,	PUNCT	Z	_	7	punct	_	_
+5	až	až	PART	T	_	6	advmod:emph	_	_
+6	potom	potom	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	hovorte	hovoriť	VERB	VMepb+	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	3	conj	_	_
+8	!	!	PUNCT	Z	_	3	punct	_	_
+9	“	“	PUNCT	Z	_	3	punct	_	_
+

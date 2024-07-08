@@ -1,0 +1,829 @@
+# sent_id = s1
+# text = Linux je počítačový operačný systém a jeho jadro . Patrí medzi najslávnejšie príklady slobodného softvéru a vývojového modelu open source .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#1
+1	Linux	linux	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	počítačový	počítačový	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	operačný	operačný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	systém	systém	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	a	a	CCONJ	O	_	10	cc	_	_
+7	jeho	jeho	DET	PUns1	Case=Nom|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	jadro	jadro	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+9	.	.	PUNCT	Z	_	8	punct	_	_
+10	Patrí	patriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
+11	medzi	medzi	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+12	najslávnejšie	slávny	ADJ	AAip4z	Animacy=Inan|Case=Acc|Degree=Sup|Gender=Masc|Number=Plur	13	amod	_	_
+13	príklady	príklad	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obl	_	_
+14	slobodného	slobodný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	softvéru	softvér	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	a	a	CCONJ	O	_	18	cc	_	_
+17	vývojového	vývojový	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	modelu	model	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	conj	_	_
+19	open	open	X	%	Foreign=Yes	18	nmod	_	_
+20	source	source	X	%	Foreign=Yes	19	flat:foreign	_	_
+21	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s2
+# text = Termín Linux sa vzťahuje na jadro Linuxu ( Linux kernel ) , ale v bežnej reči sa používa na opis celého operačného systému UNIXového typu ( známeho ako GNU / Linux ) , ktorý je založený na Linuxovom jadre , zatiaľčo knižnice a nástroje pochádzajú z projektu GNU .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#2
+1	Termín	termín	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	Linux	linux	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	vzťahuje	vzťahovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	jadro	jadro	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	obl:arg	_	_
+7	Linuxu	linux	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	(	(	PUNCT	Z	_	10	punct	_	_
+9	Linux	linux	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
+10	kernel	kernel	X	%	Foreign=Yes	6	appos	_	_
+11	)	)	PUNCT	Z	_	10	punct	_	_
+12	,	,	PUNCT	Z	_	18	punct	_	_
+13	ale	ale	CCONJ	O	_	18	cc	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+15	bežnej	bežný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	reči	reč	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	18	obl	_	_
+17	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	18	expl:pv	_	_
+18	používa	používať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	_	_
+19	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	20	case	_	_
+20	opis	opis	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
+21	celého	celý	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+22	operačného	operačný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	systému	systém	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+24	UNIXového	unixový	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	typu	typ	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+26	(	(	PUNCT	Z	_	27	punct	_	_
+27	známeho	známy	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+28	ako	ako	SCONJ	O	_	29	mark	_	_
+29	GNU	gnu	X	W	Abbr=Yes	23	xcomp	_	_
+30	/	/	PUNCT	Z	_	31	punct	_	_
+31	Linux	linux	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	nmod	_	_
+32	)	)	PUNCT	Z	_	27	punct	_	_
+33	,	,	PUNCT	Z	_	36	punct	_	_
+34	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	36	nsubj	_	_
+35	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	36	cop	_	_
+36	založený	založený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	23	acl	_	_
+37	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	39	case	_	_
+38	Linuxovom	linuxový	ADJ	AAns6x:r	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	39	amod	_	_
+39	jadre	jadro	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	36	obl:arg	_	_
+40	,	,	PUNCT	Z	_	45	punct	_	_
+41	zatiaľčo	zatiaľčo	SCONJ	O	_	45	mark	_	_
+42	knižnice	knižnica	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	45	nsubj	_	_
+43	a	a	CCONJ	O	_	44	cc	_	_
+44	nástroje	nástroj	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	42	conj	_	_
+45	pochádzajú	pochádzať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	36	advcl	_	_
+46	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	47	case	_	_
+47	projektu	projekt	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	45	obl	_	_
+48	GNU	gnu	X	W	Abbr=Yes	47	nmod	_	_
+49	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s3
+# text = Linuxové distribúcie často zoskupujú základný systém s veľkým množstvom programov spravovaných systémom " balíčkov " .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#3
+1	Linuxové	linuxový	ADJ	AAfp1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
+2	distribúcie	distribúcia	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+3	často	často	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	zoskupujú	zoskupovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	základný	základný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	systém	systém	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+8	veľkým	veľký	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	množstvom	množstvo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	6	nmod	_	_
+10	programov	program	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	spravovaných	spravovaný	ADJ	Gtip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	_	_
+12	systémom	systém	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+13	"	"	PUNCT	Z	_	14	punct	_	_
+14	balíčkov	balíček	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	"	"	PUNCT	Z	_	14	punct	_	_
+16	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s4
+# text = Hoci bol spočiatku používaný a vyvíjaný nadšenými jednotlivcami , od tej doby získal podporu niekorých veľkých spoločností ako IBM a Hewlett - Packard , a predbieha mnohé proprietárne verzie UNIXov .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#4
+1	Hoci	hoci	SCONJ	O	_	4	mark	_	_
+2	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	cop	_	_
+3	spočiatku	spočiatku	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	používaný	používaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	13	advcl	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	vyvíjaný	vyvíjaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	4	conj	_	_
+7	nadšenými	nadšený	ADJ	AAmp7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	jednotlivcami	jednotlivec	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_
+9	,	,	PUNCT	Z	_	4	punct	_	_
+10	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+11	tej	tá	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	doby	doba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+13	získal	získať	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+14	podporu	podpora	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	niekorých	niektorý	DET	PAfp2:q	Case=Gen|Gender=Fem|Number=Plur|PronType=Ind|Typo=Yes	17	det	_	_
+16	veľkých	veľký	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_
+17	spoločností	spoločnosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+18	ako	ako	SCONJ	O	_	19	mark	_	_
+19	IBM	ibm	X	W	Abbr=Yes	17	dep	_	_
+20	a	a	CCONJ	O	_	21	cc	_	_
+21	Hewlett	hewlett	X	%	Foreign=Yes	19	conj	_	_
+22	-	-	PUNCT	Z	_	23	punct	_	_
+23	Packard	packard	X	%	Foreign=Yes	21	conj	_	_
+24	,	,	PUNCT	Z	_	26	punct	_	_
+25	a	a	CCONJ	O	_	26	cc	_	_
+26	predbieha	predbiehať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	conj	_	_
+27	mnohé	mnohý	ADJ	NAfp4	Case=Acc|Gender=Fem|Number=Plur|NumType=Mult	29	amod	_	_
+28	proprietárne	proprietárny	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	_
+29	verzie	verzia	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	26	obj	_	_
+30	UNIXov	unix	PROPN	SSip2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	_
+31	.	.	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s5
+# text = Mnohí analytici trvrdia , že jeho úspech je založený na nezávislosti na dodávateľovi , nízkym implementačným nákladom , vysokej bezpečnosti a spoľahlivosti .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#5
+1	Mnohí	mnohý	ADJ	NAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|NumType=Mult	2	amod	_	_
+2	analytici	analytik	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	trvrdia	tvrdiť	VERB	VKepc+:q	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	_
+4	,	,	PUNCT	Z	_	9	punct	_	_
+5	že	že	SCONJ	O	_	9	mark	_	_
+6	jeho	jeho	DET	PUis1	Animacy=Inan|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	úspech	úspech	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	založený	založený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+10	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	nezávislosti	nezávislosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	9	obl:arg	_	_
+12	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	dodávateľovi	dodávateľ	NOUN	SSms6	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	_
+14	,	,	PUNCT	Z	_	17	punct	_	_
+15	nízkym	nízky	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+16	implementačným	implementačný	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	nákladom	náklad	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	conj	_	_
+18	,	,	PUNCT	Z	_	20	punct	_	_
+19	vysokej	vysoký	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	bezpečnosti	bezpečnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	11	conj	_	_
+21	a	a	CCONJ	O	_	22	cc	_	_
+22	spoľahlivosti	spoľahlivosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	11	conj	_	_
+23	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s6
+# text = Linux je vynikajúcou voľbou pre rôzne druhy internetových serverov , hlavne kvôli bezpečnosti a stabilite vyplývajúcej z vývojového modelu .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#6
+1	Linux	linux	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	vynikajúcou	vynikajúci	ADJ	Gkfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	4	amod	_	_
+4	voľbou	voľba	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+5	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+6	rôzne	rôzny	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+7	druhy	druh	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	_
+8	internetových	internetový	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
+9	serverov	server	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	hlavne	hlavne	PART	T	_	4	advmod	_	_
+12	kvôli	kvôli	ADP	Eu3	AdpType=Prep|Case=Dat	11	case	_	_
+13	bezpečnosti	bezpečnosť	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+14	a	a	CCONJ	O	_	15	cc	_	_
+15	stabilite	stabilita	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	13	conj	_	_
+16	vyplývajúcej	vyplývajúci	ADJ	Gkfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	13	amod	_	_
+17	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	19	case	_	_
+18	vývojového	vývojový	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	modelu	model	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl:arg	_	_
+20	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s7
+# text = Alternatívou v tomto prípade je napr . BSD .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#7
+1	Alternatívou	alternatíva	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+3	tomto	tento	DET	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	prípade	prípad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	_
+5	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_
+6	napr	napr	X	W	Abbr=Yes	8	cc	_	_
+7	.	.	PUNCT	Z	_	8	punct	_	_
+8	BSD	bsd	X	W	Abbr=Yes	1	nsubj	_	_
+9	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s8
+# text = Linux je skvelý aj pre programátorov , keďže existuje prístup ku všetkým zdrojovým kódom , neexistujú tu problémy s nezdokumentovanými funkciami a najpoužívanejší voľne dostupný kompilátor GCC patrí ku špičke .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#8
+1	Linux	linux	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	skvelý	skvelý	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+4	aj	aj	PART	T	_	6	cc	_	_
+5	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	programátorov	programátor	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	3	obl:arg	_	_
+7	,	,	PUNCT	Z	_	16	punct	_	_
+8	keďže	keďže	SCONJ	O	_	9	mark	_	_
+9	existuje	existovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+10	prístup	prístup	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	ku	k	ADP	Ev3	AdpType=Voc|Case=Dat	14	case	_	_
+12	všetkým	všetok	DET	PFip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	14	det	_	_
+13	zdrojovým	zdrojový	ADJ	AAip3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
+14	kódom	kód	NOUN	SSip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	_
+15	,	,	PUNCT	Z	_	9	punct	_	_
+16	neexistujú	existovať	VERB	VKepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	conj	_	_
+17	tu	tu	ADV	PD	PronType=Dem	16	advmod	_	_
+18	problémy	problém	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+19	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	21	case	_	_
+20	nezdokumentovanými	zdokumentovaný	ADJ	Gtfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Neg|VerbForm=Part|Voice=Pass	21	amod	_	_
+21	funkciami	funkcia	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	18	nmod	_	_
+22	a	a	CCONJ	O	_	28	cc	_	_
+23	najpoužívanejší	používaný	ADJ	AAis1z	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	26	amod	_	_
+24	voľne	voľne	ADV	Dx	Degree=Pos	25	advmod	_	_
+25	dostupný	dostupný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	kompilátor	kompilátor	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+27	GCC	gcc	X	W	Abbr=Yes	26	nmod	_	_
+28	patrí	patriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+29	ku	k	ADP	Ev3	AdpType=Voc|Case=Dat	30	case	_	_
+30	špičke	špička	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	28	obl	_	_
+31	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s9
+# text = Kontroverznou témou je v súčasnosti používanie Linuxu ako desktopového systému .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#9
+1	Kontroverznou	kontroverzný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	témou	téma	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	súčasnosti	súčasnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+6	používanie	používanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+7	Linuxu	linux	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	ako	ako	SCONJ	O	_	10	mark	_	_
+9	desktopového	desktopový	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	systému	systém	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	xcomp	_	_
+11	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s10
+# text = Zástancovia tvrdia , že existujú už všetky druhy aplikácií na seriózne nasadenie ako desktop , odporcovia sa odvolávajú na ich kvalitu , prípadne zníženú schopnosť podporovať komerčné formáty súborov , obzvlášť v otázke kancelárskeho balíka .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#10
+1	Zástancovia	zástanca	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	tvrdia	tvrdiť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	Z	_	5	punct	_	_
+4	že	že	SCONJ	O	_	5	mark	_	_
+5	existujú	existovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	už	už	PART	T	_	8	cc	_	_
+7	všetky	všetok	DET	PFip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	8	det	_	_
+8	druhy	druh	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+9	aplikácií	aplikácia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+11	seriózne	seriózny	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	nasadenie	nasadenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	_
+13	ako	ako	SCONJ	O	_	14	cc	_	_
+14	desktop	desktop	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_
+15	,	,	PUNCT	Z	_	18	punct	_	_
+16	odporcovia	odporca	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+17	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	18	expl:pv	_	_
+18	odvolávajú	odvolávať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+19	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	21	case	_	_
+20	ich	ich	DET	PUfs4	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	kvalitu	kvalita	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	18	obl:arg	_	_
+22	,	,	PUNCT	Z	_	25	punct	_	_
+23	prípadne	prípadne	PART	T	_	25	cc	_	_
+24	zníženú	znížený	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	schopnosť	schopnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	21	conj	_	_
+26	podporovať	podporovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	25	acl	_	_
+27	komerčné	komerčný	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	_
+28	formáty	formát	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	26	obj	_	_
+29	súborov	súbor	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+30	,	,	PUNCT	Z	_	33	punct	_	_
+31	obzvlášť	obzvlášť	PART	T	_	33	cc	_	_
+32	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	33	case	_	_
+33	otázke	otázka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	18	obl	_	_
+34	kancelárskeho	kancelársky	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	balíka	balík	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
+36	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s11
+# text = V tejto oblasti je potrebné vyskúšať a riadiť sa vlastnými preferenciami .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#11
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	tejto	táto	DET	PFfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	oblasti	oblasť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+4	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	potrebné	potrebný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+6	vyskúšať	vyskúšať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	5	csubj	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	riadiť	riadiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	6	conj	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pass	_	_
+10	vlastnými	vlastný	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
+11	preferenciami	preferencia	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	8	obl:agent	_	_
+12	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s12
+# text = Taktiež si na Linuxe nezáhráte väčšinu súčasných komerčných hier .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#12
+1	Taktiež	taktiež	PART	T	_	5	advmod	_	_
+2	si	si	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+3	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	Linuxe	linux	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+5	nezáhráte	zahrať	VERB	VKdpb-:q	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Polarity=Neg|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	_
+6	väčšinu	väčšina	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	súčasných	súčasný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
+8	komerčných	komerčný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
+9	hier	hra	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+10	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s13
+# text = Na druhej strane existuje množstvo voľne šíriteľných hier ( games . linux . sk ) .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#13
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	druhej	druhý	ADJ	NAfs6	Case=Loc|Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	strane	strana	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+4	existuje	existovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	množstvo	množstvo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+6	voľne	voľne	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	šíriteľných	šíriteľný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	hier	hra	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+9	(	(	PUNCT	Z	_	10	punct	_	_
+10	games	games	X	%	Foreign=Yes	4	dep	_	_
+11	.	.	PUNCT	Z	_	10	punct	_	_
+12	linux	linux	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
+13	.	.	PUNCT	Z	_	10	punct	_	_
+14	sk	sk	X	W	Abbr=Yes	10	nmod	_	_
+15	)	)	PUNCT	Z	_	10	punct	_	_
+16	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s14
+# text = V súčasnosti je aktívne udržiavaných veľa distribúcií , z ktorých každá má iné zameranie a cieľovú skupinu používateľov .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#14
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	súčasnosti	súčasnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	aktívne	aktívne	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	udržiavaných	udržiavaný	ADJ	Gtfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+6	veľa	veľa	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+7	distribúcií	distribúcia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	,	,	PUNCT	Z	_	12	punct	_	_
+9	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	ktorých	ktorý	DET	PAfp2	Case=Gen|Gender=Fem|Number=Plur|PronType=Int,Rel	11	det	_	_
+11	každá	každý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	12	nsubj	_	_
+12	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	acl	_	_
+13	iné	iný	DET	PAns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	14	det	_	_
+14	zameranie	zameranie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+15	a	a	CCONJ	O	_	17	cc	_	_
+16	cieľovú	cieľový	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	skupinu	skupina	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	14	conj	_	_
+18	používateľov	používateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s15
+# text = Pod pojmom distribúcia sa rozumie celok , ktorý obsahuje základný systém tvorený jadrom a ovládačmi zariadení a programami podľa zamerania distribúcie .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#15
+1	Pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	2	case	_	_
+2	pojmom	pojem	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+3	distribúcia	distribúcia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pass	_	_
+5	rozumie	rozumieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	celok	celok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	9	nsubj	_	_
+9	obsahuje	obsahovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	acl	_	_
+10	základný	základný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	systém	systém	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	tvorený	tvorený	ADJ	Gtis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	amod	_	_
+13	jadrom	jadro	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+14	a	a	CCONJ	O	_	15	cc	_	_
+15	ovládačmi	ovládač	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	conj	_	_
+16	zariadení	zariadenie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	programami	program	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	conj	_	_
+19	podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+20	zamerania	zameranie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+21	distribúcie	distribúcia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s16
+# text = Jednotlivé distribúcie môžu byť všeobecné s veľkým množstvom programov ( napr . desktopové ) , alebo užšie špecializované ( webový server , router , grafická stanica ) .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#16
+1	Jednotlivé	jednotlivý	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
+2	distribúcie	distribúcia	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	môžu	môcť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	cop	_	_
+5	všeobecné	všeobecný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	xcomp	_	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+7	veľkým	veľký	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	množstvom	množstvo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	5	nmod	_	_
+9	programov	program	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	(	(	PUNCT	Z	_	13	punct	_	_
+11	napr	napr	X	W	Abbr=Yes	13	cc	_	_
+12	.	.	PUNCT	Z	_	13	punct	_	_
+13	desktopové	desktopový	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	appos	_	_
+14	)	)	PUNCT	Z	_	13	punct	_	_
+15	,	,	PUNCT	Z	_	18	punct	_	_
+16	alebo	alebo	CCONJ	O	_	18	cc	_	_
+17	užšie	úzko	ADV	Dy	Degree=Cmp	18	advmod	_	_
+18	špecializované	špecializovaný	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	5	conj	_	_
+19	(	(	PUNCT	Z	_	21	punct	_	_
+20	webový	webový	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	server	server	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	_
+22	,	,	PUNCT	Z	_	23	punct	_	_
+23	router	router	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	conj	_	_
+24	,	,	PUNCT	Z	_	26	punct	_	_
+25	grafická	grafický	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	stanica	stanica	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	21	conj	_	_
+27	)	)	PUNCT	Z	_	21	punct	_	_
+28	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s17
+# text = Hoci jadro Linuxu je voľne šíriteľné , programy môžu byť komerčného charakteru , prípadne sa platí za technickú podporu .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#17
+1	Hoci	hoci	SCONJ	O	_	6	mark	_	_
+2	jadro	jadro	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+3	Linuxu	linux	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	voľne	voľne	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	šíriteľné	šíriteľný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	advcl	_	_
+7	,	,	PUNCT	Z	_	6	punct	_	_
+8	programy	program	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	môžu	môcť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	12	cop	_	_
+11	komerčného	komerčný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	charakteru	charakter	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	xcomp	_	_
+13	,	,	PUNCT	Z	_	16	punct	_	_
+14	prípadne	prípadne	PART	T	_	16	advmod	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pass	_	_
+16	platí	platiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	conj	_	_
+17	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	19	case	_	_
+18	technickú	technický	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	podporu	podpora	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	16	obl:arg	_	_
+20	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s18
+# text = Medzi hlavné distrubúcie patria Debian , Gentoo , Mandrake , Red Hat , SUSE , Slackware , Leaf ( špeciálna mini distribúcia , zmestí sa na jednu disketu , vhodná pre router / firewall ) a Slax ( zmestí sa na jedno 8 cm CD a nepotrebuje inštaláciu ) .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#18
+1	Medzi	medzi	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+2	hlavné	hlavný	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
+3	distrubúcie	distrubúcia	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	4	obl	_	_
+4	patria	patriť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Debian	debian	X	%	Foreign=Yes	4	nsubj	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	Gentoo	gentoo	X	%	Foreign=Yes	5	conj	_	_
+8	,	,	PUNCT	Z	_	9	punct	_	_
+9	Mandrake	mandrake	X	%	Foreign=Yes	5	conj	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	Red	red	X	%	Foreign=Yes	5	conj	_	_
+12	Hat	hat	X	%	Foreign=Yes	11	flat:foreign	_	_
+13	,	,	PUNCT	Z	_	14	punct	_	_
+14	SUSE	suse	X	%	Foreign=Yes	5	conj	_	_
+15	,	,	PUNCT	Z	_	16	punct	_	_
+16	Slackware	slackware	X	%	Foreign=Yes	5	conj	_	_
+17	,	,	PUNCT	Z	_	18	punct	_	_
+18	Leaf	leaf	X	%	Foreign=Yes	5	conj	_	_
+19	(	(	PUNCT	Z	_	22	punct	_	_
+20	špeciálna	špeciálny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+21	mini	mini	ADJ	AUfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	distribúcia	distribúcia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	18	dep	_	_
+23	,	,	PUNCT	Z	_	24	punct	_	_
+24	zmestí	zmestiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	22	conj	_	_
+25	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	24	expl:pv	_	_
+26	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	28	case	_	_
+27	jednu	jeden	NUM	NFfs4	Case=Acc|Gender=Fem|Number=Sing	28	nummod	_	_
+28	disketu	disketa	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	24	obl	_	_
+29	,	,	PUNCT	Z	_	30	punct	_	_
+30	vhodná	vhodný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	conj	_	_
+31	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	32	case	_	_
+32	router	router	X	%	Foreign=Yes	30	obl:arg	_	_
+33	/	/	PUNCT	Z	_	34	punct	_	_
+34	firewall	firewall	X	%	Foreign=Yes	32	flat:foreign	_	_
+35	)	)	PUNCT	Z	_	22	punct	_	_
+36	a	a	CCONJ	O	_	37	cc	_	_
+37	Slax	slax	X	%	Foreign=Yes	5	conj	_	_
+38	(	(	PUNCT	Z	_	39	punct	_	_
+39	zmestí	zmestiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	37	acl	_	_
+40	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	39	expl:pv	_	_
+41	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	45	case	_	_
+42	jedno	jeden	NUM	NFns4	Case=Acc|Gender=Neut|Number=Sing	45	nummod	_	_
+43	8	8	NUM	0	NumForm=Digit	45	nummod	_	_
+44	cm	cm	X	W	Abbr=Yes	43	nmod	_	_
+45	CD	cd	X	W	Abbr=Yes	39	advmod	_	_
+46	a	a	CCONJ	O	_	47	cc	_	_
+47	nepotrebuje	potrebovať	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	39	conj	_	_
+48	inštaláciu	inštalácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	47	obj	_	_
+49	)	)	PUNCT	Z	_	39	punct	_	_
+50	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s19
+# text = Kernel bol pôvodne vyvinutý pre mikroprocesor Intel 80386 , ale v súčasnosti podporuje množstvo architektúr , okrem PC od tzv . embedded systémov ( mobilný telefón , PDA , router ) po superpočítače .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#19
+1	Kernel	kernel	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	cop	_	_
+3	pôvodne	pôvodne	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	vyvinutý	vyvinutý	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+5	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	mikroprocesor	mikroprocesor	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+7	Intel	intel	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+8	80386	80386	NUM	0	NumForm=Digit	7	nummod	_	_
+9	,	,	PUNCT	Z	_	13	punct	_	_
+10	ale	ale	CCONJ	O	_	13	cc	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	súčasnosti	súčasnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+13	podporuje	podporovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	_	_
+14	množstvo	množstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	architektúr	architektúra	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+16	,	,	PUNCT	Z	_	13	punct	_	_
+17	okrem	okrem	ADP	Eu2	AdpType=Prep|Case=Gen	18	case	_	_
+18	PC	pc	X	W	Abbr=Yes	13	advmod	_	_
+19	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	23	case	_	_
+20	tzv	tzv	X	W	Abbr=Yes	23	nmod	_	_
+21	.	.	PUNCT	Z	_	20	punct	_	_
+22	embedded	embedded	X	%	Foreign=Yes	23	nmod	_	_
+23	systémov	systém	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+24	(	(	PUNCT	Z	_	26	punct	_	_
+25	mobilný	mobilný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	telefón	telefón	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nmod	_	_
+27	,	,	PUNCT	Z	_	28	punct	_	_
+28	PDA	pda	X	W	Abbr=Yes	26	conj	_	_
+29	,	,	PUNCT	Z	_	30	punct	_	_
+30	router	router	X	%	Foreign=Yes	26	conj	_	_
+31	)	)	PUNCT	Z	_	26	punct	_	_
+32	po	po	ADP	Eu4	AdpType=Prep|Case=Acc	33	case	_	_
+33	superpočítače	superpočítač	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obl	_	_
+34	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s20
+# text = Bolo vyvíjané ako slobodná náhrada systému Minix v roku 1991 , keďže v tej dobe neexistovalo jadro GNU .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#20
+1	Bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	cop	_	_
+2	vyvíjané	vyvíjaný	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+3	ako	ako	SCONJ	O	_	5	mark	_	_
+4	slobodná	slobodný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	náhrada	náhrada	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	xcomp	_	_
+6	systému	systém	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Minix	minix	X	%	Foreign=Yes	6	nmod	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+10	1991	1991	NUM	0	NumForm=Digit	9	nummod	_	_
+11	,	,	PUNCT	Z	_	16	punct	_	_
+12	keďže	keďže	SCONJ	O	_	16	mark	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+14	tej	tá	DET	PFfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+15	dobe	doba	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+16	neexistovalo	existovať	VERB	VLescn-	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	2	advcl	_	_
+17	jadro	jadro	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+18	GNU	gnu	X	W	Abbr=Yes	17	nmod	_	_
+19	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s21
+# text = Architektúra jadra je monolitická , avšak je jednoduché nahrávať a uvoľňovať moduly za behu systému .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#21
+1	Architektúra	architektúra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	jadra	jadro	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	monolitická	monolitický	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+5	,	,	PUNCT	Z	_	8	punct	_	_
+6	avšak	avšak	CCONJ	O	_	8	cc	_	_
+7	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	jednoduché	jednoduchý	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	conj	_	_
+9	nahrávať	nahrávať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	8	csubj	_	_
+10	a	a	CCONJ	O	_	11	cc	_	_
+11	uvoľňovať	uvoľňovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	9	conj	_	_
+12	moduly	modul	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+13	za	za	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+14	behu	beh	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+15	systému	systém	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s22
+# text = Ovládače zariadení bežia zvyčajne na ring 0 s plným prístupom k hardvéru .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#22
+1	Ovládače	ovládač	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	zariadení	zariadenie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+3	bežia	bežať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	zvyčajne	zvyčajne	ADV	Dx	Degree=Pos	3	advmod	_	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	ring	ring	X	%	Foreign=Yes	3	advmod	_	_
+7	0	0	NUM	0	NumForm=Digit	6	nummod	_	_
+8	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	10	case	_	_
+9	plným	plný	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	prístupom	prístup	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+11	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	12	case	_	_
+12	hardvéru	hardvér	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	_
+13	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s23
+# text = Linux má podporu pre skutočný multitasking , vituálnu pamäť , zdieľané knižnice , nahrávanie modulov na požiadanie , zdieľané copy - on - write programy , správnu správu pamäte a TCP / IP podporu .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#23
+1	Linux	linux	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	podporu	podpora	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+5	skutočný	skutočný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	multitasking	multitasking	X	%	Foreign=Yes	3	nmod	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	vituálnu	virtuálny	ADJ	AAfs4x:q	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Typo=Yes	9	amod	_	_
+9	pamäť	pamäť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	zdieľané	zdieľaný	ADJ	Gtfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	knižnice	knižnica	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	_
+13	,	,	PUNCT	Z	_	14	punct	_	_
+14	nahrávanie	nahrávanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	conj	_	_
+15	modulov	modul	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
+17	požiadanie	požiadanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	14	nmod	_	_
+18	,	,	PUNCT	Z	_	25	punct	_	_
+19	zdieľané	zdieľaný	ADJ	Gtip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	25	amod	_	_
+20	copy	copy	X	%	Foreign=Yes	25	nmod	_	_
+21	-	-	PUNCT	Z	_	22	punct	_	_
+22	on	on	X	%	Foreign=Yes	20	conj	_	_
+23	-	-	PUNCT	Z	_	24	punct	_	_
+24	write	write	X	%	Foreign=Yes	20	conj	_	_
+25	programy	program	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	conj	_	_
+26	,	,	PUNCT	Z	_	28	punct	_	_
+27	správnu	správny	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	obl	_	_
+28	správu	správa	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	_
+29	pamäte	pamäť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	_
+30	a	a	CCONJ	O	_	34	cc	_	_
+31	TCP	tcp	X	W	Abbr=Yes	34	nmod	_	_
+32	/	/	PUNCT	Z	_	33	punct	_	_
+33	IP	ip	X	W	Abbr=Yes	31	nmod	_	_
+34	podporu	podpora	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	_
+35	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s24
+# text = Úspech Linuxu sa pripisuje princípu , akým jeho autor Linus Torvalds pristupoval k vývoju .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#24
+1	Úspech	úspech	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+2	Linuxu	linux	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pass	_	_
+4	pripisuje	pripisovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	princípu	princíp	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obj	_	_
+6	,	,	PUNCT	Z	_	12	punct	_	_
+7	akým	aký	DET	PAis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|PronType=Int,Rel	12	obl	_	_
+8	jeho	jeho	DET	PUms1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	autor	autor	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+10	Linus	linus	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+11	Torvalds	torvalds	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
+12	pristupoval	pristupovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	acl	_	_
+13	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	14	case	_	_
+14	vývoju	vývoj	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	obl:arg	_	_
+15	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s25
+# text = Jeho slovami - " Uvoľňovať kód skoro , uvoľňovať často a počúvať odozve od používateľov " .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#25
+1	Jeho	jeho	DET	PUnp7	Case=Ins|Gender=Neut|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	slovami	slovo	NOUN	SSnp7	Case=Ins|Gender=Neut|Number=Plur	0	root	_	_
+3	-	-	PUNCT	Z	_	5	punct	_	_
+4	"	"	PUNCT	Z	_	5	punct	_	_
+5	Uvoľňovať	uvoľňovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	acl	_	_
+6	kód	kód	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	skoro	skoro	ADV	Dx	Degree=Pos	5	advmod	_	_
+8	,	,	PUNCT	Z	_	9	punct	_	_
+9	uvoľňovať	uvoľňovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	conj	_	_
+10	často	často	ADV	Dx	Degree=Pos	9	advmod	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	počúvať	počúvať	VERB	VIj+	Aspect=Imp,Perf|Polarity=Pos|VerbForm=Inf	5	conj	_	_
+13	odozve	odozva	NOUN	SSfs4:q	Case=Acc|Gender=Fem|Number=Sing|Typo=Yes	12	obj	_	_
+14	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+15	používateľov	používateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+16	"	"	PUNCT	Z	_	5	punct	_	_
+17	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s26
+# text = Vytvoril prvú funkčnú verziu a zverejnil na internete zdrojový kód .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#26
+1	Vytvoril	vytvoriť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	prvú	prvá	NUM	NAfs4	Case=Acc|Gender=Fem|Number=Sing	4	nummod	_	_
+3	funkčnú	funkčný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	verziu	verzia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	zverejnil	zverejniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+7	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	internete	internet	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+9	zdrojový	zdrojový	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	kód	kód	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+11	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s27
+# text = Ďalej bola dôležitá jeho funkcia ako koordinátor projektu , keďže ku kódu začali prispievať ľudia z komunity .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#27
+1	Ďalej	ďalej	ADV	Dx	Degree=Pos	3	advmod	_	_
+2	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	cop	_	_
+3	dôležitá	dôležitý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+4	jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	funkcia	funkcia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+6	ako	ako	SCONJ	O	_	7	cc	_	_
+7	koordinátor	koordinátor	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+8	projektu	projekt	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	Z	_	13	punct	_	_
+10	keďže	keďže	SCONJ	O	_	13	mark	_	_
+11	ku	k	ADP	Ev3	AdpType=Voc|Case=Dat	12	case	_	_
+12	kódu	kód	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	14	obl	_	_
+13	začali	začať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	3	advcl	_	_
+14	prispievať	prispievať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	13	xcomp	_	_
+15	ľudia	človek	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+16	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+17	komunity	komunita	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s28
+# text = Viac o tomto modeli píše Eric Raymond v jeho knihe ' Katedrála a bazár ' ( http : / / www . catb . org / ~ esr / writings / cathedral - bazaar / ) , kde ho porovnáva s klasickým modelom vývoja v uzavretom tíme špecialistov .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#28
+1	Viac	viac	ADV	Dx	Degree=Pos	5	advmod	_	_
+2	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+3	tomto	tento	DET	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	modeli	model	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl:arg	_	_
+5	píše	písať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	Eric	eric	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	Raymond	raymond	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+9	jeho	jeho	DET	PUfs6	Case=Loc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	knihe	kniha	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+11	'	'	PUNCT	Z	_	12	punct	_	_
+12	Katedrála	katedrála	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	10	nmod	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	bazár	bazár	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_
+15	'	'	PUNCT	Z	_	12	punct	_	_
+16	(	(	PUNCT	Z	_	17	punct	_	_
+17	http	http	X	W	Abbr=Yes	5	dep	_	_
+18	:	:	PUNCT	Z	_	17	punct	_	_
+19	/	/	PUNCT	Z	_	17	punct	_	_
+20	/	/	PUNCT	Z	_	17	punct	_	_
+21	www	www	X	W	Abbr=Yes	17	nmod	_	_
+22	.	.	PUNCT	Z	_	17	punct	_	_
+23	catb	catb	X	%	Foreign=Yes	17	nmod	_	_
+24	.	.	PUNCT	Z	_	17	punct	_	_
+25	org	org	X	W	Abbr=Yes	17	nmod	_	_
+26	/	/	PUNCT	Z	_	17	punct	_	_
+27	~	~	PUNCT	Z	_	17	punct	_	_
+28	esr	esr	X	%	Foreign=Yes	17	nmod	_	_
+29	/	/	PUNCT	Z	_	17	punct	_	_
+30	writings	writings	X	%	Foreign=Yes	17	nmod	_	_
+31	/	/	PUNCT	Z	_	17	punct	_	_
+32	cathedral	cathedral	X	%	Foreign=Yes	17	nmod	_	_
+33	-	-	PUNCT	Z	_	17	punct	_	_
+34	bazaar	bazaar	X	%	Foreign=Yes	17	nmod	_	_
+35	/	/	PUNCT	Z	_	17	punct	_	_
+36	)	)	PUNCT	Z	_	17	punct	_	_
+37	,	,	PUNCT	Z	_	40	punct	_	_
+38	kde	kde	ADV	PD	PronType=Int,Rel	40	advmod	_	_
+39	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	obj	_	_
+40	porovnáva	porovnávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	acl	_	_
+41	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	43	case	_	_
+42	klasickým	klasický	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	_
+43	modelom	model	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	40	obl:arg	_	_
+44	vývoja	vývoj	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	_
+45	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	47	case	_	_
+46	uzavretom	uzavretý	ADJ	Gtis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	47	amod	_	_
+47	tíme	tím	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	44	nmod	_	_
+48	špecialistov	špecialista	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	47	nmod	_	_
+49	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s29
+# text = Dôležitý argument v prospech modelu je praktický úspech v stabilite a bezpečnosti .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#29
+1	Dôležitý	dôležitý	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	argument	argument	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	v	v	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+4	prospech	prospech	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	fixed	_	_
+5	modelu	model	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+6	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+7	praktický	praktický	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	úspech	úspech	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	stabilite	stabilita	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	bezpečnosti	bezpečnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	10	conj	_	_
+13	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s30
+# text = Ten je založený na hypotéze , že čím viac ľudí sa môže pozieť na zdrojový kód , tým skôr sa nájdu a opravia chyby .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#30
+1	Ten	ten	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	založený	založený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	hypotéze	hypotéza	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	obl:arg	_	_
+6	,	,	PUNCT	Z	_	12	punct	_	_
+7	že	že	SCONJ	O	_	12	mark	_	_
+8	čím	čím	SCONJ	O	_	7	fixed	_	_
+9	viac	viac	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+10	ľudí	človek	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pass	_	_
+12	môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	acl	_	_
+13	pozieť	pozrieť	VERB	VId+:q	Aspect=Perf|Polarity=Pos|Typo=Yes|VerbForm=Inf	12	xcomp	_	_
+14	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
+15	zdrojový	zdrojový	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	kód	kód	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+17	,	,	PUNCT	Z	_	21	punct	_	_
+18	tým	tým	SCONJ	O	_	21	mark	_	_
+19	skôr	skôr	ADV	Dx	Degree=Pos	21	advmod	_	_
+20	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	21	expl:pass	_	_
+21	nájdu	nájsť	VERB	VKdpc+	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+22	a	a	CCONJ	O	_	23	cc	_	_
+23	opravia	opraviť	VERB	VKdpc+	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	conj	_	_
+24	chyby	chyba	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	21	nsubj:pass	_	_
+25	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s31
+# text = Opakom je uzavretý model , kde odhaliť a opraviť chybu môže len člen uzavretého tímu .
+# orig_file_sentence wiki2644_olejkarova_wiki2644_tencerova#31
+1	Opakom	opak	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	uzavretý	uzavretý	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	model	model	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+5	,	,	PUNCT	Z	_	11	punct	_	_
+6	kde	kde	ADV	PD	PronType=Int,Rel	11	advmod	_	_
+7	odhaliť	odhaliť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	11	xcomp	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	opraviť	opraviť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	7	conj	_	_
+10	chybu	chyba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+11	môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	acl	_	_
+12	len	len	PART	T	_	13	advmod:emph	_	_
+13	člen	člen	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+14	uzavretého	uzavretý	ADJ	Gtis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	tímu	tím	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	.	.	PUNCT	Z	_	1	punct	_	_
+

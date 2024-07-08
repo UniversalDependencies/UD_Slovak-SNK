@@ -1,0 +1,350 @@
+# sent_id = s1
+# text = Lev I . ( cisár )
+# orig_file_sentence wiki-nove-046_hudekova_wiki-nove-046_kandracova#1
+1	Lev	lev	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	I	i	NUM	0	NumForm=Digit	1	nummod	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+4	(	(	PUNCT	Z	_	5	punct	_	_
+5	cisár	cisár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+6	)	)	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s2
+# text = Lev I . ( * 400 ‐ † 474 ) , bol v rokoch 457 až 474 cisárom Byzantskej ríše .
+# orig_file_sentence wiki-nove-046_hudekova_wiki-nove-046_kandracova#2
+1	Lev	lev	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+2	I	i	NUM	0	NumForm=Digit	1	nummod	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+4	(	(	PUNCT	Z	_	1	punct	_	_
+5	*	*	PUNCT	#	_	6	punct	_	_
+6	400	400	NUM	0	NumForm=Digit	1	dep	_	_
+7	‐	‐	PUNCT	Z	_	9	punct	_	_
+8	†	†	PUNCT	#	_	9	punct	_	_
+9	474	474	NUM	0	NumForm=Digit	6	conj	_	_
+10	)	)	PUNCT	Z	_	1	punct	_	_
+11	,	,	PUNCT	Z	_	1	punct	_	_
+12	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	18	cop	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	obl	_	_
+15	457	457	NUM	0	NumForm=Digit	14	nummod	_	_
+16	až	až	PART	T	_	17	cc	_	_
+17	474	474	NUM	0	NumForm=Digit	15	conj	_	_
+18	cisárom	cisár	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+19	Byzantskej	byzantský	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	ríše	ríša	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	.	.	PUNCT	Z	_	18	punct	_	_
+
+# sent_id = s3
+# text = Lev sa narodil v Trákii a pochádzal z nižších pomerov .
+# orig_file_sentence wiki-nove-046_hudekova_wiki-nove-046_kandracova#3
+1	Lev	lev	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	narodil	narodiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	Trákii	trácia	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	pochádzal	pochádzať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+8	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+9	nižších	nízky	ADJ	AAip2y	Animacy=Inan|Case=Gen|Degree=Cmp|Gender=Masc|Number=Plur	10	amod	_	_
+10	pomerov	pomer	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+11	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s4
+# text = Po smrti Markiana bol veliteľom vojska Asparom vyhlásený za cisára .
+# orig_file_sentence wiki-nove-046_hudekova_wiki-nove-046_kandracova#4
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	smrti	smrť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+3	Markiana	markian	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	cop	_	_
+5	veliteľom	veliteľ	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	_
+6	vojska	vojsko	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	Asparom	aspar	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obj	_	_
+8	vyhlásený	vyhlásený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+9	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+10	cisára	cisár	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	obl:arg	_	_
+11	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s5
+# text = Aspar asi predpokladal , že Leva bude ľahko ovládať .
+# orig_file_sentence wiki-nove-046_hudekova_wiki-nove-046_kandracova#5
+1	Aspar	aspar	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	asi	asi	PART	T	_	3	advmod	_	_
+3	predpokladal	predpokladať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	,	,	PUNCT	Z	_	9	punct	_	_
+5	že	že	SCONJ	O	_	9	mark	_	_
+6	Leva	lev	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+7	bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	9	aux	_	_
+8	ľahko	ľahko	ADV	Dx	Degree=Pos	9	advmod	_	_
+9	ovládať	ovládať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	ccomp	_	_
+10	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s6
+# text = Lev bol asi prvým cisárom , ktorého korunovácia bola uskutočnená duchovným hodnostárom ‐ v tomto prípade konštantínopolským patriarchom .
+# orig_file_sentence wiki-nove-046_hudekova_wiki-nove-046_kandracova#6
+1	Lev	lev	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	cop	_	_
+3	asi	asi	PART	T	_	5	advmod:emph	_	_
+4	prvým	prvý	ADJ	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	cisárom	cisár	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+6	,	,	PUNCT	Z	_	10	punct	_	_
+7	ktorého	ktorý	DET	PAms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|PronType=Int,Rel	8	amod	_	_
+8	korunovácia	korunovácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+9	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	uskutočnená	uskutočnený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	amod	_	_
+11	duchovným	duchovný	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	hodnostárom	hodnostár	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obl:agent	_	_
+13	‐	‐	PUNCT	Z	_	18	punct	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+15	tomto	tento	DET	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	prípade	prípad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	nmod	_	_
+17	konštantínopolským	konštantínopolský	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	patriarchom	patriarcha	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	appos	_	_
+19	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s7
+# text = V spolupráci so západom plánované znovudobytie Afriky skončilo v roku 468 vojenskou katastrofou a bolo spojené s ohromnými finančnými stratami .
+# orig_file_sentence wiki-nove-046_hudekova_wiki-nove-046_kandracova#7
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+2	spolupráci	spolupráca	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	_
+3	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	1	fixed	_	_
+4	západom	západ	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+5	plánované	plánovaný	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	znovudobytie	znovudobytie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+7	Afriky	afrika	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	skončilo	skončiť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+11	468	468	NUM	0	NumForm=Digit	10	nummod	_	_
+12	vojenskou	vojenský	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	katastrofou	katastrofa	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+14	a	a	CCONJ	O	_	16	cc	_	_
+15	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	aux:pass	_	_
+16	spojené	spojený	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	conj	_	_
+17	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	20	case	_	_
+18	ohromnými	ohromný	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	_
+19	finančnými	finančný	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	_
+20	stratami	strata	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	16	obl:arg	_	_
+21	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s8
+# text = Naviac sa tiež zhoršila situácia na Balkáne .
+# orig_file_sentence wiki-nove-046_hudekova_wiki-nove-046_kandracova#8
+1	Naviac	naviac	PART	T	_	4	advmod	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	tiež	tiež	PART	T	_	4	advmod:emph	_	_
+4	zhoršila	zhoršiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	situácia	situácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+6	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	Balkáne	balkán	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+8	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s9
+# text = Niekdajšie Hunom podrobené germánske a sarmatské kmene sa usadili v dunajských provinciách a začali ohrozovať tamojšiu rímsku správu .
+# orig_file_sentence wiki-nove-046_hudekova_wiki-nove-046_kandracova#9
+1	Niekdajšie	niekdajší	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+2	Hunom	hun	PROPN	SSmp3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obj	_	_
+3	podrobené	podrobený	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	_	_
+4	germánske	germánsky	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	sarmatské	sarmatský	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	conj	_	_
+7	kmene	kmeň	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+9	usadili	usadiť	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+11	dunajských	dunajský	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	_
+12	provinciách	provincia	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	začali	začať	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	9	conj	_	_
+15	ohrozovať	ohrozovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	14	xcomp	_	_
+16	tamojšiu	tamojší	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+17	rímsku	rímsky	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	správu	správa	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+19	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s10
+# text = Aspar , ktorý bol sám Germán , bol Ostrogótom v Panónii naklonený a uzavrel s nimi dohodu .
+# orig_file_sentence wiki-nove-046_hudekova_wiki-nove-046_kandracova#10
+1	Aspar	aspar	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+2	,	,	PUNCT	Z	_	6	punct	_	_
+3	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
+4	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	cop	_	_
+5	sám	sám	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	3	xcomp	_	_
+6	Germán	germán	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	acl	_	_
+7	,	,	PUNCT	Z	_	6	punct	_	_
+8	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	cop	_	_
+9	Ostrogótom	ostrogót	PROPN	SSmp3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	12	obj	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	Panónii	panónia	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	_
+12	naklonený	naklonený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	uzavrel	uzavrieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	conj	_	_
+15	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	16	case	_	_
+16	nimi	on	PRON	PFmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	obl:arg	_	_
+17	dohodu	dohoda	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+18	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s11
+# text = Oproti Asparovým očakávaniam sa však Lev ukázal ako zdatnejší politik .
+# orig_file_sentence wiki-nove-046_hudekova_wiki-nove-046_kandracova#11
+1	Oproti	oproti	ADP	Eu3	AdpType=Prep|Case=Dat	3	case	_	_
+2	Asparovým	asparov	ADJ	AFnp3x:r	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	3	amod	_	_
+3	očakávaniam	očakávanie	NOUN	SSnp3	Case=Dat|Gender=Neut|Number=Plur	7	obl	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+5	však	však	PART	T	_	7	advmod	_	_
+6	Lev	lev	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	ukázal	ukázať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	ako	ako	SCONJ	O	_	10	cc	_	_
+9	zdatnejší	zdatný	ADJ	AAms1y	Animacy=Anim|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	10	amod	_	_
+10	politik	politik	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	obj	_	_
+11	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s12
+# text = Aby sa mohol ubrániť vzrastajúcemu tlaku Aspara , ktorý naviac na trón presadzoval svojho vlastného syna , zostavil Lev novú cisársku gardu z Isaurov a vytvoril Asparovi protiváhu v osobe isaurského náčelníka Tarasicodissy , neskoršieho cisára Zenóna , pričom ho oženil so svojou dcérou Ariadne .
+# orig_file_sentence wiki-nove-046_hudekova_wiki-nove-046_kandracova#12
+1	Aby	aby	SCONJ	OY	Mood=Cnd	3	mark	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	mohol	môcť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	18	advcl	_	_
+4	ubrániť	ubrániť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+5	vzrastajúcemu	vzrastajúci	ADJ	Gkis3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	6	amod	_	_
+6	tlaku	tlak	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obj	_	_
+7	Aspara	aspar	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	,	,	PUNCT	Z	_	13	punct	_	_
+9	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	13	nsubj	_	_
+10	naviac	naviac	PART	T	_	13	advmod	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	trón	trón	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+13	presadzoval	presadzovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
+14	svojho	svoj	DET	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	_
+15	vlastného	vlastný	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	syna	syn	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+17	,	,	PUNCT	Z	_	3	punct	_	_
+18	zostavil	zostaviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+19	Lev	lev	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+20	novú	nový	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+21	cisársku	cisársky	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	gardu	garda	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+23	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	24	case	_	_
+24	Isaurov	isaur	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+25	a	a	CCONJ	O	_	26	cc	_	_
+26	vytvoril	vytvoriť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	18	conj	_	_
+27	Asparovi	aspar	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	26	iobj	_	_
+28	protiváhu	protiváha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+29	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	30	case	_	_
+30	osobe	osoba	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	28	nmod	_	_
+31	isaurského	isaurský	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	náčelníka	náčelník	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
+33	Tarasicodissy	tarasicodissa	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+34	,	,	PUNCT	Z	_	37	punct	_	_
+35	neskoršieho	neskorý	ADJ	AAms2y	Animacy=Anim|Case=Gen|Degree=Cmp|Gender=Masc|Number=Sing	37	amod	_	_
+36	cisára	cisár	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+37	Zenóna	zenón	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	33	flat	_	_
+38	,	,	PUNCT	Z	_	41	punct	_	_
+39	pričom	pričom	CCONJ	O	_	41	advmod	_	_
+40	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	obj	_	_
+41	oženil	oženiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	26	conj	_	_
+42	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	45	case	_	_
+43	svojou	svoj	DET	PFfs7	Case=Ins|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	44	det	_	_
+44	dcérou	dcéra	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	45	nmod	_	_
+45	Ariadne	ariadne	PROPN	SUfs7:r	Case=Ins|Gender=Fem|Number=Sing	41	obl:arg	_	_
+46	.	.	PUNCT	Z	_	18	punct	_	_
+
+# sent_id = s13
+# text = So Zenónovou pomocou nakoniec Aspara v roku 471 zbavili moci a popravili .
+# orig_file_sentence wiki-nove-046_hudekova_wiki-nove-046_kandracova#13
+1	So	s	ADP	Ev7	AdpType=Voc|Case=Ins	3	case	_	_
+2	Zenónovou	zenónov	ADJ	AFfs7x:r	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	pomocou	pomoc	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+4	nakoniec	nakoniec	ADV	Dx	Degree=Pos	9	advmod	_	_
+5	Aspara	aspar	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+8	471	471	NUM	0	NumForm=Digit	7	nummod	_	_
+9	zbavili	zbaviť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	moci	moc	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	obj	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	popravili	popraviť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	9	conj	_	_
+13	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s14
+# text = Následkom toho sa však vyostril konflikt s Ostrogótmi .
+# orig_file_sentence wiki-nove-046_hudekova_wiki-nove-046_kandracova#14
+1	Následkom	následkom	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	toho	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+4	však	však	PART	T	_	5	advmod	_	_
+5	vyostril	vyostriť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	konflikt	konflikt	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+8	Ostrogótmi	ostrogót	PROPN	SSmp7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	6	nmod	_	_
+9	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s15
+# text = Na západe dosadil Lev za cisára Anthemia a neskôr aj Julia Nepota , avšak bez toho , aby sa tam sitácia ukľudnila .
+# orig_file_sentence wiki-nove-046_hudekova_wiki-nove-046_kandracova#15
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	západe	západ	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+3	dosadil	dosadiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	Lev	lev	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	cisára	cisár	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obl:arg	_	_
+7	Anthemia	anthemius	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	neskôr	neskôr	ADV	Dx	Degree=Pos	3	conj	_	_
+10	aj	aj	PART	T	_	12	advmod:emph	_	_
+11	Julia	julius	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_
+12	Nepota	nepos	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	orphan	_	_
+13	,	,	PUNCT	Z	_	16	punct	_	_
+14	avšak	avšak	CCONJ	O	_	16	cc	_	_
+15	bez	bez	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+16	toho	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	3	conj	_	_
+17	,	,	PUNCT	Z	_	22	punct	_	_
+18	aby	aby	SCONJ	OY	Mood=Cnd	22	mark	_	_
+19	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	22	expl:pv	_	_
+20	tam	tam	ADV	PD	PronType=Dem	22	advmod	_	_
+21	sitácia	situácia	NOUN	SSfs1:q	Case=Nom|Gender=Fem|Number=Sing|Typo=Yes	22	nsubj	_	_
+22	ukľudnila	ukľudniť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	acl	_	_
+23	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s16
+# text = Naproti tomu so Sásánovcami na východe sa mu darilo udržovať mier , čo ríšu vojensky odbremenilo .
+# orig_file_sentence wiki-nove-046_hudekova_wiki-nove-046_kandracova#16
+1	Naproti	naproti	ADP	Eu3	AdpType=Prep|Case=Dat	2	case	_	_
+2	tomu	to	DET	PFns3	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	9	obl	_	_
+3	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	4	case	_	_
+4	Sásánovcami	sásánovec	PROPN	SSmp7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	11	nmod	_	_
+5	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	východe	východ	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+8	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+9	darilo	dariť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	udržovať	udržovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	9	xcomp	_	_
+11	mier	mier	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	,	,	PUNCT	Z	_	16	punct	_	_
+13	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	16	nsubj	_	_
+14	ríšu	ríša	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+15	vojensky	vojensky	ADV	Dx	Degree=Pos	16	advmod	_	_
+16	odbremenilo	odbremeniť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	conj	_	_
+17	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s17
+# text = Nástupcom Leva sa stal ( iba na krátky čas ) jeho vnuk Lev II . , syn Zenóna .
+# orig_file_sentence wiki-nove-046_hudekova_wiki-nove-046_kandracova#17
+1	Nástupcom	nástupca	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obj	_	_
+2	Leva	lev	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	(	(	PUNCT	Z	_	9	punct	_	_
+6	iba	iba	PART	T	_	9	advmod:emph	_	_
+7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+8	krátky	krátky	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	čas	čas	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+10	)	)	PUNCT	Z	_	9	punct	_	_
+11	jeho	jeho	DET	PUms1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	vnuk	vnuk	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
+13	Lev	lev	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+14	II	ii	NUM	0	NumForm=Digit	13	nummod	_	_
+15	.	.	PUNCT	Z	_	14	punct	_	_
+16	,	,	PUNCT	Z	_	17	punct	_	_
+17	syn	syn	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
+18	Zenóna	zenón	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	.	.	PUNCT	Z	_	4	punct	_	_
+

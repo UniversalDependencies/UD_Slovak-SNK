@@ -1,0 +1,398 @@
+# sent_id = s1
+# text = “ Zrkadielko , zrkadielko , povedzže mi , ktože je najkrajší v našej zemi ? “ spytovala sa kráľovná .
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#1
+1	“	“	PUNCT	Z	_	6	punct	_	_
+2	Zrkadielko	zrkadielko	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	6	dep	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	zrkadielko	zrkadielko	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	_
+5	,	,	PUNCT	Z	_	2	punct	_	_
+6	povedzže	povedať	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	17	ccomp	_	_
+7	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+8	,	,	PUNCT	Z	_	11	punct	_	_
+9	ktože	ktože	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	11	nsubj	_	_
+10	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	najkrajší	pekný	ADJ	AAms1z	Animacy=Anim|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	6	ccomp	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+13	našej	náš	DET	PFfs6	Case=Loc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	14	det	_	_
+14	zemi	zem	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+15	?	?	PUNCT	Z	_	6	punct	_	_
+16	“	“	PUNCT	Z	_	6	punct	_	_
+17	spytovala	spytovať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+18	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	17	expl:pv	_	_
+19	kráľovná	kráľovná	NOUN	SFfs1	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+20	.	.	PUNCT	Z	_	17	punct	_	_
+
+# sent_id = s2
+# text = V zrkadle sa znovu zjavila akási nejasná tajomná tvár .
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#2
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	zrkadle	zrkadlo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+4	znovu	znovu	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	zjavila	zjaviť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	akási	akýsi	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
+7	nejasná	nejasný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	tajomná	tajomný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	tvár	tvár	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+10	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s3
+# text = “ Za siedmimi horami , za siedmimi dolinami , v chalúpke so siedmimi trpaslíkmi , žije Snehulienka , najkrajšia deva na svete , “ odvetil hlas podľa pravdy .
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#3
+1	“	“	PUNCT	Z	_	16	punct	_	_
+2	Za	za	ADP	Eu7	AdpType=Prep|Case=Ins	4	case	_	_
+3	siedmimi	sedem	NUM	NUfp7	Case=Ins|Gender=Fem|Number=Plur	4	nummod	_	_
+4	horami	hora	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	16	obl	_	_
+5	,	,	PUNCT	Z	_	8	punct	_	_
+6	za	za	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+7	siedmimi	sedem	NUM	NUfp7	Case=Ins|Gender=Fem|Number=Plur	8	nummod	_	_
+8	dolinami	dolina	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	4	conj	_	_
+9	,	,	PUNCT	Z	_	11	punct	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	chalúpke	chalúpka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	conj	_	_
+12	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	14	case	_	_
+13	siedmimi	sedem	NUM	NUmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	14	nummod	_	_
+14	trpaslíkmi	trpaslík	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	11	nmod	_	_
+15	,	,	PUNCT	Z	_	4	punct	_	_
+16	žije	žiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
+17	Snehulienka	snehulienka	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+18	,	,	PUNCT	Z	_	20	punct	_	_
+19	najkrajšia	pekný	ADJ	AAfs1z	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	20	amod	_	_
+20	deva	deva	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	17	appos	_	_
+21	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	22	case	_	_
+22	svete	svet	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	nmod	_	_
+23	,	,	PUNCT	Z	_	16	punct	_	_
+24	“	“	PUNCT	Z	_	16	punct	_	_
+25	odvetil	odvetiť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+26	hlas	hlas	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+27	podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	28	case	_	_
+28	pravdy	pravda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	25	obl	_	_
+29	.	.	PUNCT	Z	_	25	punct	_	_
+
+# sent_id = s4
+# text = Zrkadlo sa istotne mýli , pomyslela si kráľovná .
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#4
+1	Zrkadlo	zrkadlo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	istotne	istotne	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	mýli	mýliť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+5	,	,	PUNCT	Z	_	4	punct	_	_
+6	pomyslela	pomyslieť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	si	si	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+8	kráľovná	kráľovná	NOUN	SFfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+9	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s5
+# text = “ Snehulienka predsa leží mŕtva v lese , “ povedala a otvorila skrinku .
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#5
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	Snehulienka	snehulienka	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	predsa	predsa	PART	T	_	4	advmod	_	_
+4	leží	ležať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+5	mŕtva	mŕtvy	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	xcomp	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	lese	les	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+8	,	,	PUNCT	Z	_	4	punct	_	_
+9	“	“	PUNCT	Z	_	4	punct	_	_
+10	povedala	povedať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	otvorila	otvoriť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	conj	_	_
+13	skrinku	skrinka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s6
+# text = “ Poľovník mi priniesol dôkaz .
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#6
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	Poľovník	poľovník	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	priniesol	priniesť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	dôkaz	dôkaz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s7
+# text = Pozri , tu je jej srdce ! “
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#7
+1	Pozri	pozrieť	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	4	parataxis	_	_
+2	,	,	PUNCT	Z	_	1	punct	_	_
+3	tu	tu	ADV	PD	PronType=Dem	4	advmod	_	_
+4	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	jej	jej	DET	PUns1	Case=Nom|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	srdce	srdce	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+7	!	!	PUNCT	Z	_	4	punct	_	_
+8	“	“	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s8
+# text = “ Snehulienka , najkrajšia deva v kráľovstve , stále žije .
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#8
+1	“	“	PUNCT	Z	_	10	punct	_	_
+2	Snehulienka	snehulienka	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+3	,	,	PUNCT	Z	_	5	punct	_	_
+4	najkrajšia	pekný	ADJ	AAfs1z	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	5	amod	_	_
+5	deva	deva	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	kráľovstve	kráľovstvo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	_
+8	,	,	PUNCT	Z	_	5	punct	_	_
+9	stále	stále	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	žije	žiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s9
+# text = To , čo držíte v ruke , je srdce srnky . “
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#9
+1	To	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	_
+2	,	,	PUNCT	Z	_	4	punct	_	_
+3	čo	čo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	4	obj	_	_
+4	držíte	držať	VERB	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	acl	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	ruke	ruka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+7	,	,	PUNCT	Z	_	4	punct	_	_
+8	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	srdce	srdce	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	8	obj	_	_
+10	srnky	srnka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	.	.	PUNCT	Z	_	8	punct	_	_
+12	“	“	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s10
+# text = “ Srnky ? ! “
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#10
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Srnky	srnka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	0	root	_	_
+3	?	?	PUNCT	Z	_	2	punct	_	_
+4	!	!	PUNCT	Z	_	2	punct	_	_
+5	“	“	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s11
+# text = Kráľovná hľadela do skrinky , celá červená od zlosti .
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#11
+1	Kráľovná	kráľovná	NOUN	SFfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	hľadela	hľadieť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	skrinky	skrinka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	celá	celý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	červená	červený	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	xcomp	_	_
+8	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	zlosti	zlosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+10	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s12
+# text = “ Podviedli ma ! “
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#12
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Podviedli	podviesť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	ma	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	!	!	PUNCT	Z	_	2	punct	_	_
+5	“	“	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s13
+# text = Rozzúrená sa zvrtla a kamennými schodmi zbehla do zámockej pivnice .
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#13
+1	Rozzúrená	rozzúrený	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	xcomp	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	zvrtla	zvrtnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	CCONJ	O	_	7	cc	_	_
+5	kamennými	kamenný	ADJ	AAip7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+6	schodmi	schod	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	_
+7	zbehla	zbehnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+8	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+9	zámockej	zámocký	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	pivnice	pivnica	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+11	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s14
+# text = Otvorila ťažké drevené dvere a vstúpila do svojho laboratória .
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#14
+1	Otvorila	otvoriť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	ťažké	ťažký	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+3	drevené	drevený	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+4	dvere	dvere	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	vstúpila	vstúpiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+7	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+8	svojho	svoj	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	_
+9	laboratória	laboratórium	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+10	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s15
+# text = V temnej miestnosti blikalo iba svetlo sviec .
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#15
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	temnej	temný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	miestnosti	miestnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+4	blikalo	blikať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	iba	iba	PART	T	_	6	advmod:emph	_	_
+6	svetlo	svetlo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+7	sviec	svieca	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s16
+# text = Na stoloch stáli všelijaké fľaštičky a v bankách bublali záhadné tekutiny .
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#16
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	stoloch	stôl	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	_
+3	stáli	stáť	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	všelijaké	všelijaký	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	fľaštičky	fľaštička	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+6	a	a	CCONJ	O	_	9	cc	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	bankách	banka	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_
+9	bublali	bublať	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+10	záhadné	záhadný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
+11	tekutiny	tekutina	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+12	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s17
+# text = Na stenách viseli zaprášené police s prastarými knihami zaklínadiel a čarov .
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#17
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	stenách	stena	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	3	obl	_	_
+3	viseli	visieť	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	zaprášené	zaprášený	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	police	polica	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+7	prastarými	prastarý	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	knihami	kniha	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	5	nmod	_	_
+9	zaklínadiel	zaklínadlo	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
+10	a	a	CCONJ	O	_	11	cc	_	_
+11	čarov	čary	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	9	conj	_	_
+12	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s18
+# text = “ Srdce srnky ! “ zvolala kráľovná zhnusene a šmarila skrinku do kúta .
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#18
+1	“	“	PUNCT	Z	_	6	punct	_	_
+2	Srdce	srdce	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	6	dep	_	_
+3	srnky	srnka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	!	!	PUNCT	Z	_	6	punct	_	_
+5	“	“	PUNCT	Z	_	6	punct	_	_
+6	zvolala	zvolať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	kráľovná	kráľovná	NOUN	SFfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+8	zhnusene	zhnusene	ADV	Dx	Degree=Pos	6	advmod	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	šmarila	šmariť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+11	skrinku	skrinka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+13	kúta	kút	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+14	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s19
+# text = “ Veď ja tomu poľovníkovi ukážem !
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#19
+1	“	“	PUNCT	Z	_	6	punct	_	_
+2	Veď	veď	PART	T	_	6	advmod:emph	_	_
+3	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	tomu	ten	DET	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	poľovníkovi	poľovník	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	6	obj	_	_
+6	ukážem	ukázať	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	!	!	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s20
+# text = Sama zájdem do chalúpky k siedmim trpaslíkom .
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#20
+1	Sama	sám	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Emp	2	xcomp	_	_
+2	zájdem	zájsť	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	chalúpky	chalúpka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_
+5	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	7	case	_	_
+6	siedmim	sedem	NUM	NUmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	7	nummod	_	_
+7	trpaslíkom	trpaslík	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	nmod	_	_
+8	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s21
+# text = Premením sa tak , že ma Snehulienka nespozná ! “
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#21
+1	Premením	premeniť	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	tak	tak	ADV	PD	PronType=Dem	1	advmod	_	_
+4	,	,	PUNCT	Z	_	8	punct	_	_
+5	že	že	SCONJ	O	_	8	mark	_	_
+6	ma	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+7	Snehulienka	snehulienka	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+8	nespozná	spoznať	VERB	VKdsc-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+9	!	!	PUNCT	Z	_	1	punct	_	_
+10	“	“	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s22
+# text = Kráľovná si vzala z police prastarú v koži viazanú knihu .
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#22
+1	Kráľovná	kráľovná	NOUN	SFfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	si	si	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	vzala	vziať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+5	police	polica	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+6	prastarú	prastarý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	koži	koža	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
+9	viazanú	viazaný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	xcomp	_	_
+10	knihu	kniha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+11	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s23
+# text = “ Nájdeme si zaklínadlo , ktoré skryje moju krásu !
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#23
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Nájdeme	nájsť	VERB	VKdpa+	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	si	si	PRON	R	PronType=Prs|Reflex=Yes	2	obl	_	_
+4	zaklínadlo	zaklínadlo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	ktoré	ktorý	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	7	nsubj	_	_
+7	skryje	skryť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	acl	_	_
+8	moju	môj	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det	_	_
+9	krásu	krása	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+10	!	!	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s24
+# text = Budem škaredá ! “ vravela a nedočkavo obracala ošúchané listy .
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#24
+1	Budem	byť	AUX	VBesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	2	cop	_	_
+2	škaredá	škaredý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	ccomp	_	_
+3	!	!	PUNCT	Z	_	2	punct	_	_
+4	“	“	PUNCT	Z	_	2	punct	_	_
+5	vravela	vravieť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	CCONJ	O	_	8	cc	_	_
+7	nedočkavo	nedočkavo	ADV	Dx	Degree=Pos	8	advmod	_	_
+8	obracala	obracať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+9	ošúchané	ošúchaný	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+10	listy	list	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+11	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s25
+# text = “ Moje kráľovské rúcho nech sa premení na plášť vetchej stareny ! “
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#25
+1	“	“	PUNCT	Z	_	7	punct	_	_
+2	Moje	môj	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
+3	kráľovské	kráľovský	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	rúcho	rúcho	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+5	nech	nech	SCONJ	O	_	7	advmod	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+7	premení	premeniť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+9	plášť	plášť	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl:arg	_	_
+10	vetchej	vetchý	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	stareny	starena	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	!	!	PUNCT	Z	_	7	punct	_	_
+13	“	“	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s26
+# text = Do sklenej nádoby , v ktorej varila zázračný nápoj , pridávala čarovné prísady , a pritom čítala .
+# orig_file_sentence 002-snehulienka_olejkarova_002-snehulienka_bugajova#26
+1	Do	do	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	sklenej	sklený	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	nádoby	nádoba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+4	,	,	PUNCT	Z	_	7	punct	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	ktorej	ktorý	DET	PAfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Int,Rel	7	obl	_	_
+7	varila	variť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	acl	_	_
+8	zázračný	zázračný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	nápoj	nápoj	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	,	,	PUNCT	Z	_	7	punct	_	_
+11	pridávala	pridávať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	čarovné	čarovný	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_
+13	prísady	prísada	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+14	,	,	PUNCT	Z	_	17	punct	_	_
+15	a	a	CCONJ	O	_	17	cc	_	_
+16	pritom	pritom	ADV	Dx	Degree=Pos	17	advmod	_	_
+17	čítala	čítať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	conj	_	_
+18	.	.	PUNCT	Z	_	11	punct	_	_
+

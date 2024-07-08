@@ -1,0 +1,925 @@
+# sent_id = s1
+# text = Peter vyšiel z hriešnej spoločnosti .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#1
+1	Peter	peter	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	vyšiel	vyjsť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+4	hriešnej	hriešny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	spoločnosti	spoločnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_
+6	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s2
+# text = Nevieme , kde v tú noc odišiel .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#2
+1	Nevieme	vedieť	VERB	VKepa-	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	,	,	PUNCT	Z	_	7	punct	_	_
+3	kde	kde	ADV	PD	PronType=Int,Rel	7	advmod	_	_
+4	v	v	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+5	tú	tá	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	noc	noc	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+7	odišiel	odísť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	ccomp	_	_
+8	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s3
+# text = Jedno však vieme , že vyjdúc z nádvoria Kaifášovho paláca , vstúpil na cestu svojho Pána a vytrval na nej až do svojej smrti , ako verný učeník , pracovitý apoštol , oslávený mučeník Ježiša Krista .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#3
+1	Jedno	jeden	NUM	NFns4	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+2	však	však	PART	T	_	3	advmod	_	_
+3	vieme	vedieť	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	,	,	PUNCT	Z	_	12	punct	_	_
+5	že	že	SCONJ	O	_	12	mark	_	_
+6	vyjdúc	vyjsť	VERB	VHd+	Aspect=Perf|Polarity=Pos|VerbForm=Conv	12	xcomp	_	_
+7	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	nádvoria	nádvorie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+9	Kaifášovho	kaifášov	ADJ	AFis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	paláca	palác	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	,	,	PUNCT	Z	_	6	punct	_	_
+12	vstúpil	vstúpiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	acl	_	_
+13	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+14	cestu	cesta	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+15	svojho	svoj	DET	PFms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	_
+16	Pána	pán	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	vytrval	vytrvať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	conj	_	_
+19	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+20	nej	ona	PRON	PFfs6	Case=Loc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
+21	až	až	PART	T	_	24	advmod:emph	_	_
+22	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	24	case	_	_
+23	svojej	svoj	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	24	det	_	_
+24	smrti	smrť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	18	obl	_	_
+25	,	,	PUNCT	Z	_	28	punct	_	_
+26	ako	ako	SCONJ	O	_	28	cc	_	_
+27	verný	verný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	učeník	učeník	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	xcomp	_	_
+29	,	,	PUNCT	Z	_	31	punct	_	_
+30	pracovitý	pracovitý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	apoštol	apoštol	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	conj	_	_
+32	,	,	PUNCT	Z	_	34	punct	_	_
+33	oslávený	oslávený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	34	amod	_	_
+34	mučeník	mučeník	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	conj	_	_
+35	Ježiša	ježiš	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
+36	Krista	kristus	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
+37	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s4
+# text = Taký žije a ostáva v našej pamäti a učí i nás chrániť sa pred namyslenosťou , pýchou , prílišnou sebadôverou , ale v ľútosti a pokání , v dôvere , spoľahnúť sa na zachraňujúcu milosť Božiu a s nábožným pevcom pevne vo viere vyznávať :
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#4
+1	Taký	taký	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	xcomp	_	_
+2	žije	žiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	CCONJ	O	_	4	cc	_	_
+4	ostáva	ostávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	našej	náš	DET	PFfs6	Case=Loc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det	_	_
+7	pamäti	pamäť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	učí	učiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	i	i	PART	T	_	11	advmod:emph	_	_
+11	nás	my	PRON	PPhp4	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	iobj	_	_
+12	chrániť	chrániť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	9	xcomp	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+14	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	15	case	_	_
+15	namyslenosťou	namyslenosť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	12	obl:arg	_	_
+16	,	,	PUNCT	Z	_	17	punct	_	_
+17	pýchou	pýcha	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	15	conj	_	_
+18	,	,	PUNCT	Z	_	20	punct	_	_
+19	prílišnou	prílišný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	sebadôverou	sebadôvera	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	15	conj	_	_
+21	,	,	PUNCT	Z	_	31	punct	_	_
+22	ale	ale	CCONJ	O	_	31	cc	_	_
+23	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+24	ľútosti	ľútosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	29	obl	_	_
+25	a	a	CCONJ	O	_	26	cc	_	_
+26	pokání	pokánie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	24	conj	_	_
+27	,	,	PUNCT	Z	_	29	punct	_	_
+28	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	29	case	_	_
+29	dôvere	dôvera	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	31	obl	_	_
+30	,	,	PUNCT	Z	_	29	punct	_	_
+31	spoľahnúť	spoľahnúť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	12	conj	_	_
+32	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	31	expl:pv	_	_
+33	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	35	case	_	_
+34	zachraňujúcu	zachraňujúci	ADJ	Gkfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	35	amod	_	_
+35	milosť	milosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	31	obl:arg	_	_
+36	Božiu	boží	ADJ	AFfs4x:r	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
+37	a	a	CCONJ	O	_	44	cc	_	_
+38	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	40	case	_	_
+39	nábožným	nábožný	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	_
+40	pevcom	pevec	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	44	obl	_	_
+41	pevne	pevne	ADV	Dx	Degree=Pos	44	advmod	_	_
+42	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	43	case	_	_
+43	viere	viera	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	44	obl	_	_
+44	vyznávať	vyznávať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	31	conj	_	_
+45	:	:	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s5
+# text = „ V svojom srdci chcem Teba mať , z Teba prameň milosti bude mi večne vyvierať i v kríži i v žalosti . “
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#5
+1	„	„	PUNCT	Z	_	5	punct	_	_
+2	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+3	svojom	svoj	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	4	det	_	_
+4	srdci	srdce	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+5	chcem	chcieť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	Teba	ty	PRON	PPhs4:r	Case=Acc|Number=Sing|Person=2|PronType=Prs	7	obj	_	_
+7	mať	mať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+8	,	,	PUNCT	Z	_	16	punct	_	_
+9	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	Teba	ty	PRON	PPhs2:r	Case=Gen|Number=Sing|Person=2|PronType=Prs	16	obl	_	_
+11	prameň	prameň	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+12	milosti	milosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	16	aux	_	_
+14	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
+15	večne	večne	ADV	Dx	Degree=Pos	16	advmod	_	_
+16	vyvierať	vyvierať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	conj	_	_
+17	i	i	PART	T	_	19	advmod:emph	_	_
+18	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	kríži	kríž	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+20	i	i	CCONJ	O	_	22	cc	_	_
+21	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	22	case	_	_
+22	žalosti	žalosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	19	conj	_	_
+23	.	.	PUNCT	Z	_	5	punct	_	_
+24	“	“	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s6
+# text = J . Jágerský , ev . a . v . farár v . v .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#6
+1	J	j	X	W	Abbr=Yes	3	nmod	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+3	Jágerský	jágerský	PROPN	SAms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	,	,	PUNCT	Z	_	11	punct	_	_
+5	ev	ev	X	W	Abbr=Yes	11	nmod	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	a	a	X	W	Abbr=Yes	11	nmod	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+9	v	v	X	W	Abbr=Yes	11	nmod	_	_
+10	.	.	PUNCT	Z	_	9	punct	_	_
+11	farár	farár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+12	v	v	X	W	Abbr=Yes	11	nmod	_	_
+13	.	.	PUNCT	Z	_	12	punct	_	_
+14	v	v	X	W	Abbr=Yes	11	nmod	_	_
+15	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s7
+# text = V rámci sl .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#7
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	rámci	rámec	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	sl	sl	X	W	Abbr=Yes	0	root	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s8
+# text = Božích sme 26 . októbra 2003 pozdravili nášho jubilanta , brata farára v . v .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#8
+1	Božích	boží	ADJ	AFfp2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	_
+2	sme	byť	AUX	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	26	26	NUM	0	NumForm=Digit	5	nummod	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+5	októbra	október	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+6	2003	2003	NUM	0	NumForm=Digit	5	nummod	_	_
+7	pozdravili	pozdraviť	VERB	VLdpah+	Aspect=Perf|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	parataxis	_	_
+8	nášho	náš	DET	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	9	det	_	_
+9	jubilanta	jubilant	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	brata	brat	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_
+12	farára	farár	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	appos	_	_
+13	v	v	X	W	Abbr=Yes	12	nmod	_	_
+14	.	.	PUNCT	Z	_	13	punct	_	_
+15	v	v	X	W	Abbr=Yes	12	nmod	_	_
+16	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s9
+# text = Jána Gajdoša , ktorý sa práve túto nedeľu dožil 90 rokov .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#9
+1	Jána	ján	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Gajdoša	gajdoš	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
+3	,	,	PUNCT	Z	_	9	punct	_	_
+4	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	9	nsubj	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+6	práve	práve	PART	T	_	8	advmod:emph	_	_
+7	túto	táto	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	nedeľu	nedeľa	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+9	dožil	dožiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	acl	_	_
+10	90	90	NUM	0	NumForm=Digit	9	obj	_	_
+11	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s10
+# text = Brat farár sa narodil 26 . 10 . 1913 v obci Kuková , vtedy okresom boli Giraltovce , rodičom Jánovi Gajdošovi a Anne , rod .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#10
+1	Brat	brat	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	farár	farár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	narodil	narodiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	26	26	NUM	0	NumForm=Digit	7	nummod	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	10	10	NUM	0	NumForm=Digit	4	obl	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+9	1913	1913	NUM	0	NumForm=Digit	7	nummod	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	obci	obec	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+12	Kuková	kuková	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	11	nmod	_	_
+13	,	,	PUNCT	Z	_	15	punct	_	_
+14	vtedy	vtedy	ADV	PD	PronType=Dem	15	advmod	_	_
+15	okresom	okres	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	parataxis	_	_
+16	boli	byť	AUX	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	15	cop	_	_
+17	Giraltovce	giraltovce	PROPN	SSfp1:r	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+18	,	,	PUNCT	Z	_	15	punct	_	_
+19	rodičom	rodič	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	21	nmod	_	_
+20	Jánovi	ján	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	21	nmod	_	_
+21	Gajdošovi	gajdoš	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	obj	_	_
+22	a	a	CCONJ	O	_	23	cc	_	_
+23	Anne	anna	PROPN	SSfs3:r	Case=Dat|Gender=Fem|Number=Sing	21	conj	_	_
+24	,	,	PUNCT	Z	_	25	punct	_	_
+25	rod	rod	X	W	Abbr=Yes	23	nmod	_	_
+26	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s11
+# text = Lenártovej , ako prvý zo štyroch bratov .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#11
+1	Lenártovej	lenártová	PROPN	SAfs3:r	Case=Dat|Gender=Fem|Number=Sing	0	root	_	_
+2	,	,	PUNCT	Z	_	1	punct	_	_
+3	ako	ako	SCONJ	O	_	4	cc	_	_
+4	prvý	prvý	ADJ	NAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	1	dep	_	_
+5	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	7	case	_	_
+6	štyroch	štyri	NUM	NNmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nummod	_	_
+7	bratov	brat	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+8	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s12
+# text = Do základnej školy chodil v Kukovej , kde ukončil štyri triedy .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#12
+1	Do	do	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	základnej	základný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	školy	škola	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+4	chodil	chodiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	Kukovej	kuková	PROPN	SAfs6:r	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	kde	kde	ADV	PD	PronType=Int,Rel	9	advmod	_	_
+9	ukončil	ukončiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
+10	štyri	štyri	NUM	NNfp4	Case=Acc|Gender=Fem|Number=Plur	11	nummod	_	_
+11	triedy	trieda	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+12	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s13
+# text = Do piateho ročníka už chodil v Žehni , kde sa presťahovali , lebo jeho otec tam začal pôsobiť na ev . cirkevnej škole .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#13
+1	Do	do	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	piateho	piaty	ADJ	NAis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	ročníka	ročník	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+4	už	už	PART	T	_	5	advmod:emph	_	_
+5	chodil	chodiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	Žehni	žehňa	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+8	,	,	PUNCT	Z	_	11	punct	_	_
+9	kde	kde	ADV	PD	PronType=Int,Rel	11	advmod	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+11	presťahovali	presťahovať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
+12	,	,	PUNCT	Z	_	17	punct	_	_
+13	lebo	lebo	CCONJ	O	_	17	mark	_	_
+14	jeho	jeho	DET	PUms1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	otec	otec	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+16	tam	tam	ADV	PD	PronType=Dem	18	advmod	_	_
+17	začal	začať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	advcl	_	_
+18	pôsobiť	pôsobiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	17	xcomp	_	_
+19	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	23	case	_	_
+20	ev	ev	X	W	Abbr=Yes	23	nmod	_	_
+21	.	.	PUNCT	Z	_	20	punct	_	_
+22	cirkevnej	cirkevný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	škole	škola	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	18	obl	_	_
+24	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s14
+# text = V roku 1924 bol prijatý za žiaka na evanjelické kolegiálne gymnázium , kde maturoval v roku 1934 .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#14
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	1924	1924	NUM	0	NumForm=Digit	2	nummod	_	_
+4	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	cop	_	_
+5	prijatý	prijatý	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+6	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+7	žiaka	žiak	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obl:arg	_	_
+8	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+9	evanjelické	evanjelický	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+10	kolegiálne	kolegiálny	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	gymnázium	gymnázium	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+12	,	,	PUNCT	Z	_	14	punct	_	_
+13	kde	kde	ADV	PD	PronType=Int,Rel	14	advmod	_	_
+14	maturoval	maturovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	acl	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+16	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+17	1934	1934	NUM	0	NumForm=Digit	16	nummod	_	_
+18	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s15
+# text = Potom sa na prianie rodičov prihlásil na teologickú fakultu do Bratislavy .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#15
+1	Potom	potom	ADV	Dx	Degree=Pos	6	advmod	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	prianie	prianie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+5	rodičov	rodič	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	prihlásil	prihlásiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+8	teologickú	teologický	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	fakultu	fakulta	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+10	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+11	Bratislavy	bratislava	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+12	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s16
+# text = V treťom ročníku študoval na Ev . teologickej fakulte v Strasburgu , bolo to v študijnom roku 1936 / 37 .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#16
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	treťom	tretí	ADJ	NAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	ročníku	ročník	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+4	študoval	študovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+6	Ev	ev	X	W	Abbr=Yes	9	nmod	_	_
+7	.	.	PUNCT	Z	_	6	punct	_	_
+8	teologickej	teologický	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	fakulte	fakulta	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	Strasburgu	strasburg	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+12	,	,	PUNCT	Z	_	13	punct	_	_
+13	bolo	byť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+14	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	13	nsubj	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+16	študijnom	študijný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+18	1936	1936	NUM	0	NumForm=Digit	17	nummod	_	_
+19	/	/	PUNCT	Z	_	20	punct	_	_
+20	37	37	NUM	0	NumForm=Digit	18	conj	_	_
+21	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s17
+# text = Po ukončení teologických štúdii dostal 1 . marca 1939 miesto seniorálneho kaplána v Obišovciach , kde bol kaplánom až do roku 1942 .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#17
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	ukončení	ukončenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	teologických	teologický	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	_
+4	štúdii	štúdium	NOUN	SSnp2:q	Case=Gen|Gender=Neut|Number=Plur|Typo=Yes	2	nmod	_	_
+5	dostal	dostať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	1	1	NUM	0	NumForm=Digit	8	nummod	_	_
+7	.	.	PUNCT	Z	_	6	punct	_	_
+8	marca	marec	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+9	1939	1939	NUM	0	NumForm=Digit	8	nummod	_	_
+10	miesto	miesto	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+11	seniorálneho	seniorálny	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	kaplána	kaplán	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	Obišovciach	obišovce	PROPN	SSfp6:r	Case=Loc|Gender=Fem|Number=Plur	10	nmod	_	_
+15	,	,	PUNCT	Z	_	18	punct	_	_
+16	kde	kde	ADV	PD	PronType=Int,Rel	18	advmod	_	_
+17	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	18	cop	_	_
+18	kaplánom	kaplán	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	acl	_	_
+19	až	až	PART	T	_	21	advmod:emph	_	_
+20	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	21	case	_	_
+21	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+22	1942	1942	NUM	0	NumForm=Digit	21	nummod	_	_
+23	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s18
+# text = Za Slovenského štátu v roku 1941 konal vojenskú službu – šesť týždňov .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#18
+1	Za	za	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	Slovenského	slovenský	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	štátu	štát	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+6	1941	1941	NUM	0	NumForm=Digit	5	nummod	_	_
+7	konal	konať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	vojenskú	vojenský	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	službu	služba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+10	–	–	PUNCT	Z	_	11	punct	_	_
+11	šesť	šesť	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
+12	týždňov	týždeň	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s19
+# text = Po návrate nedostal hneď miesto kaplána a po bezvýslednom čakaní nastúpil od 1 . novembra 1942 do civilného zamestnania na pošte v Žiline , neskôr sa dostal do Prešova s tou túžbou , že sa konečne dostane do služby , na ktorú sa pripravoval .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#19
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	návrate	návrat	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+3	nedostal	dostať	VERB	VLdscm-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+4	hneď	hneď	ADV	Dx	Degree=Pos	3	advmod	_	_
+5	miesto	miesto	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+6	kaplána	kaplán	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	a	a	CCONJ	O	_	11	cc	_	_
+8	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+9	bezvýslednom	bezvýsledný	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	čakaní	čakanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
+11	nastúpil	nastúpiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+12	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+13	1	1	NUM	0	NumForm=Digit	15	nummod	_	_
+14	.	.	PUNCT	Z	_	13	punct	_	_
+15	novembra	november	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+16	1942	1942	NUM	0	NumForm=Digit	15	nummod	_	_
+17	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	19	case	_	_
+18	civilného	civilný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	zamestnania	zamestnanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	11	obl	_	_
+20	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	_	_
+21	pošte	pošta	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	19	nmod	_	_
+22	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	23	case	_	_
+23	Žiline	žilina	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	21	nmod	_	_
+24	,	,	PUNCT	Z	_	27	punct	_	_
+25	neskôr	neskôr	ADV	Dx	Degree=Pos	27	advmod	_	_
+26	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	27	expl:pv	_	_
+27	dostal	dostať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	conj	_	_
+28	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	29	case	_	_
+29	Prešova	prešov	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	obl	_	_
+30	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	32	case	_	_
+31	tou	tá	DET	PFfs7	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	32	det	_	_
+32	túžbou	túžba	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	27	obl	_	_
+33	,	,	PUNCT	Z	_	37	punct	_	_
+34	že	že	SCONJ	O	_	37	mark	_	_
+35	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	37	expl:pv	_	_
+36	konečne	konečne	ADV	Dx	Degree=Pos	37	advmod	_	_
+37	dostane	dostať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	32	acl	_	_
+38	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	39	case	_	_
+39	služby	služba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	37	obl	_	_
+40	,	,	PUNCT	Z	_	44	punct	_	_
+41	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	42	case	_	_
+42	ktorú	ktorý	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	44	obl:arg	_	_
+43	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	44	expl:pv	_	_
+44	pripravoval	pripravovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	39	acl	_	_
+45	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s20
+# text = Pre nedostatok kňazov , ale i pre svoje osobné prosby u predstavených v cirkvi bol vypočutý .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#20
+1	Pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	2	case	_	_
+2	nedostatok	nedostatok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
+3	kňazov	kňaz	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	,	,	PUNCT	Z	_	10	punct	_	_
+5	ale	ale	CCONJ	O	_	10	cc	_	_
+6	i	i	CCONJ	O	_	10	cc	_	_
+7	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+8	svoje	svoj	DET	PFfp4	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	_
+9	osobné	osobný	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
+10	prosby	prosba	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	2	conj	_	_
+11	u	u	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+12	predstavených	predstavený	ADJ	Gtmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	cirkvi	cirkev	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	_
+15	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	cop	_	_
+16	vypočutý	vypočutý	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+17	.	.	PUNCT	Z	_	16	punct	_	_
+
+# sent_id = s21
+# text = V tomto období vstúpil do stavu manželského s Alžbetou , rod .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#21
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	tomto	toto	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	období	obdobie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+4	vstúpil	vstúpiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	stavu	stav	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+7	manželského	manželský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+8	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+9	Alžbetou	alžbeta	PROPN	SSfs7:r	Case=Ins|Gender=Fem|Number=Sing	4	obl:arg	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	rod	rod	X	W	Abbr=Yes	9	nmod	_	_
+12	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s22
+# text = Mižikovou , ktorá ho už sprevádzala na nové miesto služby .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#22
+1	Mižikovou	mižiková	PROPN	SAfs7:r	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+2	,	,	PUNCT	Z	_	6	punct	_	_
+3	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
+4	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+5	už	už	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	sprevádzala	sprevádzať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	parataxis	_	_
+7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+8	nové	nový	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	miesto	miesto	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+10	služby	služba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s23
+# text = Bol poslaný za kaplána na Degeš , okres Nové Zámky , teraz Rastislavice , kde bol najskôr na nesystemizovanom mieste až do 1 . novembra 1945 .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#23
+1	Bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	cop	_	_
+2	poslaný	poslaný	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+3	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	kaplána	kaplán	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obl:arg	_	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	Degeš	degeš	PROPN	SSis4:r	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+7	,	,	PUNCT	Z	_	6	punct	_	_
+8	okres	okres	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	dep	_	_
+9	Nové	nový	ADJ	AAip1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+10	Zámky	zámky	PROPN	SSip1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nmod	_	_
+11	,	,	PUNCT	Z	_	12	punct	_	_
+12	teraz	teraz	ADV	Dx	Degree=Pos	8	conj	_	_
+13	Rastislavice	rastislavice	PROPN	SSfp1:r	Case=Nom|Gender=Fem|Number=Plur	8	conj	_	_
+14	,	,	PUNCT	Z	_	6	punct	_	_
+15	kde	kde	ADV	PD	PronType=Int,Rel	16	advmod	_	_
+16	bol	byť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
+17	najskôr	najskôr	ADV	Dx	Degree=Pos	16	advmod	_	_
+18	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+19	nesystemizovanom	systemizovaný	ADJ	Gtns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	20	amod	_	_
+20	mieste	miesto	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
+21	až	až	PART	T	_	25	advmod:emph	_	_
+22	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	25	case	_	_
+23	1	1	NUM	0	NumForm=Digit	25	nummod	_	_
+24	.	.	PUNCT	Z	_	23	punct	_	_
+25	novembra	november	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+26	1945	1945	NUM	0	NumForm=Digit	25	nummod	_	_
+27	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s24
+# text = Spolu s manželkou , ktorá bola zamestnaná ako učiteľka v Materskej škole v Rastislaviciach .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#24
+1	Spolu	spolu	ADV	Dx	Degree=Pos	3	case	_	_
+2	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	1	fixed	_	_
+3	manželkou	manželka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+4	,	,	PUNCT	Z	_	7	punct	_	_
+5	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	7	nsubj	_	_
+6	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	cop	_	_
+7	zamestnaná	zamestnaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	acl	_	_
+8	ako	ako	SCONJ	O	_	9	mark	_	_
+9	učiteľka	učiteľka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	xcomp	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+11	Materskej	materský	ADJ	AAfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	škole	škola	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	Rastislaviciach	rastislavice	PROPN	SSfp6:r	Case=Loc|Gender=Fem|Number=Plur	12	nmod	_	_
+15	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s25
+# text = Vzhľadom na vek rodičov , aby im mohli byť oporou rozhodli sa z Rastislavíc na jeseň v roku 1973 odísť do Žehne , kde brat farár pôsobil štyri a pol roka .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#25
+1	Vzhľadom	vzhľad	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	case	_	_
+2	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	1	fixed	_	_
+3	vek	vek	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+4	rodičov	rodič	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	,	,	PUNCT	Z	_	8	punct	_	_
+6	aby	aby	SCONJ	OY	Mood=Cnd	8	mark	_	_
+7	im	on	PRON	PFmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+8	mohli	môcť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	11	advcl	_	_
+9	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	10	cop	_	_
+10	oporou	opora	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	8	xcomp	_	_
+11	rozhodli	rozhodnúť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+13	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+14	Rastislavíc	rastislavice	PROPN	SSfp2:r	Case=Gen|Gender=Fem|Number=Plur	20	obl	_	_
+15	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
+16	jeseň	jeseň	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+18	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	_
+19	1973	1973	NUM	0	NumForm=Digit	18	nummod	_	_
+20	odísť	odísť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	11	xcomp	_	_
+21	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	22	case	_	_
+22	Žehne	žehňa	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	20	obl	_	_
+23	,	,	PUNCT	Z	_	27	punct	_	_
+24	kde	kde	ADV	PD	PronType=Int,Rel	27	advmod	_	_
+25	brat	brat	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	nmod	_	_
+26	farár	farár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+27	pôsobil	pôsobiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	22	acl	_	_
+28	štyri	štyri	NUM	NNip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	27	dep	_	_
+29	a	a	CCONJ	O	_	30	cc	_	_
+30	pol	pol	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	28	conj	_	_
+31	roka	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+32	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s26
+# text = V roku 1977 kvôli zdravotným ťažkostiam odchádza do dôchodku po náročnej a požehnanej práci na vinici Pánovej .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#26
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+3	1977	1977	NUM	0	NumForm=Digit	2	nummod	_	_
+4	kvôli	kvôli	ADP	Eu3	AdpType=Prep|Case=Dat	6	case	_	_
+5	zdravotným	zdravotný	ADJ	AAfp3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+6	ťažkostiam	ťažkosť	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	_
+7	odchádza	odchádzať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	dôchodku	dôchodok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+10	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+11	náročnej	náročný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+12	a	a	CCONJ	O	_	13	cc	_	_
+13	požehnanej	požehnaný	ADJ	Gtfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	conj	_	_
+14	práci	práca	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+15	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+16	vinici	vinica	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_
+17	Pánovej	pánov	ADJ	AFfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+18	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s27
+# text = Vo svojej pokore ďakuje za požehnané dni služby a pestrý život v rodine i v cirkvi .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#27
+1	Vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	3	case	_	_
+2	svojej	svoj	DET	PFfs6	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	_	_
+3	pokore	pokora	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+4	ďakuje	ďakovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+6	požehnané	požehnaný	ADJ	Gtip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	dni	deň	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obl:arg	_	_
+8	služby	služba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	a	a	CCONJ	O	_	11	cc	_	_
+10	pestrý	pestrý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	život	život	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	conj	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	rodine	rodina	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
+14	i	i	CCONJ	O	_	16	cc	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+16	cirkvi	cirkev	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	13	conj	_	_
+17	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s28
+# text = Pán požehnal ich manželstvo dvoma dietkami , dcérou Vierkou , ktorú si Pán ako učiteľku odvolal v 38 . roku života a synom Miroslavom , ktorý je inžinierom , technikom a je zamestnaný v Pezinku .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#28
+1	Pán	pán	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	požehnal	požehnať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	ich	ich	DET	PUns4	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	manželstvo	manželstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+5	dvoma	dva	NUM	NNfp7	Case=Ins|Gender=Fem|Number=Plur	6	nummod	_	_
+6	dietkami	dietky	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	2	iobj	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	dcérou	dcéra	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	_
+9	Vierkou	vierka	PROPN	SSfs7:r	Case=Ins|Gender=Fem|Number=Sing	6	appos	_	_
+10	,	,	PUNCT	Z	_	16	punct	_	_
+11	ktorú	ktorý	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	16	obj	_	_
+12	si	si	PRON	R	PronType=Prs|Reflex=Yes	16	obl	_	_
+13	Pán	pán	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+14	ako	ako	SCONJ	O	_	15	mark	_	_
+15	učiteľku	učiteľka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	xcomp	_	_
+16	odvolal	odvolať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	acl	_	_
+17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+18	38	38	NUM	0	NumForm=Digit	20	nummod	_	_
+19	.	.	PUNCT	Z	_	18	punct	_	_
+20	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+21	života	život	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	a	a	CCONJ	O	_	24	cc	_	_
+23	synom	syn	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	nmod	_	_
+24	Miroslavom	miroslav	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	conj	_	_
+25	,	,	PUNCT	Z	_	28	punct	_	_
+26	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	28	nsubj	_	_
+27	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	inžinierom	inžinier	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	acl	_	_
+29	,	,	PUNCT	Z	_	30	punct	_	_
+30	technikom	technik	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	28	appos	_	_
+31	a	a	CCONJ	O	_	33	cc	_	_
+32	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	33	cop	_	_
+33	zamestnaný	zamestnaný	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	28	conj	_	_
+34	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	35	case	_	_
+35	Pezinku	pezinok	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	33	obl	_	_
+36	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s29
+# text = Brat farár ani v požehnanom veku neprestal pracovať , spolu s manželkou sa aktívne zúčastňujú zborového života a sú členmi zborového modlitebného spoločenstva .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#29
+1	Brat	brat	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	farár	farár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	ani	ani	PART	T	_	6	advmod:emph	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+5	požehnanom	požehnaný	ADJ	Gtis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	veku	vek	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+7	neprestal	prestať	VERB	VLdscm-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+8	pracovať	pracovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	7	xcomp	_	_
+9	,	,	PUNCT	Z	_	15	punct	_	_
+10	spolu	spolu	ADV	Dx	Degree=Pos	12	case	_	_
+11	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	10	fixed	_	_
+12	manželkou	manželka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	15	obl	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+14	aktívne	aktívne	ADV	Dx	Degree=Pos	15	advmod	_	_
+15	zúčastňujú	zúčastňovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	conj	_	_
+16	zborového	zborový	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	života	život	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obj	_	_
+18	a	a	CCONJ	O	_	20	cc	_	_
+19	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	členmi	člen	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	15	conj	_	_
+21	zborového	zborový	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+22	modlitebného	modlitebný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	spoločenstva	spoločenstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+24	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s30
+# text = Pokiaľ mu to zdravie dovoľovalo vypomáhal aj v našom prešovskom cirkevnom zbore , hlavne pri prisluhovaní VP , na večerných sl .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#30
+1	Pokiaľ	pokiaľ	PRON	PD	PronType=Prs	5	mark	_	_
+2	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+3	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obj	_	_
+4	zdravie	zdravie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+5	dovoľovalo	dovoľovať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	advcl	_	_
+6	vypomáhal	vypomáhať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	aj	aj	PART	T	_	12	advmod:emph	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+9	našom	náš	DET	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	12	det	_	_
+10	prešovskom	prešovský	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	cirkevnom	cirkevný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	zbore	zbor	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+13	,	,	PUNCT	Z	_	16	punct	_	_
+14	hlavne	hlavne	PART	T	_	16	advmod:emph	_	_
+15	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+16	prisluhovaní	prisluhovanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	6	conj	_	_
+17	VP	vp	X	W	Abbr=Yes	16	nmod	_	_
+18	,	,	PUNCT	Z	_	20	punct	_	_
+19	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+20	večerných	večerný	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	16	conj	_	_
+21	sl	sl	X	W	Abbr=Yes	20	dep	_	_
+22	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s31
+# text = Božích a v modlitebnom spoločenstve .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#31
+1	Božích	boží	ADJ	AFfp6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	_
+2	a	a	CCONJ	O	_	5	cc	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+4	modlitebnom	modlitebný	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	spoločenstve	spoločenstvo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	1	conj	_	_
+6	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s32
+# text = Prichádza aj na stretnutia farárov v našom ŠZ senioráte .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#32
+1	Prichádza	prichádzať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	aj	aj	PART	T	_	4	advmod:emph	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	stretnutia	stretnutie	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	1	obl:arg	_	_
+5	farárov	farár	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+7	našom	náš	DET	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	9	det	_	_
+8	ŠZ	šz	X	W	Abbr=Yes	9	nmod	_	_
+9	senioráte	seniorát	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+10	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s33
+# text = Zvlášť je potrebné pripomenúť prekladateľskú činnosť brata farára , ktorý preložil historicky cenné práce Jozefa Hőrka , na ktorých sústavne pracuje ( niektoré sa pripravujú do tlače , poz . redakcie ) .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#33
+1	Zvlášť	zvlášť	PART	T	_	3	advmod:emph	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	potrebné	potrebný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+4	pripomenúť	pripomenúť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	csubj	_	_
+5	prekladateľskú	prekladateľský	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	činnosť	činnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	brata	brat	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+8	farára	farár	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	,	,	PUNCT	Z	_	11	punct	_	_
+10	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	11	nsubj	_	_
+11	preložil	preložiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+12	historicky	historicky	ADV	Dx	Degree=Pos	13	advmod	_	_
+13	cenné	cenný	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
+14	práce	práca	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+15	Jozefa	jozef	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+16	Hőrka	hőrk	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	,	,	PUNCT	Z	_	21	punct	_	_
+18	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	ktorých	ktorý	DET	PAfp6	Case=Loc|Gender=Fem|Number=Plur|PronType=Int,Rel	21	obl:arg	_	_
+20	sústavne	sústavne	ADV	Dx	Degree=Pos	21	advmod	_	_
+21	pracuje	pracovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	acl	_	_
+22	(	(	PUNCT	Z	_	25	punct	_	_
+23	niektoré	niektorý	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	25	dep	_	_
+24	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	25	expl:pass	_	_
+25	pripravujú	pripravovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	parataxis	_	_
+26	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	27	case	_	_
+27	tlače	tlač	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	25	obl	_	_
+28	,	,	PUNCT	Z	_	25	punct	_	_
+29	poz	poz	X	W	Abbr=Yes	25	dep	_	_
+30	.	.	PUNCT	Z	_	29	punct	_	_
+31	redakcie	redakcia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_
+32	)	)	PUNCT	Z	_	25	punct	_	_
+33	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s34
+# text = Milý brat farár s manželkou , ďakujeme Vám za Vašu službu a prácu v cirkvi a našom cirkevnom zbore .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#34
+1	Milý	milý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	brat	brat	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+3	farár	farár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	dep	_	_
+4	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	5	case	_	_
+5	manželkou	manželka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	ďakujeme	ďakovať	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	Vám	vy	PRON	PPhp3:r	Case=Dat|Number=Plur|Person=2|PronType=Prs	7	obj	_	_
+9	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+10	Vašu	váš	DET	PFfs4:r	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	11	det	_	_
+11	službu	služba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obl:arg	_	_
+12	a	a	CCONJ	O	_	13	cc	_	_
+13	prácu	práca	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	cirkvi	cirkev	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
+16	a	a	CCONJ	O	_	19	cc	_	_
+17	našom	náš	DET	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	19	det	_	_
+18	cirkevnom	cirkevný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	zbore	zbor	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	conj	_	_
+20	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s35
+# text = Nech slovo evanjelia , Kristova milosť , ktorou si Ty tak často povzbudzoval i usmerňoval veriacich v zboroch kde si pôsobil , nech Vás moc tohto slova a Kristovej milosti , nádeje a lásky posilňuje a potešuje .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#35
+1	Nech	nech	PART	T	_	2	cc	_	_
+2	slovo	slovo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+3	evanjelia	evanjelium	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	,	,	PUNCT	Z	_	6	punct	_	_
+5	Kristova	kristov	ADJ	AFfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	milosť	milosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
+7	,	,	PUNCT	Z	_	13	punct	_	_
+8	ktorou	ktorý	DET	PAfs7	Case=Ins|Gender=Fem|Number=Sing|PronType=Int,Rel	13	iobj	_	_
+9	si	byť	AUX	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	_
+10	Ty	ty	PRON	PPhs1:r	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
+11	tak	tak	ADV	PD	PronType=Dem	12	advmod	_	_
+12	často	často	ADV	Dx	Degree=Pos	13	advmod	_	_
+13	povzbudzoval	povzbudzovať	VERB	VLesbm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
+14	i	i	CCONJ	O	_	15	cc	_	_
+15	usmerňoval	usmerňovať	VERB	VLesbm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	conj	_	_
+16	veriacich	veriaci	ADJ	Gkmp4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	13	obj	_	_
+17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+18	zboroch	zbor	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	16	nmod	_	_
+19	kde	kde	ADV	PD	PronType=Int,Rel	21	advmod	_	_
+20	si	byť	AUX	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	pôsobil	pôsobiť	VERB	VLesbm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	18	acl	_	_
+22	,	,	PUNCT	Z	_	35	punct	_	_
+23	nech	nech	PART	T	_	35	cc	_	_
+24	Vás	vy	PRON	PPhp4:r	Case=Acc|Number=Plur|Person=2|PronType=Prs	35	obj	_	_
+25	moc	moc	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	35	nsubj	_	_
+26	tohto	toto	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	27	det	_	_
+27	slova	slovo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+28	a	a	CCONJ	O	_	30	cc	_	_
+29	Kristovej	kristov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	milosti	milosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	27	conj	_	_
+31	,	,	PUNCT	Z	_	32	punct	_	_
+32	nádeje	nádej	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	30	conj	_	_
+33	a	a	CCONJ	O	_	34	cc	_	_
+34	lásky	láska	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	30	conj	_	_
+35	posilňuje	posilňovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+36	a	a	CCONJ	O	_	37	cc	_	_
+37	potešuje	potešovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	35	conj	_	_
+38	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s36
+# text = Pozdravujeme Vás slovami Žalmu 73 , 28 :
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#36
+1	Pozdravujeme	pozdravovať	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	Vás	vy	PRON	PPhp4:r	Case=Acc|Number=Plur|Person=2|PronType=Prs	1	obj	_	_
+3	slovami	slovo	NOUN	SSnp7	Case=Ins|Gender=Neut|Number=Plur	1	obl	_	_
+4	Žalmu	žalm	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	73	73	NUM	0	NumForm=Digit	4	nummod	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	28	28	NUM	0	NumForm=Digit	5	conj	_	_
+8	:	:	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s37
+# text = „ Ale mňa blaží Božia blízkosť .
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#37
+1	„	„	PUNCT	Z	_	4	punct	_	_
+2	Ale	ale	PART	T	_	4	advmod	_	_
+3	mňa	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+4	blaží	blažiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Božia	boží	ADJ	AFfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	blízkosť	blízkosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+7	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s38
+# text = V Hospodinu , Pánovi mám svoje útočište . . . „
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#38
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	Hospodinu	hospodin	PROPN	SSms6:r	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	Pánovi	pán	PROPN	SSms6:r	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	2	flat	_	_
+5	mám	mať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	svoje	svoj	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	_
+7	útočište	útočište	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+8	.	.	PUNCT	Z	_	5	punct	_	_
+9	.	.	PUNCT	Z	_	5	punct	_	_
+10	.	.	PUNCT	Z	_	5	punct	_	_
+11	„	„	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s39
+# text = Ján Bakalár , zborový farár
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#39
+1	Ján	ján	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Bakalár	bakalár	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	,	,	PUNCT	Z	_	5	punct	_	_
+4	zborový	zborový	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	farár	farár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+
+# sent_id = s40
+# text = Anjelovi cirkevného zboru v Prešove napíš :
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#40
+1	Anjelovi	anjel	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	6	obj	_	_
+2	cirkevného	cirkevný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	zboru	zbor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	Prešove	prešov	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+6	napíš	napísať	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+7	:	:	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s41
+# text = Toto hovorí Ten , ktorý má ostrý dvojsečný meč . / Zj 2 , 12 /
+# orig_file_sentence patmos2-01_kandracova_patmos2-01_mz#41
+1	Toto	toto	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	_
+2	hovorí	hovoriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Ten	ten	DET	PFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+4	,	,	PUNCT	Z	_	6	punct	_	_
+5	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
+6	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	acl	_	_
+7	ostrý	ostrý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+8	dvojsečný	dvojsečný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	meč	meč	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+10	.	.	PUNCT	Z	_	2	punct	_	_
+11	/	/	PUNCT	Z	_	12	punct	_	_
+12	Zj	zj	X	W	Abbr=Yes	2	appos	_	_
+13	2	2	NUM	0	NumForm=Digit	12	nummod	_	_
+14	,	,	PUNCT	Z	_	15	punct	_	_
+15	12	12	NUM	0	NumForm=Digit	13	conj	_	_
+16	/	/	PUNCT	Z	_	12	punct	_	_
+

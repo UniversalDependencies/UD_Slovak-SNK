@@ -1,0 +1,179 @@
+# sent_id = s1
+# text = Napokon , ako vieme , že dva a dva sú štyri ?
+# orig_file_sentence bsnk139_safarikova_bsnk139_olejkarova#1
+1	Napokon	napokon	PART	T	_	4	advmod	_	_
+2	,	,	PUNCT	Z	_	4	punct	_	_
+3	ako	ako	ADV	PD	PronType=Int,Rel	4	advmod	_	_
+4	vieme	vedieť	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	,	,	PUNCT	Z	_	11	punct	_	_
+6	že	že	SCONJ	O	_	11	mark	_	_
+7	dva	dva	NUM	NNip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	dva	dva	NUM	NNip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	conj	_	_
+10	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	štyri	štyri	NUM	NNip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	ccomp	_	_
+12	?	?	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s2
+# text = Alebo , že pôsobí gravitácia ?
+# orig_file_sentence bsnk139_safarikova_bsnk139_olejkarova#2
+1	Alebo	alebo	CCONJ	O	_	0	root	_	_
+2	,	,	PUNCT	Z	_	4	punct	_	_
+3	že	že	SCONJ	O	_	4	mark	_	_
+4	pôsobí	pôsobiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	gravitácia	gravitácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+6	?	?	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s3
+# text = Alebo , že minulosť je nezmeniteľná ?
+# orig_file_sentence bsnk139_safarikova_bsnk139_olejkarova#3
+1	Alebo	alebo	CCONJ	O	_	0	root	_	_
+2	,	,	PUNCT	Z	_	6	punct	_	_
+3	že	že	SCONJ	O	_	6	mark	_	_
+4	minulosť	minulosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	nezmeniteľná	nezmeniteľný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	ccomp	_	_
+7	?	?	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s4
+# text = Ak aj minulosť aj vonkajší svet existujú iba vo vedomí , a ak vedomie sa dá riadiť -- čo potom ?
+# orig_file_sentence bsnk139_safarikova_bsnk139_olejkarova#4
+1	Ak	ak	SCONJ	O	_	7	mark	_	_
+2	aj	aj	CCONJ	O	_	6	cc	_	_
+3	minulosť	minulosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+4	aj	aj	CCONJ	O	_	6	cc	_	_
+5	vonkajší	vonkajší	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	svet	svet	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+7	existujú	existovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+8	iba	iba	PART	T	_	10	cc	_	_
+9	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	10	case	_	_
+10	vedomí	vedomie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+11	,	,	PUNCT	Z	_	16	punct	_	_
+12	a	a	CCONJ	O	_	16	cc	_	_
+13	ak	ak	SCONJ	O	_	16	mark	_	_
+14	vedomie	vedomie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+16	dá	dať	VERB	VKjsc+	Aspect=Imp,Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	conj	_	_
+17	riadiť	riadiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	16	xcomp	_	_
+18	--	--	PUNCT	Z	_	20	punct	_	_
+19	čo	čo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	20	obj	_	_
+20	potom	potom	ADV	Dx	Degree=Pos	0	root	_	_
+21	?	?	PUNCT	Z	_	20	punct	_	_
+
+# sent_id = s5
+# text = Ale nie !
+# orig_file_sentence bsnk139_safarikova_bsnk139_olejkarova#5
+1	Ale	ale	PART	T	_	0	root	_	_
+2	nie	nie	PART	T	_	1	dep	_	_
+3	!	!	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s6
+# text = Jeho odvaha akoby sa zrazu sama od seba zakalila .
+# orig_file_sentence bsnk139_safarikova_bsnk139_olejkarova#6
+1	Jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	odvaha	odvaha	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+3	akoby	akoby	PART	TY	Mood=Cnd	9	advmod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pass	_	_
+5	zrazu	zrazu	ADV	Dx	Degree=Pos	9	advmod	_	_
+6	sama	sám	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Emp	9	obl	_	_
+7	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	seba	seba	PRON	PPhs2	Case=Gen|Number=Sing|PronType=Prs|Reflex=Yes	6	obl	_	_
+9	zakalila	zakaliť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s7
+# text = V mysli mu naskočila O ' Brienova tvár , aj keď ju nevyvolala nijaká konkrétna asociácia .
+# orig_file_sentence bsnk139_safarikova_bsnk139_olejkarova#7
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	mysli	myseľ	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+3	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	naskočila	naskočiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	O	o	X	Q	Hyph=Yes	7	nmod	_	_
+6	'	'	PUNCT	Z	_	5	punct	_	_
+7	Brienova	brienov	ADJ	AFfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	tvár	tvár	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+9	,	,	PUNCT	Z	_	13	punct	_	_
+10	aj	aj	CCONJ	O	_	13	mark	_	_
+11	keď	keď	SCONJ	O	_	10	fixed	_	_
+12	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	nevyvolala	vyvolať	VERB	VLdscf-	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	4	advcl	_	_
+14	nijaká	nijaký	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Neg	16	det	_	_
+15	konkrétna	konkrétny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	asociácia	asociácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+17	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s8
+# text = Väčšmi než kedykoľvek predtým si bol istý , že O ' Brien je na jeho strane .
+# orig_file_sentence bsnk139_safarikova_bsnk139_olejkarova#8
+1	Väčšmi	väčšmi	ADV	Dx	Degree=Pos	7	advmod	_	_
+2	než	než	SCONJ	O	_	1	advmod	_	_
+3	kedykoľvek	kedykoľvek	ADV	PD	PronType=Ind	4	advmod	_	_
+4	predtým	predtým	ADV	Dx	Degree=Pos	2	advmod	_	_
+5	si	si	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pass	_	_
+6	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	cop	_	_
+7	istý	istý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+8	,	,	PUNCT	Z	_	13	punct	_	_
+9	že	že	SCONJ	O	_	13	mark	_	_
+10	O	o	X	Q	Hyph=Yes	12	nmod	_	_
+11	'	'	PUNCT	Z	_	10	punct	_	_
+12	Brien	brien	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+13	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+14	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+15	jeho	jeho	DET	PUfs6	Case=Loc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+16	strane	strana	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+17	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s9
+# text = Píše denník pre O ' Briena -- jemu : je to ako nekonečný list , ktorý nikto nikdy nebude čítať , aj keď adresovaný konkrétnej osobe a tento fakt ho istým spôsobom podfarbuje .
+# orig_file_sentence bsnk139_safarikova_bsnk139_olejkarova#9
+1	Píše	písať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	denník	denník	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+3	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+4	O	o	X	Q	Hyph=Yes	6	nmod	_	_
+5	'	'	PUNCT	Z	_	4	punct	_	_
+6	Briena	brien	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_
+7	--	--	PUNCT	Z	_	8	punct	_	_
+8	jemu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	appos	_	_
+9	:	:	PUNCT	Z	_	10	punct	_	_
+10	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+11	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	_
+12	ako	ako	SCONJ	O	_	14	cop	_	_
+13	nekonečný	nekonečný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	list	list	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	advmod	_	_
+15	,	,	PUNCT	Z	_	19	punct	_	_
+16	ktorý	ktorý	DET	PAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	19	iobj	_	_
+17	nikto	nikto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	19	nsubj	_	_
+18	nikdy	nikdy	ADV	PD	PronType=Neg	19	advmod	_	_
+19	nebude	byť	VERB	VBesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	14	acl	_	_
+20	čítať	čítať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	19	xcomp	_	_
+21	,	,	PUNCT	Z	_	24	punct	_	_
+22	aj	aj	CCONJ	O	_	24	advmod:emph	_	_
+23	keď	keď	SCONJ	O	_	24	mark	_	_
+24	adresovaný	adresovaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	19	dep	_	_
+25	konkrétnej	konkrétny	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	osobe	osoba	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	24	obj	_	_
+27	a	a	CCONJ	O	_	33	cc	_	_
+28	tento	tento	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+29	fakt	fakt	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	_
+30	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	obj	_	_
+31	istým	istý	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	spôsobom	spôsob	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	33	obl	_	_
+33	podfarbuje	podfarbovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	24	conj	_	_
+34	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s10
+# text = Strana vyzýva jedinca , aby poprel svedectvo vlastných očí a uší .
+# orig_file_sentence bsnk139_safarikova_bsnk139_olejkarova#10
+1	Strana	strana	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	vyzýva	vyzývať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	jedinca	jedinec	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	,	,	PUNCT	Z	_	6	punct	_	_
+5	aby	aby	SCONJ	OY	Mood=Cnd	6	mark	_	_
+6	poprel	poprieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	advcl	_	_
+7	svedectvo	svedectvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	vlastných	vlastný	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	_
+9	očí	oko	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+10	a	a	CCONJ	O	_	11	cc	_	_
+11	uší	ucho	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	9	conj	_	_
+12	.	.	PUNCT	Z	_	2	punct	_	_
+

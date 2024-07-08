@@ -1,0 +1,366 @@
+# sent_id = s1
+# text = The Art of Computer Programming
+# orig_file_sentence wiki-nove-073_mz_wiki-nove-073_kandracova#1
+1	The	the	X	%	Foreign=Yes	0	root	_	_
+2	Art	art	X	%	Foreign=Yes	1	flat:foreign	_	_
+3	of	of	X	%	Foreign=Yes	4	case	_	_
+4	Computer	computer	X	%	Foreign=Yes	1	flat:foreign	_	_
+5	Programming	programming	X	%	Foreign=Yes	4	flat:foreign	_	_
+
+# sent_id = s2
+# text = The Art of Computer Programming ( Umenie programovania počítačov , skracované na TAOCP ) je mnohozväzková odborná monografia amerického informatika Donalda Knutha .
+# orig_file_sentence wiki-nove-073_mz_wiki-nove-073_kandracova#2
+1	The	the	X	%	Foreign=Yes	15	nsubj	_	_
+2	Art	art	X	%	Foreign=Yes	1	flat:foreign	_	_
+3	of	of	X	%	Foreign=Yes	4	case	_	_
+4	Computer	computer	X	%	Foreign=Yes	1	flat:foreign	_	_
+5	Programming	programming	X	%	Foreign=Yes	4	flat:foreign	_	_
+6	(	(	PUNCT	Z	_	7	punct	_	_
+7	Umenie	umenie	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	_
+8	programovania	programovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	počítačov	počítač	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	skracované	skracovaný	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
+12	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+13	TAOCP	taocp	X	W	Abbr=Yes	11	advmod	_	_
+14	)	)	PUNCT	Z	_	7	punct	_	_
+15	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	mnohozväzková	mnohozväzkový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+17	odborná	odborný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	monografia	monografia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+19	amerického	americký	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	informatika	informatik	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+21	Donalda	donald	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+22	Knutha	knuth	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+23	.	.	PUNCT	Z	_	15	punct	_	_
+
+# sent_id = s3
+# text = Obsahuje najdôležitejšie znalosti z informatiky , opis základných algoritmov , ich matematickú analýzu atď .
+# orig_file_sentence wiki-nove-073_mz_wiki-nove-073_kandracova#3
+1	Obsahuje	obsahovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	najdôležitejšie	dôležitý	ADJ	AAfp4z	Case=Acc|Degree=Sup|Gender=Fem|Number=Plur	3	amod	_	_
+3	znalosti	znalosť	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
+4	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+5	informatiky	informatika	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	opis	opis	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	conj	_	_
+8	základných	základný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
+9	algoritmov	algoritmus	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	,	,	PUNCT	Z	_	13	punct	_	_
+11	ich	ich	DET	PUfs4	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+12	matematickú	matematický	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	analýzu	analýza	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	_
+14	atď	atď	X	W	Abbr=Yes	13	cc	_	_
+15	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s4
+# text = Toto dielo sa vo všeobecnosti považuje za základnú príručku odboru ; americký vedecký časopis American Scientist ho zaradil do zoznamu 100 najdôležitejších " kníh o vede " ( obsahuje aj čisto populárizačné diela , životopisy , niekoľko románov a pod . ) 20 . storočia ; TAOCP je medzi dvanástimi titulmi kategórii monografií o " fyzikálnych vedách " , čím sa Knuth zaradil po boku osobností ako napr .
+# orig_file_sentence wiki-nove-073_mz_wiki-nove-073_kandracova#4
+1	Toto	toto	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+2	dielo	dielo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+4	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	5	case	_	_
+5	všeobecnosti	všeobecnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+6	považuje	považovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+8	základnú	základný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	príručku	príručka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obl:arg	_	_
+10	odboru	odbor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	;	;	PUNCT	Z	_	18	punct	_	_
+12	americký	americký	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+13	vedecký	vedecký	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	časopis	časopis	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+15	American	american	X	%	Foreign=Yes	14	nmod	_	_
+16	Scientist	scientist	X	%	Foreign=Yes	15	flat:foreign	_	_
+17	ho	ono	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+18	zaradil	zaradiť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+19	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+20	zoznamu	zoznam	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+21	100	100	NUM	0	NumForm=Digit	24	nummod	_	_
+22	najdôležitejších	dôležitý	ADJ	AAfp2z	Case=Gen|Degree=Sup|Gender=Fem|Number=Plur	24	amod	_	_
+23	"	"	PUNCT	Z	_	24	punct	_	_
+24	kníh	kniha	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+25	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	26	case	_	_
+26	vede	veda	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	24	nmod	_	_
+27	"	"	PUNCT	Z	_	24	punct	_	_
+28	(	(	PUNCT	Z	_	29	punct	_	_
+29	obsahuje	obsahovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	parataxis	_	_
+30	aj	aj	PART	T	_	33	advmod:emph	_	_
+31	čisto	čisto	ADV	Dx	Degree=Pos	32	advmod	_	_
+32	populárizačné	popularizačný	ADJ	AAnp4x:q	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|Typo=Yes	33	amod	_	_
+33	diela	dielo	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	29	nsubj	_	_
+34	,	,	PUNCT	Z	_	35	punct	_	_
+35	životopisy	životopis	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	33	conj	_	_
+36	,	,	PUNCT	Z	_	38	punct	_	_
+37	niekoľko	niekoľko	DET	PUns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Card|PronType=Ind	38	det:numgov	_	_
+38	románov	román	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	conj	_	_
+39	a	a	CCONJ	O	_	40	cc	_	_
+40	pod	pod	X	W	Abbr=Yes	33	conj	_	_
+41	.	.	PUNCT	Z	_	40	punct	_	_
+42	)	)	PUNCT	Z	_	29	punct	_	_
+43	20	20	NUM	0	NumForm=Digit	45	nummod	_	_
+44	.	.	PUNCT	Z	_	43	punct	_	_
+45	storočia	storočie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+46	;	;	PUNCT	Z	_	48	punct	_	_
+47	TAOCP	taocp	X	W	Abbr=Yes	48	nsubj	_	_
+48	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	conj	_	_
+49	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	51	case	_	_
+50	dvanástimi	dvanásť	NUM	NUip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	51	nummod	_	_
+51	titulmi	titul	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	48	obl	_	_
+52	kategórii	kategória	NOUN	SSfs2:q	Case=Gen|Gender=Fem|Number=Sing|Typo=Yes	51	nmod	_	_
+53	monografií	monografia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	52	nmod	_	_
+54	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	57	case	_	_
+55	"	"	PUNCT	Z	_	57	punct	_	_
+56	fyzikálnych	fyzikálny	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	57	amod	_	_
+57	vedách	veda	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	53	nmod	_	_
+58	"	"	PUNCT	Z	_	57	punct	_	_
+59	,	,	PUNCT	Z	_	63	punct	_	_
+60	čím	čo	PRON	PFns7	Case=Ins|Gender=Neut|Number=Sing|PronType=Int,Rel	63	obl	_	_
+61	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	63	expl:pass	_	_
+62	Knuth	knuth	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	63	nsubj:pass	_	_
+63	zaradil	zaradiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+64	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	65	case	_	_
+65	boku	bok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	63	obl	_	_
+66	osobností	osobnosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	65	nmod	_	_
+67	ako	ako	SCONJ	O	_	68	cc	_	_
+68	napr	napr	X	W	Abbr=Yes	66	appos	_	_
+69	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s5
+# text = Paul Dirac či Albert Einstein .
+# orig_file_sentence wiki-nove-073_mz_wiki-nove-073_kandracova#5
+1	Paul	paul	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Dirac	dirac	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	či	či	CCONJ	O	_	5	cc	_	_
+4	Albert	albert	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+5	Einstein	einstein	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+6	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s6
+# text = Kniha ešte stále nie je dokončená , v súčasnej dobe existujú prvé tri zväzky , na ďalších autor pracuje .
+# orig_file_sentence wiki-nove-073_mz_wiki-nove-073_kandracova#6
+1	Kniha	kniha	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+2	ešte	ešte	PART	T	_	3	advmod:emph	_	_
+3	stále	stále	ADV	Dx	Degree=Pos	6	advmod	_	_
+4	nie	nie	PART	T	_	6	advmod	_	_
+5	je	byť	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	dokončená	dokončený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+7	,	,	PUNCT	Z	_	11	punct	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+9	súčasnej	súčasný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	dobe	doba	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+11	existujú	existovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	conj	_	_
+12	prvé	prvý	ADJ	NAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumType=Ord	14	amod	_	_
+13	tri	tri	NUM	NNip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nummod	_	_
+14	zväzky	zväzok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+15	,	,	PUNCT	Z	_	19	punct	_	_
+16	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	ďalších	ďalší	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	19	obl	_	_
+18	autor	autor	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+19	pracuje	pracovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	conj	_	_
+20	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s7
+# text = Pôvodný autorov plán bol vydať celé dielo ako jeden zväzok o desiatich kapitolách , čoskoro však zistil , že do jednej knihy sa nevojde také množstvo informícií , ktoré by tam chcel uviesť .
+# orig_file_sentence wiki-nove-073_mz_wiki-nove-073_kandracova#7
+1	Pôvodný	pôvodný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	autorov	autorov	ADJ	AFis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	plán	plán	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	bol	byť	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	vydať	vydať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+6	celé	celý	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	dielo	dielo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+8	ako	ako	SCONJ	O	_	10	mark	_	_
+9	jeden	jeden	NUM	NFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	nummod	_	_
+10	zväzok	zväzok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	xcomp	_	_
+11	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+12	desiatich	desať	NUM	NUfp6	Case=Loc|Gender=Fem|Number=Plur	13	nummod	_	_
+13	kapitolách	kapitola	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	10	nmod	_	_
+14	,	,	PUNCT	Z	_	17	punct	_	_
+15	čoskoro	čoskoro	ADV	Dx	Degree=Pos	17	advmod	_	_
+16	však	však	CCONJ	O	_	17	cc	_	_
+17	zistil	zistiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+18	,	,	PUNCT	Z	_	24	punct	_	_
+19	že	že	SCONJ	O	_	24	mark	_	_
+20	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	22	case	_	_
+21	jednej	jeden	NUM	NFfs2	Case=Gen|Gender=Fem|Number=Sing	22	nummod	_	_
+22	knihy	kniha	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	24	obl	_	_
+23	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	24	expl:pv	_	_
+24	nevojde	vojsť	VERB	VKdsc-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+25	také	taký	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	26	det	_	_
+26	množstvo	množstvo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	_
+27	informícií	informácia	NOUN	SSfp2:q	Case=Gen|Gender=Fem|Number=Plur|Typo=Yes	26	nmod	_	_
+28	,	,	PUNCT	Z	_	32	punct	_	_
+29	ktoré	ktorý	DET	PAns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	33	obj	_	_
+30	by	by	AUX	Y	Mood=Cnd	32	aux	_	_
+31	tam	tam	ADV	PD	PronType=Dem	33	advmod	_	_
+32	chcel	chcieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	25	advcl	_	_
+33	uviesť	uviesť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	32	xcomp	_	_
+34	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s8
+# text = V súčasnej dobe autor pracuje na štvrtom dieli , ktorý bude zrejme rozdelený do troch zväzkov , po nich by mal nasledovaž piaty diel .
+# orig_file_sentence wiki-nove-073_mz_wiki-nove-073_kandracova#8
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	súčasnej	súčasný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	dobe	doba	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+4	autor	autor	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	pracuje	pracovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+7	štvrtom	štvrtý	ADJ	NAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	dieli	diel	NOUN	SSis6:q	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Typo=Yes	5	obl:arg	_	_
+9	,	,	PUNCT	Z	_	13	punct	_	_
+10	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	13	nsubj	_	_
+11	bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	13	cop	_	_
+12	zrejme	zrejme	PART	T	_	13	advmod	_	_
+13	rozdelený	rozdelený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	acl	_	_
+14	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+15	troch	tri	NUM	NNip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nummod	_	_
+16	zväzkov	zväzok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+17	,	,	PUNCT	Z	_	21	punct	_	_
+18	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	nich	on	PRON	PFip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	obl	_	_
+20	by	by	AUX	Y	Mood=Cnd	21	aux	_	_
+21	mal	mať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+22	nasledovaž	nasledovať	VERB	VIe+:q	Aspect=Imp|Polarity=Pos|Typo=Yes|VerbForm=Inf	21	xcomp	_	_
+23	piaty	piaty	ADJ	NAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	24	amod	_	_
+24	diel	diel	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+25	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s9
+# text = Dosiaľ nie je jasné , či by mala monografia pokračovať ešte ďalšími dvomi už špecializovanejšími dielmi týkajúcimi sa formálnych jazykov .
+# orig_file_sentence wiki-nove-073_mz_wiki-nove-073_kandracova#9
+1	Dosiaľ	dosiaľ	ADV	PD	PronType=Dem	4	advmod	_	_
+2	nie	nie	PART	T	_	4	advmod	_	_
+3	je	byť	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	jasné	jasný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+5	,	,	PUNCT	Z	_	8	punct	_	_
+6	či	či	CCONJ	O	_	8	mark	_	_
+7	by	by	AUX	Y	Mood=Cnd	8	aux	_	_
+8	mala	mať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	csubj	_	_
+9	monografia	monografia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+10	pokračovať	pokračovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	8	xcomp	_	_
+11	ešte	ešte	ADV	Dx	Degree=Pos	10	advmod	_	_
+12	ďalšími	ďalší	ADJ	AAip7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
+13	dvomi	dva	NUM	NNip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	16	nummod	_	_
+14	už	už	PART	T	_	15	advmod:emph	_	_
+15	špecializovanejšími	špecializovaný	ADJ	Gtip7y	Animacy=Inan|Case=Ins|Degree=Cmp|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	16	amod	_	_
+16	dielmi	diel	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	obl	_	_
+17	týkajúcimi	týkajúci	ADJ	Gkip7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	16	amod	_	_
+18	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	17	expl:pv	_	_
+19	formálnych	formálny	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	20	amod	_	_
+20	jazykov	jazyk	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	obj	_	_
+21	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s10
+# text = V priebehu práce na TAOCP Donald Knuth zistil , že mu nevyhovuje kvalita dostupných typografických prostroedkov na sazbu matematických výrazov .
+# orig_file_sentence wiki-nove-073_mz_wiki-nove-073_kandracova#10
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	priebehu	priebeh	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+3	práce	práca	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	TAOCP	taocp	X	W	Abbr=Yes	3	nmod	_	_
+6	Donald	donald	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+7	Knuth	knuth	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	zistil	zistiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	,	,	PUNCT	Z	_	12	punct	_	_
+10	že	že	SCONJ	O	_	12	mark	_	_
+11	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	nevyhovuje	vyhovovať	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+13	kvalita	kvalita	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+14	dostupných	dostupný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
+15	typografických	typografický	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
+16	prostroedkov	prostriedok	NOUN	SSip2:q	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Typo=Yes	13	nmod	_	_
+17	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	18	case	_	_
+18	sazbu	sadzba	NOUN	SSfs4:q	Case=Acc|Gender=Fem|Number=Sing|Typo=Yes	16	nmod	_	_
+19	matematických	matematický	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	20	amod	_	_
+20	výrazov	výraz	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+21	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s11
+# text = Preto vytvoril počítačový typografický systém TeX , ve ktorom sa pripravujú dnešné vydania knihy .
+# orig_file_sentence wiki-nove-073_mz_wiki-nove-073_kandracova#11
+1	Preto	preto	ADV	PD	PronType=Dem	2	advmod	_	_
+2	vytvoril	vytvoriť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	počítačový	počítačový	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	typografický	typografický	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	systém	systém	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nsubj	_	_
+6	TeX	tex	X	W	Abbr=Yes	5	nmod	_	_
+7	,	,	PUNCT	Z	_	11	punct	_	_
+8	ve	v	ADP	Eu6:q	AdpType=Prep|Case=Loc|Typo=Yes	9	case	_	_
+9	ktorom	ktorý	DET	PAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Int,Rel	11	obl	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pass	_	_
+11	pripravujú	pripravovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	acl	_	_
+12	dnešné	dnešný	ADJ	AAnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	13	amod	_	_
+13	vydania	vydanie	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	11	nsubj:pass	_	_
+14	knihy	kniha	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s12
+# text = Pri všetkých algoritmoch v knihe je uvedená implementícia v jazyku symbolických inštrukcií fiktívneho počítača nazvaného MIX ( v novšom vydaní potom jeho aktualizovanej RISC verzie nazvanej MMIX ) .
+# orig_file_sentence wiki-nove-073_mz_wiki-nove-073_kandracova#12
+1	Pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	všetkých	všetok	DET	PFip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
+3	algoritmoch	algoritmus	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	knihe	kniha	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
+6	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	uvedená	uvedený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+8	implementícia	implementácia	NOUN	SSfs1:q	Case=Nom|Gender=Fem|Number=Sing|Typo=Yes	7	nsubj:pass	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	jazyku	jazyk	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+11	symbolických	symbolický	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	_
+12	inštrukcií	inštrukcia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+13	fiktívneho	fiktívny	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	počítača	počítač	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	nazvaného	nazvaný	ADJ	Gtis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	14	amod	_	_
+16	MIX	mix	X	W	Abbr=Yes	15	advmod	_	_
+17	(	(	PUNCT	Z	_	14	punct	_	_
+18	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+19	novšom	nový	ADJ	AAns6y	Case=Loc|Degree=Cmp|Gender=Neut|Number=Sing	20	amod	_	_
+20	vydaní	vydanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	14	dep	_	_
+21	potom	potom	ADV	Dx	Degree=Pos	14	dep	_	_
+22	jeho	jeho	DET	PUfs2	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	25	det	_	_
+23	aktualizovanej	aktualizovaný	ADJ	Gtfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	25	amod	_	_
+24	RISC	risc	X	W	Abbr=Yes	25	nmod	_	_
+25	verzie	verzia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	dep	_	_
+26	nazvanej	nazvaný	ADJ	Gtfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	25	amod	_	_
+27	MMIX	mmix	X	W	Abbr=Yes	26	advmod	_	_
+28	)	)	PUNCT	Z	_	14	punct	_	_
+29	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s13
+# text = Z výučbových dôvodov vzniklo mnoho emulátorov tohoto počítača ( napr .
+# orig_file_sentence wiki-nove-073_mz_wiki-nove-073_kandracova#13
+1	Z	z	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	výučbových	výučbový	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	dôvodov	dôvod	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+4	vzniklo	vzniknúť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	mnoho	mnoho	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+6	emulátorov	emulátor	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	tohoto	tento	DET	PFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	počítača	počítač	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	(	(	PUNCT	Z	_	10	punct	_	_
+10	napr	napr	X	W	Abbr=Yes	5	appos	_	_
+11	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s14
+# text = GNU MDK ) , ktoré umožňujú skúšať tieto programy a riešiť cvičenia uvedené v knihe .
+# orig_file_sentence wiki-nove-073_mz_wiki-nove-073_kandracova#14
+1	GNU	gnu	X	W	Abbr=Yes	0	root	_	_
+2	MDK	mdk	X	W	Abbr=Yes	1	nmod	_	_
+3	)	)	PUNCT	Z	_	1	punct	_	_
+4	,	,	PUNCT	Z	_	6	punct	_	_
+5	ktoré	ktorý	DET	PAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	6	nsubj	_	_
+6	umožňujú	umožňovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	dep	_	_
+7	skúšať	skúšať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+8	tieto	tento	DET	PFip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+9	programy	program	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+10	a	a	CCONJ	O	_	11	cc	_	_
+11	riešiť	riešiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	7	conj	_	_
+12	cvičenia	cvičenie	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	_
+13	uvedené	uvedený	ADJ	Gtnp4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	knihe	kniha	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+16	.	.	PUNCT	Z	_	1	punct	_	_
+

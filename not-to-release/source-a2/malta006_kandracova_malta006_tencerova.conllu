@@ -1,0 +1,227 @@
+# sent_id = s1
+# text = Malta a Európska únia
+# orig_file_sentence malta006_kandracova_malta006_tencerova#1
+1	Malta	malta	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	a	a	CCONJ	O	_	4	cc	_	_
+3	Európska	európsky	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	únia	únia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+
+# sent_id = s2
+# text = Cesta Malty do Európskej únie bola dlhá .
+# orig_file_sentence malta006_kandracova_malta006_tencerova#2
+1	Cesta	cesta	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	Malty	malta	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+4	Európskej	európsky	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	únie	únia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+6	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	cop	_	_
+7	dlhá	dlhý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s3
+# text = Dôvodom je , že prívrženci a odporcovia členstva v Európskej únii sa zhodujú s voličmi obidvoch hlavných politických strán .
+# orig_file_sentence malta006_kandracova_malta006_tencerova#3
+1	Dôvodom	dôvod	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	,	,	PUNCT	Z	_	13	punct	_	_
+4	že	že	SCONJ	O	_	13	mark	_	_
+5	prívrženci	prívrženec	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	odporcovia	odporca	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	conj	_	_
+8	členstva	členstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+10	Európskej	európsky	ADJ	AAfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	únii	únia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+13	zhodujú	zhodovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	csubj	_	_
+14	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	15	case	_	_
+15	voličmi	volič	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	13	obl:arg	_	_
+16	obidvoch	obidva	NUM	NNfp2	Case=Gen|Gender=Fem|Number=Plur	19	nummod	_	_
+17	hlavných	hlavný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
+18	politických	politický	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
+19	strán	strana	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+20	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s4
+# text = To znamená , že každá zmena vlády na Malte so sebou priniesla aj zvrat v politike voči Európskej únii a vstupu do nej .
+# orig_file_sentence malta006_kandracova_malta006_tencerova#4
+1	To	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	znamená	znamenať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	Z	_	12	punct	_	_
+4	že	že	SCONJ	O	_	12	mark	_	_
+5	každá	každý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	6	det	_	_
+6	zmena	zmena	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+7	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	Malte	malta	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
+10	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	11	case	_	_
+11	sebou	seba	PRON	PPhs7	Case=Ins|Number=Sing|PronType=Prs|Reflex=Yes	12	obl	_	_
+12	priniesla	priniesť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	ccomp	_	_
+13	aj	aj	CCONJ	O	_	14	advmod:emph	_	_
+14	zvrat	zvrat	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+16	politike	politika	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_
+17	voči	voči	ADP	Eu3	AdpType=Prep|Case=Dat	19	case	_	_
+18	Európskej	európsky	ADJ	AAfs3x:r	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	únii	únia	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	_
+20	a	a	CCONJ	O	_	21	cc	_	_
+21	vstupu	vstup	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	19	conj	_	_
+22	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	23	case	_	_
+23	nej	ona	PRON	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nmod	_	_
+24	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s5
+# text = Maltská konzervatívna PN bola zásadne za , Labour Party ( a niektoré odbory ) zasa zásadne proti členstvu v Európskej únii .
+# orig_file_sentence malta006_kandracova_malta006_tencerova#5
+1	Maltská	maltský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	konzervatívna	konzervatívny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	PN	pn	X	W	Abbr=Yes	4	nsubj	_	_
+4	bola	byť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	zásadne	zásadne	ADV	Dx	Degree=Pos	4	advmod	_	_
+6	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	4	mark	_	_
+7	,	,	PUNCT	Z	_	8	punct	_	_
+8	Labour	labour	X	%	Foreign=Yes	4	conj	_	_
+9	Party	party	X	%	Foreign=Yes	8	flat:foreign	_	_
+10	(	(	PUNCT	Z	_	13	punct	_	_
+11	a	a	CCONJ	O	_	13	cc	_	_
+12	niektoré	niektorý	DET	PAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	odbory	odbor	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	conj	_	_
+14	)	)	PUNCT	Z	_	8	punct	_	_
+15	zasa	zasa	ADV	Dx	Degree=Pos	8	orphan	_	_
+16	zásadne	zásadne	ADV	Dx	Degree=Pos	8	orphan	_	_
+17	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	18	case	_	_
+18	členstvu	členstvo	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	8	orphan	_	_
+19	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	_	_
+20	Európskej	európsky	ADJ	AAfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	únii	únia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	18	nmod	_	_
+22	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s6
+# text = Prvú žiadosť o členstvo podala Malta už v roku 1990 .
+# orig_file_sentence malta006_kandracova_malta006_tencerova#6
+1	Prvú	prvý	ADJ	NAfs4	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	2	amod	_	_
+2	žiadosť	žiadosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+3	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	členstvo	členstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	_
+5	podala	podať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	Malta	malta	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+7	už	už	PART	T	_	9	advmod:emph	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+10	1990	1990	NUM	0	NumForm=Digit	9	nummod	_	_
+11	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s7
+# text = Po víťazstve Labour Party vo voľbách roku 1996 Malta žiadosť o členstvo stiahla .
+# orig_file_sentence malta006_kandracova_malta006_tencerova#7
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	víťazstve	víťazstvo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
+3	Labour	labour	X	%	Foreign=Yes	2	nmod	_	_
+4	Party	party	X	%	Foreign=Yes	3	flat:foreign	_	_
+5	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	6	case	_	_
+6	voľbách	voľba	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	2	nmod	_	_
+7	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	1996	1996	NUM	0	NumForm=Digit	7	nummod	_	_
+9	Malta	malta	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+10	žiadosť	žiadosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+11	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	členstvo	členstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	_
+13	stiahla	stiahnuť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+14	.	.	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s8
+# text = Po predčasných voľbách roku 1998 , keď opäť zvíťazila PN , bola žiadosť obnovená .
+# orig_file_sentence malta006_kandracova_malta006_tencerova#8
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	predčasných	predčasný	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
+3	voľbách	voľba	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	14	obl	_	_
+4	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	1998	1998	NUM	0	NumForm=Digit	4	nummod	_	_
+6	,	,	PUNCT	Z	_	9	punct	_	_
+7	keď	keď	SCONJ	O	_	9	mark	_	_
+8	opäť	opäť	ADV	Dx	Degree=Pos	9	advmod	_	_
+9	zvíťazila	zvíťaziť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	acl	_	_
+10	PN	pn	X	W	Abbr=Yes	9	nsubj	_	_
+11	,	,	PUNCT	Z	_	9	punct	_	_
+12	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	aux:pass	_	_
+13	žiadosť	žiadosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+14	obnovená	obnovený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+15	.	.	PUNCT	Z	_	14	punct	_	_
+
+# sent_id = s9
+# text = O vstupe Malty do Európskej únie bolo rozhodnuté na konferencii v Kodani 13 . decembra 2002 .
+# orig_file_sentence malta006_kandracova_malta006_tencerova#9
+1	O	o	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	vstupe	vstup	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl:arg	_	_
+3	Malty	malta	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+5	Európskej	európsky	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	únie	únia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+7	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	rozhodnuté	rozhodnutý	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+9	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	konferencii	konferencia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	Kodani	kodaň	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
+13	13	13	NUM	0	NumForm=Digit	15	nummod	_	_
+14	.	.	PUNCT	Z	_	13	punct	_	_
+15	decembra	december	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+16	2002	2002	NUM	0	NumForm=Digit	15	nummod	_	_
+17	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s10
+# text = V referende o členstve v Európskej únii 8 . marca 2003 sa 53 , 65 % voličov vyslovilo za členstvo .
+# orig_file_sentence malta006_kandracova_malta006_tencerova#10
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	referende	referendum	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	18	obl	_	_
+3	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	členstve	členstvo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	2	nmod	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	Európskej	európsky	ADJ	AAfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	únii	únia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
+8	8	8	NUM	0	NumForm=Digit	10	nummod	_	_
+9	.	.	PUNCT	Z	_	8	punct	_	_
+10	marca	marec	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+11	2003	2003	NUM	0	NumForm=Digit	10	nummod	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	18	expl:pass	_	_
+13	53	53	NUM	0	NumForm=Digit	14	nummod	_	_
+14	,	,	PUNCT	Z	_	18	punct	_	_
+15	65	65	NUM	0	NumForm=Digit	18	nsubj:pass	_	_
+16	%	%	SYM	Z	_	15	nmod	_	_
+17	voličov	volič	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	vyslovilo	vysloviť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+19	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	20	case	_	_
+20	členstvo	členstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	18	obl:arg	_	_
+21	.	.	PUNCT	Z	_	18	punct	_	_
+
+# sent_id = s11
+# text = V rámci rozšírenia Európskej únie o desať štátov sa tak 1 . mája 2004 stala Malta členom Európskej únie a vystriedala Luxembursko ako najmenší členský štát .
+# orig_file_sentence malta006_kandracova_malta006_tencerova#11
+1	V	v	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	rámci	rámci	ADP	Eu2	AdpType=Prep|Case=Gen	1	fixed	_	_
+3	rozšírenia	rozšírenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+4	Európskej	európsky	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	únie	únia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+7	desať	desať	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	3	nummod	_	_
+8	štátov	štát	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+10	tak	tak	ADV	PD	PronType=Dem	15	advmod	_	_
+11	1	1	NUM	0	NumForm=Digit	13	nummod	_	_
+12	.	.	PUNCT	Z	_	11	punct	_	_
+13	mája	máj	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
+14	2004	2004	NUM	0	NumForm=Digit	13	nummod	_	_
+15	stala	stať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+16	Malta	malta	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+17	členom	člen	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	obj	_	_
+18	Európskej	európsky	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	únie	únia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+20	a	a	CCONJ	O	_	21	cc	_	_
+21	vystriedala	vystriedať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	15	conj	_	_
+22	Luxembursko	luxembursko	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
+23	ako	ako	SCONJ	O	_	26	mark	_	_
+24	najmenší	malý	ADJ	AAis4z	Animacy=Inan|Case=Acc|Degree=Sup|Gender=Masc|Number=Sing	26	amod	_	_
+25	členský	členský	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	štát	štát	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	xcomp	_	_
+27	.	.	PUNCT	Z	_	15	punct	_	_
+

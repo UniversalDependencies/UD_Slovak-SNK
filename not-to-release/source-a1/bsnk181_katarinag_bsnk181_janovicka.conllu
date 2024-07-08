@@ -1,0 +1,155 @@
+# sent_id = s1
+# text = Ba vyše , aspoň podľa výzoru .
+# orig_file_sentence bsnk181_katarinag_bsnk181_janovicka#1
+1	Ba	ba	PART	T	_	0	root	_	_
+2	vyše	vyše	PART	T	_	1	dep	_	_
+3	,	,	PUNCT	Z	_	6	punct	_	_
+4	aspoň	aspoň	PART	T	_	6	cc	_	_
+5	podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	výzoru	výzor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
+7	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s2
+# text = "
+# orig_file_sentence bsnk181_katarinag_bsnk181_janovicka#2
+1	"	"	PUNCT	Z	_	0	root	_	_
+
+# sent_id = s3
+# text = " Je to krása , " poznamenal Winston .
+# orig_file_sentence bsnk181_katarinag_bsnk181_janovicka#3
+1	"	"	PUNCT	Z	_	3	punct	_	_
+2	Je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	ccomp	_	_
+4	krása	krása	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+5	,	,	PUNCT	Z	_	3	punct	_	_
+6	"	"	PUNCT	Z	_	3	punct	_	_
+7	poznamenal	poznamenať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	Winston	winston	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s4
+# text = " To teda je , " ocenil starec Winstonov vkus .
+# orig_file_sentence bsnk181_katarinag_bsnk181_janovicka#4
+1	"	"	PUNCT	Z	_	4	punct	_	_
+2	To	to	PART	T	_	4	nsubj	_	_
+3	teda	teda	PART	T	_	4	advmod	_	_
+4	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	,	,	PUNCT	Z	_	4	punct	_	_
+6	"	"	PUNCT	Z	_	4	punct	_	_
+7	ocenil	oceniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	dep	_	_
+8	starec	starec	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	Winstonov	Winstonov	ADJ	AFis4x:r	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	vkus	vkus	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+11	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s5
+# text = " Lenže dnes niet veľa ľudí , ktorí by to povedali .
+# orig_file_sentence bsnk181_katarinag_bsnk181_janovicka#5
+1	"	"	PUNCT	Z	_	4	punct	_	_
+2	Lenže	lenže	CCONJ	O	_	4	cc	_	_
+3	dnes	dnes	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	niet	byť	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	veľa	veľa	NUM	NUmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nummod	_	_
+6	ľudí	človek	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	obj	_	_
+7	,	,	PUNCT	Z	_	11	punct	_	_
+8	ktorí	ktorý	DET	PAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	11	nsubj	_	_
+9	by	by	AUX	Y	Mood=Cnd	11	aux	_	_
+10	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	obj	_	_
+11	povedali	povedať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
+12	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s6
+# text = " A odkašľal si .
+# orig_file_sentence bsnk181_katarinag_bsnk181_janovicka#6
+1	"	"	PUNCT	Z	_	3	punct	_	_
+2	A	a	PART	T	_	3	advmod	_	_
+3	odkašľal	odkašlať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	si	si	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pass	_	_
+5	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s7
+# text = " Ak by ste si ho náhodou chceli kúpiť , dal by som vám ho za štyri doláre .
+# orig_file_sentence bsnk181_katarinag_bsnk181_janovicka#7
+1	"	"	PUNCT	Z	_	11	punct	_	_
+2	Ak	ak	SCONJ	O	_	8	mark	_	_
+3	by	by	AUX	Y	Mood=Cnd	8	aux	_	_
+4	ste	byť	AUX	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	si	si	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pass	_	_
+6	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
+7	náhodou	náhodou	PART	T	_	8	advmod	_	_
+8	chceli	chcieť	VERB	VLepbh+	Aspect=Imp|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	11	advcl	_	_
+9	kúpiť	kúpiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	8	xcomp	_	_
+10	,	,	PUNCT	Z	_	8	punct	_	_
+11	dal	dať	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	by	by	AUX	Y	Mood=Cnd	11	aux	_	_
+13	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_
+14	vám	vy	PRON	PPhp3	Case=Dat|Number=Plur|Person=2|PronType=Prs	11	iobj	_	_
+15	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+16	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	18	case	_	_
+17	štyri	štyri	NUM	NNip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	nummod	_	_
+18	doláre	dolár	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obl:arg	_	_
+19	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s8
+# text = Pamätám sa na časy , keď také niečo stálo osem libier a osem libier -- nuž , nedokážem to prerátať -- ale to už bola pekná kôpka peňazí .
+# orig_file_sentence bsnk181_katarinag_bsnk181_janovicka#8
+1	Pamätám	pamätať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pass	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	časy	čas	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obl:arg	_	_
+5	,	,	PUNCT	Z	_	9	punct	_	_
+6	keď	keď	SCONJ	O	_	9	advmod	_	_
+7	také	taký	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	det	_	_
+8	niečo	niečo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	9	nsubj	_	_
+9	stálo	stáť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
+10	osem	osem	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
+11	libier	libra	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	a	a	CCONJ	O	_	25	cc	_	_
+13	osem	osem	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	_
+14	libier	libra	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+15	--	--	PUNCT	Z	_	18	punct	_	_
+16	nuž	nuž	PART	T	_	18	advmod	_	_
+17	,	,	PUNCT	Z	_	18	punct	_	_
+18	nedokážem	dokázať	VERB	VKdsa-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	25	parataxis	_	_
+19	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	20	obj	_	_
+20	prerátať	prerátať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	18	xcomp	_	_
+21	--	--	PUNCT	Z	_	18	punct	_	_
+22	ale	ale	CCONJ	O	_	25	cc	_	_
+23	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	25	advmod	_	_
+24	už	už	PART	T	_	25	advmod	_	_
+25	bola	byť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+26	pekná	pekný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	kôpka	kôpka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+28	peňazí	peniaz	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
+29	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s9
+# text = Lenže kto sa dnes zaujíma o pravé starožitnosti -- dokonca aj z toho mála vecí , ktoré sa ešte zachovali .
+# orig_file_sentence bsnk181_katarinag_bsnk181_janovicka#9
+1	Lenže	lenže	CCONJ	O	_	5	cc	_	_
+2	kto	kto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	5	nsubj:pass	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pass	_	_
+4	dnes	dnes	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	zaujíma	zaujímať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+7	pravé	pravý	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	starožitnosti	starožitnosť	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	5	obl:arg	_	_
+9	--	--	PUNCT	Z	_	5	punct	_	_
+10	dokonca	dokonca	PART	T	_	9	advmod:emph	_	_
+11	aj	aj	PART	T	_	14	advmod:emph	_	_
+12	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+13	toho	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	14	det	_	_
+14	mála	málo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	10	dep	_	_
+15	vecí	vec	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+16	,	,	PUNCT	Z	_	20	punct	_	_
+17	ktoré	ktorý	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	20	nsubj:pass	_	_
+18	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	20	expl:pass	_	_
+19	ešte	ešte	ADV	Dx	Degree=Pos	20	advmod	_	_
+20	zachovali	zachovať	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	15	acl	_	_
+21	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s10
+# text = "
+# orig_file_sentence bsnk181_katarinag_bsnk181_janovicka#10
+1	"	"	PUNCT	Z	_	0	root	_	_
+

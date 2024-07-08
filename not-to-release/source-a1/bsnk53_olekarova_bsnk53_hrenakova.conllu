@@ -1,0 +1,198 @@
+# sent_id = s1
+# text = Tridsať až štyridsať ! "
+# orig_file_sentence bsnk53_olekarova_bsnk53_hrenakova#1
+1	Tridsať	tridsať	NUM	NX	_	0	root	_	_
+2	až	až	PART	T	_	3	cc	_	_
+3	štyridsať	štyridsať	NUM	NX	_	1	conj	_	_
+4	!	!	PUNCT	Z	_	1	punct	_	_
+5	"	"	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s2
+# text = Winston vyskočil do pozoru pred obrazovkou , na ktorej sa objavil obraz mladej ženy , bola kosť a koža , zato svalnatá , v športovom úbore a v cvičkách .
+# orig_file_sentence bsnk53_olekarova_bsnk53_hrenakova#2
+1	Winston	winston	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	vyskočil	vyskočiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	pozoru	pozor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+5	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	6	case	_	_
+6	obrazovkou	obrazovka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+7	,	,	PUNCT	Z	_	11	punct	_	_
+8	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	ktorej	ktorý	DET	PAfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Int,Rel	11	obl:arg	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pass	_	_
+11	objavil	objaviť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
+12	obraz	obraz	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+13	mladej	mladý	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	ženy	žena	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	,	,	PUNCT	Z	_	17	punct	_	_
+16	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	17	cop	_	_
+17	kosť	kosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
+18	a	a	CCONJ	O	_	19	cc	_	_
+19	koža	koža	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	17	conj	_	_
+20	,	,	PUNCT	Z	_	22	punct	_	_
+21	zato	zato	CCONJ	O	_	22	cc	_	_
+22	svalnatá	svalnatý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	conj	_	_
+23	,	,	PUNCT	Z	_	2	punct	_	_
+24	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	26	case	_	_
+25	športovom	športový	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	úbore	úbor	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	dep	_	_
+27	a	a	CCONJ	O	_	29	cc	_	_
+28	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	29	case	_	_
+29	cvičkách	cvička	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	26	conj	_	_
+30	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s3
+# text = " Ruky pokrčiť a vystrieť ! " vyštekla . " Cvičte v rytme podľa mňa !
+# orig_file_sentence bsnk53_olekarova_bsnk53_hrenakova#3
+1	"	"	PUNCT	Z	_	3	punct	_	_
+2	Ruky	ruka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+3	pokrčiť	pokrčiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	8	xcomp	_	_
+4	a	a	CCONJ	O	_	5	cc	_	_
+5	vystrieť	vystrieť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	conj	_	_
+6	!	!	PUNCT	Z	_	3	punct	_	_
+7	"	"	PUNCT	Z	_	3	punct	_	_
+8	vyštekla	vyšteknúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	.	.	PUNCT	Z	_	8	punct	_	_
+10	"	"	PUNCT	Z	_	11	punct	_	_
+11	Cvičte	cvičiť	VERB	VMepb+	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	8	parataxis	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	rytme	rytmus	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+14	podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+15	mňa	ja	PRON	PPhs2	Case=Gen|Number=Sing|Person=1|PronType=Prs	11	obl	_	_
+16	!	!	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s4
+# text = Raz , dva , tri , štyri !
+# orig_file_sentence bsnk53_olekarova_bsnk53_hrenakova#4
+1	Raz	raz	ADV	NSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|NumType=Mult	0	root	_	_
+2	,	,	PUNCT	Z	_	3	punct	_	_
+3	dva	dva	NUM	NNip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
+4	,	,	PUNCT	Z	_	3	punct	_	_
+5	tri	tri	NUM	NNip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	orphan	_	_
+6	,	,	PUNCT	Z	_	3	punct	_	_
+7	štyri	štyri	NUM	NNip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	orphan	_	_
+8	!	!	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s5
+# text = Raz , dva , tri , štyri !
+# orig_file_sentence bsnk53_olekarova_bsnk53_hrenakova#5
+1	Raz	raz	ADV	NSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|NumType=Mult	0	root	_	_
+2	,	,	PUNCT	Z	_	3	punct	_	_
+3	dva	dva	NUM	NNip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
+4	,	,	PUNCT	Z	_	3	punct	_	_
+5	tri	tri	NUM	NNip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	orphan	_	_
+6	,	,	PUNCT	Z	_	3	punct	_	_
+7	štyri	štyri	NUM	NNip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	orphan	_	_
+8	!	!	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s6
+# text = No tak , súdruhovia , pridajte do toho trochu života !
+# orig_file_sentence bsnk53_olekarova_bsnk53_hrenakova#6
+1	No	no	PART	T	_	2	advmod:emph	_	_
+2	tak	tak	PART	T	_	6	advmod	_	_
+3	,	,	PUNCT	Z	_	6	punct	_	_
+4	súdruhovia	súdruh	NOUN	SSmp5	Animacy=Anim|Case=Voc|Gender=Masc|Number=Plur	6	vocative	_	_
+5	,	,	PUNCT	Z	_	6	punct	_	_
+6	pridajte	pridať	VERB	VMdpb+	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+7	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	toho	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	6	obl	_	_
+9	trochu	trocha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+10	života	život	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obj	_	_
+11	!	!	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s7
+# text = Raz , dva , tri , štyri !
+# orig_file_sentence bsnk53_olekarova_bsnk53_hrenakova#7
+1	Raz	raz	ADV	NSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|NumType=Mult	0	root	_	_
+2	,	,	PUNCT	Z	_	3	punct	_	_
+3	dva	dva	NUM	NNip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
+4	,	,	PUNCT	Z	_	3	punct	_	_
+5	tri	tri	NUM	NNip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	orphan	_	_
+6	,	,	PUNCT	Z	_	3	punct	_	_
+7	štyri	štyri	NUM	NNip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	orphan	_	_
+8	!	!	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s8
+# text = Raz , dva , tri , štyri ! . . . "
+# orig_file_sentence bsnk53_olekarova_bsnk53_hrenakova#8
+1	Raz	raz	ADV	NSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|NumType=Mult	0	root	_	_
+2	,	,	PUNCT	Z	_	3	punct	_	_
+3	dva	dva	NUM	NNip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
+4	,	,	PUNCT	Z	_	3	punct	_	_
+5	tri	tri	NUM	NNip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	orphan	_	_
+6	,	,	PUNCT	Z	_	3	punct	_	_
+7	štyri	štyri	NUM	NNip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	orphan	_	_
+8	!	!	PUNCT	Z	_	1	punct	_	_
+9	.	.	PUNCT	Z	_	1	punct	_	_
+10	.	.	PUNCT	Z	_	1	punct	_	_
+11	.	.	PUNCT	Z	_	1	punct	_	_
+12	"	"	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s9
+# text = Bolesť vyvolaná záchvatom kašľa nestačila ešte vytlačiť z Winstonovej mysle zážitok zo sna a rytmické pohyby pri cvičení ho akosi oživovali .
+# orig_file_sentence bsnk53_olekarova_bsnk53_hrenakova#9
+1	Bolesť	bolesť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	vyvolaná	vyvolaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	1	amod	_	_
+3	záchvatom	záchvat	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+4	kašľa	kašeľ	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	nestačila	stačiť	VERB	VLjscf-	Aspect=Imp,Perf|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+6	ešte	ešte	ADV	Dx	Degree=Pos	5	advmod	_	_
+7	vytlačiť	vytlačiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+8	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+9	Winstonovej	winstonov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	mysle	myseľ	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+11	zážitok	zážitok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+12	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	13	case	_	_
+13	sna	sen	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	a	a	CCONJ	O	_	21	cc	_	_
+15	rytmické	rytmický	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
+16	pohyby	pohyb	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+17	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+18	cvičení	cvičenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	_
+19	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+20	akosi	akosi	ADV	PD	PronType=Ind	21	advmod	_	_
+21	oživovali	oživovať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+22	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s10
+# text = Keď tak mechanicky švihal rukami raz dozadu , raz dopredu , s výrazom vážneho potešenia na tvári , ktorý sa považoval pri rozcvičke za najvhodnejší , uvzato sa snažil pripamätať si to matné obdobie svojej rannej mladosti .
+# orig_file_sentence bsnk53_olekarova_bsnk53_hrenakova#10
+1	Keď	keď	SCONJ	O	_	4	mark	_	_
+2	tak	tak	PART	T	_	3	advmod	_	_
+3	mechanicky	mechanicky	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	švihal	švihať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	29	advcl	_	_
+5	rukami	ruka	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	4	obl	_	_
+6	raz	raz	ADV	NSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Mult	4	obl	_	_
+7	dozadu	dozadu	ADV	Dx	Degree=Pos	6	conj	_	_
+8	,	,	PUNCT	Z	_	9	punct	_	_
+9	raz	raz	ADV	NSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Mult	6	conj	_	_
+10	dopredu	dopredu	ADV	Dx	Degree=Pos	6	conj	_	_
+11	,	,	PUNCT	Z	_	4	punct	_	_
+12	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	13	case	_	_
+13	výrazom	výraz	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+14	vážneho	vážny	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	potešenia	potešenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+16	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	tvári	tvár	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_
+18	,	,	PUNCT	Z	_	21	punct	_	_
+19	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	21	nsubj:pass	_	_
+20	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	21	expl:pass	_	_
+21	považoval	považovať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	acl	_	_
+22	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	23	case	_	_
+23	rozcvičke	rozcvička	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_
+24	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	25	case	_	_
+25	najvhodnejší	vhodný	ADJ	AAis4z	Animacy=Inan|Case=Acc|Degree=Sup|Gender=Masc|Number=Sing	21	obl:arg	_	_
+26	,	,	PUNCT	Z	_	4	punct	_	_
+27	uvzato	uvzato	ADV	Dx	Degree=Pos	29	advmod	_	_
+28	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	29	expl:pass	_	_
+29	snažil	snažiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+30	pripamätať	pripamätať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	29	xcomp	_	_
+31	si	si	PRON	R	PronType=Prs|Reflex=Yes	30	expl:pass	_	_
+32	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	34	det	_	_
+33	matné	matný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	_
+34	obdobie	obdobie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	30	obj	_	_
+35	svojej	svoj	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	37	det	_	_
+36	rannej	ranný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+37	mladosti	mladosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	_
+38	.	.	PUNCT	Z	_	29	punct	_	_
+

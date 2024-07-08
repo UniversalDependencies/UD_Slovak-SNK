@@ -1,0 +1,155 @@
+# sent_id = s1
+# text = " Áno , " povedal O ' Brien , " môžeme to vypnúť .
+# orig_file_sentence bsnk340_hrenakova_bsnk340_olejkarova#1
+1	"	"	PUNCT	Z	_	11	punct	_	_
+2	Áno	áno	PART	T	_	11	advmod	_	_
+3	,	,	PUNCT	Z	_	11	punct	_	_
+4	"	"	PUNCT	Z	_	11	punct	_	_
+5	povedal	povedať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	O	o	X	Q	Hyph=Yes	8	nmod	_	_
+7	'	'	PUNCT	Z	_	6	punct	_	_
+8	Brien	brien	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+9	,	,	PUNCT	Z	_	11	punct	_	_
+10	"	"	PUNCT	Z	_	11	punct	_	_
+11	môžeme	môcť	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+12	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	13	obj	_	_
+13	vypnúť	vypnúť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	11	xcomp	_	_
+14	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s2
+# text = Takú výsadu máme . "
+# orig_file_sentence bsnk340_hrenakova_bsnk340_olejkarova#2
+1	Takú	taký	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	výsadu	výsada	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+3	máme	mať	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+5	"	"	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s3
+# text = Stál k nim tvárou v tvár .
+# orig_file_sentence bsnk340_hrenakova_bsnk340_olejkarova#3
+1	Stál	stáť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	3	case	_	_
+3	nim	on	PRON	PFmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	_
+4	tvárou	tvár	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	1	obl	_	_
+5	v	v	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	tvár	tvár	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
+7	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s4
+# text = Jeho mohutná postava sa týčila nad oboma a na tvári mal stále nečitateľný výraz .
+# orig_file_sentence bsnk340_hrenakova_bsnk340_olejkarova#4
+1	Jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+2	mohutná	mohutný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	postava	postava	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pass	_	_
+5	týčila	týčiť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	nad	nad	ADP	Eu7	AdpType=Prep|Case=Ins	7	case	_	_
+7	oboma	oba	NUM	NNmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	_
+8	a	a	CCONJ	O	_	11	cc	_	_
+9	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	tvári	tvár	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+11	mal	mať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+12	stále	stále	ADV	Dx	Degree=Pos	13	advmod	_	_
+13	nečitateľný	nečitateľný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	výraz	výraz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+15	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s5
+# text = Vyčkával , tak akosi kruto , kedy Winston prehovorí , lenže o čom ?
+# orig_file_sentence bsnk340_hrenakova_bsnk340_olejkarova#5
+1	Vyčkával	vyčkávať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	,	,	PUNCT	Z	_	1	punct	_	_
+3	tak	tak	ADV	PD	PronType=Dem	4	cc	_	_
+4	akosi	akosi	ADV	PD	PronType=Ind	5	advmod	_	_
+5	kruto	kruto	ADV	Dx	Degree=Pos	1	advmod	_	_
+6	,	,	PUNCT	Z	_	9	punct	_	_
+7	kedy	kedy	ADV	PD	PronType=Int,Rel	9	mark	_	_
+8	Winston	winston	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	prehovorí	prehovoriť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+10	,	,	PUNCT	Z	_	13	punct	_	_
+11	lenže	lenže	CCONJ	O	_	13	cc	_	_
+12	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	čom	čo	PRON	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Int,Rel	9	conj	_	_
+14	?	?	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s6
+# text = Ešte aj teraz sa to dalo vysvetliť , že má jednoducho plné ruky práce , a teda sa podráždene pýta , ako to , že si ho dovolili vyrušiť .
+# orig_file_sentence bsnk340_hrenakova_bsnk340_olejkarova#6
+1	Ešte	ešte	PART	T	_	2	compound:prt	_	_
+2	aj	aj	PART	T	_	3	cc	_	_
+3	teraz	teraz	ADV	Dx	Degree=Pos	6	advmod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pass	_	_
+5	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj:pass	_	_
+6	dalo	dať	VERB	VLjscn+	Aspect=Imp,Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	vysvetliť	vysvetliť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+8	,	,	PUNCT	Z	_	10	punct	_	_
+9	že	že	SCONJ	O	_	10	mark	_	_
+10	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+11	jednoducho	jednoducho	PART	T	_	10	advmod	_	_
+12	plné	plný	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_
+13	ruky	ruka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+14	práce	práca	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	,	,	PUNCT	Z	_	10	punct	_	_
+16	a	a	CCONJ	O	_	20	cc	_	_
+17	teda	teda	CCONJ	O	_	20	cc	_	_
+18	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	20	expl:pass	_	_
+19	podráždene	podráždene	ADV	Dx	Degree=Pos	20	advmod	_	_
+20	pýta	pýtať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	conj	_	_
+21	,	,	PUNCT	Z	_	23	punct	_	_
+22	ako	ako	ADV	PD	PronType=Int,Rel	23	mark	_	_
+23	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	20	dep	_	_
+24	,	,	PUNCT	Z	_	28	punct	_	_
+25	že	že	SCONJ	O	_	28	mark	_	_
+26	si	si	PRON	R	PronType=Prs|Reflex=Yes	28	expl:pass	_	_
+27	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+28	dovolili	dovoliť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	23	csubj	_	_
+29	vyrušiť	vyrušiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	28	xcomp	_	_
+30	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s7
+# text = Nik neprehovoril .
+# orig_file_sentence bsnk340_hrenakova_bsnk340_olejkarova#7
+1	Nik	nikto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	2	nsubj	_	_
+2	neprehovoril	prehovoriť	VERB	VLdscm-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s8
+# text = Po vypnutí obrazovky nastalo v miestnosti hrobové ticho .
+# orig_file_sentence bsnk340_hrenakova_bsnk340_olejkarova#8
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	vypnutí	vypnutie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	obrazovky	obrazovka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	nastalo	nastať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	miestnosti	miestnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+7	hrobové	hrobový	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	ticho	ticho	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+9	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s9
+# text = Ubiehali sekundy , nekonečne dlhé .
+# orig_file_sentence bsnk340_hrenakova_bsnk340_olejkarova#9
+1	Ubiehali	ubiehať	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sekundy	sekunda	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	_
+3	,	,	PUNCT	Z	_	2	punct	_	_
+4	nekonečne	nekonečne	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	dlhé	dlhý	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
+6	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s10
+# text = Len s námahou dokázal Winston hľadieť O ' Brienovi do očí .
+# orig_file_sentence bsnk340_hrenakova_bsnk340_olejkarova#10
+1	Len	len	PART	T	_	3	advmod:emph	_	_
+2	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	3	case	_	_
+3	námahou	námaha	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+4	dokázal	dokázať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	Winston	winston	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	hľadieť	hľadieť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+7	O	o	X	Q	Hyph=Yes	9	nmod	_	_
+8	'	'	PUNCT	Z	_	7	punct	_	_
+9	Brienovi	brien	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	6	obj	_	_
+10	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+11	očí	oko	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	6	obl	_	_
+12	.	.	PUNCT	Z	_	4	punct	_	_
+

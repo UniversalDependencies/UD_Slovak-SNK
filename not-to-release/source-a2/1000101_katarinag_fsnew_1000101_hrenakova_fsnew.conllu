@@ -1,0 +1,680 @@
+# sent_id = s1
+# text = V ponuke DDP LIPA aj doplnkový invalidný dôchodok
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#1
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	ponuke	ponuka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	0	root	_	_
+3	DDP	ddp	X	W	Abbr=Yes	4	nmod	_	_
+4	LIPA	lipa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	obl:arg	_	_
+5	aj	aj	PART	T	_	8	cc	_	_
+6	doplnkový	doplnkový	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	invalidný	invalidný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	dôchodok	dôchodok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+
+# sent_id = s2
+# text = Doplnkové dôchodkové pois - tenie je jediným osobným poistením , ktoré je zo strany štátu daňovo zvýhodnené .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#2
+1	Doplnkové	doplnkový	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	dôchodkové	dôchodkový	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	pois	pois	X	Q	Hyph=Yes	6	nsubj	_	_
+4	-	-	PUNCT	ZIP	_	3	punct	_	_
+5	tenie	tenie	X	Q	Hyph=Yes	4	nsubj	_	_
+6	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	jediným	jediný	ADJ	NAns7	Case=Ins|Gender=Neut|Number=Sing|NumType=Mult	8	amod	_	_
+8	osobným	osobný	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	poistením	poistenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	6	obj	_	_
+10	,	,	PUNCT	ZIP	_	17	punct	_	_
+11	ktoré	ktorý	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	17	mark	_	_
+12	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	cop	_	_
+13	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	14	case	_	_
+14	strany	strana	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+15	štátu	štát	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	daňovo	daňovo	ADV	Dx	Degree=Pos	17	advmod	_	_
+17	zvýhodnené	zvýhodnený	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	9	acl	_	_
+18	.	.	PUNCT	ZIP	_	6	punct	_	_
+
+# sent_id = s3
+# text = Od januára 2001 sa môžu do tohto druhu poistenia zapojiť aj zamestnanci , ktorých zamestnávateľ nebol ochotný prispievať na toto pois - tenie .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#3
+1	Od	od	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	januára	január	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+3	2001	2001	NUM	0	NumForm=Digit	2	nummod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	môžu	môcť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+7	tohto	tento	DET	PFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	8	advmod:emph	_	_
+8	druhu	druh	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+9	poistenia	poistenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	zapojiť	zapojiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+11	aj	aj	PART	T	_	12	cc	_	_
+12	zamestnanci	zamestnanec	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+13	,	,	PUNCT	ZIP	_	17	punct	_	_
+14	ktorých	ktorý	DET	PAmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|PronType=Int,Rel	17	mark	_	_
+15	zamestnávateľ	zamestnávateľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+16	nebol	byť	AUX	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	17	cop	_	_
+17	ochotný	ochotný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	acl	_	_
+18	prispievať	prispievať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	17	xcomp	_	_
+19	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	21	case	_	_
+20	toto	toto	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	21	advmod:emph	_	_
+21	pois	pois	X	Q	Hyph=Yes	18	obl:arg	_	_
+22	-	-	PUNCT	ZIP	_	21	punct	_	_
+23	tenie	tenie	X	Q	Hyph=Yes	22	obj	_	_
+24	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s4
+# text = Môžu sa zapojiť aj zamestnanci príspevkových a rozpočtových organizácií , SZČO a ich spolupracujúce osoby .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#4
+1	Môžu	môcť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	zapojiť	zapojiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	xcomp	_	_
+4	aj	aj	PART	T	_	5	cc	_	_
+5	zamestnanci	zamestnanec	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+6	príspevkových	príspevkový	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	rozpočtových	rozpočtový	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	6	conj	_	_
+9	organizácií	organizácia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+10	,	,	PUNCT	ZIP	_	11	punct	_	_
+11	SZČO	szčo	X	W	Abbr=Yes	5	conj	_	_
+12	a	a	CCONJ	O	_	15	cc	_	_
+13	ich	ich	DET	PUfp1	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+14	spolupracujúce	spolupracujúci	ADJ	Gkfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	15	amod	_	_
+15	osoby	osoba	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	5	conj	_	_
+16	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s5
+# text = Za štyri roky systém doplnkového dôchodkového poistenia využíva už viac ako 200 000 občanov .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#5
+1	Za	za	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+2	štyri	štyri	NUM	NNip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	nummod	_	_
+3	roky	rok	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_
+4	systém	systém	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nsubj	_	_
+5	doplnkového	doplnkový	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	dôchodkového	dôchodkový	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	poistenia	poistenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+8	využíva	využívať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	už	už	PART	T	_	10	cc	_	_
+10	viac	viac	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	8	advmod	_	_
+11	ako	ako	SCONJ	O	_	14	mark	_	_
+12	200	200	NUM	0	NumForm=Digit	13	nummod	_	_
+13	000	000	NUM	0	NumForm=Digit	14	nummod	_	_
+14	občanov	občan	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	obj	_	_
+15	.	.	PUNCT	ZIP	_	8	punct	_	_
+
+# sent_id = s6
+# text = Ide prevažne o zamestnancov , ktorí majú viac ako polovicu pracovného veku za sebou a uvedomujú si , že zo zákonného dôchodku nevyžijú .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#6
+1	Ide	ísť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	prevažne	prevažne	ADV	Dx	Degree=Pos	1	advmod	_	_
+3	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	zamestnancov	zamestnanec	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	1	obl:arg	_	_
+5	,	,	PUNCT	ZIP	_	7	punct	_	_
+6	ktorí	ktorý	DET	PAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	7	mark	_	_
+7	majú	mať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	acl	_	_
+8	viac	viac	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	7	advmod	_	_
+9	ako	ako	SCONJ	O	_	10	mark	_	_
+10	polovicu	polovica	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	pracovného	pracovný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	veku	vek	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	za	za	ADP	Eu7	AdpType=Prep|Case=Ins	14	case	_	_
+14	sebou	seba	PRON	PPhs7	Case=Ins|Number=Sing|PronType=Prs|Reflex=Yes	7	obl	_	_
+15	a	a	CCONJ	O	_	16	cc	_	_
+16	uvedomujú	uvedomovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	conj	_	_
+17	si	si	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+18	,	,	PUNCT	ZIP	_	23	punct	_	_
+19	že	že	SCONJ	O	_	23	mark	_	_
+20	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	22	case	_	_
+21	zákonného	zákonný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	dôchodku	dôchodok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	obl:arg	_	_
+23	nevyžijú	vyžiť	VERB	VKdpc-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+24	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s7
+# text = Generácia mladších zamestnancov vo veku od 18 do 30 rokov si zatiaľ dostatočne neuvedomila , že čím mladší človek začne prispievať , tým nižší príspevok mu stačí na do - siahnutie vysokého doplnkového dôchodku .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#7
+1	Generácia	generácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+2	mladších	mladý	ADJ	AAmp2y	Animacy=Anim|Case=Gen|Degree=Cmp|Gender=Masc|Number=Plur	3	amod	_	_
+3	zamestnancov	zamestnanec	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	5	case	_	_
+5	veku	vek	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	_
+6	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+7	18	18	NUM	0	NumForm=Digit	10	nummod	_	_
+8	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	30	30	NUM	0	NumForm=Digit	7	nummod	_	_
+10	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl:arg	_	_
+11	si	si	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pv	_	_
+12	zatiaľ	zatiaľ	ADV	PD	PronType=Dem	14	advmod	_	_
+13	dostatočne	dostatočne	ADV	Dx	Degree=Pos	14	advmod	_	_
+14	neuvedomila	uvedomiť	VERB	VLdscf-	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+15	,	,	PUNCT	ZIP	_	20	punct	_	_
+16	že	že	SCONJ	O	_	20	mark	_	_
+17	čím	čím	SCONJ	O	_	18	obj	_	_
+18	mladší	mladý	ADJ	AAms1y	Animacy=Anim|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	19	amod	_	_
+19	človek	človek	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+20	začne	začať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+21	prispievať	prispievať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	20	xcomp	_	_
+22	,	,	PUNCT	ZIP	_	27	punct	_	_
+23	tým	tým	SCONJ	O	_	24	advmod:emph	_	_
+24	nižší	nízky	ADJ	AAis1y	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	25	amod	_	_
+25	príspevok	príspevok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+26	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+27	stačí	stačiť	VERB	VKjsc+	Aspect=Imp,Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	conj	_	_
+28	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	29	case	_	_
+29	do	do	X	Q	Hyph=Yes	27	obl:arg	_	_
+30	-	-	PUNCT	ZIP	_	29	punct	_	_
+31	siahnutie	siahnutie	X	Q	Hyph=Yes	30	nmod	_	_
+32	vysokého	vysoký	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	doplnkového	doplnkový	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	dôchodku	dôchodok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	obj	_	_
+35	.	.	PUNCT	ZIP	_	14	punct	_	_
+
+# sent_id = s8
+# text = Aktívnu úlohu na poistnom trhu zohráva Doplnková dôchodková poisťovňa Lipa ( DDP LIPA ) , ktorá zaznamenala ďalší nárast poistencov .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#8
+1	Aktívnu	aktívny	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	úlohu	úloha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+3	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+4	poistnom	poistný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	trhu	trh	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+6	zohráva	zohrávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	Doplnková	doplnkový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	dôchodková	dôchodkový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	poisťovňa	poisťovňa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+10	Lipa	lipa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	nmod	_	_
+11	(	(	PUNCT	ZIP	_	12	punct	_	_
+12	DDP	ddp	X	W	Abbr=Yes	9	nmod	_	_
+13	LIPA	lipa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	12	cc	_	_
+14	)	)	PUNCT	ZIP	_	12	punct	_	_
+15	,	,	PUNCT	ZIP	_	17	punct	_	_
+16	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	17	mark	_	_
+17	zaznamenala	zaznamenať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	acl	_	_
+18	ďalší	ďalší	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	nárast	nárast	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+20	poistencov	poistenec	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+21	.	.	PUNCT	ZIP	_	6	punct	_	_
+
+# sent_id = s9
+# text = Ku koncu marca 2001 bolo poistených v DDP LIPA viac ako 16 000 občanov .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#9
+1	Ku	k	ADP	Ev3	AdpType=Voc|Case=Dat	2	case	_	_
+2	koncu	koniec	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
+3	marca	marec	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	2001	2001	NUM	0	NumForm=Digit	3	nummod	_	_
+5	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	cop	_	_
+6	poistených	poistený	ADJ	Gtmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	DDP	ddp	X	W	Abbr=Yes	6	advmod	_	_
+9	LIPA	lipa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_
+10	viac	viac	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	6	advmod	_	_
+11	ako	ako	SCONJ	O	_	14	mark	_	_
+12	16	16	NUM	0	NumForm=Digit	13	nummod	_	_
+13	000	000	NUM	0	NumForm=Digit	14	nummod	_	_
+14	občanov	občan	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	obj	_	_
+15	.	.	PUNCT	ZIP	_	6	punct	_	_
+
+# sent_id = s10
+# text = Zásluhu na tom má aj ponuka DDP LIPA , do ktorej patrí , okrem iného , aj doplnkový invalidný dôchodok poskytovaný vo výške určenej najmenej z päťnásobku príspevkov zaplatených poistencom a jeho zamestnávateľom na do - plnkové dôchodkové poistenie v prvom roku trvania poistenia .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#10
+1	Zásluhu	zásluha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+2	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	tom	to	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	1	obl:arg	_	_
+4	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	aj	aj	PART	T	_	6	cc	_	_
+6	ponuka	ponuka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+7	DDP	ddp	X	W	Abbr=Yes	6	obj	_	_
+8	LIPA	lipa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	ZIP	_	12	punct	_	_
+10	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	12	mark	_	_
+11	ktorej	ktorý	DET	PAfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Int,Rel	12	mark	_	_
+12	patrí	patriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+13	,	,	PUNCT	ZIP	_	15	punct	_	_
+14	okrem	okrem	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+15	iného	iný	DET	PAns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind	12	obl:arg	_	_
+16	,	,	PUNCT	ZIP	_	15	punct	_	_
+17	aj	aj	PART	T	_	18	cc	_	_
+18	doplnkový	doplnkový	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	invalidný	invalidný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	dôchodok	dôchodok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+21	poskytovaný	poskytovaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	20	xcomp	_	_
+22	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	23	case	_	_
+23	výške	výška	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	21	obl:arg	_	_
+24	určenej	určený	ADJ	Gtfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	23	amod	_	_
+25	najmenej	najmenej	PART	T	_	24	nmod	_	_
+26	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	25	case	_	_
+27	päťnásobku	päťnásobok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	obl:arg	_	_
+28	príspevkov	príspevok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	obj	_	_
+29	zaplatených	zaplatený	ADJ	Gtip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	28	amod	_	_
+30	poistencom	poistenec	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	29	obj	_	_
+31	a	a	CCONJ	O	_	33	cc	_	_
+32	jeho	jeho	DET	PUms7	Animacy=Anim|Case=Ins|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	33	det	_	_
+33	zamestnávateľom	zamestnávateľ	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	30	conj	_	_
+34	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	39	case	_	_
+35	do	do	X	Q	Hyph=Yes	38	nmod	_	_
+36	-	-	PUNCT	ZIP	_	35	punct	_	_
+37	plnkové	plnkové	X	Q	Hyph=Yes	36	nmod	_	_
+38	dôchodkové	dôchodkový	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	39	amod	_	_
+39	poistenie	poistenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	29	obl:arg	_	_
+40	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	42	case	_	_
+41	prvom	prvý	ADJ	NAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|NumType=Ord	42	amod	_	_
+42	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	obl	_	_
+43	trvania	trvanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	42	obj	_	_
+44	poistenia	poistenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	43	nmod	_	_
+45	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s11
+# text = Tento dôchodok zaisťuje renomovaná švajčiarska zaisťovňa SWISS RE .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#11
+1	Tento	tento	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	2	advmod:emph	_	_
+2	dôchodok	dôchodok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+3	zaisťuje	zaisťovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	renomovaná	renomovaný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	švajčiarska	švajčiarsky	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	zaisťovňa	zaisťovňa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+7	SWISS	swiss	X	%	Foreign=Yes	6	nmod	_	_
+8	RE	re	X	W	Abbr=Yes	7	nmod	_	_
+9	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s12
+# text = DDP LIPA uzavrela celkove 435 zmlúv o doplnkovom dôchodkovom poistení so zamestnávateľmi z rôznych odvetví ekonomiky .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#12
+1	DDP	ddp	X	W	Abbr=Yes	3	nsubj	_	_
+2	LIPA	lipa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	_
+3	uzavrela	uzavrieť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	celkove	celkove	ADV	Dx	Degree=Pos	3	advmod	_	_
+5	435	435	NUM	0	NumForm=Digit	6	nummod	_	_
+6	zmlúv	zmluva	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	3	obj	_	_
+7	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+8	doplnkovom	doplnkový	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	dôchodkovom	dôchodkový	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	poistení	poistenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	6	obl:arg	_	_
+11	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	12	case	_	_
+12	zamestnávateľmi	zamestnávateľ	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	3	obl:arg	_	_
+13	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+14	rôznych	rôzny	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	15	amod	_	_
+15	odvetví	odvetvie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	12	obl	_	_
+16	ekonomiky	ekonomika	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s13
+# text = Medzi zamestnávateľov , ktorí uzavreli s Doplnkovou dôchodkovou poisťovňou LIPA zamestnáva - teľské zmluvy , patria napríklad Národná banka Slovenska , Slovenská poisťovňa a . s . , Lesy SR š . p . , Slovenská pošta a . s . , Slovenská sporiteľňa , a . s . , Union poisťovacia , a . s . , Eximbanka , a . s . , Istrobanka , a . s . , AssiDomän Štúrovo , Sociálna poisťovňa , Slovakofarma , a . s . , SEZ Tlmače , a mnohé ďalšie významné spoločnosti pôsobiace na Slovensku .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#13
+1	Medzi	medzi	ADP	Eu4	AdpType=Prep|Case=Acc	2	case	_	_
+2	zamestnávateľov	zamestnávateľ	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	16	obl:arg	_	_
+3	,	,	PUNCT	ZIP	_	5	punct	_	_
+4	ktorí	ktorý	DET	PAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	5	mark	_	_
+5	uzavreli	uzavrieť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	2	acl	_	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+7	Doplnkovou	doplnkový	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	dôchodkovou	dôchodkový	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	poisťovňou	poisťovňa	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	5	obl:arg	_	_
+10	LIPA	lipa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	nmod	_	_
+11	zamestnáva	zamestnáva	X	Q	Hyph=Yes	14	nmod	_	_
+12	-	-	PUNCT	ZIP	_	11	punct	_	_
+13	teľské	teľské	X	Q	Hyph=Yes	12	nmod	_	_
+14	zmluvy	zmluva	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+15	,	,	PUNCT	ZIP	_	16	punct	_	_
+16	patria	patriť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	napríklad	napríklad	PART	T	_	19	advmod	_	_
+18	Národná	národný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	banka	banka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+20	Slovenska	slovensko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	,	,	PUNCT	ZIP	_	23	punct	_	_
+22	Slovenská	slovenský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	poisťovňa	poisťovňa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	19	conj	_	_
+24	a	a	X	W	Abbr=Yes	26	nmod	_	_
+25	.	.	PUNCT	ZIP	_	24	punct	_	_
+26	s	s	X	W	Abbr=Yes	23	nmod	_	_
+27	.	.	PUNCT	ZIP	_	26	punct	_	_
+28	,	,	PUNCT	ZIP	_	29	punct	_	_
+29	Lesy	les	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	conj	_	_
+30	SR	sr	X	W	Abbr=Yes	29	nmod	_	_
+31	š	š	X	W	Abbr=Yes	33	nmod	_	_
+32	.	.	PUNCT	ZIP	_	31	punct	_	_
+33	p	p	X	W	Abbr=Yes	29	nmod	_	_
+34	.	.	PUNCT	ZIP	_	33	punct	_	_
+35	,	,	PUNCT	ZIP	_	37	punct	_	_
+36	Slovenská	slovenský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+37	pošta	pošta	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	19	conj	_	_
+38	a	a	X	W	Abbr=Yes	40	nmod	_	_
+39	.	.	PUNCT	ZIP	_	38	punct	_	_
+40	s	s	X	W	Abbr=Yes	37	nmod	_	_
+41	.	.	PUNCT	ZIP	_	40	punct	_	_
+42	,	,	PUNCT	ZIP	_	44	punct	_	_
+43	Slovenská	slovenský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	44	amod	_	_
+44	sporiteľňa	sporiteľňa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	19	conj	_	_
+45	,	,	PUNCT	ZIP	_	44	punct	_	_
+46	a	a	X	W	Abbr=Yes	48	nmod	_	_
+47	.	.	PUNCT	ZIP	_	46	punct	_	_
+48	s	s	X	W	Abbr=Yes	44	nmod	_	_
+49	.	.	PUNCT	ZIP	_	48	punct	_	_
+50	,	,	PUNCT	ZIP	_	51	punct	_	_
+51	Union	union	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	conj	_	_
+52	poisťovacia	poisťovací	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	51	amod	_	_
+53	,	,	PUNCT	ZIP	_	52	punct	_	_
+54	a	a	X	W	Abbr=Yes	56	nmod	_	_
+55	.	.	PUNCT	ZIP	_	54	punct	_	_
+56	s	s	X	W	Abbr=Yes	51	nmod	_	_
+57	.	.	PUNCT	ZIP	_	56	punct	_	_
+58	,	,	PUNCT	ZIP	_	59	punct	_	_
+59	Eximbanka	eximbanka	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	19	conj	_	_
+60	,	,	PUNCT	ZIP	_	59	punct	_	_
+61	a	a	X	W	Abbr=Yes	63	nmod	_	_
+62	.	.	PUNCT	ZIP	_	61	punct	_	_
+63	s	s	X	W	Abbr=Yes	59	nmod	_	_
+64	.	.	PUNCT	ZIP	_	63	punct	_	_
+65	,	,	PUNCT	ZIP	_	66	punct	_	_
+66	Istrobanka	istrobanka	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	19	conj	_	_
+67	,	,	PUNCT	ZIP	_	66	punct	_	_
+68	a	a	X	W	Abbr=Yes	70	nmod	_	_
+69	.	.	PUNCT	ZIP	_	68	punct	_	_
+70	s	s	X	W	Abbr=Yes	66	nmod	_	_
+71	.	.	PUNCT	ZIP	_	70	punct	_	_
+72	,	,	PUNCT	ZIP	_	73	punct	_	_
+73	AssiDomän	assidomän	X	%	Foreign=Yes	19	conj	_	_
+74	Štúrovo	štúrovo	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	73	nmod	_	_
+75	,	,	PUNCT	ZIP	_	77	punct	_	_
+76	Sociálna	sociálny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	77	amod	_	_
+77	poisťovňa	poisťovňa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	19	conj	_	_
+78	,	,	PUNCT	ZIP	_	79	punct	_	_
+79	Slovakofarma	slovakofarma	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	19	conj	_	_
+80	,	,	PUNCT	ZIP	_	79	punct	_	_
+81	a	a	X	W	Abbr=Yes	83	nmod	_	_
+82	.	.	PUNCT	ZIP	_	81	punct	_	_
+83	s	s	X	W	Abbr=Yes	79	nmod	_	_
+84	.	.	PUNCT	ZIP	_	83	punct	_	_
+85	,	,	PUNCT	ZIP	_	86	punct	_	_
+86	SEZ	sez	X	W	Abbr=Yes	19	conj	_	_
+87	Tlmače	tlmače	PROPN	SSip1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	86	nmod	_	_
+88	,	,	PUNCT	ZIP	_	93	punct	_	_
+89	a	a	CCONJ	O	_	93	cc	_	_
+90	mnohé	mnohý	ADJ	NAfp1	Case=Nom|Gender=Fem|Number=Plur|NumType=Mult	91	amod	_	_
+91	ďalšie	ďalší	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	92	amod	_	_
+92	významné	významný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	93	amod	_	_
+93	spoločnosti	spoločnosť	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	19	conj	_	_
+94	pôsobiace	pôsobiaci	ADJ	Gkfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	93	amod	_	_
+95	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	96	case	_	_
+96	Slovensku	slovensko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	94	obl	_	_
+97	.	.	PUNCT	ZIP	_	16	punct	_	_
+
+# sent_id = s14
+# text = Spravované prostriedky poistencov dosahujú objem 200 mil .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#14
+1	Spravované	spravovaný	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	prostriedky	prostriedok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	poistencov	poistenec	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	dosahujú	dosahovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	objem	objem	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	200	200	NUM	0	NumForm=Digit	5	nummod	_	_
+7	mil	mil	X	W	Abbr=Yes	6	nmod	_	_
+8	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s15
+# text = Sk .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#15
+1	Sk	sk	X	W	Abbr=Yes	0	root	_	_
+2	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s16
+# text = Počtom poistencov je DDP Lipa podľa dostupných informácií na treťom mieste medzi doplnkovými dôchodkovými poisťovňami na Slovensku , a to aj napriek tomu , že nastúpila na trh ako posledná ( štvrtá ) .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#16
+1	Počtom	počet	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obj	_	_
+2	poistencov	poistenec	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	obj	_	_
+3	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	DDP	ddp	X	W	Abbr=Yes	3	nsubj	_	_
+5	Lipa	lipa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_
+6	podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+7	dostupných	dostupný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	informácií	informácia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	3	obl:arg	_	_
+9	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+10	treťom	tretí	ADJ	NAns6	Case=Loc|Gender=Neut|Number=Sing|NumType=Ord	11	amod	_	_
+11	mieste	miesto	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+12	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	15	case	_	_
+13	doplnkovými	doplnkový	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
+14	dôchodkovými	dôchodkový	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
+15	poisťovňami	poisťovňa	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	11	obl:arg	_	_
+16	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	Slovensku	slovensko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	15	obl	_	_
+18	,	,	PUNCT	ZIP	_	21	punct	_	_
+19	a	a	CCONJ	O	_	20	cc	_	_
+20	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	21	nsubj	_	_
+21	aj	aj	PART	T	_	3	advmod	_	_
+22	napriek	napriek	ADP	Eu3	AdpType=Prep|Case=Dat	21	advmod	_	_
+23	tomu	to	DET	PFns3	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	22	obl:arg	_	_
+24	,	,	PUNCT	ZIP	_	30	punct	_	_
+25	že	že	SCONJ	O	_	30	mark	_	_
+26	nastúpila	nastúpiť	AUX	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	30	cop	_	_
+27	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	28	case	_	_
+28	trh	trh	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obl	_	_
+29	ako	ako	SCONJ	O	_	30	mark	_	_
+30	posledná	posledný	ADJ	NAfs1	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	22	advcl	_	_
+31	(	(	PUNCT	ZIP	_	32	punct	_	_
+32	štvrtá	štvrtý	ADJ	NAfs1	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	30	amod	_	_
+33	)	)	PUNCT	ZIP	_	32	punct	_	_
+34	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s17
+# text = Výška priemerných príspevkov spolu za zamestnávateľa i za poistenca u nás dosahuje čiastku až 1060 Sk mesačne .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#17
+1	Výška	výška	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+2	priemerných	priemerný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	príspevkov	príspevok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	spolu	spolu	ADV	Dx	Degree=Pos	12	advmod	_	_
+5	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	zamestnávateľa	zamestnávateľ	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obl:arg	_	_
+7	i	i	CCONJ	O	_	9	cc	_	_
+8	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+9	poistenca	poistenec	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	conj	_	_
+10	u	u	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+11	nás	my	PRON	PPhp2	Case=Gen|Number=Plur|Person=1|PronType=Prs	12	obl	_	_
+12	dosahuje	dosahovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	čiastku	čiastka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	až	až	PART	T	_	15	mark	_	_
+15	1060	1060	NUM	0	NumForm=Digit	13	nummod	_	_
+16	Sk	sk	X	W	Abbr=Yes	15	nmod	_	_
+17	mesačne	mesačne	ADV	Dx	Degree=Pos	15	advmod	_	_
+18	.	.	PUNCT	ZIP	_	12	punct	_	_
+
+# sent_id = s18
+# text = Priemerné zhodnotenie prostriedkov za rok 2000 bolo takmer 9 % p . a .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#18
+1	Priemerné	priemerný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	zhodnotenie	zhodnotenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+3	prostriedkov	prostriedok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	rok	rok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+6	2000	2000	NUM	0	NumForm=Digit	5	nummod	_	_
+7	bolo	byť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	takmer	takmer	PART	T	_	10	advmod:emph	_	_
+9	9	9	NUM	0	NumForm=Digit	10	nummod	_	_
+10	%	%	SYM	ZIP	_	7	obj	_	_
+11	p	p	X	W	Abbr=Yes	10	nmod	_	_
+12	.	.	PUNCT	ZIP	_	11	punct	_	_
+13	a	a	X	W	Abbr=Yes	11	nmod	_	_
+14	.	.	PUNCT	ZIP	_	7	punct	_	_
+
+# sent_id = s19
+# text = VYUŽÍVATE DAŇOVÉ ÚĽAVY ?
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#19
+1	VYUŽÍVATE	využívať	VERB	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	DAŇOVÉ	daňový	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	1	dep	_	_
+3	ÚĽAVY	úľava	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	1	dep	_	_
+4	?	?	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s20
+# text = Príspevky poistencov na doplnkové dôchodkové poistenie sú odpočítateľnou položkou , ktorá znižuje základ ich dane vo výške 10 % ich príjmu , pričom táto suma nesmie prekročiť 24 000 Sk ročne .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#20
+1	Príspevky	príspevok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+2	poistencov	poistenec	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+4	doplnkové	doplnkový	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	dôchodkové	dôchodkový	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	poistenie	poistenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	1	obl:arg	_	_
+7	sú	byť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	odpočítateľnou	odpočítateľný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	položkou	položka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	7	obj	_	_
+10	,	,	PUNCT	ZIP	_	12	punct	_	_
+11	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	12	mark	_	_
+12	znižuje	znižovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	acl	_	_
+13	základ	základ	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	ich	ich	DET	PUfs2	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	dane	daň	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	17	case	_	_
+17	výške	výška	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+18	10	10	NUM	0	NumForm=Digit	21	nummod	_	_
+19	%	%	SYM	ZIP	_	18	nmod	_	_
+20	ich	ich	DET	PUis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	príjmu	príjem	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl:arg	_	_
+22	,	,	PUNCT	ZIP	_	26	punct	_	_
+23	pričom	pričom	CCONJ	O	_	26	mark	_	_
+24	táto	táto	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	25	advmod:emph	_	_
+25	suma	suma	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
+26	nesmie	smieť	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+27	prekročiť	prekročiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	26	xcomp	_	_
+28	24	24	NUM	0	NumForm=Digit	29	nummod	_	_
+29	000	000	NUM	0	NumForm=Digit	30	nummod	_	_
+30	Sk	sk	X	W	Abbr=Yes	27	obj	_	_
+31	ročne	ročne	ADV	Dx	Degree=Pos	27	advmod	_	_
+32	.	.	PUNCT	ZIP	_	7	punct	_	_
+
+# sent_id = s21
+# text = Pre samostatne zárobkovo činnú osobu alebo jej spolupracujúcu osobu sú príspevky na doplnkové dôchodkové pois - tenie daňovými výdavkami ( nákladmi ) vo výške 10 % z ich príjmu , najviac však 24 000 Sk ročne .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#21
+1	Pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+2	samostatne	samostatne	ADV	Dx	Degree=Pos	3	advmod	_	_
+3	zárobkovo	zárobkovo	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	činnú	činný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	osobu	osoba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obl:arg	_	_
+6	alebo	alebo	CCONJ	O	_	9	cc	_	_
+7	jej	jej	DET	PUfs4	Case=Acc|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	spolupracujúcu	spolupracujúci	ADJ	Gkfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	9	amod	_	_
+9	osobu	osoba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	_
+10	sú	byť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	príspevky	príspevok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+12	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+13	doplnkové	doplnkový	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	dôchodkové	dôchodkový	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	pois	pois	X	Q	Hyph=Yes	11	obl:arg	_	_
+16	-	-	PUNCT	ZIP	_	15	punct	_	_
+17	tenie	tenie	X	Q	Hyph=Yes	16	obj	_	_
+18	daňovými	daňový	ADJ	AAip7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	_
+19	výdavkami	výdavok	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	obj	_	_
+20	(	(	PUNCT	ZIP	_	19	punct	_	_
+21	nákladmi	náklad	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	19	cc	_	_
+22	)	)	PUNCT	ZIP	_	19	punct	_	_
+23	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	24	case	_	_
+24	výške	výška	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+25	10	10	NUM	0	NumForm=Digit	26	nummod	_	_
+26	%	%	SYM	ZIP	_	24	obl:arg	_	_
+27	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	29	case	_	_
+28	ich	ich	DET	PUis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	29	det	_	_
+29	príjmu	príjem	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	obl	_	_
+30	,	,	PUNCT	ZIP	_	31	punct	_	_
+31	najviac	najviac	PART	T	_	24	conj	_	_
+32	však	však	CCONJ	O	_	33	cc	_	_
+33	24	24	NUM	0	NumForm=Digit	34	nummod	_	_
+34	000	000	NUM	0	NumForm=Digit	35	nummod	_	_
+35	Sk	sk	X	W	Abbr=Yes	31	obj	_	_
+36	ročne	ročne	ADV	Dx	Degree=Pos	35	advmod	_	_
+37	.	.	PUNCT	ZIP	_	10	punct	_	_
+
+# sent_id = s22
+# text = Pre zamestnávateľa sú príspevky na doplnkové dôchodkové poistenie daňovými výdavkami ( nákladmi ) do výšky 3 % úhrnu zúčtovaných miezd a náhrady miezd poistencov a za zamestnancov zaradených na základe rozhodnutia príslušného orgánu na ochranu zdravia do kategórie 3 alebo 4 , až do výšky 6 % .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#22
+1	Pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	2	case	_	_
+2	zamestnávateľa	zamestnávateľ	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+3	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	_
+4	príspevky	príspevok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+6	doplnkové	doplnkový	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+7	dôchodkové	dôchodkový	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	poistenie	poistenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	_
+9	daňovými	daňový	ADJ	AAip7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+10	výdavkami	výdavok	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	0	root	_	_
+11	(	(	PUNCT	ZIP	_	12	punct	_	_
+12	nákladmi	náklad	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	nmod	_	_
+13	)	)	PUNCT	ZIP	_	12	punct	_	_
+14	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+15	výšky	výška	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+16	3	3	NUM	0	NumForm=Digit	15	nummod	_	_
+17	%	%	SYM	ZIP	_	16	nmod	_	_
+18	úhrnu	úhrn	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	zúčtovaných	zúčtovaný	ADJ	Gtfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	20	amod	_	_
+20	miezd	mzda	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+21	a	a	CCONJ	O	_	22	cc	_	_
+22	náhrady	náhrada	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	18	conj	_	_
+23	miezd	mzda	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
+24	poistencov	poistenec	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+25	a	a	CCONJ	O	_	27	cc	_	_
+26	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	27	case	_	_
+27	zamestnancov	zamestnanec	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	24	conj	_	_
+28	zaradených	zaradený	ADJ	Gtmp4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	27	amod	_	_
+29	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	31	case	_	_
+30	základe	základ	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	fixed	_	_
+31	rozhodnutia	rozhodnutie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	28	obl	_	_
+32	príslušného	príslušný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	orgánu	orgán	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+34	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	35	case	_	_
+35	ochranu	ochrana	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	33	nmod	_	_
+36	zdravia	zdravie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	35	nmod	_	_
+37	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	38	case	_	_
+38	kategórie	kategória	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	28	obl	_	_
+39	3	3	NUM	0	NumForm=Digit	38	nummod	_	_
+40	alebo	alebo	CCONJ	O	_	41	cc	_	_
+41	4	4	NUM	0	NumForm=Digit	39	conj	_	_
+42	,	,	PUNCT	ZIP	_	45	punct	_	_
+43	až	až	PART	T	_	45	advmod:emph	_	_
+44	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	45	case	_	_
+45	výšky	výška	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	28	obl	_	_
+46	6	6	NUM	0	NumForm=Digit	45	nummod	_	_
+47	%	%	SYM	ZIP	_	10	punct	_	_
+48	.	.	PUNCT	ZIP	_	10	punct	_	_
+
+# sent_id = s23
+# text = Uvádzame orientačnú informáciu o výške ročnej daňovej úspory podľa výšky hrubého príjmu a mesačnej výšky príspevkov platených zamestnancom - pois - tencom na doplnkové dôchodkové poistenie .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#23
+1	Uvádzame	uvádzať	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	orientačnú	orientačný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	informáciu	informácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	výške	výška	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	obl:arg	_	_
+6	ročnej	ročný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	daňovej	daňový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	úspory	úspora	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl:arg	_	_
+9	podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	výšky	výška	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	obl:arg	_	_
+11	hrubého	hrubý	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	príjmu	príjem	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	a	a	CCONJ	O	_	15	cc	_	_
+14	mesačnej	mesačný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	výšky	výška	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	conj	_	_
+16	príspevkov	príspevok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obj	_	_
+17	platených	platený	ADJ	Gtip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	16	amod	_	_
+18	zamestnancom	zamestnanec	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	obj	_	_
+19	-	-	PUNCT	ZIP	_	20	punct	_	_
+20	pois	pois	X	Q	Hyph=Yes	18	appos	_	_
+21	-	-	PUNCT	ZIP	_	20	punct	_	_
+22	tencom	tencom	X	Q	Hyph=Yes	21	obj	_	_
+23	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	26	case	_	_
+24	doplnkové	doplnkový	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	dôchodkové	dôchodkový	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	poistenie	poistenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	17	obl:arg	_	_
+27	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s24
+# text = Pri výpočte bol príslušný základ dane znížený o sumu 38 760 Sk ročne na daňovníka .
+# orig_file_sentence 1000101_katarinag_fsnew_1000101_hrenakova_fsnew#24
+1	Pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	výpočte	výpočet	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+3	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	cop	_	_
+4	príslušný	príslušný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	základ	základ	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	dane	daň	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obj	_	_
+7	znížený	znížený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+8	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+9	sumu	suma	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obl:arg	_	_
+10	38	38	NUM	0	NumForm=Digit	11	nummod	_	_
+11	760	760	NUM	0	NumForm=Digit	12	nummod	_	_
+12	Sk	sk	X	W	Abbr=Yes	9	obl:arg	_	_
+13	ročne	ročne	ADV	Dx	Degree=Pos	12	advmod	_	_
+14	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+15	daňovníka	daňovník	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	obl:arg	_	_
+16	.	.	PUNCT	ZIP	_	7	punct	_	_
+

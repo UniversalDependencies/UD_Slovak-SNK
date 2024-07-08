@@ -1,0 +1,944 @@
+# sent_id = s1
+# text = HVIEZDY V HOLANDSKU
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#1
+1	HVIEZDY	hviezda	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+2	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	HOLANDSKU	holandsko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_
+
+# sent_id = s2
+# text = Držiteľ Oscara William Hurt a herečka Jennifer Tilly sú hlavnými hviezdami filmu Do Not Disturb ( Nevyrušovať ) , ktorý je kombináciou čiernej komédie a akčného thrilleru .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#2
+1	Držiteľ	držiteľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+2	Oscara	oscara	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	William	william	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+4	Hurt	hurt	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+5	a	a	CCONJ	O	_	8	cc	_	_
+6	herečka	herečka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_
+7	Jennifer	jennifer	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_
+8	Tilly	tilly	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	_
+9	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	hlavnými	hlavný	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
+11	hviezdami	hviezda	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	0	root	_	_
+12	filmu	film	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	Do	do	X	%	Foreign=Yes	15	nmod	_	_
+14	Not	not	X	%	Foreign=Yes	15	nmod	_	_
+15	Disturb	disturb	X	%	Foreign=Yes	12	nmod	_	_
+16	(	(	PUNCT	ZIP	_	17	punct	_	_
+17	Nevyrušovať	vyrušovať	VERB	VIe-:r	Aspect=Imp|Polarity=Neg|VerbForm=Inf	15	appos	_	_
+18	)	)	PUNCT	ZIP	_	17	punct	_	_
+19	,	,	PUNCT	ZIP	_	22	punct	_	_
+20	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	22	nsubj	_	_
+21	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	kombináciou	kombinácia	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	12	acl	_	_
+23	čiernej	čierny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	komédie	komédia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+25	a	a	CCONJ	O	_	27	cc	_	_
+26	akčného	akčný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	thrilleru	thriller	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	conj	_	_
+28	.	.	PUNCT	ZIP	_	11	punct	_	_
+
+# sent_id = s3
+# text = Režíruje ho holandský režisér Dick Maas .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#3
+1	Režíruje	režírovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	holandský	holandský	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	režisér	režisér	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+5	Dick	dick	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+6	Maas	maas	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+7	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s4
+# text = Hurt hrá otca americkej rodiny v Amsterdame , ktorého nemá dcéra ( hrá ju Francesca Brown ) je svedkyňou vraždy .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#4
+1	Hurt	hurt	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	hrá	hrať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	otca	otec	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	americkej	americký	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	rodiny	rodina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	Amsterdame	amsterdam	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+8	,	,	PUNCT	ZIP	_	19	punct	_	_
+9	ktorého	ktorý	DET	PAms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|PronType=Int,Rel	11	amod	_	_
+10	nemá	nemý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	dcéra	dcéra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+12	(	(	PUNCT	ZIP	_	13	punct	_	_
+13	hrá	hrať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	acl	_	_
+14	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	Francesca	francesca	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	16	nmod	_	_
+16	Brown	brown	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+17	)	)	PUNCT	ZIP	_	13	punct	_	_
+18	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	svedkyňou	svedkyňa	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	acl	_	_
+20	vraždy	vražda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s5
+# text = Nakrúcanie sa už začalo a to čuduj sa svete v naozajstnom Amsterdame .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#5
+1	Nakrúcanie	nakrúcanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	už	už	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	začalo	začať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	to	to	PART	T	_	7	advmod	_	_
+7	čuduj	čuduj	VERB	VMesb+	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	4	advmod	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+9	svete	svet	NOUN	SSis5	Animacy=Inan|Case=Voc|Gender=Masc|Number=Sing	7	advmod	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+11	naozajstnom	naozajstný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	Amsterdame	amsterdam	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+13	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s6
+# text = Premiéra by mala byť už koncom roku .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#6
+1	Premiéra	premiéra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	by	by	AUX	Y	Mood=Cnd	3	aux	_	_
+3	mala	mať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	byť	byť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+5	už	už	PART	T	_	7	advmod:emph	_	_
+6	koncom	koncom	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+8	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s7
+# text = 30 ROKOV HAWAII FIVE - 0
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#7
+1	30	30	NUM	0	NumForm=Digit	0	root	_	_
+2	ROKOV	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	HAWAII	hawaii	X	%	Foreign=Yes	2	nmod	_	_
+4	FIVE	five	X	%	Foreign=Yes	3	nmod	_	_
+5	-	-	PUNCT	ZIP	_	6	punct	_	_
+6	0	0	NUM	0	NumForm=Digit	4	conj	_	_
+
+# sent_id = s8
+# text = Hawaii Five - 0 bol slávny seriál , ktorého hrdinami boli členovia špeciálneho oddelenia havajskej štátnej polície , podliehajúci priamo guvernérovi .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#8
+1	Hawaii	hawaii	X	%	Foreign=Yes	7	nsubj	_	_
+2	Five	five	X	%	Foreign=Yes	1	nmod	_	_
+3	-	-	PUNCT	ZIP	_	4	punct	_	_
+4	0	0	NUM	0	NumForm=Digit	2	conj	_	_
+5	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	cop	_	_
+6	slávny	slávny	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	seriál	seriál	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+8	,	,	PUNCT	ZIP	_	10	punct	_	_
+9	ktorého	ktorý	DET	PAis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Int,Rel	10	amod	_	_
+10	hrdinami	hrdina	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	acl	_	_
+11	boli	byť	AUX	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	10	cop	_	_
+12	členovia	člen	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+13	špeciálneho	špeciálny	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	oddelenia	oddelenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+15	havajskej	havajský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+16	štátnej	štátny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	polície	polícia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+18	,	,	PUNCT	ZIP	_	19	punct	_	_
+19	podliehajúci	podliehajúci	ADJ	Gkmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	12	amod	_	_
+20	priamo	priamo	ADV	Dx	Degree=Pos	21	advmod	_	_
+21	guvernérovi	guvernér	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	19	obj	_	_
+22	.	.	PUNCT	ZIP	_	7	punct	_	_
+
+# sent_id = s9
+# text = Prvý diel sa vysielal 26 . 9 . 1968 a show skončila až vroku 1980 .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#9
+1	Prvý	prvý	ADJ	NAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
+2	diel	diel	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pass	_	_
+4	vysielal	vysielať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	26	26	NUM	0	NumForm=Digit	7	nummod	_	_
+6	.	.	PUNCT	ZIP	_	5	punct	_	_
+7	9	9	NUM	0	NumForm=Digit	4	obl	_	_
+8	.	.	PUNCT	ZIP	_	7	punct	_	_
+9	1968	1968	NUM	0	NumForm=Digit	7	nummod	_	_
+10	a	a	CCONJ	O	_	12	cc	_	_
+11	show	show	NOUN	SUfs1	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+12	skončila	skončiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+13	až	až	PART	T	_	14	advmod:emph	_	_
+14	vroku	rok	NOUN	SSis6:q	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Typo=Yes	12	obl	_	_
+15	1980	1980	NUM	0	NumForm=Digit	14	nummod	_	_
+16	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s10
+# text = Detektíva Steva McGarretta hral Jack Lord .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#10
+1	Detektíva	detektív	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
+2	Steva	steve	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
+3	McGarretta	mcgarrett	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+4	hral	hrať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	Jack	jack	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+6	Lord	lord	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+7	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s11
+# text = 22 . 1 . sa stretnú v Honolulu fanúšikovia seriálu , herci a štáb , aby oslávili 30 . výročie tejto show .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#11
+1	22	22	NUM	0	NumForm=Digit	3	nummod	_	_
+2	.	.	PUNCT	ZIP	_	1	punct	_	_
+3	1	1	NUM	0	NumForm=Digit	6	obl	_	_
+4	.	.	PUNCT	ZIP	_	3	punct	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+6	stretnú	stretnúť	VERB	VKdpc+	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	Honolulu	honolulu	PROPN	SUns6:r	Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+9	fanúšikovia	fanúšik	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+10	seriálu	seriál	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	,	,	PUNCT	ZIP	_	12	punct	_	_
+12	herci	herec	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	conj	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	štáb	štáb	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
+15	,	,	PUNCT	ZIP	_	17	punct	_	_
+16	aby	aby	SCONJ	OY	Mood=Cnd	17	mark	_	_
+17	oslávili	osláviť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	6	advcl	_	_
+18	30	30	NUM	0	NumForm=Digit	20	nummod	_	_
+19	.	.	PUNCT	ZIP	_	18	punct	_	_
+20	výročie	výročie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+21	tejto	táto	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+22	show	show	NOUN	SUfs2	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+23	.	.	PUNCT	ZIP	_	6	punct	_	_
+
+# sent_id = s12
+# text = Pozvanie prijala i Marie Lord , vdova po jednej z hlavných hviezd .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#12
+1	Pozvanie	pozvanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+2	prijala	prijať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	i	i	PART	T	_	5	advmod:emph	_	_
+4	Marie	marie	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_
+5	Lord	lord	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+6	,	,	PUNCT	ZIP	_	7	punct	_	_
+7	vdova	vdova	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	_
+8	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	jednej	jeden	NUM	NFfs6	Case=Loc|Gender=Fem|Number=Sing	7	nummod	_	_
+10	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+11	hlavných	hlavný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	_
+12	hviezd	hviezda	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+13	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s13
+# text = Oslava sa uskutoční presne rok a jeden deň po Lordovej smrti .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#13
+1	Oslava	oslava	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	uskutoční	uskutočniť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	presne	presne	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	rok	rok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+6	a	a	CCONJ	O	_	8	cc	_	_
+7	jeden	jeden	NUM	NFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nummod	_	_
+8	deň	deň	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	conj	_	_
+9	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+10	Lordovej	lordov	ADJ	AFfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	smrti	smrť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+12	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s14
+# text = CENY ČASOPISU MOVIELINE
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#14
+1	CENY	cena	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+2	ČASOPISU	časopis	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	MOVIELINE	movieline	X	%	Foreign=Yes	2	nmod	_	_
+
+# sent_id = s15
+# text = Redakcia amerického časopisu Movieline sa rozhodla , že začne udeľovať vlastné ceny v oblasti filmu a hudby .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#15
+1	Redakcia	redakcia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	amerického	americký	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	časopisu	časopis	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Movieline	movieline	X	%	Foreign=Yes	3	nmod	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+6	rozhodla	rozhodnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	,	,	PUNCT	ZIP	_	9	punct	_	_
+8	že	že	SCONJ	O	_	9	mark	_	_
+9	začne	začať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+10	udeľovať	udeľovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	9	xcomp	_	_
+11	vlastné	vlastný	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	_
+12	ceny	cena	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	oblasti	oblasť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	_
+15	filmu	film	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	a	a	CCONJ	O	_	17	cc	_	_
+17	hudby	hudba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	conj	_	_
+18	.	.	PUNCT	ZIP	_	6	punct	_	_
+
+# sent_id = s16
+# text = Prví držitelia Movieline Awards za rok 1998 budú známi 13 . 3 . 1999 .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#16
+1	Prví	prvý	ADJ	NAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|NumType=Ord	2	amod	_	_
+2	držitelia	držiteľ	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+3	Movieline	movieline	X	%	Foreign=Yes	2	nmod	_	_
+4	Awards	awards	X	%	Foreign=Yes	3	flat:foreign	_	_
+5	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	rok	rok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
+7	1998	1998	NUM	0	NumForm=Digit	6	nummod	_	_
+8	budú	byť	AUX	VBepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	9	cop	_	_
+9	známi	známy	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	_
+10	13	13	NUM	0	NumForm=Digit	12	nummod	_	_
+11	.	.	PUNCT	ZIP	_	10	punct	_	_
+12	3	3	NUM	0	NumForm=Digit	9	obl	_	_
+13	.	.	PUNCT	ZIP	_	12	punct	_	_
+14	1999	1999	NUM	0	NumForm=Digit	12	nummod	_	_
+15	.	.	PUNCT	ZIP	_	9	punct	_	_
+
+# sent_id = s17
+# text = Ceny sa budú udeľovať počasMedzinárodného filmového festivalu v Santa Barbare .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#17
+1	Ceny	cena	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pass	_	_
+3	budú	byť	AUX	VBepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	4	aux	_	_
+4	udeľovať	udeľovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	_
+5	počasMedzinárodného	počasmedzinárodného	X	Q	Hyph=Yes	7	case	_	_
+6	filmového	filmový	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	festivalu	festival	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+9	Santa	santa	X	%	Foreign=Yes	10	nmod	_	_
+10	Barbare	barbara	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+11	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s18
+# text = BERLINALE - KTO PRÍDE ?
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#18
+1	BERLINALE	berlinale	PROPN	SUns1:r	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	-	-	PUNCT	ZIP	_	4	punct	_	_
+3	KTO	kto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	4	nsubj	_	_
+4	PRÍDE	prísť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+5	?	?	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s19
+# text = Povráva sa , že v súťaži 49 . MFF v Berlíne , ktorý sa začne 10 . 2 . by sa mali objaviť filmy takých velikánov ako sú Terrence Malick , Robert Altman , Claude Chabrol , Bertrand Tavernier , či David Cronenberg .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#19
+1	Povráva	povrávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pass	_	_
+3	,	,	PUNCT	ZIP	_	22	punct	_	_
+4	že	že	SCONJ	O	_	22	mark	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	súťaži	súťaž	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	23	obl	_	_
+7	49	49	NUM	0	NumForm=Digit	9	nummod	_	_
+8	.	.	PUNCT	ZIP	_	7	punct	_	_
+9	MFF	mff	X	W	Abbr=Yes	6	nmod	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	Berlíne	berlín	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+12	,	,	PUNCT	ZIP	_	15	punct	_	_
+13	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	15	nsubj	_	_
+14	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+15	začne	začať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	acl	_	_
+16	10	10	NUM	0	NumForm=Digit	18	nummod	_	_
+17	.	.	PUNCT	ZIP	_	16	punct	_	_
+18	2	2	NUM	0	NumForm=Digit	15	obl	_	_
+19	.	.	PUNCT	ZIP	_	18	punct	_	_
+20	by	by	AUX	Y	Mood=Cnd	22	aux	_	_
+21	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	23	expl:pv	_	_
+22	mali	mať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	csubj:pass	_	_
+23	objaviť	objaviť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	22	xcomp	_	_
+24	filmy	film	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_
+25	takých	taký	DET	PAmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	26	det	_	_
+26	velikánov	velikán	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+27	ako	ako	SCONJ	O	_	28	mark	_	_
+28	sú	byť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	26	acl	_	_
+29	Terrence	terrence	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	30	nmod	_	_
+30	Malick	malick	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+31	,	,	PUNCT	ZIP	_	33	punct	_	_
+32	Robert	robert	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	33	nmod	_	_
+33	Altman	altman	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	30	conj	_	_
+34	,	,	PUNCT	ZIP	_	36	punct	_	_
+35	Claude	claude	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	36	nmod	_	_
+36	Chabrol	chabrol	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	30	conj	_	_
+37	,	,	PUNCT	ZIP	_	39	punct	_	_
+38	Bertrand	bertrand	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	39	nmod	_	_
+39	Tavernier	tavernier	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	30	conj	_	_
+40	,	,	PUNCT	ZIP	_	43	punct	_	_
+41	či	či	CCONJ	O	_	43	cc	_	_
+42	David	david	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	43	nmod	_	_
+43	Cronenberg	cronenberg	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	30	conj	_	_
+44	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s20
+# text = Definitívna verzia programu by mala byť zverejnená 2 . 2 .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#20
+1	Definitívna	definitívny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	verzia	verzia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	programu	program	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	by	by	AUX	Y	Mood=Cnd	5	aux	_	_
+5	mala	mať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	7	cop	_	_
+7	zverejnená	zverejnený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	xcomp	_	_
+8	2	2	NUM	0	NumForm=Digit	10	nummod	_	_
+9	.	.	PUNCT	ZIP	_	8	punct	_	_
+10	2	2	NUM	0	NumForm=Digit	7	obl	_	_
+11	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s21
+# text = Už teraz je však jasné , že festival bude otvárať nemecký film Aimee & amp ; Jaguar , príbeh lesbickej lásky , odohrávajúci sa v Berlíne počas druhej svetovej vojny .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#21
+1	Už	už	PART	T	_	2	advmod:emph	_	_
+2	teraz	teraz	ADV	Dx	Degree=Pos	5	advmod	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	však	však	PART	T	_	5	advmod	_	_
+5	jasné	jasný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+6	,	,	PUNCT	ZIP	_	10	punct	_	_
+7	že	že	SCONJ	O	_	10	mark	_	_
+8	festival	festival	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+9	bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	10	aux	_	_
+10	otvárať	otvárať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	csubj	_	_
+11	nemecký	nemecký	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	film	film	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+13	Aimee	aimee	X	%	Foreign=Yes	12	nmod	_	_
+14	&	&	PUNCT	ZIP	_	13	conj	_	_
+15	amp	amp	X	%	Foreign=Yes	13	conj	_	_
+16	;	;	PUNCT	ZIP	_	17	punct	_	_
+17	Jaguar	jaguar	X	%	Foreign=Yes	13	conj	_	_
+18	,	,	PUNCT	ZIP	_	19	punct	_	_
+19	príbeh	príbeh	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_
+20	lesbickej	lesbický	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	lásky	láska	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+22	,	,	PUNCT	ZIP	_	23	punct	_	_
+23	odohrávajúci	odohrávajúci	ADJ	Gkis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	19	amod	_	_
+24	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	23	expl:pv	_	_
+25	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	26	case	_	_
+26	Berlíne	berlín	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_
+27	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	30	case	_	_
+28	druhej	druhý	ADJ	NAfs2	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	30	amod	_	_
+29	svetovej	svetový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	vojny	vojna	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	23	obl	_	_
+31	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s22
+# text = Film bol nakrútený podľa skutočnej udalosti .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#22
+1	Film	film	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	nakrútený	nakrútený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+5	skutočnej	skutočný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	udalosti	udalosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+7	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s23
+# text = TRAINSPOTTING vs . BOND
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#23
+1	TRAINSPOTTING	trainspotting	X	%	Foreign=Yes	0	root	_	_
+2	vs	vs	X	W	Abbr=Yes	4	cc	_	_
+3	.	.	PUNCT	ZIP	_	4	punct	_	_
+4	BOND	bond	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+
+# sent_id = s24
+# text = Jeden z hlavných hrdinov filmu Trainspotting - Robert Carlyle - podpísal zmluva sos poločnosťou United Artist .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#24
+1	Jeden	jeden	NUM	NFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+2	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+3	hlavných	hlavný	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	hrdinov	hrdina	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+5	filmu	film	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	Trainspotting	trainspotting	X	%	Foreign=Yes	5	nmod	_	_
+7	-	-	PUNCT	ZIP	_	9	punct	_	_
+8	Robert	robert	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+9	Carlyle	carlyle	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+10	-	-	PUNCT	ZIP	_	9	punct	_	_
+11	podpísal	podpísať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	zmluva	zmluva	NOUN	SSfs4:q	Case=Acc|Gender=Fem|Number=Sing|Typo=Yes	11	obj	_	_
+13	sos	s	ADP	Ev7:q	AdpType=Voc|Case=Ins|Typo=Yes	14	case	_	_
+14	poločnosťou	spoločnosť	NOUN	SSfs7:q	Case=Ins|Gender=Fem|Number=Sing|Typo=Yes	12	nmod	_	_
+15	United	united	X	%	Foreign=Yes	14	nmod	_	_
+16	Artist	artist	X	%	Foreign=Yes	15	flat:foreign	_	_
+17	.	.	PUNCT	ZIP	_	11	punct	_	_
+
+# sent_id = s25
+# text = Na základe nej si zahrá Renarda , zločinca , ktorý vďaka guľke v mozgu necíti žiadnu bolesť .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#25
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	základe	základ	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	nej	ona	PRON	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+4	si	si	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	zahrá	zahrať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	Renarda	renard	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	,	,	PUNCT	ZIP	_	8	punct	_	_
+8	zločinca	zločinec	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	appos	_	_
+9	,	,	PUNCT	ZIP	_	15	punct	_	_
+10	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	15	nsubj	_	_
+11	vďaka	vďaka	ADP	Eu3	AdpType=Prep|Case=Dat	12	case	_	_
+12	guľke	guľka	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	mozgu	mozog	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_
+15	necíti	cítiť	VERB	VKepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	8	acl	_	_
+16	žiadnu	žiadny	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	17	det	_	_
+17	bolesť	bolesť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+18	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s26
+# text = Bude to však stačiť na to , aby vzdoroval Jamesovi Bondovi v 19 . bondovke The World Is Not Enough ?
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#26
+1	Bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	4	aux	_	_
+2	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	však	však	PART	T	_	4	advmod	_	_
+4	stačiť	stačiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	0	root	_	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obl	_	_
+7	,	,	PUNCT	ZIP	_	9	punct	_	_
+8	aby	aby	SCONJ	OY	Mood=Cnd	9	mark	_	_
+9	vzdoroval	vzdorovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
+10	Jamesovi	james	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	_
+11	Bondovi	bond	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	9	obj	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+13	19	19	NUM	0	NumForm=Digit	15	nummod	_	_
+14	.	.	PUNCT	ZIP	_	13	punct	_	_
+15	bondovke	bondovka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
+16	The	the	X	%	Foreign=Yes	18	nsubj	_	_
+17	World	world	X	%	Foreign=Yes	16	flat:foreign	_	_
+18	Is	is	X	%	Foreign=Yes	15	nmod	_	_
+19	Not	not	X	%	Foreign=Yes	18	cc	_	_
+20	Enough	enough	X	%	Foreign=Yes	18	advmod	_	_
+21	?	?	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s27
+# text = Nakrúcanie sa už začalo 11 . 1 . 1999 v Londýne .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#27
+1	Nakrúcanie	nakrúcanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	už	už	PART	T	_	4	advmod	_	_
+4	začalo	začať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	11	11	NUM	0	NumForm=Digit	7	nummod	_	_
+6	.	.	PUNCT	ZIP	_	5	punct	_	_
+7	1	1	NUM	0	NumForm=Digit	4	obl	_	_
+8	.	.	PUNCT	ZIP	_	7	punct	_	_
+9	1999	1999	NUM	0	NumForm=Digit	7	nummod	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	Londýne	londýn	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+12	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s28
+# text = OSCAR ZA VIZUÁLNE EFEKTY
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#28
+1	OSCAR	oscar	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	ZA	za	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+3	VIZUÁLNE	vizuálny	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	EFEKTY	efekt	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	nmod	_	_
+
+# sent_id = s29
+# text = Nominácie na Oscara budú oznámené až 3 . 2 . , ale už je známych sedem filmov , ktoré sa dostali do užšej nominácie v kategórii Najlepšie špeciálne efekty .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#29
+1	Nominácie	nominácia	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+2	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+3	Oscara	oscar	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	_
+4	budú	byť	AUX	VBepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	5	aux:pass	_	_
+5	oznámené	oznámený	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+6	až	až	PART	T	_	9	advmod:emph	_	_
+7	3	3	NUM	0	NumForm=Digit	9	nummod	_	_
+8	.	.	PUNCT	ZIP	_	7	punct	_	_
+9	2	2	NUM	0	NumForm=Digit	5	obl	_	_
+10	.	.	PUNCT	ZIP	_	9	punct	_	_
+11	,	,	PUNCT	ZIP	_	15	punct	_	_
+12	ale	ale	CCONJ	O	_	15	cc	_	_
+13	už	už	ADV	Dx	Degree=Pos	15	advmod	_	_
+14	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	známych	známy	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	5	conj	_	_
+16	sedem	sedem	NUM	NUnp4	Case=Acc|Gender=Neut|Number=Plur	15	nsubj	_	_
+17	filmov	film	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	,	,	PUNCT	ZIP	_	21	punct	_	_
+19	ktoré	ktorý	DET	PAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	21	nsubj	_	_
+20	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	21	expl:pv	_	_
+21	dostali	dostať	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	17	acl	_	_
+22	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	24	case	_	_
+23	užšej	úzky	ADJ	AAfs2y	Case=Gen|Degree=Cmp|Gender=Fem|Number=Sing	24	amod	_	_
+24	nominácie	nominácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	21	obl	_	_
+25	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	26	case	_	_
+26	kategórii	kategória	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	24	nmod	_	_
+27	Najlepšie	dobrý	ADJ	AAip1z:r	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Plur	29	amod	_	_
+28	špeciálne	špeciálny	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	29	amod	_	_
+29	efekty	efekt	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	26	nmod	_	_
+30	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s30
+# text = Sú to Armageddon , Babe : Pig in the City , Godzilla , Mighty Joe Young , Small Soldiers , The Truman Show a What Dreams May Come .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#30
+1	Sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	Armageddon	armageddon	X	%	Foreign=Yes	0	root	_	_
+4	,	,	PUNCT	ZIP	_	5	punct	_	_
+5	Babe	babe	X	%	Foreign=Yes	3	conj	_	_
+6	:	:	PUNCT	ZIP	_	7	punct	_	_
+7	Pig	pig	X	%	Foreign=Yes	5	conj	_	_
+8	in	in	X	%	Foreign=Yes	9	case	_	_
+9	the	the	X	%	Foreign=Yes	7	flat:foreign	_	_
+10	City	city	X	%	Foreign=Yes	9	flat:foreign	_	_
+11	,	,	PUNCT	ZIP	_	12	punct	_	_
+12	Godzilla	godzilla	X	%	Foreign=Yes	3	conj	_	_
+13	,	,	PUNCT	ZIP	_	14	punct	_	_
+14	Mighty	mighty	X	%	Foreign=Yes	3	conj	_	_
+15	Joe	joe	X	%	Foreign=Yes	14	flat:foreign	_	_
+16	Young	young	X	%	Foreign=Yes	14	flat:foreign	_	_
+17	,	,	PUNCT	ZIP	_	18	punct	_	_
+18	Small	small	X	%	Foreign=Yes	3	conj	_	_
+19	Soldiers	soldiers	X	%	Foreign=Yes	18	flat:foreign	_	_
+20	,	,	PUNCT	ZIP	_	21	punct	_	_
+21	The	the	X	%	Foreign=Yes	3	conj	_	_
+22	Truman	truman	X	%	Foreign=Yes	21	flat:foreign	_	_
+23	Show	show	X	%	Foreign=Yes	21	flat:foreign	_	_
+24	a	a	CCONJ	O	_	27	cc	_	_
+25	What	what	X	%	Foreign=Yes	28	obj	_	_
+26	Dreams	dreams	X	%	Foreign=Yes	27	nsubj	_	_
+27	May	may	X	%	Foreign=Yes	3	conj	_	_
+28	Come	come	X	%	Foreign=Yes	27	obj	_	_
+29	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s31
+# text = Len tri z nich ( vo väčšine kategórií je päť nominácií ) sa budú môcť 21 . 3 . uchádzať o Oscara .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#31
+1	Len	len	PART	T	_	2	advmod:emph	_	_
+2	tri	tri	NUM	NNip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+3	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	nich	on	PRON	PFip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
+5	(	(	PUNCT	ZIP	_	9	punct	_	_
+6	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	7	case	_	_
+7	väčšine	väčšina	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+8	kategórií	kategória	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
+10	päť	päť	NUM	NUnp1	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	_
+11	nominácií	nominácia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	)	)	PUNCT	ZIP	_	9	punct	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	20	expl:pv	_	_
+14	budú	byť	AUX	VBepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	15	aux	_	_
+15	môcť	môcť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	_
+16	21	21	NUM	0	NumForm=Digit	18	nummod	_	_
+17	.	.	PUNCT	ZIP	_	16	punct	_	_
+18	3	3	NUM	0	NumForm=Digit	20	obl	_	_
+19	.	.	PUNCT	ZIP	_	18	punct	_	_
+20	uchádzať	uchádzať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	15	xcomp	_	_
+21	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	22	case	_	_
+22	Oscara	oscar	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	20	obl:arg	_	_
+23	.	.	PUNCT	ZIP	_	15	punct	_	_
+
+# sent_id = s32
+# text = GIBSON - OD WB K PARAMOUNTU
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#32
+1	GIBSON	gibson	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	-	-	PUNCT	ZIP	_	4	punct	_	_
+3	OD	od	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	WB	wb	X	W	Abbr=Yes	1	conj	_	_
+5	K	k	ADP	Eu3	AdpType=Prep|Case=Dat	6	case	_	_
+6	PARAMOUNTU	paramount	PROPN	SSis3:r	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	orphan	_	_
+
+# sent_id = s33
+# text = Mel Gibson a Bruce Davey ukončili 8 - ročnú spoluprácu svojej produkčnej spoločnosti Icon Prods . s Warner Bros . a " prestupujú " k spoločnosti Paramount , s ktorou podpísali zmluvu na tri roky a niekoľko filmov .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#33
+1	Mel	mel	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Gibson	gibson	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	a	a	CCONJ	O	_	5	cc	_	_
+4	Bruce	bruce	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+5	Davey	davey	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+6	ukončili	ukončiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	8	8	NUM	0	NumForm=Digit	9	nummod	_	_
+8	-	-	PUNCT	ZIP	_	7	punct	_	_
+9	ročnú	ročný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	spoluprácu	spolupráca	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+11	svojej	svoj	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	13	det	_	_
+12	produkčnej	produkčný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	spoločnosti	spoločnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+14	Icon	icon	X	%	Foreign=Yes	13	nmod	_	_
+15	Prods	prods	X	%	Foreign=Yes	14	flat:foreign	_	_
+16	.	.	PUNCT	ZIP	_	14	punct	_	_
+17	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	18	case	_	_
+18	Warner	warner	X	%	Foreign=Yes	10	nmod	_	_
+19	Bros	bros	X	%	Foreign=Yes	18	flat:foreign	_	_
+20	.	.	PUNCT	ZIP	_	18	punct	_	_
+21	a	a	CCONJ	O	_	23	cc	_	_
+22	"	"	PUNCT	ZIP	_	23	punct	_	_
+23	prestupujú	prestupovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	conj	_	_
+24	"	"	PUNCT	ZIP	_	23	punct	_	_
+25	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	26	case	_	_
+26	spoločnosti	spoločnosť	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	23	obl	_	_
+27	Paramount	paramount	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nmod	_	_
+28	,	,	PUNCT	ZIP	_	31	punct	_	_
+29	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	30	case	_	_
+30	ktorou	ktorý	DET	PAfs7	Case=Ins|Gender=Fem|Number=Sing|PronType=Int,Rel	31	obl:arg	_	_
+31	podpísali	podpísať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	26	acl	_	_
+32	zmluvu	zmluva	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_
+33	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	35	case	_	_
+34	tri	tri	NUM	NNip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	35	nummod	_	_
+35	roky	rok	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	32	nmod	_	_
+36	a	a	CCONJ	O	_	38	cc	_	_
+37	niekoľko	niekoľko	DET	PUns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Card|PronType=Ind	38	det:numgov	_	_
+38	filmov	film	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	35	conj	_	_
+39	.	.	PUNCT	ZIP	_	6	punct	_	_
+
+# sent_id = s34
+# text = Gibsom by si mal v jednom z nich zahrať hlavnú úlohu .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#34
+1	Gibsom	gibson	PROPN	SSms1:rq	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	by	by	AUX	Y	Mood=Cnd	4	aux	_	_
+3	si	si	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+4	mal	mať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	jednom	jeden	NUM	NFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+7	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	nich	on	PRON	PFip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nmod	_	_
+9	zahrať	zahrať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+10	hlavnú	hlavný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	úlohu	úloha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+12	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s35
+# text = TRAVOLTA OPäŤ SPIEVA
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#35
+1	TRAVOLTA	travolta	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	OPäŤ	opäť	ADV	Dx	Degree=Pos	3	advmod	_	_
+3	SPIEVA	spievať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+
+# sent_id = s36
+# text = Po prvý raz od úspešnej Pomády si John Travolta vo filme opäť zaspieva .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#36
+1	Po	po	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+2	prvý	prvý	ADJ	NAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	raz	raz	ADV	NSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Mult	13	obl	_	_
+4	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+5	úspešnej	úspešný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	Pomády	pomáda	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+7	si	si	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+8	John	john	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+9	Travolta	travolta	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+10	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	11	case	_	_
+11	filme	film	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+12	opäť	opäť	ADV	Dx	Degree=Pos	13	advmod	_	_
+13	zaspieva	zaspievať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	.	.	PUNCT	ZIP	_	13	punct	_	_
+
+# sent_id = s37
+# text = Vo filme Standing Room Only si zahrá Jimmyho Roselliho , ktorý má problémy s mafiou .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#37
+1	Vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	2	case	_	_
+2	filme	film	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+3	Standing	standing	X	%	Foreign=Yes	2	nmod	_	_
+4	Room	room	X	%	Foreign=Yes	3	flat:foreign	_	_
+5	Only	only	X	%	Foreign=Yes	3	flat:foreign	_	_
+6	si	si	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+7	zahrá	zahrať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	Jimmyho	jimmy	PROPN	SFms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
+9	Roselliho	roselli	PROPN	SFms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	,	,	PUNCT	ZIP	_	12	punct	_	_
+11	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	12	nsubj	_	_
+12	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	acl	_	_
+13	problémy	problém	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+14	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	15	case	_	_
+15	mafiou	mafia	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	13	nmod	_	_
+16	.	.	PUNCT	ZIP	_	7	punct	_	_
+
+# sent_id = s38
+# text = Film začne pre Disneyho 15 . marca 1999 nakrúcať Gus Van Sant .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#38
+1	Film	film	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+2	začne	začať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	Disneyho	disney	PROPN	SFms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+5	15	15	NUM	0	NumForm=Digit	7	nummod	_	_
+6	.	.	PUNCT	ZIP	_	5	punct	_	_
+7	marca	marec	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+8	1999	1999	NUM	0	NumForm=Digit	7	nummod	_	_
+9	nakrúcať	nakrúcať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
+10	Gus	gus	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_
+11	Van	van	X	Q	Hyph=Yes	12	nmod	_	_
+12	Sant	sant	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+13	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s39
+# text = L . A . CONFIDENTIAL AKO SERIÁL
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#39
+1	L	l	X	W	Abbr=Yes	3	nmod	_	_
+2	.	.	PUNCT	ZIP	_	1	punct	_	_
+3	A	a	X	W	Abbr=Yes	0	root	_	_
+4	.	.	PUNCT	ZIP	_	3	punct	_	_
+5	CONFIDENTIAL	confidential	X	%	Foreign=Yes	3	nmod	_	_
+6	AKO	ako	SCONJ	O	_	7	mark	_	_
+7	SERIÁL	seriál	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	_
+
+# sent_id = s40
+# text = Úspešný film .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#40
+1	Úspešný	úspešný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	film	film	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s41
+# text = L . A . - Prísne tajné ( L . A . Confidential ) z prostredia Los Angeles päťdesiatych rokov sa vráti .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#41
+1	L	l	X	W	Abbr=Yes	3	nmod	_	_
+2	.	.	PUNCT	ZIP	_	1	punct	_	_
+3	A	a	X	W	Abbr=Yes	22	nsubj	_	_
+4	.	.	PUNCT	ZIP	_	3	punct	_	_
+5	-	-	PUNCT	ZIP	_	7	punct	_	_
+6	Prísne	prísne	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	tajné	tajný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+8	(	(	PUNCT	ZIP	_	11	punct	_	_
+9	L	l	X	W	Abbr=Yes	11	nmod	_	_
+10	.	.	PUNCT	ZIP	_	9	punct	_	_
+11	A	a	X	W	Abbr=Yes	3	appos	_	_
+12	.	.	PUNCT	ZIP	_	11	punct	_	_
+13	Confidential	confidential	X	%	Foreign=Yes	11	nmod	_	_
+14	)	)	PUNCT	ZIP	_	11	punct	_	_
+15	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+16	prostredia	prostredie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+17	Los	los	X	Q	Hyph=Yes	18	nmod	_	_
+18	Angeles	angeles	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+19	päťdesiatych	päťdesiaty	ADJ	NAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Ord	20	amod	_	_
+20	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+21	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	22	expl:pv	_	_
+22	vráti	vrátiť	VERB	VKdpc+	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	.	.	PUNCT	ZIP	_	22	punct	_	_
+
+# sent_id = s42
+# text = Tentoraz na televízne obrazovky v podobe 13 - dielneho seriálu .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#42
+1	Tentoraz	tentoraz	ADV	Dx	Degree=Pos	0	root	_	_
+2	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+3	televízne	televízny	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+4	obrazovky	obrazovka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	1	dep	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	podobe	podoba	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	1	dep	_	_
+7	13	13	NUM	0	NumForm=Digit	9	nummod	_	_
+8	-	-	PUNCT	ZIP	_	7	punct	_	_
+9	dielneho	dielneho	X	Q	Hyph=Yes	10	nmod	_	_
+10	seriálu	seriál	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+11	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s43
+# text = Kedže jedným z producentov je HBO , mali by sme mať možnosť vidieť ho i u nás .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#43
+1	Kedže	keďže	SCONJ	O	_	2	mark	_	_
+2	jedným	jeden	NUM	NFms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	advcl	_	_
+3	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	producentov	producent	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+6	HBO	hbo	X	W	Abbr=Yes	2	nsubj	_	_
+7	,	,	PUNCT	ZIP	_	2	punct	_	_
+8	mali	mať	VERB	VLepah+	Aspect=Imp|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	by	by	AUX	Y	Mood=Cnd	8	aux	_	_
+10	sme	byť	AUX	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_
+11	mať	mať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	8	xcomp	_	_
+12	možnosť	možnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	vidieť	vidieť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	12	acl	_	_
+14	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	i	i	PART	T	_	17	advmod:emph	_	_
+16	u	u	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+17	nás	my	PRON	PPhp2	Case=Gen|Number=Plur|Person=1|PronType=Prs	13	obl	_	_
+18	.	.	PUNCT	ZIP	_	8	punct	_	_
+
+# sent_id = s44
+# text = JACKIE CHAN AN DIVOKOM ZÁPADE
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#44
+1	JACKIE	jackie	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	CHAN	chan	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	AN	na	ADP	Eu6:q	AdpType=Prep|Case=Loc|Typo=Yes	5	case	_	_
+4	DIVOKOM	divoký	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	ZÁPADE	západ	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	dep	_	_
+
+# sent_id = s45
+# text = Úspech filmu Rush Hour ( onedlho ho uvidíme i u nás - pozri PREMIÉRY ) s Jackie Chanom ( tržby 138 miliónov dolárov ) nedal spať producentom dovtedy , kým Jackie neprišiel s nápadom na ďalší film .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#45
+1	Úspech	úspech	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+2	filmu	film	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Rush	rush	X	%	Foreign=Yes	2	nmod	_	_
+4	Hour	hour	X	%	Foreign=Yes	3	flat:foreign	_	_
+5	(	(	PUNCT	ZIP	_	8	punct	_	_
+6	onedlho	onedlho	ADV	Dx	Degree=Pos	8	advmod	_	_
+7	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	uvidíme	uvidieť	VERB	VKdpa+	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	25	parataxis	_	_
+9	i	i	PART	T	_	11	advmod:emph	_	_
+10	u	u	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+11	nás	my	PRON	PPhp2	Case=Gen|Number=Plur|Person=1|PronType=Prs	8	obl	_	_
+12	-	-	PUNCT	ZIP	_	13	punct	_	_
+13	pozri	pozrieť	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	8	conj	_	_
+14	PREMIÉRY	premiéra	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+15	)	)	PUNCT	ZIP	_	8	punct	_	_
+16	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	18	case	_	_
+17	Jackie	jackie	PROPN	SUms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	nmod	_	_
+18	Chanom	chan	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+19	(	(	PUNCT	ZIP	_	20	punct	_	_
+20	tržby	tržba	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	25	dep	_	_
+21	138	138	NUM	0	NumForm=Digit	20	nummod	_	_
+22	miliónov	milión	NUM	NSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nummod	_	_
+23	dolárov	dolár	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	)	)	PUNCT	ZIP	_	20	punct	_	_
+25	nedal	dať	VERB	VLjsci-	Animacy=Inan|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+26	spať	spať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	25	xcomp	_	_
+27	producentom	producent	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	26	obj	_	_
+28	dovtedy	dovtedy	ADV	PD	PronType=Dem	26	advmod	_	_
+29	,	,	PUNCT	ZIP	_	32	punct	_	_
+30	kým	kým	SCONJ	O	_	32	mark	_	_
+31	Jackie	jackie	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	_
+32	neprišiel	prísť	VERB	VLdscm-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	25	advcl	_	_
+33	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	34	case	_	_
+34	nápadom	nápad	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	32	obl	_	_
+35	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	37	case	_	_
+36	ďalší	ďalší	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	film	film	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	34	nmod	_	_
+38	.	.	PUNCT	ZIP	_	25	punct	_	_
+
+# sent_id = s46
+# text = Bude mať názov Shanghai Noon a režisérom bude debutujúci Tom Dey .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#46
+1	Bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	2	aux	_	_
+2	mať	mať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	_
+3	názov	názov	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	Shanghai	shanghai	X	%	Foreign=Yes	3	nmod	_	_
+5	Noon	noon	X	%	Foreign=Yes	4	flat:foreign	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	režisérom	režisér	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	conj	_	_
+8	bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	7	cop	_	_
+9	debutujúci	debutujúci	ADJ	Gkms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	11	amod	_	_
+10	Tom	tom	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
+11	Dey	dey	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+12	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s47
+# text = Chan si zahrá Číňana , ktorý pricestuje na Divoký západ , aby zachránil unesenú dcéru čínskeho konzula .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#47
+1	Chan	chan	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	si	si	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	zahrá	zahrať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Číňana	číňan	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	,	,	PUNCT	ZIP	_	7	punct	_	_
+6	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	7	nsubj	_	_
+7	pricestuje	pricestovať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	acl	_	_
+8	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+9	Divoký	divoký	ADJ	AAis4x:r	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	západ	západ	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+11	,	,	PUNCT	ZIP	_	13	punct	_	_
+12	aby	aby	SCONJ	OY	Mood=Cnd	13	mark	_	_
+13	zachránil	zachrániť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	advcl	_	_
+14	unesenú	unesený	ADJ	Gtfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	dcéru	dcéra	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+16	čínskeho	čínsky	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	konzula	konzul	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s48
+# text = Scenár napísali Alfred Gough a Miles Millar ( Smrtonosná zbraň 4 ) .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#48
+1	Scenár	scenár	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	napísali	napísať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	Alfred	alfred	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+4	Gough	gough	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	a	a	CCONJ	O	_	7	cc	_	_
+6	Miles	miles	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+7	Millar	millar	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+8	(	(	PUNCT	ZIP	_	10	punct	_	_
+9	Smrtonosná	smrtonosný	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	zbraň	zbraň	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	_
+11	4	4	NUM	0	NumForm=Digit	10	nummod	_	_
+12	)	)	PUNCT	ZIP	_	10	punct	_	_
+13	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s49
+# text = JODIE FOSTER V CIRKUSE
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#49
+1	JODIE	jodie	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_
+2	FOSTER	foster	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	CIRKUSE	cirkus	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	dep	_	_
+
+# sent_id = s50
+# text = Jodie Foster sa vracia k filmu .
+# orig_file_sentence inzine1310-01_kandracova_inzine1310-01_tencerova#50
+1	Jodie	jodie	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_
+2	Foster	foster	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	vracia	vracať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	6	case	_	_
+6	filmu	film	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+7	.	.	PUNCT	ZIP	_	4	punct	_	_
+

@@ -1,0 +1,226 @@
+# sent_id = s1
+# text = Černobyľská havária
+# orig_file_sentence cernobyl000_tencerova_cernobyl000_kandracova#1
+1	Černobyľská	černobyľský	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	havária	havária	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = s2
+# text = Černobyľ
+# orig_file_sentence cernobyl000_tencerova_cernobyl000_kandracova#2
+1	Černobyľ	černobyľ	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s3
+# text = Černobyľská havária sa stala 26 . apríla 1986 , v černobyľskej jadrovej elektrárni na Ukrajine ( vtedy časť Sovietskeho zväzu ) .
+# orig_file_sentence cernobyl000_tencerova_cernobyl000_kandracova#3
+1	Černobyľská	černobyľský	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	havária	havária	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	stala	stať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	26	26	NUM	0	NumForm=Digit	7	nummod	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	apríla	apríl	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+8	1986	1986	NUM	0	NumForm=Digit	7	nummod	_	_
+9	,	,	PUNCT	Z	_	13	punct	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+11	černobyľskej	černobyľský	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+12	jadrovej	jadrový	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	elektrárni	elektráreň	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+14	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	Ukrajine	ukrajina	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	_
+16	(	(	PUNCT	Z	_	15	punct	_	_
+17	vtedy	vtedy	ADV	PD	PronType=Dem	15	dep	_	_
+18	časť	časť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	15	dep	_	_
+19	Sovietskeho	sovietsky	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	zväzu	zväz	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	)	)	PUNCT	Z	_	15	punct	_	_
+22	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s4
+# text = Ide o najhoršiu jadrovú haváriu v histórii jadrovej energetiky .
+# orig_file_sentence cernobyl000_tencerova_cernobyl000_kandracova#4
+1	Ide	ísť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+3	najhoršiu	zlý	ADJ	AAfs4z	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	5	amod	_	_
+4	jadrovú	jadrový	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	haváriu	havária	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obl:arg	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	histórii	história	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+8	jadrovej	jadrový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	energetiky	energetika	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s5
+# text = V priebehu absurdne riskantného pokusu vtedy došlo k prehriatiu a následne explózii reaktora a do vzduchu sa uvoľnil rádioaktívny mrak , ktorý postupoval cez západnú časť Sovietskeho zväzu , Východnú Európu a Škandináviu .
+# orig_file_sentence cernobyl000_tencerova_cernobyl000_kandracova#5
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	priebehu	priebehu	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+3	absurdne	absurdne	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	riskantného	riskantný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	pokusu	pokus	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+6	vtedy	vtedy	ADV	PD	PronType=Dem	7	advmod	_	_
+7	došlo	dôjsť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	18	parataxis	_	_
+8	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	9	case	_	_
+9	prehriatiu	prehriatie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	7	obl:arg	_	_
+10	a	a	CCONJ	O	_	11	cc	_	_
+11	následne	následne	ADV	Dx	Degree=Pos	7	conj	_	_
+12	explózii	explózia	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	11	orphan	_	_
+13	reaktora	reaktor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	a	a	CCONJ	O	_	18	cc	_	_
+15	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+16	vzduchu	vzduch	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+17	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	18	expl:pv	_	_
+18	uvoľnil	uvoľniť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+19	rádioaktívny	rádioaktívny	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	mrak	mrak	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+21	,	,	PUNCT	Z	_	23	punct	_	_
+22	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	23	nsubj	_	_
+23	postupoval	postupovať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	20	acl	_	_
+24	cez	cez	ADP	Eu4	AdpType=Prep|Case=Acc	26	case	_	_
+25	západnú	západný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	časť	časť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	23	obl	_	_
+27	Sovietskeho	sovietsky	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	zväzu	zväz	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+29	,	,	PUNCT	Z	_	31	punct	_	_
+30	Východnú	východný	ADJ	AAfs4x:r	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	Európu	európa	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	26	conj	_	_
+32	a	a	CCONJ	O	_	33	cc	_	_
+33	Škandináviu	škandinávia	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	26	conj	_	_
+34	.	.	PUNCT	Z	_	18	punct	_	_
+
+# sent_id = s6
+# text = Boli kontaminované rozsiahle oblasti Ukrajiny , Bieloruska a Ruska , čo si vyžiadalo evakuáciu a presídlenie asi 200000 ľudí .
+# orig_file_sentence cernobyl000_tencerova_cernobyl000_kandracova#6
+1	Boli	byť	AUX	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	2	cop	_	_
+2	kontaminované	kontaminovaný	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+3	rozsiahle	rozsiahly	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+4	oblasti	oblasť	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+5	Ukrajiny	ukrajina	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	Bieloruska	bielorusko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	5	conj	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	Ruska	rusko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	5	conj	_	_
+10	,	,	PUNCT	Z	_	13	punct	_	_
+11	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	13	nsubj	_	_
+12	si	si	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+13	vyžiadalo	vyžiadať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+14	evakuáciu	evakuácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	a	a	CCONJ	O	_	16	cc	_	_
+16	presídlenie	presídlenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	14	conj	_	_
+17	asi	asi	PART	T	_	18	advmod:emph	_	_
+18	200000	200000	NUM	0	NumForm=Digit	14	nummod	_	_
+19	ľudí	človek	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s7
+# text = Približne 60 % rádioaktívneho spadu skončilo v Bielorusku .
+# orig_file_sentence cernobyl000_tencerova_cernobyl000_kandracova#7
+1	Približne	približne	PART	T	_	2	advmod:emph	_	_
+2	60	60	NUM	0	NumForm=Digit	6	nsubj	_	_
+3	%	%	SYM	#	_	2	nmod	_	_
+4	rádioaktívneho	rádioaktívny	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	spadu	spad	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	skončilo	skončiť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	Bielorusku	bielorusko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+9	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s8
+# text = Nehoda zvýšila obavy o bezpečnosť sovietskeho jadrového priemyslu , spomalila na mnoho rokov jeho expanziu a zároveň nútila sovietsku vládu prehodnotiť mieru utajovania .
+# orig_file_sentence cernobyl000_tencerova_cernobyl000_kandracova#8
+1	Nehoda	nehoda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	zvýšila	zvýšiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	obavy	obava	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+4	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	bezpečnosť	bezpečnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_
+6	sovietskeho	sovietsky	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	jadrového	jadrový	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	priemyslu	priemysel	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+9	,	,	PUNCT	Z	_	10	punct	_	_
+10	spomalila	spomaliť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	mnoho	mnoho	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
+13	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	jeho	jeho	DET	PUfs4	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	expanziu	expanzia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+16	a	a	CCONJ	O	_	18	cc	_	_
+17	zároveň	zároveň	ADV	Dx	Degree=Pos	18	advmod	_	_
+18	nútila	nútiť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+19	sovietsku	sovietsky	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	vládu	vláda	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	18	iobj	_	_
+21	prehodnotiť	prehodnotiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	18	xcomp	_	_
+22	mieru	miera	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+23	utajovania	utajovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+24	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s9
+# text = Nástupnícke štáty po rozpade Sovietskeho zväzu – Rusko , Ukrajina a Bielorusko dodnes nesú bremeno pokračujúcich nákladov na dekontamináciu a liečenie ochorení spôsobených černobyľskou haváriou .
+# orig_file_sentence cernobyl000_tencerova_cernobyl000_kandracova#9
+1	Nástupnícke	nástupnícky	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+2	štáty	štát	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+3	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	rozpade	rozpad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+5	Sovietskeho	sovietsky	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	zväzu	zväz	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	–	–	PUNCT	Z	_	8	punct	_	_
+8	Rusko	rusko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	2	appos	_	_
+9	,	,	PUNCT	Z	_	10	punct	_	_
+10	Ukrajina	ukrajina	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	8	conj	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	Bielorusko	bielorusko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	8	conj	_	_
+13	dodnes	dodnes	ADV	Dx	Degree=Pos	14	advmod	_	_
+14	nesú	niesť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	bremeno	bremeno	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+16	pokračujúcich	pokračujúci	ADJ	Gkip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	17	amod	_	_
+17	nákladov	náklad	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+18	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	19	case	_	_
+19	dekontamináciu	dekontaminácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	_
+20	a	a	CCONJ	O	_	21	cc	_	_
+21	liečenie	liečenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	19	conj	_	_
+22	ochorení	ochorenie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	21	nmod	_	_
+23	spôsobených	spôsobený	ADJ	Gtnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	22	amod	_	_
+24	černobyľskou	černobyľský	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	haváriou	havária	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	23	obj	_	_
+26	.	.	PUNCT	Z	_	14	punct	_	_
+
+# sent_id = s10
+# text = Je ťažké presne zaznamenať počet úmrtí spôsobených udalosťami v Černobyle – odhady sa pohybujú od stoviek po stovky tisíc .
+# orig_file_sentence cernobyl000_tencerova_cernobyl000_kandracova#10
+1	Je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	ťažké	ťažký	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+3	presne	presne	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	zaznamenať	zaznamenať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	2	csubj	_	_
+5	počet	počet	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	úmrtí	úmrtie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+7	spôsobených	spôsobený	ADJ	Gtnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
+8	udalosťami	udalosť	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	7	obj	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	Černobyle	černobyľ	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+11	–	–	PUNCT	Z	_	14	punct	_	_
+12	odhady	odhad	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pv	_	_
+14	pohybujú	pohybovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+15	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+16	stoviek	stovka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	14	obl:arg	_	_
+17	po	po	ADP	Eu4	AdpType=Prep|Case=Acc	18	case	_	_
+18	stovky	stovka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	14	obl:arg	_	_
+19	tisíc	tisíc	NUM	NUns2	Case=Gen|Gender=Neut|Number=Sing	18	nummod	_	_
+20	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s11
+# text = Problém je stále široko diskutovaný a jeho dlhodobým dopadom sa stále celkom neporozumelo .
+# orig_file_sentence cernobyl000_tencerova_cernobyl000_kandracova#11
+1	Problém	problém	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	stále	stále	ADV	Dx	Degree=Pos	5	advmod	_	_
+4	široko	široko	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	diskutovaný	diskutovaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+6	a	a	CCONJ	O	_	13	cc	_	_
+7	jeho	jeho	DET	PUis7	Animacy=Inan|Case=Ins|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+8	dlhodobým	dlhodobý	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	dopadom	dopad	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl:agent	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pass	_	_
+11	stále	stále	ADV	Dx	Degree=Pos	13	advmod	_	_
+12	celkom	celkom	ADV	Dx	Degree=Pos	13	advmod	_	_
+13	neporozumelo	porozumieť	VERB	VLdscn-	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	5	conj	_	_
+14	.	.	PUNCT	Z	_	5	punct	_	_
+

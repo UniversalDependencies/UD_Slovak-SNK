@@ -1,0 +1,110 @@
+# sent_id = s1
+# text = Júl 1969 , r . P .
+# orig_file_sentence apollo004_tencerova_apollo004_kandracova#1
+1	Júl	júl	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	1969	1969	NUM	0	NumForm=Digit	1	nummod	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	r	r	X	W	Abbr=Yes	1	nmod	_	_
+5	.	.	PUNCT	Z	_	4	punct	_	_
+6	P	p	X	W	Abbr=Yes	4	nmod	_	_
+7	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s2
+# text = Prišli sme v mieri v mene celého ľudstva .
+# orig_file_sentence apollo004_tencerova_apollo004_kandracova#2
+1	Prišli	prísť	VERB	VLdpah+	Aspect=Perf|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sme	byť	AUX	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	mieri	mier	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	mene	mena	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	1	obl:arg	_	_
+7	celého	celý	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	ľudstva	ľudstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+9	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s3
+# text = 24 . júla sa astronauti vrátili na Zem ako hrdinovia .
+# orig_file_sentence apollo004_tencerova_apollo004_kandracova#3
+1	24	24	NUM	0	NumForm=Digit	3	nummod	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+3	júla	júl	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+5	astronauti	astronaut	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	vrátili	vrátiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+8	Zem	zem	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+9	ako	ako	SCONJ	O	_	10	mark	_	_
+10	hrdinovia	hrdina	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	xcomp	_	_
+11	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s4
+# text = Miesto pristátia bolo 2660 km východne od Wake Island a 380 km južne do Johnsonovho atolu a 24 km od záchrannej lode USS Hornet .
+# orig_file_sentence apollo004_tencerova_apollo004_kandracova#4
+1	Miesto	miesto	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	pristátia	pristátie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	bolo	byť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	2660	2660	NUM	0	NumForm=Digit	3	obl	_	_
+5	km	km	X	W	Abbr=Yes	4	nmod	_	_
+6	východne	východne	ADV	Dx	Degree=Pos	5	advmod	_	_
+7	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	Wake	wake	X	%	Foreign=Yes	6	advmod	_	_
+9	Island	island	X	%	Foreign=Yes	8	flat:foreign	_	_
+10	a	a	CCONJ	O	_	11	cc	_	_
+11	380	380	NUM	0	NumForm=Digit	4	conj	_	_
+12	km	km	X	W	Abbr=Yes	11	nmod	_	_
+13	južne	južne	ADV	Dx	Degree=Pos	12	advmod	_	_
+14	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+15	Johnsonovho	johnsonov	ADJ	AFis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	atolu	atol	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	24	24	NUM	0	NumForm=Digit	4	conj	_	_
+19	km	km	X	W	Abbr=Yes	18	nmod	_	_
+20	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	22	case	_	_
+21	záchrannej	záchranný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	lode	loď	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	19	obl	_	_
+23	USS	uss	X	W	Abbr=Yes	24	nmod	_	_
+24	Hornet	hornet	X	%	Foreign=Yes	22	nmod	_	_
+25	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s5
+# text = Fakty
+# orig_file_sentence apollo004_tencerova_apollo004_kandracova#5
+1	Fakty	fakt	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+
+# sent_id = s6
+# text = Niektoré interné dokumenty NASA uvádzajú volacie znaky veliteľského modulu a lunárneho modulu ako " Snowcone " a " Haystack " ; tieto boli v tichosti zmenené predtým , ako boli oznámené tlači .
+# orig_file_sentence apollo004_tencerova_apollo004_kandracova#6
+1	Niektoré	niektorý	DET	PAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+2	interné	interný	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	dokumenty	dokument	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+4	NASA	nasa	X	W	Abbr=Yes	3	nmod	_	_
+5	uvádzajú	uvádzať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	volacie	volací	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+7	znaky	znak	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+8	veliteľského	veliteľský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	modulu	modul	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obj	_	_
+10	a	a	CCONJ	O	_	12	cc	_	_
+11	lunárneho	lunárny	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	modulu	modul	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
+13	ako	ako	SCONJ	O	_	15	cc	_	_
+14	"	"	PUNCT	Z	_	15	punct	_	_
+15	Snowcone	snowcone	X	%	Foreign=Yes	7	xcomp	_	_
+16	"	"	PUNCT	Z	_	15	punct	_	_
+17	a	a	CCONJ	O	_	19	cc	_	_
+18	"	"	PUNCT	Z	_	19	punct	_	_
+19	Haystack	haystack	X	%	Foreign=Yes	15	conj	_	_
+20	"	"	PUNCT	Z	_	19	punct	_	_
+21	;	;	PUNCT	Z	_	26	punct	_	_
+22	tieto	tento	DET	PFip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	26	nsubj:pass	_	_
+23	boli	byť	AUX	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	26	aux:pass	_	_
+24	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	25	case	_	_
+25	tichosti	tichosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	26	obl	_	_
+26	zmenené	zmenený	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	5	conj	_	_
+27	predtým	predtým	ADV	Dx	Degree=Pos	26	advmod	_	_
+28	,	,	PUNCT	Z	_	31	punct	_	_
+29	ako	ako	SCONJ	O	_	31	mark	_	_
+30	boli	byť	AUX	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	31	aux:pass	_	_
+31	oznámené	oznámený	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	27	obl	_	_
+32	tlači	tlač	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	31	obj	_	_
+33	.	.	PUNCT	Z	_	5	punct	_	_
+

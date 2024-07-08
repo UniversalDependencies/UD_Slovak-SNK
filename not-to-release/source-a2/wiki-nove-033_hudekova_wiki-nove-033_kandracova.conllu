@@ -1,0 +1,622 @@
+# sent_id = s1
+# text = Weimarská republika
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#1
+1	Weimarská	weimarský	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	republika	republika	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = s2
+# text = Weimarská republika je označenie pre historické štádium Nemecka po páde monarchií v Nemecku v roku 1918 až do nástupu nacistov k moci v roku 1933 .
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#2
+1	Weimarská	weimarský	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	republika	republika	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	označenie	označenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+5	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+6	historické	historický	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	štádium	štádium	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	_
+8	Nemecka	nemecko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	páde	pád	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+11	monarchií	monarchia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	Nemecku	nemecko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	11	nmod	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+16	1918	1918	NUM	0	NumForm=Digit	15	nummod	_	_
+17	až	až	PART	T	_	19	advmod:emph	_	_
+18	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	19	case	_	_
+19	nástupu	nástup	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+20	nacistov	nacista	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+21	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	22	case	_	_
+22	moci	moc	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	19	nmod	_	_
+23	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+24	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	_
+25	1933	1933	NUM	0	NumForm=Digit	24	nummod	_	_
+26	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s3
+# text = Napriek tomu , že oficiálny názov Nemecka aj naďalej znel Nemecká ríša ( Deutsches Reich ) , išlo o čisto republikánsky spolkový štátny útvar , s demokratickou spolkovou ústavou , prijatou v roku 1919 vo Weimare , kde sa po januárových voľbách roku 1919 , zišiel 6 . februára 1919 prvý skutočne demokraticky zvolený parlament v nemeckej histórii .
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#3
+1	Napriek	napriek	ADP	Eu3	AdpType=Prep|Case=Dat	2	case	_	_
+2	tomu	to	DET	PFns3	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	18	obl	_	_
+3	,	,	PUNCT	Z	_	10	punct	_	_
+4	že	že	SCONJ	O	_	10	mark	_	_
+5	oficiálny	oficiálny	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	názov	názov	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+7	Nemecka	nemecko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	aj	aj	PART	T	_	10	advmod:emph	_	_
+9	naďalej	naďalej	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	znel	znieť	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	acl	_	_
+11	Nemecká	nemecký	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	ríša	ríša	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	10	obl	_	_
+13	(	(	PUNCT	Z	_	14	punct	_	_
+14	Deutsches	deutsches	X	%	Foreign=Yes	12	appos	_	_
+15	Reich	reich	X	%	Foreign=Yes	14	flat:foreign	_	_
+16	)	)	PUNCT	Z	_	14	punct	_	_
+17	,	,	PUNCT	Z	_	10	punct	_	_
+18	išlo	ísť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+19	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	24	case	_	_
+20	čisto	čisto	ADV	Dx	Degree=Pos	21	advmod	_	_
+21	republikánsky	republikánsky	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+22	spolkový	spolkový	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+23	štátny	štátny	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	útvar	útvar	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl:arg	_	_
+25	,	,	PUNCT	Z	_	29	punct	_	_
+26	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	29	case	_	_
+27	demokratickou	demokratický	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+28	spolkovou	spolkový	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	ústavou	ústava	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	24	nmod	_	_
+30	,	,	PUNCT	Z	_	31	punct	_	_
+31	prijatou	prijatý	ADJ	Gtfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	29	amod	_	_
+32	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	33	case	_	_
+33	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	31	obl	_	_
+34	1919	1919	NUM	0	NumForm=Digit	33	nummod	_	_
+35	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	36	case	_	_
+36	Weimare	weimar	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	31	obl	_	_
+37	,	,	PUNCT	Z	_	46	punct	_	_
+38	kde	kde	ADV	PD	PronType=Int,Rel	46	advmod	_	_
+39	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	46	expl:pv	_	_
+40	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	42	case	_	_
+41	januárových	januárový	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	42	amod	_	_
+42	voľbách	voľba	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	46	obl	_	_
+43	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	_
+44	1919	1919	NUM	0	NumForm=Digit	43	nummod	_	_
+45	,	,	PUNCT	Z	_	46	punct	_	_
+46	zišiel	zísť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	36	acl	_	_
+47	6	6	NUM	0	NumForm=Digit	49	nummod	_	_
+48	.	.	PUNCT	Z	_	47	punct	_	_
+49	februára	február	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	46	obl	_	_
+50	1919	1919	NUM	0	NumForm=Digit	49	nummod	_	_
+51	prvý	prvý	ADJ	NAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	55	amod	_	_
+52	skutočne	skutočne	ADV	Dx	Degree=Pos	53	advmod	_	_
+53	demokraticky	demokraticky	ADV	Dx	Degree=Pos	54	advmod	_	_
+54	zvolený	zvolený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	55	amod	_	_
+55	parlament	parlament	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	46	nsubj	_	_
+56	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	58	case	_	_
+57	nemeckej	nemecký	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	58	amod	_	_
+58	histórii	história	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	55	nmod	_	_
+59	.	.	PUNCT	Z	_	18	punct	_	_
+
+# sent_id = s4
+# text = Od tohoto mesta je tiež odvodené označenie pre toto obdobie .
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#4
+1	Od	od	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	tohoto	toto	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	mesta	mesto	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	obl:arg	_	_
+4	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	tiež	tiež	PART	T	_	6	advmod:emph	_	_
+6	odvodené	odvodený	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+7	označenie	označenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+8	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+9	toto	toto	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	_
+10	obdobie	obdobie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	_
+11	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s5
+# text = Metropolou Nemecka však zostal aj naďalej Berlín .
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#5
+1	Metropolou	metropola	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	4	obj	_	_
+2	Nemecka	nemecko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	však	však	PART	T	_	4	advmod	_	_
+4	zostal	zostať	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	aj	aj	PART	T	_	6	advmod:emph	_	_
+6	naďalej	naďalej	ADV	Dx	Degree=Pos	4	advmod	_	_
+7	Berlín	berlín	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+8	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s6
+# text = Hlavou štátu bol ríšsky prezident .
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#6
+1	Hlavou	hlava	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+2	štátu	štát	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	cop	_	_
+4	ríšsky	ríšsky	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	prezident	prezident	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+6	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s7
+# text = V čele legislatívy stál dvojkomorový parlament ( Národné zhromaždenie ) skladajúce sa z ríšskeho snemu a ríšskej rady .
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#7
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	čele	čelo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	legislatívy	legislatíva	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	stál	stáť	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	dvojkomorový	dvojkomorový	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	parlament	parlament	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+7	(	(	PUNCT	Z	_	9	punct	_	_
+8	Národné	národný	ADJ	AAns1x:r	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	zhromaždenie	zhromaždenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	6	appos	_	_
+10	)	)	PUNCT	Z	_	9	punct	_	_
+11	skladajúce	skladajúci	ADJ	Gkns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	6	amod	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+13	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+14	ríšskeho	ríšsky	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	snemu	snem	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl:arg	_	_
+16	a	a	CCONJ	O	_	18	cc	_	_
+17	ríšskej	ríšsky	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	rady	rada	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	conj	_	_
+19	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s8
+# text = Na čele exekutívy stála ríšska vláda , vedená ríšskym kancelárom , ktorého vymenoval ríšsky prezident .
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#8
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	čele	čelo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	exekutívy	exekutíva	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	stála	stáť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	ríšska	ríšsky	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+7	,	,	PUNCT	Z	_	8	punct	_	_
+8	vedená	vedený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
+9	ríšskym	ríšsky	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	kancelárom	kancelár	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obj	_	_
+11	,	,	PUNCT	Z	_	13	punct	_	_
+12	ktorého	ktorý	DET	PAms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	13	obj	_	_
+13	vymenoval	vymenovať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
+14	ríšsky	ríšsky	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	prezident	prezident	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+16	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s9
+# text = Dôsledky porážky Nemecka v prvej svetovej vojne
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#9
+1	Dôsledky	dôsledok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+2	porážky	porážka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	Nemecka	nemecko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+5	prvej	prvý	ADJ	NAfs6	Case=Loc|Gender=Fem|Number=Sing|NumType=Ord	7	amod	_	_
+6	svetovej	svetový	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	vojne	vojna	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+
+# sent_id = s10
+# text = 18 . júna 1919 podpísali zástupcovia weimarskej republiky v Paríži Versaillskú mierovú zmluvu .
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#10
+1	18	18	NUM	0	NumForm=Digit	3	nummod	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+3	júna	jún	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+4	1919	1919	NUM	0	NumForm=Digit	3	nummod	_	_
+5	podpísali	podpísať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	zástupcovia	zástupca	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+7	weimarskej	weimarský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	republiky	republika	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	Paríži	paríž	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+11	Versaillskú	versaillský	ADJ	AAfs4x:r	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+12	mierovú	mierový	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	zmluvu	zmluva	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+14	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s11
+# text = Podľa mierovej zmluvy bolo Francúzsku navrátené Alsasko ‐ Lotrinsko ( 14 522 km² ) ; Belgicku postúpené územie Moresnetu a po plebiscite aj Eupén a Malmédy ( celkovo 1 036 km² ) ; Poľsku väčšina Poznaňska a Západného Pruska , časť Sliezska a nepatrná časť Východného Pruska ( celkovo 46 142 km² ) ; Česko ‐ Slovensku Hlučínsko ( 316 km² ) ; Gdaňsk s okolím ( 1 894 km² ) bol premenený na nezávislé Slobodné mesto Gdaňsk pod patronátom Spoločnosti národov ; severná časť Východného Pruska , Klajpeda s okolím ( 2 416 km² ) sa stala autonómnou časťou Litvy .
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#11
+1	Podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	mierovej	mierový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	zmluvy	zmluva	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+4	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+5	Francúzsku	francúzsko	PROPN	SSns3:r	Case=Dat|Gender=Neut|Number=Sing	6	obj	_	_
+6	navrátené	navrátený	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+7	Alsasko	alsasko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	6	obj	_	_
+8	‐	‐	PUNCT	Z	_	9	punct	_	_
+9	Lotrinsko	lotrinsko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	7	conj	_	_
+10	(	(	PUNCT	Z	_	7	punct	_	_
+11	14	14	NUM	0	NumForm=Digit	7	dep	_	_
+12	522	522	NUM	0	NumForm=Digit	11	nummod	_	_
+13	km²	km²	X	W	Abbr=Yes	12	nmod	_	_
+14	)	)	PUNCT	Z	_	7	punct	_	_
+15	;	;	PUNCT	Z	_	16	punct	_	_
+16	Belgicku	belgicko	PROPN	SSns3:r	Case=Dat|Gender=Neut|Number=Sing	6	conj	_	_
+17	postúpené	postúpený	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	16	conj	_	_
+18	územie	územie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	16	conj	_	_
+19	Moresnetu	moresnet	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	a	a	CCONJ	O	_	22	cc	_	_
+21	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	22	case	_	_
+22	plebiscite	plebiscit	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	conj	_	_
+23	aj	aj	PART	T	_	24	advmod:emph	_	_
+24	Eupén	eupén	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	dep	_	_
+25	a	a	CCONJ	O	_	26	cc	_	_
+26	Malmédy	malmédy	PROPN	SSfp1:r	Case=Nom|Gender=Fem|Number=Plur	24	conj	_	_
+27	(	(	PUNCT	Z	_	29	punct	_	_
+28	celkovo	celkovo	ADV	Dx	Degree=Pos	16	dep	_	_
+29	1	1	NUM	0	NumForm=Digit	16	conj	_	_
+30	036	036	NUM	0	NumForm=Digit	29	nummod	_	_
+31	km²	km²	X	W	Abbr=Yes	30	nmod	_	_
+32	)	)	PUNCT	Z	_	16	punct	_	_
+33	;	;	PUNCT	Z	_	73	punct	_	_
+34	Poľsku	poľsko	PROPN	SSns3:r	Case=Dat|Gender=Neut|Number=Sing	16	orphan	_	_
+35	väčšina	väčšina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	16	orphan	_	_
+36	Poznaňska	poznaňsko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	35	nmod	_	_
+37	a	a	CCONJ	O	_	39	cc	_	_
+38	Západného	západný	ADJ	AAns2x:r	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	39	amod	_	_
+39	Pruska	prusko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	36	conj	_	_
+40	,	,	PUNCT	Z	_	41	punct	_	_
+41	časť	časť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	35	conj	_	_
+42	Sliezska	sliezsko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	41	nmod	_	_
+43	a	a	CCONJ	O	_	45	cc	_	_
+44	nepatrná	nepatrný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	45	amod	_	_
+45	časť	časť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	35	conj	_	_
+46	Východného	východný	ADJ	AAns2x:r	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	47	amod	_	_
+47	Pruska	prusko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	45	nmod	_	_
+48	(	(	PUNCT	Z	_	35	punct	_	_
+49	celkovo	celkovo	ADV	Dx	Degree=Pos	35	dep	_	_
+50	46	46	NUM	0	NumForm=Digit	35	dep	_	_
+51	142	142	NUM	0	NumForm=Digit	50	nummod	_	_
+52	km²	km²	X	W	Abbr=Yes	51	nmod	_	_
+53	)	)	PUNCT	Z	_	35	punct	_	_
+54	;	;	PUNCT	Z	_	73	punct	_	_
+55	Česko	česko	X	Q	Hyph=Yes	6	dep	_	_
+56	‐	‐	PUNCT	Z	_	57	punct	_	_
+57	Slovensku	slovensko	PROPN	SSns3:r	Case=Dat|Gender=Neut|Number=Sing	55	conj	_	_
+58	Hlučínsko	hlučínsko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	16	orphan	_	_
+59	(	(	PUNCT	Z	_	58	punct	_	_
+60	316	316	NUM	0	NumForm=Digit	58	dep	_	_
+61	km²	km²	X	W	Abbr=Yes	60	nmod	_	_
+62	)	)	PUNCT	Z	_	58	punct	_	_
+63	;	;	PUNCT	Z	_	73	punct	_	_
+64	Gdaňsk	gdaňsk	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	73	nsubj:pass	_	_
+65	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	66	case	_	_
+66	okolím	okolie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	64	nmod	_	_
+67	(	(	PUNCT	Z	_	64	punct	_	_
+68	1	1	NUM	0	NumForm=Digit	64	dep	_	_
+69	894	894	NUM	0	NumForm=Digit	68	nummod	_	_
+70	km²	km²	X	W	Abbr=Yes	69	nmod	_	_
+71	)	)	PUNCT	Z	_	64	punct	_	_
+72	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	73	aux:pass	_	_
+73	premenený	premenený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	6	conj	_	_
+74	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	77	case	_	_
+75	nezávislé	nezávislý	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	77	amod	_	_
+76	Slobodné	slobodný	ADJ	AAns4x:r	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	77	amod	_	_
+77	mesto	mesto	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	73	obl:arg	_	_
+78	Gdaňsk	gdaňsk	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	77	nmod	_	_
+79	pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	80	case	_	_
+80	patronátom	patronát	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	73	obl	_	_
+81	Spoločnosti	spoločnosť	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	80	nmod	_	_
+82	národov	národ	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	81	nmod	_	_
+83	;	;	PUNCT	Z	_	98	punct	_	_
+84	severná	severný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	85	amod	_	_
+85	časť	časť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	98	nsubj	_	_
+86	Východného	východný	ADJ	AAns2x:r	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	87	amod	_	_
+87	Pruska	prusko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	85	nmod	_	_
+88	,	,	PUNCT	Z	_	89	punct	_	_
+89	Klajpeda	klajpeda	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	85	appos	_	_
+90	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	91	case	_	_
+91	okolím	okolie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	89	nmod	_	_
+92	(	(	PUNCT	Z	_	85	punct	_	_
+93	2	2	NUM	0	NumForm=Digit	85	dep	_	_
+94	416	416	NUM	0	NumForm=Digit	93	nummod	_	_
+95	km²	km²	X	W	Abbr=Yes	94	nmod	_	_
+96	)	)	PUNCT	Z	_	85	punct	_	_
+97	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	98	expl:pv	_	_
+98	stala	stať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+99	autonómnou	autonómny	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	100	amod	_	_
+100	časťou	časť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	98	obj	_	_
+101	Litvy	litva	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	100	nmod	_	_
+102	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s12
+# text = Neskôr došlo aj k úprave hraníc s Dánskom , ktoré získalo po plebiscite severnú časť Šlezvicka ( moderný dánsky okres Južné Jutsko ) , celkovo 3 938 km² .
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#12
+1	Neskôr	neskôr	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	došlo	dôjsť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	aj	aj	PART	T	_	5	advmod:emph	_	_
+4	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	5	case	_	_
+5	úprave	úprava	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	2	obl:arg	_	_
+6	hraníc	hranica	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+8	Dánskom	dánsko	PROPN	SSns7:r	Case=Ins|Gender=Neut|Number=Sing	6	nmod	_	_
+9	,	,	PUNCT	Z	_	11	punct	_	_
+10	ktoré	ktorý	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	11	nsubj	_	_
+11	získalo	získať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+12	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	plebiscite	plebiscit	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+14	severnú	severný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	časť	časť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+16	Šlezvicka	šlezvicko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	(	(	PUNCT	Z	_	20	punct	_	_
+18	moderný	moderný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+19	dánsky	dánsky	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	okres	okres	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	_
+21	Južné	južný	ADJ	AAns1x:r	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	Jutsko	jutsko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	20	nmod	_	_
+23	)	)	PUNCT	Z	_	20	punct	_	_
+24	,	,	PUNCT	Z	_	25	punct	_	_
+25	celkovo	celkovo	ADV	Dx	Degree=Pos	11	advmod	_	_
+26	3	3	NUM	0	NumForm=Digit	11	iobj	_	_
+27	938	938	NUM	0	NumForm=Digit	26	nummod	_	_
+28	km²	km²	X	W	Abbr=Yes	27	nmod	_	_
+29	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s13
+# text = Sársko o rozlohe 1 910 , 49 km² bolo na 15 rokov odovzdané do správy Spoločnosti národov a výnosy jeho baní postúpené Francúzsku .
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#13
+1	Sársko	sársko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	13	nsubj:pass	_	_
+2	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	rozlohe	rozloha	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
+4	1	1	NUM	0	NumForm=Digit	6	nummod	_	_
+5	910	910	NUM	0	NumForm=Digit	4	nummod	_	_
+6	,	,	PUNCT	Z	_	3	punct	_	_
+7	49	49	NUM	0	NumForm=Digit	3	nummod	_	_
+8	km²	km²	X	W	Abbr=Yes	7	nmod	_	_
+9	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	aux:pass	_	_
+10	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+11	15	15	NUM	0	NumForm=Digit	13	obl	_	_
+12	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	odovzdané	odovzdaný	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+14	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+15	správy	správa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+16	Spoločnosti	spoločnosť	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	národov	národ	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	a	a	CCONJ	O	_	19	cc	_	_
+19	výnosy	výnos	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	conj	_	_
+20	jeho	jeho	DET	PUfp2	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	baní	baňa	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+22	postúpené	postúpený	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	19	orphan	_	_
+23	Francúzsku	francúzsko	PROPN	SSns3:r	Case=Dat|Gender=Neut|Number=Sing	22	obj	_	_
+24	.	.	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s14
+# text = Porýnie bolo demilitarizované a dočasne okupované víťaznými štátmi .
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#14
+1	Porýnie	porýnie	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	aux	_	_
+3	demilitarizované	demilitarizovaný	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	a	a	CCONJ	O	_	6	cc	_	_
+5	dočasne	dočasne	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	okupované	okupovaný	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	conj	_	_
+7	víťaznými	víťazný	ADJ	AAip7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	štátmi	štát	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	obj	_	_
+9	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s15
+# text = Súčasne Nemecko stratilo všetky svoje kolónie .
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#15
+1	Súčasne	súčasne	ADV	Dx	Degree=Pos	3	advmod	_	_
+2	Nemecko	nemecko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	stratilo	stratiť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	všetky	všetok	DET	PFfp4	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	6	det	_	_
+5	svoje	svoj	DET	PFfp4	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	_
+6	kolónie	kolónia	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+7	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s16
+# text = Územie Nemecka sa tak zmenšilo o 70 615 km² na 468 116 , 13 km² a navyše bolo postihnuté mimoriadne ťaživými vojnovými reparáciami .
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#16
+1	Územie	územie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	Nemecka	nemecko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+4	tak	tak	ADV	PD	PronType=Dem	5	advmod	_	_
+5	zmenšilo	zmenšiť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+7	70	70	NUM	0	NumForm=Digit	5	obl	_	_
+8	615	615	NUM	0	NumForm=Digit	7	nummod	_	_
+9	km²	km²	X	W	Abbr=Yes	8	nmod	_	_
+10	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+11	468	468	NUM	0	NumForm=Digit	13	nummod	_	_
+12	116	116	NUM	0	NumForm=Digit	11	nummod	_	_
+13	,	,	PUNCT	Z	_	14	punct	_	_
+14	13	13	NUM	0	NumForm=Digit	5	obl:arg	_	_
+15	km²	km²	X	W	Abbr=Yes	14	nmod	_	_
+16	a	a	CCONJ	O	_	19	cc	_	_
+17	navyše	navyše	PART	T	_	19	advmod	_	_
+18	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	19	cop	_	_
+19	postihnuté	postihnutý	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	conj	_	_
+20	mimoriadne	mimoriadne	ADV	Dx	Degree=Pos	21	advmod	_	_
+21	ťaživými	ťaživý	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	_
+22	vojnovými	vojnový	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	_
+23	reparáciami	reparácia	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	19	obj	_	_
+24	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s17
+# text = Územné členenie
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#17
+1	Územné	územný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	členenie	členenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+
+# sent_id = s18
+# text = Územie weimarskej republiky bolo spolkovým štátom , zloženým zo začiatku zo všetkých pôvodných spolkových krajín predchádzajúceho Nemeckého cisárstva , ktoré sa stali republikami s nemeckým označením Slobodný štát ( Freistaat ) , prípadne Ľudový štát ( Volksstaat ) , či Slobodný ľudový štát ( Freie Volksstaat ) .
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#18
+1	Územie	územie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+2	weimarskej	weimarský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	republiky	republika	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	cop	_	_
+5	spolkovým	spolkový	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	štátom	štát	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+7	,	,	PUNCT	Z	_	8	punct	_	_
+8	zloženým	zložený	ADJ	Gtis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
+9	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	10	case	_	_
+10	začiatku	začiatok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+11	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	15	case	_	_
+12	všetkých	všetok	DET	PFfp2	Case=Gen|Gender=Fem|Number=Plur|PronType=Tot	15	det	_	_
+13	pôvodných	pôvodný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
+14	spolkových	spolkový	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
+15	krajín	krajina	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	8	obl	_	_
+16	predchádzajúceho	predchádzajúci	ADJ	Gkns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	18	amod	_	_
+17	Nemeckého	nemecký	ADJ	AAns2x:r	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	cisárstva	cisárstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+19	,	,	PUNCT	Z	_	22	punct	_	_
+20	ktoré	ktorý	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	22	nsubj	_	_
+21	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	22	expl:pv	_	_
+22	stali	stať	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	15	acl	_	_
+23	republikami	republika	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	22	obj	_	_
+24	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	26	case	_	_
+25	nemeckým	nemecký	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	označením	označenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	23	nmod	_	_
+27	Slobodný	slobodný	ADJ	AAis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	štát	štát	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nmod	_	_
+29	(	(	PUNCT	Z	_	30	punct	_	_
+30	Freistaat	freistaat	X	%	Foreign=Yes	28	appos	_	_
+31	)	)	PUNCT	Z	_	30	punct	_	_
+32	,	,	PUNCT	Z	_	35	punct	_	_
+33	prípadne	prípadne	PART	T	_	35	cc	_	_
+34	Ľudový	ľudový	ADJ	AAis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	štát	štát	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	appos	_	_
+36	(	(	PUNCT	Z	_	37	punct	_	_
+37	Volksstaat	volksstaat	X	%	Foreign=Yes	35	appos	_	_
+38	)	)	PUNCT	Z	_	37	punct	_	_
+39	,	,	PUNCT	Z	_	43	punct	_	_
+40	či	či	CCONJ	O	_	43	cc	_	_
+41	Slobodný	slobodný	ADJ	AAis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	_
+42	ľudový	ľudový	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	_
+43	štát	štát	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	35	conj	_	_
+44	(	(	PUNCT	Z	_	45	punct	_	_
+45	Freie	freie	X	%	Foreign=Yes	43	conj	_	_
+46	Volksstaat	volksstaat	X	%	Foreign=Yes	45	flat:foreign	_	_
+47	)	)	PUNCT	Z	_	43	punct	_	_
+48	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s19
+# text = Neskôr došlo ku zmenšeniu počtu spolkových krajín .
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#19
+1	Neskôr	neskôr	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	došlo	dôjsť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	ku	k	ADP	Ev3	AdpType=Voc|Case=Dat	4	case	_	_
+4	zmenšeniu	zmenšenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	2	obl:arg	_	_
+5	počtu	počet	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	spolkových	spolkový	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
+7	krajín	krajina	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s20
+# text = Spolkové krajiny weimarskej republiky v rokoch 1920 ‐ 1933
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#20
+1	Spolkové	spolkový	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
+2	krajiny	krajina	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+3	weimarskej	weimarský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	republiky	republika	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	nmod	_	_
+7	1920	1920	NUM	0	NumForm=Digit	6	nummod	_	_
+8	‐	‐	PUNCT	Z	_	9	punct	_	_
+9	1933	1933	NUM	0	NumForm=Digit	7	conj	_	_
+
+# sent_id = s21
+# text = Zoznam krajín .
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#21
+1	Zoznam	zoznam	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	krajín	krajina	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+3	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s22
+# text = S výnimkou Durínska , ktoré vzniklo až 1 . mája 1920 , Gothy a Koburgu ( tieto dva štáty existovali v rokoch 1918 ‐ 1920 ) , existovali všetky tieto štáty už pred rokom 1918 .
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#22
+1	S	s	ADP	Eu7	AdpType=Prep|Case=Ins	2	case	_	_
+2	výnimkou	výnimka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	28	obl	_	_
+3	Durínska	durínsko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	,	,	PUNCT	Z	_	6	punct	_	_
+5	ktoré	ktorý	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
+6	vzniklo	vzniknúť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	acl	_	_
+7	až	až	PART	T	_	10	advmod:emph	_	_
+8	1	1	NUM	0	NumForm=Digit	10	nummod	_	_
+9	.	.	PUNCT	Z	_	8	punct	_	_
+10	mája	máj	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+11	1920	1920	NUM	0	NumForm=Digit	10	nummod	_	_
+12	,	,	PUNCT	Z	_	13	punct	_	_
+13	Gothy	gotha	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_
+14	a	a	CCONJ	O	_	15	cc	_	_
+15	Koburgu	koburg	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	conj	_	_
+16	(	(	PUNCT	Z	_	20	punct	_	_
+17	tieto	tento	DET	PFip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	19	det	_	_
+18	dva	dva	NUM	NNip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nummod	_	_
+19	štáty	štát	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+20	existovali	existovať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	28	parataxis	_	_
+21	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	22	case	_	_
+22	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	20	obl	_	_
+23	1918	1918	NUM	0	NumForm=Digit	22	nummod	_	_
+24	‐	‐	PUNCT	Z	_	25	punct	_	_
+25	1920	1920	NUM	0	NumForm=Digit	23	conj	_	_
+26	)	)	PUNCT	Z	_	20	punct	_	_
+27	,	,	PUNCT	Z	_	28	punct	_	_
+28	existovali	existovať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+29	všetky	všetok	DET	PFip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	31	det	_	_
+30	tieto	tento	DET	PFip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	31	det	_	_
+31	štáty	štát	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	_
+32	už	už	PART	T	_	34	advmod:emph	_	_
+33	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	34	case	_	_
+34	rokom	rok	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	28	obl	_	_
+35	1918	1918	NUM	0	NumForm=Digit	34	nummod	_	_
+36	.	.	PUNCT	Z	_	28	punct	_	_
+
+# sent_id = s23
+# text = Údaje k tabuľke zodpovedajú obdobiu od 1 . mája 1929 , kedy bol Slobodný štát Valdek začlenený do Slobodného štátu Pruska .
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#23
+1	Údaje	údaj	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	3	case	_	_
+3	tabuľke	tabuľka	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	_
+4	zodpovedajú	zodpovedať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	obdobiu	obdobie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	4	obj	_	_
+6	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+7	1	1	NUM	0	NumForm=Digit	9	nummod	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+9	mája	máj	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+10	1929	1929	NUM	0	NumForm=Digit	9	nummod	_	_
+11	,	,	PUNCT	Z	_	17	punct	_	_
+12	kedy	kedy	ADV	PD	PronType=Int,Rel	17	advmod	_	_
+13	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	17	aux:pass	_	_
+14	Slobodný	slobodný	ADJ	AAis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	štát	štát	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+16	Valdek	valdek	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
+17	začlenený	začlenený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	9	amod	_	_
+18	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+19	Slobodného	slobodný	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	štátu	štát	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
+21	Pruska	prusko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s24
+# text = Sársko ktoré vzniklo roku 1919 vyčlenením častí území Bavorska a Pruska , bolo spravované Spoločnosťou národov a nemalo postavenie spolkovej krajiny Nemecka , aj keď malo vlastný krajinský snem ( tu nazývaný krajinská rada )
+# orig_file_sentence wiki-nove-033_hudekova_wiki-nove-033_kandracova#24
+1	Sársko	sársko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	14	nsubj:pass	_	_
+2	ktoré	ktorý	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	3	nsubj	_	_
+3	vzniklo	vzniknúť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	acl	_	_
+4	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+5	1919	1919	NUM	0	NumForm=Digit	4	nummod	_	_
+6	vyčlenením	vyčlenenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
+7	častí	časť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	území	územie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+9	Bavorska	bavorsko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	a	a	CCONJ	O	_	11	cc	_	_
+11	Pruska	prusko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	9	conj	_	_
+12	,	,	PUNCT	Z	_	3	punct	_	_
+13	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	spravované	spravovaný	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+15	Spoločnosťou	spoločnosť	PROPN	SSfs7:r	Case=Ins|Gender=Fem|Number=Sing	14	obl:agent	_	_
+16	národov	národ	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	nemalo	mať	VERB	VLescn-	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	14	conj	_	_
+19	postavenie	postavenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+20	spolkovej	spolkový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	krajiny	krajina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+22	Nemecka	nemecko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	,	,	PUNCT	Z	_	26	punct	_	_
+24	aj	aj	CCONJ	O	_	26	mark	_	_
+25	keď	keď	SCONJ	O	_	24	fixed	_	_
+26	malo	mať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	18	advcl	_	_
+27	vlastný	vlastný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+28	krajinský	krajinský	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	snem	snem	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	_
+30	(	(	PUNCT	Z	_	32	punct	_	_
+31	tu	tu	ADV	PD	PronType=Dem	32	advmod	_	_
+32	nazývaný	nazývaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	29	amod	_	_
+33	krajinská	krajinský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	rada	rada	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	32	obl	_	_
+35	)	)	PUNCT	Z	_	32	punct	_	_
+

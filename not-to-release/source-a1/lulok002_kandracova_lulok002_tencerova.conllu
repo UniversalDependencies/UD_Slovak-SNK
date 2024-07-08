@@ -1,0 +1,491 @@
+# sent_id = s1
+# text = Zemiaky obsahujú toxické glykoalkaloidy , predovšetkým solanín a chakonín .
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#1
+1	Zemiaky	zemiak	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	obsahujú	obsahovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	toxické	toxický	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	glykoalkaloidy	glykoalkaloid	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	predovšetkým	predovšetkým	PART	T	_	7	advmod:emph	_	_
+7	solanín	solanín	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	appos	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	chakonín	chakonín	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	conj	_	_
+10	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s2
+# text = Pri teplotách nad 170 ° C sa tieto látky čiastočne rozkladajú .
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#2
+1	Pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	teplotách	teplota	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	11	obl	_	_
+3	nad	nad	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	170	170	NUM	0	NumForm=Digit	2	nummod	_	_
+5	°	°	X	#	_	4	nmod	_	_
+6	C	c	X	W	Abbr=Yes	5	nmod	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+8	tieto	táto	DET	PFfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	9	det	_	_
+9	látky	látka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+10	čiastočne	čiastočne	ADV	Dx	Degree=Pos	11	advmod	_	_
+11	rozkladajú	rozkladať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s3
+# text = V hľuzách je najväčšia koncentrácia alkaloidov pod šupkou a zvyšuje sa , ak sú zemiaky vystavené svetlu .
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#3
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	hľuzách	hľuza	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	3	obl	_	_
+3	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	najväčšia	veľký	ADJ	AAfs1z	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	5	amod	_	_
+5	koncentrácia	koncentrácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+6	alkaloidov	alkaloid	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+8	šupkou	šupka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	zvyšuje	zvyšovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+12	,	,	PUNCT	Z	_	16	punct	_	_
+13	ak	ak	SCONJ	O	_	16	mark	_	_
+14	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+15	zemiaky	zemiak	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	nsubj:pass	_	_
+16	vystavené	vystavený	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	obl	_	_
+17	svetlu	svetlo	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	16	obj	_	_
+18	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s4
+# text = Zemiaky na svetle tiež zelenajú , obsah alkaloidov však nemusí so zelenou farbou hľúz priamo súvisieť .
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#4
+1	Zemiaky	zemiak	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	svetle	svetlo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+4	tiež	tiež	PART	T	_	5	advmod:emph	_	_
+5	zelenajú	zelenať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	,	,	PUNCT	Z	_	10	punct	_	_
+7	obsah	obsah	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+8	alkaloidov	alkaloid	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	však	však	CCONJ	O	_	10	cc	_	_
+10	nemusí	musieť	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	conj	_	_
+11	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	13	case	_	_
+12	zelenou	zelený	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	farbou	farba	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	16	obl:arg	_	_
+14	hľúz	hľuza	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+15	priamo	priamo	ADV	Dx	Degree=Pos	16	advmod	_	_
+16	súvisieť	súvisieť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	10	xcomp	_	_
+17	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s5
+# text = Vyšší obsah alkaloidov je v okolí očiek ( púčiky na hľuze ) a v blízkosti poranenia hľuzy .
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#5
+1	Vyšší	vysoký	ADJ	AAis1y	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	2	amod	_	_
+2	obsah	obsah	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	alkaloidov	alkaloid	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cc	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	okolí	okolie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	2	conj	_	_
+7	očiek	očko	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+8	(	(	PUNCT	Z	_	9	punct	_	_
+9	púčiky	púčik	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	appos	_	_
+10	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	hľuze	hľuza	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	_
+12	)	)	PUNCT	Z	_	9	punct	_	_
+13	a	a	CCONJ	O	_	15	cc	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	blízkosti	blízkosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	6	conj	_	_
+16	poranenia	poranenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	hľuzy	hľuza	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s6
+# text = Pri predávkovaní môže dôjsť aj k smrteľnej otrave , napriek tomu sa však otravy zemiakmi vyskytujú len vzácne .
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#6
+1	Pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	predávkovaní	predávkovanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dôjsť	dôjsť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+5	aj	aj	PART	T	_	7	advmod:emph	_	_
+6	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	8	case	_	_
+7	smrteľnej	smrteľný	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	otrave	otrava	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	4	obl:arg	_	_
+9	,	,	PUNCT	Z	_	16	punct	_	_
+10	napriek	napriek	ADP	Eu3	AdpType=Prep|Case=Dat	11	case	_	_
+11	tomu	to	DET	PFns3	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	16	obl	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+13	však	však	PART	T	_	16	cc	_	_
+14	otravy	otrava	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	_
+15	zemiakmi	zemiak	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	14	nmod	_	_
+16	vyskytujú	vyskytovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+17	len	len	PART	T	_	18	advmod:emph	_	_
+18	vzácne	vzácne	ADV	Dx	Degree=Pos	16	advmod	_	_
+19	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s7
+# text = Dochádza k nim spravidla v prípadoch , keď dieťa zje väčšie množstvo plodov ( nie hľúz ) , ale s ohľadom na ich nepríjemnú chuť a neveľký počet na jednej rastline ide o veľmi nepravdepodobnú udalosť .
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#7
+1	Dochádza	dochádzať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	3	case	_	_
+3	nim	ona	PRON	PFfp3	Case=Dat|Gender=Fem|Number=Plur|Person=3|PronType=Prs	1	obl:arg	_	_
+4	spravidla	spravidla	ADV	Dx	Degree=Pos	1	advmod	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	prípadoch	prípad	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	1	obl	_	_
+7	,	,	PUNCT	Z	_	10	punct	_	_
+8	keď	keď	SCONJ	O	_	10	mark	_	_
+9	dieťa	dieťa	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+10	zje	zjesť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	acl	_	_
+11	väčšie	veľký	ADJ	AAns4y	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	12	amod	_	_
+12	množstvo	množstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+13	plodov	plod	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	(	(	PUNCT	Z	_	10	punct	_	_
+15	nie	nie	PART	T	_	16	advmod	_	_
+16	hľúz	hľuza	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	10	dep	_	_
+17	)	)	PUNCT	Z	_	10	punct	_	_
+18	,	,	PUNCT	Z	_	32	punct	_	_
+19	ale	ale	CCONJ	O	_	32	cc	_	_
+20	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	25	case	_	_
+21	ohľadom	ohľad	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	fixed	_	_
+22	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	20	fixed	_	_
+23	ich	ich	DET	PUfs4	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	25	det	_	_
+24	nepríjemnú	nepríjemný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	chuť	chuť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	32	obl	_	_
+26	a	a	CCONJ	O	_	28	cc	_	_
+27	neveľký	neveľký	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	počet	počet	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	conj	_	_
+29	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	31	case	_	_
+30	jednej	jeden	NUM	NFfs6	Case=Loc|Gender=Fem|Number=Sing	31	nummod	_	_
+31	rastline	rastlina	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	28	nmod	_	_
+32	ide	ísť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+33	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	36	case	_	_
+34	veľmi	veľmi	ADV	Dx	Degree=Pos	35	advmod	_	_
+35	nepravdepodobnú	nepravdepodobný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	udalosť	udalosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	32	obl:arg	_	_
+37	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s8
+# text = Obsah alkaloidov je jednou z vlastností , ktoré sa sledujú počas šľachtenia .
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#8
+1	Obsah	obsah	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	alkaloidov	alkaloid	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	jednou	jeden	NUM	NFfs7	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+5	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	vlastností	vlastnosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+7	,	,	PUNCT	Z	_	10	punct	_	_
+8	ktoré	ktorý	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	10	nsubj:pass	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pass	_	_
+10	sledujú	sledovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	acl	_	_
+11	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+12	šľachtenia	šľachtenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+13	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s9
+# text = Šľachtitelia sa snažia neprekročiť koncentráciu solanínu 0 , 2 mg / g .
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#9
+1	Šľachtitelia	šľachtiteľ	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	snažia	snažiť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	neprekročiť	prekročiť	VERB	VId-	Aspect=Perf|Polarity=Neg|VerbForm=Inf	3	xcomp	_	_
+5	koncentráciu	koncentrácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	solanínu	solanín	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	0	0	NUM	0	NumForm=Digit	8	nummod	_	_
+8	,	,	PUNCT	Z	_	5	punct	_	_
+9	2	2	NUM	0	NumForm=Digit	5	nummod	_	_
+10	mg	mg	X	W	Abbr=Yes	9	nmod	_	_
+11	/	/	PUNCT	Z	_	12	punct	_	_
+12	g	g	X	W	Abbr=Yes	10	nmod	_	_
+13	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s10
+# text = No aj u moderných odrôd s koncentráciou solanínu pod týmto limitom môže po osvetlení dôjsť k jej zvýšeniu nad 1 mg / g solanínu .
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#10
+1	No	no	CCONJ	O	_	12	cc	_	_
+2	aj	aj	CCONJ	O	_	4	advmod:emph	_	_
+3	u	u	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+4	moderných	moderný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
+5	odrôd	odroda	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	15	obl	_	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	7	case	_	_
+7	koncentráciou	koncentrácia	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+8	solanínu	solanín	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	11	case	_	_
+10	týmto	tento	DET	PFis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	limitom	limit	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	_
+12	môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	osvetlení	osvetlenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+15	dôjsť	dôjsť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	12	xcomp	_	_
+16	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	18	case	_	_
+17	jej	jej	DET	PUns3	Case=Dat|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+18	zvýšeniu	zvýšenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	15	obl:arg	_	_
+19	nad	nad	ADP	Eu4	AdpType=Prep|Case=Acc	21	case	_	_
+20	1	1	NUM	0	NumForm=Digit	21	nummod	_	_
+21	mg	mg	X	W	Abbr=Yes	18	nmod	_	_
+22	/	/	PUNCT	Z	_	23	punct	_	_
+23	g	g	X	W	Abbr=Yes	21	nmod	_	_
+24	solanínu	solanín	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s11
+# text = Pri bežne udávanej nebezpečnej dávke 200 mg solanínu to znamená , že dospelý človek môže skonzumovať zdravie ohrozujúcu dávku v jednom väčšom zelenom zemiaku či v cca 1 kg zdravých zemiakov .
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#11
+1	Pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+2	bežne	bežne	ADV	Dx	Degree=Pos	3	advmod	_	_
+3	udávanej	udávaný	ADJ	Gtfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	amod	_	_
+4	nebezpečnej	nebezpečný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	dávke	dávka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+6	200	200	NUM	0	NumForm=Digit	5	nummod	_	_
+7	mg	mg	X	W	Abbr=Yes	6	nmod	_	_
+8	solanínu	solanín	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	_
+10	znamená	znamenať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	,	,	PUNCT	Z	_	15	punct	_	_
+12	že	že	SCONJ	O	_	15	mark	_	_
+13	dospelý	dospelý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	človek	človek	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+16	skonzumovať	skonzumovať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	15	xcomp	_	_
+17	zdravie	zdravie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+18	ohrozujúcu	ohrozujúci	ADJ	Gkfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	19	amod	_	_
+19	dávku	dávka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+20	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+21	jednom	jeden	NUM	NFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	nummod	_	_
+22	väčšom	veľký	ADJ	AAis6y	Animacy=Inan|Case=Loc|Degree=Cmp|Gender=Masc|Number=Sing	24	amod	_	_
+23	zelenom	zelený	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	zemiaku	zemiak	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+25	či	či	CCONJ	O	_	29	cc	_	_
+26	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	29	case	_	_
+27	cca	cca	X	W	Abbr=Yes	28	advmod:emph	_	_
+28	1	1	NUM	0	NumForm=Digit	29	nummod	_	_
+29	kg	kg	X	W	Abbr=Yes	24	conj	_	_
+30	zdravých	zdravý	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	31	amod	_	_
+31	zemiakov	zemiak	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	_
+32	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s12
+# text = Pestovanie
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#12
+1	Pestovanie	pestovanie	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+
+# sent_id = s13
+# text = Zemiakom vyhovuje chladnejšie vlhké podnebie , aké prevláda na severe Európy a USA , v Rusku a prípadne aj vo vyšších polohách teplejších klimatických oblastí .
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#13
+1	Zemiakom	zemiak	NOUN	SSip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	2	obj	_	_
+2	vyhovuje	vyhovovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	chladnejšie	chladný	ADJ	AAns1y	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	5	amod	_	_
+4	vlhké	vlhký	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	podnebie	podnebie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	aké	aký	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	8	nsubj	_	_
+8	prevláda	prevládať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	acl	_	_
+9	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	severe	sever	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+11	Európy	európa	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	a	a	CCONJ	O	_	13	cc	_	_
+13	USA	usa	X	W	Abbr=Yes	11	conj	_	_
+14	,	,	PUNCT	Z	_	16	punct	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+16	Rusku	rusko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	10	conj	_	_
+17	a	a	CCONJ	O	_	22	cc	_	_
+18	prípadne	prípadne	PART	T	_	22	cc	_	_
+19	aj	aj	CCONJ	O	_	22	cc	_	_
+20	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	22	case	_	_
+21	vyšších	vysoký	ADJ	AAfp6y	Case=Loc|Degree=Cmp|Gender=Fem|Number=Plur	22	amod	_	_
+22	polohách	poloha	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	10	conj	_	_
+23	teplejších	teplý	ADJ	AAfp2y	Case=Gen|Degree=Cmp|Gender=Fem|Number=Plur	25	amod	_	_
+24	klimatických	klimatický	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	_
+25	oblastí	oblasť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
+26	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s14
+# text = Zemiaky však neznášajú mrazy , pri dlhotrvajúcich teplotách mierne pod bodom mrazu hľuzy zmrznú .
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#14
+1	Zemiaky	zemiak	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	však	však	CCONJ	O	_	3	cc	_	_
+3	neznášajú	znášať	VERB	VKepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mrazy	mráz	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+5	,	,	PUNCT	Z	_	14	punct	_	_
+6	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+7	dlhotrvajúcich	dlhotrvajúci	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	teplotách	teplota	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	14	obl	_	_
+9	mierne	mierne	ADV	Dx	Degree=Pos	8	advmod	_	_
+10	pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+11	bodom	bod	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_
+12	mrazu	mráz	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	hľuzy	hľuza	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
+14	zmrznú	zmrznúť	VERB	VKdpc+	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+15	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s15
+# text = Teplota je veľmi dôležitá pre klíčenie hľúz .
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#15
+1	Teplota	teplota	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	veľmi	veľmi	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	dôležitá	dôležitý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+5	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	klíčenie	klíčenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+7	hľúz	hľuza	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s16
+# text = Hľuzy sa prebúdzajú pri teplotách okolo 6 ° C , pre ďalší rast sú optimálne denné teploty okolo 20 ° C a nočné teploty okolo 15 ° C .
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#16
+1	Hľuzy	hľuza	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	prebúdzajú	prebúdzať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	teplotách	teplota	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	3	obl	_	_
+6	okolo	okolo	PART	T	_	7	advmod:emph	_	_
+7	6	6	NUM	0	NumForm=Digit	5	nummod	_	_
+8	°	°	X	#	_	7	nmod	_	_
+9	C	c	X	W	Abbr=Yes	8	nmod	_	_
+10	,	,	PUNCT	Z	_	15	punct	_	_
+11	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+12	ďalší	ďalší	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	rast	rast	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
+14	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	optimálne	optimálny	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	conj	_	_
+16	denné	denný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_
+17	teploty	teplota	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+18	okolo	okolo	PART	T	_	19	advmod:emph	_	_
+19	20	20	NUM	0	NumForm=Digit	17	nummod	_	_
+20	°	°	X	#	_	19	nmod	_	_
+21	C	c	X	W	Abbr=Yes	20	nmod	_	_
+22	a	a	CCONJ	O	_	24	cc	_	_
+23	nočné	nočný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	_
+24	teploty	teplota	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	17	conj	_	_
+25	okolo	okolo	PART	T	_	26	advmod:emph	_	_
+26	15	15	NUM	0	NumForm=Digit	24	nummod	_	_
+27	°	°	X	#	_	26	nmod	_	_
+28	C	c	X	W	Abbr=Yes	27	nmod	_	_
+29	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s17
+# text = Zemiaky sú pomerne nenáročné na typ pôdy , nevyhovujú im však pôdy príliš zamokrené , nehumózne naviate piesky a pre strojový zber sa tiež nehodia príliš kamenité pôdy .
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#17
+1	Zemiaky	zemiak	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	pomerne	pomerne	PART	T	_	6	advmod	_	_
+4	nenáročné	nenáročný	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	cop	_	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	typ	typ	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
+7	pôdy	pôda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	,	,	PUNCT	Z	_	9	punct	_	_
+9	nevyhovujú	vyhovovať	VERB	VKepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	conj	_	_
+10	im	on	PRON	PFip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+11	však	však	PART	T	_	9	advmod	_	_
+12	pôdy	pôda	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+13	príliš	príliš	ADV	Dx	Degree=Pos	14	advmod	_	_
+14	zamokrené	zamokrený	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	_	_
+15	,	,	PUNCT	Z	_	18	punct	_	_
+16	nehumózne	nehumózny	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	_
+17	naviate	naviaty	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	18	amod	_	_
+18	piesky	piesok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	conj	_	_
+19	a	a	CCONJ	O	_	25	cc	_	_
+20	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	22	case	_	_
+21	strojový	strojový	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	zber	zber	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obl	_	_
+23	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	25	expl:pv	_	_
+24	tiež	tiež	PART	T	_	25	advmod:emph	_	_
+25	nehodia	hodiť	VERB	VKjpc-	Aspect=Imp,Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	conj	_	_
+26	príliš	príliš	ADV	Dx	Degree=Pos	27	advmod	_	_
+27	kamenité	kamenitý	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	_
+28	pôdy	pôda	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	25	nsubj	_	_
+29	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s18
+# text = Svetová produkcia
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#18
+1	Svetová	svetový	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	produkcia	produkcia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = s19
+# text = Najvyššie hektárové výnosy presahujúce 40 t z hektára dosahujú pestovatelia na Novom Zélande , v Belgicku , Dánsku , USA a v Holandsku .
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#19
+1	Najvyššie	vysoký	ADJ	AAip4z	Animacy=Inan|Case=Acc|Degree=Sup|Gender=Masc|Number=Plur	3	amod	_	_
+2	hektárové	hektárový	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	výnosy	výnos	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+4	presahujúce	presahujúci	ADJ	Gkip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	3	amod	_	_
+5	40	40	NUM	0	NumForm=Digit	4	obj	_	_
+6	t	t	X	W	Abbr=Yes	5	nmod	_	_
+7	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	hektára	hektár	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	dosahujú	dosahovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	pestovatelia	pestovateľ	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+11	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+12	Novom	nový	ADJ	AAis6x:r	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	Zélande	zéland	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+14	,	,	PUNCT	Z	_	16	punct	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+16	Belgicku	belgicko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	13	conj	_	_
+17	,	,	PUNCT	Z	_	18	punct	_	_
+18	Dánsku	dánsko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	16	conj	_	_
+19	,	,	PUNCT	Z	_	20	punct	_	_
+20	USA	usa	X	W	Abbr=Yes	16	conj	_	_
+21	a	a	CCONJ	O	_	23	cc	_	_
+22	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	23	case	_	_
+23	Holandsku	holandsko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	13	conj	_	_
+24	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s20
+# text = Podľa údajov FAO sa približne 52 % svetovej produkcie zemiakov využíva ako potravina , 34 % ako krmivo , 11 % tvoria sadbové zemiaky a 3 % sa spracúvajú v priemysle na škrob a lieh .
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#20
+1	Podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	údajov	údaj	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+3	FAO	fao	X	W	Abbr=Yes	2	nmod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pass	_	_
+5	približne	približne	ADV	Dx	Degree=Pos	6	advmod:emph	_	_
+6	52	52	NUM	0	NumForm=Digit	11	nsubj:pass	_	_
+7	%	%	SYM	Z	_	6	nmod	_	_
+8	svetovej	svetový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	produkcie	produkcia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	zemiakov	zemiak	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	využíva	využívať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	ako	ako	SCONJ	O	_	13	mark	_	_
+13	potravina	potravina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	xcomp	_	_
+14	,	,	PUNCT	Z	_	15	punct	_	_
+15	34	34	NUM	0	NumForm=Digit	11	conj	_	_
+16	%	%	SYM	Z	_	15	nmod	_	_
+17	ako	ako	SCONJ	O	_	18	cc	_	_
+18	krmivo	krmivo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	15	orphan	_	_
+19	,	,	PUNCT	Z	_	22	punct	_	_
+20	11	11	NUM	0	NumForm=Digit	22	nsubj	_	_
+21	%	%	SYM	Z	_	20	nmod	_	_
+22	tvoria	tvoriť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	conj	_	_
+23	sadbové	sadbový	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	24	amod	_	_
+24	zemiaky	zemiak	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	22	obj	_	_
+25	a	a	CCONJ	O	_	29	cc	_	_
+26	3	3	NUM	0	NumForm=Digit	29	nsubj:pass	_	_
+27	%	%	SYM	Z	_	26	nmod	_	_
+28	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	29	expl:pass	_	_
+29	spracúvajú	spracúvať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	conj	_	_
+30	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	31	case	_	_
+31	priemysle	priemysel	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	obl	_	_
+32	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	33	case	_	_
+33	škrob	škrob	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obl	_	_
+34	a	a	CCONJ	O	_	35	cc	_	_
+35	lieh	lieh	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	conj	_	_
+36	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s21
+# text = V krajinách EÚ sa zemiaky ako krmivo už takmer nevyužívajú , nahrádza ich predovšetkým sója a kukurica .
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#21
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	krajinách	krajina	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	10	obl	_	_
+3	EÚ	eú	X	W	Abbr=Yes	2	nmod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pass	_	_
+5	zemiaky	zemiak	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj:pass	_	_
+6	ako	ako	SCONJ	O	_	7	mark	_	_
+7	krmivo	krmivo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	5	xcomp	_	_
+8	už	už	ADV	Dx	Degree=Pos	10	advmod:emph	_	_
+9	takmer	takmer	PART	T	_	8	cc	_	_
+10	nevyužívajú	využívať	VERB	VKepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	,	,	PUNCT	Z	_	12	punct	_	_
+12	nahrádza	nahrádzať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	conj	_	_
+13	ich	on	PRON	PFip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+14	predovšetkým	predovšetkým	PART	T	_	15	advmod:emph	_	_
+15	sója	sója	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+16	a	a	CCONJ	O	_	17	cc	_	_
+17	kukurica	kukurica	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	15	conj	_	_
+18	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s22
+# text = Skladovanie
+# orig_file_sentence lulok002_kandracova_lulok002_tencerova#22
+1	Skladovanie	skladovanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+

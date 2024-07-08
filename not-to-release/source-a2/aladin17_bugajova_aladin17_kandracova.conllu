@@ -1,0 +1,576 @@
+# sent_id = s1
+# text = “ Ale prečo , ocko ? “
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#1
+1	“	“	PUNCT	Z	_	3	punct	_	_
+2	Ale	ale	PART	T	_	3	cc	_	_
+3	prečo	prečo	ADV	PD	PronType=Int,Rel	0	root	_	_
+4	,	,	PUNCT	Z	_	3	punct	_	_
+5	ocko	ocko	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	dep	_	_
+6	?	?	PUNCT	Z	_	3	punct	_	_
+7	“	“	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s2
+# text = Jazmína sa obrátila a prosebne naňho pozrela .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#2
+1	Jazmína	Jazmína	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	obrátila	obrátiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	CCONJ	O	_	7	cc	_	_
+5	prosebne	prosebne	ADV	Dx	Degree=Pos	7	advmod	_	_
+6	naňho	naň	PRON	PFms4g	AdpType=Preppron|Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	7	obj	_	_
+7	pozrela	pozrieť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+8	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s3
+# text = “ Nuž , pretože . . . “ sultán zauvažoval .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#3
+1	“	“	PUNCT	Z	_	10	punct	_	_
+2	Nuž	nuž	PART	T	_	10	dep	_	_
+3	,	,	PUNCT	Z	_	10	punct	_	_
+4	pretože	pretože	SCONJ	O	_	10	dep	_	_
+5	.	.	PUNCT	Z	_	4	punct	_	_
+6	.	.	PUNCT	Z	_	4	punct	_	_
+7	.	.	PUNCT	Z	_	4	punct	_	_
+8	“	“	PUNCT	Z	_	10	punct	_	_
+9	sultán	sultán	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	zauvažoval	zauvažovať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+11	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s4
+# text = “ Princezny boli odjakživa v paláci . “
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#4
+1	“	“	PUNCT	Z	_	3	punct	_	_
+2	Princezny	Princezny	NOUN	SFfp1:q	Case=Nom|Gender=Fem|Number=Plur|Typo=Yes	3	nsubj	_	_
+3	boli	byť	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	odjakživa	odjakživa	ADV	Dx	Degree=Pos	3	advmod	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	paláci	palác	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+7	.	.	PUNCT	Z	_	3	punct	_	_
+8	“	“	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s5
+# text = “ Prečo ? “
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#5
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Prečo	prečo	ADV	PD	PronType=Int,Rel	0	root	_	_
+3	?	?	PUNCT	Z	_	2	punct	_	_
+4	“	“	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s6
+# text = “ Pretože . . . pretože patria k veľmi významným osobnostiam .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#6
+1	“	“	PUNCT	Z	_	6	punct	_	_
+2	Pretože	pretože	SCONJ	O	_	6	mark	_	_
+3	.	.	PUNCT	Z	_	6	punct	_	_
+4	.	.	PUNCT	Z	_	6	punct	_	_
+5	.	.	PUNCT	Z	_	6	punct	_	_
+6	pretože	pretože	SCONJ	O	_	0	root	_	_
+7	patria	patriť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+8	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	11	case	_	_
+9	veľmi	veľmi	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	významným	významný	ADJ	AAfp3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
+11	osobnostiam	osobnosť	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	_
+12	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s7
+# text = A musia byť pod ochranou . “
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#7
+1	A	a	CCONJ	O	_	0	root	_	_
+2	musia	musieť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+3	byť	byť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
+4	pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	5	case	_	_
+5	ochranou	ochrana	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+6	.	.	PUNCT	Z	_	1	punct	_	_
+7	“	“	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s8
+# text = “ Ale to nie je vysvetlenie , prečo odtiaľto nemôžem odísť . “
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#8
+1	“	“	PUNCT	Z	_	6	punct	_	_
+2	Ale	ale	CCONJ	O	_	6	cc	_	_
+3	to	ten	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
+4	nie	nie	PART	T	_	6	advmod	_	_
+5	je	byť	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	vysvetlenie	vysvetlenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+7	,	,	PUNCT	Z	_	10	punct	_	_
+8	prečo	prečo	ADV	PD	PronType=Int,Rel	10	advmod	_	_
+9	odtiaľto	odtiaľto	PRON	PD	PronType=Prs	11	obl	_	_
+10	nemôžem	môcť	VERB	VKesa-	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	acl	_	_
+11	odísť	odísť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	10	xcomp	_	_
+12	.	.	PUNCT	Z	_	6	punct	_	_
+13	“	“	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s9
+# text = Jazmína sa naňho dívala s rukami vbok .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#9
+1	Jazmína	Jazmína	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	naňho	naň	PRON	PFms4g	AdpType=Preppron|Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	4	obj	_	_
+4	dívala	dívať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	6	case	_	_
+6	rukami	ruka	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	7	obl	_	_
+7	vbok	vbok	ADV	Dx	Degree=Pos	4	advmod	_	_
+8	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s10
+# text = “ Chcem vedieť prečo , ocko . “
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#10
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Chcem	chcieť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	vedieť	vedieť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
+4	prečo	prečo	ADV	PD	PronType=Int,Rel	3	advmod	_	_
+5	,	,	PUNCT	Z	_	2	punct	_	_
+6	ocko	ocko	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	dep	_	_
+7	.	.	PUNCT	Z	_	2	punct	_	_
+8	“	“	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s11
+# text = Sultán sa vyslobodil spod spiaceho Radžu , vstal a pošúchal si sluchy .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#11
+1	Sultán	sultán	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	vyslobodil	vyslobodiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	spod	spod	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+5	spiaceho	spiaci	ADJ	Gkms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	6	amod	_	_
+6	Radžu	radža	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+7	,	,	PUNCT	Z	_	8	punct	_	_
+8	vstal	vstať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	pošúchal	pošúchať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+11	si	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+12	sluchy	sluchy	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+13	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s12
+# text = “ Idem dolu .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#12
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Idem	ísť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dolu	dolu	ADV	Dx	Degree=Pos	2	advmod	_	_
+4	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s13
+# text = Dostal som strašnú chuť na makový koláčik . “
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#13
+1	Dostal	dostať	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	strašnú	strašný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	chuť	chuť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+6	makový	makový	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	koláčik	koláčik	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
+8	.	.	PUNCT	Z	_	1	punct	_	_
+9	“	“	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s14
+# text = Vyšiel na chodbu .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#14
+1	Vyšiel	vyjsť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+3	chodbu	chodba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
+4	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s15
+# text = Ešte stále nevedel , čo má dať Jazmíne k narodeninám .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#15
+1	Ešte	ešte	PART	T	_	2	advmod:emph	_	_
+2	stále	stále	ADV	Dx	Degree=Pos	3	advmod	_	_
+3	nevedel	vedieť	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+4	,	,	PUNCT	Z	_	6	punct	_	_
+5	čo	čo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
+6	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	dať	dať	VERB	VIj+	Aspect=Imp,Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+8	Jazmíne	jazmín	PROPN	SSfs3:r	Case=Dat|Gender=Fem|Number=Sing	7	obj	_	_
+9	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	10	case	_	_
+10	narodeninám	narodeniny	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	_
+11	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s16
+# text = A navyše , bol z nej zmätený a nervózny .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#16
+1	A	a	PART	T	_	7	advmod	_	_
+2	navyše	navyše	PART	T	_	1	cc	_	_
+3	,	,	PUNCT	Z	_	1	punct	_	_
+4	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	cop	_	_
+5	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	nej	on	PRON	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obl:arg	_	_
+7	zmätený	zmiasť	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	nervózny	nervózny	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	conj	_	_
+10	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s17
+# text = “ Odkiaľ berie všetky tie otázky ? “ zauvažoval nahlas .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#17
+1	“	“	PUNCT	Z	_	3	punct	_	_
+2	Odkiaľ	odkiaľ	ADV	PD	PronType=Int,Rel	3	advmod	_	_
+3	berie	brať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+4	všetky	všetko	PRON	PFfp4	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	6	nmod	_	_
+5	tie	ten	DET	PFfp4	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+6	otázky	otázka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	3	nsubj	_	_
+7	?	?	PUNCT	Z	_	3	punct	_	_
+8	“	“	PUNCT	Z	_	3	punct	_	_
+9	zauvažoval	zauvažovať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	nahlas	nahlas	ADV	Dx	Degree=Pos	9	advmod	_	_
+11	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s18
+# text = V to popoludnie zašiel sultán do kráľovskej kuchyne a uchytil si posledný makový koláčik .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#18
+1	V	v	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+2	to	ten	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	popoludnie	popoludnie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+4	zašiel	zájsť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	sultán	sultán	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+7	kráľovskej	kráľovský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	kuchyne	kuchyňa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	uchytil	uchytiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+11	si	sa	PRON	R	PronType=Prs|Reflex=Yes	10	obl	_	_
+12	posledný	posledný	ADJ	NAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	14	amod	_	_
+13	makový	makový	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	koláčik	koláčik	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+15	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s19
+# text = “ Ach , ako zdravo vám chutí jesť , sultán , “ povedala Safiya .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#19
+1	“	“	PUNCT	Z	_	7	punct	_	_
+2	Ach	ach	INTJ	J	_	7	dep	_	_
+3	,	,	PUNCT	Z	_	7	punct	_	_
+4	ako	ako	SCONJ	O	_	5	advmod	_	_
+5	zdravo	zdravo	ADV	Dx	Degree=Pos	7	advmod	_	_
+6	vám	ty	PRON	PPhp3	Case=Dat|Number=Plur|Person=2|PronType=Prs	7	obj	_	_
+7	chutí	chutiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+8	jesť	jesť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	7	csubj	_	_
+9	,	,	PUNCT	Z	_	7	punct	_	_
+10	sultán	sultán	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	dep	_	_
+11	,	,	PUNCT	Z	_	7	punct	_	_
+12	“	“	PUNCT	Z	_	7	punct	_	_
+13	povedala	povedať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+14	Safiya	Safiya	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+15	.	.	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s20
+# text = “ Ďakujem , Safiya , “ odvetil sultán , oblizujúc si z prstov plnku .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#20
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Ďakujem	ďakovať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+3	,	,	PUNCT	Z	_	2	punct	_	_
+4	Safiya	Safiya	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	_
+5	,	,	PUNCT	Z	_	2	punct	_	_
+6	“	“	PUNCT	Z	_	2	punct	_	_
+7	odvetil	odvetiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	sultán	sultán	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	,	,	PUNCT	Z	_	10	punct	_	_
+10	oblizujúc	oblizovať	VERB	VHe+	Aspect=Imp|Polarity=Pos|VerbForm=Conv	7	advcl	_	_
+11	si	sa	PRON	R	PronType=Prs|Reflex=Yes	10	obl	_	_
+12	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+13	prstov	prst	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+14	plnku	plnka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+15	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s21
+# text = “ Krajčír Nassir mi prezradil , že vymýšľate nejaký darček pre Jazmínu , “ podotkla .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#21
+1	“	“	PUNCT	Z	_	5	punct	_	_
+2	Krajčír	krajčír	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+3	Nassir	Nassir	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	prezradil	prezradiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	15	ccomp	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	že	že	SCONJ	O	_	8	mark	_	_
+8	vymýšľate	vymýšľať	VERB	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+9	nejaký	nejaký	DET	PAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
+10	darček	darček	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+11	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	Jazmínu	jazmín	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
+13	,	,	PUNCT	Z	_	5	punct	_	_
+14	“	“	PUNCT	Z	_	5	punct	_	_
+15	podotkla	podotknúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+16	.	.	PUNCT	Z	_	15	punct	_	_
+
+# sent_id = s22
+# text = “ Už ste na niečo prišli ?
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#22
+1	“	“	PUNCT	Z	_	6	punct	_	_
+2	Už	už	PART	T	_	6	advmod:emph	_	_
+3	ste	sto	AUX	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	niečo	niečo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	6	obl:arg	_	_
+6	prišli	prísť	VERB	VLdpbm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	?	?	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s23
+# text = Práve pripravujem tortu na jej narodeniny .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#23
+1	Práve	práve	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	pripravujem	pripravovať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tortu	torta	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+5	jej	jeho	DET	PUfp4	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	narodeniny	narodeniny	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	3	nmod	_	_
+7	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s24
+# text = Bude to tá najchutnejšia torta , akú kedy na svete upiekli .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#24
+1	Bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	5	cop	_	_
+2	to	ten	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	tá	ten	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+4	najchutnejšia	chutný	ADJ	AAfs1z	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	5	amod	_	_
+5	torta	torta	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+6	,	,	PUNCT	Z	_	11	punct	_	_
+7	akú	aký	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	11	obj	_	_
+8	kedy	kedy	ADV	PD	PronType=Int,Rel	11	advmod	_	_
+9	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	svete	svet	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+11	upiekli	upiecť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	5	acl	_	_
+12	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s25
+# text = Desať lakťov vysoká a so sto vrstvami plnená . “
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#25
+1	Desať	desať	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
+2	lakťov	lakeť	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	vysoká	vysoký	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+4	a	a	CCONJ	O	_	8	cc	_	_
+5	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	6	case	_	_
+6	sto	sto	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	8	obl:arg	_	_
+7	vrstvami	vrstva	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	6	nmod	_	_
+8	plnená	plniť	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	conj	_	_
+9	.	.	PUNCT	Z	_	3	punct	_	_
+10	“	“	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s26
+# text = Sultánovi zasvietili očká pri pomyslení na takú úžasnú tortu .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#26
+1	Sultánovi	sultán	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	obj	_	_
+2	zasvietili	zasvietiť	VERB	VLdpcn+	Aspect=Perf|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	očká	očko	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	_
+4	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	pomyslení	pomyslenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+6	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+7	takú	taký	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+8	úžasnú	úžasný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	tortu	torta	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obl:arg	_	_
+10	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s27
+# text = No vzápätí si spomenul , že ešte nevyriešil svoj problém .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#27
+1	No	no	PART	T	_	4	advmod	_	_
+2	vzápätí	vzápätí	ADV	Dx	Degree=Pos	4	advmod	_	_
+3	si	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	spomenul	spomenúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	,	,	PUNCT	Z	_	8	punct	_	_
+6	že	že	SCONJ	O	_	8	mark	_	_
+7	ešte	ešte	PART	T	_	8	advmod:emph	_	_
+8	nevyriešil	vyriešiť	VERB	VLdscm-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	4	ccomp	_	_
+9	svoj	svoj	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	_
+10	problém	problém	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+11	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s28
+# text = “ Nie , Safiya , ešte som nevymyslel darček , ktorý by sa hodil k takej skvelej . . . očarujúcej . . . hovorila si päťdesiat vrstiev ? “
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#28
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Nie	nie	PART	T	_	0	root	_	_
+3	,	,	PUNCT	Z	_	2	punct	_	_
+4	Safiya	Safiya	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	_
+5	,	,	PUNCT	Z	_	2	punct	_	_
+6	ešte	ešte	PART	T	_	8	advmod:emph	_	_
+7	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	nevymyslel	vymyslieť	VERB	VLdsam-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	2	parataxis	_	_
+9	darček	darček	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	,	,	PUNCT	Z	_	14	punct	_	_
+11	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	14	nsubj	_	_
+12	by	by	AUX	Y	Mood=Cnd	14	aux	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pv	_	_
+14	hodil	hodiť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	acl	_	_
+15	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	16	case	_	_
+16	takej	taký	DET	PAfs3	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	14	dep	_	_
+17	skvelej	skvelý	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	16	conj	_	_
+18	.	.	PUNCT	Z	_	21	punct	_	_
+19	.	.	PUNCT	Z	_	21	punct	_	_
+20	.	.	PUNCT	Z	_	21	punct	_	_
+21	očarujúcej	očarujúci	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	16	conj	_	_
+22	.	.	PUNCT	Z	_	25	punct	_	_
+23	.	.	PUNCT	Z	_	25	punct	_	_
+24	.	.	PUNCT	Z	_	25	punct	_	_
+25	hovorila	hovoriť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+26	si	sa	PRON	R	PronType=Prs|Reflex=Yes	25	aux	_	_
+27	päťdesiat	päťdesiat	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	25	obj	_	_
+28	vrstiev	vrstva	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	_
+29	?	?	PUNCT	Z	_	2	punct	_	_
+30	“	“	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s29
+# text = “ Sto , “ opravila ho Safiya .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#29
+1	“	“	PUNCT	Z	_	5	punct	_	_
+2	Sto	sto	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	5	dep	_	_
+3	,	,	PUNCT	Z	_	5	punct	_	_
+4	“	“	PUNCT	Z	_	5	punct	_	_
+5	opravila	opraviť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	Safiya	Safiya	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+8	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s30
+# text = “ Sto vrstiev !
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#30
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Sto	sto	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	0	root	_	_
+3	vrstiev	vrstva	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	!	!	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s31
+# text = Aj ‐ jaj , určite mi bude chutiť . . . chcel som povedať bude Jazmíne chutiť . . . .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#31
+1	Aj	aj	PART	T	_	8	dep	_	_
+2	‐	‐	PUNCT	Z	_	3	punct	_	_
+3	jaj	jaj	INTJ	J	_	1	conj	_	_
+4	,	,	PUNCT	Z	_	8	punct	_	_
+5	určite	určite	PART	T	_	8	advmod	_	_
+6	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+7	bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	8	aux	_	_
+8	chutiť	chutiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	_
+9	.	.	PUNCT	Z	_	12	punct	_	_
+10	.	.	PUNCT	Z	_	12	punct	_	_
+11	.	.	PUNCT	Z	_	12	punct	_	_
+12	chcel	chcieť	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	conj	_	_
+13	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux	_	_
+14	povedať	povedať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	12	xcomp	_	_
+15	bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	17	aux	_	_
+16	Jazmíne	jazmín	PROPN	SSfs3:r	Case=Dat|Gender=Fem|Number=Sing	17	obj	_	_
+17	chutiť	chutiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	14	ccomp	_	_
+18	.	.	PUNCT	Z	_	8	punct	_	_
+19	.	.	PUNCT	Z	_	8	punct	_	_
+20	.	.	PUNCT	Z	_	8	punct	_	_
+21	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s32
+# text = Mimochodom , kde to dievča zasa je ? “
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#32
+1	Mimochodom	mimochodom	PART	T	_	7	advmod:emph	_	_
+2	,	,	PUNCT	Z	_	1	punct	_	_
+3	kde	kde	ADV	PD	PronType=Int,Rel	7	advmod	_	_
+4	to	ten	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
+5	dievča	dievča	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+6	zasa	zasa	PART	T	_	7	advmod	_	_
+7	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	?	?	PUNCT	Z	_	7	punct	_	_
+9	“	“	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s33
+# text = “ Rozpráva sa s obchodníkom s rybami , “ povedala Safiya a pokrútila hlavou .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#33
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Rozpráva	rozprávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+4	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	5	case	_	_
+5	obchodníkom	obchodník	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	obl:arg	_	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	7	case	_	_
+7	rybami	ryba	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	5	nmod	_	_
+8	,	,	PUNCT	Z	_	2	punct	_	_
+9	“	“	PUNCT	Z	_	2	punct	_	_
+10	povedala	povedať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+11	Safiya	Safiya	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+12	a	a	CCONJ	O	_	13	cc	_	_
+13	pokrútila	pokrútiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	conj	_	_
+14	hlavou	hlava	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	13	obj	_	_
+15	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s34
+# text = Zaviedla sultána z kuchyne dlhou úzkou chodbou ku vchodu , ktorým obchodníci nosili do paláca potraviny a kupci tovar .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#34
+1	Zaviedla	zaviesť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sultána	sultán	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+3	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	kuchyne	kuchyňa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	obl	_	_
+5	dlhou	dlhý	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	úzkou	úzky	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	chodbou	chodba	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	1	obl	_	_
+8	ku	k	ADP	Ev3	AdpType=Voc|Case=Dat	9	case	_	_
+9	vchodu	vchod	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	1	obl	_	_
+10	,	,	PUNCT	Z	_	13	punct	_	_
+11	ktorým	ktorý	DET	PAis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|PronType=Int,Rel	13	obl	_	_
+12	obchodníci	obchodník	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	nosili	nosiť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	9	acl	_	_
+14	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+15	paláca	palác	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+16	potraviny	potravina	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	kupci	kupec	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	conj	_	_
+19	tovar	tovar	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	orphan	_	_
+20	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s35
+# text = Jazmína sedela na hromade drevených debien a sledovala , ako z nich obchodník vykladá veľké strieborné ryby .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#35
+1	Jazmína	Jazmína	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	sedela	sedieť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	hromade	hromada	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+5	drevených	drevený	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+6	debien	debna	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	sledovala	sledovať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+9	,	,	PUNCT	Z	_	14	punct	_	_
+10	ako	ako	SCONJ	O	_	14	advmod	_	_
+11	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+12	nich	on	PRON	PFfp2	Case=Gen|Gender=Fem|Number=Plur|Person=3|PronType=Prs	14	obl	_	_
+13	obchodník	obchodník	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+14	vykladá	vykladať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+15	veľké	veľký	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_
+16	strieborné	strieborný	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_
+17	ryby	ryba	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
+18	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s36
+# text = “ Ocko ! “ zvolala , keď videla prichádzať sultána .
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#36
+1	“	“	PUNCT	Z	_	5	punct	_	_
+2	Ocko	ocko	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	dep	_	_
+3	!	!	PUNCT	Z	_	5	punct	_	_
+4	“	“	PUNCT	Z	_	5	punct	_	_
+5	zvolala	zvolať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	keď	keď	SCONJ	O	_	8	mark	_	_
+8	videla	vidieť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	advcl	_	_
+9	prichádzať	prichádzať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	8	xcomp	_	_
+10	sultána	sultán	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s37
+# text = “ Khalid mi práve rozprával prekrásny príbeh o tom , ako chytil obrovskú , pätnásť metrov dlhú rybu , ktorá ho potom takmer zožrala . “
+# orig_file_sentence aladin17_bugajova_aladin17_kandracova#37
+1	“	“	PUNCT	Z	_	5	punct	_	_
+2	Khalid	Khalid	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+4	práve	práve	PART	T	_	5	advmod	_	_
+5	rozprával	rozprávať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	prekrásny	prekrásny	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	príbeh	príbeh	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	tom	ten	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	ako	ako	SCONJ	O	_	12	advmod	_	_
+12	chytil	chytiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	acl	_	_
+13	obrovskú	obrovský	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+14	,	,	PUNCT	Z	_	17	punct	_	_
+15	pätnásť	pätnásť	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	17	obl	_	_
+16	metrov	meter	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	dlhú	dlhý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	conj	_	_
+18	rybu	ryba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+19	,	,	PUNCT	Z	_	24	punct	_	_
+20	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	24	nsubj	_	_
+21	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+22	potom	potom	ADV	Dx	Degree=Pos	24	advmod	_	_
+23	takmer	takmer	PART	T	_	24	advmod:emph	_	_
+24	zožrala	zožrať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	18	acl	_	_
+25	.	.	PUNCT	Z	_	5	punct	_	_
+26	“	“	PUNCT	Z	_	5	punct	_	_
+

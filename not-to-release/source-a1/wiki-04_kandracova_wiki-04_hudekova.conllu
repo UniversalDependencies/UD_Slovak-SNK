@@ -1,0 +1,372 @@
+# sent_id = s1
+# text = Becherovka
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#1
+1	Becherovka	becherovka	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = s2
+# text = Becherovka , tradičná fľaša
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#2
+1	Becherovka	becherovka	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	,	,	PUNCT	Z	_	4	punct	_	_
+3	tradičná	tradičný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	fľaša	fľaša	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+
+# sent_id = s3
+# text = Becherovka je prírodný bylinkový alkoholický nápoj ‐ likér .
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#3
+1	Becherovka	becherovka	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	prírodný	prírodný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+4	bylinkový	bylinkový	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	alkoholický	alkoholický	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	nápoj	nápoj	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+7	‐	‐	PUNCT	Z	_	8	punct	_	_
+8	likér	likér	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+9	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s4
+# text = Obsahuje karlovarskú vodu , lieh , prírodný cukor a špecifickú horkastú zmes pozostávajúcu asi z 32 druhov byliniek a korenia .
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#4
+1	Obsahuje	obsahovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	karlovarskú	karlovarský	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	vodu	voda	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	,	,	PUNCT	Z	_	5	punct	_	_
+5	lieh	lieh	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	conj	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	prírodný	prírodný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	cukor	cukor	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	conj	_	_
+9	a	a	CCONJ	O	_	12	cc	_	_
+10	špecifickú	špecifický	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	horkastú	horkastý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	zmes	zmes	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	_
+13	pozostávajúcu	pozostávajúci	ADJ	Gkfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	12	amod	_	_
+14	asi	asi	PART	T	_	16	advmod:emph	_	_
+15	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+16	32	32	NUM	0	NumForm=Digit	13	obl:arg	_	_
+17	druhov	druh	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	byliniek	bylinka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
+19	a	a	CCONJ	O	_	20	cc	_	_
+20	korenia	korenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	18	conj	_	_
+21	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s5
+# text = Bola uvedená na trh v roku 1807 .
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#5
+1	Bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	aux:pass	_	_
+2	uvedená	uvedený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	trh	trh	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	1807	1807	NUM	0	NumForm=Digit	6	nummod	_	_
+8	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s6
+# text = Obsah alkoholu je asi 38 percent .
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#6
+1	Obsah	obsah	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	alkoholu	alkohol	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	asi	asi	PART	T	_	5	advmod:emph	_	_
+5	38	38	NUM	0	NumForm=Digit	1	nsubj	_	_
+6	percent	percento	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+7	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s7
+# text = Becherovka sa pije studená , obvykle samotná , ale môže sa pridávať i do rôznych miešaných nápojov .
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#7
+1	Becherovka	becherovka	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pass	_	_
+3	pije	piť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	studená	studený	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	xcomp	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	obvykle	obvykle	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	samotná	samotný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	conj	_	_
+8	,	,	PUNCT	Z	_	10	punct	_	_
+9	ale	ale	CCONJ	O	_	10	cc	_	_
+10	môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pass	_	_
+12	pridávať	pridávať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	10	xcomp	_	_
+13	i	i	CCONJ	O	_	17	advmod:emph	_	_
+14	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+15	rôznych	rôzny	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_
+16	miešaných	miešaný	ADJ	Gtip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	17	amod	_	_
+17	nápojov	nápoj	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+18	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s8
+# text = História
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#8
+1	História	história	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = s9
+# text = V roku 1807 začal karlovarský lekárnik Jan Becher predávať bylinný likér podľa svojej vlastnej receptúry .
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#9
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	1807	1807	NUM	0	NumForm=Digit	2	nummod	_	_
+4	začal	začať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	karlovarský	karlovarský	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	lekárnik	lekárnik	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+7	Jan	jan	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+8	Becher	becher	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+9	predávať	predávať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+10	bylinný	bylinný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	likér	likér	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+13	svojej	svoj	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	_	_
+14	vlastnej	vlastný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	receptúry	receptúra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+16	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s10
+# text = V roku 1841 jeho syn Johann začal hromadnú výrobu .
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#10
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+3	1841	1841	NUM	0	NumForm=Digit	2	nummod	_	_
+4	jeho	jeho	DET	PUms1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	syn	syn	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+6	Johann	johann	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	začal	začať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	hromadnú	hromadný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	výrobu	výroba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+10	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s11
+# text = Až do roku 1945 bola firma vo vlastníctve rodiny .
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#11
+1	Až	až	PART	T	_	4	advmod:emph	_	_
+2	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+3	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+4	1945	1945	NUM	0	NumForm=Digit	3	nummod	_	_
+5	bola	byť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	firma	firma	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+7	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	8	case	_	_
+8	vlastníctve	vlastníctvo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+9	rodiny	rodina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s12
+# text = Po druhej svetovej vojne bola výroba znárodnená .
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#12
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+2	druhej	druhý	ADJ	NAfs6	Case=Loc|Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+3	svetovej	svetový	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	vojne	vojna	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+5	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+6	výroba	výroba	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+7	znárodnená	znárodnený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s13
+# text = V súčasnosti je podnik privatizovaný a patrí spoločnosti Pernod Ricard .
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#13
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	súčasnosti	súčasnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	podnik	podnik	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	privatizovaný	privatizovaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	patrí	patriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
+8	spoločnosti	spoločnosť	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	7	obj	_	_
+9	Pernod	pernod	X	%	Foreign=Yes	8	nmod	_	_
+10	Ricard	ricard	X	%	Foreign=Yes	9	flat:foreign	_	_
+11	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s14
+# text = Výroba a recept
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#14
+1	Výroba	výroba	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	a	a	CCONJ	O	_	3	cc	_	_
+3	recept	recept	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+
+# sent_id = s15
+# text = V dnešnej dobe sú v karlovarskom podniku len dvaja ľudia , ktorí poznajú celé výrobné tajomstvo Becherovky a nedá sa očakávať , že by ho spoločnosť niekdy prezradila verejnosti .
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#15
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	dnešnej	dnešný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	dobe	doba	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+4	sú	byť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	karlovarskom	karlovarský	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	podniku	podnik	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+8	len	len	PART	T	_	9	advmod:emph	_	_
+9	dvaja	dva	NUM	NNmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nummod	_	_
+10	ľudia	človek	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+11	,	,	PUNCT	Z	_	13	punct	_	_
+12	ktorí	ktorý	DET	PAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	13	nsubj	_	_
+13	poznajú	poznať	VERB	VKjpc+	Aspect=Imp,Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	acl	_	_
+14	celé	celý	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+15	výrobné	výrobný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	tajomstvo	tajomstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+17	Becherovky	becherovka	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	a	a	CCONJ	O	_	19	cc	_	_
+19	nedá	dať	VERB	VKjsc-	Aspect=Imp,Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	conj	_	_
+20	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	19	expl:pv	_	_
+21	očakávať	očakávať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	19	xcomp	_	_
+22	,	,	PUNCT	Z	_	28	punct	_	_
+23	že	že	SCONJ	O	_	28	mark	_	_
+24	by	by	AUX	Y	Mood=Cnd	28	aux	_	_
+25	ho	ono	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+26	spoločnosť	spoločnosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
+27	niekdy	niekedy	ADV	PD	PronType=Ind	28	advmod	_	_
+28	prezradila	prezradiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	21	ccomp	_	_
+29	verejnosti	verejnosť	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	28	iobj	_	_
+30	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s16
+# text = Títo dvaja vyvolení sú jediní , ktorí môžu vstúpiť do miestnosti nazvanéj " Drogikamr " , názov používaný ešte v dobe Becherov , a ktorí raz týždene pripravia zmes bylín a korenín .
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#16
+1	Títo	tento	DET	PFmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+2	dvaja	dva	NUM	NNmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nummod	_	_
+3	vyvolení	vyvolený	NOUN	SAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+4	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	jediní	jediný	ADJ	NAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|NumType=Mult	0	root	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	ktorí	ktorý	DET	PAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	8	nsubj	_	_
+8	môžu	môcť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	acl	_	_
+9	vstúpiť	vstúpiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	8	xcomp	_	_
+10	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+11	miestnosti	miestnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+12	nazvanéj	nazvaný	ADJ	Gtfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	14	amod	_	_
+13	"	"	PUNCT	Z	_	14	punct	_	_
+14	Drogikamr	drogikamr	X	%	Foreign=Yes	11	nmod	_	_
+15	"	"	PUNCT	Z	_	14	punct	_	_
+16	,	,	PUNCT	Z	_	17	punct	_	_
+17	názov	názov	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+18	používaný	používaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	17	amod	_	_
+19	ešte	ešte	PART	T	_	21	advmod:emph	_	_
+20	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	_	_
+21	dobe	doba	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	18	obl	_	_
+22	Becherov	becher	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+23	,	,	PUNCT	Z	_	14	punct	_	_
+24	a	a	CCONJ	O	_	28	cc	_	_
+25	ktorí	ktorý	DET	PAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	28	nsubj	_	_
+26	raz	raz	ADV	NSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Mult	27	obl	_	_
+27	týždene	týždenne	ADV	Dx	Degree=Pos	28	advmod	_	_
+28	pripravia	pripraviť	VERB	VKdpc+	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	conj	_	_
+29	zmes	zmes	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	28	obj	_	_
+30	bylín	bylina	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	_
+31	a	a	CCONJ	O	_	32	cc	_	_
+32	korenín	korenina	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	30	conj	_	_
+33	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s17
+# text = Zhruba tri štvrtiny bylín a korenia pochádzajú zo zahraničia , vybrané druhy sa vyskytujú v okolí Karlových Varov .
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#17
+1	Zhruba	zhruba	ADV	Dx	Degree=Pos	2	advmod:emph	_	_
+2	tri	tri	NUM	NNfp1	Case=Nom|Gender=Fem|Number=Plur	3	nummod	_	_
+3	štvrtiny	štvrtina	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+4	bylín	bylina	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	korenia	korenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	conj	_	_
+7	pochádzajú	pochádzať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	9	case	_	_
+9	zahraničia	zahraničie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+10	,	,	PUNCT	Z	_	14	punct	_	_
+11	vybrané	vybraný	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	druhy	druh	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj:pass	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pass	_	_
+14	vyskytujú	vyskytovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	conj	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+16	okolí	okolie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_
+17	Karlových	karlov	ADJ	AFip2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	_
+18	Varov	vary	PROPN	SSip2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+19	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s18
+# text = Hotová zmes je vo vreciach z prírodného materiálu na týždeň ponorená do alkoholu , aby dokonale vylúhovala .
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#18
+1	Hotová	hotový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	zmes	zmes	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	_
+4	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	5	case	_	_
+5	vreciach	vrece	NOUN	SSnp6	Case=Loc|Gender=Neut|Number=Plur	11	obl	_	_
+6	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+7	prírodného	prírodný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	materiálu	materiál	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+9	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+10	týždeň	týždeň	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+11	ponorená	ponorený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+12	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+13	alkoholu	alkohol	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+14	,	,	PUNCT	Z	_	17	punct	_	_
+15	aby	aby	SCONJ	OY	Mood=Cnd	17	mark	_	_
+16	dokonale	dokonale	ADV	Dx	Degree=Pos	17	advmod	_	_
+17	vylúhovala	vylúhovať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	advcl	_	_
+18	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s19
+# text = Výsledný extrakt sa zmieša s vodou a prírodným cukrom a potom sa dáva do originálnych ručne vyrobených dubových sudov .
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#19
+1	Výsledný	výsledný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	extrakt	extrakt	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pass	_	_
+4	zmieša	zmiešať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	6	case	_	_
+6	vodou	voda	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	4	obl:arg	_	_
+7	a	a	CCONJ	O	_	9	cc	_	_
+8	prírodným	prírodný	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	cukrom	cukor	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	conj	_	_
+10	a	a	CCONJ	O	_	13	cc	_	_
+11	potom	potom	ADV	Dx	Degree=Pos	13	advmod	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pass	_	_
+13	dáva	dávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	_	_
+14	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	19	case	_	_
+15	originálnych	originálny	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	_
+16	ručne	ručne	ADV	Dx	Degree=Pos	17	advmod	_	_
+17	vyrobených	vyrobený	ADJ	Gtip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	19	amod	_	_
+18	dubových	dubový	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	_
+19	sudov	sud	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+20	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s20
+# text = Materiál , dub , je dôležitou podmienkou úspechu , Becherovke dodáva ničo zo svojej typickej chuti a farby .
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#20
+1	Materiál	materiál	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	,	,	PUNCT	Z	_	3	punct	_	_
+3	dub	dub	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+4	,	,	PUNCT	Z	_	3	punct	_	_
+5	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	dôležitou	dôležitý	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	podmienkou	podmienka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+8	úspechu	úspech	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	Z	_	11	punct	_	_
+10	Becherovke	becherovka	PROPN	SSfs3:r	Case=Dat|Gender=Fem|Number=Sing	11	iobj	_	_
+11	dodáva	dodávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12	ničo	niečo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	11	obj	_	_
+13	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	16	case	_	_
+14	svojej	svoj	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	_
+15	typickej	typický	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	chuti	chuť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	farby	farba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	conj	_	_
+19	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s21
+# text = Becherovka dozrieva v sudoch približne dva mesiace .
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#21
+1	Becherovka	becherovka	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	dozrieva	dozrievať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	sudoch	sud	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	obl	_	_
+5	približne	približne	PART	T	_	6	advmod:emph	_	_
+6	dva	dva	NUM	NNip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	nummod	_	_
+7	mesiace	mesiac	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obl	_	_
+8	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s22
+# text = Potom sa obsah sudov zmieša a plní do fliaš .
+# orig_file_sentence wiki-04_kandracova_wiki-04_hudekova#22
+1	Potom	potom	ADV	Dx	Degree=Pos	5	advmod	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pass	_	_
+3	obsah	obsah	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+4	sudov	sud	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	zmieša	zmiešať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	plní	plniť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
+8	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	fliaš	fľaša	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	7	obl	_	_
+10	.	.	PUNCT	Z	_	5	punct	_	_
+

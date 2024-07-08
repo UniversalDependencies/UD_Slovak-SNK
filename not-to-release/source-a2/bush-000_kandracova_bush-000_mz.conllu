@@ -1,0 +1,245 @@
+# sent_id = s1
+# text = George Walker Bush
+# orig_file_sentence bush-000_kandracova_bush-000_mz#1
+1	George	george	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+2	Walker	walker	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+3	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s2
+# text = George Walker Bush ( * 6 . júl 1946 , New Haven , Connecticut ) je americký politik , súčasný a v poradí 43 . prezident Spojených štátov amerických .
+# orig_file_sentence bush-000_kandracova_bush-000_mz#2
+1	George	george	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+2	Walker	walker	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+3	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+4	(	(	PUNCT	Z	_	3	punct	_	_
+5	*	*	PUNCT	#	_	3	punct	_	_
+6	6	6	NUM	0	NumForm=Digit	8	nummod	_	_
+7	.	.	PUNCT	Z	_	6	punct	_	_
+8	júl	júl	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	obl	_	_
+9	1946	1946	NUM	0	NumForm=Digit	8	nummod	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	New	new	X	%	Foreign=Yes	8	conj	_	_
+12	Haven	haven	X	%	Foreign=Yes	11	flat:foreign	_	_
+13	,	,	PUNCT	Z	_	14	punct	_	_
+14	Connecticut	connecticut	X	%	Foreign=Yes	8	conj	_	_
+15	)	)	PUNCT	Z	_	3	punct	_	_
+16	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	americký	americký	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	politik	politik	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+19	,	,	PUNCT	Z	_	26	punct	_	_
+20	súčasný	súčasný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+21	a	a	CCONJ	O	_	24	cc	_	_
+22	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	23	case	_	_
+23	poradí	poradie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	24	obl	_	_
+24	43	43	NUM	0	NumForm=Digit	20	conj	_	_
+25	.	.	PUNCT	Z	_	24	punct	_	_
+26	prezident	prezident	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	conj	_	_
+27	Spojených	spojený	ADJ	Gtip2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	28	amod	_	_
+28	štátov	štát	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+29	amerických	americký	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	_
+30	.	.	PUNCT	Z	_	18	punct	_	_
+
+# sent_id = s3
+# text = Bush , člen Republikánskej strany , pochádza z prominentnej rodiny Bushovcov , do ktorej patrí tiež jeho starý otec ( Prescott Bush , senátor USA ) , jeho otec ( George H . W . Bush , bývalý prezident USA ) , a jeho brat ( Jeb Bush , súčasný guvernér štátu Florida ) .
+# orig_file_sentence bush-000_kandracova_bush-000_mz#3
+1	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	,	,	PUNCT	Z	_	3	punct	_	_
+3	člen	člen	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+4	Republikánskej	republikánsky	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	strany	strana	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	,	,	PUNCT	Z	_	3	punct	_	_
+7	pochádza	pochádzať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+9	prominentnej	prominentný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	rodiny	rodina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	obl:arg	_	_
+11	Bushovcov	bush	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	,	,	PUNCT	Z	_	15	punct	_	_
+13	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+14	ktorej	ktorý	DET	PAfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Int,Rel	15	obl	_	_
+15	patrí	patriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	acl	_	_
+16	tiež	tiež	PART	T	_	15	advmod	_	_
+17	jeho	jeho	DET	PUms1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+18	starý	starý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	otec	otec	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+20	(	(	PUNCT	Z	_	22	punct	_	_
+21	Prescott	prescott	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nmod	_	_
+22	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	appos	_	_
+23	,	,	PUNCT	Z	_	24	punct	_	_
+24	senátor	senátor	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	appos	_	_
+25	USA	usa	X	W	Abbr=Yes	24	nsubj	_	_
+26	)	)	PUNCT	Z	_	22	punct	_	_
+27	,	,	PUNCT	Z	_	29	punct	_	_
+28	jeho	jeho	DET	PUms1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	29	det	_	_
+29	otec	otec	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	conj	_	_
+30	(	(	PUNCT	Z	_	36	punct	_	_
+31	George	george	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	36	nmod	_	_
+32	H	h	X	W	Abbr=Yes	36	nmod	_	_
+33	.	.	PUNCT	Z	_	32	punct	_	_
+34	W	w	X	W	Abbr=Yes	36	nmod	_	_
+35	.	.	PUNCT	Z	_	34	punct	_	_
+36	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	appos	_	_
+37	,	,	PUNCT	Z	_	39	punct	_	_
+38	bývalý	bývalý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_
+39	prezident	prezident	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	36	appos	_	_
+40	USA	usa	X	W	Abbr=Yes	39	nmod	_	_
+41	)	)	PUNCT	Z	_	36	punct	_	_
+42	,	,	PUNCT	Z	_	45	punct	_	_
+43	a	a	CCONJ	O	_	45	cc	_	_
+44	jeho	jeho	DET	PUms1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	45	det	_	_
+45	brat	brat	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	conj	_	_
+46	(	(	PUNCT	Z	_	48	punct	_	_
+47	Jeb	jeb	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	48	nmod	_	_
+48	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	45	appos	_	_
+49	,	,	PUNCT	Z	_	51	punct	_	_
+50	súčasný	súčasný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	51	amod	_	_
+51	guvernér	guvernér	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	48	appos	_	_
+52	štátu	štát	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	51	nmod	_	_
+53	Florida	florida	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	52	nmod	_	_
+54	)	)	PUNCT	Z	_	48	punct	_	_
+55	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s4
+# text = Pred tým , ako sa stal prezidentom , bol George W . Bush podnikateľom v oblasti ropného priemyslu a profesionálneho bejzbalu .
+# orig_file_sentence bush-000_kandracova_bush-000_mz#4
+1	Pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	2	case	_	_
+2	tým	to	DET	PFns7	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	14	obl	_	_
+3	,	,	PUNCT	Z	_	6	punct	_	_
+4	ako	ako	SCONJ	O	_	6	mark	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+6	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	acl	_	_
+7	prezidentom	prezident	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obj	_	_
+8	,	,	PUNCT	Z	_	6	punct	_	_
+9	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	cop	_	_
+10	George	george	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
+11	W	w	X	W	Abbr=Yes	13	nmod	_	_
+12	.	.	PUNCT	Z	_	11	punct	_	_
+13	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+14	podnikateľom	podnikateľ	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+16	oblasti	oblasť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_
+17	ropného	ropný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	priemyslu	priemysel	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+19	a	a	CCONJ	O	_	21	cc	_	_
+20	profesionálneho	profesionálny	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	bejzbalu	bejzbal	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	conj	_	_
+22	.	.	PUNCT	Z	_	14	punct	_	_
+
+# sent_id = s5
+# text = Bol zvolený za 46 . guvernéra Texasu , a vyhral nomináciu Republikánskej strany v prezidentských voľbách v roku 2000 .
+# orig_file_sentence bush-000_kandracova_bush-000_mz#5
+1	Bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	aux:pass	_	_
+2	zvolený	zvolený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+3	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+4	46	46	NUM	0	NumForm=Digit	6	nummod	_	_
+5	.	.	PUNCT	Z	_	4	punct	_	_
+6	guvernéra	guvernér	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obl:arg	_	_
+7	Texasu	texas	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	,	,	PUNCT	Z	_	10	punct	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	vyhral	vyhrať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+11	nomináciu	nominácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	Republikánskej	republikánsky	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	strany	strana	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+15	prezidentských	prezidentský	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	_
+16	voľbách	voľba	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	10	obl	_	_
+17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+18	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	_
+19	2000	2000	NUM	0	NumForm=Digit	18	nummod	_	_
+20	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s6
+# text = Bush sa stal prezidentom , keď vo volebnom boji porazil viceprezidenta Ala Gorea z Demokratickej strany v obzvlášť kontroverzných voľbách .
+# orig_file_sentence bush-000_kandracova_bush-000_mz#6
+1	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	prezidentom	prezident	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obj	_	_
+5	,	,	PUNCT	Z	_	10	punct	_	_
+6	keď	keď	SCONJ	O	_	10	mark	_	_
+7	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	9	case	_	_
+8	volebnom	volebný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	boji	boj	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+10	porazil	poraziť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	advcl	_	_
+11	viceprezidenta	viceprezident	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
+12	Ala	al	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
+13	Gorea	gore	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+14	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+15	Demokratickej	demokratický	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	strany	strana	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+18	obzvlášť	obzvlášť	ADV	Dx	Degree=Pos	19	advmod:emph	_	_
+19	kontroverzných	kontroverzný	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	_
+20	voľbách	voľba	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	10	obl	_	_
+21	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s7
+# text = Bush bol znovu zvolený za prezidenta v roku 2004 , keď porazil senátora za štát Massachusetts , Johna Kerryho .
+# orig_file_sentence bush-000_kandracova_bush-000_mz#7
+1	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+2	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+3	znovu	znovu	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	zvolený	zvolený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+5	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	prezidenta	prezident	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obl:arg	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+9	2004	2004	NUM	0	NumForm=Digit	8	nummod	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	keď	keď	SCONJ	O	_	12	mark	_	_
+12	porazil	poraziť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	advcl	_	_
+13	senátora	senátor	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+15	štát	štát	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
+16	Massachusetts	massachusetts	PROPN	SUis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
+17	,	,	PUNCT	Z	_	19	punct	_	_
+18	Johna	john	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	19	nmod	_	_
+19	Kerryho	kerry	PROPN	SFms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	appos	_	_
+20	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s8
+# text = V prezidentskej kampani používal na svoje odlíšenie južanský variant anglickej výslovnosti písmena W ( double U ) , konkrétne „ Dubya “ .
+# orig_file_sentence bush-000_kandracova_bush-000_mz#8
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	prezidentskej	prezidentský	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	kampani	kampaň	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+4	používal	používať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+6	svoje	svoj	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	_
+7	odlíšenie	odlíšenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	obl:arg	_	_
+8	južanský	južanský	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	variant	variant	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+10	anglickej	anglický	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	výslovnosti	výslovnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	písmena	písmeno	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	W	w	X	W	Abbr=Yes	12	nmod	_	_
+14	(	(	PUNCT	Z	_	16	punct	_	_
+15	double	double	X	%	Foreign=Yes	16	nmod	_	_
+16	U	u	X	W	Abbr=Yes	13	appos	_	_
+17	)	)	PUNCT	Z	_	16	punct	_	_
+18	,	,	PUNCT	Z	_	21	punct	_	_
+19	konkrétne	konkrétne	ADV	Dx	Degree=Pos	21	cc	_	_
+20	„	„	PUNCT	Z	_	21	punct	_	_
+21	Dubya	dubya	X	%	Foreign=Yes	9	appos	_	_
+22	“	“	PUNCT	Z	_	21	punct	_	_
+23	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s9
+# text = Táto prezývka mu časom prischla a označujú ho tak aj jeho priaznivci aj kritici .
+# orig_file_sentence bush-000_kandracova_bush-000_mz#9
+1	Táto	táto	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	prezývka	prezývka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+4	časom	časom	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	prischla	prischnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	označujú	označovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
+8	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	tak	tak	ADV	PD	PronType=Dem	7	advmod	_	_
+10	aj	aj	PART	T	_	12	cc	_	_
+11	jeho	jeho	DET	PUmp1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	priaznivci	priaznivec	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+13	aj	aj	CCONJ	O	_	14	cc	_	_
+14	kritici	kritik	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	conj	_	_
+15	.	.	PUNCT	Z	_	5	punct	_	_
+

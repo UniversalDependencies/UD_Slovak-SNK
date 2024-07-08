@@ -1,0 +1,395 @@
+# sent_id = s1
+# text = Elias Lönnrot
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#1
+1	Elias	elias	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Lönnrot	lönnrot	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s2
+# text = Elias Lönnrot ( * 9 . apríl 1802 – † 19 . marec 1884 ) bol fínsky spisovateľ , filológ a zberateľ ľudovej poézie .
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#2
+1	Elias	elias	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Lönnrot	lönnrot	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+3	(	(	PUNCT	Z	_	2	punct	_	_
+4	*	*	PUNCT	#	_	7	punct	_	_
+5	9	9	NUM	0	NumForm=Digit	7	nummod	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	apríl	apríl	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	dep	_	_
+8	1802	1802	NUM	0	NumForm=Digit	7	nummod	_	_
+9	–	–	PUNCT	Z	_	13	punct	_	_
+10	†	†	PUNCT	#	_	13	punct	_	_
+11	19	19	NUM	0	NumForm=Digit	13	nummod	_	_
+12	.	.	PUNCT	Z	_	11	punct	_	_
+13	marec	marec	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+14	1884	1884	NUM	0	NumForm=Digit	13	nummod	_	_
+15	)	)	PUNCT	Z	_	2	punct	_	_
+16	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	18	cop	_	_
+17	fínsky	fínsky	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	spisovateľ	spisovateľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+19	,	,	PUNCT	Z	_	20	punct	_	_
+20	filológ	filológ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	conj	_	_
+21	a	a	CCONJ	O	_	22	cc	_	_
+22	zberateľ	zberateľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	conj	_	_
+23	ľudovej	ľudový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	poézie	poézia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+25	.	.	PUNCT	Z	_	18	punct	_	_
+
+# sent_id = s3
+# text = Je naznámejší svojim zostavením fínskeho národného eposu Kalevala .
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#3
+1	Je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	naznámejší	známy	ADJ	AAms1z:q	Animacy=Anim|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing|Typo=Yes	0	root	_	_
+3	svojim	svoj	DET	PFns7:q	Case=Ins|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes|Typo=Yes	4	det	_	_
+4	zostavením	zostavenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	2	obl	_	_
+5	fínskeho	fínsky	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	národného	národný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	eposu	epos	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+8	Kalevala	kalevala	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	_
+9	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s4
+# text = Narodil sa v Sammatti vo Fínsku ako syn krajčíra .
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#4
+1	Narodil	narodiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	Sammatti	sammatti	PROPN	SUns6:r	Case=Loc|Gender=Neut|Number=Sing	1	obl	_	_
+5	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	6	case	_	_
+6	Fínsku	fínsko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_
+7	ako	ako	SCONJ	O	_	8	mark	_	_
+8	syn	syn	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	xcomp	_	_
+9	krajčíra	krajčír	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s5
+# text = Študoval medicínu na univerzite v Turku , ale v roku , keď nastúpil , vypukol v meste veľký požiar , pri ktorоm univerzita vyhorela , preto sa ako väčšina ostatných presunul do Helsínk , kde aj roku 1832 promoval .
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#5
+1	Študoval	študovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	medicínu	medicína	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	univerzite	univerzita	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	1	obl	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	Turku	turk	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+7	,	,	PUNCT	Z	_	15	punct	_	_
+8	ale	ale	CCONJ	O	_	15	cc	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+11	,	,	PUNCT	Z	_	13	punct	_	_
+12	keď	keď	SCONJ	O	_	13	mark	_	_
+13	nastúpil	nastúpiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
+14	,	,	PUNCT	Z	_	13	punct	_	_
+15	vypukol	vypuknúť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+16	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	meste	mesto	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	15	obl	_	_
+18	veľký	veľký	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	požiar	požiar	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+20	,	,	PUNCT	Z	_	24	punct	_	_
+21	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	22	case	_	_
+22	ktorоm	ktorý	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	24	obl	_	_
+23	univerzita	univerzita	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+24	vyhorela	vyhorieť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	19	acl	_	_
+25	,	,	PUNCT	Z	_	31	punct	_	_
+26	preto	preto	ADV	PD	PronType=Dem	31	advmod	_	_
+27	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	31	expl:pv	_	_
+28	ako	ako	SCONJ	O	_	29	mark	_	_
+29	väčšina	väčšina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	31	dep	_	_
+30	ostatných	ostatný	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	29	amod	_	_
+31	presunul	presunúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	15	conj	_	_
+32	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	33	case	_	_
+33	Helsínk	helsinki	PROPN	SSfp2:r	Case=Gen|Gender=Fem|Number=Plur	31	obl	_	_
+34	,	,	PUNCT	Z	_	39	punct	_	_
+35	kde	kde	ADV	PD	PronType=Int,Rel	39	advmod	_	_
+36	aj	aj	PART	T	_	39	advmod	_	_
+37	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	39	obl	_	_
+38	1832	1832	NUM	0	NumForm=Digit	37	nummod	_	_
+39	promoval	promovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	33	acl	_	_
+40	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s6
+# text = Potom prijal miesto oblastného lekára v Kajaani v severovýchodnom Fínsku .
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#6
+1	Potom	potom	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	prijal	prijať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	miesto	miesto	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	oblastného	oblastný	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	lekára	lekár	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	Kajaani	kajaani	PROPN	SUns6:r	Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+9	severovýchodnom	severovýchodný	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	Fínsku	fínsko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_
+11	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s7
+# text = V tom čase tam panoval hladomor , ktorý urýchlil rezignáciu predchádzajúceho lekára a umožnil mladému lekárovi získať toto miesto .
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#7
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	tom	ten	DET	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	čase	čas	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+4	tam	tam	ADV	PD	PronType=Dem	5	advmod	_	_
+5	panoval	panovať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	hladomor	hladomor	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	9	nsubj	_	_
+9	urýchlil	urýchliť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
+10	rezignáciu	rezignácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	predchádzajúceho	predchádzajúci	ADJ	Gkms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	12	amod	_	_
+12	lekára	lekár	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	umožnil	umožniť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	conj	_	_
+15	mladému	mladý	ADJ	AAms3x	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	lekárovi	lekár	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	14	iobj	_	_
+17	získať	získať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	14	xcomp	_	_
+18	toto	toto	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	19	det	_	_
+19	miesto	miesto	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+20	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s8
+# text = Niekoľko nasledujúcich rokov so zlou úrodou viedol k veľkým stratám v populácii .
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#8
+1	Niekoľko	niekoľko	DET	PUns1	Case=Nom|Gender=Neut|Number=Sing|NumType=Card|PronType=Ind	3	det:numgov	_	_
+2	nasledujúcich	nasledujúci	ADJ	Gkip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	3	amod	_	_
+3	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nsubj	_	_
+4	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	6	case	_	_
+5	zlou	zlý	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	úrodou	úroda	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	_
+7	viedol	viesť	VERB	VLescn+:q	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|Typo=Yes|VerbForm=Part	0	root	_	_
+8	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	10	case	_	_
+9	veľkým	veľký	ADJ	AAfp3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
+10	stratám	strata	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	populácii	populácia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
+13	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s9
+# text = Lönnrot písal listy štátnym úradom , v ktorých žiadal potraviny .
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#9
+1	Lönnrot	lönnrot	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	písal	písať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	listy	list	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+4	štátnym	štátny	ADJ	AAip3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+5	úradom	úrad	NOUN	SSip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	2	iobj	_	_
+6	,	,	PUNCT	Z	_	9	punct	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	ktorých	ktorý	DET	PAip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|PronType=Int,Rel	9	obl	_	_
+9	žiadal	žiadať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	acl	_	_
+10	potraviny	potravina	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+11	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s10
+# text = Bol jediným lekárom pre asi 4 000 ľudí v jeho oblasti v dobe , kedy bolo lekárov málo a boli drahí a ľudia skôr dôverovali dedinským mastičkárom a miestnym ľahko dostupným liečebným prostriedkom .
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#10
+1	Bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	cop	_	_
+2	jediným	jediný	ADJ	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|NumType=Mult	3	amod	_	_
+3	lekárom	lekár	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+4	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+5	asi	asi	PART	T	_	6	advmod:emph	_	_
+6	4	4	NUM	0	NumForm=Digit	3	obl:arg	_	_
+7	000	000	NUM	0	NumForm=Digit	6	nummod	_	_
+8	ľudí	človek	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+10	jeho	jeho	DET	PUfs6	Case=Loc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	oblasti	oblasť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	dobe	doba	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+14	,	,	PUNCT	Z	_	16	punct	_	_
+15	kedy	kedy	ADV	PD	PronType=Int,Rel	16	advmod	_	_
+16	bolo	byť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	acl	_	_
+17	lekárov	lekár	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+18	málo	málo	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+19	a	a	CCONJ	O	_	21	cc	_	_
+20	boli	byť	AUX	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	21	cop	_	_
+21	drahí	drahý	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	16	conj	_	_
+22	a	a	CCONJ	O	_	25	cc	_	_
+23	ľudia	človek	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+24	skôr	skôr	ADV	Dx	Degree=Pos	25	advmod	_	_
+25	dôverovali	dôverovať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	16	conj	_	_
+26	dedinským	dedinský	ADJ	AAmp3x	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	27	amod	_	_
+27	mastičkárom	mastičkár	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	25	obj	_	_
+28	a	a	CCONJ	O	_	33	cc	_	_
+29	miestnym	miestny	ADJ	AAip3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	33	amod	_	_
+30	ľahko	ľahko	ADV	Dx	Degree=Pos	31	advmod	_	_
+31	dostupným	dostupný	ADJ	AAip3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	33	amod	_	_
+32	liečebným	liečebný	ADJ	AAip3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	33	amod	_	_
+33	prostriedkom	prostriedok	NOUN	SSip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	27	conj	_	_
+34	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s11
+# text = Jeho najväčší prínos bol lingvistický a filologický .
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#11
+1	Jeho	jeho	DET	PUis1	Animacy=Inan|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+2	najväčší	veľký	ADJ	AAis1z	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	3	amod	_	_
+3	prínos	prínos	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	cop	_	_
+5	lingvistický	lingvistický	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	filologický	filologický	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	conj	_	_
+8	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s12
+# text = Zaujímal sa o fínčinu , o ktorej začal písať v roku 1827 a začal zbierať ľudové povesti vidieckеho obyvateľstva svojej doby .
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#12
+1	Zaujímal	zaujímať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	fínčinu	fínčina	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obl:arg	_	_
+5	,	,	PUNCT	Z	_	8	punct	_	_
+6	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	ktorej	ktorý	DET	PAfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Int,Rel	9	obl:arg	_	_
+8	začal	začať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
+9	písať	písať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	8	xcomp	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+12	1827	1827	NUM	0	NumForm=Digit	11	nummod	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	začal	začať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	conj	_	_
+15	zbierať	zbierať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	14	xcomp	_	_
+16	ľudové	ľudový	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_
+17	povesti	povesť	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+18	vidieckеho	vidiecky	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	obyvateľstva	obyvateľstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+20	svojej	svoj	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	21	det	_	_
+21	doby	doba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+22	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s13
+# text = Niekoľkokrát vyrazil na cesty , pri ktorých zbieral ľudovú poéziu .
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#13
+1	Niekoľkokrát	niekoľkokrát	ADV	PD	NumType=Mult|PronType=Ind	2	obl	_	_
+2	vyrazil	vyraziť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	cesty	cesta	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	_
+5	,	,	PUNCT	Z	_	8	punct	_	_
+6	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	ktorých	ktorý	DET	PAfp6	Case=Loc|Gender=Fem|Number=Plur|PronType=Int,Rel	8	obl	_	_
+8	zbieral	zbierať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
+9	ľudovú	ľudový	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	poéziu	poézia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s14
+# text = Navštevoval aj Laponsko a blízke časti ruskej Karélie .
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#14
+1	Navštevoval	navštevovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	aj	aj	PART	T	_	3	advmod:emph	_	_
+3	Laponsko	laponsko	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+4	a	a	CCONJ	O	_	6	cc	_	_
+5	blízke	blízky	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+6	časti	časť	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	3	conj	_	_
+7	ruskej	ruský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	Karélie	karélia	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s15
+# text = Povesti zobrané pri cestách využil vo svojich knihách vrátane Kalevaly .
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#15
+1	Povesti	povesť	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+2	zobrané	zobraný	ADJ	Gtfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	1	amod	_	_
+3	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	cestách	cesta	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	2	obl	_	_
+5	využil	využiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	8	case	_	_
+7	svojich	svoj	DET	PFfp6	Case=Loc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	_
+8	knihách	kniha	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	5	obl	_	_
+9	vrátane	vrátane	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	Kalevaly	kalevala	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s16
+# text = Roku 1860 vydal Lönnrot prvý vo fínskom jazyku napísaný herbár Flora Fennica — Suomen Kasvisto .
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#16
+1	Roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+2	1860	1860	NUM	0	NumForm=Digit	1	nummod	_	_
+3	vydal	vydať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	Lönnrot	lönnrot	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	prvý	prvý	ADJ	NAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	10	amod	_	_
+6	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	8	case	_	_
+7	fínskom	fínsky	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	jazyku	jazyk	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+9	napísaný	napísaný	ADJ	Gtis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	herbár	herbár	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+11	Flora	flora	X	%	Foreign=Yes	10	nmod	_	_
+12	Fennica	fennica	X	%	Foreign=Yes	11	flat:foreign	_	_
+13	—	—	PUNCT	Z	_	14	punct	_	_
+14	Suomen	suomen	X	%	Foreign=Yes	11	conj	_	_
+15	Kasvisto	kasvisto	X	%	Foreign=Yes	14	flat:foreign	_	_
+16	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s17
+# text = Herbár s Th .
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#17
+1	Herbár	herbár	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
+2	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	3	case	_	_
+3	Th	th	X	W	Abbr=Yes	1	dep	_	_
+4	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s18
+# text = Saelanom rozšíril a znovu vydal v roku 1866 .
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#18
+1	Saelanom	saelan	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+2	rozšíril	rozšíriť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+3	a	a	CCONJ	O	_	2	cc	_	_
+4	znovu	znovu	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	vydal	vydať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	orphan	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+8	1866	1866	NUM	0	NumForm=Digit	7	nummod	_	_
+9	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s19
+# text = Kniha obsahovala rastliny , ktoré Lönnrot zobral pri svojich cestách , poznámky o ich použití a opisy kvetov a listov .
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#19
+1	Kniha	kniha	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	obsahovala	obsahovať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	rastliny	rastlina	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+4	,	,	PUNCT	Z	_	7	punct	_	_
+5	ktoré	ktorý	DET	PAfp4	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	7	obj	_	_
+6	Lönnrot	lönnrot	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	zobral	zobrať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	acl	_	_
+8	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+9	svojich	svoj	DET	PFfp6	Case=Loc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	_
+10	cestách	cesta	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	7	obl	_	_
+11	,	,	PUNCT	Z	_	12	punct	_	_
+12	poznámky	poznámka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	3	conj	_	_
+13	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+14	ich	ich	DET	PUns6	Case=Loc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	použití	použitie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	12	nmod	_	_
+16	a	a	CCONJ	O	_	17	cc	_	_
+17	opisy	opis	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	conj	_	_
+18	kvetov	kvet	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	a	a	CCONJ	O	_	20	cc	_	_
+20	listov	list	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	conj	_	_
+21	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s20
+# text = Lönnrot zomrel 19 . marca 1884 v Sammatti v Južnom Fínsku .
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#20
+1	Lönnrot	lönnrot	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	zomrel	zomrieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	19	19	NUM	0	NumForm=Digit	5	nummod	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+5	marca	marec	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+6	1884	1884	NUM	0	NumForm=Digit	5	nummod	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	Sammatti	sammatti	PROPN	SUns6:r	Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+10	Južnom	južný	ADJ	AAns6x:r	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	Fínsku	fínsko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	_
+12	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s21
+# text = Fínsky grafik Erik Bruun použil Lönnrotovu podobizeň ako motív na päťstomarkovú bankovku .
+# orig_file_sentence wiki-nove-077_mz_wiki-nove-077_kandracova#21
+1	Fínsky	fínsky	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	grafik	grafik	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+3	Erik	erik	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+4	Bruun	bruun	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	použil	použiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	Lönnrotovu	lönnrotov	ADJ	AFfs4x:r	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	podobizeň	podobizeň	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	ako	ako	SCONJ	O	_	9	mark	_	_
+9	motív	motív	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	xcomp	_	_
+10	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+11	päťstomarkovú	päťstomarkový	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	bankovku	bankovka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_
+13	.	.	PUNCT	Z	_	5	punct	_	_
+

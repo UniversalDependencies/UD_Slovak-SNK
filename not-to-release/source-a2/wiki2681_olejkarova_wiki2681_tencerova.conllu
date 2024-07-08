@@ -1,0 +1,918 @@
+# sent_id = s1
+# text = Vrakuňa je mestská časť Bratislavy ležiaca na oboch brehoch Malého Dunaja .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#1
+1	Vrakuňa	vrakuňa	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	mestská	mestský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	časť	časť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	Bratislavy	bratislava	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	ležiaca	ležiaci	ADJ	Gkfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	4	amod	_	_
+7	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+8	oboch	oba	NUM	NNip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	nummod	_	_
+9	brehoch	breh	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obl	_	_
+10	Malého	malý	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	Dunaja	dunaj	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s2
+# text = Vrakuňa leží na východ od Bratislavy , na ceste vedúcej cez Malý Dunaj na Žitný ostrov .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#2
+1	Vrakuňa	vrakuňa	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	leží	ležať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	východ	východ	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+5	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	Bratislavy	bratislava	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	ceste	cesta	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	appos	_	_
+10	vedúcej	vedúci	ADJ	Gkfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	9	amod	_	_
+11	cez	cez	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+12	Malý	malý	ADJ	AAis4x:r	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	Dunaj	dunaj	PROPN	SSis4:r	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+14	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
+15	Žitný	žitný	ADJ	AAis4x:r	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	ostrov	ostrov	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+17	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s3
+# text = V posledných rokoch zmenila naša mestská čast úplne svoju tvár .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#3
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	posledných	posledný	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
+4	zmenila	zmeniť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	naša	náš	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det	_	_
+6	mestská	mestský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	čast	časť	NOUN	SSfs1:q	Case=Nom|Gender=Fem|Number=Sing|Typo=Yes	4	nsubj	_	_
+8	úplne	úplne	ADV	Dx	Degree=Pos	4	advmod	_	_
+9	svoju	svoj	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	_
+10	tvár	tvár	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+11	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s4
+# text = Vyrástol tu nový obytný súbor Vrakuňa ( ulice Bučinová , Jedľová , Kríková , Poľnohospodárska , Rajecká , Stavbárska , Vŕbová ) , na území máme 7 materských škôl , 3 základné školy a Súkromné slovanské gymnázium , ktoré sídli v budove ZŠ na Žitavskej ulici .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#4
+1	Vyrástol	vyrásť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	tu	tu	ADV	PD	PronType=Dem	1	advmod	_	_
+3	nový	nový	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	obytný	obytný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	súbor	súbor	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+6	Vrakuňa	vrakuňa	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_
+7	(	(	PUNCT	Z	_	8	punct	_	_
+8	ulice	ulica	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	5	appos	_	_
+9	Bučinová	bučinový	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	Jedľová	jedľový	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	conj	_	_
+12	,	,	PUNCT	Z	_	13	punct	_	_
+13	Kríková	kríkový	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	conj	_	_
+14	,	,	PUNCT	Z	_	15	punct	_	_
+15	Poľnohospodárska	poľnohospodársky	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	conj	_	_
+16	,	,	PUNCT	Z	_	17	punct	_	_
+17	Rajecká	rajecký	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	conj	_	_
+18	,	,	PUNCT	Z	_	19	punct	_	_
+19	Stavbárska	stavbársky	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	conj	_	_
+20	,	,	PUNCT	Z	_	21	punct	_	_
+21	Vŕbová	vŕbový	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	conj	_	_
+22	)	)	PUNCT	Z	_	8	punct	_	_
+23	,	,	PUNCT	Z	_	26	punct	_	_
+24	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	25	case	_	_
+25	území	územie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	26	obl	_	_
+26	máme	mať	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+27	7	7	NUM	0	NumForm=Digit	26	obj	_	_
+28	materských	materský	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	_
+29	škôl	škola	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	_
+30	,	,	PUNCT	Z	_	33	punct	_	_
+31	3	3	NUM	0	NumForm=Digit	33	nummod	_	_
+32	základné	základný	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	_
+33	školy	škola	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	27	conj	_	_
+34	a	a	CCONJ	O	_	37	cc	_	_
+35	Súkromné	súkromný	ADJ	AAns4x:r	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	37	amod	_	_
+36	slovanské	slovanský	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	37	amod	_	_
+37	gymnázium	gymnázium	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	27	conj	_	_
+38	,	,	PUNCT	Z	_	40	punct	_	_
+39	ktoré	ktorý	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	40	nsubj	_	_
+40	sídli	sídliť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	37	acl	_	_
+41	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	42	case	_	_
+42	budove	budova	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	40	obl	_	_
+43	ZŠ	zš	X	W	Abbr=Yes	42	nmod	_	_
+44	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	46	case	_	_
+45	Žitavskej	žitavský	ADJ	AAfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	46	amod	_	_
+46	ulici	ulica	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	43	nmod	_	_
+47	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s5
+# text = V rámci územného plánu vznikla nová obchodná sieť a vytvorili sa ďalšie plochy na podnikateľské aktivity .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#5
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+2	rámci	rámec	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	územného	územný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	plánu	plán	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+5	vznikla	vzniknúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	nová	nový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	obchodná	obchodný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	sieť	sieť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	vytvorili	vytvoriť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+12	ďalšie	ďalší	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_
+13	plochy	plocha	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+14	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
+15	podnikateľské	podnikateľský	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	_
+16	aktivity	aktivita	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	13	nmod	_	_
+17	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s6
+# text = Z pešej zóny na Poľnohospodárskej úlici sa stalo postupne spoločenské centrum mestskej časti .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#6
+1	Z	z	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	pešej	peší	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	zóny	zóna	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+4	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+5	Poľnohospodárskej	poľnohospodársky	ADJ	AAfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	úlici	ulica	NOUN	SSfs6:q	Case=Loc|Gender=Fem|Number=Sing|Typo=Yes	3	nmod	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+8	stalo	stať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	postupne	postupne	ADV	Dx	Degree=Pos	8	advmod	_	_
+10	spoločenské	spoločenský	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	centrum	centrum	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+12	mestskej	mestský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	časti	časť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s7
+# text = K novovybudovaným dielam patria predovšetkým budovy Miestneho úradu na Šíravskej ulici , Všeobecná úverová banka na Kazanškej ulici a nový obytný súbor na Bebravskej ulici .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#7
+1	K	k	ADP	Eu3	AdpType=Prep|Case=Dat	3	case	_	_
+2	novovybudovaným	novovybudovaný	ADJ	AAnp3x	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	3	amod	_	_
+3	dielam	dielo	NOUN	SSnp3	Case=Dat|Gender=Neut|Number=Plur	4	obl:arg	_	_
+4	patria	patriť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	predovšetkým	predovšetkým	PART	T	_	6	advmod:emph	_	_
+6	budovy	budova	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+7	Miestneho	miestny	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	úradu	úrad	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+10	Šíravskej	šíravský	ADJ	AAfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	ulici	ulica	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
+12	,	,	PUNCT	Z	_	15	punct	_	_
+13	Všeobecná	všeobecný	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+14	úverová	úverový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	banka	banka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
+16	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+17	Kazanškej	kazaňský	ADJ	AAfs6x:rq	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	ulici	ulica	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_
+19	a	a	CCONJ	O	_	22	cc	_	_
+20	nový	nový	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+21	obytný	obytný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	súbor	súbor	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+23	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	25	case	_	_
+24	Bebravskej	bebravský	ADJ	AAfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	ulici	ulica	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	22	nmod	_	_
+26	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s8
+# text = Vrakuňa nemá na svojom územi žiadne priemyselné podniky , ale jej obyvatelia pocitujú nepriaznivý vplyv Slovnaftu , letiska aj Ústrednej čističky odpadových vôd .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#8
+1	Vrakuňa	vrakuňa	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	nemá	mať	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+4	svojom	svoj	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	_
+5	územi	územie	NOUN	SSns6:q	Case=Loc|Gender=Neut|Number=Sing|Typo=Yes	2	obl	_	_
+6	žiadne	žiaden	DET	PFip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Neg	8	det	_	_
+7	priemyselné	priemyselný	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	podniky	podnik	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+9	,	,	PUNCT	Z	_	13	punct	_	_
+10	ale	ale	CCONJ	O	_	13	cc	_	_
+11	jej	jej	DET	PUmp1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	obyvatelia	obyvateľ	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	pocitujú	pociťovať	VERB	VKepc+:q	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|Typo=Yes|VerbForm=Fin	2	conj	_	_
+14	nepriaznivý	nepriaznivý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	vplyv	vplyv	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+16	Slovnaftu	slovnaft	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	,	,	PUNCT	Z	_	18	punct	_	_
+18	letiska	letisko	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	16	conj	_	_
+19	aj	aj	CCONJ	O	_	21	cc	_	_
+20	Ústrednej	ústredný	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	čističky	čistička	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	conj	_	_
+22	odpadových	odpadový	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	_
+23	vôd	voda	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_
+24	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s9
+# text = Jednou z prioritných úloh - okrem zabezpečenia služieb - bolo vybudovanie rekreačného zázemia pre obyvateľov .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#9
+1	Jednou	jeden	NUM	NFfs7	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+2	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+3	prioritných	prioritný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+4	úloh	úloha	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+5	-	-	PUNCT	Z	_	7	punct	_	_
+6	okrem	okrem	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	zabezpečenia	zabezpečenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+8	služieb	služba	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	-	-	PUNCT	Z	_	7	punct	_	_
+10	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	cop	_	_
+11	vybudovanie	vybudovanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
+12	rekreačného	rekreačný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	zázemia	zázemie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+14	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+15	obyvateľov	obyvateľ	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	13	nmod	_	_
+16	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s10
+# text = V spolupráci s Farským úradom Bratislava bol postavený nový kostol Mena Panny Márie ako prístavba k pôvodnému kostolu , ktorý dnes plní funkciu kaplnky .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#10
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+2	spolupráci	spolupráca	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	_
+3	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	1	fixed	_	_
+4	Farským	farský	ADJ	AAis7x:r	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	úradom	úrad	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+6	Bratislava	bratislava	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_
+7	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	postavený	postavený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+9	nový	nový	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	kostol	kostol	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+11	Mena	meno	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	Panny	panna	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+13	Márie	mária	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	ako	ako	SCONJ	O	_	15	mark	_	_
+15	prístavba	prístavba	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	10	xcomp	_	_
+16	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	18	case	_	_
+17	pôvodnému	pôvodný	ADJ	AAis3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	kostolu	kostol	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	15	nmod	_	_
+19	,	,	PUNCT	Z	_	22	punct	_	_
+20	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	22	nsubj	_	_
+21	dnes	dnes	ADV	Dx	Degree=Pos	22	advmod	_	_
+22	plní	plniť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	acl	_	_
+23	funkciu	funkcia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+24	kaplnky	kaplnka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s11
+# text = V toku 1994 bola opätovne zriadená miestna knížnica , čo vyvolalo kladny ohlas u obyvatelov a teší nás , že má svojích stálych čitateľov .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#11
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	toku	rok	NOUN	SSis6:q	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Typo=Yes	6	obl	_	_
+3	1994	1994	NUM	0	NumForm=Digit	2	nummod	_	_
+4	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+5	opätovne	opätovne	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	zriadená	zriadený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+7	miestna	miestny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	knížnica	knižnica	NOUN	SSfs1:q	Case=Nom|Gender=Fem|Number=Sing|Typo=Yes	6	nsubj:pass	_	_
+9	,	,	PUNCT	Z	_	11	punct	_	_
+10	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	11	nsubj	_	_
+11	vyvolalo	vyvolať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+12	kladny	kladný	ADJ	AAis4x:q	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Typo=Yes	13	amod	_	_
+13	ohlas	ohlas	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+14	u	u	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+15	obyvatelov	obyvateľ	NOUN	SSmp2:q	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Typo=Yes	13	nmod	_	_
+16	a	a	CCONJ	O	_	17	cc	_	_
+17	teší	tešiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	conj	_	_
+18	nás	my	PRON	PPhp4	Case=Acc|Number=Plur|Person=1|PronType=Prs	17	obj	_	_
+19	,	,	PUNCT	Z	_	21	punct	_	_
+20	že	že	SCONJ	O	_	21	mark	_	_
+21	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	csubj	_	_
+22	svojích	svoj	DET	PFmp4:q	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes|Typo=Yes	24	det	_	_
+23	stálych	stály	ADJ	AAmp4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	24	amod	_	_
+24	čitateľov	čitateľ	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	_
+25	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s12
+# text = Kultúrne vyžitie zabezpečuje zatiaľ kúltúrne stredisko Tallin , v ktorom pracujú rôzne krúžky , organizujú sa tu súťaže , besedy , predstavenia bábkového divadla , filmové predstavenia a predstavenia pre deti a mládez mestskej časti a žiakov škôl .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#12
+1	Kultúrne	kultúrny	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	vyžitie	vyžitie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	3	obj	_	_
+3	zabezpečuje	zabezpečovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	zatiaľ	zatiaľ	ADV	PD	PronType=Dem	3	advmod	_	_
+5	kúltúrne	kultúrny	ADJ	AAns1x:q	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Typo=Yes	6	amod	_	_
+6	stredisko	stredisko	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+7	Tallin	tallin	X	%	Foreign=Yes	6	nmod	_	_
+8	,	,	PUNCT	Z	_	11	punct	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	ktorom	ktorý	DET	PAns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Int,Rel	11	obl	_	_
+11	pracujú	pracovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	acl	_	_
+12	rôzne	rôzny	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_
+13	krúžky	krúžok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+14	,	,	PUNCT	Z	_	15	punct	_	_
+15	organizujú	organizovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	conj	_	_
+16	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pass	_	_
+17	tu	tu	ADV	PD	PronType=Dem	15	advmod	_	_
+18	súťaže	súťaž	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	15	nsubj:pass	_	_
+19	,	,	PUNCT	Z	_	20	punct	_	_
+20	besedy	beseda	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	18	conj	_	_
+21	,	,	PUNCT	Z	_	22	punct	_	_
+22	predstavenia	predstavenie	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	18	conj	_	_
+23	bábkového	bábkový	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	divadla	divadlo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+25	,	,	PUNCT	Z	_	27	punct	_	_
+26	filmové	filmový	ADJ	AAnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	27	amod	_	_
+27	predstavenia	predstavenie	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	18	conj	_	_
+28	a	a	CCONJ	O	_	27	cc	_	_
+29	predstavenia	predstavenie	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	18	nsubj	_	_
+30	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	31	case	_	_
+31	deti	dieťa	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	29	nmod	_	_
+32	a	a	CCONJ	O	_	33	cc	_	_
+33	mládez	mládež	NOUN	SSfs4:q	Case=Acc|Gender=Fem|Number=Sing|Typo=Yes	31	conj	_	_
+34	mestskej	mestský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
+35	časti	časť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+36	a	a	CCONJ	O	_	37	cc	_	_
+37	žiakov	žiak	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	35	conj	_	_
+38	škôl	škola	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	37	nmod	_	_
+39	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s13
+# text = Koncerty vážnej hudby sa konajú v novom kostole .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#13
+1	Koncerty	koncert	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	vážnej	vážny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	hudby	hudba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	konajú	konať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+7	novom	nový	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	kostole	kostol	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+9	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s14
+# text = Nový kultúrny dom na nábreží Malého Dunaja poskytuje dôstojné priestory na zabezpečenie rôznych aktivít našich obyvateľov .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#14
+1	Nový	nový	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	kultúrny	kultúrny	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	dom	dom	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+4	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	nábreží	nábrežie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	_
+6	Malého	malý	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	Dunaja	dunaj	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	poskytuje	poskytovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	dôstojné	dôstojný	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+10	priestory	priestor	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	zabezpečenie	zabezpečenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	_
+13	rôznych	rôzny	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
+14	aktivít	aktivita	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+15	našich	náš	DET	PFmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	16	det	_	_
+16	obyvateľov	obyvateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+17	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s15
+# text = Športovy klub Vrakuňa , ktorý sídli na Poľnohospodárskej ulici , zabezpočuje natmä futbalové aktivity pre žiakov a mládež .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#15
+1	Športovy	športový	ADJ	AAis1x:q	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Typo=Yes	2	amod	_	_
+2	klub	klub	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+3	Vrakuňa	vrakuňa	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_
+4	,	,	PUNCT	Z	_	6	punct	_	_
+5	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
+6	sídli	sídliť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	acl	_	_
+7	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+8	Poľnohospodárskej	poľnohospodársky	ADJ	AAfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	ulici	ulica	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+10	,	,	PUNCT	Z	_	6	punct	_	_
+11	zabezpočuje	zabezpečovať	VERB	VKesc+:q	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	_
+12	natmä	najmä	PART	T:q	Typo=Yes	14	advmod:emph	_	_
+13	futbalové	futbalový	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
+14	aktivity	aktivita	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+15	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
+16	žiakov	žiak	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	14	nmod	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	mládež	mládež	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	16	conj	_	_
+19	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s16
+# text = Postupne je zveľaďovaný oddychový areál Lesopark Vrakuňa prepojený lávkou cez Malý Dunaj priamo do obytného súboru .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#16
+1	Postupne	postupne	ADV	Dx	Degree=Pos	3	advmod	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	zveľaďovaný	zveľaďovaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	oddychový	oddychový	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	areál	areál	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+6	Lesopark	lesopark	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Vrakuňa	vrakuňa	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_
+8	prepojený	prepojený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	amod	_	_
+9	lávkou	lávka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+10	cez	cez	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+11	Malý	malý	ADJ	AAis4x:r	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	Dunaj	dunaj	PROPN	SSis4:r	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
+13	priamo	priamo	ADV	Dx	Degree=Pos	8	advmod	_	_
+14	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+15	obytného	obytný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	súboru	súbor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+17	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s17
+# text = « Lesík » , ako Lesopark s obľubou volajú najmä deti , patrí k najobľúbenejším miestam oddychu a relaxácie .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#17
+1	«	«	PUNCT	Z	_	2	punct	_	_
+2	Lesík	lesík	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+3	»	»	PUNCT	Z	_	2	punct	_	_
+4	,	,	PUNCT	Z	_	9	punct	_	_
+5	ako	ako	SCONJ	O	_	9	mark	_	_
+6	Lesopark	lesopark	PROPN	SSis4:r	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+8	obľubou	obľuba	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+9	volajú	volať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	acl	_	_
+10	najmä	najmä	PART	T	_	11	advmod:emph	_	_
+11	deti	dieťa	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	_
+12	,	,	PUNCT	Z	_	9	punct	_	_
+13	patrí	patriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	16	case	_	_
+15	najobľúbenejším	obľúbený	ADJ	AAnp3z	Case=Dat|Degree=Sup|Gender=Neut|Number=Plur	16	amod	_	_
+16	miestam	miesto	NOUN	SSnp3	Case=Dat|Gender=Neut|Number=Plur	13	obl:arg	_	_
+17	oddychu	oddych	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	a	a	CCONJ	O	_	19	cc	_	_
+19	relaxácie	relaxácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	17	conj	_	_
+20	.	.	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s18
+# text = Ožili a skultúrnili sa aj brehy Malého Dunaja .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#18
+1	Ožili	ožiť	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	a	a	CCONJ	O	_	3	cc	_	_
+3	skultúrnili	skultúrniť	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pass	_	_
+5	aj	aj	PART	T	_	6	advmod:emph	_	_
+6	brehy	breh	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+7	Malého	malý	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	Dunaja	dunaj	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s19
+# text = V komplexnom programe rozvoja Vrakune sa počíta ešte s mnohými zaujímavými aktivitami .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#19
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	komplexnom	komplexný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	programe	program	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+4	rozvoja	rozvoj	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	Vrakune	vrakuňa	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pass	_	_
+7	počíta	počítať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	ešte	ešte	PART	T	_	12	advmod:emph	_	_
+9	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	12	case	_	_
+10	mnohými	mnohý	ADJ	NAfp7	Case=Ins|Gender=Fem|Number=Plur|NumType=Mult	12	amod	_	_
+11	zaujímavými	zaujímavý	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	_
+12	aktivitami	aktivita	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	7	obl:arg	_	_
+13	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s20
+# text = Chceme , aby sa tu cítil príjemne každý obyvateľ aj hosť .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#20
+1	Chceme	chcieť	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	,	,	PUNCT	Z	_	6	punct	_	_
+3	aby	aby	SCONJ	OY	Mood=Cnd	6	mark	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+5	tu	tu	ADV	PD	PronType=Dem	6	advmod	_	_
+6	cítil	cítiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	ccomp	_	_
+7	príjemne	príjemne	ADV	Dx	Degree=Pos	6	advmod	_	_
+8	každý	každý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	9	det	_	_
+9	obyvateľ	obyvateľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+10	aj	aj	CCONJ	O	_	11	cc	_	_
+11	hosť	hosť	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
+12	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s21
+# text = Pôvodne tvorila súčasť bratislavského hradného panstva .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#21
+1	Pôvodne	pôvodne	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	tvorila	tvoriť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	súčasť	súčasť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	bratislavského	bratislavský	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+5	hradného	hradný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	panstva	panstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+7	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s22
+# text = Jej osídlenie siaha pravdepodobne až do včasného stredoveku .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#22
+1	Jej	jej	DET	PUns1	Case=Nom|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	osídlenie	osídlenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	siaha	siahať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	pravdepodobne	pravdepodobne	PART	T	_	8	advmod:emph	_	_
+5	až	až	PART	T	_	8	advmod:emph	_	_
+6	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+7	včasného	včasný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	stredoveku	stredovek	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+9	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s23
+# text = Dôkazom toho je starý slovenský názov osady - Vrač ( lekár alebo čarodejník ) .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#23
+1	Dôkazom	dôkaz	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+2	toho	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	1	amod	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	starý	starý	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	slovenský	slovenský	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	názov	názov	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+7	osady	osada	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	-	-	PUNCT	Z	_	9	punct	_	_
+9	Vrač	vrač	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	_
+10	(	(	PUNCT	Z	_	11	punct	_	_
+11	lekár	lekár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_
+12	alebo	alebo	CCONJ	O	_	13	cc	_	_
+13	čarodejník	čarodejník	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_
+14	)	)	PUNCT	Z	_	11	punct	_	_
+15	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s24
+# text = S prvým názvom Verekne ( Vrakuňa ) sa stretávame v roku 1290 , kedy osada - založená roku 1279 - dostáva názov od svojho majiteľa Lörinca Verekenyiho , ktorý v tom čase získal kráľovský majetok .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#24
+1	S	s	ADP	Eu7	AdpType=Prep|Case=Ins	3	case	_	_
+2	prvým	prvý	ADJ	NAis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	názvom	názov	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl:arg	_	_
+4	Verekne	verekne	X	%	Foreign=Yes	3	nmod	_	_
+5	(	(	PUNCT	Z	_	6	punct	_	_
+6	Vrakuňa	vrakuňa	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	_
+7	)	)	PUNCT	Z	_	6	punct	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+9	stretávame	stretávať	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+12	1290	1290	NUM	0	NumForm=Digit	11	nummod	_	_
+13	,	,	PUNCT	Z	_	21	punct	_	_
+14	kedy	kedy	ADV	PD	PronType=Int,Rel	21	advmod	_	_
+15	osada	osada	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+16	-	-	PUNCT	Z	_	17	punct	_	_
+17	založená	založený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	15	amod	_	_
+18	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
+19	1279	1279	NUM	0	NumForm=Digit	18	nummod	_	_
+20	-	-	PUNCT	Z	_	17	punct	_	_
+21	dostáva	dostávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	acl	_	_
+22	názov	názov	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
+23	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	27	case	_	_
+24	svojho	svoj	DET	PFms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	25	det	_	_
+25	majiteľa	majiteľ	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+26	Lörinca	lörinc	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+27	Verekenyiho	verekenyi	PROPN	SFms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	obl:arg	_	_
+28	,	,	PUNCT	Z	_	33	punct	_	_
+29	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	33	nsubj	_	_
+30	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	32	case	_	_
+31	tom	ten	DET	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	32	det	_	_
+32	čase	čas	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	33	obl	_	_
+33	získal	získať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	27	acl	_	_
+34	kráľovský	kráľovský	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	majetok	majetok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	obj	_	_
+36	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s25
+# text = Od konca 14 . storočia obec postupne prechádzala do majetku mesta Bratislava .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#25
+1	Od	od	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	konca	koniec	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+3	14	14	NUM	0	NumForm=Digit	5	nummod	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+5	storočia	storočie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+6	obec	obec	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+7	postupne	postupne	ADV	Dx	Degree=Pos	8	advmod	_	_
+8	prechádzala	prechádzať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	majetku	majetok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+11	mesta	mesto	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	Bratislava	bratislava	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	11	nmod	_	_
+13	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s26
+# text = Ďalší vývoj obce nepriaznivo ovplyvnilo pustošenie vojska sultána | Galgu , ktorý roku 1683 prechádzal cez Vrakuňu so sprievodom 8000 vojakov do Bernolákova , do tábora Imricha Tököliho a zničil nielen celú dedinu , ale aj most .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#26
+1	Ďalší	ďalší	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	vývoj	vývoj	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+3	obce	obec	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	nepriaznivo	nepriaznivo	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	ovplyvnilo	ovplyvniť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	pustošenie	pustošenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+7	vojska	vojsko	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	sultána	sultán	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+9	|	|	X	#	_	10	nmod	_	_
+10	Galgu	galga	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+11	,	,	PUNCT	Z	_	15	punct	_	_
+12	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	15	nsubj	_	_
+13	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
+14	1683	1683	NUM	0	NumForm=Digit	13	nummod	_	_
+15	prechádzal	prechádzať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
+16	cez	cez	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
+17	Vrakuňu	vrakuňa	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_
+18	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	19	case	_	_
+19	sprievodom	sprievod	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	_
+20	8000	8000	NUM	0	NumForm=Digit	21	nummod	_	_
+21	vojakov	vojak	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+22	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	23	case	_	_
+23	Bernolákova	bernolákovo	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+24	,	,	PUNCT	Z	_	26	punct	_	_
+25	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	26	case	_	_
+26	tábora	tábor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	appos	_	_
+27	Imricha	imrich	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+28	Tököliho	tököli	PROPN	SFms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+29	a	a	CCONJ	O	_	30	cc	_	_
+30	zničil	zničiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	15	conj	_	_
+31	nielen	nielen	CCONJ	O	_	33	cc	_	_
+32	celú	celý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	dedinu	dedina	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	30	obj	_	_
+34	,	,	PUNCT	Z	_	37	punct	_	_
+35	ale	ale	CCONJ	O	_	37	cc	_	_
+36	aj	aj	PART	T	_	37	cc	_	_
+37	most	most	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	conj	_	_
+38	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s27
+# text = Obyvatelia Vrakuňe boli prinútení v nepokojných časoch opustiť svoje príbytky a skrývať sa v lesoch na dunajských ostrovoch .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#27
+1	Obyvatelia	obyvateľ	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	Vrakuňe	vrakuňa	PROPN	SSfs2:rq	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	boli	byť	AUX	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	4	cop	_	_
+4	prinútení	prinútený	ADJ	Gtmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	nepokojných	nepokojný	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+7	časoch	čas	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
+8	opustiť	opustiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+9	svoje	svoj	DET	PFip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	_
+10	príbytky	príbytok	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	skrývať	skrývať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	8	conj	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	lesoch	les	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	obl	_	_
+16	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+17	dunajských	dunajský	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	_
+18	ostrovoch	ostrov	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	15	nmod	_	_
+19	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s28
+# text = Mnohí prišli o život .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#28
+1	Mnohí	mnohý	ADJ	NAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|NumType=Mult	2	nsubj	_	_
+2	prišli	prísť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	život	život	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl:arg	_	_
+5	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s29
+# text = Ich počet sa preriedil , ale možno pozorovať istú kontinuitu obyvateľstva .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#29
+1	Ich	ich	DET	PUis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	počet	počet	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pass	_	_
+4	preriedil	preriediť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	ale	ale	CCONJ	O	_	7	cc	_	_
+7	možno	možno	ADV	Dx	Degree=Pos	4	conj	_	_
+8	pozorovať	pozorovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	7	xcomp	_	_
+9	istú	istý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	kontinuitu	kontinuita	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	obyvateľstva	obyvateľstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s30
+# text = Do roku 1768 sa počet obyvateľov zvýšil približne na úroveň , aká bola pred rokom 1683 - 41 rodín osadníkov , ale boli omnoho chudobnejší .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#30
+1	Do	do	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+3	1768	1768	NUM	0	NumForm=Digit	2	nummod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+5	počet	počet	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	obyvateľov	obyvateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	zvýšil	zvýšiť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	približne	približne	PART	T	_	10	advmod:emph	_	_
+9	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+10	úroveň	úroveň	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+11	,	,	PUNCT	Z	_	13	punct	_	_
+12	aká	aký	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	13	nsubj	_	_
+13	bola	byť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
+14	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	15	case	_	_
+15	rokom	rok	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	_
+16	1683	1683	NUM	0	NumForm=Digit	15	nummod	_	_
+17	-	-	PUNCT	Z	_	18	punct	_	_
+18	41	41	NUM	0	NumForm=Digit	13	appos	_	_
+19	rodín	rodina	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+20	osadníkov	osadník	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+21	,	,	PUNCT	Z	_	25	punct	_	_
+22	ale	ale	CCONJ	O	_	25	cc	_	_
+23	boli	byť	AUX	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	25	cop	_	_
+24	omnoho	omnoho	ADV	Dx	Degree=Pos	25	advmod	_	_
+25	chudobnejší	chudobný	ADJ	AAmp1y	Animacy=Anim|Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	7	conj	_	_
+26	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s31
+# text = V polovici 19 . storočia mala Vrakuňa už 69 domov , 451 obyvateľov , prevažne maďarskej národnosti .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#31
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	polovici	polovica	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+3	19	19	NUM	0	NumForm=Digit	5	nummod	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+5	storočia	storočie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+6	mala	mať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	Vrakuňa	vrakuňa	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+8	už	už	PART	T	_	9	advmod:emph	_	_
+9	69	69	NUM	0	NumForm=Digit	6	obj	_	_
+10	domov	dom	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	,	,	PUNCT	Z	_	13	punct	_	_
+12	451	451	NUM	0	NumForm=Digit	13	nummod	_	_
+13	obyvateľov	obyvateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	conj	_	_
+14	,	,	PUNCT	Z	_	17	punct	_	_
+15	prevažne	prevažne	ADV	Dx	Degree=Pos	17	advmod	_	_
+16	maďarskej	maďarský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	národnosti	národnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+18	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s32
+# text = Obyvatelia obhospodarovali 1744 jutár pôdy , ktorú obrábali aj napriek jej zlej kvalite .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#32
+1	Obyvatelia	obyvateľ	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	obhospodarovali	obhospodarovať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	1744	1744	NUM	0	NumForm=Digit	2	obj	_	_
+4	jutár	jutro	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+5	pôdy	pôda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	ktorú	ktorý	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	8	obj	_	_
+8	obrábali	obrábať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	5	acl	_	_
+9	aj	aj	PART	T	_	13	advmod:emph	_	_
+10	napriek	napriek	ADP	Eu3	AdpType=Prep|Case=Dat	13	case	_	_
+11	jej	jej	DET	PUfs3	Case=Dat|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+12	zlej	zlý	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	kvalite	kvalita	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+14	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s33
+# text = Remeslo sa veľmi nerozvinulo .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#33
+1	Remeslo	remeslo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	veľmi	veľmi	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	nerozvinulo	rozvinúť	VERB	VLdscn-	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+5	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s34
+# text = Okrem mlynárov , mäsiara a výčapníka sa v 19 . storočí spomína aj čižmár , murár a tkáč .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#34
+1	Okrem	okrem	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	mlynárov	mlynár	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	mäsiara	mäsiar	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	conj	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	výčapníka	výčapník	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	conj	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pass	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+9	19	19	NUM	0	NumForm=Digit	11	nummod	_	_
+10	.	.	PUNCT	Z	_	9	punct	_	_
+11	storočí	storočie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+12	spomína	spomínať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	aj	aj	PART	T	_	14	advmod:emph	_	_
+14	čižmár	čižmár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+15	,	,	PUNCT	Z	_	16	punct	_	_
+16	murár	murár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	tkáč	tkáč	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+19	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s35
+# text = Koncom 19 . a začiatkom 20 . storočia sa do Vrakune prisťahovalo mnoho nových obyvateľov .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#35
+1	Koncom	koncom	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	19	19	NUM	0	NumForm=Digit	12	dep	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+4	a	a	CCONJ	O	_	8	cc	_	_
+5	začiatkom	začiatkom	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+6	20	20	NUM	0	NumForm=Digit	8	nummod	_	_
+7	.	.	PUNCT	Z	_	6	punct	_	_
+8	storočia	storočie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	2	conj	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+10	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+11	Vrakune	vrakuňa	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+12	prisťahovalo	prisťahovať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+13	mnoho	mnoho	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+14	nových	nový	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
+15	obyvateľov	obyvateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+16	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s36
+# text = Ich počet vzrástol za pätdesiat rokov na 742 .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#36
+1	Ich	ich	DET	PUis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	počet	počet	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	vzrástol	vzrásť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	pätdesiat	pätdesiat	NUM	NUnp4	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	_
+6	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+8	742	742	NUM	0	NumForm=Digit	3	obl	_	_
+9	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s37
+# text = Venovali sa väčšinou zeleninárstvu a chovu dobytka , ktorého množstvo vzrástlo až šivornásobne .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#37
+1	Venovali	venovať	VERB	VLjpcm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	väčšinou	väčšinou	ADV	Dx	Degree=Pos	1	advmod	_	_
+4	zeleninárstvu	zeleninárstvo	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	1	obj	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	chovu	chov	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	conj	_	_
+7	dobytka	dobytok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	,	,	PUNCT	Z	_	11	punct	_	_
+9	ktorého	ktorý	DET	PAis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Int,Rel	10	amod	_	_
+10	množstvo	množstvo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+11	vzrástlo	vzrásť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
+12	až	až	PART	T	_	13	advmod:emph	_	_
+13	šivornásobne	štvornásobne	NUM	ND:q	Typo=Yes	11	obl	_	_
+14	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s38
+# text = Do roku 1940 sa počet obyvateľov obce zvýšil na 1232 a počet domov na 249 .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#38
+1	Do	do	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+3	1940	1940	NUM	0	NumForm=Digit	2	nummod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+5	počet	počet	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+6	obyvateľov	obyvateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	obce	obec	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	zvýšil	zvýšiť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+10	1232	1232	NUM	0	NumForm=Digit	8	obl	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	počet	počet	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
+13	domov	dom	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+15	249	249	NUM	0	NumForm=Digit	12	orphan	_	_
+16	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s39
+# text = Celková rozloha chotára bola 1013 hektárov .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#39
+1	Celková	celkový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	rozloha	rozloha	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	chotára	chotár	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	bola	byť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	1013	1013	NUM	0	NumForm=Digit	4	obl	_	_
+6	hektárov	hektár	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s40
+# text = V roku 1948 bola obec úradne premenovaná z Verekne na Vrakuňu a do roku 1971 bola samostatnou obcou , ktorú riadil " Okresný národný výbor Bratislava - vidiek " .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#40
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+3	1948	1948	NUM	0	NumForm=Digit	2	nummod	_	_
+4	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+5	obec	obec	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+6	úradne	úradne	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	premenovaná	premenovaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+8	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	Verekne	verekne	X	%	Foreign=Yes	7	advmod	_	_
+10	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+11	Vrakuňu	vrakuňa	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+12	a	a	CCONJ	O	_	18	cc	_	_
+13	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+14	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+15	1971	1971	NUM	0	NumForm=Digit	14	nummod	_	_
+16	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	18	cop	_	_
+17	samostatnou	samostatný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	obcou	obec	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	7	conj	_	_
+19	,	,	PUNCT	Z	_	21	punct	_	_
+20	ktorú	ktorý	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	21	obj	_	_
+21	riadil	riadiť	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	18	acl	_	_
+22	"	"	PUNCT	Z	_	25	punct	_	_
+23	Okresný	okresný	ADJ	AAis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+24	národný	národný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	výbor	výbor	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+26	Bratislava	bratislava	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	25	nmod	_	_
+27	-	-	PUNCT	Z	_	28	punct	_	_
+28	vidiek	vidiek	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nmod	_	_
+29	"	"	PUNCT	Z	_	25	punct	_	_
+30	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s41
+# text = Od 1 . 1 . 1972 sa stala súčastou hlavného mesta SSR Bratislavy a od roku 1990 je jednou zo 17 mestských častí Bratislavy , na rozlohe 10 , 3 km2 žije viac ako 18000 obyvateľov .
+# orig_file_sentence wiki2681_olejkarova_wiki2681_tencerova#41
+1	Od	od	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+2	1	1	NUM	0	NumForm=Digit	4	nummod	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+4	1	1	NUM	0	NumForm=Digit	9	obl	_	_
+5	.	.	PUNCT	Z	_	4	punct	_	_
+6	1972	1972	NUM	0	NumForm=Digit	4	nummod	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+8	stala	stať	AUX	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	cop	_	_
+9	súčastou	súčasť	NOUN	SSfs7:q	Case=Ins|Gender=Fem|Number=Sing|Typo=Yes	0	root	_	_
+10	hlavného	hlavný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	mesta	mesto	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12	SSR	sr	X	W	Abbr=Yes	11	nmod	_	_
+13	Bratislavy	bratislava	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	a	a	CCONJ	O	_	19	cc	_	_
+15	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+16	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	obl	_	_
+17	1990	1990	NUM	0	NumForm=Digit	16	nummod	_	_
+18	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	jednou	jeden	NUM	NFfs7	Case=Ins|Gender=Fem|Number=Sing	9	conj	_	_
+20	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	23	case	_	_
+21	17	17	NUM	0	NumForm=Digit	23	nummod	_	_
+22	mestských	mestský	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	_
+23	častí	časť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+24	Bratislavy	bratislava	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	,	,	PUNCT	Z	_	32	punct	_	_
+26	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	27	case	_	_
+27	rozlohe	rozloha	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	32	obl	_	_
+28	10	10	NUM	0	NumForm=Digit	27	nummod	_	_
+29	,	,	PUNCT	Z	_	30	punct	_	_
+30	3	3	NUM	0	NumForm=Digit	28	nummod	_	_
+31	km2	km2	X	Q	Hyph=Yes	28	nmod	_	_
+32	žije	žiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	conj	_	_
+33	viac	viac	ADV	Dx	Degree=Pos	32	nsubj	_	_
+34	ako	ako	SCONJ	O	_	35	mark	_	_
+35	18000	18000	NUM	0	NumForm=Digit	33	nsubj	_	_
+36	obyvateľov	obyvateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	35	nmod	_	_
+37	.	.	PUNCT	Z	_	9	punct	_	_
+

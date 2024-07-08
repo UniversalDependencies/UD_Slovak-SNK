@@ -1,0 +1,307 @@
+# sent_id = s1
+# text = 20 . februára 2005 Bush začal svoje „ turné “ po Európe .
+# orig_file_sentence bush-023_kandracova_bush-023_mz#1
+1	20	20	NUM	0	NumForm=Digit	3	nummod	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+3	februára	február	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+4	2005	2005	NUM	0	NumForm=Digit	3	nummod	_	_
+5	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	začal	začať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	svoje	svoj	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	_
+8	„	„	PUNCT	Z	_	9	punct	_	_
+9	turné	turné	NOUN	SUns4	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+10	“	“	PUNCT	Z	_	9	punct	_	_
+11	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	Európe	európa	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	_
+13	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s2
+# text = Cieľom bolo napraviť vzťahy s niektorými krajinami , ktoré sa zhoršili pred vojnou v Iraku .
+# orig_file_sentence bush-023_kandracova_bush-023_mz#2
+1	Cieľom	cieľ	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+2	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	cop	_	_
+3	napraviť	napraviť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	csubj	_	_
+4	vzťahy	vzťah	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+5	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	7	case	_	_
+6	niektorými	niektorý	DET	PAfp7	Case=Ins|Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
+7	krajinami	krajina	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	4	nmod	_	_
+8	,	,	PUNCT	Z	_	11	punct	_	_
+9	ktoré	ktorý	DET	PAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	11	nsubj	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+11	zhoršili	zhoršiť	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
+12	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	13	case	_	_
+13	vojnou	vojna	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	Iraku	irak	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
+16	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s3
+# text = Jeho 5 dní trvajúca cesta začala v Bruseli a skončila na Slovensku .
+# orig_file_sentence bush-023_kandracova_bush-023_mz#3
+1	Jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+2	5	5	NUM	0	NumForm=Digit	4	obl	_	_
+3	dní	deň	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	trvajúca	trvajúci	ADJ	Gkfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	5	amod	_	_
+5	cesta	cesta	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	začala	začať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	Bruseli	brusel	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	skončila	skončiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+11	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	Slovensku	slovensko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+13	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s4
+# text = Stretol sa takmer so všetkými dôležitými politikmi .
+# orig_file_sentence bush-023_kandracova_bush-023_mz#4
+1	Stretol	stretnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	takmer	takmer	PART	T	_	5	advmod:emph	_	_
+4	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	7	case	_	_
+5	všetkými	všetok	DET	PFmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|PronType=Tot	7	det	_	_
+6	dôležitými	dôležitý	ADJ	AAmp7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+7	politikmi	politik	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	1	obl:arg	_	_
+8	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s5
+# text = Patrili medzi nich Jacques Chirac , Gerhard Schröder , Viktor Juščenko , Tony Blair , Silvio Berlusconi , ďalej sa stretol s členmi Európskej rady , vedením NATO a s Vladimírom Putinom .
+# orig_file_sentence bush-023_kandracova_bush-023_mz#5
+1	Patrili	patriť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	medzi	medzi	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+3	nich	on	PRON	PFmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	dep:nr	_	_
+4	Jacques	jacques	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+5	Chirac	chirac	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+6	,	,	PUNCT	Z	_	5	punct	_	_
+7	Gerhard	gerhard	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	dep:nr	_	_
+8	Schröder	schröder	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	Z	_	8	punct	_	_
+10	Viktor	viktor	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	dep:nr	_	_
+11	Juščenko	juščenko	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
+12	,	,	PUNCT	Z	_	11	punct	_	_
+13	Tony	tony	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	dep:nr	_	_
+14	Blair	blair	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
+15	,	,	PUNCT	Z	_	14	punct	_	_
+16	Silvio	silvio	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	dep:nr	_	_
+17	Berlusconi	berlusconi	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nmod	_	_
+18	,	,	PUNCT	Z	_	17	punct	_	_
+19	ďalej	ďalej	PART	T	_	18	dep:nr	_	_
+20	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	19	expl:pass	_	_
+21	stretol	stretnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	20	acl	_	_
+22	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	23	case	_	_
+23	členmi	člen	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	21	dep:nr	_	_
+24	Európskej	európsky	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+25	rady	rada	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	24	dep:nr	_	_
+26	,	,	PUNCT	Z	_	25	punct	_	_
+27	vedením	vedenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	26	dep:nr	_	_
+28	NATO	nato	X	W	Abbr=Yes	27	nmod	_	_
+29	a	a	CCONJ	O	_	28	dep:nr	_	_
+30	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	31	case	_	_
+31	Vladimírom	vladimír	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	29	dep:nr	_	_
+32	Putinom	putin	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	31	nmod	_	_
+33	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s6
+# text = Po Bruseli sa prezident Bush zastavil v Mainzi v Nemecku , kde navštívil aj americkú základňu .
+# orig_file_sentence bush-023_kandracova_bush-023_mz#6
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	Bruseli	brusel	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+4	prezident	prezident	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+5	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	zastavil	zastaviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	Mainzi	mainz	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	Nemecku	nemecko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	_
+11	,	,	PUNCT	Z	_	13	punct	_	_
+12	kde	kde	ADV	PD	PronType=Int,Rel	13	advmod	_	_
+13	navštívil	navštíviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+14	aj	aj	PART	T	_	16	advmod:emph	_	_
+15	americkú	americký	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	základňu	základňa	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+17	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s7
+# text = Následne cestoval na Slovensko , kde sa stretol s ruským prezidentom a predstaviteľmi Slovenska .
+# orig_file_sentence bush-023_kandracova_bush-023_mz#7
+1	Následne	následne	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	cestoval	cestovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	Slovensko	slovensko	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
+5	,	,	PUNCT	Z	_	8	punct	_	_
+6	kde	kde	ADV	PD	PronType=Int,Rel	8	advmod	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+8	stretol	stretnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
+9	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	11	case	_	_
+10	ruským	ruský	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	prezidentom	prezident	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obl:arg	_	_
+12	a	a	CCONJ	O	_	13	cc	_	_
+13	predstaviteľmi	predstaviteľ	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	11	conj	_	_
+14	Slovenska	slovensko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s8
+# text = Bushova vláda , v prvom aj v druhom volebnom období , je najotvorenejšou vládou voči národnostným menšinám v histórii .
+# orig_file_sentence bush-023_kandracova_bush-023_mz#8
+1	Bushova	bushov	ADJ	AFfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+3	,	,	PUNCT	Z	_	5	punct	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	prvom	prvý	ADJ	NAns6	Case=Loc|Gender=Neut|Number=Sing|NumType=Ord	14	dep	_	_
+6	aj	aj	CCONJ	O	_	10	cc	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+8	druhom	druhý	ADJ	NAns6	Case=Loc|Gender=Neut|Number=Sing|NumType=Ord	10	amod	_	_
+9	volebnom	volebný	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	období	obdobie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	conj	_	_
+11	,	,	PUNCT	Z	_	5	punct	_	_
+12	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	najotvorenejšou	otvorený	ADJ	Gtfs7z	Case=Ins|Degree=Sup|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	vládou	vláda	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+15	voči	voči	ADP	Eu3	AdpType=Prep|Case=Dat	17	case	_	_
+16	národnostným	národnostný	ADJ	AAfp3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_
+17	menšinám	menšina	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	14	obl:arg	_	_
+18	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	histórii	história	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	14	obl	_	_
+20	.	.	PUNCT	Z	_	14	punct	_	_
+
+# sent_id = s9
+# text = Národnostná rôznorodosť jeho vládneho kabinetu ho zaradila do Guinessovej knihy rekordov .
+# orig_file_sentence bush-023_kandracova_bush-023_mz#9
+1	Národnostná	národnostný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	rôznorodosť	rôznorodosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	jeho	jeho	DET	PUis2	Animacy=Inan|Case=Gen|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+4	vládneho	vládny	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	kabinetu	kabinet	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+6	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	zaradila	zaradiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+9	Guinessovej	guinessov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	knihy	kniha	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+11	rekordov	rekord	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s10
+# text = Colin Powell bol prvým afro ‐ američanom zastávajúcim post Štátneho tajomníka zahraničných vecí ( vo vládnom období 2001 ‐ 2004 )
+# orig_file_sentence bush-023_kandracova_bush-023_mz#10
+1	Colin	colin	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Powell	powell	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	cop	_	_
+4	prvým	prvý	ADJ	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
+5	afro	afro	X	Q	Hyph=Yes	7	nmod	_	_
+6	‐	‐	PUNCT	Z	_	5	punct	_	_
+7	američanom	američan	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+8	zastávajúcim	zastávajúci	ADJ	Gkms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	7	amod	_	_
+9	post	post	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	Štátneho	štátny	ADJ	AAms2x:r	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	tajomníka	tajomník	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	zahraničných	zahraničný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_
+13	vecí	vec	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+14	(	(	PUNCT	Z	_	17	punct	_	_
+15	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	17	case	_	_
+16	vládnom	vládny	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	období	obdobie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+18	2001	2001	NUM	0	NumForm=Digit	17	nummod	_	_
+19	‐	‐	PUNCT	Z	_	20	punct	_	_
+20	2004	2004	NUM	0	NumForm=Digit	18	conj	_	_
+21	)	)	PUNCT	Z	_	17	punct	_	_
+
+# sent_id = s11
+# text = Condoleezza Riceová sa stala prvou ženou černošského pôvodu zastávajúcou tento post ( od roku 2005 ) a tiež prvou ženou černošského pôvodu zastávajúcou post Poradcu národnej bezpečnosti ( vládne obdobie 2001 ‐ 2004 )
+# orig_file_sentence bush-023_kandracova_bush-023_mz#11
+1	Condoleezza	condoleezza	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_
+2	Riceová	riceová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	stala	stať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	prvou	prvý	ADJ	NAfs7	Case=Ins|Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	_
+6	ženou	žena	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	4	obj	_	_
+7	černošského	černošský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	pôvodu	pôvod	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	zastávajúcou	zastávajúci	ADJ	Gkfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	6	amod	_	_
+10	tento	tento	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	post	post	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	(	(	PUNCT	Z	_	14	punct	_	_
+13	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+14	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+15	2005	2005	NUM	0	NumForm=Digit	14	nummod	_	_
+16	)	)	PUNCT	Z	_	14	punct	_	_
+17	a	a	CCONJ	O	_	20	cc	_	_
+18	tiež	tiež	SCONJ	O	_	19	advmod:emph	_	_
+19	prvou	prvý	ADJ	NAfs7	Case=Ins|Gender=Fem|Number=Sing|NumType=Ord	20	amod	_	_
+20	ženou	žena	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	6	conj	_	_
+21	černošského	černošský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	pôvodu	pôvod	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	zastávajúcou	zastávajúci	ADJ	Gkfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	20	amod	_	_
+24	post	post	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+25	Poradcu	poradca	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	národnej	národný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	bezpečnosti	bezpečnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+28	(	(	PUNCT	Z	_	23	punct	_	_
+29	vládne	vládny	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
+30	obdobie	obdobie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	23	dep	_	_
+31	2001	2001	NUM	0	NumForm=Digit	30	nummod	_	_
+32	‐	‐	PUNCT	Z	_	33	punct	_	_
+33	2004	2004	NUM	0	NumForm=Digit	31	conj	_	_
+34	)	)	PUNCT	Z	_	23	punct	_	_
+
+# sent_id = s12
+# text = Elaine Chao je prvou ženou ázijského pôvodu , ktorá sa stala členom americkej vlády
+# orig_file_sentence bush-023_kandracova_bush-023_mz#12
+1	Elaine	elaine	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_
+2	Chao	chao	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	prvou	prvý	ADJ	NAfs7	Case=Ins|Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	ženou	žena	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+6	ázijského	ázijský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	pôvodu	pôvod	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	,	,	PUNCT	Z	_	12	punct	_	_
+9	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	12	nsubj	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+11	stala	stať	AUX	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	cop	_	_
+12	členom	člen	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	acl	_	_
+13	americkej	americký	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+
+# sent_id = s13
+# text = Mel Martinez je v roku 2001 prvým politikom hispánskeho pôvodu , ktorý sa stal členom americkej vlády a Alberto Gonzales sa v roku 2005 stal prvým politikom hispánskeho pôvodu na takom dôležitom poste , akým je post Tajomníka spravodlivosti
+# orig_file_sentence bush-023_kandracova_bush-023_mz#13
+1	Mel	mel	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Martinez	martinez	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+5	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+6	2001	2001	NUM	0	NumForm=Digit	8	obl	_	_
+7	prvým	prvý	ADJ	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	politikom	politik	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+9	hispánskeho	hispánsky	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	pôvodu	pôvod	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	,	,	PUNCT	Z	_	15	punct	_	_
+12	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	15	nsubj	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+14	stal	stať	AUX	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	15	cop	_	_
+15	členom	člen	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	acl	_	_
+16	americkej	americký	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	a	a	CCONJ	O	_	25	cc	_	_
+19	Alberto	alberto	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nmod	_	_
+20	Gonzales	gonzales	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+21	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	25	expl:pv	_	_
+22	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	23	case	_	_
+23	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	obl	_	_
+24	2005	2005	NUM	0	NumForm=Digit	23	nummod	_	_
+25	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	conj	_	_
+26	prvým	prvý	ADJ	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|NumType=Ord	27	amod	_	_
+27	politikom	politik	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	25	obj	_	_
+28	hispánskeho	hispánsky	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	pôvodu	pôvod	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+30	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	33	case	_	_
+31	takom	taký	DET	PAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	33	det	_	_
+32	dôležitom	dôležitý	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	poste	post	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	nmod	_	_
+34	,	,	PUNCT	Z	_	35	punct	_	_
+35	akým	aký	DET	PAis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|PronType=Int,Rel	31	advcl	_	_
+36	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	35	cop	_	_
+37	post	post	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
+38	Tajomníka	tajomník	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+39	spravodlivosti	spravodlivosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	38	nmod	_	_
+

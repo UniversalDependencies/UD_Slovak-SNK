@@ -1,0 +1,817 @@
+# sent_id = s1
+# text = Celé štyri roky .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#1
+1	Celé	celý	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+2	štyri	štyri	NUM	NNip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	nummod	_	_
+3	roky	rok	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	0	root	_	_
+4	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s2
+# text = A predtým . . . "
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#2
+1	A	a	CCONJ	O	_	2	cc	_	_
+2	predtým	predtým	ADV	Dx	Degree=Pos	0	root	_	_
+3	.	.	PUNCT	ZIP	_	2	punct	_	_
+4	.	.	PUNCT	ZIP	_	2	punct	_	_
+5	.	.	PUNCT	ZIP	_	2	punct	_	_
+6	"	"	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s3
+# text = O ' Brien ho zastavil pohybom ruky .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#3
+1	O	o	X	Q	Hyph=Yes	3	nmod	_	_
+2	'	'	PUNCT	ZIP	_	3	punct	_	_
+3	Brien	brien	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	zastavil	zastaviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	pohybom	pohyb	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	iobj	_	_
+7	ruky	ruka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s4
+# text = " Iný príklad , " povedal . " Pred niekoľkými rokmi si mal naozaj vážnu falošnú predstavu .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#4
+1	"	"	PUNCT	ZIP	_	3	punct	_	_
+2	Iný	iný	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	príklad	príklad	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
+4	,	,	PUNCT	ZIP	_	3	punct	_	_
+5	"	"	PUNCT	ZIP	_	3	punct	_	_
+6	povedal	povedať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	.	.	PUNCT	ZIP	_	6	punct	_	_
+8	"	"	PUNCT	ZIP	_	13	punct	_	_
+9	Pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	11	case	_	_
+10	niekoľkými	niekoľko	DET	PUip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	11	det	_	_
+11	rokmi	rok	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	obl	_	_
+12	si	byť	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	compound	_	_
+13	mal	mať	VERB	VLesbm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	parataxis	_	_
+14	naozaj	naozaj	PART	T	_	15	advmod	_	_
+15	vážnu	vážny	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	falošnú	falošný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	predstavu	predstava	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+18	.	.	PUNCT	ZIP	_	6	punct	_	_
+
+# sent_id = s5
+# text = Bol si presvedčený , že traja muži , traja niekdajší straníci , konkrétne Jones , Aaronson a Rutherford -- muži popravení za zradu a sabotáže , ku ktorým sa plne priznali -- nespáchali zločiny , z ktorých ich obvinili .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#5
+1	Bol	byť	AUX	VLesbm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	cop	_	_
+2	si	byť	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	compound	_	_
+3	presvedčený	presvedčený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	,	,	PUNCT	ZIP	_	21	punct	_	_
+5	že	že	SCONJ	O	_	21	mark	_	_
+6	traja	tri	NUM	NNmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nummod	_	_
+7	muži	muž	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+8	,	,	PUNCT	ZIP	_	11	punct	_	_
+9	traja	tri	NUM	NNmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nummod	_	_
+10	niekdajší	niekdajší	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_
+11	straníci	straník	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	conj	_	_
+12	,	,	PUNCT	ZIP	_	14	punct	_	_
+13	konkrétne	konkrétne	ADV	Dx	Degree=Pos	14	advmod	_	_
+14	Jones	jones	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+15	,	,	PUNCT	ZIP	_	16	punct	_	_
+16	Aaronson	aaronson	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	Rutherford	Rutherford	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+19	--	--	PUNCT	ZIP	_	21	punct	_	_
+20	muži	muž	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj:pass	_	_
+21	popravení	popravený	ADJ	Gtmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	3	advcl	_	_
+22	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	23	case	_	_
+23	zradu	zrada	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	21	obl:arg	_	_
+24	a	a	CCONJ	O	_	25	cc	_	_
+25	sabotáže	sabotáž	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	23	conj	_	_
+26	,	,	PUNCT	ZIP	_	31	punct	_	_
+27	ku	k	ADP	Ev3	AdpType=Voc|Case=Dat	31	mark	_	_
+28	ktorým	ktorý	DET	PAfp3	Case=Dat|Gender=Fem|Number=Plur|PronType=Int,Rel	27	fixed	_	_
+29	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	31	expl:pv	_	_
+30	plne	plne	ADV	Dx	Degree=Pos	31	advmod	_	_
+31	priznali	priznať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	23	acl	_	_
+32	--	--	PUNCT	ZIP	_	21	punct	_	_
+33	nespáchali	spáchať	AUX	VLdpcm-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	21	cop	_	_
+34	zločiny	zločin	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	_
+35	,	,	PUNCT	ZIP	_	39	punct	_	_
+36	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	39	mark	_	_
+37	ktorých	ktorý	DET	PAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|PronType=Int,Rel	36	fixed	_	_
+38	ich	on	PRON	PFmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	39	obj	_	_
+39	obvinili	obviniť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	34	acl	_	_
+40	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s6
+# text = Bol si presvedčený , že si získal neklamný dôkaz o falošnosti ich priznania .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#6
+1	Bol	byť	AUX	VLesbm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	cop	_	_
+2	si	byť	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	expl:pass	_	_
+3	presvedčený	presvedčený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	,	,	PUNCT	ZIP	_	7	punct	_	_
+5	že	že	SCONJ	O	_	7	mark	_	_
+6	si	byť	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	compound	_	_
+7	získal	získať	VERB	VLdsbm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	advcl	_	_
+8	neklamný	neklamný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	dôkaz	dôkaz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	falošnosti	falošnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	9	obl:arg	_	_
+12	ich	ich	DET	PUns2	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	priznania	priznanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+14	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s7
+# text = Bola tu istá fotografia , o ktorej si mal pomýlenú predstavu .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#7
+1	Bola	byť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	tu	tu	ADV	PD	PronType=Dem	1	advmod	_	_
+3	istá	istý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	fotografia	fotografia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+5	,	,	PUNCT	ZIP	_	9	punct	_	_
+6	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	9	mark	_	_
+7	ktorej	ktorý	DET	PAfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Int,Rel	6	fixed	_	_
+8	si	byť	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	compound	_	_
+9	mal	mať	VERB	VLesbm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
+10	pomýlenú	pomýlený	ADJ	Gtfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	predstavu	predstava	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+12	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s8
+# text = Bol si presvedčený , že si ju naozaj mal v rukách .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#8
+1	Bol	byť	AUX	VLesbm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	cop	_	_
+2	si	byť	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	compound	_	_
+3	presvedčený	presvedčený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	,	,	PUNCT	ZIP	_	9	punct	_	_
+5	že	že	SCONJ	O	_	9	mark	_	_
+6	si	byť	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	compound	_	_
+7	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+8	naozaj	naozaj	PART	T	_	9	advmod	_	_
+9	mal	mať	VERB	VLesbm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	advcl	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	rukách	ruka	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_
+12	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s9
+# text = Tá fotografia bola asi takáto . "
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#9
+1	Tá	tá	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	advmod:emph	_	_
+2	fotografia	fotografia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	cop	_	_
+4	asi	asi	PART	T	_	5	cc	_	_
+5	takáto	takýto	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+6	.	.	PUNCT	ZIP	_	5	punct	_	_
+7	"	"	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s10
+# text = A v O ' Brienových prstoch sa objavil pozdĺžny výstrižok z novín .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#10
+1	A	a	PART	T	_	6	cc	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+3	O	o	X	Q	Hyph=Yes	5	nmod	_	_
+4	'	'	PUNCT	ZIP	_	5	punct	_	_
+5	Brienových	brienov	ADJ	AFip6x:r	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+6	prstoch	prst	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	obl	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+8	objavil	objaviť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	pozdĺžny	pozdĺžny	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	výstrižok	výstrižok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+11	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+12	novín	noviny	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	10	obl	_	_
+13	.	.	PUNCT	ZIP	_	8	punct	_	_
+
+# sent_id = s11
+# text = Zo päť sekúnd ho držal v takom uhle , že naň Winston videl .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#11
+1	Zo	zo	PART	T	_	3	case	_	_
+2	päť	päť	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	3	nummod	_	_
+3	sekúnd	sekunda	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+4	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	držal	držať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+7	takom	taký	DET	PAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	8	advmod:emph	_	_
+8	uhle	uhol	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+9	,	,	PUNCT	ZIP	_	13	punct	_	_
+10	že	že	SCONJ	O	_	13	mark	_	_
+11	naň	na_on	PRON	PFis4g	AdpType=Preppron|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	13	obj	_	_
+12	Winston	winston	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+13	videl	vidieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+14	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s12
+# text = Bola to fotografia a o jej hodnovernosti sa nedalo vôbec pochybovať .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#12
+1	Bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	cop	_	_
+2	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	fotografia	fotografia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	a	a	CCONJ	O	_	9	cc	_	_
+5	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	jej	jej	DET	PUfs6	Case=Loc|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	hodnovernosti	hodnovernosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	9	obl:arg	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+9	nedalo	dať	VERB	VLjscn-	Aspect=Imp,Perf|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	3	conj	_	_
+10	vôbec	vôbec	PART	T	_	11	advmod	_	_
+11	pochybovať	pochybovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	9	xcomp	_	_
+12	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s13
+# text = Bola to stará známa fotografia . Ďalší exemplár fotografie Jonesa , Aaronsona a Rutherforda na straníckej konferencii v New Yorku , na ktorú natrafil pred jedenástimi rokmi a ktorú ihneď zničil .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#13
+1	Bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	cop	_	_
+2	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	stará	starý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	známa	známy	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	fotografia	fotografia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+6	.	.	PUNCT	ZIP	_	5	punct	_	_
+7	Ďalší	ďalší	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	exemplár	exemplár	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	dep	_	_
+9	fotografie	fotografia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	Jonesa	jones	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	obj	_	_
+11	,	,	PUNCT	ZIP	_	12	punct	_	_
+12	Aaronsona	aaronson	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	conj	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	Rutherforda	rutherford	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	conj	_	_
+15	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+16	straníckej	stranícky	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	konferencii	konferencia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+18	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	New	new	X	Q	Hyph=Yes	17	advmod	_	_
+20	Yorku	york	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	_
+21	,	,	PUNCT	ZIP	_	24	punct	_	_
+22	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	24	mark	_	_
+23	ktorú	ktorý	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	22	fixed	_	_
+24	natrafil	natrafiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	17	acl	_	_
+25	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	27	case	_	_
+26	jedenástimi	jedenásť	NUM	NUip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	27	nummod	_	_
+27	rokmi	rok	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	24	obl	_	_
+28	a	a	CCONJ	O	_	31	cc	_	_
+29	ktorú	ktorý	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	31	mark	_	_
+30	ihneď	ihneď	ADV	Dx	Degree=Pos	31	advmod	_	_
+31	zničil	zničiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	24	conj	_	_
+32	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s14
+# text = Len okamih ju mal pred očami a potom už nie .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#14
+1	Len	len	PART	T	_	2	cc	_	_
+2	okamih	okamih	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+3	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	mal	mať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	6	case	_	_
+6	očami	oko	NOUN	SSnp7	Case=Ins|Gender=Neut|Number=Plur	4	obl	_	_
+7	a	a	CCONJ	O	_	10	cc	_	_
+8	potom	potom	ADV	Dx	Degree=Pos	10	advmod	_	_
+9	už	už	PART	T	_	10	cc	_	_
+10	nie	nie	PART	T	_	4	conj	_	_
+11	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s15
+# text = Ale ju videl , bezpochyby ju videl !
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#15
+1	Ale	ale	CCONJ	O	_	3	cc	_	_
+2	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	videl	vidieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	,	,	PUNCT	ZIP	_	7	punct	_	_
+5	bezpochyby	bezpochyby	PART	T	_	7	advmod	_	_
+6	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	videl	vidieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+8	!	!	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s16
+# text = Podnikol zúfalý , bezvýchodiskový pokus otočiť sa a tak si uvoľniť hornú časť tela .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#16
+1	Podnikol	podniknúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	zúfalý	zúfalý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+3	,	,	PUNCT	ZIP	_	4	punct	_	_
+4	bezvýchodiskový	bezvýchodiskový	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	_
+5	pokus	pokus	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+6	otočiť	otočiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	obj	_	_
+8	a	a	CCONJ	O	_	11	cc	_	_
+9	tak	tak	ADV	PD	PronType=Dem	11	advmod	_	_
+10	si	si	PRON	R	PronType=Prs|Reflex=Yes	11	iobj	_	_
+11	uvoľniť	uvoľniť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	conj	_	_
+12	hornú	horný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	časť	časť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	tela	telo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s17
+# text = Lenže sa nedokázal pohnúť nijakým smerom ani len o centimeter .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#17
+1	Lenže	lenže	CCONJ	O	_	3	cc	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	nedokázal	dokázať	VERB	VLdscm-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+4	pohnúť	pohnúť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+5	nijakým	nijaký	DET	PAis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|PronType=Neg	6	det	_	_
+6	smerom	smer	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+7	ani	ani	PART	T	_	8	cc	_	_
+8	len	len	PART	T	_	10	cc	_	_
+9	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	10	cc	_	_
+10	centimeter	centimeter	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+11	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s18
+# text = Načas dokonca zabudol na ciferník .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#18
+1	Načas	načas	ADV	Dx	Degree=Pos	3	advmod	_	_
+2	dokonca	dokonca	PART	T	_	3	advmod	_	_
+3	zabudol	zabudnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	ciferník	ciferník	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl:arg	_	_
+6	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s19
+# text = Nechcel nič iné , len opäť držať tú fotografiu vlastnými prstami , alebo ju aspoň vidieť .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#19
+1	Nechcel	chcieť	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+2	nič	nič	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	1	obj	_	_
+3	iné	iný	DET	PAns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	2	det	_	_
+4	,	,	PUNCT	ZIP	_	7	punct	_	_
+5	len	len	CCONJ	O	_	7	cc	_	_
+6	opäť	opäť	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	držať	držať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	conj	_	_
+8	tú	tá	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	9	advmod:emph	_	_
+9	fotografiu	fotografia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+10	vlastnými	vlastný	ADJ	AAip7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_
+11	prstami	prst	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	_
+12	,	,	PUNCT	ZIP	_	16	punct	_	_
+13	alebo	alebo	CCONJ	O	_	16	cc	_	_
+14	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+15	aspoň	aspoň	PART	T	_	16	advmod	_	_
+16	vidieť	vidieť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	conj	_	_
+17	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s20
+# text = " Takže jestvuje ! " zvolal .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#20
+1	"	"	PUNCT	ZIP	_	3	punct	_	_
+2	Takže	takže	PART	T	_	3	mark	_	_
+3	jestvuje	jestvovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+4	!	!	PUNCT	ZIP	_	3	punct	_	_
+5	"	"	PUNCT	ZIP	_	3	punct	_	_
+6	zvolal	zvolať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	.	.	PUNCT	ZIP	_	6	punct	_	_
+
+# sent_id = s21
+# text = " Nie , " povedal O ' Brien .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#21
+1	"	"	PUNCT	ZIP	_	5	punct	_	_
+2	Nie	nie	PART	T	_	5	dep	_	_
+3	,	,	PUNCT	ZIP	_	5	punct	_	_
+4	"	"	PUNCT	ZIP	_	5	punct	_	_
+5	povedal	povedať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	O	o	X	Q	Hyph=Yes	8	nmod	_	_
+7	'	'	PUNCT	ZIP	_	8	punct	_	_
+8	Brien	brien	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+9	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s22
+# text = Prešiel krížom miestnosťou .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#22
+1	Prešiel	prejsť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	krížom	krížom	ADV	Dx	Degree=Pos	1	advmod	_	_
+3	miestnosťou	miestnosť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	1	obj	_	_
+4	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s23
+# text = V náprotivnej stene bol pamäťový otvor .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#23
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	náprotivnej	náprotivný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	stene	stena	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+4	bol	byť	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	pamäťový	pamäťový	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	otvor	otvor	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+7	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s24
+# text = O ' Brien nadvihol mriežku .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#24
+1	O	o	X	Q	Hyph=Yes	3	nmod	_	_
+2	'	'	PUNCT	ZIP	_	3	punct	_	_
+3	Brien	brien	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	nadvihol	nadvihnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	mriežku	mriežka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s25
+# text = Vír teplého vzduchu vtiahol dnu krehký , neveľmi viditeľný kúsok papiera , kde ho pohltili plamene .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#25
+1	Vír	vír	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	teplého	teplý	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	vzduchu	vzduch	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	vtiahol	vtiahnuť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	dnu	dnu	ADV	Dx	Degree=Pos	4	advmod	_	_
+6	krehký	krehký	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+7	,	,	PUNCT	ZIP	_	9	punct	_	_
+8	neveľmi	neveľmi	ADV	Dx	Degree=Pos	9	advmod	_	_
+9	viditeľný	viditeľný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	conj	_	_
+10	kúsok	kúsok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+11	papiera	papier	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	,	,	PUNCT	ZIP	_	15	punct	_	_
+13	kde	kde	ADV	PD	PronType=Int,Rel	15	advmod	_	_
+14	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+15	pohltili	pohltiť	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+16	plamene	plameň	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+17	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s26
+# text = O ' Brien sa odvrátil od steny .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#26
+1	O	o	X	Q	Hyph=Yes	3	nmod	_	_
+2	'	'	PUNCT	ZIP	_	3	punct	_	_
+3	Brien	brien	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	obj	_	_
+5	odvrátil	odvrátiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	steny	stena	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+8	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s27
+# text = " Popol , " poznamenal . " Popol , ktorý sa nedá ani len identifikovať .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#27
+1	"	"	PUNCT	ZIP	_	5	punct	_	_
+2	Popol	popol	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	dep	_	_
+3	,	,	PUNCT	ZIP	_	5	punct	_	_
+4	"	"	PUNCT	ZIP	_	5	punct	_	_
+5	poznamenal	poznamenať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	.	.	PUNCT	ZIP	_	5	punct	_	_
+7	"	"	PUNCT	ZIP	_	12	punct	_	_
+8	Popol	popol	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+9	,	,	PUNCT	ZIP	_	12	punct	_	_
+10	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	12	mark	_	_
+11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+12	nedá	dať	VERB	VKjsc-	Aspect=Imp,Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+13	ani	ani	PART	T	_	14	cc	_	_
+14	len	len	PART	T	_	15	advmod	_	_
+15	identifikovať	identifikovať	VERB	VIj+	Aspect=Imp,Perf|Polarity=Pos|VerbForm=Inf	12	xcomp	_	_
+16	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s28
+# text = Prach .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#28
+1	Prach	prach	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s29
+# text = Nejestvuje .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#29
+1	Nejestvuje	jestvovať	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s30
+# text = Nikdy nejestvovala . "
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#30
+1	Nikdy	nikdy	ADV	PD	PronType=Neg	2	advmod	_	_
+2	nejestvovala	jestvovať	VERB	VLescf-	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+3	.	.	PUNCT	ZIP	_	2	punct	_	_
+4	"	"	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s31
+# text = " Práveže jestvovala !
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#31
+1	"	"	PUNCT	ZIP	_	3	punct	_	_
+2	Práveže	práveže	PART	T	_	3	advmod	_	_
+3	jestvovala	jestvovať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	!	!	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s32
+# text = Jestvuje !
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#32
+1	Jestvuje	jestvovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	!	!	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s33
+# text = Jestvuje v pamäti .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#33
+1	Jestvuje	jestvovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	pamäti	pamäť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	1	obl	_	_
+4	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s34
+# text = Pamätám sa na ňu .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#34
+1	Pamätám	pamätať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	ňu	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obl:arg	_	_
+5	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s35
+# text = Aj ty sa na ňu pamätáš . "
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#35
+1	Aj	aj	PART	T	_	2	cc	_	_
+2	ty	ty	PRON	PPhs1	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	ňu	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obl:arg	_	_
+6	pamätáš	pamätať	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	.	.	PUNCT	ZIP	_	6	punct	_	_
+8	"	"	PUNCT	ZIP	_	6	punct	_	_
+
+# sent_id = s36
+# text = " Nepamätám sa na ňu , " povedal O ' Brien .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#36
+1	"	"	PUNCT	ZIP	_	2	punct	_	_
+2	Nepamätám	pamätať	VERB	VKesa-	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	ňu	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl:arg	_	_
+6	,	,	PUNCT	ZIP	_	2	punct	_	_
+7	"	"	PUNCT	ZIP	_	2	punct	_	_
+8	povedal	povedať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	O	o	X	Q	Hyph=Yes	11	nmod	_	_
+10	'	'	PUNCT	ZIP	_	11	punct	_	_
+11	Brien	brien	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+12	.	.	PUNCT	ZIP	_	8	punct	_	_
+
+# sent_id = s37
+# text = Winstona sa zmocnila úzkosť .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#37
+1	Winstona	winston	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	obj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	zmocnila	zmocniť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	úzkosť	úzkosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+5	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s38
+# text = Bol to doublethink . Pripadal si absolútne bezmocný .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#38
+1	Bol	byť	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	advmod:emph	_	_
+3	doublethink	doublethink	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+4	.	.	PUNCT	ZIP	_	1	punct	_	_
+5	Pripadal	pripadať	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	cop	_	_
+6	si	si	PRON	R	PronType=Prs|Reflex=Yes	8	obj	_	_
+7	absolútne	absolútne	ADV	Dx	Degree=Pos	8	advmod	_	_
+8	bezmocný	bezmocný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	parataxis	_	_
+9	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s39
+# text = Aj keby si bol istý , že O ' Brien klame , ani to by na veci nič nemenilo .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#39
+1	Aj	aj	CCONJ	O	_	2	mark	_	_
+2	keby	keby	SCONJ	OY	Mood=Cnd	5	mark	_	_
+3	si	si	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+4	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	cop	_	_
+5	istý	istý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+6	,	,	PUNCT	ZIP	_	11	punct	_	_
+7	že	že	SCONJ	O	_	11	mark	_	_
+8	O	o	X	Q	Hyph=Yes	10	nmod	_	_
+9	'	'	PUNCT	ZIP	_	10	punct	_	_
+10	Brien	brien	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	klame	klamať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+12	,	,	PUNCT	ZIP	_	19	punct	_	_
+13	ani	ani	PART	T	_	19	cc	_	_
+14	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	19	nsubj	_	_
+15	by	by	AUX	Y	Mood=Cnd	19	aux	_	_
+16	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	veci	vec	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	19	obl:arg	_	_
+18	nič	nič	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	19	obj	_	_
+19	nemenilo	meniť	VERB	VLescn-	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	11	conj	_	_
+20	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s40
+# text = Lenže bolo celkom dobre možné , že O ' Brien na tú fotografiu naozaj zabudol .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#40
+1	Lenže	lenže	CCONJ	O	_	5	cc	_	_
+2	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	cop	_	_
+3	celkom	celkom	PART	T	_	4	nmod	_	_
+4	dobre	dobre	PART	T	_	5	nmod	_	_
+5	možné	možný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+6	,	,	PUNCT	ZIP	_	15	punct	_	_
+7	že	že	SCONJ	O	_	15	mark	_	_
+8	O	o	X	Q	Hyph=Yes	10	nmod	_	_
+9	'	'	PUNCT	ZIP	_	10	punct	_	_
+10	Brien	brien	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+12	tú	tá	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	13	advmod:emph	_	_
+13	fotografiu	fotografia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	15	obl:arg	_	_
+14	naozaj	naozaj	PART	T	_	15	advmod	_	_
+15	zabudol	zabudnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	advcl	_	_
+16	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s41
+# text = A ak sa vskutku veci mali tak , potom určite zabudol aj na to , že poprel , že sa na ňu pamätá a zabudol na samotný akt zabudnutia .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#41
+1	A	a	CCONJ	O	_	2	mark	_	_
+2	ak	ak	SCONJ	O	_	6	mark	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+4	vskutku	vskutku	PART	T	_	6	advmod	_	_
+5	veci	vec	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+6	mali	mať	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	tak	tak	ADV	PD	PronType=Dem	6	advmod	_	_
+8	,	,	PUNCT	ZIP	_	11	punct	_	_
+9	potom	potom	ADV	Dx	Degree=Pos	11	advmod	_	_
+10	určite	určite	PART	T	_	11	advmod	_	_
+11	zabudol	zabudnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+12	aj	aj	PART	T	_	14	cc	_	_
+13	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+14	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	obl:arg	_	_
+15	,	,	PUNCT	ZIP	_	17	punct	_	_
+16	že	že	SCONJ	O	_	17	mark	_	_
+17	poprel	poprieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	advcl	_	_
+18	,	,	PUNCT	ZIP	_	23	punct	_	_
+19	že	že	SCONJ	O	_	23	mark	_	_
+20	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	23	expl:pv	_	_
+21	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	22	case	_	_
+22	ňu	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obl:arg	_	_
+23	pamätá	pamätať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	conj	_	_
+24	a	a	CCONJ	O	_	25	cc	_	_
+25	zabudol	zabudnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+26	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	28	case	_	_
+27	samotný	samotný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	akt	akt	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obl:arg	_	_
+29	zabudnutia	zabudnutie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	_
+30	.	.	PUNCT	ZIP	_	6	punct	_	_
+
+# sent_id = s42
+# text = Ako si má byť človek istý , že to všetko je len podvod .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#42
+1	Ako	ako	ADV	PD	PronType=Int,Rel	3	mark	_	_
+2	si	si	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	6	cop	_	_
+5	človek	človek	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	istý	istý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	xcomp	_	_
+7	,	,	PUNCT	ZIP	_	13	punct	_	_
+8	že	že	SCONJ	O	_	13	mark	_	_
+9	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	advmod:emph	_	_
+10	všetko	všetok	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	13	nsubj	_	_
+11	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	len	len	PART	T	_	13	cc	_	_
+13	podvod	podvod	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	advcl	_	_
+14	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s43
+# text = Možno predsa len môže nastať až takýto choromyseľný rozklad vedomia ; a práve táto predstava ho celkom odpísala .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#43
+1	Možno	možno	PART	T	_	2	cc	_	_
+2	predsa	predsa	PART	T	_	3	cc	_	_
+3	len	len	PART	T	_	4	advmod	_	_
+4	môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	nastať	nastať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+6	až	až	PART	T	_	7	mark	_	_
+7	takýto	takýto	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	8	advmod:emph	_	_
+8	choromyseľný	choromyseľný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	rozklad	rozklad	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+10	vedomia	vedomie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	9	obj	_	_
+11	;	;	PUNCT	ZIP	_	18	punct	_	_
+12	a	a	CCONJ	O	_	13	cc	_	_
+13	práve	práve	PART	T	_	18	advmod	_	_
+14	táto	táto	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	15	advmod:emph	_	_
+15	predstava	predstava	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+16	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+17	celkom	celkom	ADV	Dx	Degree=Pos	18	advmod	_	_
+18	odpísala	odpísať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+19	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s44
+# text = O ' Brien sa naňho hĺbavo zahľadel .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#44
+1	O	o	X	Q	Hyph=Yes	3	nmod	_	_
+2	'	'	PUNCT	ZIP	_	3	punct	_	_
+3	Brien	brien	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+5	naňho	na_on	PRON	PFms4g	AdpType=Preppron|Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	7	obl	_	_
+6	hĺbavo	hĺbavo	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	zahľadel	zahľadieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	.	.	PUNCT	ZIP	_	7	punct	_	_
+
+# sent_id = s45
+# text = Väčšmi než kedykoľvek predtým pripomínal učiteľa , ktorý neľutuje nijakú námahu pri práci so samopašným , ale nádejným žiakom .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#45
+1	Väčšmi	väčšmi	ADV	Dx	Degree=Pos	5	advmod	_	_
+2	než	než	SCONJ	O	_	4	mark	_	_
+3	kedykoľvek	kedykoľvek	ADV	PD	PronType=Ind	4	advmod	_	_
+4	predtým	predtým	ADV	Dx	Degree=Pos	1	advmod	_	_
+5	pripomínal	pripomínať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	učiteľa	učiteľ	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	,	,	PUNCT	ZIP	_	9	punct	_	_
+8	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	9	mark	_	_
+9	neľutuje	ľutovať	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	acl	_	_
+10	nijakú	nijaký	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	11	det	_	_
+11	námahu	námaha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+12	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	práci	práca	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+14	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	19	case	_	_
+15	samopašným	samopašný	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+16	,	,	PUNCT	ZIP	_	18	punct	_	_
+17	ale	ale	CCONJ	O	_	18	cc	_	_
+18	nádejným	nádejný	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	conj	_	_
+19	žiakom	žiak	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	obl:arg	_	_
+20	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s46
+# text = " Jestvuje stranícke heslo , ktoré hovorí o tom , ako ovládať minulosť , " poznamenal . " Prosím ťa , zopakuj ho ! "
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#46
+1	"	"	PUNCT	ZIP	_	2	punct	_	_
+2	Jestvuje	jestvovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
+3	stranícke	stranícky	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	heslo	heslo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+5	,	,	PUNCT	ZIP	_	7	punct	_	_
+6	ktoré	ktorý	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	7	mark	_	_
+7	hovorí	hovoriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	acl	_	_
+8	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	tom	to	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	7	obl:arg	_	_
+10	,	,	PUNCT	ZIP	_	12	punct	_	_
+11	ako	ako	ADV	PD	PronType=Int,Rel	12	mark	_	_
+12	ovládať	ovládať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	7	advcl	_	_
+13	minulosť	minulosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	,	,	PUNCT	ZIP	_	2	punct	_	_
+15	"	"	PUNCT	ZIP	_	2	punct	_	_
+16	poznamenal	poznamenať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+17	.	.	PUNCT	ZIP	_	16	punct	_	_
+18	"	"	PUNCT	ZIP	_	19	punct	_	_
+19	Prosím	prosiť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
+20	ťa	ty	PRON	PPhs4	Case=Acc|Number=Sing|Person=2|PronType=Prs	19	iobj	_	_
+21	,	,	PUNCT	ZIP	_	19	punct	_	_
+22	zopakuj	zopakovať	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	19	ccomp	_	_
+23	ho	ono	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+24	!	!	PUNCT	ZIP	_	16	punct	_	_
+25	"	"	PUNCT	ZIP	_	16	punct	_	_
+
+# sent_id = s47
+# text = " Ten , kto ovláda minulosť , ovláda aj budúcnosť , a ten , kto ovláda prítomnosť , ovláda aj minulosť , " opakoval poslušne Winston .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#47
+1	"	"	PUNCT	ZIP	_	5	punct	_	_
+2	Ten	ten	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	,	,	PUNCT	ZIP	_	5	punct	_	_
+4	kto	kto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	5	nsubj	_	_
+5	ovláda	ovládať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	24	parataxis	_	_
+6	minulosť	minulosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	,	,	PUNCT	ZIP	_	8	punct	_	_
+8	ovláda	ovládať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
+9	aj	aj	PART	T	_	10	cc	_	_
+10	budúcnosť	budúcnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	,	,	PUNCT	ZIP	_	16	punct	_	_
+12	a	a	CCONJ	O	_	16	cc	_	_
+13	ten	ten	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+14	,	,	PUNCT	ZIP	_	16	punct	_	_
+15	kto	kto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	16	nsubj	_	_
+16	ovláda	ovládať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
+17	prítomnosť	prítomnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+18	,	,	PUNCT	ZIP	_	19	punct	_	_
+19	ovláda	ovládať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
+20	aj	aj	PART	T	_	21	cc	_	_
+21	minulosť	minulosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+22	,	,	PUNCT	ZIP	_	5	punct	_	_
+23	"	"	PUNCT	ZIP	_	5	punct	_	_
+24	opakoval	opakovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+25	poslušne	poslušne	ADV	Dx	Degree=Pos	24	advmod	_	_
+26	Winston	winston	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+27	.	.	PUNCT	ZIP	_	24	punct	_	_
+
+# sent_id = s48
+# text = " Ten , kto ovláda súčasnosť , ovláda aj minulosť , " opakoval O ' Brien a pomaly prikývol na znak súhlasu . " Domnievaš sa , Winston , že minulosť skutočne existuje ? "
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#48
+1	"	"	PUNCT	ZIP	_	5	punct	_	_
+2	Ten	ten	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	dep	_	_
+3	,	,	PUNCT	ZIP	_	5	punct	_	_
+4	kto	kto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	5	nsubj	_	_
+5	ovláda	ovládať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	parataxis	_	_
+6	súčasnosť	súčasnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	,	,	PUNCT	ZIP	_	8	punct	_	_
+8	ovláda	ovládať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
+9	aj	aj	PART	T	_	10	cc	_	_
+10	minulosť	minulosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	,	,	PUNCT	ZIP	_	5	punct	_	_
+12	"	"	PUNCT	ZIP	_	5	punct	_	_
+13	opakoval	opakovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+14	O	o	X	Q	Hyph=Yes	16	nmod	_	_
+15	'	'	PUNCT	ZIP	_	16	punct	_	_
+16	Brien	brien	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+17	a	a	CCONJ	O	_	19	cc	_	_
+18	pomaly	pomaly	ADV	Dx	Degree=Pos	19	advmod	_	_
+19	prikývol	prikývnuť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	conj	_	_
+20	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	21	case	_	_
+21	znak	znak	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obl:arg	_	_
+22	súhlasu	súhlas	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	.	.	PUNCT	ZIP	_	13	punct	_	_
+24	"	"	PUNCT	ZIP	_	25	punct	_	_
+25	Domnievaš	domnievať	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	parataxis	_	_
+26	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	25	expl:pv	_	_
+27	,	,	PUNCT	ZIP	_	28	punct	_	_
+28	Winston	winston	PROPN	SSms5:r	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	25	nsubj	_	_
+29	,	,	PUNCT	ZIP	_	28	punct	_	_
+30	že	že	SCONJ	O	_	33	mark	_	_
+31	minulosť	minulosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	33	nsubj	_	_
+32	skutočne	skutočne	PART	T	_	33	advmod	_	_
+33	existuje	existovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	25	advcl	_	_
+34	?	?	PUNCT	ZIP	_	13	punct	_	_
+35	"	"	PUNCT	ZIP	_	13	punct	_	_
+
+# sent_id = s49
+# text = Winstona sa opäť zmocnil pocit bezmocnosti .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#49
+1	Winstona	winston	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	obj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	opäť	opäť	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	zmocnil	zmocniť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	pocit	pocit	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	bezmocnosti	bezmocnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s50
+# text = Vrhol pohľad na ciferník .
+# orig_file_sentence b298aa2_hrenakova_b298aa2_katarinag#50
+1	Vrhol	vrhnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	pohľad	pohľad	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	ciferník	ciferník	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl	_	_
+5	.	.	PUNCT	ZIP	_	1	punct	_	_
+

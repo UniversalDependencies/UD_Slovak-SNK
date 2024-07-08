@@ -1,0 +1,299 @@
+# sent_id = s1
+# text = Theodosius II .
+# orig_file_sentence wiki-nove-075_mz_wiki-nove-075_kandracova#1
+1	Theodosius	theodosius	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	II	ii	NUM	0	NumForm=Digit	1	nummod	_	_
+3	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s2
+# text = Theodosius II . , plným menom Flavius Theodosius ( apríl 401 – 28 . júl 450 ) , bol východorímskym cisárom v rokoch 408 – 450 .
+# orig_file_sentence wiki-nove-075_mz_wiki-nove-075_kandracova#2
+1	Theodosius	theodosius	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+2	II	ii	NUM	0	NumForm=Digit	1	nummod	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+4	,	,	PUNCT	Z	_	6	punct	_	_
+5	plným	plný	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	menom	meno	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	_
+7	Flavius	flavius	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+8	Theodosius	theodosius	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+9	(	(	PUNCT	Z	_	8	punct	_	_
+10	apríl	apríl	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	dep	_	_
+11	401	401	NUM	0	NumForm=Digit	10	nummod	_	_
+12	–	–	PUNCT	Z	_	15	punct	_	_
+13	28	28	NUM	0	NumForm=Digit	15	nummod	_	_
+14	.	.	PUNCT	Z	_	13	punct	_	_
+15	júl	júl	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_
+16	450	450	NUM	0	NumForm=Digit	15	nummod	_	_
+17	)	)	PUNCT	Z	_	8	punct	_	_
+18	,	,	PUNCT	Z	_	6	punct	_	_
+19	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	21	cop	_	_
+20	východorímskym	východorímsky	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	cisárom	cisár	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+22	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	23	case	_	_
+23	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	21	nmod	_	_
+24	408	408	NUM	0	NumForm=Digit	23	nummod	_	_
+25	–	–	PUNCT	Z	_	26	punct	_	_
+26	450	450	NUM	0	NumForm=Digit	24	conj	_	_
+27	.	.	PUNCT	Z	_	21	punct	_	_
+
+# sent_id = s3
+# text = Jeho otcom bol cisár Arkadius ( vládol 395 – 408 ) , matkou Eudoxia , dcéra magistra militum Bautona .
+# orig_file_sentence wiki-nove-075_mz_wiki-nove-075_kandracova#3
+1	Jeho	jeho	DET	PUms7	Animacy=Anim|Case=Ins|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	otcom	otec	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+3	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	cop	_	_
+4	cisár	cisár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+5	Arkadius	arkadius	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+6	(	(	PUNCT	Z	_	7	punct	_	_
+7	vládol	vládnuť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	parataxis	_	_
+8	395	395	NUM	0	NumForm=Digit	7	obl	_	_
+9	–	–	PUNCT	Z	_	10	punct	_	_
+10	408	408	NUM	0	NumForm=Digit	8	conj	_	_
+11	)	)	PUNCT	Z	_	7	punct	_	_
+12	,	,	PUNCT	Z	_	13	punct	_	_
+13	matkou	matka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	2	conj	_	_
+14	Eudoxia	eudoxia	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	13	orphan	_	_
+15	,	,	PUNCT	Z	_	16	punct	_	_
+16	dcéra	dcéra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	14	appos	_	_
+17	magistra	magister	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+18	militum	militum	X	%	Foreign=Yes	17	nmod	_	_
+19	Bautona	bauton	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+20	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s4
+# text = Theodosius je historikmi považovaný za cisára s mizivými panovníckymi schopnosťami .
+# orig_file_sentence wiki-nove-075_mz_wiki-nove-075_kandracova#4
+1	Theodosius	theodosius	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	historikmi	historik	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obj	_	_
+4	považovaný	považovaný	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+5	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	cisára	cisár	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obl:arg	_	_
+7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	10	case	_	_
+8	mizivými	mizivý	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
+9	panovníckymi	panovnícky	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
+10	schopnosťami	schopnosť	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	6	nmod	_	_
+11	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s5
+# text = To isté bolo známe už jeho otcovi Arkadiovi .
+# orig_file_sentence wiki-nove-075_mz_wiki-nove-075_kandracova#5
+1	To	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	isté	istý	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	1	det	_	_
+3	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	cop	_	_
+4	známe	známy	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+5	už	už	PART	T	_	8	advmod:emph	_	_
+6	jeho	jeho	DET	PUms3	Animacy=Anim|Case=Dat|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	otcovi	otec	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	_
+8	Arkadiovi	arkadius	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	obj	_	_
+9	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s6
+# text = Veľmi ho ovplyvňovala jeho najstaršia sestra Pulcheria , ktorá mala významné postavenie pri formovaní cisárových politických názorov aj kresťanskej viery .
+# orig_file_sentence wiki-nove-075_mz_wiki-nove-075_kandracova#6
+1	Veľmi	veľmi	ADV	Dx	Degree=Pos	3	advmod	_	_
+2	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	ovplyvňovala	ovplyvňovať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+5	najstaršia	starý	ADJ	AAfs1z	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	6	amod	_	_
+6	sestra	sestra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	_
+7	Pulcheria	pulcheria	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+8	,	,	PUNCT	Z	_	10	punct	_	_
+9	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	10	nsubj	_	_
+10	mala	mať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
+11	významné	významný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	postavenie	postavenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+13	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	formovaní	formovanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	10	obl:arg	_	_
+15	cisárových	cisárov	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_
+16	politických	politický	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_
+17	názorov	názor	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+18	aj	aj	CCONJ	O	_	20	cc	_	_
+19	kresťanskej	kresťanský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	viery	viera	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	17	conj	_	_
+21	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s7
+# text = Jej postava stojí napríklad za Theodosiovými antisemitskými postojmi , ktoré vedli k zničeniu židovských synagóg .
+# orig_file_sentence wiki-nove-075_mz_wiki-nove-075_kandracova#7
+1	Jej	jej	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	postava	postava	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	stojí	stáť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	napríklad	napríklad	PART	T	_	8	advmod:emph	_	_
+5	za	za	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+6	Theodosiovými	theodosiov	ADJ	AFip7x:r	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+7	antisemitskými	antisemitský	ADJ	AAip7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	postojmi	postoj	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl:arg	_	_
+9	,	,	PUNCT	Z	_	11	punct	_	_
+10	ktoré	ktorý	DET	PAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	11	nsubj	_	_
+11	vedli	vesť	VERB	VLdpci+:q	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|Typo=Yes|VerbForm=Part	8	acl	_	_
+12	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	13	case	_	_
+13	zničeniu	zničenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+14	židovských	židovský	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
+15	synagóg	synagóga	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+16	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s8
+# text = V roku 421 sa oženil s poetkou Aeliou Eudociou .
+# orig_file_sentence wiki-nove-075_mz_wiki-nove-075_kandracova#8
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	421	421	NUM	0	NumForm=Digit	2	nummod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	oženil	oženiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+7	poetkou	poetka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	_
+8	Aeliou	aelia	PROPN	SSfs7:r	Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	_
+9	Eudociou	eudocia	PROPN	SSfs7:r	Case=Ins|Gender=Fem|Number=Sing	5	obl:arg	_	_
+10	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s9
+# text = Roku 429 ustanovil komisiu , ktorá mala zhromaždiť všetky zákony od čias Konštantína a vytvoriť formalizovaný systém rímskeho práva .
+# orig_file_sentence wiki-nove-075_mz_wiki-nove-075_kandracova#9
+1	Roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+2	429	429	NUM	0	NumForm=Digit	1	nummod	_	_
+3	ustanovil	ustanoviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	komisiu	komisia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	7	nsubj	_	_
+7	mala	mať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
+8	zhromaždiť	zhromaždiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	7	xcomp	_	_
+9	všetky	všetok	DET	PFip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	10	det	_	_
+10	zákony	zákon	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+11	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+12	čias	čas	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	Konštantína	konštantín	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	a	a	CCONJ	O	_	15	cc	_	_
+15	vytvoriť	vytvoriť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	8	conj	_	_
+16	formalizovaný	formalizovaný	ADJ	Gtis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	17	amod	_	_
+17	systém	systém	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+18	rímskeho	rímsky	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	práva	právo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+20	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s10
+# text = Tento jeho zámer nebol dokončený , avšak výsledky práce druhej komisie , ktorá sa schádzala v Konštantínopole , boli roku 438 zhromaždené do zbierky s názvom Codex Theodosianus .
+# orig_file_sentence wiki-nove-075_mz_wiki-nove-075_kandracova#10
+1	Tento	tento	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+2	jeho	jeho	DET	PUis1	Animacy=Inan|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	zámer	zámer	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	nebol	byť	AUX	VLesci-	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	5	cop	_	_
+5	dokončený	dokončený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+6	,	,	PUNCT	Z	_	22	punct	_	_
+7	avšak	avšak	CCONJ	O	_	22	cc	_	_
+8	výsledky	výsledok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	22	nsubj:pass	_	_
+9	práce	práca	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	druhej	druhý	ADJ	NAfs2	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	11	amod	_	_
+11	komisie	komisia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	,	,	PUNCT	Z	_	15	punct	_	_
+13	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	15	nsubj	_	_
+14	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+15	schádzala	schádzať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	acl	_	_
+16	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	Konštantínopole	konštantínopol	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+18	,	,	PUNCT	Z	_	15	punct	_	_
+19	boli	byť	AUX	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	22	aux:pass	_	_
+20	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	_
+21	438	438	NUM	0	NumForm=Digit	20	nummod	_	_
+22	zhromaždené	zhromaždený	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	5	conj	_	_
+23	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	24	case	_	_
+24	zbierky	zbierka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	22	obl	_	_
+25	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	26	case	_	_
+26	názvom	názov	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	24	nmod	_	_
+27	Codex	codex	X	%	Foreign=Yes	26	nmod	_	_
+28	Theodosianus	theodosianus	X	%	Foreign=Yes	27	flat:foreign	_	_
+29	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s11
+# text = Zákonník Theodosia II . zahŕňal všetky edikty vydané od uznania kresťanstva ako povoleného náboženstva a stal sa podkladom pre vznik Justiniánovho zákonníka v nasledujúcom storočí .
+# orig_file_sentence wiki-nove-075_mz_wiki-nove-075_kandracova#11
+1	Zákonník	zákonník	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	Theodosia	theodosius	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	II	ii	NUM	0	NumForm=Digit	2	nummod	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+5	zahŕňal	zahŕňať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	všetky	všetok	DET	PFip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	7	det	_	_
+7	edikty	edikt	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+8	vydané	vydaný	ADJ	Gtip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	_	_
+9	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	uznania	uznanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+11	kresťanstva	kresťanstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	ako	ako	SCONJ	O	_	14	mark	_	_
+13	povoleného	povolený	ADJ	Gtns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	náboženstva	náboženstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	11	xcomp	_	_
+15	a	a	CCONJ	O	_	16	cc	_	_
+16	stal	stať	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+17	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+18	podkladom	podklad	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obj	_	_
+19	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	20	case	_	_
+20	vznik	vznik	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	nmod	_	_
+21	Justiniánovho	justiniánov	ADJ	AFis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	zákonníka	zákonník	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	25	case	_	_
+24	nasledujúcom	nasledujúci	ADJ	Gkns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	25	amod	_	_
+25	storočí	storočie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	20	nmod	_	_
+26	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s12
+# text = Theodosius II . má tiež zásluhy na vzniku Konštantínopolskej univerzity .
+# orig_file_sentence wiki-nove-075_mz_wiki-nove-075_kandracova#12
+1	Theodosius	theodosius	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	II	ii	NUM	0	NumForm=Digit	1	nummod	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+4	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	tiež	tiež	PART	T	_	6	advmod:emph	_	_
+6	zásluhy	zásluha	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+7	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	vzniku	vznik	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+9	Konštantínopolskej	konštantínopolský	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	univerzity	univerzita	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s13
+# text = Za Theodosiovej vlády začali Východorímsku ríšu ohrozovať Huni , ktorých moc v Karpatskej kotline sa významne upevnila a počas vlády náčelníka Attilu dosiahla vrchol .
+# orig_file_sentence wiki-nove-075_mz_wiki-nove-075_kandracova#13
+1	Za	za	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	Theodosiovej	theodosiov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+4	začali	začať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	Východorímsku	východorímsky	ADJ	AAfs4x:r	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	ríšu	ríša	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+7	ohrozovať	ohrozovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+8	Huni	hun	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+9	,	,	PUNCT	Z	_	17	punct	_	_
+10	ktorých	ktorý	DET	PAmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|PronType=Int,Rel	11	amod	_	_
+11	moc	moc	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+13	Karpatskej	karpatský	ADJ	AAfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	kotline	kotlina	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	17	expl:pv	_	_
+16	významne	významne	ADV	Dx	Degree=Pos	17	advmod	_	_
+17	upevnila	upevniť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+18	a	a	CCONJ	O	_	23	cc	_	_
+19	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+20	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	23	obl	_	_
+21	náčelníka	náčelník	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+22	Attilu	attila	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	dosiahla	dosiahnuť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	17	conj	_	_
+24	vrchol	vrchol	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+25	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s14
+# text = Theodosius zomrel v roku 450 na následky zranení spôsobené nehodou pri jazde na koni .
+# orig_file_sentence wiki-nove-075_mz_wiki-nove-075_kandracova#14
+1	Theodosius	theodosius	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	zomrel	zomrieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	450	450	NUM	0	NumForm=Digit	4	nummod	_	_
+6	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+7	následky	následok	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obl	_	_
+8	zranení	zranenie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+9	spôsobené	spôsobený	ADJ	Gtip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	_	_
+10	nehodou	nehoda	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+11	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	jazde	jazda	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
+13	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	koni	kôň	NOUN	SSms6	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_
+15	.	.	PUNCT	Z	_	2	punct	_	_
+

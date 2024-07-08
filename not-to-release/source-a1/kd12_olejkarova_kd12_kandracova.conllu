@@ -1,0 +1,400 @@
+# sent_id = s1
+# text = “ Choď preč a daj mi pokoj , “ zahundral Mauglí .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#1
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Choď	chodiť	VERB	VMesb+	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	10	ccomp	_	_
+3	preč	preč	ADV	Dx	Degree=Pos	2	advmod	_	_
+4	a	a	CCONJ	O	_	5	cc	_	_
+5	daj	dať	VERB	VMdjsb+	Aspect=Imp,Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	2	conj	_	_
+6	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+7	pokoj	pokoj	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	,	,	PUNCT	Z	_	2	punct	_	_
+9	“	“	PUNCT	Z	_	2	punct	_	_
+10	zahundral	zahundrať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+11	Mauglí	Mauglí	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s2
+# text = Drobné štuchnutie však Balúa netrápilo .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#2
+1	Drobné	drobné	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	štuchnutie	štuchnutie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	však	však	PART	T	_	5	advmod	_	_
+4	Balúa	Balúa	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+5	netrápilo	trápiť	VERB	VLescn-	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s3
+# text = Ako všetky medvede , aj on rád zápasil .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#3
+1	Ako	ako	SCONJ	O	_	7	advmod	_	_
+2	všetky	všetko	PRON	PFip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	3	nmod	_	_
+3	medvede	medveď	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	dep	_	_
+4	,	,	PUNCT	Z	_	1	punct	_	_
+5	aj	aj	CCONJ	O	_	6	cc	_	_
+6	on	on	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	rád	rád	ADJ	AUms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	obl	_	_
+8	zápasil	zápasiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s4
+# text = Sadol si k Mauglímu a potľapkal ho po chrbte .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#4
+1	Sadol	sadnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	si	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	4	case	_	_
+4	Mauglímu	Mauglímu	PROPN	SFms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	obl	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	potľapkal	potľapkať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+7	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	chrbte	chrbát	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+10	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s5
+# text = “ No , hovoríš ako veľký , ty drobček . “
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#5
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	No	no	PART	T	_	0	root	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	hovoríš	hovoriť	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	ako	ako	SCONJ	O	_	6	mark	_	_
+6	veľký	veľký	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	dep	_	_
+7	,	,	PUNCT	Z	_	4	punct	_	_
+8	ty	ty	PRON	PPhs1	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nmod	_	_
+9	drobček	drobček	NOUN	SSms5	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	4	vocative	_	_
+10	.	.	PUNCT	Z	_	2	punct	_	_
+11	“	“	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s6
+# text = “ Veď som veľký , “ zvolal Mauglí .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#6
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	Veď	veď	CCONJ	O	_	4	cc	_	_
+3	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	veľký	veľký	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	ccomp	_	_
+5	,	,	PUNCT	Z	_	4	punct	_	_
+6	“	“	PUNCT	Z	_	4	punct	_	_
+7	zvolal	zvolať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	Mauglí	Mauglí	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s7
+# text = Vstal a udrel Balúa do brucha .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#7
+1	Vstal	vstať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	a	a	CCONJ	O	_	3	cc	_	_
+3	udrel	udrieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+4	Balúa	Balúa	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	brucha	brucho	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+7	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s8
+# text = Balú sa len zasmial a pokrútil hlavou .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#8
+1	Balú	Balú	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	len	len	PART	T	_	4	advmod	_	_
+4	zasmial	zasmiať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	pokrútil	pokrútiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+7	hlavou	hlava	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	6	obj	_	_
+8	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s9
+# text = “ Ale , ale , maličký , “ povedal .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#9
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Ale	ale	INTJ	J	_	9	dep	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	ale	ale	INTJ	J	_	2	conj	_	_
+5	,	,	PUNCT	Z	_	6	punct	_	_
+6	maličký	maličký	ADJ	AAms5x	Animacy=Anim|Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	_
+7	,	,	PUNCT	Z	_	2	punct	_	_
+8	“	“	PUNCT	Z	_	2	punct	_	_
+9	povedal	povedať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s10
+# text = “ To si mi iba kožuch pošteklil . “
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#10
+1	“	“	PUNCT	Z	_	7	punct	_	_
+2	To	ten	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	discourse	_	_
+3	si	sa	PRON	R	PronType=Prs|Reflex=Yes	7	aux	_	_
+4	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+5	iba	iba	PART	T	_	6	advmod:emph	_	_
+6	kožuch	kožuch	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+7	pošteklil	poštekliť	VERB	VLdsbm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+9	“	“	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s11
+# text = Balú zdvihol Mauglího obrovskými medvedími labami do výšky a zasa ho zložil na zem .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#11
+1	Balú	Balú	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	zdvihol	zdvihnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	Mauglího	Mauglího	PROPN	SFms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	obrovskými	obrovský	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+5	medvedími	medvedími	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+6	labami	laba	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	2	obl	_	_
+7	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	výšky	výška	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_
+9	a	a	CCONJ	O	_	12	cc	_	_
+10	zasa	zasa	ADV	Dx	Degree=Pos	12	advmod	_	_
+11	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	zložil	zložiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+13	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+14	zem	zem	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+15	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s12
+# text = “ Hej , chlapče , potrebuješ pomôcť , starý Balú ťa naučí , ako zápasia medvede . “
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#12
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Hej	hej	INTJ	J	_	0	root	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	chlapče	chlapče	NOUN	SSms5	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	2	conj	_	_
+5	,	,	PUNCT	Z	_	6	punct	_	_
+6	potrebuješ	potrebovať	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	pomôcť	pomôcť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+8	,	,	PUNCT	Z	_	6	punct	_	_
+9	starý	starý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	Balú	Balú	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+11	ťa	ty	PRON	PPhs4	Case=Acc|Number=Sing|Person=2|PronType=Prs	12	iobj	_	_
+12	naučí	naučiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	orphan	_	_
+13	,	,	PUNCT	Z	_	15	punct	_	_
+14	ako	ako	SCONJ	O	_	15	advmod	_	_
+15	zápasia	zápasiť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+16	medvede	medveď	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+17	.	.	PUNCT	Z	_	2	punct	_	_
+18	“	“	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s13
+# text = Vzápätí Balú vyskočil a začal okolo neho poskakovať ako boxer , knísal sa a bojovne sa zaháňal rukami .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#13
+1	Vzápätí	vzápätí	ADV	Dx	Degree=Pos	3	advmod	_	_
+2	Balú	Balú	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	vyskočil	vyskočiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	CCONJ	O	_	5	cc	_	_
+5	začal	začať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+6	okolo	okolo	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	neho	on	PRON	PFms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+8	poskakovať	poskakovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+9	ako	ako	SCONJ	O	_	10	mark	_	_
+10	boxer	boxer	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	dep	_	_
+11	,	,	PUNCT	Z	_	12	punct	_	_
+12	knísal	knísal	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+14	a	a	CCONJ	O	_	17	cc	_	_
+15	bojovne	bojovne	ADV	Dx	Degree=Pos	17	advmod	_	_
+16	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	17	expl:pv	_	_
+17	zaháňal	zaháňať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+18	rukami	ruka	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	17	obl	_	_
+19	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s14
+# text = “ Tak a teraz chlapče , uvoľni sa , “ zafunel .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#14
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Tak	tak	CCONJ	O	_	11	dep	_	_
+3	a	a	CCONJ	O	_	5	cc	_	_
+4	teraz	teraz	ADV	Dx	Degree=Pos	2	dep	_	_
+5	chlapče	chlapče	NOUN	SSms5	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	2	conj	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	uvoľni	uvoľniť	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	2	conj	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+9	,	,	PUNCT	Z	_	2	punct	_	_
+10	“	“	PUNCT	Z	_	2	punct	_	_
+11	zafunel	zafunieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s15
+# text = Spočiatku Mauglí nereagoval .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#15
+1	Spočiatku	spočiatku	ADV	Dx	Degree=Pos	3	advmod	_	_
+2	Mauglí	Mauglí	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	nereagoval	reagovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s16
+# text = Postupne mu však Balúove šaškoviny pripadali zábavné .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#16
+1	Postupne	postupne	ADV	Dx	Degree=Pos	6	advmod	_	_
+2	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+3	však	však	PART	T	_	6	advmod	_	_
+4	Balúove	Balúove	ADJ	AFfp1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
+5	šaškoviny	šaškovina	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+6	pripadali	pripadať	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	zábavné	zábavný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	obj	_	_
+8	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s17
+# text = Napokon vyskočil a krúžiac okolo medveďa , napodobňoval jeho pohyby .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#17
+1	Napokon	napokon	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	vyskočil	vyskočiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	CCONJ	O	_	8	cc	_	_
+4	krúžiac	krúžiť	VERB	VHe+	Aspect=Imp|Polarity=Pos|VerbForm=Conv	8	advcl	_	_
+5	okolo	okolo	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	medveďa	medveď	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+7	,	,	PUNCT	Z	_	4	punct	_	_
+8	napodobňoval	napodobňovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+9	jeho	jeho	DET	PUip4	Animacy=Inan|Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	pohyby	pohyb	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+11	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s18
+# text = “ To je ono ! “ zvolal Balú .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#18
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	To	ten	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	ono	ja	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|Person=1|PronType=Prs	7	ccomp	_	_
+5	!	!	PUNCT	Z	_	4	punct	_	_
+6	“	“	PUNCT	Z	_	4	punct	_	_
+7	zvolal	zvolať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	Balú	Balú	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s19
+# text = “ A teraz zabruč ako veľký medveď .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#19
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	A	a	CCONJ	O	_	4	cc	_	_
+3	teraz	teraz	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	zabruč	zabručať	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+5	ako	ako	SCONJ	O	_	7	mark	_	_
+6	veľký	veľký	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	medveď	medveď	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	dep	_	_
+8	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s20
+# text = Nastraš ma . “
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#20
+1	Nastraš	nastrašiť	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+2	ma	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	.	.	PUNCT	Z	_	1	punct	_	_
+4	“	“	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s21
+# text = Mauglí vyceril zuby a zabručal , ale nie veľmi silno .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#21
+1	Mauglí	Mauglí	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	vyceril	vyceriť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	zuby	zub	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+4	a	a	CCONJ	O	_	5	cc	_	_
+5	zabručal	zabručať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	ale	ale	CCONJ	O	_	8	cc	_	_
+8	nie	nie	PART	T	_	2	conj	_	_
+9	veľmi	veľmi	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	silno	silno	ADV	Dx	Degree=Pos	8	orphan	_	_
+11	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s22
+# text = “ Nie , nie , nie , “ nesúhlasil Balú .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#22
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Nie	nie	PART	T	_	0	root	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	nie	nie	PART	T	_	2	conj	_	_
+5	,	,	PUNCT	Z	_	4	punct	_	_
+6	nie	nie	PART	T	_	4	orphan	_	_
+7	,	,	PUNCT	Z	_	4	punct	_	_
+8	“	“	PUNCT	Z	_	4	punct	_	_
+9	nesúhlasil	súhlasiť	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	4	orphan	_	_
+10	Balú	Balú	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
+11	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s23
+# text = “ Hovorím ZABRUČ ! ako veľký medveď ! “
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#23
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Hovorím	hovoriť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ZABRUČ	zabručať	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	2	ccomp	_	_
+4	!	!	PUNCT	Z	_	3	punct	_	_
+5	ako	ako	SCONJ	O	_	7	mark	_	_
+6	veľký	veľký	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	medveď	medveď	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	dep	_	_
+8	!	!	PUNCT	Z	_	2	punct	_	_
+9	“	“	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s24
+# text = Balú zabručal tak silno , až Mauglího odfúklo .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#24
+1	Balú	Balú	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	zabručal	zabručať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	tak	tak	ADV	PD	PronType=Dem	4	advmod	_	_
+4	silno	silno	ADV	Dx	Degree=Pos	2	advmod	_	_
+5	,	,	PUNCT	Z	_	8	punct	_	_
+6	až	až	SCONJ	O	_	8	mark	_	_
+7	Mauglího	Mauglího	PROPN	SFms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+8	odfúklo	odfúknuť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	advcl	_	_
+9	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s25
+# text = Chlapec sa pozviechal a zabručal ešte raz , no tentoraz z celej sily .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#25
+1	Chlapec	chlapec	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	pozviechal	pozviechať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	CCONJ	O	_	5	cc	_	_
+5	zabručal	zabručať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+6	ešte	ešte	PART	T	_	7	advmod	_	_
+7	raz	raz	ADV	NSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Mult	5	obl	_	_
+8	,	,	PUNCT	Z	_	10	punct	_	_
+9	no	no	CCONJ	O	_	10	cc	_	_
+10	tentoraz	tentoraz	ADV	Dx	Degree=Pos	3	conj	_	_
+11	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+12	celej	celý	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	sily	sila	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	orphan	_	_
+14	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s26
+# text = “ To je ono ! “ zvolal Balú .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#26
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	To	ten	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	ono	ja	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|Person=1|PronType=Prs	7	ccomp	_	_
+5	!	!	PUNCT	Z	_	4	punct	_	_
+6	“	“	PUNCT	Z	_	4	punct	_	_
+7	zvolal	zvolať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	Balú	Balú	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s27
+# text = “ Ide ti to ! “
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#27
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Ide	ísť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ti	ty	PRON	PPhs3	Case=Dat|Number=Sing|Person=2|PronType=Prs	2	obj	_	_
+4	to	ten	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+5	!	!	PUNCT	Z	_	2	punct	_	_
+6	“	“	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s28
+# text = Balú zasa zabručal na Mauglího a Mauglí mu to vrátil .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#28
+1	Balú	Balú	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	zasa	zasa	ADV	Dx	Degree=Pos	3	advmod	_	_
+3	zabručal	zabručať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	Mauglího	Mauglího	PROPN	SFms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+6	a	a	CCONJ	O	_	10	cc	_	_
+7	Mauglí	Mauglí	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+8	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	iobj	_	_
+9	to	ten	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	10	obj	_	_
+10	vrátil	vrátiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+11	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s29
+# text = Aj on naňho zabručal .
+# orig_file_sentence kd12_olejkarova_kd12_kandracova#29
+1	Aj	aj	PART	T	_	4	cc	_	_
+2	on	on	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	naňho	naň	PRON	PFms4g	AdpType=Preppron|Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	4	obj	_	_
+4	zabručal	zabručať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	.	.	PUNCT	Z	_	4	punct	_	_
+

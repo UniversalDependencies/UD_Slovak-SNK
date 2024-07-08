@@ -1,0 +1,361 @@
+# sent_id = s1
+# text = Leontios II .
+# orig_file_sentence wiki-nove-074_mz_wiki-nove-074_kandracova#1
+1	Leontios	leontios	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	II	ii	NUM	0	NumForm=Digit	1	nummod	_	_
+3	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s2
+# text = Leontios ( * † 705 ) , pôvodom z Isaurie , bol byzantský cisár , ktorý vládol v rokoch 695 – 698 .
+# orig_file_sentence wiki-nove-074_mz_wiki-nove-074_kandracova#2
+1	Leontios	leontios	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+2	(	(	PUNCT	Z	_	1	punct	_	_
+3	*	*	PUNCT	#	_	1	punct	_	_
+4	†	†	PUNCT	#	_	1	punct	_	_
+5	705	705	NUM	0	NumForm=Digit	1	dep	_	_
+6	)	)	PUNCT	Z	_	1	punct	_	_
+7	,	,	PUNCT	Z	_	8	punct	_	_
+8	pôvodom	pôvod	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+9	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	Isaurie	isauria	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	,	,	PUNCT	Z	_	8	punct	_	_
+12	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	cop	_	_
+13	byzantský	byzantský	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	cisár	cisár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+15	,	,	PUNCT	Z	_	17	punct	_	_
+16	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	17	nsubj	_	_
+17	vládol	vládnuť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	acl	_	_
+18	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	obl	_	_
+20	695	695	NUM	0	NumForm=Digit	19	nummod	_	_
+21	–	–	PUNCT	Z	_	22	punct	_	_
+22	698	698	NUM	0	NumForm=Digit	20	conj	_	_
+23	.	.	PUNCT	Z	_	14	punct	_	_
+
+# sent_id = s3
+# text = Jeho vláda je významná predovšetkým preto , že počas nej ovládli Arabi Kartágo , čo prakticky spečatilo osud byzantských severoafrických držav .
+# orig_file_sentence wiki-nove-074_mz_wiki-nove-074_kandracova#3
+1	Jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	významná	významný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+5	predovšetkým	predovšetkým	PART	T	_	6	advmod:emph	_	_
+6	preto	preto	ADV	PD	PronType=Dem	4	advmod	_	_
+7	,	,	PUNCT	Z	_	11	punct	_	_
+8	že	že	SCONJ	O	_	11	mark	_	_
+9	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	nej	ona	PRON	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+11	ovládli	ovládnuť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	4	advcl	_	_
+12	Arabi	arab	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+13	Kartágo	kartágo	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+14	,	,	PUNCT	Z	_	17	punct	_	_
+15	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	17	nsubj	_	_
+16	prakticky	prakticky	PART	T	_	17	advmod	_	_
+17	spečatilo	spečatiť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	conj	_	_
+18	osud	osud	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+19	byzantských	byzantský	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	_
+20	severoafrických	severoafrický	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	_
+21	držav	država	NOUN	SSfp2:q	Case=Gen|Gender=Fem|Number=Plur|Typo=Yes	18	nmod	_	_
+22	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s4
+# text = Leontios , ktorý sa osvedčil ako vojvodca počas vlády Konštantína IV .
+# orig_file_sentence wiki-nove-074_mz_wiki-nove-074_kandracova#4
+1	Leontios	leontios	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	,	,	PUNCT	Z	_	5	punct	_	_
+3	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	5	nsubj	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	osvedčil	osvedčiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	acl	_	_
+6	ako	ako	SCONJ	O	_	7	mark	_	_
+7	vojvodca	vojvodca	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	_
+8	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	Konštantína	konštantín	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	IV	iv	NUM	0	NumForm=Digit	10	nummod	_	_
+12	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s5
+# text = Pogonata a jeho syna Justiniána II . , zastával pred svojim vyhlásením za cisára celý rad vysokých úradnych funkcií a roku 695 ho vymenovali za stratéga themy Hellas .
+# orig_file_sentence wiki-nove-074_mz_wiki-nove-074_kandracova#5
+1	Pogonata	pogonatus	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	0	root	_	_
+2	a	a	CCONJ	O	_	5	cc	_	_
+3	jeho	jeho	DET	PUms2	Animacy=Anim|Case=Gen|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	syna	syn	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+5	Justiniána	justiniánus	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
+6	II	ii	NUM	0	NumForm=Digit	5	nummod	_	_
+7	.	.	PUNCT	Z	_	6	punct	_	_
+8	,	,	PUNCT	Z	_	1	punct	_	_
+9	zastával	zastávať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	dep	_	_
+10	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	12	case	_	_
+11	svojim	svoj	DET	PFns7	Case=Ins|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	_	_
+12	vyhlásením	vyhlásenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+13	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+14	cisára	cisár	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_
+15	celý	celý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	rad	rad	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+17	vysokých	vysoký	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
+18	úradnych	úradny	ADJ	AAfp2x:q	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Typo=Yes	19	amod	_	_
+19	funkcií	funkcia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+20	a	a	CCONJ	O	_	24	cc	_	_
+21	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	obl	_	_
+22	695	695	NUM	0	NumForm=Digit	21	nummod	_	_
+23	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+24	vymenovali	vymenovať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	9	conj	_	_
+25	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	26	case	_	_
+26	stratéga	stratég	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	24	obl:arg	_	_
+27	themy	themy	X	%	Foreign=Yes	26	nmod	_	_
+28	Hellas	hellas	X	%	Foreign=Yes	27	flat:foreign	_	_
+29	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s6
+# text = V tejto funkcii sa postavil na čelo revolty proti nepopulárnemu Justiniánovmu režimu , oslabenému porážkou vo vojne s kalifom Abdulmalikom ( bitka pri Sebastopole roku 693 ) .
+# orig_file_sentence wiki-nove-074_mz_wiki-nove-074_kandracova#6
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	tejto	táto	DET	PFfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	funkcii	funkcia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	postavil	postaviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+7	čelo	čelo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+8	revolty	revolta	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	12	case	_	_
+10	nepopulárnemu	nepopulárny	ADJ	AAis3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	Justiniánovmu	justiniánov	ADJ	AFis3x:r	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	režimu	režim	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	_
+13	,	,	PUNCT	Z	_	14	punct	_	_
+14	oslabenému	oslabený	ADJ	Gtis3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	_	_
+15	porážkou	porážka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_
+16	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	17	case	_	_
+17	vojne	vojna	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_
+18	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	20	case	_	_
+19	kalifom	kalif	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	20	nmod	_	_
+20	Abdulmalikom	abdulmalik	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	nmod	_	_
+21	(	(	PUNCT	Z	_	22	punct	_	_
+22	bitka	bitka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	17	appos	_	_
+23	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+24	Sebastopole	sebastopol	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	nmod	_	_
+25	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+26	693	693	NUM	0	NumForm=Digit	25	nummod	_	_
+27	)	)	PUNCT	Z	_	22	punct	_	_
+28	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s7
+# text = Revolta , organizovaná s podporou strany modrých a konštantínopolského patriarchu Kallinika , skončila úspešne a jej výsledkom bolo Justiniánovo zohavenie a poslanie do exilu .
+# orig_file_sentence wiki-nove-074_mz_wiki-nove-074_kandracova#7
+1	Revolta	revolta	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+2	,	,	PUNCT	Z	_	3	punct	_	_
+3	organizovaná	organizovaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	1	amod	_	_
+4	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	5	case	_	_
+5	podporou	podpora	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+6	strany	strana	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	modrých	modrý	NOUN	SAmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	a	a	CCONJ	O	_	11	cc	_	_
+9	konštantínopolského	konštantínopolský	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	patriarchu	patriarcha	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+11	Kallinika	kallinik	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	conj	_	_
+12	,	,	PUNCT	Z	_	3	punct	_	_
+13	skončila	skončiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+14	úspešne	úspešne	ADV	Dx	Degree=Pos	13	advmod	_	_
+15	a	a	CCONJ	O	_	17	cc	_	_
+16	jej	jej	DET	PUis7	Animacy=Inan|Case=Ins|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+17	výsledkom	výsledok	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	conj	_	_
+18	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	17	cop	_	_
+19	Justiniánovo	justiniánov	ADJ	AFns1x:r	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	zohavenie	zohavenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+21	a	a	CCONJ	O	_	22	cc	_	_
+22	poslanie	poslanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	20	conj	_	_
+23	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	24	case	_	_
+24	exilu	exil	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+25	.	.	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s8
+# text = To , že cisára nepopravili , súviselo s dlhou vládou herakleiovskej dynastie v Byzancii a s ňou spojeným rešpektom , ktorý si u obyvateľstva získala .
+# orig_file_sentence wiki-nove-074_mz_wiki-nove-074_kandracova#8
+1	To	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	_
+2	,	,	PUNCT	Z	_	5	punct	_	_
+3	že	že	SCONJ	O	_	5	mark	_	_
+4	cisára	cisár	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+5	nepopravili	popraviť	VERB	VLdpcm-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	1	acl	_	_
+6	,	,	PUNCT	Z	_	5	punct	_	_
+7	súviselo	súvisieť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	10	case	_	_
+9	dlhou	dlhý	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	vládou	vláda	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	7	obl:arg	_	_
+11	herakleiovskej	herakleiovský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	dynastie	dynastia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	Byzancii	byzancia	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
+15	a	a	CCONJ	O	_	19	cc	_	_
+16	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	17	case	_	_
+17	ňou	ona	PRON	PFfs7	Case=Ins|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obl:arg	_	_
+18	spojeným	spojený	ADJ	Gtis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	19	amod	_	_
+19	rešpektom	rešpekt	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	conj	_	_
+20	,	,	PUNCT	Z	_	25	punct	_	_
+21	ktorý	ktorý	DET	PAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	25	obj	_	_
+22	si	si	PRON	R	PronType=Prs|Reflex=Yes	25	obl	_	_
+23	u	u	ADP	Eu2	AdpType=Prep|Case=Gen	24	case	_	_
+24	obyvateľstva	obyvateľstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	25	obl	_	_
+25	získala	získať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	19	acl	_	_
+26	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s9
+# text = Leontiovi sa však neskôr jeho „ zhovievavosť “ pomstila .
+# orig_file_sentence wiki-nove-074_mz_wiki-nove-074_kandracova#9
+1	Leontiovi	leontios	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	9	obj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+3	však	však	PART	T	_	9	advmod	_	_
+4	neskôr	neskôr	ADV	Dx	Degree=Pos	9	advmod	_	_
+5	jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+6	„	„	PUNCT	Z	_	7	punct	_	_
+7	zhovievavosť	zhovievavosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+8	“	“	PUNCT	Z	_	7	punct	_	_
+9	pomstila	pomstiť	VERB	VLjscf+	Aspect=Imp,Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s10
+# text = Najväčším problémom , ktorému ríša v tom čase čelila , bol nový nápor arabskej expanzie , predovšetkým v severnej Afrike .
+# orig_file_sentence wiki-nove-074_mz_wiki-nove-074_kandracova#10
+1	Najväčším	veľký	ADJ	AAis7z	Animacy=Inan|Case=Ins|Degree=Sup|Gender=Masc|Number=Sing	2	amod	_	_
+2	problémom	problém	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+3	,	,	PUNCT	Z	_	9	punct	_	_
+4	ktorému	ktorý	DET	PAis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|PronType=Int,Rel	9	obj	_	_
+5	ríša	ríša	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+7	tom	ten	DET	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	čase	čas	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+9	čelila	čeliť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	acl	_	_
+10	,	,	PUNCT	Z	_	9	punct	_	_
+11	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	cop	_	_
+12	nový	nový	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	nápor	nápor	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+14	arabskej	arabský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	expanzie	expanzia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	,	,	PUNCT	Z	_	20	punct	_	_
+17	predovšetkým	predovšetkým	PART	T	_	20	advmod:emph	_	_
+18	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+19	severnej	severný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	Afrike	afrika	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	_
+21	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s11
+# text = Abdulmalikove oddiely tu postupne obsadili väčšinu byzantských držav vrátane Kartága , a aj keď Leontios získal pomocou loďstva kartáginsky prístav prechodne naspäť , jeho jednotky neboli natoľko silné , aby dokázali svoje pozície udržať .
+# orig_file_sentence wiki-nove-074_mz_wiki-nove-074_kandracova#11
+1	Abdulmalikove	abdulmalikov	ADJ	AFip1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+2	oddiely	oddiel	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	tu	tu	ADV	PD	PronType=Dem	5	advmod	_	_
+4	postupne	postupne	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	obsadili	obsadiť	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	väčšinu	väčšina	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	byzantských	byzantský	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	držav	država	NOUN	SSfp2:q	Case=Gen|Gender=Fem|Number=Plur|Typo=Yes	6	nmod	_	_
+9	vrátane	vrátane	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	Kartága	kartágo	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+11	,	,	PUNCT	Z	_	28	punct	_	_
+12	a	a	CCONJ	O	_	28	cc	_	_
+13	aj	aj	CCONJ	O	_	16	mark	_	_
+14	keď	keď	SCONJ	O	_	13	fixed	_	_
+15	Leontios	leontios	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	získal	získať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	28	advcl	_	_
+17	pomocou	pomocou	ADP	Eu2	AdpType=Prep|Case=Gen	18	case	_	_
+18	loďstva	loďstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	16	obl	_	_
+19	kartáginsky	kartáginsky	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	prístav	prístav	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+21	prechodne	prechodne	ADV	Dx	Degree=Pos	16	advmod	_	_
+22	naspäť	naspäť	ADV	Dx	Degree=Pos	16	advmod	_	_
+23	,	,	PUNCT	Z	_	16	punct	_	_
+24	jeho	jeho	DET	PUfp1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	25	det	_	_
+25	jednotky	jednotka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	28	nsubj	_	_
+26	neboli	byť	AUX	VLepcf-	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	28	cop	_	_
+27	natoľko	natoľko	ADV	PD	PronType=Dem	28	advmod	_	_
+28	silné	silný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	conj	_	_
+29	,	,	PUNCT	Z	_	31	punct	_	_
+30	aby	aby	SCONJ	OY	Mood=Cnd	31	mark	_	_
+31	dokázali	dokázať	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	28	advcl	_	_
+32	svoje	svoj	DET	PFfp4	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	33	det	_	_
+33	pozície	pozícia	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	34	obj	_	_
+34	udržať	udržať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	31	xcomp	_	_
+35	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s12
+# text = Kartágo sa tak dostalo roku 697 definitívne do rúk Arabov .
+# orig_file_sentence wiki-nove-074_mz_wiki-nove-074_kandracova#12
+1	Kartágo	kartágo	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	tak	tak	ADV	PD	PronType=Dem	4	advmod	_	_
+4	dostalo	dostať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+6	697	697	NUM	0	NumForm=Digit	5	nummod	_	_
+7	definitívne	definitívne	ADV	Dx	Degree=Pos	4	advmod	_	_
+8	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	rúk	ruka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+10	Arabov	arab	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s13
+# text = Porážka v Afrike viedla k pádu Leontiovho režimu .
+# orig_file_sentence wiki-nove-074_mz_wiki-nove-074_kandracova#13
+1	Porážka	porážka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	Afrike	afrika	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
+4	viedla	viesť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	6	case	_	_
+6	pádu	pád	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+7	Leontiovho	leontiov	ADJ	AFis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	režimu	režim	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s14
+# text = Pri návrate z ťaženia vojaci revoltovali , vyhlásili za cisára vojvodcu Tiberia Apsimara a po krátkej občianskej vojne Leontia zvrhli .
+# orig_file_sentence wiki-nove-074_mz_wiki-nove-074_kandracova#14
+1	Pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	návrate	návrat	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	ťaženia	ťaženie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	vojaci	vojak	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	revoltovali	revoltovať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	,	,	PUNCT	Z	_	8	punct	_	_
+8	vyhlásili	vyhlásiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+9	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+10	cisára	cisár	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	obl:arg	_	_
+11	vojvodcu	vojvodca	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
+12	Tiberia	tiberius	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
+13	Apsimara	apsimar	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+14	a	a	CCONJ	O	_	20	cc	_	_
+15	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+16	krátkej	krátky	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+17	občianskej	občiansky	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	vojne	vojna	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+19	Leontia	leontios	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+20	zvrhli	zvrhnúť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+21	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s15
+# text = Leontios potom strávil sedem rokov v kláštore , než bol na rozkaz Justinána II . , ktorý sa znova zmocnil trónu , roku 705 popravený .
+# orig_file_sentence wiki-nove-074_mz_wiki-nove-074_kandracova#15
+1	Leontios	leontios	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	potom	potom	ADV	Dx	Degree=Pos	3	advmod	_	_
+3	strávil	stráviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	sedem	sedem	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	rokov	rok	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	kláštore	kláštor	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+8	,	,	PUNCT	Z	_	25	punct	_	_
+9	než	než	SCONJ	O	_	25	mark	_	_
+10	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	25	cop	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	rozkaz	rozkaz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obl	_	_
+13	Justinána	justinán	PROPN	SSms2:rq	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	II	ii	NUM	0	NumForm=Digit	13	nummod	_	_
+15	.	.	PUNCT	Z	_	14	punct	_	_
+16	,	,	PUNCT	Z	_	20	punct	_	_
+17	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	20	nsubj	_	_
+18	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	20	expl:pv	_	_
+19	znova	znova	ADV	Dx	Degree=Pos	20	advmod	_	_
+20	zmocnil	zmocniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	acl	_	_
+21	trónu	trón	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	obj	_	_
+22	,	,	PUNCT	Z	_	20	punct	_	_
+23	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	obl	_	_
+24	705	705	NUM	0	NumForm=Digit	23	nummod	_	_
+25	popravený	popravený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	advcl	_	_
+26	.	.	PUNCT	Z	_	3	punct	_	_
+

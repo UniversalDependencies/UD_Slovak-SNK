@@ -1,0 +1,689 @@
+# sent_id = s1
+# text = Herakleios
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#1
+1	Herakleios	herakleios	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s2
+# text = Herakleios ( * 575 – † 11 . február 641 ) bol jedným z najvýznamnejších byzantských cisárov ( 610 – 641 ) .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#2
+1	Herakleios	herakleios	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+2	(	(	PUNCT	Z	_	1	punct	_	_
+3	*	*	PUNCT	#	_	4	punct	_	_
+4	575	575	NUM	0	NumForm=Digit	1	dep	_	_
+5	–	–	PUNCT	Z	_	9	punct	_	_
+6	†	†	PUNCT	#	_	9	punct	_	_
+7	11	11	NUM	0	NumForm=Digit	9	nummod	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+9	február	február	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+10	641	641	NUM	0	NumForm=Digit	9	nummod	_	_
+11	)	)	PUNCT	Z	_	1	punct	_	_
+12	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	cop	_	_
+13	jedným	jeden	NUM	NFms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+14	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+15	najvýznamnejších	významný	ADJ	AAmp2z	Animacy=Anim|Case=Gen|Degree=Sup|Gender=Masc|Number=Plur	17	amod	_	_
+16	byzantských	byzantský	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_
+17	cisárov	cisár	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+18	(	(	PUNCT	Z	_	13	punct	_	_
+19	610	610	NUM	0	NumForm=Digit	13	dep	_	_
+20	–	–	PUNCT	Z	_	21	punct	_	_
+21	641	641	NUM	0	NumForm=Digit	19	conj	_	_
+22	)	)	PUNCT	Z	_	13	punct	_	_
+23	.	.	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s3
+# text = Zastavil hlbokú krízu , ktorej dôsledkom bol rozklad neskoro antickej byzantskej ríše .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#3
+1	Zastavil	zastaviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	hlbokú	hlboký	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	krízu	kríza	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	,	,	PUNCT	Z	_	6	punct	_	_
+5	ktorej	ktorý	DET	PAfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Int,Rel	6	amod	_	_
+6	dôsledkom	dôsledok	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	acl	_	_
+7	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	cop	_	_
+8	rozklad	rozklad	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+9	neskoro	neskoro	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	antickej	antický	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	byzantskej	byzantský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	ríše	ríša	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+13	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s4
+# text = Aby mohla Byzancia túto krízu prekonať , musela prejsť zásadným prerodom , kľúčovou premenou neskoroantického štátu a spoločnosti na štát a spoločnosť stredovekú .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#4
+1	Aby	aby	SCONJ	OY	Mood=Cnd	2	mark	_	_
+2	mohla	môcť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	advcl	_	_
+3	Byzancia	byzancia	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+4	túto	táto	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	krízu	kríza	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+6	prekonať	prekonať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
+7	,	,	PUNCT	Z	_	2	punct	_	_
+8	musela	musieť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	prejsť	prejsť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	8	xcomp	_	_
+10	zásadným	zásadný	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	prerodom	prerod	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obj	_	_
+12	,	,	PUNCT	Z	_	14	punct	_	_
+13	kľúčovou	kľúčový	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	premenou	premena	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	11	conj	_	_
+15	neskoroantického	neskoroantický	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	štátu	štát	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	spoločnosti	spoločnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	conj	_	_
+19	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	20	case	_	_
+20	štát	štát	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	_
+21	a	a	CCONJ	O	_	22	cc	_	_
+22	spoločnosť	spoločnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	20	conj	_	_
+23	stredovekú	stredoveký	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+24	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s5
+# text = Podľa slov významného byzantológa G . Ostrogorského „ vdýchol veľký cisár Herakleios zvetranému rímskemu impériu čerstvý život a obnovil ho rozhodnými reformami “ .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#5
+1	Podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	slov	slovo	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	9	obl	_	_
+3	významného	významný	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	byzantológa	byzantológ	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+5	G	g	X	W	Abbr=Yes	7	nmod	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	Ostrogorského	ostrogorský	PROPN	SAms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+8	„	„	PUNCT	Z	_	9	punct	_	_
+9	vdýchol	vdýchnuť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	veľký	veľký	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	cisár	cisár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_
+12	Herakleios	herakleios	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+13	zvetranému	zvetraný	ADJ	Gtns3x	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	15	amod	_	_
+14	rímskemu	rímsky	ADJ	AAns3x	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	impériu	impérium	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	_
+16	čerstvý	čerstvý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	život	život	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+18	a	a	CCONJ	O	_	19	cc	_	_
+19	obnovil	obnoviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	conj	_	_
+20	ho	ono	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	rozhodnými	rozhodný	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	_
+22	reformami	reforma	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	19	obl	_	_
+23	“	“	PUNCT	Z	_	9	punct	_	_
+24	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s6
+# text = Mal zásluhy na definitívnej porážke Peržanov , založil vlastnú dynastiu a na konci jeho vlády takmer zničili jeho dielo noví útočníci , Arabi .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#6
+1	Mal	mať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	zásluhy	zásluha	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
+3	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+4	definitívnej	definitívny	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	porážke	porážka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+6	Peržanov	peržan	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	,	,	PUNCT	Z	_	8	punct	_	_
+8	založil	založiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+9	vlastnú	vlastný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	dynastiu	dynastia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	a	a	CCONJ	O	_	17	cc	_	_
+12	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	konci	koniec	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+14	jeho	jeho	DET	PUfs2	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	takmer	takmer	PART	T	_	17	advmod:emph	_	_
+17	zničili	zničiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+18	jeho	jeho	DET	PUns4	Case=Acc|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+19	dielo	dielo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+20	noví	nový	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_
+21	útočníci	útočník	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+22	,	,	PUNCT	Z	_	23	punct	_	_
+23	Arabi	arab	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	appos	_	_
+24	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s7
+# text = Nástup na byzantský trón
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#7
+1	Nástup	nástup	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+3	byzantský	byzantský	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	trón	trón	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	_
+
+# sent_id = s8
+# text = Herakleios pochádzal z rodiny byzantského exarchu ( miestodržiteľa ) v Kartágu , ktorý stál na čele odporu proti cisárovi Fokovi ( 602 – 610 ) .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#8
+1	Herakleios	herakleios	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	pochádzal	pochádzať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	rodiny	rodina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_
+5	byzantského	byzantský	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	exarchu	exarcha	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	(	(	PUNCT	Z	_	8	punct	_	_
+8	miestodržiteľa	miestodržiteľ	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	appos	_	_
+9	)	)	PUNCT	Z	_	8	punct	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	Kartágu	kartágo	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	_
+12	,	,	PUNCT	Z	_	14	punct	_	_
+13	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	14	nsubj	_	_
+14	stál	stáť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
+15	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+16	čele	čelo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_
+17	odporu	odpor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	20	case	_	_
+19	cisárovi	cisár	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	_
+20	Fokovi	fokas	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	_
+21	(	(	PUNCT	Z	_	20	punct	_	_
+22	602	602	NUM	0	NumForm=Digit	20	dep	_	_
+23	–	–	PUNCT	Z	_	24	punct	_	_
+24	610	610	NUM	0	NumForm=Digit	22	conj	_	_
+25	)	)	PUNCT	Z	_	20	punct	_	_
+26	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s9
+# text = Fokas sa zmocnil vlády po zvrhnutí a zavraždení cisára Maurikia , ktoré sám inicioval .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#9
+1	Fokas	fokas	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	zmocnil	zmocniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	obj	_	_
+5	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	zvrhnutí	zvrhnutie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	zavraždení	zavraždenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	6	conj	_	_
+9	cisára	cisár	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+10	Maurikia	maurik	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+11	,	,	PUNCT	Z	_	14	punct	_	_
+12	ktoré	ktorý	DET	PAnp4	Case=Acc|Gender=Neut|Number=Plur|PronType=Int,Rel	14	iobj	_	_
+13	sám	sám	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	14	xcomp	_	_
+14	inicioval	iniciovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
+15	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s10
+# text = Ríša sa zmietala vo vnútorných problémoch , ktoré ešte prehĺboval spôsob Fokovej vlády s charakterom otvoreného teroru voči cisárovým potenciálnym nepriateľom .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#10
+1	Ríša	ríša	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	zmietala	zmietať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	6	case	_	_
+5	vnútorných	vnútorný	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+6	problémoch	problém	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl:arg	_	_
+7	,	,	PUNCT	Z	_	10	punct	_	_
+8	ktoré	ktorý	DET	PAip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Int,Rel	10	obj	_	_
+9	ešte	ešte	PART	T	_	10	advmod:emph	_	_
+10	prehĺboval	prehlbovať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
+11	spôsob	spôsob	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	Fokovej	fokov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	15	case	_	_
+15	charakterom	charakter	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	_
+16	otvoreného	otvorený	ADJ	Gtis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	17	amod	_	_
+17	teroru	teror	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	voči	voči	ADP	Eu3	AdpType=Prep|Case=Dat	21	case	_	_
+19	cisárovým	cisárov	ADJ	AFmp3x	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_
+20	potenciálnym	potenciálny	ADJ	AAmp3x	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_
+21	nepriateľom	nepriateľ	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	17	nmod	_	_
+22	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s11
+# text = Na dennom poriadku boli zahranično politické neúspechy a katastrofálne vojenské porážky .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#11
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	dennom	denný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	poriadku	poriadok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+4	boli	byť	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	zahranično	zahranično	X	Q	Hyph=Yes	6	advmod	_	_
+6	politické	politický	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+7	neúspechy	neúspech	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+8	a	a	CCONJ	O	_	11	cc	_	_
+9	katastrofálne	katastrofálny	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
+10	vojenské	vojenský	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
+11	porážky	porážka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	7	conj	_	_
+12	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s12
+# text = V tejto situácii sa územie ríše , napadané zo severu Slovanmi a Avarmi a z východu Peržanmi , rozpadalo .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#12
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	tejto	táto	DET	PFfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	situácii	situácia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	19	obl	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	19	expl:pv	_	_
+5	územie	územie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+6	ríše	ríša	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	,	,	PUNCT	Z	_	8	punct	_	_
+8	napadané	napádaný	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	amod	_	_
+9	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	10	case	_	_
+10	severu	sever	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+11	Slovanmi	slovan	PROPN	SSmp7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	10	conj	_	_
+12	a	a	CCONJ	O	_	13	cc	_	_
+13	Avarmi	avar	PROPN	SSmp7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	11	conj	_	_
+14	a	a	CCONJ	O	_	16	cc	_	_
+15	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+16	východu	východ	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	conj	_	_
+17	Peržanmi	peržan	PROPN	SSmp7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	10	conj	_	_
+18	,	,	PUNCT	Z	_	8	punct	_	_
+19	rozpadalo	rozpadať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+20	.	.	PUNCT	Z	_	19	punct	_	_
+
+# sent_id = s13
+# text = Roku 610 vypravil kartáginský exarcha Herakleios proti Konštantinopolu loďstvo , na čelo ktorého postavil svojho syna .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#13
+1	Roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+2	610	610	NUM	0	NumForm=Digit	1	nummod	_	_
+3	vypravil	vypraviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	kartáginský	kartáginský	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	exarcha	exarcha	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+6	Herakleios	herakleios	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+7	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	8	case	_	_
+8	Konštantinopolu	konštantinopol	PROPN	SSis3:r	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+9	loďstvo	loďstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+10	,	,	PUNCT	Z	_	14	punct	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	čelo	čelo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_
+13	ktorého	ktorý	DET	PAns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Int,Rel	12	amod	_	_
+14	postavil	postaviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	acl	_	_
+15	svojho	svoj	DET	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	_
+16	syna	syn	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+17	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s14
+# text = Mladý Herakleios sa zmocnil sídelného mesta , z ktorého ušiel nenávidený Fokas a počas niekoľkých dní ho korunovali za cisára .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#14
+1	Mladý	mladý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	Herakleios	herakleios	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	zmocnil	zmocniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	sídelného	sídelný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	mesta	mesto	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	obj	_	_
+7	,	,	PUNCT	Z	_	10	punct	_	_
+8	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	ktorého	ktorý	DET	PAns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Int,Rel	10	obl	_	_
+10	ušiel	ujsť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
+11	nenávidený	nenávidený	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	Fokas	fokas	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+13	a	a	CCONJ	O	_	18	cc	_	_
+14	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+15	niekoľkých	niekoľký	DET	PAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	16	det	_	_
+16	dní	deň	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	_
+17	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+18	korunovali	korunovať	VERB	VLjpcm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+19	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	20	case	_	_
+20	cisára	cisár	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	18	obl:arg	_	_
+21	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s15
+# text = Vlády sa ujal vo veľmi ťažkej situácii .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#15
+1	Vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	obj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	ujal	ujať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	7	case	_	_
+5	veľmi	veľmi	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	ťažkej	ťažký	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	situácii	situácia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+8	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s16
+# text = Zápas o existenciu ‐ vojny s Avarmi a Peržanmi
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#16
+1	Zápas	zápas	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+3	existenciu	existencia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	_
+4	‐	‐	PUNCT	Z	_	5	punct	_	_
+5	vojny	vojna	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	1	appos	_	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	7	case	_	_
+7	Avarmi	avar	PROPN	SSmp7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	5	nmod	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	Peržanmi	peržan	PROPN	SSmp7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	conj	_	_
+
+# sent_id = s17
+# text = Na európskej pevnine si Byzancia v čase Herakleiovho nástupu na trón udržala zvrchovanosť okrem Konštantinopolu a Solúnu už len nad niekoľkými pobrežnými balkánskymi mestami a územím exarchátov ( državy v Hispánii boli definitívne stratené roku 624 ) .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#17
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	európskej	európsky	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	pevnine	pevnina	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+4	si	si	PRON	R	PronType=Prs|Reflex=Yes	12	obl	_	_
+5	Byzancia	byzancia	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+7	čase	čas	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	fixed	_	_
+8	Herakleiovho	herakleiov	ADJ	AFis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	nástupu	nástup	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+10	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+11	trón	trón	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
+12	udržala	udržať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+13	zvrchovanosť	zvrchovanosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	okrem	okrem	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+15	Konštantinopolu	konštantinopol	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+16	a	a	CCONJ	O	_	17	cc	_	_
+17	Solúnu	solún	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	conj	_	_
+18	už	už	PART	T	_	19	advmod:emph	_	_
+19	len	len	PART	T	_	24	cc	_	_
+20	nad	nad	ADP	Eu7	AdpType=Prep|Case=Ins	24	case	_	_
+21	niekoľkými	niekoľký	DET	PAnp7	Case=Ins|Gender=Neut|Number=Plur|NumType=Card|PronType=Ind	24	det	_	_
+22	pobrežnými	pobrežný	ADJ	AAnp7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur	24	amod	_	_
+23	balkánskymi	balkánsky	ADJ	AAnp7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur	24	amod	_	_
+24	mestami	mesto	NOUN	SSnp7	Case=Ins|Gender=Neut|Number=Plur	13	nmod	_	_
+25	a	a	CCONJ	O	_	26	cc	_	_
+26	územím	územie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	24	conj	_	_
+27	exarchátov	exarchát	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+28	(	(	PUNCT	Z	_	34	punct	_	_
+29	državy	dŕžava	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	34	nsubj:pass	_	_
+30	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	31	case	_	_
+31	Hispánii	hispánia	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	29	nmod	_	_
+32	boli	byť	AUX	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	34	aux:pass	_	_
+33	definitívne	definitívne	ADV	Dx	Degree=Pos	34	advmod	_	_
+34	stratené	stratený	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	parataxis	_	_
+35	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	obl	_	_
+36	624	624	NUM	0	NumForm=Digit	35	nummod	_	_
+37	)	)	PUNCT	Z	_	34	punct	_	_
+38	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s18
+# text = Roku 614 padla za obeť slovanským nájazdom Salona ( Solin pri Splite ) , sídlo provinciálnej správy , a významné centrum kresťanstva .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#18
+1	Roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+2	614	614	NUM	0	NumForm=Digit	1	nummod	_	_
+3	padla	padnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	obeť	obeť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+6	slovanským	slovanský	ADJ	AAip3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+7	nájazdom	nájazd	NOUN	SSip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	_
+8	Salona	salona	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+9	(	(	PUNCT	Z	_	10	punct	_	_
+10	Solin	solin	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	flat	_	_
+11	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	Splite	split	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+13	)	)	PUNCT	Z	_	10	punct	_	_
+14	,	,	PUNCT	Z	_	15	punct	_	_
+15	sídlo	sídlo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	8	appos	_	_
+16	provinciálnej	provinciálny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	správy	správa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	,	,	PUNCT	Z	_	21	punct	_	_
+19	a	a	CCONJ	O	_	21	cc	_	_
+20	významné	významný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	centrum	centrum	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	15	conj	_	_
+22	kresťanstva	kresťanstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s19
+# text = Následkom toho sa byzantské štátne a cirkevné správy zrútili aj v tejto časti Balkánu .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#19
+1	Následkom	následkom	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	toho	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	9	obl	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+4	byzantské	byzantský	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+5	štátne	štátny	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	cirkevné	cirkevný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	conj	_	_
+8	správy	správa	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+9	zrútili	zrútiť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	aj	aj	CCONJ	O	_	13	advmod:emph	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+12	tejto	táto	DET	PFfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	časti	časť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+14	Balkánu	balkán	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s20
+# text = Zo zničeného mesta ušlo obyvateľstvo a uchýlilo sa do opusteného Diokleciánovho paláca na jadranskom pobreží .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#20
+1	Zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	3	case	_	_
+2	zničeného	zničený	ADJ	Gtns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	mesta	mesto	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+4	ušlo	ujsť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	obyvateľstvo	obyvateľstvo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	uchýlilo	uchýliť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+9	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+10	opusteného	opustený	ADJ	Gtis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	_	_
+11	Diokleciánovho	diokleciánov	ADJ	AFis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	paláca	palác	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+13	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+14	jadranskom	jadranský	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	pobreží	pobrežie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	12	nmod	_	_
+16	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s21
+# text = Okolo neho neskôr vyrástlo nové mesto nazývané Spalato – Split .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#21
+1	Okolo	okolo	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	neho	ono	PRON	PFns2	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+3	neskôr	neskôr	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	vyrástlo	vyrásť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	nové	nový	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	mesto	mesto	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+7	nazývané	nazývaný	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
+8	Spalato	spalato	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	7	obl	_	_
+9	–	–	PUNCT	Z	_	10	punct	_	_
+10	Split	split	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	flat	_	_
+11	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s22
+# text = Podobne vznikol Dubrovník , Kotor a niektoré ďalšie mestá .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#22
+1	Podobne	podobne	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	vznikol	vzniknúť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	Dubrovník	dubrovník	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	,	,	PUNCT	Z	_	5	punct	_	_
+5	Kotor	kotor	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+6	a	a	CCONJ	O	_	9	cc	_	_
+7	niektoré	niektorý	DET	PAnp1	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	9	det	_	_
+8	ďalšie	ďalší	ADJ	AAnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	_
+9	mestá	mesto	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	3	conj	_	_
+10	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s23
+# text = Vo vnútrozemí boli dobyté a vyplienené Naissus ( Niš ) , Serdica ( Sofia ) a Viminacium ( Kostolac ) .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#23
+1	Vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	2	case	_	_
+2	vnútrozemí	vnútrozemie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	boli	byť	AUX	VLepcn+	Aspect=Imp|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	4	aux	_	_
+4	dobyté	dobytý	ADJ	Gtnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	vyplienené	vyplienený	ADJ	Gtnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	4	conj	_	_
+7	Naissus	naissus	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+8	(	(	PUNCT	Z	_	9	punct	_	_
+9	Niš	niš	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	flat	_	_
+10	)	)	PUNCT	Z	_	9	punct	_	_
+11	,	,	PUNCT	Z	_	12	punct	_	_
+12	Serdica	serdica	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	_
+13	(	(	PUNCT	Z	_	14	punct	_	_
+14	Sofia	sofia	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	12	flat	_	_
+15	)	)	PUNCT	Z	_	14	punct	_	_
+16	a	a	CCONJ	O	_	17	cc	_	_
+17	Viminacium	viminacium	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	7	conj	_	_
+18	(	(	PUNCT	Z	_	19	punct	_	_
+19	Kostolac	kostolac	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	flat	_	_
+20	)	)	PUNCT	Z	_	19	punct	_	_
+21	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s24
+# text = Slovania zaútočili aj na egejské ostrovy a na Krétu .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#24
+1	Slovania	slovan	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	zaútočili	zaútočiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	aj	aj	PART	T	_	6	advmod:emph	_	_
+4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+5	egejské	egejský	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+6	ostrovy	ostrov	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obl:arg	_	_
+7	a	a	CCONJ	O	_	9	cc	_	_
+8	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+9	Krétu	kréta	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	_
+10	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s25
+# text = Ani na východe ríše nepanovali dobré pomery .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#25
+1	Ani	ani	PART	T	_	3	advmod:emph	_	_
+2	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	východe	východ	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+4	ríše	ríša	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	nepanovali	panovať	VERB	VLepci-	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+6	dobré	dobrý	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+7	pomery	pomer	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+8	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s26
+# text = Herakleiova misia k perzskému kráľovi zostala bez odpovede .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#26
+1	Herakleiova	herakleiov	ADJ	AFfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	misia	misia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	5	case	_	_
+4	perzskému	perzský	ADJ	AAms3x	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	kráľovi	kráľ	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	_
+6	zostala	zostať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	bez	bez	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	odpovede	odpoveď	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+9	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s27
+# text = Husrav II . Parvéz sa nechcel vzdať ziskov , ktoré nadobudol počas Fokovej vlády .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#27
+1	Husrav	husrav	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+2	II	ii	NUM	0	NumForm=Digit	1	nummod	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+4	Parvéz	parvéz	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+6	nechcel	chcieť	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+7	vzdať	vzdať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+8	ziskov	zisk	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obj	_	_
+9	,	,	PUNCT	Z	_	11	punct	_	_
+10	ktoré	ktorý	DET	PAip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Int,Rel	11	obj	_	_
+11	nadobudol	nadobudnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+12	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+13	Fokovej	fokov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+15	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s28
+# text = Perzská ríša vtedy prežívala svoj posledný mocenský rozmach a jej vojská nastúpili na ďalšiu ofenzívu .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#28
+1	Perzská	perzský	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	ríša	ríša	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	vtedy	vtedy	ADV	PD	PronType=Dem	4	advmod	_	_
+4	prežívala	prežívať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	svoj	svoj	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	_
+6	posledný	posledný	ADJ	NAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+7	mocenský	mocenský	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	rozmach	rozmach	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+9	a	a	CCONJ	O	_	12	cc	_	_
+10	jej	jej	DET	PUnp1	Case=Nom|Gender=Neut|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	vojská	vojsko	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	_
+12	nastúpili	nastúpiť	VERB	VLdpcn+	Aspect=Perf|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+13	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+14	ďalšiu	ďalší	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	ofenzívu	ofenzíva	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+16	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s29
+# text = V roku 611 sa vojvodcovi Priskovi ešte podarilo získať naspäť maloázijskú Kaisareiu , ale potom sa byzantský protiútok zastavil .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#29
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+3	611	611	NUM	0	NumForm=Digit	2	nummod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+5	vojvodcovi	vojvodca	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	_
+6	Priskovi	prisko	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+7	ešte	ešte	PART	T	_	8	advmod	_	_
+8	podarilo	podariť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	získať	získať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	8	csubj	_	_
+10	naspäť	naspäť	ADV	Dx	Degree=Pos	9	advmod	_	_
+11	maloázijskú	maloázijský	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	Kaisareiu	kaisareia	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+13	,	,	PUNCT	Z	_	19	punct	_	_
+14	ale	ale	CCONJ	O	_	19	cc	_	_
+15	potom	potom	ADV	Dx	Degree=Pos	19	advmod	_	_
+16	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	19	expl:pv	_	_
+17	byzantský	byzantský	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	protiútok	protiútok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+19	zastavil	zastaviť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	conj	_	_
+20	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s30
+# text = Jedna perzská armáda prešla Malou Áziou a roku 615 sa dostala až k Chalkedonu .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#30
+1	Jedna	jeden	NUM	NFfs1	Case=Nom|Gender=Fem|Number=Sing	3	nummod	_	_
+2	perzská	perzský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	armáda	armáda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	prešla	prejsť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	Malou	malý	ADJ	AAfs7x:r	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	Áziou	ázia	PROPN	SSfs7:r	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+7	a	a	CCONJ	O	_	11	cc	_	_
+8	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+9	615	615	NUM	0	NumForm=Digit	8	nummod	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+11	dostala	dostať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+12	až	až	PART	T	_	14	advmod:emph	_	_
+13	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	14	case	_	_
+14	Chalkedonu	chalkedon	PROPN	SSis3:r	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	obl	_	_
+15	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s31
+# text = Druhá vyhnala Byzantíncov z Arménie a Kilikie a dobyla v roku 613 sýrsku Antiochiu .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#31
+1	Druhá	druhý	ADJ	NAfs1	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	2	dep	_	_
+2	vyhnala	vyhnať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	Byzantíncov	byzantínec	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	obj	_	_
+4	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+5	Arménie	arménia	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	Kilikie	kilikia	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	5	conj	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	dobyla	dobyť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+12	613	613	NUM	0	NumForm=Digit	11	nummod	_	_
+13	sýrsku	sýrsky	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	Antiochiu	antiochia	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+15	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s32
+# text = Onedlho padol Jeruzalem ( 614 ) .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#32
+1	Onedlho	onedlho	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	padol	padnúť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	Jeruzalem	jeruzalem	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	(	(	PUNCT	Z	_	2	punct	_	_
+5	614	614	NUM	0	NumForm=Digit	2	dep	_	_
+6	)	)	PUNCT	Z	_	2	punct	_	_
+7	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s33
+# text = Peržania ho nielen vyplienili a spustošili , ale zmasakrovali aj obyvateľstvo .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#33
+1	Peržania	peržan	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	nielen	nielen	CCONJ	O	_	4	cc	_	_
+4	vyplienili	vyplieniť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	spustošili	spustošiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	ale	ale	CCONJ	O	_	9	cc	_	_
+9	zmasakrovali	zmasakrovať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+10	aj	aj	CCONJ	O	_	11	advmod:emph	_	_
+11	obyvateľstvo	obyvateľstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+12	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s34
+# text = Neverci sa zmocnili najvzácnejšej relikvie , ktorú predstavoval údajný Kristov kríž , a odviezli ho do hlavného mesta perzskej ríše Ktésifóntu , čo kresťania chápali ako nesmiernu pohromu .
+# orig_file_sentence herakleitos000_kandracova_herakleitos000_tencerova#34
+1	Neverci	neverec	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	zmocnili	zmocniť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	najvzácnejšej	vzácny	ADJ	AAfs2z	Case=Gen|Degree=Sup|Gender=Fem|Number=Sing	5	amod	_	_
+5	relikvie	relikvia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	obj	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	ktorú	ktorý	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	8	obj	_	_
+8	predstavoval	predstavovať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	acl	_	_
+9	údajný	údajný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	Kristov	kristov	ADJ	AFis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	kríž	kríž	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+12	,	,	PUNCT	Z	_	8	punct	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	odviezli	odviezť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+15	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	21	case	_	_
+17	hlavného	hlavný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	mesta	mesto	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+19	perzskej	perzský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	ríše	ríša	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	Ktésifóntu	ktésifónt	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	_
+22	,	,	PUNCT	Z	_	25	punct	_	_
+23	čo	čo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	25	obj	_	_
+24	kresťania	kresťan	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+25	chápali	chápať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	14	conj	_	_
+26	ako	ako	SCONJ	O	_	28	mark	_	_
+27	nesmiernu	nesmierny	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	pohromu	pohroma	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	23	xcomp	_	_
+29	.	.	PUNCT	Z	_	3	punct	_	_
+

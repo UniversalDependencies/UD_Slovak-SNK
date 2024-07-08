@@ -1,0 +1,163 @@
+# sent_id = s1
+# text = "
+# orig_file_sentence bsnk170_hrenakova_bsnk170_olejkarova#1
+1	"	"	PUNCT	Z	_	0	root	_	_
+
+# sent_id = s2
+# text = " Jeden z nich ma raz vskutku odstrčil , " prisvedčil starec .
+# orig_file_sentence bsnk170_hrenakova_bsnk170_olejkarova#2
+1	"	"	PUNCT	Z	_	8	punct	_	_
+2	Jeden	jeden	NUM	NFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+3	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	nich	on	PRON	PFmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	nmod	_	_
+5	ma	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+6	raz	raz	ADV	Dx	Degree=Pos	8	advmod	_	_
+7	vskutku	vskutku	PART	T	_	8	advmod	_	_
+8	odstrčil	odstrčiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	ccomp	_	_
+9	,	,	PUNCT	Z	_	8	punct	_	_
+10	"	"	PUNCT	Z	_	8	punct	_	_
+11	prisvedčil	prisvedčiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	starec	starec	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+13	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s3
+# text = " Spomínam si , ako by to bolo včera .
+# orig_file_sentence bsnk170_hrenakova_bsnk170_olejkarova#3
+1	"	"	PUNCT	Z	_	2	punct	_	_
+2	Spomínam	spomínať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	si	si	PRON	R	PronType=Prs|Reflex=Yes	2	discourse	_	_
+4	,	,	PUNCT	Z	_	2	punct	_	_
+5	ako	ako	ADV	PD	PronType=Int,Rel	8	mark	_	_
+6	by	by	AUX	Y	Mood=Cnd	8	ccomp	_	_
+7	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	iobj	_	_
+8	bolo	byť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	advcl	_	_
+9	včera	včera	ADV	Dx	Degree=Pos	8	advmod	_	_
+10	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s4
+# text = Stalo sa to večer na veslárskych pretekoch -- na veslárskych pretekoch sa vedeli správať grobiansky -- a ja som vrazil do chlapíka na Shaftesbury Avenue .
+# orig_file_sentence bsnk170_hrenakova_bsnk170_olejkarova#4
+1	Stalo	stať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	_
+4	večer	večer	ADV	Dx	Degree=Pos	1	advmod	_	_
+5	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	veslárskych	veslársky	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+7	pretekoch	pretek	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	1	obl	_	_
+8	--	--	PUNCT	Z	_	13	punct	_	_
+9	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+10	veslárskych	veslársky	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_
+11	pretekoch	pretek	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	obl	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pv	_	_
+13	vedeli	vedieť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	parataxis	_	_
+14	správať	správať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	13	ccomp	_	_
+15	grobiansky	grobiansky	ADV	Dx	Degree=Pos	14	advmod	_	_
+16	--	--	PUNCT	Z	_	13	punct	_	_
+17	a	a	CCONJ	O	_	20	cc	_	_
+18	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	vrazil	vraziť	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+21	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	22	case	_	_
+22	chlapíka	chlapík	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	obl:arg	_	_
+23	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	25	case	_	_
+24	Shaftesbury	shaftesbury	X	Q	Hyph=Yes	25	nmod	_	_
+25	Avenue	avenue	NOUN	SUfs6	Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+26	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s5
+# text = Bol to ozajstný džentlmen : módna košeľa , cylinder , čierny raglán .
+# orig_file_sentence bsnk170_hrenakova_bsnk170_olejkarova#5
+1	Bol	byť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	advmod:emph	_	_
+3	ozajstný	ozajstný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	džentlmen	džentlmen	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	obj	_	_
+5	:	:	PUNCT	Z	_	7	punct	_	_
+6	módna	módny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	košeľa	košeľa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	obj	_	_
+8	,	,	PUNCT	Z	_	9	punct	_	_
+9	cylinder	cylinder	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	čierny	čierny	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	raglán	raglán	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+13	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s6
+# text = Vykračoval si po chodníku akoby mu celý patril a nechtiac som doňho vrazil .
+# orig_file_sentence bsnk170_hrenakova_bsnk170_olejkarova#6
+1	Vykračoval	vykračovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	si	si	PRON	R	PronType=Prs|Reflex=Yes	1	discourse	_	_
+3	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	chodníku	chodník	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	_
+5	akoby	akoby	SCONJ	OY	Mood=Cnd	8	mark	_	_
+6	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+7	celý	celý	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	patril	patriť	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	advcl	_	_
+9	a	a	CCONJ	O	_	8	cc	_	_
+10	nechtiac	nechtiac	ADV	Dx	Degree=Pos	13	advmod	_	_
+11	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	doňho	do_on	PRON	PFms2g	AdpType=Preppron|Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|PronType=Prs	13	obl	_	_
+13	vrazil	vraziť	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	parataxis	_	_
+14	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s7
+# text = " A čo si slepý , keď nevidíš , kadiaľ ideš ?
+# orig_file_sentence bsnk170_hrenakova_bsnk170_olejkarova#7
+1	"	"	PUNCT	Z	_	5	punct	_	_
+2	A	a	PART	T	_	3	mark	_	_
+3	čo	čo	PART	T	_	4	mark	_	_
+4	si	byť	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	compound	_	_
+5	slepý	slepý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	keď	keď	SCONJ	O	_	8	mark	_	_
+8	nevidíš	vidieť	VERB	VKesb-	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	,	,	PUNCT	Z	_	11	punct	_	_
+10	kadiaľ	kadiaľ	ADV	PD	PronType=Int,Rel	11	advmod	_	_
+11	ideš	ísť	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	conj	_	_
+12	?	?	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s8
+# text = " opýtal sa .
+# orig_file_sentence bsnk170_hrenakova_bsnk170_olejkarova#8
+1	"	"	PUNCT	Z	_	2	punct	_	_
+2	opýtal	opýtať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+4	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s9
+# text = A ja na to : " Len si nemyslite , že ten chodník je váš .
+# orig_file_sentence bsnk170_hrenakova_bsnk170_olejkarova#9
+1	A	a	PART	T	_	9	advmod	_	_
+2	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obl:arg	_	_
+5	:	:	PUNCT	Z	_	9	punct	_	_
+6	"	"	PUNCT	Z	_	9	punct	_	_
+7	Len	len	PART	T	_	9	advmod	_	_
+8	si	si	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+9	nemyslite	myslieť	VERB	VMepb-	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|Polarity=Neg|VerbForm=Fin	0	root	_	_
+10	,	,	PUNCT	Z	_	15	punct	_	_
+11	že	že	SCONJ	O	_	15	mark	_	_
+12	ten	ten	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	13	advmod:emph	_	_
+13	chodník	chodník	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+14	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	váš	váš	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	9	acl	_	_
+16	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s10
+# text = " A on : " Ak neprestaneš s tými drzosťami , nakopem ťa !
+# orig_file_sentence bsnk170_hrenakova_bsnk170_olejkarova#10
+1	"	"	PUNCT	Z	_	7	punct	_	_
+2	A	a	PART	T	_	7	advmod	_	_
+3	on	on	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	:	:	PUNCT	Z	_	7	punct	_	_
+5	"	"	PUNCT	Z	_	7	punct	_	_
+6	Ak	ak	SCONJ	O	_	7	mark	_	_
+7	neprestaneš	prestať	VERB	VKdsb-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	10	case	_	_
+9	tými	tá	DET	PFfp7	Case=Ins|Gender=Fem|Number=Plur|PronType=Dem	10	det	_	_
+10	drzosťami	drzosť	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	7	obl:arg	_	_
+11	,	,	PUNCT	Z	_	12	punct	_	_
+12	nakopem	nakopať	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	conj	_	_
+13	ťa	ty	PRON	PPhs4	Case=Acc|Number=Sing|Person=2|PronType=Prs	12	obj	_	_
+14	!	!	PUNCT	Z	_	7	punct	_	_
+

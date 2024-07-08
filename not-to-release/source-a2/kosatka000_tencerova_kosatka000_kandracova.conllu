@@ -1,0 +1,235 @@
+# sent_id = s1
+# text = Kosatka dravá
+# orig_file_sentence kosatka000_tencerova_kosatka000_kandracova#1
+1	Kosatka	kosatka	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	dravá	dravý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	_
+
+# sent_id = s2
+# text = Kosatka dravá ( Orcinus orca ) , v angličtine známa ako killer whale čiže veľryba zabijak , je najväčším členom čeľade delfínovité .
+# orig_file_sentence kosatka000_tencerova_kosatka000_kandracova#2
+1	Kosatka	kosatka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+2	dravá	dravý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	_
+3	(	(	PUNCT	Z	_	4	punct	_	_
+4	Orcinus	orcinus	X	%	Foreign=Yes	1	appos	_	_
+5	orca	orca	X	%	Foreign=Yes	4	flat:foreign	_	_
+6	)	)	PUNCT	Z	_	4	punct	_	_
+7	,	,	PUNCT	Z	_	10	punct	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	angličtine	angličtina	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+10	známa	známy	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	_
+11	ako	ako	SCONJ	O	_	12	mark	_	_
+12	killer	killer	X	%	Foreign=Yes	1	xcomp	_	_
+13	whale	whale	X	%	Foreign=Yes	12	flat:foreign	_	_
+14	čiže	čiže	CCONJ	O	_	15	cc	_	_
+15	veľryba	veľryba	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	12	appos	_	_
+16	zabijak	zabijak	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
+17	,	,	PUNCT	Z	_	10	punct	_	_
+18	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	najväčším	veľký	ADJ	AAms7z	Animacy=Anim|Case=Ins|Degree=Sup|Gender=Masc|Number=Sing	20	amod	_	_
+20	členom	člen	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+21	čeľade	čeľaď	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	delfínovité	delfínovitý	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+23	.	.	PUNCT	Z	_	20	punct	_	_
+
+# sent_id = s3
+# text = Ide o druhého najrozšírenejšieho cicavca na zemi ( po človeku ) , možno ju nájsť vo všetkých svetových oceánoch .
+# orig_file_sentence kosatka000_tencerova_kosatka000_kandracova#3
+1	Ide	ísť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+3	druhého	druhý	ADJ	NAms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+4	najrozšírenejšieho	rozšírený	ADJ	AAms4z	Animacy=Anim|Case=Acc|Degree=Sup|Gender=Masc|Number=Sing	5	amod	_	_
+5	cicavca	cicavec	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	obl:arg	_	_
+6	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	zemi	zem	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+8	(	(	PUNCT	Z	_	10	punct	_	_
+9	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	človeku	človek	NOUN	SSms6	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+11	)	)	PUNCT	Z	_	10	punct	_	_
+12	,	,	PUNCT	Z	_	13	punct	_	_
+13	možno	možno	ADV	Dx	Degree=Pos	1	conj	_	_
+14	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+15	nájsť	nájsť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	13	csubj	_	_
+16	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	19	case	_	_
+17	všetkých	všetok	DET	PFip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|PronType=Tot	19	det	_	_
+18	svetových	svetový	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	_
+19	oceánoch	oceán	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	15	obl	_	_
+20	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s4
+# text = Je všestranným dravcom , požiera ryby , korytnačky , vtákov , tulene , žraloky a tiež iné malé a mladé veľryby .
+# orig_file_sentence kosatka000_tencerova_kosatka000_kandracova#4
+1	Je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	všestranným	všestranný	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	dravcom	dravec	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+4	,	,	PUNCT	Z	_	5	punct	_	_
+5	požiera	požierať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	ryby	ryba	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+7	,	,	PUNCT	Z	_	8	punct	_	_
+8	korytnačky	korytnačka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	_
+9	,	,	PUNCT	Z	_	10	punct	_	_
+10	vtákov	vták	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	6	conj	_	_
+11	,	,	PUNCT	Z	_	12	punct	_	_
+12	tulene	tuleň	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	conj	_	_
+13	,	,	PUNCT	Z	_	14	punct	_	_
+14	žraloky	žralok	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	conj	_	_
+15	a	a	CCONJ	O	_	21	cc	_	_
+16	tiež	tiež	PART	T	_	21	advmod:emph	_	_
+17	iné	iný	DET	PAfp4	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	21	det	_	_
+18	malé	malý	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	_
+19	a	a	CCONJ	O	_	20	cc	_	_
+20	mladé	mladý	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	18	conj	_	_
+21	veľryby	veľryba	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	_
+22	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s5
+# text = To stavia kosatku na vrchol morského potravinového reťazca .
+# orig_file_sentence kosatka000_tencerova_kosatka000_kandracova#5
+1	To	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	stavia	stavať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	kosatku	kosatka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	vrchol	vrchol	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+6	morského	morský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	potravinového	potravinový	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	reťazca	reťazec	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+9	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s6
+# text = Názov " veľryba zabijak " odráža jej povesť veľkolepého a obávaného morského cicavca ako bola opísaná už v Prírodopise Plínia Staršieho .
+# orig_file_sentence kosatka000_tencerova_kosatka000_kandracova#6
+1	Názov	názov	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	"	"	PUNCT	Z	_	3	punct	_	_
+3	veľryba	veľryba	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	_
+4	zabijak	zabijak	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+5	"	"	PUNCT	Z	_	3	punct	_	_
+6	odráža	odrážať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	jej	jej	DET	PUfs4	Case=Acc|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	povesť	povesť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	veľkolepého	veľkolepý	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+10	a	a	CCONJ	O	_	11	cc	_	_
+11	obávaného	obávaný	ADJ	Gtms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	9	conj	_	_
+12	morského	morský	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	cicavca	cicavec	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+14	ako	ako	SCONJ	O	_	16	advmod	_	_
+15	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	aux:pass	_	_
+16	opísaná	opísaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
+17	už	už	PART	T	_	19	advmod:emph	_	_
+18	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	Prírodopise	prírodopis	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+20	Plínia	plínius	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+21	Staršieho	starý	ADJ	AAms2y:r	Animacy=Anim|Case=Gen|Degree=Cmp|Gender=Masc|Number=Sing	19	amod	_	_
+22	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s7
+# text = Dnes už vieme , že kosatka nie je ani veľryba ( iba v najširšom zmysle , čiže príslušník radu Cetacea ) , ani nebezpečná pre človeka ; vo voľnej prírode nebol nikdy zaznamenaný žiadny nevyprovokovaný útok kosatky na človeka , výnimočne sa však vyskytli prípady , keď zajatá kosatka napadla obsluhu morského parku .
+# orig_file_sentence kosatka000_tencerova_kosatka000_kandracova#7
+1	Dnes	dnes	ADV	Dx	Degree=Pos	3	advmod	_	_
+2	už	už	PART	T	_	3	advmod:emph	_	_
+3	vieme	vedieť	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	,	,	PUNCT	Z	_	10	punct	_	_
+5	že	že	SCONJ	O	_	10	mark	_	_
+6	kosatka	kosatka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+7	nie	nie	PART	T	_	10	advmod	_	_
+8	je	byť	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	ani	ani	CCONJ	O	_	10	cc	_	_
+10	veľryba	veľryba	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	ccomp	_	_
+11	(	(	PUNCT	Z	_	15	punct	_	_
+12	iba	iba	PART	T	_	14	advmod:emph	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+14	najširšom	široký	ADJ	AAis6z	Animacy=Inan|Case=Loc|Degree=Sup|Gender=Masc|Number=Sing	15	amod	_	_
+15	zmysle	zmysel	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+16	,	,	PUNCT	Z	_	18	punct	_	_
+17	čiže	čiže	CCONJ	O	_	18	cc	_	_
+18	príslušník	príslušník	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	_
+19	radu	rad	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	Cetacea	cetacea	X	%	Foreign=Yes	19	nmod	_	_
+21	)	)	PUNCT	Z	_	18	punct	_	_
+22	,	,	PUNCT	Z	_	24	punct	_	_
+23	ani	ani	CCONJ	O	_	24	cc	_	_
+24	nebezpečná	nebezpečný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	conj	_	_
+25	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	26	case	_	_
+26	človeka	človek	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	24	obl:arg	_	_
+27	;	;	PUNCT	Z	_	33	punct	_	_
+28	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	30	case	_	_
+29	voľnej	voľný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	prírode	príroda	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	33	obl	_	_
+31	nebol	byť	AUX	VLesci-	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	33	cop	_	_
+32	nikdy	nikdy	ADV	PD	PronType=Neg	33	advmod	_	_
+33	zaznamenaný	zaznamenaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	conj	_	_
+34	žiadny	žiadny	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	36	det	_	_
+35	nevyprovokovaný	vyprovokovaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	36	amod	_	_
+36	útok	útok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	_
+37	kosatky	kosatka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	_
+38	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	39	case	_	_
+39	človeka	človek	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	36	nmod	_	_
+40	,	,	PUNCT	Z	_	44	punct	_	_
+41	výnimočne	výnimočne	ADV	Dx	Degree=Pos	44	advmod	_	_
+42	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	44	expl:pv	_	_
+43	však	však	PART	T	_	44	advmod	_	_
+44	vyskytli	vyskytnúť	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	33	conj	_	_
+45	prípady	prípad	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	44	nsubj	_	_
+46	,	,	PUNCT	Z	_	50	punct	_	_
+47	keď	keď	SCONJ	O	_	50	mark	_	_
+48	zajatá	zajatý	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	49	amod	_	_
+49	kosatka	kosatka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	50	nsubj	_	_
+50	napadla	napadnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	45	acl	_	_
+51	obsluhu	obsluha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	50	obj	_	_
+52	morského	morský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	53	amod	_	_
+53	parku	park	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	51	nmod	_	_
+54	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s8
+# text = Pomenovanie
+# orig_file_sentence kosatka000_tencerova_kosatka000_kandracova#8
+1	Pomenovanie	pomenovanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+
+# sent_id = s9
+# text = Od 60 ‐ tych rokov 20 . storočia v anglicky hovoriacich krajinách popularita vedeckého názvu orca ako označenia druhu neustále rastie a dnes už je populárnejší ako tradičné meno killer whale ( veľryba zabijak ) , aj keď tradičný názov je verejnosťou stále široko používaný .
+# orig_file_sentence kosatka000_tencerova_kosatka000_kandracova#9
+1	Od	od	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+2	60	60	NUM	0	NumForm=Digit	4	nummod	_	_
+3	‐	‐	PUNCT	Z	_	2	punct	_	_
+4	tych	tych	X	Q	Hyph=Yes	5	nmod	_	_
+5	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	_
+6	20	20	NUM	0	NumForm=Digit	8	nummod	_	_
+7	.	.	PUNCT	Z	_	6	punct	_	_
+8	storočia	storočie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+10	anglicky	anglicky	ADV	Dx	Degree=Pos	11	advmod	_	_
+11	hovoriacich	hovoriaci	ADJ	Gkfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	12	amod	_	_
+12	krajinách	krajina	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	21	obl	_	_
+13	popularita	popularita	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+14	vedeckého	vedecký	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	názvu	názov	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	orca	orca	X	%	Foreign=Yes	15	nmod	_	_
+17	ako	ako	SCONJ	O	_	18	mark	_	_
+18	označenia	označenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	16	xcomp	_	_
+19	druhu	druh	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	neustále	neustále	ADV	Dx	Degree=Pos	21	advmod	_	_
+21	rastie	rásť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	a	a	CCONJ	O	_	26	cc	_	_
+23	dnes	dnes	ADV	Dx	Degree=Pos	26	advmod	_	_
+24	už	už	PART	T	_	26	advmod:emph	_	_
+25	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	26	cop	_	_
+26	populárnejší	populárny	ADJ	AAis1y	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	21	conj	_	_
+27	ako	ako	SCONJ	O	_	29	mark	_	_
+28	tradičné	tradičný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	meno	meno	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	26	dep	_	_
+30	killer	killer	X	%	Foreign=Yes	29	nmod	_	_
+31	whale	whale	X	%	Foreign=Yes	30	flat:foreign	_	_
+32	(	(	PUNCT	Z	_	33	punct	_	_
+33	veľryba	veľryba	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	30	appos	_	_
+34	zabijak	zabijak	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	33	nmod	_	_
+35	)	)	PUNCT	Z	_	33	punct	_	_
+36	,	,	PUNCT	Z	_	45	punct	_	_
+37	aj	aj	CCONJ	O	_	45	mark	_	_
+38	keď	keď	SCONJ	O	_	37	fixed	_	_
+39	tradičný	tradičný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	_
+40	názov	názov	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	45	nsubj	_	_
+41	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	45	cop	_	_
+42	verejnosťou	verejnosť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	45	obj	_	_
+43	stále	stále	ADV	Dx	Degree=Pos	45	advmod	_	_
+44	široko	široko	ADV	Dx	Degree=Pos	45	advmod	_	_
+45	používaný	používaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	21	advcl	_	_
+46	.	.	PUNCT	Z	_	21	punct	_	_
+

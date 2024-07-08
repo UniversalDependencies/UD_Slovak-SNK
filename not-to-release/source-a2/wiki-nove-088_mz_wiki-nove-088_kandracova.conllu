@@ -1,0 +1,813 @@
+# sent_id = s1
+# text = David Irving
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#1
+1	David	david	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Irving	irving	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s2
+# text = David John Cawdel Irving ( * 24 . marec 1938 , Hutton ) je kontroverzný britský amatérsky historik so zameraním na obdobie 2 . svetovej vojny .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#2
+1	David	david	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+2	John	john	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+3	Cawdel	cawdel	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+4	Irving	irving	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+5	(	(	PUNCT	Z	_	4	punct	_	_
+6	*	*	PUNCT	#	_	9	punct	_	_
+7	24	24	NUM	0	NumForm=Digit	9	nummod	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+9	marec	marec	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	dep	_	_
+10	1938	1938	NUM	0	NumForm=Digit	9	nummod	_	_
+11	,	,	PUNCT	Z	_	4	punct	_	_
+12	Hutton	hutton	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	dep	_	_
+13	)	)	PUNCT	Z	_	4	punct	_	_
+14	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	cop	_	_
+15	kontroverzný	kontroverzný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+16	britský	britský	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+17	amatérsky	amatérsky	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	historik	historik	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+19	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	20	case	_	_
+20	zameraním	zameranie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	18	nmod	_	_
+21	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	22	case	_	_
+22	obdobie	obdobie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	20	nmod	_	_
+23	2	2	NUM	0	NumForm=Digit	26	nummod	_	_
+24	.	.	PUNCT	Z	_	23	punct	_	_
+25	svetovej	svetový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	vojny	vojna	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+27	.	.	PUNCT	Z	_	18	punct	_	_
+
+# sent_id = s3
+# text = Život
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#3
+1	Život	život	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s4
+# text = David Irving sa narodil roku 1938 v britskom Huttone .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#4
+1	David	david	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Irving	irving	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	narodil	narodiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+6	1938	1938	NUM	0	NumForm=Digit	5	nummod	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+8	britskom	britský	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	Huttone	hutton	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+10	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s5
+# text = Jeho otec bol dôstojníkom kráľovského námorníctva a matka ilustrátorka .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#5
+1	Jeho	jeho	DET	PUms1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	otec	otec	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	cop	_	_
+4	dôstojníkom	dôstojník	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+5	kráľovského	kráľovský	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	námorníctva	námorníctvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	matka	matka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	_
+9	ilustrátorka	ilustrátorka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	8	orphan	_	_
+10	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s6
+# text = Po dokončení strednej školy začal študovať prírodné vedy najprv na Imperial College London a neskôr na Londýnskej univerzite .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#6
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	dokončení	dokončenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	strednej	stredný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	školy	škola	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	začal	začať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	študovať	študovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+7	prírodné	prírodný	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	vedy	veda	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+9	najprv	najprv	ADV	Dx	Degree=Pos	5	advmod	_	_
+10	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	Imperial	imperial	X	%	Foreign=Yes	5	advmod	_	_
+12	College	college	X	%	Foreign=Yes	11	flat:foreign	_	_
+13	London	london	X	%	Foreign=Yes	11	flat:foreign	_	_
+14	a	a	CCONJ	O	_	15	cc	_	_
+15	neskôr	neskôr	ADV	Dx	Degree=Pos	5	conj	_	_
+16	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+17	Londýnskej	londýnsky	ADJ	AAfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	univerzite	univerzita	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	15	orphan	_	_
+19	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s7
+# text = Vysokoškolské štúdium však nikdy nedokončil .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#7
+1	Vysokoškolské	vysokoškolský	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	štúdium	štúdium	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+3	však	však	PART	T	_	5	advmod	_	_
+4	nikdy	nikdy	ADV	PD	PronType=Neg	5	advmod	_	_
+5	nedokončil	dokončiť	VERB	VLdscm-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s8
+# text = Históriu nikdy neštudoval , v tomto odbore je autodidaktom .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#8
+1	Históriu	história	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+2	nikdy	nikdy	ADV	PD	PronType=Neg	3	advmod	_	_
+3	neštudoval	študovať	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+4	,	,	PUNCT	Z	_	9	punct	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	tomto	tento	DET	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	odbore	odbor	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+8	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	autodidaktom	autodidakt	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	conj	_	_
+10	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s9
+# text = Ako študent sa zúčastnil na činnosti britských konzervatívcov a pôsobil ako editor satirického časopisu Carnival Times , v ktorom sa okrem iného zastával apartheidu v Juhoafrickej republike .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#9
+1	Ako	ako	SCONJ	O	_	2	mark	_	_
+2	študent	študent	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	xcomp	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	zúčastnil	zúčastniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	činnosti	činnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	obl:arg	_	_
+7	britských	britský	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	konzervatívcov	konzervatívec	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	pôsobil	pôsobiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+11	ako	ako	SCONJ	O	_	12	mark	_	_
+12	editor	editor	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	xcomp	_	_
+13	satirického	satirický	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	časopisu	časopis	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	Carnival	carnival	X	%	Foreign=Yes	14	nmod	_	_
+16	Times	times	X	%	Foreign=Yes	15	flat:foreign	_	_
+17	,	,	PUNCT	Z	_	23	punct	_	_
+18	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	ktorom	ktorý	DET	PAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Int,Rel	23	obl	_	_
+20	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	23	expl:pv	_	_
+21	okrem	okrem	ADP	Eu2	AdpType=Prep|Case=Gen	22	case	_	_
+22	iného	iný	DET	PAns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind	23	obl	_	_
+23	zastával	zastávať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	acl	_	_
+24	apartheidu	apartheid	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	obj	_	_
+25	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	27	case	_	_
+26	Juhoafrickej	juhoafrický	ADJ	AAfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	republike	republika	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	24	nmod	_	_
+28	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s10
+# text = Po ukončení štúdia pracoval rok v Porúrí v koncerne Thyssen .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#10
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	ukončení	ukončenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	štúdia	štúdium	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	pracoval	pracovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	rok	rok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	Porúrí	porúrie	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	koncerne	koncern	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+10	Thyssen	thyssen	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+11	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s11
+# text = Naučil sa tam perfektne po nemecky , čo mu neskôr poslúžilo pri jeho práci na historických témach .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#11
+1	Naučil	naučiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	tam	tam	ADV	PD	PronType=Dem	1	advmod	_	_
+4	perfektne	perfektne	ADV	Dx	Degree=Pos	1	advmod	_	_
+5	po	po	X	Q	Hyph=Yes	6	case	_	_
+6	nemecky	nemecky	ADV	Dx	Degree=Pos	1	advmod	_	_
+7	,	,	PUNCT	Z	_	11	punct	_	_
+8	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	11	nsubj	_	_
+9	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+10	neskôr	neskôr	ADV	Dx	Degree=Pos	11	advmod	_	_
+11	poslúžilo	poslúžiť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+12	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+13	jeho	jeho	DET	PUfs6	Case=Loc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	práci	práca	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+15	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+16	historických	historický	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_
+17	témach	téma	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	14	nmod	_	_
+18	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s12
+# text = Začal sa zaujímať o nemecké dejiny a na túto tému aj v rokoch 1959 až 1961 publikoval v Británii celý rad článkov , ktoré mu neskôr poslúžili ako základ pre prvú knihu The Destruction of Dresden ( Skaza Drážďan ) , ktorú publikoval roku 1963 ( v roku 1995 vyšla v prepracovanej verzii s podtitulom „ Apokalypsa 1945 “ ) .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#12
+1	Začal	začať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	zaujímať	zaujímať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	xcomp	_	_
+4	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+5	nemecké	nemecký	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+6	dejiny	dejiny	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	3	obl:arg	_	_
+7	a	a	CCONJ	O	_	17	cc	_	_
+8	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+9	túto	táto	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	tému	téma	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	17	obl:arg	_	_
+11	aj	aj	PART	T	_	13	advmod:emph	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	obl	_	_
+14	1959	1959	NUM	0	NumForm=Digit	13	nummod	_	_
+15	až	až	PART	T	_	16	cc	_	_
+16	1961	1961	NUM	0	NumForm=Digit	14	conj	_	_
+17	publikoval	publikovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+18	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	Británii	británia	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_
+20	celý	celý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	rad	rad	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nsubj	_	_
+22	článkov	článok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+23	,	,	PUNCT	Z	_	27	punct	_	_
+24	ktoré	ktorý	DET	PAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	27	nsubj	_	_
+25	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+26	neskôr	neskôr	ADV	Dx	Degree=Pos	27	advmod	_	_
+27	poslúžili	poslúžiť	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	22	acl	_	_
+28	ako	ako	SCONJ	O	_	29	mark	_	_
+29	základ	základ	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	xcomp	_	_
+30	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	32	case	_	_
+31	prvú	prvý	ADJ	NAfs4	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	32	amod	_	_
+32	knihu	kniha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	29	nmod	_	_
+33	The	the	X	%	Foreign=Yes	32	nmod	_	_
+34	Destruction	destruction	X	%	Foreign=Yes	33	flat:foreign	_	_
+35	of	of	X	%	Foreign=Yes	36	case	_	_
+36	Dresden	dresden	X	%	Foreign=Yes	33	flat:foreign	_	_
+37	(	(	PUNCT	Z	_	38	punct	_	_
+38	Skaza	skaza	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	33	appos	_	_
+39	Drážďan	drážďany	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	38	nmod	_	_
+40	)	)	PUNCT	Z	_	38	punct	_	_
+41	,	,	PUNCT	Z	_	43	punct	_	_
+42	ktorú	ktorý	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	43	obj	_	_
+43	publikoval	publikovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	32	acl	_	_
+44	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	43	obl	_	_
+45	1963	1963	NUM	0	NumForm=Digit	44	nummod	_	_
+46	(	(	PUNCT	Z	_	50	punct	_	_
+47	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	48	case	_	_
+48	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	50	obl	_	_
+49	1995	1995	NUM	0	NumForm=Digit	48	nummod	_	_
+50	vyšla	vyjsť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	43	parataxis	_	_
+51	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	53	case	_	_
+52	prepracovanej	prepracovaný	ADJ	Gtfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	53	amod	_	_
+53	verzii	verzia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	50	obl	_	_
+54	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	55	case	_	_
+55	podtitulom	podtitul	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	53	nmod	_	_
+56	„	„	PUNCT	Z	_	57	punct	_	_
+57	Apokalypsa	apokalypsa	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	55	nmod	_	_
+58	1945	1945	NUM	0	NumForm=Digit	57	nummod	_	_
+59	“	“	PUNCT	Z	_	57	punct	_	_
+60	)	)	PUNCT	Z	_	50	punct	_	_
+61	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s13
+# text = V knihe sa venoval náletu spojencov na saskú metropolu ku koncu vojny a jeho potrebe .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#13
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	knihe	kniha	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	venoval	venovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	náletu	nálet	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obj	_	_
+6	spojencov	spojenec	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+8	saskú	saský	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	metropolu	metropola	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+10	ku	k	ADP	Ev3	AdpType=Voc|Case=Dat	11	case	_	_
+11	koncu	koniec	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	_
+12	vojny	vojna	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	a	a	CCONJ	O	_	15	cc	_	_
+14	jeho	jeho	DET	PUfs3	Case=Dat|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	potrebe	potreba	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	5	conj	_	_
+16	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s14
+# text = Od tých čias napísal mnoho kníh , ktoré sa zaoberajú predovšetkým obdobím druhej svetovej vojny .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#14
+1	Od	od	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	tých	ten	DET	PFip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	čias	čas	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+4	napísal	napísať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	mnoho	mnoho	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	4	nsubj	_	_
+6	kníh	kniha	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	,	,	PUNCT	Z	_	10	punct	_	_
+8	ktoré	ktorý	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	10	nsubj	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+10	zaoberajú	zaoberať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	acl	_	_
+11	predovšetkým	predovšetkým	PART	T	_	12	advmod:emph	_	_
+12	obdobím	obdobie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	10	obj	_	_
+13	druhej	druhý	ADJ	NAfs2	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	15	amod	_	_
+14	svetovej	svetový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	vojny	vojna	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+16	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s15
+# text = Do konca šesťdesiatych rokov mu vyšla ešte v roku 1964 kniha The Mare ´ s Nest ( Tajné zbrane ) , ktorá sa venuje vývoju takzvaných zázračných zbraní v nacistickom Nemecku , roku 1967 The Virus House , venovaná nemeckému atómovému programu , The death of General Sikorski , ktorá sa zaoberá smrťou predsedu poľskej exilovej vlády pri údajnej leteckej nehode pri Gibraltáre a The Destruction of Convoy PQ 17 o pokazenej spojeneckej námornej operácii na konvojovej trase do Sovietskeho zväzu .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#15
+1	Do	do	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	konca	koniec	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+3	šesťdesiatych	šesťdesiaty	ADJ	NAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
+4	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	vyšla	vyjsť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	ešte	ešte	PART	T	_	9	advmod:emph	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+10	1964	1964	NUM	0	NumForm=Digit	9	nummod	_	_
+11	kniha	kniha	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+12	The	the	X	%	Foreign=Yes	11	nmod	_	_
+13	Mare	mare	X	%	Foreign=Yes	12	flat:foreign	_	_
+14	´	´	X	%	Foreign=Yes	15	nmod	_	_
+15	s	s	X	%	Foreign=Yes	13	flat:foreign	_	_
+16	Nest	nest	X	%	Foreign=Yes	12	flat:foreign	_	_
+17	(	(	PUNCT	Z	_	19	punct	_	_
+18	Tajné	tajný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
+19	zbrane	zbraň	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	12	appos	_	_
+20	)	)	PUNCT	Z	_	19	punct	_	_
+21	,	,	PUNCT	Z	_	24	punct	_	_
+22	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	24	nsubj	_	_
+23	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	24	expl:pv	_	_
+24	venuje	venovať	VERB	VKjsc+	Aspect=Imp,Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	acl	_	_
+25	vývoju	vývoj	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	24	obj	_	_
+26	takzvaných	takzvaný	ADJ	Gtfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	28	amod	_	_
+27	zázračných	zázračný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	_
+28	zbraní	zbraň	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	_
+29	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	31	case	_	_
+30	nacistickom	nacistický	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	_
+31	Nemecku	nemecko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	25	nmod	_	_
+32	,	,	PUNCT	Z	_	33	punct	_	_
+33	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	conj	_	_
+34	1967	1967	NUM	0	NumForm=Digit	33	nummod	_	_
+35	The	the	X	%	Foreign=Yes	33	orphan	_	_
+36	Virus	virus	X	%	Foreign=Yes	35	flat:foreign	_	_
+37	House	house	X	%	Foreign=Yes	35	flat:foreign	_	_
+38	,	,	PUNCT	Z	_	39	punct	_	_
+39	venovaná	venovaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	35	amod	_	_
+40	nemeckému	nemecký	ADJ	AAis3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	42	amod	_	_
+41	atómovému	atómový	ADJ	AAis3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	42	amod	_	_
+42	programu	program	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	39	obj	_	_
+43	,	,	PUNCT	Z	_	33	punct	_	_
+44	The	the	X	%	Foreign=Yes	33	orphan	_	_
+45	death	death	X	%	Foreign=Yes	44	flat:foreign	_	_
+46	of	of	X	%	Foreign=Yes	47	case	_	_
+47	General	general	X	%	Foreign=Yes	44	flat:foreign	_	_
+48	Sikorski	sikorski	X	%	Foreign=Yes	47	flat:foreign	_	_
+49	,	,	PUNCT	Z	_	52	punct	_	_
+50	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	52	nsubj	_	_
+51	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	52	expl:pv	_	_
+52	zaoberá	zaoberať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	44	acl	_	_
+53	smrťou	smrť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	52	obj	_	_
+54	predsedu	predseda	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	53	nmod	_	_
+55	poľskej	poľský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	57	amod	_	_
+56	exilovej	exilový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	57	amod	_	_
+57	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	54	nmod	_	_
+58	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	61	case	_	_
+59	údajnej	údajný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	61	amod	_	_
+60	leteckej	letecký	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	61	amod	_	_
+61	nehode	nehoda	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	53	nmod	_	_
+62	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	63	case	_	_
+63	Gibraltáre	gibraltár	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	61	nmod	_	_
+64	a	a	CCONJ	O	_	33	cc	_	_
+65	The	the	X	%	Foreign=Yes	33	orphan	_	_
+66	Destruction	destruction	X	%	Foreign=Yes	65	flat:foreign	_	_
+67	of	of	X	%	Foreign=Yes	68	case	_	_
+68	Convoy	convoy	X	%	Foreign=Yes	65	flat:foreign	_	_
+69	PQ	pq	X	%	Foreign=Yes	68	flat:foreign	_	_
+70	17	17	X	%	Foreign=Yes	69	flat:foreign	_	_
+71	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	75	case	_	_
+72	pokazenej	pokazený	ADJ	Gtfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	75	amod	_	_
+73	spojeneckej	spojenecký	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	75	amod	_	_
+74	námornej	námorný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	75	amod	_	_
+75	operácii	operácia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	65	nmod	_	_
+76	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	78	case	_	_
+77	konvojovej	konvojový	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	78	amod	_	_
+78	trase	trasa	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	75	nmod	_	_
+79	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	81	case	_	_
+80	Sovietskeho	sovietsky	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	81	amod	_	_
+81	zväzu	zväz	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	78	nmod	_	_
+82	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s16
+# text = V ďalších rokoch vydal celý rad kníh , z ktorých sa vynímajú biografie Erwin Rommela , Josepha Goebbelse , Hermanna Göringa , Winstona Churchilla , Erharda Milcha , kniha Hitler ´ s war , v ktorej sa snažil opísať priebeh vojny z pohľadu Hitlera a spochybnil v nej predstavu Hitlera ako všemocného diktátora nezávislého na svojom okolí , a Nuremberg : The Last Battle ( Norimberg : Posledná bitka ) , kde vylíčil priebeh Norimberského procesu a snažil sa okrem iného zodpovedať otázku , kto poskytol Göringovi ampulku s jedom .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#16
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	ďalších	ďalší	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
+4	vydal	vydať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	celý	celý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	rad	rad	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	kníh	kniha	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	,	,	PUNCT	Z	_	12	punct	_	_
+9	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	ktorých	ktorý	DET	PAfp2	Case=Gen|Gender=Fem|Number=Plur|PronType=Int,Rel	12	obl	_	_
+11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+12	vynímajú	vynímať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	acl	_	_
+13	biografie	biografia	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+14	Erwin	erwin	PROPN	SUms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+15	Rommela	rommel	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	,	,	PUNCT	Z	_	18	punct	_	_
+17	Josepha	joseph	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+18	Goebbelse	goebbels	PROPN	SSms2:rq	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	conj	_	_
+19	,	,	PUNCT	Z	_	21	punct	_	_
+20	Hermanna	hermanna	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+21	Göringa	göring	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	conj	_	_
+22	,	,	PUNCT	Z	_	24	punct	_	_
+23	Winstona	winston	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+24	Churchilla	churchill	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	conj	_	_
+25	,	,	PUNCT	Z	_	27	punct	_	_
+26	Erharda	erhard	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+27	Milcha	milch	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	conj	_	_
+28	,	,	PUNCT	Z	_	29	punct	_	_
+29	kniha	kniha	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	13	conj	_	_
+30	Hitler	hitler	X	%	Foreign=Yes	29	nmod	_	_
+31	´	´	X	%	Foreign=Yes	32	nmod	_	_
+32	s	s	X	%	Foreign=Yes	30	flat:foreign	_	_
+33	war	war	X	%	Foreign=Yes	30	flat:foreign	_	_
+34	,	,	PUNCT	Z	_	38	punct	_	_
+35	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	36	case	_	_
+36	ktorej	ktorý	DET	PAfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Int,Rel	38	obl	_	_
+37	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	38	expl:pv	_	_
+38	snažil	snažiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	29	acl	_	_
+39	opísať	opísať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	38	xcomp	_	_
+40	priebeh	priebeh	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	39	obj	_	_
+41	vojny	vojna	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	40	nmod	_	_
+42	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	43	case	_	_
+43	pohľadu	pohľad	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	39	obl	_	_
+44	Hitlera	hitler	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	_
+45	a	a	CCONJ	O	_	46	cc	_	_
+46	spochybnil	spochybniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	38	conj	_	_
+47	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	48	case	_	_
+48	nej	ona	PRON	PFfs6	Case=Loc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	46	obl	_	_
+49	predstavu	predstava	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	46	obj	_	_
+50	Hitlera	hitler	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	49	nmod	_	_
+51	ako	ako	SCONJ	O	_	53	mark	_	_
+52	všemocného	všemocný	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	53	amod	_	_
+53	diktátora	diktátor	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	50	xcomp	_	_
+54	nezávislého	nezávislý	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	53	amod	_	_
+55	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	57	case	_	_
+56	svojom	svoj	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	57	det	_	_
+57	okolí	okolie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	54	obl	_	_
+58	,	,	PUNCT	Z	_	38	punct	_	_
+59	a	a	CCONJ	O	_	60	cc	_	_
+60	Nuremberg	nuremberg	X	%	Foreign=Yes	13	conj	_	_
+61	:	:	PUNCT	%	Foreign=Yes	62	punct	_	_
+62	The	the	X	%	Foreign=Yes	60	conj	_	_
+63	Last	last	X	%	Foreign=Yes	62	flat:foreign	_	_
+64	Battle	battle	X	%	Foreign=Yes	62	flat:foreign	_	_
+65	(	(	PUNCT	Z	_	66	punct	_	_
+66	Norimberg	norimberg	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	60	appos	_	_
+67	:	:	PUNCT	Z	_	69	punct	_	_
+68	Posledná	posledný	ADJ	NAfs1:r	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	69	amod	_	_
+69	bitka	bitka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	66	conj	_	_
+70	)	)	PUNCT	Z	_	66	punct	_	_
+71	,	,	PUNCT	Z	_	73	punct	_	_
+72	kde	kde	ADV	PD	PronType=Int,Rel	73	advmod	_	_
+73	vylíčil	vylíčiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	60	acl	_	_
+74	priebeh	priebeh	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	73	obj	_	_
+75	Norimberského	norimberský	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	76	amod	_	_
+76	procesu	proces	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	74	nmod	_	_
+77	a	a	CCONJ	O	_	78	cc	_	_
+78	snažil	snažiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	73	conj	_	_
+79	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	78	expl:pv	_	_
+80	okrem	okrem	ADP	Eu2	AdpType=Prep|Case=Gen	81	case	_	_
+81	iného	iný	DET	PAns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind	78	obl	_	_
+82	zodpovedať	zodpovedať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	78	xcomp	_	_
+83	otázku	otázka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	82	obj	_	_
+84	,	,	PUNCT	Z	_	86	punct	_	_
+85	kto	kto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	86	nsubj	_	_
+86	poskytol	poskytnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	83	acl	_	_
+87	Göringovi	göring	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	86	iobj	_	_
+88	ampulku	ampulka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	86	obj	_	_
+89	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	90	case	_	_
+90	jedom	jed	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	88	nmod	_	_
+91	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s17
+# text = Od deväťdesiatych rokov sa angažoval v kalifornskom Institute for Historical Review .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#17
+1	Od	od	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	deväťdesiatych	deväťdesiaty	ADJ	NAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Ord	3	amod	_	_
+3	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	angažoval	angažovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+7	kalifornskom	kalifornský	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	Institute	institute	X	%	Foreign=Yes	5	advmod	_	_
+9	for	for	X	%	Foreign=Yes	10	case	_	_
+10	Historical	historical	X	%	Foreign=Yes	8	flat:foreign	_	_
+11	Review	review	X	%	Foreign=Yes	10	flat:foreign	_	_
+12	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s18
+# text = Spochybňovanie holokaustu
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#18
+1	Spochybňovanie	spochybňovanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	holokaustu	holokaust	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+
+# sent_id = s19
+# text = V posledných rokoch sa dostali do záujmu médií a verejnosti jeho názory na holokaust .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#19
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	posledných	posledný	ADJ	NAip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|NumType=Ord	3	amod	_	_
+3	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	dostali	dostať	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	záujmu	záujem	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+8	médií	médium	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	verejnosti	verejnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	conj	_	_
+11	jeho	jeho	DET	PUip1	Animacy=Inan|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	názory	názor	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+13	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+14	holokaust	holokaust	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_
+15	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s20
+# text = Už vo svojej knihe Hitlerova vojna zastával názor , že Hitler konečné riešenie židovskej otázky nenaplánoval a do roku 1943 ani o jej realizácii nevedel .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#20
+1	Už	už	PART	T	_	4	advmod:emph	_	_
+2	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	4	case	_	_
+3	svojej	svoj	DET	PFfs6	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	4	det	_	_
+4	knihe	kniha	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+5	Hitlerova	hitlerov	ADJ	AFfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	vojna	vojna	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_
+7	zastával	zastávať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	názor	názor	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	,	,	PUNCT	Z	_	16	punct	_	_
+10	že	že	SCONJ	O	_	16	mark	_	_
+11	Hitler	hitler	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+12	konečné	konečný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	riešenie	riešenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	16	nsubj	_	_
+14	židovskej	židovský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	otázky	otázka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	nenaplánoval	naplánovať	VERB	VLdscm-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	8	acl	_	_
+17	a	a	CCONJ	O	_	25	cc	_	_
+18	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	19	case	_	_
+19	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	obl	_	_
+20	1943	1943	NUM	0	NumForm=Digit	19	nummod	_	_
+21	ani	ani	PART	T	_	25	advmod:emph	_	_
+22	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+23	jej	jej	DET	PUfs6	Case=Loc|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	realizácii	realizácia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	25	obl:arg	_	_
+25	nevedel	vedieť	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	16	conj	_	_
+26	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s21
+# text = Koncom osemdesiatych rokov a na začiatku deväťdesiatych rokov zastával názor , že v Osvienčime neexistovali plynové komory .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#21
+1	Koncom	koncom	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	osemdesiatych	osemdesiaty	ADJ	NAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Ord	3	amod	_	_
+3	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+4	a	a	CCONJ	O	_	6	cc	_	_
+5	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	začiatku	začiatok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	conj	_	_
+7	deväťdesiatych	deväťdesiaty	ADJ	NAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Ord	8	amod	_	_
+8	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	zastával	zastávať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	názor	názor	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	,	,	PUNCT	Z	_	15	punct	_	_
+12	že	že	SCONJ	O	_	15	mark	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	Osvienčime	osvienčim	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+15	neexistovali	existovať	VERB	VLepcf-	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	10	acl	_	_
+16	plynové	plynový	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_
+17	komory	komora	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+18	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s22
+# text = Tento postoj mu vyniesol zaradenie medzi antisemitov a popieračov holokaustu a glorifikáciu zo strany neonacistických a antisemitských hnutí , pre ktoré sa stal ikonou a vzorom historikov .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#22
+1	Tento	tento	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	postoj	postoj	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	vyniesol	vyniesť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	zaradenie	zaradenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	medzi	medzi	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+7	antisemitov	antisemita	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	nmod	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	popieračov	popierač	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	conj	_	_
+10	holokaustu	holokaust	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	glorifikáciu	glorifikácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	_
+13	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	14	case	_	_
+14	strany	strana	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	neonacistických	neonacistický	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	18	amod	_	_
+16	a	a	CCONJ	O	_	17	cc	_	_
+17	antisemitských	antisemitský	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	15	conj	_	_
+18	hnutí	hnutie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	_
+19	,	,	PUNCT	Z	_	23	punct	_	_
+20	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	21	case	_	_
+21	ktoré	ktorý	DET	PAnp4	Case=Acc|Gender=Neut|Number=Plur|PronType=Int,Rel	23	obl:arg	_	_
+22	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	23	expl:pv	_	_
+23	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	18	acl	_	_
+24	ikonou	ikona	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	23	obj	_	_
+25	a	a	CCONJ	O	_	26	cc	_	_
+26	vzorom	vzor	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	24	conj	_	_
+27	historikov	historik	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+28	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s23
+# text = Roku 1995 prehral občianskoprávny spor , v ktorom žaloval historičku Deboru Lipstadtovou za ohováranie ( verejne ho označila práve ako popierača holokaustu a antisemitu ) .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#23
+1	Roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+2	1995	1995	NUM	0	NumForm=Digit	1	nummod	_	_
+3	prehral	prehrať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	občianskoprávny	občianskoprávny	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	spor	spor	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	,	,	PUNCT	Z	_	9	punct	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	ktorom	ktorý	DET	PAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Int,Rel	9	obl	_	_
+9	žaloval	žalovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	acl	_	_
+10	historičku	historička	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+11	Deboru	debora	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+12	Lipstadtovou	lipstadtová	PROPN	SAfs4:rq	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+13	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+14	ohováranie	ohováranie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	9	obl:arg	_	_
+15	(	(	PUNCT	Z	_	18	punct	_	_
+16	verejne	verejne	ADV	Dx	Degree=Pos	18	advmod	_	_
+17	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+18	označila	označiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	parataxis	_	_
+19	práve	práve	PART	T	_	21	advmod:emph	_	_
+20	ako	ako	SCONJ	O	_	21	mark	_	_
+21	popierača	popierač	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	17	xcomp	_	_
+22	holokaustu	holokaust	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	a	a	CCONJ	O	_	24	cc	_	_
+24	antisemitu	antisemita	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	22	conj	_	_
+25	)	)	PUNCT	Z	_	18	punct	_	_
+26	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s24
+# text = Súd jeho žalobu zamietol a stotožnil sa s Lisptadovej tvrdením , čo pre Irvinga znamenalo morálnu porážku , ako aj ťažké finančné problémy .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#24
+1	Súd	súd	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	jeho	jeho	DET	PUfs4	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	žalobu	žaloba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+4	zamietol	zamietnuť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	stotožnil	stotožniť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+8	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	10	case	_	_
+9	Lisptadovej	lisptadová	PROPN	SAfs2:r	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+10	tvrdením	tvrdenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	6	obl:arg	_	_
+11	,	,	PUNCT	Z	_	15	punct	_	_
+12	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	15	nsubj	_	_
+13	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+14	Irvinga	irving	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	15	obl:arg	_	_
+15	znamenalo	znamenať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+16	morálnu	morálny	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	porážku	porážka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+18	,	,	PUNCT	Z	_	23	punct	_	_
+19	ako	ako	SCONJ	O	_	23	cc	_	_
+20	aj	aj	CCONJ	O	_	23	cc	_	_
+21	ťažké	ťažký	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	_
+22	finančné	finančný	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	_
+23	problémy	problém	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	conj	_	_
+24	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s25
+# text = Postupne ho označili za personu non grata v celej rade krajín ( Kanada , Nemecko , Taliansko ) .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#25
+1	Postupne	postupne	ADV	Dx	Degree=Pos	3	advmod	_	_
+2	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	označili	označiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	personu	persona	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obl:arg	_	_
+6	non	non	X	%	Foreign=Yes	5	nmod	_	_
+7	grata	grata	X	%	Foreign=Yes	6	flat:foreign	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+9	celej	celý	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	rade	rada	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+11	krajín	krajina	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	(	(	PUNCT	Z	_	13	punct	_	_
+13	Kanada	kanada	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	10	appos	_	_
+14	,	,	PUNCT	Z	_	15	punct	_	_
+15	Nemecko	nemecko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	13	conj	_	_
+16	,	,	PUNCT	Z	_	17	punct	_	_
+17	Taliansko	taliansko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	13	conj	_	_
+18	)	)	PUNCT	Z	_	13	punct	_	_
+19	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s26
+# text = Keď v roku 2006 na pozvanie jedného univerzitného študentského spolku neopatrne navštívil Rakúsko , kde na neho bol od konca 80 . rokov za popieranie holokaustu vydaný zatykač , zatkli ho a súd ho odsúdil za politický trestný čin popierania holokaustu na 3 roky väzenia , napriek tomu , už skôr odvolal svoje tvrdenie spochybňujúce existenciu plynových komôr .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#26
+1	Keď	keď	SCONJ	O	_	12	mark	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+4	2006	2006	NUM	0	NumForm=Digit	3	nummod	_	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	pozvanie	pozvanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	_
+7	jedného	jeden	NUM	NFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nummod	_	_
+8	univerzitného	univerzitný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	študentského	študentský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	spolku	spolok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+11	neopatrne	neopatrne	ADV	Dx	Degree=Pos	12	advmod	_	_
+12	navštívil	navštíviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	30	advcl	_	_
+13	Rakúsko	rakúsko	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+14	,	,	PUNCT	Z	_	27	punct	_	_
+15	kde	kde	ADV	PD	PronType=Int,Rel	27	advmod	_	_
+16	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
+17	neho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obl:arg	_	_
+18	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	27	cop	_	_
+19	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+20	konca	koniec	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	obl	_	_
+21	80	80	NUM	0	NumForm=Digit	23	nummod	_	_
+22	.	.	PUNCT	Z	_	21	punct	_	_
+23	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+24	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	25	case	_	_
+25	popieranie	popieranie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	27	obl	_	_
+26	holokaustu	holokaust	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	vydaný	vydaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	13	acl	_	_
+28	zatykač	zatykač	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+29	,	,	PUNCT	Z	_	12	punct	_	_
+30	zatkli	zatknúť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+31	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
+32	a	a	CCONJ	O	_	35	cc	_	_
+33	súd	súd	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
+34	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
+35	odsúdil	odsúdiť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	30	conj	_	_
+36	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	39	case	_	_
+37	politický	politický	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_
+38	trestný	trestný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_
+39	čin	čin	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	obl	_	_
+40	popierania	popieranie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	39	nmod	_	_
+41	holokaustu	holokaust	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	_
+42	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	44	case	_	_
+43	3	3	NUM	0	NumForm=Digit	44	nummod	_	_
+44	roky	rok	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	35	obl	_	_
+45	väzenia	väzenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	44	nmod	_	_
+46	,	,	PUNCT	Z	_	52	punct	_	_
+47	napriek	napriek	ADP	Eu3	AdpType=Prep|Case=Dat	48	case	_	_
+48	tomu	to	DET	PFns3	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	52	obl	_	_
+49	,	,	PUNCT	Z	_	48	punct	_	_
+50	už	už	PART	T	_	51	advmod:emph	_	_
+51	skôr	skoro	ADV	Dy	Degree=Cmp	52	advmod	_	_
+52	odvolal	odvolať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	30	conj	_	_
+53	svoje	svoj	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	54	det	_	_
+54	tvrdenie	tvrdenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	52	obj	_	_
+55	spochybňujúce	spochybňujúci	ADJ	Gkns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	54	amod	_	_
+56	existenciu	existencia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	55	obj	_	_
+57	plynových	plynový	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	58	amod	_	_
+58	komôr	komora	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	56	nmod	_	_
+59	.	.	PUNCT	Z	_	30	punct	_	_
+
+# sent_id = s27
+# text = Proti Irvingovej perzekúcii sa postavilo mnoho zástancov slobody slova , dokonca aj jeho odporkyňa Deborah Lipstadtová .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#27
+1	Proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	3	case	_	_
+2	Irvingovej	irvingov	ADJ	AFfs3x:r	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	perzekúcii	perzekúcia	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	5	obl:arg	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	postavilo	postaviť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	mnoho	mnoho	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+7	zástancov	zástanca	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	slobody	sloboda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	slova	slovo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	,	,	PUNCT	Z	_	16	punct	_	_
+11	dokonca	dokonca	PART	T	_	16	cc	_	_
+12	aj	aj	PART	T	_	16	cc	_	_
+13	jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	odporkyňa	odporkyňa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	16	nmod	_	_
+15	Deborah	deborah	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	16	nmod	_	_
+16	Lipstadtová	lipstadtová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
+17	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s28
+# text = David Irving je známy ako kontroverzný historik , ktorý dokázal objaviť celý rad dovtedy neznámych prameňov a získať mnoho unikátnych svedectiev .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#28
+1	David	david	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Irving	irving	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	známy	známy	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+5	ako	ako	SCONJ	O	_	7	mark	_	_
+6	kontroverzný	kontroverzný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	historik	historik	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	xcomp	_	_
+8	,	,	PUNCT	Z	_	10	punct	_	_
+9	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	10	nsubj	_	_
+10	dokázal	dokázať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
+11	objaviť	objaviť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	10	xcomp	_	_
+12	celý	celý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	rad	rad	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+14	dovtedy	dovtedy	ADV	PD	PronType=Dem	15	advmod	_	_
+15	neznámych	neznámy	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
+16	prameňov	prameň	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	získať	získať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	11	conj	_	_
+19	mnoho	mnoho	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+20	unikátnych	unikátny	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	21	amod	_	_
+21	svedectiev	svedectvo	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	_
+22	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s29
+# text = Jeho kritici ho však obviňujú , že skresľuje získané fakty a účelovo vyberá zdroje a používa značne neprofesionálne pracovné metódy .
+# orig_file_sentence wiki-nove-088_mz_wiki-nove-088_kandracova#29
+1	Jeho	jeho	DET	PUmp1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	kritici	kritik	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+4	však	však	PART	T	_	5	advmod	_	_
+5	obviňujú	obviňovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	že	že	SCONJ	O	_	8	mark	_	_
+8	skresľuje	skresľovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+9	získané	získaný	ADJ	Gtip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	fakty	fakt	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+11	a	a	CCONJ	O	_	13	cc	_	_
+12	účelovo	účelovo	ADV	Dx	Degree=Pos	13	advmod	_	_
+13	vyberá	vyberať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	conj	_	_
+14	zdroje	zdroj	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
+15	a	a	CCONJ	O	_	16	cc	_	_
+16	používa	používať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	conj	_	_
+17	značne	značne	ADV	Dx	Degree=Pos	18	advmod	_	_
+18	neprofesionálne	neprofesionálny	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	_
+19	pracovné	pracovný	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	_
+20	metódy	metóda	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+21	.	.	PUNCT	Z	_	5	punct	_	_
+

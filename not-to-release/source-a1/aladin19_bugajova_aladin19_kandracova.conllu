@@ -1,0 +1,916 @@
+# sent_id = s1
+# text = “ Samozrejme , “ povedala trošku nervózne .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#1
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Samozrejme	samozrejme	PART	T	_	5	advmod	_	_
+3	,	,	PUNCT	Z	_	2	punct	_	_
+4	“	“	PUNCT	Z	_	2	punct	_	_
+5	povedala	povedať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	trošku	trošku	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	nervózne	nervózny	ADV	Dx	Degree=Pos	5	advmod	_	_
+8	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s2
+# text = “ Ale kde to je ? “
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#2
+1	“	“	PUNCT	Z	_	5	punct	_	_
+2	Ale	ale	PART	T	_	5	advmod	_	_
+3	kde	kde	ADV	PD	PronType=Int,Rel	5	advmod	_	_
+4	to	ten	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+5	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	?	?	PUNCT	Z	_	5	punct	_	_
+7	“	“	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s3
+# text = “ Všade , “ odvetil sultán , usmievajúc sa od ucha k uchu .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#3
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Všade	všade	ADV	PD	PronType=Tot	5	advmod	_	_
+3	,	,	PUNCT	Z	_	2	punct	_	_
+4	“	“	PUNCT	Z	_	2	punct	_	_
+5	odvetil	odvetiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	sultán	sultán	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	,	,	PUNCT	Z	_	8	punct	_	_
+8	usmievajúc	usmievať	VERB	VHe+	Aspect=Imp|Polarity=Pos|VerbForm=Conv	5	xcomp	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+10	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+11	ucha	ucho	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+12	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	13	case	_	_
+13	uchu	ucho	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	_
+14	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s4
+# text = Jazmína zišla o schodík nižšie .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#4
+1	Jazmína	Jazmína	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	zišla	zísť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	schodík	schodík	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+5	nižšie	nízko	ADV	Dy	Degree=Cmp	4	advmod	_	_
+6	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s5
+# text = Radža sa zakrádal vedľa nej .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#5
+1	Radža	radža	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pass	_	_
+3	zakrádal	zakrádal	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	vedľa	vedľa	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+5	nej	on	PRON	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s6
+# text = Dolu bolo ticho .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#6
+1	Dolu	dolu	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	bolo	byť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	ticho	ticho	ADV	Dx	Degree=Pos	2	nsubj	_	_
+4	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s7
+# text = Zišla o ďalšie dva schody .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#7
+1	Zišla	zísť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+3	ďalšie	ďalší	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+4	dva	dva	NUM	NNip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	nummod	_	_
+5	schody	schod	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obl	_	_
+6	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s8
+# text = “ Ocko ? “ spýtala sa a obrátila sa k nemu .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#8
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Ocko	ocko	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	dep	_	_
+3	?	?	PUNCT	Z	_	2	punct	_	_
+4	“	“	PUNCT	Z	_	2	punct	_	_
+5	spýtala	spýtať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pass	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	obrátila	obrátiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pass	_	_
+10	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	11	case	_	_
+11	nemu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+12	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s9
+# text = “ Pretože som ťa nemohol pustiť do sveta , “ povedal sultán , “ priviedol som ti svet sem . “
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#9
+1	“	“	PUNCT	Z	_	15	punct	_	_
+2	Pretože	pretože	SCONJ	O	_	5	mark	_	_
+3	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	ťa	ty	PRON	PPhs4	Case=Acc|Number=Sing|Person=2|PronType=Prs	6	obj	_	_
+5	nemohol	môcť	VERB	VLesam-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	15	advcl	_	_
+6	pustiť	pustiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+7	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	sveta	svet	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+9	,	,	PUNCT	Z	_	5	punct	_	_
+10	“	“	PUNCT	Z	_	15	punct	_	_
+11	povedal	povedať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	sultán	sultán	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+13	,	,	PUNCT	Z	_	15	punct	_	_
+14	“	“	PUNCT	Z	_	15	punct	_	_
+15	priviedol	priviesť	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	ccomp	_	_
+16	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	aux	_	_
+17	ti	ty	PRON	PPhs3	Case=Dat|Number=Sing|Person=2|PronType=Prs	15	iobj	_	_
+18	svet	svet	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+19	sem	sem	ADV	PD	PronType=Dem	15	advmod	_	_
+20	.	.	PUNCT	Z	_	11	punct	_	_
+21	“	“	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s10
+# text = Zrazu palác ožil farbami , hlukom a Jazmína sa len uveličene dívala .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#10
+1	Zrazu	zrazu	ADV	Dx	Degree=Pos	3	advmod	_	_
+2	palác	palác	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ožil	ožiť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	farbami	farba	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	3	obj	_	_
+5	,	,	PUNCT	Z	_	6	punct	_	_
+6	hlukom	hluk	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	conj	_	_
+7	a	a	CCONJ	O	_	12	cc	_	_
+8	Jazmína	Jazmína	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pass	_	_
+10	len	len	PART	T	_	12	advmod:emph	_	_
+11	uveličene	uveličene	ADV	Dx	Degree=Pos	12	advmod	_	_
+12	dívala	dívať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+13	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s11
+# text = Spoza každého kúta a výklenku vychádzali zvláštne exotické postavy , oveľa zaujímavejšie , než aké našla v učebniciach a aké si vôbec vedela predstaviť .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#11
+1	Spoza	spoza	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	každého	každý	DET	PAis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Tot	3	det	_	_
+3	kúta	kút	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+4	a	a	CCONJ	O	_	5	cc	_	_
+5	výklenku	výklenok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	conj	_	_
+6	vychádzali	vychádzať	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	zvláštne	zvláštny	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
+8	exotické	exotický	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
+9	postavy	postava	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	oveľa	oveľa	ADV	Dx	Degree=Pos	12	advmod	_	_
+12	zaujímavejšie	zaujímavý	ADJ	AAfp1y	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	9	amod	_	_
+13	,	,	PUNCT	Z	_	16	punct	_	_
+14	než	než	SCONJ	O	_	16	mark	_	_
+15	aké	aký	DET	PAfp4	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	16	nsubj	_	_
+16	našla	nájsť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	advcl	_	_
+17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+18	učebniciach	učebnica	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	16	obl	_	_
+19	a	a	CCONJ	O	_	23	cc	_	_
+20	aké	aký	DET	PAfp4	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	23	nsubj	_	_
+21	si	sa	PRON	R	PronType=Prs|Reflex=Yes	24	expl:pass	_	_
+22	vôbec	vôbec	ADV	Dx	Degree=Pos	23	advmod	_	_
+23	vedela	vedieť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	conj	_	_
+24	predstaviť	predstaviť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	23	xcomp	_	_
+25	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s12
+# text = Do haly prúdili zo všetkých strán zástupy ľudí , smiali sa a spievali piesne v neznámych jazykoch a ako riava zaplavili palác .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#12
+1	Do	do	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	haly	hala	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+3	prúdili	prúdiť	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	6	case	_	_
+5	všetkých	všetko	PRON	PFfp2	Case=Gen|Gender=Fem|Number=Plur|PronType=Tot	6	nmod	_	_
+6	strán	strana	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+7	zástupy	zástup	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+8	ľudí	ľudia	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	,	,	PUNCT	Z	_	10	punct	_	_
+10	smiali	smiať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+12	a	a	CCONJ	O	_	13	cc	_	_
+13	spievali	spievať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+14	piesne	pieseň	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+16	neznámych	známy	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_
+17	jazykoch	jazyk	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	nmod	_	_
+18	a	a	CCONJ	O	_	21	cc	_	_
+19	ako	ako	SCONJ	O	_	20	mark	_	_
+20	riava	riava	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	21	xcomp	_	_
+21	zaplavili	zaplaviť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+22	palác	palác	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	iobj	_	_
+23	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s13
+# text = Čínski akrobati robili saltá cez natiahnutý drôt .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#13
+1	Čínski	čínsky	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+2	akrobati	akrobat	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	robili	robiť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	saltá	salto	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+5	cez	cez	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+6	natiahnutý	natiahnutý	ADJ	Gtis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	drôt	drôt	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
+8	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s14
+# text = Africkí tanečníci mávali v rytme bubnov vysokými štítmi .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#14
+1	Africkí	africký	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+2	tanečníci	tanečník	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	mávali	mávať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	rytme	rytmus	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	bubnov	bubon	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	vysokými	vysoký	ADJ	AAip7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	štítmi	štít	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	_
+9	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s15
+# text = V kožušine oblečení severania napodobňovali boj mečmi .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#15
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	kožušine	kožušina	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	xcomp	_	_
+3	oblečení	oblečenie	ADJ	Gtmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	severania	severan	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	napodobňovali	napodobňovať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	boj	boj	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	mečmi	meč	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	nmod	_	_
+8	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s16
+# text = Šesť perzských žonglérov zasa hádzalo nožmi .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#16
+1	Šesť	šesť	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	perzských	perzský	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	žonglérov	žonglér	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	zasa	zasa	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	hádzalo	hádzať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	nožmi	nôž	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	obj	_	_
+7	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s17
+# text = Najrôznejší ľudia — bieli , červení , žltí , čierni a hnedí zaplnili palác až po strechu a hlučne sa zabávali .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#17
+1	Najrôznejší	rôzny	ADJ	AAmp1z	Animacy=Anim|Case=Nom|Degree=Sup|Gender=Masc|Number=Plur	2	amod	_	_
+2	ľudia	ľudia	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+3	—	—	PUNCT	Z	_	4	punct	_	_
+4	bieli	biely	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	appos	_	_
+5	,	,	PUNCT	Z	_	6	punct	_	_
+6	červení	červeň	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	conj	_	_
+7	,	,	PUNCT	Z	_	8	punct	_	_
+8	žltí	žlť	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	conj	_	_
+9	,	,	PUNCT	Z	_	10	punct	_	_
+10	čierni	čierny	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	conj	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	hnedí	hneď	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	conj	_	_
+13	zaplnili	zaplniť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+14	palác	palác	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+15	až	až	PART	T	_	17	advmod:emph	_	_
+16	po	po	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
+17	strechu	strecha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+18	a	a	CCONJ	O	_	21	cc	_	_
+19	hlučne	hlučne	ADV	Dx	Degree=Pos	21	advmod	_	_
+20	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	21	expl:pass	_	_
+21	zabávali	zabávať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	13	conj	_	_
+22	.	.	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s18
+# text = Jazmína sa v nemom úžase obrátila k sultánovi , no prv ako stačila otvoriť ústa , zhltol ju hemžiaci sa dav .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#18
+1	Jazmína	Jazmína	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pass	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+4	nemom	nemý	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	úžase	úžas	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+6	obrátila	obrátiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	8	case	_	_
+8	sultánovi	sultán	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
+9	,	,	PUNCT	Z	_	17	punct	_	_
+10	no	no	CCONJ	O	_	17	cc	_	_
+11	prv	prv	ADV	Dx	Degree=Pos	17	advmod	_	_
+12	ako	ako	SCONJ	O	_	13	mark	_	_
+13	stačila	stačiť	VERB	VLjscf+	Aspect=Imp,Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	advcl	_	_
+14	otvoriť	otvoriť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	13	xcomp	_	_
+15	ústa	ústa	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	_
+16	,	,	PUNCT	Z	_	13	punct	_	_
+17	zhltol	zhltnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+18	ju	on	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	hemžiaci	hemžiaci	ADJ	Gkis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	21	amod	_	_
+20	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	19	expl:pass	_	_
+21	dav	dav	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+22	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s19
+# text = Unášal ju do trónnej siene , kde bol postavený dlhý rad stánkov .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#19
+1	Unášal	unášať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	ju	on	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+4	trónnej	trónny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	siene	sieeň	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	obl	_	_
+6	,	,	PUNCT	Z	_	9	punct	_	_
+7	kde	kde	ADV	PD	PronType=Int,Rel	9	advmod	_	_
+8	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	cop	_	_
+9	postavený	postaviť	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	acl	_	_
+10	dlhý	dlhý	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	rad	rad	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+12	stánkov	stánok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s20
+# text = Zvláštni ľudia tam varili neznáme , no voňavé dobroty .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#20
+1	Zvláštni	zvláštny	ADJ	AAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	amod	_	_
+2	ľudia	ľudia	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	tam	tam	ADV	PD	PronType=Dem	4	advmod	_	_
+4	varili	variť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	neznáme	známy	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	no	no	CCONJ	O	_	8	cc	_	_
+8	voňavé	voňavý	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	conj	_	_
+9	dobroty	dobrota	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+10	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s21
+# text = Jazmína hľadela na záviny , palacinky , okrúhle bochníky syrov a maličké marcipánové kvietky , no najčudnejšie zo všetkého jej pripadali dlhé špagátiky z cesta .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#21
+1	Jazmína	Jazmína	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	hľadela	hľadieť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	záviny	závin	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obl:arg	_	_
+5	,	,	PUNCT	Z	_	6	punct	_	_
+6	palacinky	palacinka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	4	conj	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	okrúhle	okrúhly	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
+9	bochníky	bochník	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	conj	_	_
+10	syrov	syr	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	a	a	CCONJ	O	_	14	cc	_	_
+12	maličké	maličký	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
+13	marcipánové	marcipánový	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
+14	kvietky	kvietok	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	conj	_	_
+15	,	,	PUNCT	Z	_	21	punct	_	_
+16	no	no	CCONJ	O	_	21	cc	_	_
+17	najčudnejšie	čudný	ADJ	AAns1z	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	21	obl	_	_
+18	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	19	case	_	_
+19	všetkého	všetko	PRON	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	17	xcomp	_	_
+20	jej	on	PRON	PFfs3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+21	pripadali	pripadať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+22	dlhé	dlhý	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	_
+23	špagátiky	špagátia	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+24	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	25	case	_	_
+25	cesta	cesto	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+26	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s22
+# text = Kam sa len pozrela , všade videla misy s jedlom , koše jedla a pariace sa hrnce s jedlom .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#22
+1	Kam	kam	ADV	PD	PronType=Int,Rel	4	advmod	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pass	_	_
+3	len	len	PART	T	_	4	advmod	_	_
+4	pozrela	pozrieť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	advcl	_	_
+5	,	,	PUNCT	Z	_	4	punct	_	_
+6	všade	všade	ADV	PD	PronType=Tot	7	advmod	_	_
+7	videla	vidieť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	misy	misa	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+9	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	10	case	_	_
+10	jedlom	jedlý	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	8	nmod	_	_
+11	,	,	PUNCT	Z	_	12	punct	_	_
+12	koše	kôš	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	conj	_	_
+13	jedla	jedlo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	a	a	CCONJ	O	_	17	cc	_	_
+15	pariace	pariaci	ADJ	Gkip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	17	xcomp	_	_
+16	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pass	_	_
+17	hrnce	hrniec	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	conj	_	_
+18	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	19	case	_	_
+19	jedlom	jedlý	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	17	nmod	_	_
+20	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s23
+# text = “ Môj najobľúbenejší program sú stánky s jedlom , “ prezradil jej sultán , keď k nej došiel .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#23
+1	“	“	PUNCT	Z	_	6	punct	_	_
+2	Môj	môj	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
+3	najobľúbenejší	obľúbený	ADJ	AAis1z	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	4	amod	_	_
+4	program	program	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	stánky	stánok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	ccomp	_	_
+7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+8	jedlom	jedlý	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	6	nmod	_	_
+9	,	,	PUNCT	Z	_	6	punct	_	_
+10	“	“	PUNCT	Z	_	6	punct	_	_
+11	prezradil	prezradiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	jej	jeho	DET	PFfs3	Case=Dat|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	iobj	_	_
+13	sultán	sultán	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+14	,	,	PUNCT	Z	_	18	punct	_	_
+15	keď	keď	SCONJ	O	_	18	mark	_	_
+16	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	17	case	_	_
+17	nej	on	PRON	PFfs3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
+18	došiel	dôjsť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	advcl	_	_
+19	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s24
+# text = Jazmína sa naňho usmiala , no nezmohla sa na slovo .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#24
+1	Jazmína	Jazmína	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	naňho	naň	PRON	PFms4g	AdpType=Preppron|Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	4	obj	_	_
+4	usmiala	usmiať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	no	no	CCONJ	O	_	7	cc	_	_
+7	nezmohla	zmôcť	VERB	VLdscf-	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	4	conj	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pass	_	_
+9	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+10	slovo	slovo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	7	obl:arg	_	_
+11	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s25
+# text = Mala pocit , akoby sa ocitla v úžasnom , bláznivom sne .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#25
+1	Mala	mať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	pocit	pocit	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+3	,	,	PUNCT	Z	_	6	punct	_	_
+4	akoby	akoby	SCONJ	OY	Mood=Cnd	6	mark	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pass	_	_
+6	ocitla	ocitnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	acl	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+8	úžasnom	úžasný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+9	,	,	PUNCT	Z	_	10	punct	_	_
+10	bláznivom	bláznivý	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	conj	_	_
+11	sne	sen	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+12	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s26
+# text = Otca , ktorému sa zbiehali slinky nad toľkými dobrotami , nechala tam a predierala sa s Radžom na nádvorie .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#26
+1	Otca	otec	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+2	,	,	PUNCT	Z	_	5	punct	_	_
+3	ktorému	ktorý	DET	PAms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|PronType=Int,Rel	5	obj	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pass	_	_
+5	zbiehali	zbiehať	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	acl	_	_
+6	slinky	slinok	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+7	nad	nad	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+8	toľkými	toľký	PRON	PUfp7	Case=Ins|Gender=Fem|Number=Plur|PronType=Prs	9	nmod	_	_
+9	dobrotami	dobrota	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	6	nmod	_	_
+10	,	,	PUNCT	Z	_	5	punct	_	_
+11	nechala	nechať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	tam	tam	ADV	PD	PronType=Dem	11	advmod	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	predierala	predierať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	conj	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pass	_	_
+16	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	17	case	_	_
+17	Radžom	radža	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	_
+18	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	19	case	_	_
+19	nádvorie	nádvorie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_
+20	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s27
+# text = Ktosi ju zrazu chytil za ruku a obehol s ňou okolo majáka .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#27
+1	Ktosi	ktosi	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+2	ju	on	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	zrazu	zrazu	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	chytil	chytiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	ruku	ruka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	obehol	obehnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+9	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	10	case	_	_
+10	ňou	on	PRON	PFfs7	Case=Ins|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+11	okolo	okolo	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+12	majáka	maják	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+13	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s28
+# text = Neďaleko hrala na akýchsi čudných nástrojoch kapela .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#28
+1	Neďaleko	ďaleký	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	hrala	hrať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+4	akýchsi	akýsi	DET	PAip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+5	čudných	čudný	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+6	nástrojoch	nástroj	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	obl	_	_
+7	kapela	kapela	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+8	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s29
+# text = Na nádvorí našla more prekrásnych zvierat , ktoré videla len v knižkách — bol tam nosorožec , párik hyen , dokonca aj veľký tučný hroch .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#29
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	nádvorí	nádvorie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	našla	nájsť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	more	more	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	prekrásnych	prekrásny	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	_
+6	zvierat	zviera	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	ktoré	ktorý	DET	PAnp4	Case=Acc|Gender=Neut|Number=Plur|PronType=Int,Rel	9	obj	_	_
+9	videla	vidieť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
+10	len	len	PART	T	_	12	advmod:emph	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	knižkách	knižka	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_
+13	—	—	PUNCT	Z	_	14	punct	_	_
+14	bol	byť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	parataxis	_	_
+15	tam	tam	ADV	PD	PronType=Dem	14	advmod	_	_
+16	nosorožec	nosorožec	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+17	,	,	PUNCT	Z	_	18	punct	_	_
+18	párik	párik	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	conj	_	_
+19	hyen	hyena	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+20	,	,	PUNCT	Z	_	25	punct	_	_
+21	dokonca	dokonca	PART	T	_	25	advmod:emph	_	_
+22	aj	aj	PART	T	_	21	advmod:emph	_	_
+23	veľký	veľký	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+24	tučný	tučný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	hroch	hroch	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	conj	_	_
+26	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s30
+# text = Radža sa zakrádal k orangutanovi .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#30
+1	Radža	radža	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pass	_	_
+3	zakrádal	zakrádal	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	5	case	_	_
+5	orangutanovi	orangutan	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+6	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s31
+# text = Oňuchali sa navzájom a Radža sa bežal skryť .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#31
+1	Oňuchali	oňuchať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pass	_	_
+3	navzájom	navzájom	ADV	Dx	Degree=Pos	1	advmod	_	_
+4	a	a	CCONJ	O	_	7	cc	_	_
+5	Radža	radža	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pass	_	_
+7	bežal	bežať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+8	skryť	skryť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	7	xcomp	_	_
+9	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s32
+# text = Jago mal zatiaľ čo robiť s očividne vyhladnutým levom .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#32
+1	Jago	Jago	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	mal	mať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	zatiaľ	zatiaľ	ADV	PD	PronType=Dem	2	advmod	_	_
+4	čo	čo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	5	obl	_	_
+5	robiť	robiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+7	očividne	očividne	ADV	Dx	Degree=Pos	8	advmod	_	_
+8	vyhladnutým	vyhladnutý	ADJ	Gtms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	levom	leví	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obl:arg	_	_
+10	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s33
+# text = “ Pekná mačička , cst ‐ cst ‐ cst ! “ opakoval dokola .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#33
+1	“	“	PUNCT	Z	_	3	punct	_	_
+2	Pekná	pekný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	mačička	mačička	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	12	dep	_	_
+4	,	,	PUNCT	Z	_	3	punct	_	_
+5	cst	cst	INTJ	J	_	12	dep	_	_
+6	‐	‐	PUNCT	Z	_	7	punct	_	_
+7	cst	cst	INTJ	J	_	5	conj	_	_
+8	‐	‐	PUNCT	Z	_	9	punct	_	_
+9	cst	cst	INTJ	J	_	5	conj	_	_
+10	!	!	PUNCT	Z	_	12	punct	_	_
+11	“	“	PUNCT	Z	_	12	punct	_	_
+12	opakoval	opakovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+13	dokola	dokola	ADV	Dx	Degree=Pos	12	advmod	_	_
+14	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s34
+# text = Jazmína bola naskutku ohúrená , keď v záhrade uvidela obrovskú kamennú stavbu , ktorá tu vyrástla za jedinú noc .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#34
+1	Jazmína	Jazmína	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	cop	_	_
+3	naskutku	naskutku	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	ohúrená	ohúriť	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+5	,	,	PUNCT	Z	_	9	punct	_	_
+6	keď	keď	SCONJ	O	_	9	mark	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	záhrade	záhrada	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+9	uvidela	uvidieť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	advcl	_	_
+10	obrovskú	obrovský	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	kamennú	kamenný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	stavbu	stavba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+13	,	,	PUNCT	Z	_	16	punct	_	_
+14	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	16	nsubj	_	_
+15	tu	tu	ADV	PD	PronType=Dem	16	advmod	_	_
+16	vyrástla	vyrásť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	acl	_	_
+17	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	19	case	_	_
+18	jedinú	jediný	ADJ	NAfs4	Case=Acc|Gender=Fem|Number=Sing|NumType=Mult	19	amod	_	_
+19	noc	noc	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+20	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s35
+# text = “ Egyptská pyramída ! “ zvolala užasnuto .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#35
+1	“	“	PUNCT	Z	_	3	punct	_	_
+2	Egyptská	egyptský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	pyramída	pyramída	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	dep	_	_
+4	!	!	PUNCT	Z	_	3	punct	_	_
+5	“	“	PUNCT	Z	_	3	punct	_	_
+6	zvolala	zvolať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	užasnuto	užasnuto	ADV	Dx	Degree=Pos	6	advmod	_	_
+8	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s36
+# text = A uprostred záhrady našla zmenšeninu agrabahského trhoviska , presne takého , aké vidí z okna .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#36
+1	A	a	PART	T	_	4	advmod	_	_
+2	uprostred	uprostred	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+3	záhrady	záhrada	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+4	našla	nájsť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	zmenšeninu	zmenšenina	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	agrabahského	agrabahský	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	trhoviska	trhovisko	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	,	,	PUNCT	Z	_	10	punct	_	_
+9	presne	presne	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	takého	taký	DET	PAns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
+11	,	,	PUNCT	Z	_	13	punct	_	_
+12	aké	aký	DET	PAns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	13	obj	_	_
+13	vidí	vidieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	acl	_	_
+14	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+15	okna	okno	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	13	obl	_	_
+16	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s37
+# text = Hltači mečov súperili s predavačmi šperkov o jej pozornosť .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#37
+1	Hltači	hltač	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	mečov	meč	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	súperili	súperiť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	5	case	_	_
+5	predavačmi	predavač	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	_
+6	šperkov	šperk	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+8	jej	jeho	DET	PUfs4	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	pozornosť	pozornosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obl:arg	_	_
+10	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s38
+# text = “ Oddýchnite si ! “ zvolal muž , čo spal na posteli z klincov .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#38
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Oddýchnite	oddýchnuť	VERB	VMdpb+	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	6	ccomp	_	_
+3	si	sa	PRON	R	PronType=Prs|Reflex=Yes	2	expl:pass	_	_
+4	!	!	PUNCT	Z	_	2	punct	_	_
+5	“	“	PUNCT	Z	_	2	punct	_	_
+6	zvolal	zvolať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	muž	muž	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	,	,	PUNCT	Z	_	10	punct	_	_
+9	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	10	mark	_	_
+10	spal	spať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
+11	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	posteli	posteľ	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+13	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+14	klincov	klinec	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s39
+# text = Veštkyňa uprene hľadela do sklenej gule .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#39
+1	Veštkyňa	veštkyňa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	uprene	uprene	ADV	Dx	Degree=Pos	3	advmod	_	_
+3	hľadela	hľadieť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+5	sklenej	sklený	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	gule	guľa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+7	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s40
+# text = Deti sa hlučne hrali na slepú babu a vyhýbali sa stánkom .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#40
+1	Deti	dieťa	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	4	nsubj:pass	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pass	_	_
+3	hlučne	hlučne	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	hrali	hrať	VERB	VLepcn+	Aspect=Imp|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+6	slepú	slepý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	babu	baba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	vyhýbali	vyhýbať	VERB	VLepcn+	Aspect=Imp|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pass	_	_
+11	stánkom	stánok	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	obj	_	_
+12	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s41
+# text = Predavač tiav sa bavil so starenkou , ktorá na šnúru vešala bielizeň .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#41
+1	Predavač	predavač	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+2	tiav	ťava	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pass	_	_
+4	bavil	baviť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	6	case	_	_
+6	starenkou	starenka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+7	,	,	PUNCT	Z	_	11	punct	_	_
+8	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	11	nsubj	_	_
+9	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+10	šnúru	šnúra	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+11	vešala	vešať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
+12	bielizeň	bielizeň	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s42
+# text = Presne uprostred trhoviska Jazmína našla opäť sultána .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#42
+1	Presne	presne	ADV	Dx	Degree=Pos	5	advmod	_	_
+2	uprostred	uprostred	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+3	trhoviska	trhovisko	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+4	Jazmína	Jazmína	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	našla	nájsť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	opäť	opäť	ADV	Dx	Degree=Pos	5	advmod	_	_
+7	sultána	sultán	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s43
+# text = Predok plášťa mal fľakatý od černíc a z prstov si oblizoval čokoládu .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#43
+1	Predok	predok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	plášťa	plášť	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	mal	mať	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	cop	_	_
+4	fľakatý	fľakatý	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+5	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	černíc	černica	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+7	a	a	CCONJ	O	_	11	cc	_	_
+8	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	prstov	prst	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+10	si	sa	PRON	R	PronType=Prs|Reflex=Yes	11	iobj	_	_
+11	oblizoval	oblizovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+12	čokoládu	čokoláda	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s44
+# text = “ Ocko ! “ zvolala .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#44
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Ocko	ocko	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	dep	_	_
+3	!	!	PUNCT	Z	_	2	punct	_	_
+4	“	“	PUNCT	Z	_	2	punct	_	_
+5	zvolala	zvolať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s45
+# text = “ To je neuveriteľné ! “
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#45
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	To	ten	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	neuveriteľné	uveriť	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+5	!	!	PUNCT	Z	_	4	punct	_	_
+6	“	“	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s46
+# text = “ Videla si hrocha ? “ spýtal sa a v očiach sa mu zračil taký istý údiv ako jej .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#46
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Videla	vidieť	VERB	VLesbf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	ccomp	_	_
+3	si	sa	PRON	R	PronType=Prs|Reflex=Yes	2	expl:pass	_	_
+4	hrocha	hroch	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	?	?	PUNCT	Z	_	2	punct	_	_
+6	“	“	PUNCT	Z	_	2	punct	_	_
+7	spýtal	spýtať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pass	_	_
+9	a	a	CCONJ	O	_	14	cc	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	očiach	oko	NOUN	SSnp6	Case=Loc|Gender=Neut|Number=Plur	14	obl	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pass	_	_
+13	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+14	zračil	zračiť	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+15	taký	taký	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+16	istý	istý	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	údiv	údiv	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	obj	_	_
+18	ako	ako	SCONJ	O	_	17	advmod	_	_
+19	jej	jeho	DET	PFfs3	Case=Dat|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+20	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s47
+# text = “ A pandy . . . a . . . ach , božemôj , je to nádherné , čo povieš ? “
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#47
+1	“	“	PUNCT	Z	_	17	punct	_	_
+2	A	a	PART	T	_	3	cc	_	_
+3	pandy	pandy	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	17	dep	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+5	.	.	PUNCT	Z	_	3	punct	_	_
+6	.	.	PUNCT	Z	_	3	punct	_	_
+7	a	a	CCONJ	O	_	17	cc	_	_
+8	.	.	PUNCT	Z	_	17	punct	_	_
+9	.	.	PUNCT	Z	_	17	punct	_	_
+10	.	.	PUNCT	Z	_	17	punct	_	_
+11	ach	ach	INTJ	J	_	17	dep	_	_
+12	,	,	PUNCT	Z	_	11	punct	_	_
+13	božemôj	božemôj	INTJ	J	_	17	dep	_	_
+14	,	,	PUNCT	Z	_	13	punct	_	_
+15	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	to	ten	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	17	nsubj	_	_
+17	nádherné	nádherný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+18	,	,	PUNCT	Z	_	20	punct	_	_
+19	čo	čo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	20	obj	_	_
+20	povieš	povedať	VERB	VKdsb+	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	parataxis	_	_
+21	?	?	PUNCT	Z	_	17	punct	_	_
+22	“	“	PUNCT	Z	_	17	punct	_	_
+
+# sent_id = s48
+# text = Jazmína ho objala .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#48
+1	Jazmína	Jazmína	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	objala	objať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s49
+# text = “ Vynikajúce .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#49
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Vynikajúce	vynikajúci	ADJ	Gkns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	0	root	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s50
+# text = Skvelé prekvapenie .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#50
+1	Skvelé	skvelý	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	prekvapenie	prekvapenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s51
+# text = Ale muselo ti to dať toľko práce ! “
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#51
+1	Ale	ale	CCONJ	O	_	2	cc	_	_
+2	muselo	musieť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	ti	ty	PRON	PPhs3	Case=Dat|Number=Sing|Person=2|PronType=Prs	5	obj	_	_
+4	to	ten	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+5	dať	dať	VERB	VIj+	Aspect=Imp,Perf|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
+6	toľko	toľko	DET	PUns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Card|PronType=Dem	7	det:numgov	_	_
+7	práce	práca	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obj	_	_
+8	!	!	PUNCT	Z	_	2	punct	_	_
+9	“	“	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s52
+# text = “ Samozrejme .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#52
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Samozrejme	samozrejme	PART	T	_	0	root	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s53
+# text = Vieš , radcovia mi pomáhali a ja som im radil , lebo to viem najlepšie .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#53
+1	Vieš	vedieť	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+2	,	,	PUNCT	Z	_	1	punct	_	_
+3	radcovia	radca	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+4	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+5	pomáhali	pomáhať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	CCONJ	O	_	10	cc	_	_
+7	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	im	on	PRON	PFmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+10	radil	radiť	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+11	,	,	PUNCT	Z	_	14	punct	_	_
+12	lebo	lebo	CCONJ	O	_	14	mark	_	_
+13	to	ten	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj	_	_
+14	viem	vedieť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+15	najlepšie	dobrý	ADV	Dz	Degree=Sup	14	advmod	_	_
+16	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s54
+# text = No a keď som dnes ráno vstal , v mojej vani bol nosorožec .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#54
+1	No	no	PART	T	_	7	mark	_	_
+2	a	a	CCONJ	O	_	1	fixed	_	_
+3	keď	keď	SCONJ	O	_	1	fixed	_	_
+4	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	dnes	dnes	ADV	Dx	Degree=Pos	7	advmod	_	_
+6	ráno	ráno	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	vstal	vstať	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	advcl	_	_
+8	,	,	PUNCT	Z	_	7	punct	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+10	mojej	môj	DET	PFfs6	Case=Loc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	11	det	_	_
+11	vani	vaňa	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+12	bol	byť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+13	nosorožec	nosorožec	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+14	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s55
+# text = Vieš si to predstaviť ?
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#55
+1	Vieš	vedieť	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	si	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pass	_	_
+3	to	ten	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	_
+4	predstaviť	predstaviť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	xcomp	_	_
+5	?	?	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s56
+# text = A Džafar sa musel deliť o izbu s pytónom .
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#56
+1	A	a	CCONJ	O	_	4	cc	_	_
+2	Džafar	Džafar	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pass	_	_
+4	musel	musieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	deliť	deliť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+6	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+7	izbu	izba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obl:arg	_	_
+8	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+9	pytónom	pytón	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obl:arg	_	_
+10	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s57
+# text = Celkom si na seba zvykli . “
+# orig_file_sentence aladin19_bugajova_aladin19_kandracova#57
+1	Celkom	celkom	ADV	Dx	Degree=Pos	5	advmod	_	_
+2	si	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pass	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	seba	sa	PRON	PPhs4	Case=Acc|Number=Sing|PronType=Prs|Reflex=Yes	5	obl:arg	_	_
+5	zvykli	zvyknúť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	“	“	PUNCT	Z	_	5	punct	_	_
+

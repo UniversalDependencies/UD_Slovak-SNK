@@ -1,0 +1,312 @@
+# sent_id = s1
+# text = “ A ako to máme urobiť ? “ spytoval sa Horace .
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#1
+1	“	“	PUNCT	Z	_	5	punct	_	_
+2	A	a	CCONJ	O	_	5	cc	_	_
+3	ako	ako	ADV	PD	PronType=Int,Rel	5	advmod	_	_
+4	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	obj	_	_
+5	máme	mať	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+6	urobiť	urobiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+7	?	?	PUNCT	Z	_	5	punct	_	_
+8	“	“	PUNCT	Z	_	5	punct	_	_
+9	spytoval	spytovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+11	Horace	horace	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+12	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s2
+# text = “ Ako chcete ! “ zvrieskla Cruella .
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#2
+1	“	“	PUNCT	Z	_	3	punct	_	_
+2	Ako	ako	ADV	PD	PronType=Int,Rel	3	advmod	_	_
+3	chcete	chcieť	VERB	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+4	!	!	PUNCT	Z	_	3	punct	_	_
+5	“	“	PUNCT	Z	_	3	punct	_	_
+6	zvrieskla	zvriesknuť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	Cruella	cruella	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+8	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s3
+# text = “ Otrávte ich , utopte , roztrieskajte im hlavy .
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#3
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Otrávte	otráviť	VERB	VMdpb+	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+3	ich	on	PRON	PFmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4	,	,	PUNCT	Z	_	5	punct	_	_
+5	utopte	utopiť	VERB	VMdpb+	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	2	conj	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	roztrieskajte	roztrieskať	VERB	VMdpb+	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	2	conj	_	_
+8	im	on	PRON	PFmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	iobj	_	_
+9	hlavy	hlava	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+10	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s4
+# text = Je mi jedno , ako zahlušíte tie malé potvory !
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#4
+1	Je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	jedno	jedno	ADV	Dx	Degree=Pos	1	advmod	_	_
+4	,	,	PUNCT	Z	_	6	punct	_	_
+5	ako	ako	ADV	PD	PronType=Int,Rel	6	mark	_	_
+6	zahlušíte	zahlušiť	VERB	VKdpb+	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	csubj	_	_
+7	tie	tá	DET	PFfp4	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	9	det	_	_
+8	malé	malý	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
+9	potvory	potvora	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+10	!	!	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s5
+# text = Len to urobte .
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#5
+1	Len	len	PART	T	_	3	cc	_	_
+2	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	_
+3	urobte	urobiť	VERB	VMdpb+	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s6
+# text = A hneď ! “
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#6
+1	A	a	CCONJ	O	_	0	root	_	_
+2	hneď	hneď	ADV	Dx	Degree=Pos	1	dep	_	_
+3	!	!	PUNCT	Z	_	1	punct	_	_
+4	“	“	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s7
+# text = Na jej veľké prekvapenie Jasper ďalej hľadel na obrazovku .
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#7
+1	Na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+2	jej	jej	DET	PUns4	Case=Acc|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+3	veľké	veľký	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	prekvapenie	prekvapenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
+5	Jasper	jasper	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	ďalej	ďalej	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	hľadel	hľadieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+9	obrazovku	obrazovka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obl:arg	_	_
+10	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s8
+# text = “ Prosím vás , slečna , “ prosíkal .
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#8
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Prosím	prosiť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+3	vás	vy	PRON	PPhp4	Case=Acc|Number=Plur|Person=2|PronType=Prs	2	obj	_	_
+4	,	,	PUNCT	Z	_	2	punct	_	_
+5	slečna	slečna	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	_
+6	,	,	PUNCT	Z	_	2	punct	_	_
+7	“	“	PUNCT	Z	_	2	punct	_	_
+8	prosíkal	prosíkať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s9
+# text = “ Zľutujte sa .
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#9
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Zľutujte	zľutovať	VERB	VMdpb+	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+4	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s10
+# text = Radi by sme si dopozerali program ! “
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#10
+1	Radi	rád	ADJ	AUmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	obl	_	_
+2	by	by	AUX	Y	Mood=Cnd	5	aux	_	_
+3	sme	byť	AUX	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	si	si	PRON	R	PronType=Prs|Reflex=Yes	5	discourse	_	_
+5	dopozerali	dopozerať	VERB	VLdpah+	Aspect=Perf|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	program	program	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	!	!	PUNCT	Z	_	5	punct	_	_
+8	“	“	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s11
+# text = “ Áno , “ pridal sa Horace .
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#11
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Áno	áno	PART	T	_	0	root	_	_
+3	,	,	PUNCT	Z	_	2	punct	_	_
+4	“	“	PUNCT	Z	_	2	punct	_	_
+5	pridal	pridať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	dep	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+7	Horace	horace	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+8	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s12
+# text = “ Chceme vidieť ' Príhody psa Bleska ! ' “
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#12
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Chceme	chcieť	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	vidieť	vidieť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
+4	'	'	PUNCT	Z	_	5	punct	_	_
+5	Príhody	príhoda	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	3	obj	_	_
+6	psa	pes	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+7	Bleska	blesk	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	!	!	PUNCT	Z	_	2	punct	_	_
+9	'	'	PUNCT	Z	_	2	punct	_	_
+10	“	“	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s13
+# text = Jasper sa znovu chcel napiť z fľaše , no napaprčená Cruella mu ju vytrhla z rúk a obsah mu vychrstla do tváre .
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#13
+1	Jasper	jasper	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+3	znovu	znovu	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	chcel	chcieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	napiť	napiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+6	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	fľaše	fľaša	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+8	,	,	PUNCT	Z	_	14	punct	_	_
+9	no	no	CCONJ	O	_	14	cc	_	_
+10	napaprčená	napaprčený	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	Cruella	cruella	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+12	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+13	ju	ono	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+14	vytrhla	vytrhnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+15	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+16	rúk	ruka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	14	obl	_	_
+17	a	a	CCONJ	O	_	20	cc	_	_
+18	obsah	obsah	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+19	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	iobj	_	_
+20	vychrstla	vychrstnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+21	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	22	case	_	_
+22	tváre	tvár	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	20	obl	_	_
+23	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s14
+# text = Fľašu zahodila do kozuba , kde sa rozbila na márne kusy .
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#14
+1	Fľašu	fľaša	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+2	zahodila	zahodiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	kozuba	kozub	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+5	,	,	PUNCT	Z	_	8	punct	_	_
+6	kde	kde	ADV	PD	PronType=Int,Rel	8	advmod	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+8	rozbila	rozbiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	advcl	_	_
+9	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+10	márne	márny	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_
+11	kusy	kus	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_
+12	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s15
+# text = “ Dobre ma počúvajte , vy lenivci ! “ vrieskala a každému vypálila zaucho .
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#15
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	Dobre	dobre	ADV	Dx	Degree=Pos	4	advmod	_	_
+3	ma	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+4	počúvajte	počúvať	VERB	VMepb+	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	10	ccomp	_	_
+5	,	,	PUNCT	Z	_	4	punct	_	_
+6	vy	vy	PRON	PPhp1	Case=Nom|Number=Plur|Person=2|PronType=Prs	7	nmod	_	_
+7	lenivci	lenivec	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	dep	_	_
+8	!	!	PUNCT	Z	_	4	punct	_	_
+9	“	“	PUNCT	Z	_	4	punct	_	_
+10	vrieskala	vrieskať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+11	a	a	CCONJ	O	_	13	cc	_	_
+12	každému	každý	DET	PAms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|PronType=Tot	13	iobj	_	_
+13	vypálila	vypáliť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	conj	_	_
+14	zaucho	zaucho	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s16
+# text = “ Hneď ráno som späť .
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#16
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	Hneď	hneď	ADV	Dx	Degree=Pos	4	advmod	_	_
+3	ráno	ráno	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	som	byť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	späť	späť	ADV	Dx	Degree=Pos	4	advmod	_	_
+6	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s17
+# text = A radím vám , aby ste vykonali svoju prácu , lebo na vás sama zavolám políciu .
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#17
+1	A	a	CCONJ	O	_	2	cc	_	_
+2	radím	radiť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	vám	vy	PRON	PPhp3	Case=Dat|Number=Plur|Person=2|PronType=Prs	2	obj	_	_
+4	,	,	PUNCT	Z	_	7	punct	_	_
+5	aby	aby	SCONJ	OY	Mood=Cnd	7	mark	_	_
+6	ste	byť	AUX	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	vykonali	vykonať	VERB	VLdpbh+	Aspect=Perf|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	2	advcl	_	_
+8	svoju	svoj	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	_
+9	prácu	práca	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+10	,	,	PUNCT	Z	_	15	punct	_	_
+11	lebo	lebo	CCONJ	O	_	15	mark	_	_
+12	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+13	vás	vy	PRON	PPhp4	Case=Acc|Number=Plur|Person=2|PronType=Prs	15	obl:arg	_	_
+14	sama	sám	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Emp	16	xcomp	_	_
+15	zavolám	zavolať	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+16	políciu	polícia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s18
+# text = Rozumeli ste ? “
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#18
+1	Rozumeli	rozumieť	VERB	VLepbh+	Aspect=Imp|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	ste	byť	AUX	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	?	?	PUNCT	Z	_	1	punct	_	_
+4	“	“	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s19
+# text = Bratia Badunovci ustráchane prikývli .
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#19
+1	Bratia	brat	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nmod	_	_
+2	Badunovci	badun	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	ustráchane	ustráchane	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	prikývli	prikývnuť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s20
+# text = Cruella sa zvrtla , vybehla z izby a tak prudko tresla dvermi , že sa zo stropu odlúpla omietka a spadla Horaceovi rovno na hlavu .
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#20
+1	Cruella	cruella	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	zvrtla	zvrtnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	,	,	PUNCT	Z	_	5	punct	_	_
+5	vybehla	vybehnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+6	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	izby	izba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+8	a	a	CCONJ	O	_	11	cc	_	_
+9	tak	tak	PART	T	_	11	cc	_	_
+10	prudko	prudko	ADV	Dx	Degree=Pos	11	advmod	_	_
+11	tresla	tresnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+12	dvermi	dvere	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	11	obj	_	_
+13	,	,	PUNCT	Z	_	18	punct	_	_
+14	že	že	SCONJ	O	_	18	mark	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	18	expl:pv	_	_
+16	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	17	case	_	_
+17	stropu	strop	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+18	odlúpla	odlúpnuť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	advcl	_	_
+19	omietka	omietka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+20	a	a	CCONJ	O	_	21	cc	_	_
+21	spadla	spadnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	18	conj	_	_
+22	Horaceovi	horace	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	21	obj	_	_
+23	rovno	rovno	ADV	Dx	Degree=Pos	21	advmod	_	_
+24	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	25	case	_	_
+25	hlavu	hlava	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_
+26	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s21
+# text = Pomsta je sladká
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#21
+1	Pomsta	pomsta	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	sladká	sladký	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = s22
+# text = Ahojte kamoši , joho ‐ ho ‐ hó , dvíhame kotvy , obzrieme sa okolo .
+# orig_file_sentence 019-dalmatinci_olejkarova_019-dalmatinci_bugajova#22
+1	Ahojte	ahojte	INTJ	J	_	0	root	_	_
+2	kamoši	kamoš	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+3	,	,	PUNCT	Z	_	1	punct	_	_
+4	joho	joho	INTJ	J	_	8	nmod	_	_
+5	‐	-	PUNCT	Z	_	8	punct	_	_
+6	ho	ho	X	Q	Hyph=Yes	8	nmod	_	_
+7	‐	-	PUNCT	Z	_	8	punct	_	_
+8	hó	hó	X	Q	Hyph=Yes	1	conj	_	_
+9	,	,	PUNCT	Z	_	8	punct	_	_
+10	dvíhame	dvíhať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+11	kotvy	kotva	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+12	,	,	PUNCT	Z	_	13	punct	_	_
+13	obzrieme	obzrieť	VERB	VKdpa+	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+14	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+15	okolo	okolo	ADV	Dx	Degree=Pos	13	advmod	_	_
+16	.	.	PUNCT	Z	_	1	punct	_	_
+

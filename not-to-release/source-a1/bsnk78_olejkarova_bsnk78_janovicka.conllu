@@ -1,0 +1,197 @@
+# sent_id = s1
+# text = Pripadalo mu zvláštne , že možno stvoriť mŕtvych ľudí , nie však živých .
+# orig_file_sentence bsnk78_olejkarova_bsnk78_janovicka#1
+1	Pripadalo	pripadať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	zvláštne	zvláštny	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	obl	_	_
+4	,	,	PUNCT	Z	_	6	punct	_	_
+5	že	že	SCONJ	O	_	6	mark	_	_
+6	možno	možno	ADV	Dx	Degree=Pos	1	nsubj	_	_
+7	stvoriť	stvoriť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+8	mŕtvych	mŕtvy	ADJ	AAmp4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
+9	ľudí	človek	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	nie	nie	PART	T	_	6	conj	_	_
+12	však	však	CCONJ	O	_	11	orphan	_	_
+13	živých	živý	ADJ	AAmp4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	11	orphan	_	_
+14	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s2
+# text = Súdruh Ogilvy , ktorý nikdy nejestvoval v prítomnosti , jestvoval teraz v minulosti , a až sa raz zabudne na túto falzifikáciu , bude jestvovať rovnako autenticky a na základe rovnakých dôkazov ako Karol Veľký či Július Caesar .
+# orig_file_sentence bsnk78_olejkarova_bsnk78_janovicka#2
+1	Súdruh	súdruh	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+2	Ogilvy	ogilvy	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+3	,	,	PUNCT	Z	_	6	punct	_	_
+4	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
+5	nikdy	nikdy	ADV	PD	PronType=Neg	6	advmod	_	_
+6	nejestvoval	jestvovať	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	1	acl	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	prítomnosti	prítomnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+9	,	,	PUNCT	Z	_	6	punct	_	_
+10	jestvoval	jestvovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+11	teraz	teraz	ADV	Dx	Degree=Pos	10	advmod	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	minulosti	minulosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+14	,	,	PUNCT	Z	_	25	punct	_	_
+15	a	a	CCONJ	O	_	25	cc	_	_
+16	až	až	SCONJ	O	_	19	mark	_	_
+17	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	19	expl:pass	_	_
+18	raz	raz	ADV	Dx	Degree=Pos	19	advmod	_	_
+19	zabudne	zabudnúť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	25	advcl	_	_
+20	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	22	case	_	_
+21	túto	táto	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+22	falzifikáciu	falzifikácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	19	obl:arg	_	_
+23	,	,	PUNCT	Z	_	19	punct	_	_
+24	bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	25	aux	_	_
+25	jestvovať	jestvovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	10	conj	_	_
+26	rovnako	rovnako	ADV	Dx	Degree=Pos	27	advmod	_	_
+27	autenticky	autenticky	ADV	Dx	Degree=Pos	25	advmod	_	_
+28	a	a	CCONJ	O	_	30	cc	_	_
+29	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	30	case	_	_
+30	základe	základ	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	conj	_	_
+31	rovnakých	rovnaký	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	32	amod	_	_
+32	dôkazov	dôkaz	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_
+33	ako	ako	SCONJ	O	_	34	mark	_	_
+34	Karol	karol	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	dep	_	_
+35	Veľký	veľký	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+36	či	či	CCONJ	O	_	38	cc	_	_
+37	Július	július	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	38	nmod	_	_
+38	Caesar	caesar	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	34	conj	_	_
+39	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s3
+# text = 5
+# orig_file_sentence bsnk78_olejkarova_bsnk78_janovicka#3
+1	5	5	NUM	0	NumForm=Digit	0	root	_	_
+
+# sent_id = s4
+# text = V závodnej menze s nízkym stropom hlboko v podzemí postupoval rad na obed trhane a pomaly .
+# orig_file_sentence bsnk78_olejkarova_bsnk78_janovicka#4
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	závodnej	závodný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	menze	menza	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+4	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	6	case	_	_
+5	nízkym	nízky	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	stropom	strop	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	_
+7	hlboko	hlboko	ADV	Dx	Degree=Pos	3	advmod	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+9	podzemí	podzemie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_
+10	postupoval	postupovať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+11	rad	rad	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+13	obed	obed	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
+14	trhane	trhane	ADV	Dx	Degree=Pos	10	advmod	_	_
+15	a	a	CCONJ	O	_	16	cc	_	_
+16	pomaly	pomaly	ADV	Dx	Degree=Pos	14	conj	_	_
+17	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s5
+# text = Miestnosť už bola preplnená a ohlušujúco hlučná .
+# orig_file_sentence bsnk78_olejkarova_bsnk78_janovicka#5
+1	Miestnosť	miestnosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	už	už	ADV	Dx	Degree=Pos	4	advmod	_	_
+3	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	cop	_	_
+4	preplnená	preplnený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+5	a	a	CCONJ	O	_	7	cc	_	_
+6	ohlušujúco	ohlušujúco	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	hlučná	hlučný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	conj	_	_
+8	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s6
+# text = Z prepážky pri výdaji stravy sa šírila para z duseného mäsa zmiešaná s nakyslastým kovovým pachom , ktorý však nedokázal celkom prekryť výpary Džinu víťazstva .
+# orig_file_sentence bsnk78_olejkarova_bsnk78_janovicka#6
+1	Z	z	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	prepážky	prepážka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+3	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	výdaji	výdaj	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+5	stravy	strava	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pass	_	_
+7	šírila	šíriť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	para	para	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+9	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+10	duseného	dusený	ADJ	Gtns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	mäsa	mäso	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+12	zmiešaná	zmiešaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
+13	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	16	case	_	_
+14	nakyslastým	nakyslastý	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	kovovým	kovový	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	pachom	pach	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl:arg	_	_
+17	,	,	PUNCT	Z	_	20	punct	_	_
+18	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	20	nsubj	_	_
+19	však	však	CCONJ	O	_	20	cc	_	_
+20	nedokázal	dokázať	VERB	VLdsci-	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	16	acl	_	_
+21	celkom	celkom	ADV	Dx	Degree=Pos	22	advmod	_	_
+22	prekryť	prekryť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	20	xcomp	_	_
+23	výpary	výpar	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	22	obj	_	_
+24	Džinu	džin	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	víťazstva	víťazstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+26	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s7
+# text = Na vzdialenom konci miestnosti bol malý bar , obyčajná diera v stene , kde sa za desať centov dal kúpiť väčší dúšok džinu .
+# orig_file_sentence bsnk78_olejkarova_bsnk78_janovicka#7
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	vzdialenom	vzdialený	ADJ	Gtis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	konci	koniec	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+4	miestnosti	miestnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	bol	byť	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	malý	malý	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	bar	bar	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+8	,	,	PUNCT	Z	_	10	punct	_	_
+9	obyčajná	obyčajný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	diera	diera	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	appos	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	stene	stena	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
+13	,	,	PUNCT	Z	_	19	punct	_	_
+14	kde	kde	ADV	PD	PronType=Int,Rel	19	advmod	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	19	expl:pass	_	_
+16	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
+17	desať	desať	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	_
+18	centov	cent	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	dal	dať	VERB	VLjsci+	Animacy=Inan|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
+20	kúpiť	kúpiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	19	xcomp	_	_
+21	väčší	veľký	ADJ	AAis1y	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	22	amod	_	_
+22	dúšok	dúšok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	obj	_	_
+23	džinu	džin	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s8
+# text = " Presne ten , koho hľadám , " zaznel akýsi hlas za Winstonovým chrbtom .
+# orig_file_sentence bsnk78_olejkarova_bsnk78_janovicka#8
+1	"	"	PUNCT	Z	_	3	punct	_	_
+2	Presne	presne	PART	T	_	3	advmod	_	_
+3	ten	ten	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	9	dep	_	_
+4	,	,	PUNCT	Z	_	6	punct	_	_
+5	koho	kto	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	6	obj	_	_
+6	hľadám	hľadať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	acl	_	_
+7	,	,	PUNCT	Z	_	3	punct	_	_
+8	"	"	PUNCT	Z	_	3	punct	_	_
+9	zaznel	zaznieť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	akýsi	akýsi	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	11	det	_	_
+11	hlas	hlas	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+12	za	za	ADP	Eu7	AdpType=Prep|Case=Ins	14	case	_	_
+13	Winstonovým	winstonov	ADJ	AFis7x:r	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	chrbtom	chrbát	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
+15	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s9
+# text = Winston sa otočil .
+# orig_file_sentence bsnk78_olejkarova_bsnk78_janovicka#9
+1	Winston	winston	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pass	_	_
+3	otočil	otočiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s10
+# text = Bol to jeho priateľ Syme z Výskumného oddelenia .
+# orig_file_sentence bsnk78_olejkarova_bsnk78_janovicka#10
+1	Bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	cop	_	_
+2	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	jeho	jeho	DET	PUms1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	priateľ	priateľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	Syme	syme	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+6	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+7	Výskumného	výskumný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	oddelenia	oddelenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+9	.	.	PUNCT	Z	_	4	punct	_	_
+

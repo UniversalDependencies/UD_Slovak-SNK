@@ -1,0 +1,202 @@
+# sent_id = s1
+# text = Stranu nemožno premôcť zvnútra .
+# orig_file_sentence bsnk121_janovicka_bsnk121_safarikova#1
+1	Stranu	strana	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+2	nemožno	nemožno	ADV	Dx	Degree=Pos	0	root	_	_
+3	premôcť	premôcť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
+4	zvnútra	zvnútra	ADV	Dx	Degree=Pos	2	advmod	_	_
+5	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s2
+# text = Jej nepriatelia , ak vôbec nejakých nepriateľov má , nemajú nijakú možnosť spojiť svoje sily , ba dokonca ani len sa spoznať .
+# orig_file_sentence bsnk121_janovicka_bsnk121_safarikova#2
+1	Jej	jej	DET	PUmp1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	nepriatelia	nepriateľ	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+3	,	,	PUNCT	Z	_	8	punct	_	_
+4	ak	ak	SCONJ	O	_	8	mark	_	_
+5	vôbec	vôbec	PART	T	_	6	advmod:emph	_	_
+6	nejakých	nejaký	DET	PAmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	nepriateľov	nepriateľ	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+8	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+9	,	,	PUNCT	Z	_	8	punct	_	_
+10	nemajú	mať	VERB	VKepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	nijakú	nijaký	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	12	det	_	_
+12	možnosť	možnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+13	spojiť	spojiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	12	xcomp	_	_
+14	svoje	svoj	DET	PFfp4	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	_	_
+15	sily	sila	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+16	,	,	PUNCT	Z	_	22	punct	_	_
+17	ba	ba	CCONJ	O	_	22	cc	_	_
+18	dokonca	dokonca	PART	T	_	22	advmod:emph	_	_
+19	ani	ani	CCONJ	O	_	22	advmod:emph	_	_
+20	len	len	PART	T	_	22	advmod:emph	_	_
+21	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	22	expl:pv	_	_
+22	spoznať	spoznať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	10	conj	_	_
+23	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s3
+# text = Aj keby legendárne Bratstvo naozaj existovalo , ako napokon zrejme predsa len existuje , bolo vylúčené , aby sa jeho členovia zhromažďovali vo väčšom počte ako po dvoch či troch .
+# orig_file_sentence bsnk121_janovicka_bsnk121_safarikova#3
+1	Aj	aj	CCONJ	O	_	6	advmod:emph	_	_
+2	keby	keby	SCONJ	OY	Mood=Cnd	6	mark	_	_
+3	legendárne	legendárny	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	Bratstvo	bratstvo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+5	naozaj	naozaj	PART	T	_	6	advmod	_	_
+6	existovalo	existovať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	advcl	_	_
+7	,	,	PUNCT	Z	_	13	punct	_	_
+8	ako	ako	SCONJ	O	_	13	mark	_	_
+9	napokon	napokon	PART	T	_	13	advmod	_	_
+10	zrejme	zrejme	PART	T	_	13	advmod	_	_
+11	predsa	predsa	PART	T	_	13	advmod:emph	_	_
+12	len	len	PART	T	_	13	advmod:emph	_	_
+13	existuje	existovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+14	,	,	PUNCT	Z	_	13	punct	_	_
+15	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	cop	_	_
+16	vylúčené	vylúčený	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+17	,	,	PUNCT	Z	_	22	punct	_	_
+18	aby	aby	SCONJ	OY	Mood=Cnd	22	mark	_	_
+19	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	22	expl:pv	_	_
+20	jeho	jeho	DET	PUmp1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	členovia	člen	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_
+22	zhromažďovali	zhromažďovať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	16	csubj	_	_
+23	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	25	case	_	_
+24	väčšom	veľký	ADJ	AAis6y	Animacy=Inan|Case=Loc|Degree=Cmp|Gender=Masc|Number=Sing	25	amod	_	_
+25	počte	počet	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	_
+26	ako	ako	SCONJ	O	_	28	mark	_	_
+27	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	28	case	_	_
+28	dvoch	dva	NUM	NNmp6	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	25	nummod	_	_
+29	či	či	CCONJ	O	_	30	cc	_	_
+30	troch	tri	NUM	NNmp6	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	28	conj	_	_
+31	.	.	PUNCT	Z	_	16	punct	_	_
+
+# sent_id = s4
+# text = Vzburou je len pohľad do očí , záchvev v hlase , v najlepšom prípade príležitostne pošepnuté slovo .
+# orig_file_sentence bsnk121_janovicka_bsnk121_safarikova#4
+1	Vzburou	vzbura	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	2	obj	_	_
+2	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	len	len	PART	T	_	4	advmod:emph	_	_
+4	pohľad	pohľad	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	očí	oko	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
+7	,	,	PUNCT	Z	_	8	punct	_	_
+8	záchvev	záchvev	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	hlase	hlas	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+11	,	,	PUNCT	Z	_	17	punct	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+13	najlepšom	dobrý	ADJ	AAis6z	Animacy=Inan|Case=Loc|Degree=Sup|Gender=Masc|Number=Sing	14	amod	_	_
+14	prípade	prípad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+15	príležitostne	príležitostne	ADV	Dx	Degree=Pos	16	advmod	_	_
+16	pošepnuté	pošepnutý	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	17	amod	_	_
+17	slovo	slovo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	conj	_	_
+18	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s5
+# text = Zato proleti ( keby si , pravda , dokázali uvedomiť svoju silu ) by nemuseli konšpirovať .
+# orig_file_sentence bsnk121_janovicka_bsnk121_safarikova#5
+1	Zato	zato	CCONJ	O	_	15	advmod	_	_
+2	proleti	prolet	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+3	(	(	PUNCT	Z	_	9	punct	_	_
+4	keby	keby	SCONJ	OY	Mood=Cnd	9	mark	_	_
+5	si	si	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	pravda	pravda	PART	T	_	9	advmod:emph	_	_
+8	,	,	PUNCT	Z	_	7	punct	_	_
+9	dokázali	dokázať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	2	acl	_	_
+10	uvedomiť	uvedomiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	9	xcomp	_	_
+11	svoju	svoj	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	_	_
+12	silu	sila	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	iobj	_	_
+13	)	)	PUNCT	Z	_	9	punct	_	_
+14	by	by	AUX	Y	Mood=Cnd	15	aux	_	_
+15	nemuseli	musieť	VERB	VLepcm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+16	konšpirovať	konšpirovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	15	xcomp	_	_
+17	.	.	PUNCT	Z	_	15	punct	_	_
+
+# sent_id = s6
+# text = Stačilo by , keby povstali a ako sa kôň striasa múch , tak samými sebou zalomcovali .
+# orig_file_sentence bsnk121_janovicka_bsnk121_safarikova#6
+1	Stačilo	stačiť	VERB	VLjscn+	Aspect=Imp,Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	by	by	AUX	Y	Mood=Cnd	1	aux	_	_
+3	,	,	PUNCT	Z	_	5	punct	_	_
+4	keby	keby	SCONJ	OY	Mood=Cnd	5	advmod	_	_
+5	povstali	povstať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	csubj	_	_
+6	a	a	CCONJ	O	_	16	cc	_	_
+7	ako	ako	ADV	PD	PronType=Int,Rel	10	mark	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+9	kôň	kôň	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	striasa	striasať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+11	múch	mucha	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	10	obj	_	_
+12	,	,	PUNCT	Z	_	10	punct	_	_
+13	tak	tak	ADV	PD	PronType=Dem	16	advmod	_	_
+14	samými	sám	DET	PFmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|PronType=Emp	16	xcomp	_	_
+15	sebou	seba	PRON	PPhs7	Case=Ins|Number=Sing|PronType=Prs|Reflex=Yes	16	iobj	_	_
+16	zalomcovali	zalomcovať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+17	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s7
+# text = Keby chceli , mohli by Stranu rozprášiť už zajtra ráno .
+# orig_file_sentence bsnk121_janovicka_bsnk121_safarikova#7
+1	Keby	keby	SCONJ	OY	Mood=Cnd	2	mark	_	_
+2	chceli	chcieť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	4	advcl	_	_
+3	,	,	PUNCT	Z	_	2	punct	_	_
+4	mohli	môcť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	by	by	AUX	Y	Mood=Cnd	4	aux	_	_
+6	Stranu	strana	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	iobj	_	_
+7	rozprášiť	rozprášiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+8	už	už	PART	T	_	9	advmod:emph	_	_
+9	zajtra	zajtra	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	ráno	ráno	ADV	Dx	Degree=Pos	4	advmod	_	_
+11	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s8
+# text = Skôr či neskôr im to musí zísť na um .
+# orig_file_sentence bsnk121_janovicka_bsnk121_safarikova#8
+1	Skôr	skôr	ADV	Dx	Degree=Pos	6	advmod	_	_
+2	či	či	CCONJ	O	_	3	cc	_	_
+3	neskôr	neskôr	ADV	Dx	Degree=Pos	1	conj	_	_
+4	im	on	PRON	PFmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	iobj	_	_
+5	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	iobj	_	_
+6	musí	musieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	zísť	zísť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+8	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+9	um	um	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+10	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s9
+# text = A jednako . . .
+# orig_file_sentence bsnk121_janovicka_bsnk121_safarikova#9
+1	A	a	CCONJ	O	_	2	cc	_	_
+2	jednako	jednako	SCONJ	O	_	0	root	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+4	.	.	PUNCT	Z	_	2	punct	_	_
+5	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s10
+# text = Spomenul si , ako raz kráčal zaľudnenou ulicou , keď tu zrazu z neďalekej bočnej uličky zaznel ohlušujúci rev stoviek hlasov , ženských hlasov .
+# orig_file_sentence bsnk121_janovicka_bsnk121_safarikova#10
+1	Spomenul	spomenúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	si	si	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	,	,	PUNCT	Z	_	6	punct	_	_
+4	ako	ako	SCONJ	O	_	6	mark	_	_
+5	raz	raz	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	kráčal	kráčať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	ccomp	_	_
+7	zaľudnenou	zaľudnený	ADJ	Gtfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	ulicou	ulica	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+9	,	,	PUNCT	Z	_	17	punct	_	_
+10	keď	keď	SCONJ	O	_	17	mark	_	_
+11	tu	tu	PART	T	_	17	advmod	_	_
+12	zrazu	zrazu	ADV	Dx	Degree=Pos	17	advmod	_	_
+13	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+14	neďalekej	neďaleký	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	bočnej	bočný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	uličky	ulička	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+17	zaznel	zaznieť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	advcl	_	_
+18	ohlušujúci	ohlušujúci	ADJ	Gkis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	19	amod	_	_
+19	rev	rev	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+20	stoviek	stovka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_
+21	hlasov	hlas	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+22	,	,	PUNCT	Z	_	24	punct	_	_
+23	ženských	ženský	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	24	amod	_	_
+24	hlasov	hlas	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	appos	_	_
+25	.	.	PUNCT	Z	_	1	punct	_	_
+
