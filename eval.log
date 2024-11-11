@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Slovak-SNK:
-commit be408a1bb426a2c978a82500acda8dc34f9c9c68
-Merge: 9067487 1805dcf
+commit 90df2a2a1646bb54ab8c22ff786aa41299bc7d72
+Merge: 1375c30 0902d37
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 106097 of 106097 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.32870754001624.
@@ -25,10 +25,24 @@ Udapi: found 1716 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 106097 words.
 Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sk --max-err=10 UD_Slovak-SNK/sk_snk-ud-dev.conllu
+[Line 4478 Sent wikipedia:bush-019:bush_019-p5s1 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:inej:det --> 10:roku:dep)
+[Line 8171 Sent wikipedia:kukurica000:kukurica000-p3s7 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:tom:det --> 8:išlo:acl)
+[Line 10296 Sent wikipedia:svetlo004:svetlo004-p8s1 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:iné:det --> 12:vákuum:dep)
+[Line 14768 Sent wikipedia:wiki1773-03:.f. Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:to:det --> 10:vyžadoval:acl)
+Warnings: 4
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sk --max-err=10 UD_Slovak-SNK/sk_snk-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sk --max-err=10 UD_Slovak-SNK/sk_snk-ud-train.conllu
+[Line 965 Sent durovic:durovic06-001:durovic06-001-p2s5 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:všetkého:det --> 8:je:acl)
+[Line 27252 Sent mucska:muca030:mucska030-p1s4 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:tom:det --> 15:mohli:acl)
+[Line 29007 Sent mucska:muca066:mucska066-p1s4 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:to:det --> 18:nepovažovali:acl)
+[Line 33594 Sent orwell1984:bsnk264:.k. Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:všetkých:det --> 6:šestnásť:nummod)
+[Line 67761 Sent psiakoza:Psia-koza-077:Psia_koza_077-p2s1 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:tom:det --> 7:stalo:acl)
+[Line 72555 Sent psiakoza:Psia-koza-108:Psia_koza_108-p2s6 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:tých:det --> 6:nevyvolajú:acl)
+[Line 86939 Sent rozpravky:ferdo003:ferdo003-p5s3 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:iný:det --> 7:Truhlík:dep)
+[Line 104217 Sent rozpravky:maja47:maja47-p4s2 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:taká:det --> 15:zľakla:advcl)
+Warnings: 8
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
