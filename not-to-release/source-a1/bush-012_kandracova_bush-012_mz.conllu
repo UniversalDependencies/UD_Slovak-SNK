@@ -1,0 +1,342 @@
+# sent_id = s1
+# text = 14 . januára 2004 Bush oznámil založenie Vízie vesmírneho výskumu ( en : Vision for Space Exploration ) , v rámci ktorej je plánovaný návrat na Mesiac do roku 2020 a realizácia Medzinárodnej vesmírnej stanice do roku 2010 a eventuálne vyslanie astronautov na Mars .
+# orig_file_sentence bush-012_kandracova_bush-012_mz#1
+1	14	14	NUM	0	NumForm=Digit	3	nummod	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+3	januára	január	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+4	2004	2004	NUM	0	NumForm=Digit	3	nummod	_	_
+5	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	oznámil	oznámiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	založenie	založenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	Vízie	vízia	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	vesmírneho	vesmírny	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	výskumu	výskum	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	(	(	PUNCT	Z	_	14	punct	_	_
+12	en	en	X	W	Abbr=Yes	14	nmod	_	_
+13	:	:	PUNCT	Z	_	12	punct	_	_
+14	Vision	vision	X	%	Foreign=Yes	8	appos	_	_
+15	for	for	X	%	Foreign=Yes	16	case	_	_
+16	Space	space	X	%	Foreign=Yes	14	flat:foreign	_	_
+17	Exploration	exploration	X	%	Foreign=Yes	16	flat:foreign	_	_
+18	)	)	PUNCT	Z	_	14	punct	_	_
+19	,	,	PUNCT	Z	_	24	punct	_	_
+20	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	22	case	_	_
+21	rámci	rámec	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	fixed	_	_
+22	ktorej	ktorý	DET	PAfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Int,Rel	24	obl	_	_
+23	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
+24	plánovaný	plánovaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
+25	návrat	návrat	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj:pass	_	_
+26	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	27	case	_	_
+27	Mesiac	mesiac	PROPN	SSis4:r	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	nmod	_	_
+28	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	29	case	_	_
+29	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	obl	_	_
+30	2020	2020	NUM	0	NumForm=Digit	29	nummod	_	_
+31	a	a	CCONJ	O	_	32	cc	_	_
+32	realizácia	realizácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	24	conj	_	_
+33	Medzinárodnej	medzinárodný	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
+34	vesmírnej	vesmírny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
+35	stanice	stanica	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_
+36	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	37	case	_	_
+37	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	orphan	_	_
+38	2010	2010	NUM	0	NumForm=Digit	37	nummod	_	_
+39	a	a	CCONJ	O	_	32	cc	_	_
+40	eventuálne	eventuálny	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	41	amod	_	_
+41	vyslanie	vyslanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	32	orphan	_	_
+42	astronautov	astronaut	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	41	nmod	_	_
+43	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	44	case	_	_
+44	Mars	mars	PROPN	SSis4:r	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	41	nmod	_	_
+45	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s2
+# text = Hoci sa plán stretol často s rezervovanými reakciami , schválenie jeho rozpočtu s malými zmenami prešlo hneď po novembrových voľbách .
+# orig_file_sentence bush-012_kandracova_bush-012_mz#2
+1	Hoci	hoci	SCONJ	O	_	4	mark	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	plán	plán	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	stretol	stretnúť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	advcl	_	_
+5	často	často	ADV	Dx	Degree=Pos	4	advmod	_	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+7	rezervovanými	rezervovaný	ADJ	Gtfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	reakciami	reakcia	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	4	obl:arg	_	_
+9	,	,	PUNCT	Z	_	4	punct	_	_
+10	schválenie	schválenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+11	jeho	jeho	DET	PUis2	Animacy=Inan|Case=Gen|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	rozpočtu	rozpočet	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	15	case	_	_
+14	malými	malý	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
+15	zmenami	zmena	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	16	obl	_	_
+16	prešlo	prejsť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+17	hneď	hneď	ADV	Dx	Degree=Pos	16	advmod	_	_
+18	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+19	novembrových	novembrový	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	_
+20	voľbách	voľba	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	17	obl	_	_
+21	.	.	PUNCT	Z	_	16	punct	_	_
+
+# sent_id = s3
+# text = Vo februári 2004 podpísalo 5000 vedcov ( medzi ktorými bolo 48 držiteľov Nobelovej ceny ) z Únie zainteresovaných vedcov ( en : Union of Concerned Scientists ) vyhlásenie ( en : Scientific Integrity in Policymaking ) kritizujúce vládu Georgea W . Busha za „ spolitizovanie “ výskumu .
+# orig_file_sentence bush-012_kandracova_bush-012_mz#3
+1	Vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	2	case	_	_
+2	februári	február	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	2004	2004	NUM	0	NumForm=Digit	2	nummod	_	_
+4	podpísalo	podpísať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	5000	5000	NUM	0	NumForm=Digit	4	nsubj	_	_
+6	vedcov	vedec	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	(	(	PUNCT	Z	_	10	punct	_	_
+8	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+9	ktorými	ktorý	DET	PAmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|PronType=Int,Rel	10	obl	_	_
+10	bolo	byť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
+11	48	48	NUM	0	NumForm=Digit	10	nsubj	_	_
+12	držiteľov	držiteľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	Nobelovej	nobelov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	ceny	cena	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	)	)	PUNCT	Z	_	10	punct	_	_
+16	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+17	Únie	únia	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+18	zainteresovaných	zainteresovaný	ADJ	Gtmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	19	amod	_	_
+19	vedcov	vedec	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+20	(	(	PUNCT	Z	_	23	punct	_	_
+21	en	en	X	W	Abbr=Yes	23	nmod	_	_
+22	:	:	PUNCT	Z	_	21	punct	_	_
+23	Union	union	X	%	Foreign=Yes	17	appos	_	_
+24	of	of	X	%	Foreign=Yes	25	case	_	_
+25	Concerned	concerned	X	%	Foreign=Yes	23	flat:foreign	_	_
+26	Scientists	scientists	X	%	Foreign=Yes	25	flat:foreign	_	_
+27	)	)	PUNCT	Z	_	23	punct	_	_
+28	vyhlásenie	vyhlásenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+29	(	(	PUNCT	Z	_	32	punct	_	_
+30	en	en	X	W	Abbr=Yes	32	nmod	_	_
+31	:	:	PUNCT	Z	_	30	punct	_	_
+32	Scientific	scientific	X	%	Foreign=Yes	28	appos	_	_
+33	Integrity	integrity	X	%	Foreign=Yes	32	flat:foreign	_	_
+34	in	in	X	%	Foreign=Yes	35	case	_	_
+35	Policymaking	policymaking	X	%	Foreign=Yes	32	flat:foreign	_	_
+36	)	)	PUNCT	Z	_	32	punct	_	_
+37	kritizujúce	kritizujúci	ADJ	Gkns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	28	amod	_	_
+38	vládu	vláda	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	37	obj	_	_
+39	Georgea	george	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	_
+40	W	w	X	W	Abbr=Yes	42	nmod	_	_
+41	.	.	PUNCT	Z	_	40	punct	_	_
+42	Busha	bush	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_
+43	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	45	case	_	_
+44	„	„	PUNCT	Z	_	45	punct	_	_
+45	spolitizovanie	spolitizovanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	37	obl	_	_
+46	“	“	PUNCT	Z	_	45	punct	_	_
+47	výskumu	výskum	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	45	nmod	_	_
+48	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s4
+# text = Obviňovali vládu z modifikácie správ o globálnom otepľovaní Environmentálnej agentúry životného prostredia a z výberu členov výskumných poradenských výborov podľa politických názorov a nie podľa vedeckých skúseností .
+# orig_file_sentence bush-012_kandracova_bush-012_mz#4
+1	Obviňovali	obviňovať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	vládu	vláda	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	modifikácie	modifikácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	obl:arg	_	_
+5	správ	správa	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+7	globálnom	globálny	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	otepľovaní	otepľovanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	_
+9	Environmentálnej	environmentálny	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	agentúry	agentúra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+11	životného	životný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	prostredia	prostredie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+13	a	a	CCONJ	O	_	15	cc	_	_
+14	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+15	výberu	výber	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	conj	_	_
+16	členov	člen	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	výskumných	výskumný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	_
+18	poradenských	poradenský	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	_
+19	výborov	výbor	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+20	podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	22	case	_	_
+21	politických	politický	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	_
+22	názorov	názor	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+23	a	a	CCONJ	O	_	27	cc	_	_
+24	nie	nie	PART	T	_	27	advmod	_	_
+25	podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	27	case	_	_
+26	vedeckých	vedecký	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	27	amod	_	_
+27	skúseností	skúsenosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	22	conj	_	_
+28	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s5
+# text = Bush vyčlenil 1 , 2 miliardy dolárov z federálneho rozpočtu na obdobie piatich rokov na vývoj vodíkom poháňaných vozidiel bez emisií .
+# orig_file_sentence bush-012_kandracova_bush-012_mz#5
+1	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	vyčlenil	vyčleniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	1	1	NUM	0	NumForm=Digit	4	nummod	_	_
+4	,	,	PUNCT	Z	_	2	punct	_	_
+5	2	2	NUM	0	NumForm=Digit	2	obj	_	_
+6	miliardy	miliarda	NUM	NSfs2	Case=Gen|Gender=Fem|Number=Sing	5	nummod	_	_
+7	dolárov	dolár	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+9	federálneho	federálny	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	rozpočtu	rozpočet	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	obdobie	obdobie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
+13	piatich	päť	NUM	NUip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nummod	_	_
+14	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
+16	vývoj	vývoj	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+17	vodíkom	vodík	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	_
+18	poháňaných	poháňaný	ADJ	Gtnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	19	amod	_	_
+19	vozidiel	vozidlo	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	_
+20	bez	bez	ADP	Eu2	AdpType=Prep|Case=Gen	21	case	_	_
+21	emisií	emisia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+22	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s6
+# text = Cieľom je ponúknuť ekologickú náhradu za ropné produkty v doprave .
+# orig_file_sentence bush-012_kandracova_bush-012_mz#6
+1	Cieľom	cieľ	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	ponúknuť	ponúknuť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	csubj	_	_
+4	ekologickú	ekologický	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	náhradu	náhrada	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+7	ropné	ropný	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	produkty	produkt	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	nmod	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	doprave	doprava	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
+11	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s7
+# text = Ďalej podporil vývoj v oblasti tvorby „ zeleného benzínu “ z kukurice a výskum v oblasti využitia bionafty vznikajúcej z odpadových materiálov .
+# orig_file_sentence bush-012_kandracova_bush-012_mz#7
+1	Ďalej	ďalej	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	podporil	podporiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	vývoj	vývoj	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+5	oblasti	oblasť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	fixed	_	_
+6	tvorby	tvorba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+7	„	„	PUNCT	Z	_	9	punct	_	_
+8	zeleného	zelený	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	benzínu	benzín	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+10	“	“	PUNCT	Z	_	9	punct	_	_
+11	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+12	kukurice	kukurica	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	výskum	výskum	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	conj	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+16	oblasti	oblasť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	15	fixed	_	_
+17	využitia	využitie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	14	obl	_	_
+18	bionafty	bionafta	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	vznikajúcej	vznikajúci	ADJ	Gkfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	18	amod	_	_
+20	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	22	case	_	_
+21	odpadových	odpadový	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	_
+22	materiálov	materiál	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl:arg	_	_
+23	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s8
+# text = V rámci tohto programu presadil aj zníženie daňového zaťaženia pre ľudí používajúcich automobily s nižšími emisiami .
+# orig_file_sentence bush-012_kandracova_bush-012_mz#8
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+2	rámci	rámec	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	tohto	tento	DET	PFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	programu	program	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+5	presadil	presadiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	aj	aj	CCONJ	O	_	7	advmod:emph	_	_
+7	zníženie	zníženie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+8	daňového	daňový	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	zaťaženia	zaťaženie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+11	ľudí	človek	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	_
+12	používajúcich	používajúci	ADJ	Gkmp4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	11	amod	_	_
+13	automobily	automobil	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+14	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	16	case	_	_
+15	nižšími	nízky	ADJ	AAfp7y	Case=Ins|Degree=Cmp|Gender=Fem|Number=Plur	16	amod	_	_
+16	emisiami	emisia	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	13	nmod	_	_
+17	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s9
+# text = Zahraničná politika
+# orig_file_sentence bush-012_kandracova_bush-012_mz#9
+1	Zahraničná	zahraničný	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	politika	politika	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = s10
+# text = Všeobecný prehľad
+# orig_file_sentence bush-012_kandracova_bush-012_mz#10
+1	Všeobecný	všeobecný	ADJ	AAis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	prehľad	prehľad	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s11
+# text = Bushova politická ideológia je vo všeobecnosti označovaná ako konzervativizmus .
+# orig_file_sentence bush-012_kandracova_bush-012_mz#11
+1	Bushova	bushov	ADJ	AFfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	politická	politický	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	ideológia	ideológia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+4	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+5	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	6	case	_	_
+6	všeobecnosti	všeobecnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+7	označovaná	označovaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+8	ako	ako	SCONJ	O	_	9	cc	_	_
+9	konzervativizmus	konzervativizmus	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	obl	_	_
+10	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s12
+# text = Vo volebnej kampani v roku 2000 sa definoval ako súcitný konzervatívec .
+# orig_file_sentence bush-012_kandracova_bush-012_mz#12
+1	Vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	3	case	_	_
+2	volebnej	volebný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	kampani	kampaň	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+6	2000	2000	NUM	0	NumForm=Digit	5	nummod	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	obj	_	_
+8	definoval	definovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	ako	ako	SCONJ	O	_	11	cc	_	_
+10	súcitný	súcitný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	konzervatívec	konzervatívec	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
+12	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s13
+# text = Jeho zahraničná politika je ovplyvňovaná neokonzervatívnym think ‐ tankom Project for the New American Century ( Projekt pre nové americké storočie , PNAC ) .
+# orig_file_sentence bush-012_kandracova_bush-012_mz#13
+1	Jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+2	zahraničná	zahraničný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	politika	politika	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+4	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	ovplyvňovaná	ovplyvňovaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+6	neokonzervatívnym	neokonzervatívny	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+7	think	think	X	Q	Hyph=Yes	9	nmod	_	_
+8	‐	‐	PUNCT	Z	_	7	punct	_	_
+9	tankom	tank	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl:agent	_	_
+10	Project	project	X	%	Foreign=Yes	9	nmod	_	_
+11	for	for	X	%	Foreign=Yes	12	case	_	_
+12	the	the	X	%	Foreign=Yes	10	flat:foreign	_	_
+13	New	new	X	%	Foreign=Yes	12	flat:foreign	_	_
+14	American	american	X	%	Foreign=Yes	12	flat:foreign	_	_
+15	Century	century	X	%	Foreign=Yes	12	flat:foreign	_	_
+16	(	(	PUNCT	Z	_	17	punct	_	_
+17	Projekt	projekt	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
+18	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	21	case	_	_
+19	nové	nový	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+20	americké	americký	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	storočie	storočie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	17	nmod	_	_
+22	,	,	PUNCT	Z	_	23	punct	_	_
+23	PNAC	pnac	X	W	Abbr=Yes	17	appos	_	_
+24	)	)	PUNCT	Z	_	17	punct	_	_
+25	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s14
+# text = Dokazuje to aj prítomnosť niektorých zakladateľov PNAC ( Dick Cheney a Donald Rumsfeld ) na najvyšších miestach v administratíve .
+# orig_file_sentence bush-012_kandracova_bush-012_mz#14
+1	Dokazuje	dokazovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	_
+3	aj	aj	PART	T	_	4	advmod:emph	_	_
+4	prítomnosť	prítomnosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+5	niektorých	niektorý	DET	PAmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	zakladateľov	zakladateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	PNAC	pnac	X	W	Abbr=Yes	6	nmod	_	_
+8	(	(	PUNCT	Z	_	10	punct	_	_
+9	Dick	dick	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
+10	Cheney	cheney	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+11	a	a	CCONJ	O	_	13	cc	_	_
+12	Donald	donald	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
+13	Rumsfeld	rumsfeld	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_
+14	)	)	PUNCT	Z	_	10	punct	_	_
+15	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+16	najvyšších	vysoký	ADJ	AAnp6z	Case=Loc|Degree=Sup|Gender=Neut|Number=Plur	17	amod	_	_
+17	miestach	miesto	NOUN	SSnp6	Case=Loc|Gender=Neut|Number=Plur	4	nmod	_	_
+18	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	administratíve	administratíva	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	17	nmod	_	_
+20	.	.	PUNCT	Z	_	1	punct	_	_
+

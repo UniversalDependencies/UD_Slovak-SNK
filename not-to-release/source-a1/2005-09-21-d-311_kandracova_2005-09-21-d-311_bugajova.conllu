@@ -1,0 +1,721 @@
+# sent_id = s1
+# text = Ľahká otázka , ťažká odpoveď .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#1
+1	Ľahká	ľahký	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	otázka	otázka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	,	,	PUNCT	Z	_	5	punct	_	_
+4	ťažká	ťažký	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	odpoveď	odpoveď	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
+6	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s2
+# text = Niekto si rád priplatí za rýchlosť , iný uvíta predovšetkým nízku cenu .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#2
+1	Niekto	niekto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+2	si	si	PRON	R	PronType=Prs|Reflex=Yes	4	obl	_	_
+3	rád	rád	ADJ	AUms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	obl	_	_
+4	priplatí	priplatiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	rýchlosť	rýchlosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obl:arg	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	iný	iný	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	9	dep	_	_
+9	uvíta	uvítať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	predovšetkým	predovšetkým	PART	T	_	11	advmod:emph	_	_
+11	nízku	nízky	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	cenu	cena	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+13	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s3
+# text = Dovolil som si preto pripraviť malý prehľad možností .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#3
+1	Dovolil	dovoliť	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	si	si	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+4	preto	preto	ADV	PD	PronType=Dem	1	advmod	_	_
+5	pripraviť	pripraviť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	xcomp	_	_
+6	malý	malý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	prehľad	prehľad	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	možností	možnosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s4
+# text = Vlakom
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#4
+1	Vlakom	vlak	PROPN	SSis7:r	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s5
+# text = Cestovanie vlakom je asi najrýchlejšie a najpohodlnejšie ( aj v porovnaní s lietadlom ) .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#5
+1	Cestovanie	cestovanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	vlakom	vlak	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	asi	asi	PART	T	_	5	advmod:emph	_	_
+5	najrýchlejšie	rýchly	ADJ	AAns1z	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	0	root	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	najpohodlnejšie	pohodlný	ADJ	AAns1z	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	5	conj	_	_
+8	(	(	PUNCT	Z	_	13	punct	_	_
+9	aj	aj	PART	T	_	13	advmod:emph	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+11	porovnaní	porovnanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	10	fixed	_	_
+12	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	10	fixed	_	_
+13	lietadlom	lietadlo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+14	)	)	PUNCT	Z	_	13	punct	_	_
+15	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s6
+# text = Zároveň turistom umožňuje cestovať relatívne lacno , ak si zakúpia Rail Pass .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#6
+1	Zároveň	zároveň	ADV	Dx	Degree=Pos	3	advmod	_	_
+2	turistom	turista	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	iobj	_	_
+3	umožňuje	umožňovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	cestovať	cestovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+5	relatívne	relatívne	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	lacno	lacno	ADV	Dx	Degree=Pos	4	advmod	_	_
+7	,	,	PUNCT	Z	_	10	punct	_	_
+8	ak	ak	SCONJ	O	_	10	mark	_	_
+9	si	si	PRON	R	PronType=Prs|Reflex=Yes	10	obl	_	_
+10	zakúpia	zakúpiť	VERB	VKdpc+	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+11	Rail	rail	X	%	Foreign=Yes	12	nmod	_	_
+12	Pass	pass	PROPN	SSis4:r	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+13	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s7
+# text = Nárok naň majú iba návštevníci so statusom " Temporary Visitor " , tzn . turisti do 90 dní pobytu .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#7
+1	Nárok	nárok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+2	naň	na_on	PRON	PFis4g	AdpType=Preppron|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	1	nmod	_	_
+3	majú	mať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	iba	iba	PART	T	_	5	advmod:emph	_	_
+5	návštevníci	návštevník	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+6	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	7	case	_	_
+7	statusom	status	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	_
+8	"	"	PUNCT	Z	_	9	punct	_	_
+9	Temporary	temporary	X	%	Foreign=Yes	7	nmod	_	_
+10	Visitor	visitor	X	%	Foreign=Yes	9	flat:foreign	_	_
+11	"	"	PUNCT	Z	_	9	punct	_	_
+12	,	,	PUNCT	Z	_	15	punct	_	_
+13	tzn	tzn	X	W	Abbr=Yes	15	cc	_	_
+14	.	.	PUNCT	Z	_	15	punct	_	_
+15	turisti	turista	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	appos	_	_
+16	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+17	90	90	NUM	0	NumForm=Digit	15	nummod	_	_
+18	dní	deň	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	pobytu	pobyt	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s8
+# text = Zakúpiť sa musí pred príchodom do Japonska v špecializovaných cestovkách .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#8
+1	Zakúpiť	zakúpiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pass	_	_
+3	musí	musieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	5	case	_	_
+5	príchodom	príchod	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+6	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	Japonska	japonsko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+9	špecializovaných	špecializovaný	ADJ	Gtfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	cestovkách	cestovka	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	1	obl	_	_
+11	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s9
+# text = Existuje viacero druhov Rail Pass - ov , ktoré sa líšia cenou a trvaním platnosti ( najlacnejší 7 - dňový stojí v prepočte asi 7000 korún ) .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#9
+1	Existuje	existovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	viacero	viacero	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	1	obj	_	_
+3	druhov	druh	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	Rail	rail	X	%	Foreign=Yes	5	nmod	_	_
+5	Pass	pass	PROPN	SSip2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+6	-	-	PUNCT	Z	_	5	punct	_	_
+7	ov	ov	X	Q	Hyph=Yes	3	nmod	_	_
+8	,	,	PUNCT	Z	_	11	punct	_	_
+9	ktoré	ktorý	DET	PAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	11	nsubj	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	obj	_	_
+11	líšia	líšiť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	acl	_	_
+12	cenou	cena	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	trvaním	trvanie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	12	conj	_	_
+15	platnosti	platnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	(	(	PUNCT	Z	_	21	punct	_	_
+17	najlacnejší	lacný	ADJ	AAis1z	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	21	dep	_	_
+18	7	7	NUM	0	NumForm=Digit	20	nummod	_	_
+19	-	-	PUNCT	Z	_	18	punct	_	_
+20	dňový	dňový	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	dep	_	_
+21	stojí	stáť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+22	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	23	case	_	_
+23	prepočte	prepočet	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_
+24	asi	asi	PART	T	_	25	advmod:emph	_	_
+25	7000	7000	NUM	0	NumForm=Digit	21	obl	_	_
+26	korún	koruna	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	_
+27	)	)	PUNCT	Z	_	21	punct	_	_
+28	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s10
+# text = Navyše , Japan Railways prevádzkujú veľké množstvo autobusových liniek , na ktorých vám Rail Pass taktiež platí .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#10
+1	Navyše	navyše	PART	T	_	5	advmod	_	_
+2	,	,	PUNCT	Z	_	1	punct	_	_
+3	Japan	japan	X	%	Foreign=Yes	5	nsubj	_	_
+4	Railways	railways	X	%	Foreign=Yes	3	flat:foreign	_	_
+5	prevádzkujú	prevádzkovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	veľké	veľký	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	množstvo	množstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+8	autobusových	autobusový	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
+9	liniek	linka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+10	,	,	PUNCT	Z	_	17	punct	_	_
+11	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	ktorých	ktorý	DET	PAfp6	Case=Loc|Gender=Fem|Number=Plur|PronType=Int,Rel	17	obl	_	_
+13	vám	vy	PRON	PPhp3	Case=Dat|Number=Plur|Person=2|PronType=Prs	17	discourse	_	_
+14	Rail	rail	X	%	Foreign=Yes	15	nmod	_	_
+15	Pass	pass	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+16	taktiež	taktiež	PART	T	_	17	advmod:emph	_	_
+17	platí	platiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	acl	_	_
+18	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s11
+# text = Len pre porovnanie , cesta Šinkanzenom z Kyóta do Tokia vyjde na približne 3500 korún .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#11
+1	Len	len	PART	T	_	3	advmod:emph	_	_
+2	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+3	porovnanie	porovnanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
+4	,	,	PUNCT	Z	_	3	punct	_	_
+5	cesta	cesta	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+6	Šinkanzenom	šinkanzen	PROPN	SSis7:r	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	_
+7	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	Kyóta	kyóto	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+9	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	Tokia	tokio	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+11	vyjde	vyjsť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+13	približne	približne	PART	T	_	14	advmod:emph	_	_
+14	3500	3500	NUM	0	NumForm=Digit	11	obl:arg	_	_
+15	korún	koruna	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+16	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s12
+# text = Autobusom
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#12
+1	Autobusom	autobus	PROPN	SSis7:r	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s13
+# text = Cestovanie autobusom je v porovnaní s vlakom lacnejšie asi o toľko , o koľko je nepohodlnejšie .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#13
+1	Cestovanie	cestovanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+2	autobusom	autobus	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+5	porovnaní	porovnanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	6	case	_	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+7	vlakom	vlak	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	case	_	_
+8	lacnejšie	lacný	ADJ	AAns1y	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	0	root	_	_
+9	asi	asi	PART	T	_	11	advmod:emph	_	_
+10	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+11	toľko	toľko	DET	PUns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Card|PronType=Dem	8	obl	_	_
+12	,	,	PUNCT	Z	_	16	punct	_	_
+13	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+14	koľko	koľko	DET	PUns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Card|PronType=Int,Rel	16	obl	_	_
+15	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	nepohodlnejšie	nepohodlný	ADJ	AAns1y	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	11	acl	_	_
+17	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s14
+# text = Napríklad spojenie z Tsukuby do Tokia ( asi 60 km ) vyjde v prepočte na 250 korún .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#14
+1	Napríklad	napríklad	PART	T	_	2	advmod:emph	_	_
+2	spojenie	spojenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+3	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	Tsukuby	tsukuba	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	Tokia	tokio	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+7	(	(	PUNCT	Z	_	2	punct	_	_
+8	asi	asi	PART	T	_	9	advmod:emph	_	_
+9	60	60	NUM	0	NumForm=Digit	2	dep	_	_
+10	km	km	X	W	Abbr=Yes	9	nmod	_	_
+11	)	)	PUNCT	Z	_	2	punct	_	_
+12	vyjde	vyjsť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	prepočte	prepočet	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+15	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
+16	250	250	NUM	0	NumForm=Digit	12	obl	_	_
+17	korún	koruna	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+18	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s15
+# text = V ideálnom prípade to trvá asi hodinu , ak sú zápchy , môže to kľudne narásť na niekoľko hodín .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#15
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	ideálnom	ideálny	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	prípade	prípad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+4	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+5	trvá	trvať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	asi	asi	PART	T	_	7	advmod:emph	_	_
+7	hodinu	hodina	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+8	,	,	PUNCT	Z	_	10	punct	_	_
+9	ak	ak	SCONJ	O	_	10	mark	_	_
+10	sú	byť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+11	zápchy	zápcha	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+12	,	,	PUNCT	Z	_	13	punct	_	_
+13	môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
+14	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	13	nsubj	_	_
+15	kľudne	kľudne	ADV	Dx	Degree=Pos	13	advmod	_	_
+16	narásť	narásť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	13	xcomp	_	_
+17	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	19	case	_	_
+18	niekoľko	niekoľko	DET	PUns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Card|PronType=Ind	19	det:numgov	_	_
+19	hodín	hodina	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	16	obl	_	_
+20	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s16
+# text = Naproti tomu nočný autobus z Tokia do Kyóta ( vyše 500 km ) vás môže vyjsť od 1200 do 2000 korún .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#16
+1	Naproti	naproti	SCONJ	O	_	2	case	_	_
+2	tomu	tomu	SCONJ	O	_	15	advmod	_	_
+3	nočný	nočný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	autobus	autobus	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+5	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	Tokia	tokio	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	Kyóta	kyóto	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+9	(	(	PUNCT	Z	_	4	punct	_	_
+10	vyše	vyše	PART	T	_	11	advmod:emph	_	_
+11	500	500	NUM	0	NumForm=Digit	4	dep	_	_
+12	km	km	X	W	Abbr=Yes	11	nmod	_	_
+13	)	)	PUNCT	Z	_	4	punct	_	_
+14	vás	vy	PRON	PPhp4	Case=Acc|Number=Plur|Person=2|PronType=Prs	16	obj	_	_
+15	môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	vyjsť	vyjsť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	15	xcomp	_	_
+17	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	18	case	_	_
+18	1200	1200	NUM	0	NumForm=Digit	16	obl	_	_
+19	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+20	2000	2000	NUM	0	NumForm=Digit	16	obl	_	_
+21	korún	koruna	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+22	.	.	PUNCT	Z	_	15	punct	_	_
+
+# sent_id = s17
+# text = Autobusy sú pohodlím na európskej úrovni .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#17
+1	Autobusy	autobus	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	pohodlím	pohodlie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	0	root	_	_
+4	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+5	európskej	európsky	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	úrovni	úroveň	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
+7	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s18
+# text = Autom
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#18
+1	Autom	auto	PROPN	SSns7:r	Case=Ins|Gender=Neut|Number=Sing	0	root	_	_
+
+# sent_id = s19
+# text = Cestovanie autom je asi najlacnejšia alternatíva - ak máte v Japonsku známeho , ktorý vám požičia auto .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#19
+1	Cestovanie	cestovanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+2	autom	auto	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	asi	asi	PART	T	_	5	advmod:emph	_	_
+5	najlacnejšia	lacný	ADJ	AAfs1z	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	6	amod	_	_
+6	alternatíva	alternatíva	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+7	-	-	PUNCT	Z	_	9	punct	_	_
+8	ak	ak	SCONJ	O	_	9	mark	_	_
+9	máte	mať	VERB	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	Japonsku	japonsko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+12	známeho	známy	NOUN	SAms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+13	,	,	PUNCT	Z	_	16	punct	_	_
+14	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	16	nsubj	_	_
+15	vám	vy	PRON	PPhp3	Case=Dat|Number=Plur|Person=2|PronType=Prs	16	iobj	_	_
+16	požičia	požičať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	acl	_	_
+17	auto	auto	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+18	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s20
+# text = Na šoférovanie auta potrebujete medzinárodný vodičský preukaz podľa dohovoru z roku 1949 .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#20
+1	Na	na	ADP	Eu4	AdpType=Prep|Case=Acc	2	case	_	_
+2	šoférovanie	šoférovanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	_
+3	auta	auto	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	potrebujete	potrebovať	VERB	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	medzinárodný	medzinárodný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	vodičský	vodičský	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	preukaz	preukaz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+8	podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	dohovoru	dohovor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+11	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	1949	1949	NUM	0	NumForm=Digit	11	nummod	_	_
+13	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s21
+# text = Ten sa mi ale na dopravnom inšpektoráte v Prešove nepodarilo získať a je celkom možné , že sa na Slovensku ani nevydáva .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#21
+1	Ten	ten	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	10	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+3	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+4	ale	ale	PART	T	_	10	advmod	_	_
+5	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	dopravnom	dopravný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	inšpektoráte	inšpektorát	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	Prešove	prešov	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+10	nepodarilo	podariť	VERB	VLdscn-	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+11	získať	získať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	10	xcomp	_	_
+12	a	a	CCONJ	O	_	15	cc	_	_
+13	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	celkom	celkom	PART	T	_	15	advmod:emph	_	_
+15	možné	možný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	conj	_	_
+16	,	,	PUNCT	Z	_	22	punct	_	_
+17	že	že	SCONJ	O	_	22	mark	_	_
+18	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	22	expl:pass	_	_
+19	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+20	Slovensku	slovensko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	22	obl	_	_
+21	ani	ani	PART	T	_	22	advmod:emph	_	_
+22	nevydáva	vydávať	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	15	csubj	_	_
+23	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s22
+# text = Preto väčšina mojich známych vyriešila tento problém jednoducho a šoféruje na medzinárodný VP podľa konvencie z roku 1968 .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#22
+1	Preto	preto	CCONJ	O	_	5	advmod	_	_
+2	väčšina	väčšina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	mojich	môj	DET	PFmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
+4	známych	známy	NOUN	SAmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	vyriešila	vyriešiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	tento	tento	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	problém	problém	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	jednoducho	jednoducho	ADV	Dx	Degree=Pos	5	advmod	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	šoféruje	šoférovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+12	medzinárodný	medzinárodný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	VP	vp	X	W	Abbr=Yes	10	advmod	_	_
+14	podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+15	konvencie	konvencia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+17	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	1968	1968	NUM	0	NumForm=Digit	17	nummod	_	_
+19	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s23
+# text = Silne doporučené je mať uzavretú poistku zodpovednosti za škody .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#23
+1	Silne	silne	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	doporučené	doporučený	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	mať	mať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	csubj	_	_
+5	uzavretú	uzavretý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	poistku	poistka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	zodpovednosti	zodpovednosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+9	škody	škoda	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	7	nmod	_	_
+10	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s24
+# text = Benzín stojí o trochu menej , ako u nás .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#24
+1	Benzín	benzín	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	stojí	stáť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	trochu	trochu	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+5	menej	menej	NUM	Nuns4	AdpType=Prep|Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
+6	,	,	PUNCT	Z	_	9	punct	_	_
+7	ako	ako	SCONJ	O	_	9	mark	_	_
+8	u	u	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	nás	my	PRON	PPhp2	Case=Gen|Number=Plur|Person=1|PronType=Prs	5	dep	_	_
+10	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s25
+# text = Za diaľnice sa platí mýtnym systémom a sú to nemalé čiastky ( cca 500 korún za 100 km úsek ) .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#25
+1	Za	za	ADP	Eu4	AdpType=Prep|Case=Acc	2	case	_	_
+2	diaľnice	diaľnica	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	4	obl:arg	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pass	_	_
+4	platí	platiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	mýtnym	mýtny	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	systémom	systém	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+7	a	a	CCONJ	O	_	9	cc	_	_
+8	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	conj	_	_
+10	nemalé	nemalý	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
+11	čiastky	čiastka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+12	(	(	PUNCT	Z	_	14	punct	_	_
+13	cca	cca	X	W	Abbr=Yes	14	advmod:emph	_	_
+14	500	500	NUM	0	NumForm=Digit	11	appos	_	_
+15	korún	koruna	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+16	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	19	case	_	_
+17	100	100	NUM	0	NumForm=Digit	18	nummod	_	_
+18	km	km	X	W	Abbr=Yes	19	nmod	_	_
+19	úsek	úsek	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	nmod	_	_
+20	)	)	PUNCT	Z	_	14	punct	_	_
+21	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s26
+# text = Pokuty sú veľmi vysoké , môžu dosiahnuť až 100 tisíc korún .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#26
+1	Pokuty	pokuta	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+2	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	veľmi	veľmi	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	vysoké	vysoký	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+5	,	,	PUNCT	Z	_	6	punct	_	_
+6	môžu	môcť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	_	_
+7	dosiahnuť	dosiahnuť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+8	až	až	PART	T	_	9	advmod:emph	_	_
+9	100	100	NUM	0	NumForm=Digit	7	obl	_	_
+10	tisíc	tisíc	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	9	nummod	_	_
+11	korún	koruna	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s27
+# text = Auto z požičovne je pomerne drahá záležitosť - ako všade na svete - zoženiete ho od cca 2000 korún na deň .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#27
+1	Auto	auto	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+2	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+3	požičovne	požičovňa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	pomerne	pomerne	PART	T	_	6	cc	_	_
+6	drahá	drahý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	záležitosť	záležitosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+8	-	-	PUNCT	Z	_	10	punct	_	_
+9	ako	ako	SCONJ	O	_	10	mark	_	_
+10	všade	všade	ADV	PD	PronType=Tot	7	dep	_	_
+11	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	svete	svet	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	dep	_	_
+13	-	-	PUNCT	Z	_	14	punct	_	_
+14	zoženiete	zohnať	VERB	VKdpb+	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	conj	_	_
+15	ho	ono	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	18	case	_	_
+17	cca	cca	X	W	Abbr=Yes	18	advmod:emph	_	_
+18	2000	2000	NUM	0	NumForm=Digit	14	obl	_	_
+19	korún	koruna	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+20	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	21	case	_	_
+21	deň	deň	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	nmod	_	_
+22	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s28
+# text = Lietadlom
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#28
+1	Lietadlom	lietadlo	PROPN	SSns7:r	Case=Ins|Gender=Neut|Number=Sing	0	root	_	_
+
+# sent_id = s29
+# text = Ceny za letenky sa veľmi nelíšia od cien cesty rýchlovlakom Šinkanzen , ale to málo času , ktoré v lietadle získate , nestojí za komfort cesty vlakom .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#29
+1	Ceny	cena	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+2	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+3	letenky	letenka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	1	nmod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	obj	_	_
+5	veľmi	veľmi	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	nelíšia	líšiť	VERB	VKepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	cien	cena	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	6	obl:arg	_	_
+9	cesty	cesta	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	rýchlovlakom	rýchlovlak	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_
+11	Šinkanzen	šinkanzen	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
+12	,	,	PUNCT	Z	_	23	punct	_	_
+13	ale	ale	CCONJ	O	_	23	cc	_	_
+14	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	det	_	_
+15	málo	málo	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	_
+16	času	čas	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	,	,	PUNCT	Z	_	21	punct	_	_
+18	ktoré	ktorý	DET	PAns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	21	obj	_	_
+19	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+20	lietadle	lietadlo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	21	obl	_	_
+21	získate	získať	VERB	VKdpb+	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	acl	_	_
+22	,	,	PUNCT	Z	_	21	punct	_	_
+23	nestojí	stáť	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	conj	_	_
+24	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	25	case	_	_
+25	komfort	komfort	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obl:arg	_	_
+26	cesty	cesta	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	vlakom	vlak	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	26	nmod	_	_
+28	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s30
+# text = Iná je situácia , ak chcete navštíviť Okinawu - vtedy nemáte na výber .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#30
+1	Iná	iný	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	0	root	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	situácia	situácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+4	,	,	PUNCT	Z	_	6	punct	_	_
+5	ak	ak	SCONJ	O	_	6	mark	_	_
+6	chcete	chcieť	VERB	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+7	navštíviť	navštíviť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+8	Okinawu	okinawa	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	-	-	PUNCT	Z	_	11	punct	_	_
+10	vtedy	vtedy	ADV	PD	PronType=Dem	11	advmod	_	_
+11	nemáte	mať	VERB	VKepb-	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+12	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+13	výber	výber	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+14	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s31
+# text = Najmä v období štátnych sviatkov existujú akciové letenky , keď vás cesta z Tokia na Okinawu a späť ( s jedným nocľahom v cene ) môže vyjsť na približne 7000 korún .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#31
+1	Najmä	najmä	PART	T	_	5	advmod:emph	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	období	obdobie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+4	štátnych	štátny	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+5	sviatkov	sviatok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	existujú	existovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	akciové	akciový	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	letenky	letenka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+9	,	,	PUNCT	Z	_	26	punct	_	_
+10	keď	keď	SCONJ	O	_	26	mark	_	_
+11	vás	vy	PRON	PPhp4	Case=Acc|Number=Plur|Person=2|PronType=Prs	27	obj	_	_
+12	cesta	cesta	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
+13	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+14	Tokia	tokio	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+15	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
+16	Okinawu	okinawa	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	14	conj	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	späť	späť	ADV	Dx	Degree=Pos	14	conj	_	_
+19	(	(	PUNCT	Z	_	22	punct	_	_
+20	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	22	case	_	_
+21	jedným	jeden	NUM	NFis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	nummod	_	_
+22	nocľahom	nocľah	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	nmod	_	_
+23	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+24	cene	cena	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	22	nmod	_	_
+25	)	)	PUNCT	Z	_	22	punct	_	_
+26	môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+27	vyjsť	vyjsť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	26	xcomp	_	_
+28	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	30	case	_	_
+29	približne	približne	PART	T	_	30	advmod:emph	_	_
+30	7000	7000	NUM	0	NumForm=Digit	27	obl	_	_
+31	korún	koruna	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	30	nmod	_	_
+32	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s32
+# text = Stopom
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#32
+1	Stopom	stop	PROPN	SSis7:r	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s33
+# text = Tento bod je tu vlastne navyše , pretože v Japonsku nie je zvykom stopovať .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#33
+1	Tento	tento	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	bod	bod	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tu	tu	ADV	PD	PronType=Dem	3	advmod	_	_
+5	vlastne	vlastne	PART	T	_	6	cc	_	_
+6	navyše	navyše	ADV	Dx	Degree=Pos	3	advmod	_	_
+7	,	,	PUNCT	Z	_	13	punct	_	_
+8	pretože	pretože	SCONJ	O	_	13	mark	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	Japonsku	japonsko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
+11	nie	nie	PART	T	_	13	advmod	_	_
+12	je	byť	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	zvykom	zvyk	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	advcl	_	_
+14	stopovať	stopovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	13	csubj	_	_
+15	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s34
+# text = Napriek tomu , môj kamarát Michal dostopoval z Tokia až na Hokkaidó ( takmer 1000 km ) .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#34
+1	Napriek	napriek	ADP	Eu3	AdpType=Prep|Case=Dat	2	case	_	_
+2	tomu	to	DET	PFns3	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	7	obl	_	_
+3	,	,	PUNCT	Z	_	2	punct	_	_
+4	môj	môj	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	_
+5	kamarát	kamarát	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+6	Michal	michal	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	dostopoval	dostopovať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	Tokia	tokio	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+10	až	až	PART	T	_	12	cc	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	Hokkaidó	hokkaidó	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	9	conj	_	_
+13	(	(	PUNCT	Z	_	15	punct	_	_
+14	takmer	takmer	PART	T	_	15	advmod:emph	_	_
+15	1000	1000	NUM	0	NumForm=Digit	9	appos	_	_
+16	km	km	X	W	Abbr=Yes	15	nmod	_	_
+17	)	)	PUNCT	Z	_	15	punct	_	_
+18	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s35
+# text = Podľa jeho vlastných slov pri tom takmer zmrzol , ale veľmi sa mu to páčilo .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#35
+1	Podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+2	jeho	jeho	DET	PUnp2	Case=Gen|Gender=Neut|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+3	vlastných	vlastný	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	_
+4	slov	slovo	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	8	obl	_	_
+5	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	tom	to	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	8	obl	_	_
+7	takmer	takmer	PART	T	_	8	advmod:emph	_	_
+8	zmrzol	zmrznúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	,	,	PUNCT	Z	_	15	punct	_	_
+10	ale	ale	CCONJ	O	_	15	cc	_	_
+11	veľmi	veľmi	ADV	Dx	Degree=Pos	15	advmod	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+13	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+14	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	obj	_	_
+15	páčilo	páčiť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	conj	_	_
+16	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s36
+# text = Iných stopárov som tu zatiaľ ešte nevidel .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#36
+1	Iných	iný	DET	PAmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	stopárov	stopár	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+3	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	tu	tu	ADV	PD	PronType=Dem	7	advmod	_	_
+5	zatiaľ	zatiaľ	ADV	PD	PronType=Dem	7	advmod	_	_
+6	ešte	ešte	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	nevidel	vidieť	VERB	VLesam-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s37
+# text = Na záver ešte tip na cestu do Japonska .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#37
+1	Na	na	ADP	Eu4	AdpType=Prep|Case=Acc	2	case	_	_
+2	záver	záver	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
+3	ešte	ešte	PART	T	_	4	advmod:emph	_	_
+4	tip	tip	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	dep	_	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	cestu	cesta	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
+7	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	Japonska	japonsko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s38
+# text = Rozličné cestovné kancelária a agentúry mávajú počas roka akcie na ceny leteniek .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#38
+1	Rozličné	rozličný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
+2	cestovné	cestovný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
+3	kancelária	kancelária	NOUN	SSfp1:q	Case=Nom|Gender=Fem|Number=Plur|Typo=Yes	6	nsubj	_	_
+4	a	a	CCONJ	O	_	5	cc	_	_
+5	agentúry	agentúra	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	3	conj	_	_
+6	mávajú	mávať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	roka	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+9	akcie	akcia	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+10	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+11	ceny	cena	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	9	nmod	_	_
+12	leteniek	letenka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+13	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s39
+# text = Vtedy je možné pozháňať letenky až o polovicu lacnejšie , než normálny tarif .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#39
+1	Vtedy	vtedy	ADV	PD	PronType=Dem	3	advmod	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	možné	možný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+4	pozháňať	pozháňať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	csubj	_	_
+5	letenky	letenka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+6	až	až	PART	T	_	8	advmod:emph	_	_
+7	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+8	polovicu	polovica	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+9	lacnejšie	lacno	ADV	Dy	Degree=Cmp	5	advmod	_	_
+10	,	,	PUNCT	Z	_	13	punct	_	_
+11	než	než	SCONJ	O	_	13	mark	_	_
+12	normálny	normálny	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	tarif	tarif	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	advcl	_	_
+14	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s40
+# text = Občas sa oplatí trochu počkať . . .
+# orig_file_sentence 2005-09-21-d-311_kandracova_2005-09-21-d-311_bugajova#40
+1	Občas	občas	ADV	Dx	Degree=Pos	3	advmod	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pass	_	_
+3	oplatí	oplatiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	trochu	trocha	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+5	počkať	počkať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	csubj:pass	_	_
+6	.	.	PUNCT	Z	_	3	punct	_	_
+7	.	.	PUNCT	Z	_	3	punct	_	_
+8	.	.	PUNCT	Z	_	3	punct	_	_
+

@@ -1,0 +1,355 @@
+# sent_id = s1
+# text = Meteorológia
+# orig_file_sentence wiki-nove-018_hudekova_wiki-nove-018_kandracova#1
+1	Meteorológia	meteorológia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = s2
+# text = Meteorológia je veda zaoberajúca sa atmosférou .
+# orig_file_sentence wiki-nove-018_hudekova_wiki-nove-018_kandracova#2
+1	Meteorológia	meteorológia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	veda	veda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	zaoberajúca	zaoberajúci	ADJ	Gkfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	3	amod	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+6	atmosférou	atmosféra	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	4	obj	_	_
+7	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s3
+# text = Študuje jej zloženie , stavbu , vlastnosti , javy a deje v nej probiehajúce , napríklad počasie .
+# orig_file_sentence wiki-nove-018_hudekova_wiki-nove-018_kandracova#3
+1	Študuje	študovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	jej	jej	DET	PUos4	Case=Acc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	zloženie	zloženie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+4	,	,	PUNCT	Z	_	5	punct	_	_
+5	stavbu	stavba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	vlastnosti	vlastnosť	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	3	conj	_	_
+8	,	,	PUNCT	Z	_	9	punct	_	_
+9	javy	jav	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	conj	_	_
+10	a	a	CCONJ	O	_	9	cc	_	_
+11	deje	dej	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	nej	ona	PRON	PFfs6	Case=Loc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
+14	probiehajúce	prebiehajúci	ADJ	Gkip4x:q	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Typo=Yes|VerbForm=Part|Voice=Act	11	amod	_	_
+15	,	,	PUNCT	Z	_	17	punct	_	_
+16	napríklad	napríklad	PART	T	_	17	cc	_	_
+17	počasie	počasie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	11	appos	_	_
+18	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s4
+# text = Metorológia je považovaná za časť fyziky , preto je často chápaná ako " fyzika atmosféry " a vyučuje sa na matematicko ‐ fyzikálnych fakultách .
+# orig_file_sentence wiki-nove-018_hudekova_wiki-nove-018_kandracova#4
+1	Metorológia	meteorológia	NOUN	SSfs1:q	Case=Nom|Gender=Fem|Number=Sing|Typo=Yes	3	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	považovaná	považovaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	časť	časť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obl:arg	_	_
+6	fyziky	fyzika	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	,	,	PUNCT	Z	_	11	punct	_	_
+8	preto	preto	CCONJ	O	_	11	cc	_	_
+9	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	často	často	ADV	Dx	Degree=Pos	11	advmod	_	_
+11	chápaná	chápaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	conj	_	_
+12	ako	ako	SCONJ	O	_	14	mark	_	_
+13	"	"	PUNCT	Z	_	14	punct	_	_
+14	fyzika	fyzika	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	11	xcomp	_	_
+15	atmosféry	atmosféra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	"	"	PUNCT	Z	_	14	punct	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	vyučuje	vyučovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+19	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	18	expl:pv	_	_
+20	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+21	matematicko	matematicko	X	Q	Hyph=Yes	23	advmod	_	_
+22	‐	‐	PUNCT	Z	_	23	punct	_	_
+23	fyzikálnych	fyzikálny	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	_
+24	fakultách	fakulta	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	18	obl	_	_
+25	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s5
+# text = Na mnohých univerzitách je meteorológia často vyučovaná ako súčasť vied o Zemi , čo zohľadňuje súvislosť atmosféry s ďalšími krajinnými sférami .
+# orig_file_sentence wiki-nove-018_hudekova_wiki-nove-018_kandracova#5
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	mnohých	mnoho	NUM	NUfp6	Case=Loc|Gender=Fem|Number=Plur	3	nummod	_	_
+3	univerzitách	univerzita	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	7	obl	_	_
+4	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	meteorológia	meteorológia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	často	často	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	vyučovaná	vyučovaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+8	ako	ako	SCONJ	O	_	9	mark	_	_
+9	súčasť	súčasť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	xcomp	_	_
+10	vied	veda	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+11	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	Zemi	zem	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
+13	,	,	PUNCT	Z	_	15	punct	_	_
+14	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	15	nsubj	_	_
+15	zohľadňuje	zohľadňovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	conj	_	_
+16	súvislosť	súvislosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	atmosféry	atmosféra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	21	case	_	_
+19	ďalšími	ďalší	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	_
+20	krajinnými	krajinný	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	_
+21	sférami	sféra	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	16	nmod	_	_
+22	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s6
+# text = Poznatky meteorológie sú nevyhnutné v mnohých odvetviach ľudskej činnosti ‐ doprave , poľnohospodárstve a pre ozbrojené sily .
+# orig_file_sentence wiki-nove-018_hudekova_wiki-nove-018_kandracova#6
+1	Poznatky	poznatok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	meteorológie	meteorológia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	nevyhnutné	nevyhnutný	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	mnohých	mnoho	NUM	NUnp6	Case=Loc|Gender=Neut|Number=Plur	7	nummod	_	_
+7	odvetviach	odvetvie	NOUN	SSnp6	Case=Loc|Gender=Neut|Number=Plur	4	obl	_	_
+8	ľudskej	ľudský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	činnosti	činnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	‐	‐	PUNCT	Z	_	11	punct	_	_
+11	doprave	doprava	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	conj	_	_
+12	,	,	PUNCT	Z	_	13	punct	_	_
+13	poľnohospodárstve	poľnohospodárstvo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	7	conj	_	_
+14	a	a	CCONJ	O	_	17	cc	_	_
+15	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
+16	ozbrojené	ozbrojený	ADJ	Gtfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	17	amod	_	_
+17	sily	sila	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	7	conj	_	_
+18	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s7
+# text = S meteorológiou úzko súvisí hydrológia .
+# orig_file_sentence wiki-nove-018_hudekova_wiki-nove-018_kandracova#7
+1	S	s	ADP	Eu7	AdpType=Prep|Case=Ins	2	case	_	_
+2	meteorológiou	meteorológia	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	4	obl:arg	_	_
+3	úzko	úzko	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	súvisí	súvisieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	hydrológia	hydrológia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+6	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s8
+# text = Tematické okruhy meteorológie
+# orig_file_sentence wiki-nove-018_hudekova_wiki-nove-018_kandracova#8
+1	Tematické	tematický	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+2	okruhy	okruh	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+3	meteorológie	meteorológia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+
+# sent_id = s9
+# text = * zloženie a stavba atmosféry
+# orig_file_sentence wiki-nove-018_hudekova_wiki-nove-018_kandracova#9
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	zloženie	zloženie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+3	a	a	CCONJ	O	_	4	cc	_	_
+4	stavba	stavba	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
+5	atmosféry	atmosféra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+
+# sent_id = s10
+# text = * obeh tepla a tepelný režim v atmosfére a na zemskom povrchu vrátane radiačných procesov a rôznych mechanizmov neradiačnej výmeny medzi atmosférou a aktívnym povrchom a v atmosfére samotnej ,
+# orig_file_sentence wiki-nove-018_hudekova_wiki-nove-018_kandracova#10
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	obeh	obeh	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	tepla	teplo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	a	a	CCONJ	O	_	6	cc	_	_
+5	tepelný	tepelný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	režim	režim	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	atmosfére	atmosféra	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
+9	a	a	CCONJ	O	_	12	cc	_	_
+10	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+11	zemskom	zemský	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	povrchu	povrch	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	conj	_	_
+13	vrátane	vrátane	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+14	radiačných	radiačný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
+15	procesov	proces	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+16	a	a	CCONJ	O	_	18	cc	_	_
+17	rôznych	rôzny	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	_
+18	mechanizmov	mechanizmus	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	conj	_	_
+19	neradiačnej	neradiačný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	výmeny	výmena	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	22	case	_	_
+22	atmosférou	atmosféra	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	20	nmod	_	_
+23	a	a	CCONJ	O	_	25	cc	_	_
+24	aktívnym	aktívny	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	povrchom	povrch	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	conj	_	_
+26	a	a	CCONJ	O	_	28	cc	_	_
+27	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	28	case	_	_
+28	atmosfére	atmosféra	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	22	conj	_	_
+29	samotnej	samotný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+30	,	,	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s11
+# text = * obeh vody a jej fázové zmeny v atmosfére v interakcii so zemským povrchom ,
+# orig_file_sentence wiki-nove-018_hudekova_wiki-nove-018_kandracova#11
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	obeh	obeh	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	vody	voda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	a	a	CCONJ	O	_	7	cc	_	_
+5	jej	jej	DET	PUfp1	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+6	fázové	fázový	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
+7	zmeny	zmena	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	2	conj	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	atmosfére	atmosféra	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	interakcii	interakcia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+12	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	14	case	_	_
+13	zemským	zemský	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	povrchom	povrch	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
+15	,	,	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s12
+# text = * atmosférické pohyby − všeobecnú cirkuláciu atmosféry , jej zložky a miestne cirkulácie ,
+# orig_file_sentence wiki-nove-018_hudekova_wiki-nove-018_kandracova#12
+1	*	*	PUNCT	#	_	3	punct	_	_
+2	atmosférické	atmosférický	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	pohyby	pohyb	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+4	−	−	PUNCT	Z	_	6	punct	_	_
+5	všeobecnú	všeobecný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	cirkuláciu	cirkulácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	appos	_	_
+7	atmosféry	atmosféra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	,	,	PUNCT	Z	_	10	punct	_	_
+9	jej	jej	DET	PUfp4	Case=Acc|Gender=Fem|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	zložky	zložka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	_
+11	a	a	CCONJ	O	_	13	cc	_	_
+12	miestne	miestny	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_
+13	cirkulácie	cirkulácia	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	_
+14	,	,	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s13
+# text = * elektrické pole atmosféry ,
+# orig_file_sentence wiki-nove-018_hudekova_wiki-nove-018_kandracova#13
+1	*	*	PUNCT	#	_	3	punct	_	_
+2	elektrické	elektrický	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	pole	pole	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+4	atmosféry	atmosféra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	,	,	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s14
+# text = * optické a akustické javy v atmosfére .
+# orig_file_sentence wiki-nove-018_hudekova_wiki-nove-018_kandracova#14
+1	*	*	PUNCT	#	_	5	punct	_	_
+2	optické	optický	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+3	a	a	CCONJ	O	_	4	cc	_	_
+4	akustické	akustický	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	conj	_	_
+5	javy	jav	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	atmosfére	atmosféra	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+8	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s15
+# text = Meteorológia sa zaoberá najmä troposférou a stratosférou , lebo tieto časti atmosféry sú nejdôležitejšir z hľadiska predpovedí počasia .
+# orig_file_sentence wiki-nove-018_hudekova_wiki-nove-018_kandracova#15
+1	Meteorológia	meteorológia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	zaoberá	zaoberať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	najmä	najmä	PART	T	_	5	advmod:emph	_	_
+5	troposférou	troposféra	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	obj	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	stratosférou	stratosféra	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	5	conj	_	_
+8	,	,	PUNCT	Z	_	14	punct	_	_
+9	lebo	lebo	CCONJ	O	_	14	mark	_	_
+10	tieto	táto	DET	PFfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	11	det	_	_
+11	časti	časť	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
+12	atmosféry	atmosféra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	nejdôležitejšir	dôležitý	ADJ	AAfp1z:q	Case=Nom|Degree=Sup|Gender=Fem|Number=Plur|Typo=Yes	3	advcl	_	_
+15	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+16	hľadiska	hľadisko	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	15	fixed	_	_
+17	predpovedí	predpoveď	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	14	obl	_	_
+18	počasia	počasie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s16
+# text = Štúdiom vysokej atmosféry sa zaoberá aeronómia .
+# orig_file_sentence wiki-nove-018_hudekova_wiki-nove-018_kandracova#16
+1	Štúdiom	štúdium	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	5	obj	_	_
+2	vysokej	vysoký	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	atmosféry	atmosféra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	zaoberá	zaoberať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	aeronómia	aeronómia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+7	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s17
+# text = Klimatológia
+# orig_file_sentence wiki-nove-018_hudekova_wiki-nove-018_kandracova#17
+1	Klimatológia	klimatológia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = s18
+# text = Postupne sa osamostatňujúcim odborom meteorológie je klimatológia .
+# orig_file_sentence wiki-nove-018_hudekova_wiki-nove-018_kandracova#18
+1	Postupne	postupne	ADV	Dx	Degree=Pos	3	advmod	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pass	_	_
+3	osamostatňujúcim	osamostatňujúci	ADJ	Gkis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	4	amod	_	_
+4	odborom	odbor	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+5	meteorológie	meteorológia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+7	klimatológia	klimatológia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+8	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s19
+# text = Klimatológia je veda o klíme na Zemi , o podmienkach a príčinách ich utvárania a aj o pôsobení klímy na objekty činnosti človeka , na samotného človeka i na rôzne prírodné deje a naopak .
+# orig_file_sentence wiki-nove-018_hudekova_wiki-nove-018_kandracova#19
+1	Klimatológia	klimatológia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	veda	veda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	klíme	klíma	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
+6	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	Zemi	zem	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+8	,	,	PUNCT	Z	_	10	punct	_	_
+9	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	podmienkach	podmienka	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	5	conj	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	príčinách	príčina	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	10	conj	_	_
+13	ich	ich	DET	PUns2	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	utvárania	utváranie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+15	a	a	CCONJ	O	_	18	cc	_	_
+16	aj	aj	PART	T	_	18	advmod:emph	_	_
+17	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+18	pôsobení	pôsobenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	conj	_	_
+19	klímy	klíma	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	21	case	_	_
+21	objekty	objekt	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	nmod	_	_
+22	činnosti	činnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	človeka	človek	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	,	,	PUNCT	Z	_	27	punct	_	_
+25	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	27	case	_	_
+26	samotného	samotný	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	xcomp	_	_
+27	človeka	človek	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	21	conj	_	_
+28	i	i	CCONJ	O	_	32	cc	_	_
+29	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	32	case	_	_
+30	rôzne	rôzny	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	32	amod	_	_
+31	prírodné	prírodný	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	32	amod	_	_
+32	deje	dej	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	21	conj	_	_
+33	a	a	CCONJ	O	_	34	cc	_	_
+34	naopak	naopak	ADV	Dx	Degree=Pos	18	conj	_	_
+35	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s20
+# text = Úlohou klimatológie je študovať všeobecné zákonitosti klimatických javov , utváranie zemskej klímy , jej zmeny a kolísanie s cieľom využiť tieto poznatky na predpovedanie a melioráciu klímy .
+# orig_file_sentence wiki-nove-018_hudekova_wiki-nove-018_kandracova#20
+1	Úlohou	úloha	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+2	klimatológie	klimatológia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	študovať	študovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	csubj	_	_
+5	všeobecné	všeobecný	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+6	zákonitosti	zákonitosť	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+7	klimatických	klimatický	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	javov	jav	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	,	,	PUNCT	Z	_	10	punct	_	_
+10	utváranie	utváranie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	conj	_	_
+11	zemskej	zemský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	klímy	klíma	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	,	,	PUNCT	Z	_	15	punct	_	_
+14	jej	jej	DET	PUfp4	Case=Acc|Gender=Fem|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	zmeny	zmena	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	_
+16	a	a	CCONJ	O	_	17	cc	_	_
+17	kolísanie	kolísanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	conj	_	_
+18	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	20	mark	_	_
+19	cieľom	cieľ	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	fixed	_	_
+20	využiť	využiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	advcl	_	_
+21	tieto	tento	DET	PFip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	22	det	_	_
+22	poznatky	poznatok	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
+23	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	24	case	_	_
+24	predpovedanie	predpovedanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	20	obl:arg	_	_
+25	a	a	CCONJ	O	_	26	cc	_	_
+26	melioráciu	meliorácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	24	conj	_	_
+27	klímy	klíma	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+28	.	.	PUNCT	Z	_	1	punct	_	_
+

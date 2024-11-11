@@ -1,0 +1,463 @@
+# sent_id = s1
+# text = HERKULES
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#1
+1	HERKULES	herkules	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s2
+# text = Čujte , čujte !
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#2
+1	Čujte	čuť	VERB	VMepb+	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+2	,	,	PUNCT	Z	_	3	punct	_	_
+3	čujte	čuť	VERB	VMepb+	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	1	conj	_	_
+4	!	!	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s3
+# text = Áno , to hovoríme s vami .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#3
+1	Áno	áno	PART	T	_	0	root	_	_
+2	,	,	PUNCT	Z	_	4	punct	_	_
+3	to	to	PART	T	_	4	discourse	_	_
+4	hovoríme	hovoriť	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+5	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	6	case	_	_
+6	vami	vy	PRON	PPhp7	Case=Ins|Number=Plur|Person=2|PronType=Prs	4	obl:arg	_	_
+7	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s4
+# text = Možno ste nás už videli tancovať vázami .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#4
+1	Možno	možno	PART	T	_	5	advmod	_	_
+2	ste	byť	AUX	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	nás	my	PRON	PPhp4	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
+4	už	už	PART	T	_	5	advmod	_	_
+5	videli	vidieť	VERB	VLepbh+	Aspect=Imp|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	tancovať	tancovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+7	vázami	váza	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	6	obl	_	_
+8	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s5
+# text = To sme my múzy prišli až za vami s príbehom vskutku nevídaným .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#5
+1	To	to	PART	T	_	5	discourse	_	_
+2	sme	byť	AUX	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	my	my	PRON	PPhp1	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+4	múzy	múza	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	3	nmod	_	_
+5	prišli	prísť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	až	až	PART	T	_	8	advmod:emph	_	_
+7	za	za	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+8	vami	vy	PRON	PPhp7	Case=Ins|Number=Plur|Person=2|PronType=Prs	5	obl	_	_
+9	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	10	case	_	_
+10	príbehom	príbeh	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+11	vskutku	vskutku	PART	T	_	12	cc	_	_
+12	nevídaným	vídaný	ADJ	Gtis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	10	amod	_	_
+13	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s6
+# text = Kedysi dávno , keď svet len zrodil sa , Titanov ukrutných všetok ľud bál sa .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#6
+1	Kedysi	kedysi	ADV	PD	PronType=Ind	2	advmod	_	_
+2	dávno	dávno	ADV	Dx	Degree=Pos	14	advmod	_	_
+3	,	,	PUNCT	Z	_	7	punct	_	_
+4	keď	keď	SCONJ	O	_	7	mark	_	_
+5	svet	svet	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	len	len	PART	T	_	7	advmod	_	_
+7	zrodil	zrodiť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	advcl	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+9	,	,	PUNCT	Z	_	7	punct	_	_
+10	Titanov	titan	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	obj	_	_
+11	ukrutných	ukrutný	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+12	všetok	všetok	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	13	det	_	_
+13	ľud	ľud	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+14	bál	bál	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pv	_	_
+16	.	.	PUNCT	Z	_	14	punct	_	_
+
+# sent_id = s7
+# text = Sopky vreli , vyčíňali búrky a zemetrasenia , svet bol plný zmätku a veľkého zdesenia .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#7
+1	Sopky	sopka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+2	vreli	vrieť	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	vyčíňali	vyčíňať	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+5	búrky	búrka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	zemetrasenia	zemetrasenie	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	5	conj	_	_
+8	,	,	PUNCT	Z	_	11	punct	_	_
+9	svet	svet	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+10	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	cop	_	_
+11	plný	plný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	_
+12	zmätku	zmätok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obj	_	_
+13	a	a	CCONJ	O	_	15	cc	_	_
+14	veľkého	veľký	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	zdesenia	zdesenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	12	conj	_	_
+16	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s8
+# text = Najvyšší boh Zeus ich vrhol do jamy , nech je už konečne pokoj s Titanmi .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#8
+1	Najvyšší	vysoký	ADJ	AAms1z	Animacy=Anim|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	2	amod	_	_
+2	boh	boh	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+3	Zeus	zeus	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	ich	on	PRON	PFmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+5	vrhol	vrhnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	jamy	jama	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+8	,	,	PUNCT	Z	_	10	punct	_	_
+9	nech	nech	SCONJ	O	_	10	mark	_	_
+10	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+11	už	už	PART	T	_	12	advmod:emph	_	_
+12	konečne	konečne	ADV	Dx	Degree=Pos	10	advmod	_	_
+13	pokoj	pokoj	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+14	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	15	case	_	_
+15	Titanmi	titan	PROPN	SSmp7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	13	nmod	_	_
+16	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s9
+# text = Každému bohovi dal na starosť niečo a ľud mu vďačný bol , veru , vedel prečo .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#9
+1	Každému	každý	DET	PAms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|PronType=Tot	2	det	_	_
+2	bohovi	boh	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	_
+3	dal	dať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	starosť	starosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+6	niečo	niečo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	3	obj	_	_
+7	a	a	CCONJ	O	_	10	cc	_	_
+8	ľud	ľud	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+9	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	vďačný	vďačný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	_
+11	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	cop	_	_
+12	,	,	PUNCT	Z	_	16	punct	_	_
+13	veru	veru	PART	T	_	16	cc	_	_
+14	,	,	PUNCT	Z	_	10	punct	_	_
+15	vedel	vedieť	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	case	_	_
+16	prečo	prečo	ADV	PD	PronType=Int,Rel	10	conj	_	_
+17	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s10
+# text = Až raz sa čosi stalo tam hore pod nebom a všetko zmenilo sa , sotva mihol okom . . .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#10
+1	Až	až	PART	T	_	5	advmod	_	_
+2	raz	raz	ADV	Dx	Degree=Pos	5	advmod	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+4	čosi	čosi	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	5	nsubj	_	_
+5	stalo	stať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	tam	tam	ADV	PD	PronType=Dem	5	advmod	_	_
+7	hore	hore	ADV	Dx	Degree=Pos	6	advmod	_	_
+8	pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+9	nebom	nebo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	7	obl	_	_
+10	a	a	CCONJ	O	_	12	cc	_	_
+11	všetko	všetok	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	12	nsubj	_	_
+12	zmenilo	zmeniť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+14	,	,	PUNCT	Z	_	16	punct	_	_
+15	sotva	sotva	SCONJ	O	_	16	advmod	_	_
+16	mihol	mihnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+17	okom	oko	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	16	obl	_	_
+18	.	.	PUNCT	Z	_	5	punct	_	_
+19	.	.	PUNCT	Z	_	5	punct	_	_
+20	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s11
+# text = Na nebi nad Olympom , vrchom , kde sídlili bohovia , zažiaril ohňostroj na počesť Diovho a Hérinho syna Herkula .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#11
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	nebi	nebo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+3	nad	nad	ADP	Eu7	AdpType=Prep|Case=Ins	4	case	_	_
+4	Olympom	olymp	PROPN	SSis7:r	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+5	,	,	PUNCT	Z	_	6	punct	_	_
+6	vrchom	vrch	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	appos	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	kde	kde	ADV	PD	PronType=Int,Rel	9	advmod	_	_
+9	sídlili	sídliť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
+10	bohovia	boh	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+11	,	,	PUNCT	Z	_	9	punct	_	_
+12	zažiaril	zažiariť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+13	ohňostroj	ohňostroj	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+14	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+15	počesť	počesť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	_
+16	Diovho	diov	ADJ	AFms2x:r	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+17	a	a	CCONJ	O	_	16	cc	_	_
+18	Hérinho	hérin	ADJ	AFms2x:r	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+19	syna	syn	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+20	Herkula	herkules	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+21	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s12
+# text = Všetkým bolo jasné , že to nie je obyčajné bábätko .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#12
+1	Všetkým	všetok	DET	PFmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	3	obj	_	_
+2	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	cop	_	_
+3	jasné	jasný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+4	,	,	PUNCT	Z	_	10	punct	_	_
+5	že	že	SCONJ	O	_	10	mark	_	_
+6	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	_
+7	nie	nie	PART	T	_	10	advmod	_	_
+8	je	byť	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	obyčajné	obyčajný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	bábätko	bábätko	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	3	csubj	_	_
+11	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s13
+# text = Isteže bol milý a prítulný ako všetky deti , no zároveň aj neuveriteľne silný .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#13
+1	Isteže	isteže	PART	T	_	3	advmod	_	_
+2	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	cop	_	_
+3	milý	milý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+4	a	a	CCONJ	O	_	5	cc	_	_
+5	prítulný	prítulný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	_
+6	ako	ako	SCONJ	O	_	8	mark	_	_
+7	všetky	všetok	DET	PFnp1	Case=Nom|Gender=Neut|Number=Plur|PronType=Tot	8	det	_	_
+8	deti	dieťa	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	3	dep	_	_
+9	,	,	PUNCT	Z	_	14	punct	_	_
+10	no	no	CCONJ	O	_	14	cc	_	_
+11	zároveň	zároveň	ADV	Dx	Degree=Pos	3	dep	_	_
+12	aj	aj	PART	T	_	14	cc	_	_
+13	neuveriteľne	neuveriteľne	ADV	Dx	Degree=Pos	14	advmod	_	_
+14	silný	silný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	_
+15	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s14
+# text = Už teraz poľahky zdvihol statného otca až nad hlavu .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#14
+1	Už	už	PART	T	_	2	advmod:emph	_	_
+2	teraz	teraz	ADV	Dx	Degree=Pos	4	advmod	_	_
+3	poľahky	poľahky	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	zdvihol	zdvihnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	statného	statný	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	otca	otec	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	až	až	PART	T	_	9	advmod:emph	_	_
+8	nad	nad	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+9	hlavu	hlava	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+10	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s15
+# text = Na oslavu prišli všetci olympskí bohovia a priniesli množstvo nádherných darov .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#15
+1	Na	na	ADP	Eu4	AdpType=Prep|Case=Acc	2	case	_	_
+2	oslavu	oslava	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+3	prišli	prísť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	všetci	všetok	DET	PFmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	6	det	_	_
+5	olympskí	olympský	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+6	bohovia	boh	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	priniesli	priniesť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+9	množstvo	množstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	nádherných	nádherný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_
+11	darov	dar	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s16
+# text = Zeus sa však nedal zahanbiť .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#16
+1	Zeus	zeus	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	však	však	PART	T	_	4	advmod	_	_
+4	nedal	dať	VERB	VLjscm-	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+5	zahanbiť	zahanbiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+6	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s17
+# text = Z niekoľkých oblakov urobil prekrásne okrídlené žriebätko a dal ho Herkulovi ako darček od neho a od Héry .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#17
+1	Z	z	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	niekoľkých	niekoľký	DET	PUip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	3	det	_	_
+3	oblakov	oblak	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+4	urobil	urobiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	prekrásne	prekrásne	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+6	okrídlené	okrídlený	ADJ	Gtns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	žriebätko	žriebätko	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	dal	dať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+10	ho	ono	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	Herkulovi	herkules	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	9	iobj	_	_
+12	ako	ako	SCONJ	O	_	13	mark	_	_
+13	darček	darček	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	xcomp	_	_
+14	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+15	neho	on	PRON	PFms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nmod	_	_
+16	a	a	CCONJ	O	_	18	cc	_	_
+17	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	18	case	_	_
+18	Héry	héra	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	15	conj	_	_
+19	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s18
+# text = “ Volá sa Pegas , synček , a je len tvoj ! “ povedal Zeus s úsmevom .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#18
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Volá	volať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+4	Pegas	pegas	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	obl	_	_
+5	,	,	PUNCT	Z	_	11	punct	_	_
+6	synček	synček	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	dep	_	_
+7	,	,	PUNCT	Z	_	11	punct	_	_
+8	a	a	CCONJ	O	_	11	cc	_	_
+9	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	len	len	PART	T	_	11	advmod:emph	_	_
+11	tvoj	tvoj	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	2	conj	_	_
+12	!	!	PUNCT	Z	_	2	punct	_	_
+13	“	“	PUNCT	Z	_	2	punct	_	_
+14	povedal	povedať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+15	Zeus	zeus	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+16	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	17	case	_	_
+17	úsmevom	úsmev	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	_
+18	.	.	PUNCT	Z	_	14	punct	_	_
+
+# sent_id = s19
+# text = Kým sa malý Herkules hral s Pegasom , zjavil sa Hádes , boh podsvetia .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#19
+1	Kým	kým	SCONJ	O	_	5	mark	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+3	malý	malý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	Herkules	herkules	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	hral	hrať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	advcl	_	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	7	case	_	_
+7	Pegasom	pegas	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obl:arg	_	_
+8	,	,	PUNCT	Z	_	5	punct	_	_
+9	zjavil	zjaviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+11	Hádes	hádes	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+12	,	,	PUNCT	Z	_	13	punct	_	_
+13	boh	boh	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
+14	podsvetia	podsvetie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s20
+# text = Nenávidel Dia , pretože mu dal na starosť ríšu temna a smútku , kde boli samí mŕtvi .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#20
+1	Nenávidel	nenávidieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	Dia	zeus	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+3	,	,	PUNCT	Z	_	6	punct	_	_
+4	pretože	pretože	SCONJ	O	_	6	mark	_	_
+5	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+6	dal	dať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	advcl	_	_
+7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+8	starosť	starosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+9	ríšu	ríša	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+10	temna	temno	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	smútku	smútok	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	10	conj	_	_
+13	,	,	PUNCT	Z	_	15	punct	_	_
+14	kde	kde	ADV	PD	PronType=Int,Rel	15	advmod	_	_
+15	boli	byť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	9	acl	_	_
+16	samí	samý	DET	PAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Emp	17	det	_	_
+17	mŕtvi	mŕtvy	NOUN	SAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+18	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s21
+# text = Lenže Zeus bol Hádesovým pánom , takže Hádes sa iba sladko usmial a daroval malému Herkulovi cumlík v tvare lebky .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#21
+1	Lenže	lenže	PART	T	_	5	cc	_	_
+2	Zeus	zeus	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	cop	_	_
+4	Hádesovým	hádesov	ADJ	AFms7x:r	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	pánom	pán	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+6	,	,	PUNCT	Z	_	12	punct	_	_
+7	takže	takže	CCONJ	O	_	12	mark	_	_
+8	Hádes	hádes	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+10	iba	iba	PART	T	_	11	cc	_	_
+11	sladko	sladko	ADV	Dx	Degree=Pos	12	advmod	_	_
+12	usmial	usmiať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	advcl	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	daroval	darovať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	conj	_	_
+15	malému	malý	ADJ	AAms3x	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	Herkulovi	herkules	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	14	iobj	_	_
+17	cumlík	cumlík	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+18	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	tvare	tvar	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	nmod	_	_
+20	lebky	lebka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s22
+# text = Malý Herkules chytil Hádesovu ruku a s takou silou mu ju stisol , až sa Hádes zatackal od bolesti .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#22
+1	Malý	malý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	Herkules	herkules	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	chytil	chytiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	Hádesovu	hádesov	ADJ	AFfs4x:r	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	ruku	ruka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	a	a	CCONJ	O	_	12	cc	_	_
+7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+8	takou	taký	DET	PAfs7	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	silou	sila	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_
+10	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
+11	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	stisol	stisnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+13	,	,	PUNCT	Z	_	17	punct	_	_
+14	až	až	SCONJ	O	_	17	mark	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	17	expl:pv	_	_
+16	Hádes	hádes	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+17	zatackal	zatackať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	advcl	_	_
+18	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	19	case	_	_
+19	bolesti	bolesť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+20	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s23
+# text = “ Bude najsilnejší zo všetkých bohov , “ hrdo vyhlásil Zeus .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#23
+1	“	“	PUNCT	Z	_	3	punct	_	_
+2	Bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	3	cop	_	_
+3	najsilnejší	silný	ADJ	AAms1z	Animacy=Anim|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	10	ccomp	_	_
+4	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	6	case	_	_
+5	všetkých	všetok	DET	PFmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	6	det	_	_
+6	bohov	boh	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+7	,	,	PUNCT	Z	_	3	punct	_	_
+8	“	“	PUNCT	Z	_	3	punct	_	_
+9	hrdo	hrdo	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	vyhlásil	vyhlásiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+11	Zeus	zeus	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s24
+# text = Hádes rýchlo odišiel z hostiny na Olympe a rozohnený sa vracal späť do podsvetia .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#24
+1	Hádes	hádes	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	rýchlo	rýchlo	ADV	Dx	Degree=Pos	3	advmod	_	_
+3	odišiel	odísť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+5	hostiny	hostina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+6	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	Olympe	olymp	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+8	a	a	CCONJ	O	_	11	cc	_	_
+9	rozohnený	rozohnený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	1	xcomp	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+11	vracal	vracať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+12	späť	späť	ADV	Dx	Degree=Pos	11	advmod	_	_
+13	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+14	podsvetia	podsvetie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_
+15	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s25
+# text = Zúril , až mu vlasy dupkom stáli .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#25
+1	Zúril	zúriť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	,	,	PUNCT	Z	_	7	punct	_	_
+3	až	až	SCONJ	O	_	7	mark	_	_
+4	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+5	vlasy	vlas	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+6	dupkom	dupkom	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	stáli	stáť	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	advcl	_	_
+8	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s26
+# text = Už teraz kul plány a tešil sa na deň , keď zhodí Dia a sám sa stane vládcom vesmíru .
+# orig_file_sentence herkules000_kandracova_herkules000_olejkarova#26
+1	Už	už	PART	T	_	2	advmod:emph	_	_
+2	teraz	teraz	ADV	Dx	Degree=Pos	3	advmod	_	_
+3	kul	kuť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	plány	plán	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	tešil	tešiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+8	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+9	deň	deň	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl:arg	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	keď	keď	SCONJ	O	_	12	mark	_	_
+12	zhodí	zhodiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	acl	_	_
+13	Dia	zeus	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	a	a	CCONJ	O	_	17	cc	_	_
+15	sám	sám	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	17	xcomp	_	_
+16	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	17	expl:pv	_	_
+17	stane	stať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	conj	_	_
+18	vládcom	vládca	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	iobj	_	_
+19	vesmíru	vesmír	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	.	.	PUNCT	Z	_	3	punct	_	_
+

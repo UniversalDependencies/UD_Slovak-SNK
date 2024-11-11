@@ -1,0 +1,711 @@
+# sent_id = s1
+# text = Kódex Gigas
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#1
+1	Kódex	kódex	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Gigas	gigas	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+
+# sent_id = s2
+# text = Kódex Gigas je najväčšia rukopisná kniha ( kódex ) na svete .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#2
+1	Kódex	kódex	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	Gigas	gigas	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	najväčšia	veľký	ADJ	AAfs1z	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	6	amod	_	_
+5	rukopisná	rukopisný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	kniha	kniha	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+7	(	(	PUNCT	Z	_	8	punct	_	_
+8	kódex	kódex	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+9	)	)	PUNCT	Z	_	8	punct	_	_
+10	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	svete	svet	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+12	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s3
+# text = Bola pravdepodobne napísaná začiatkom 13 . storočia v podlažickom kláštore pri Chrudimi .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#3
+1	Bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	cop	_	_
+2	pravdepodobne	pravdepodobne	PART	T	_	3	advmod:emph	_	_
+3	napísaná	napísaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	začiatkom	začiatkom	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+5	13	13	NUM	0	NumForm=Digit	7	nummod	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	storočia	storočie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+9	podlažickom	podlažický	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	kláštore	kláštor	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+11	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	Chrudimi	chrudim	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+13	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s4
+# text = Býva označovaná latinsko ‐ grécky Codex Gigas ( v preklade „ Obrovská kniha “ ) , alebo podľa výnimočného vyobrazenia diabla tiež ako Diablova biblia .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#4
+1	Býva	bývať	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	označovaná	označovaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+3	latinsko	latinsko	X	Q	Hyph=Yes	5	advmod	_	_
+4	‐	‐	PUNCT	Z	_	5	punct	_	_
+5	grécky	grécky	ADV	Dx	Degree=Pos	2	advmod	_	_
+6	Codex	codex	X	%	Foreign=Yes	2	advmod	_	_
+7	Gigas	gigas	X	%	Foreign=Yes	6	flat:foreign	_	_
+8	(	(	PUNCT	Z	_	13	punct	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	preklade	preklad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+11	„	„	PUNCT	Z	_	13	punct	_	_
+12	Obrovská	obrovský	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	kniha	kniha	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	_
+14	“	“	PUNCT	Z	_	13	punct	_	_
+15	)	)	PUNCT	Z	_	13	punct	_	_
+16	,	,	PUNCT	Z	_	20	punct	_	_
+17	alebo	alebo	CCONJ	O	_	20	cc	_	_
+18	podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+19	výnimočného	výnimočný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	vyobrazenia	vyobrazenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	2	conj	_	_
+21	diabla	diabol	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	tiež	tiež	PART	T	_	21	advmod:emph	_	_
+23	ako	ako	SCONJ	O	_	25	cc	_	_
+24	Diablova	diablov	ADJ	AFfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	biblia	biblia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	20	orphan	_	_
+26	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s5
+# text = Zámerom autora bolo zhrnúť všetko poznanie do jediného diela , vytvoriť akúsi „ knižnicu v jedinej knihe “ .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#5
+1	Zámerom	zámer	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+2	autora	autor	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	cop	_	_
+4	zhrnúť	zhrnúť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	csubj	_	_
+5	všetko	všetok	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	6	det	_	_
+6	poznanie	poznanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+7	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+8	jediného	jediný	ADJ	NAns2	Case=Gen|Gender=Neut|Number=Sing|NumType=Mult	9	amod	_	_
+9	diela	dielo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	vytvoriť	vytvoriť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	conj	_	_
+12	akúsi	akýsi	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	14	det	_	_
+13	„	„	PUNCT	Z	_	14	punct	_	_
+14	knižnicu	knižnica	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+16	jedinej	jediný	ADJ	NAfs6	Case=Loc|Gender=Fem|Number=Sing|NumType=Mult	17	amod	_	_
+17	knihe	kniha	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_
+18	“	“	PUNCT	Z	_	14	punct	_	_
+19	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s6
+# text = Kódex Gigas je zviazaný v drevených doskách potiahnutých svetlou kožou s kovovým zdobením .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#6
+1	Kódex	kódex	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	Gigas	gigas	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	zviazaný	zviazaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	drevených	drevený	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
+7	doskách	doska	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	4	obl	_	_
+8	potiahnutých	potiahnutý	ADJ	Gtfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	_	_
+9	svetlou	svetlý	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	kožou	koža	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+11	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	13	case	_	_
+12	kovovým	kovový	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	zdobením	zdobenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	10	nmod	_	_
+14	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s7
+# text = Rozmer dosiek je 920 × 505 × 22 mm .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#7
+1	Rozmer	rozmer	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	dosiek	doska	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	920	920	NUM	0	NumForm=Digit	0	root	_	_
+5	×	×	X	#	_	4	nmod	_	_
+6	505	505	NUM	0	NumForm=Digit	4	conj	_	_
+7	×	×	X	#	_	8	cc	_	_
+8	22	22	NUM	0	NumForm=Digit	4	conj	_	_
+9	mm	mm	X	W	Abbr=Yes	4	nmod	_	_
+10	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s8
+# text = Pôvodne obsahoval 320 pergamenových listov ( 640 strán ) veľkosti 890 × 490 mm .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#8
+1	Pôvodne	pôvodne	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	obsahoval	obsahovať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	320	320	NUM	0	NumForm=Digit	2	obj	_	_
+4	pergamenových	pergamenový	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+5	listov	list	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	(	(	PUNCT	Z	_	7	punct	_	_
+7	640	640	NUM	0	NumForm=Digit	3	appos	_	_
+8	strán	strana	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	)	)	PUNCT	Z	_	7	punct	_	_
+10	veľkosti	veľkosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+11	890	890	NUM	0	NumForm=Digit	10	nummod	_	_
+12	×	×	X	#	_	13	cc	_	_
+13	490	490	NUM	0	NumForm=Digit	11	conj	_	_
+14	mm	mm	X	W	Abbr=Yes	11	nmod	_	_
+15	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s9
+# text = Osem listov bolo vyrezaných , nevie sa kedy , kým a prečo .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#9
+1	Osem	osem	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	listov	list	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	cop	_	_
+4	vyrezaných	vyrezaný	ADJ	Gtip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+5	,	,	PUNCT	Z	_	6	punct	_	_
+6	nevie	vedieť	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	conj	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+8	kedy	kedy	ADV	PD	PronType=Int,Rel	6	nsubj	_	_
+9	,	,	PUNCT	Z	_	10	punct	_	_
+10	kým	kto	PRON	PFms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|PronType=Int,Rel	8	conj	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	prečo	prečo	ADV	PD	PronType=Int,Rel	8	conj	_	_
+13	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s10
+# text = Odstránené listy pravdepodobne obsahovali rehoľné pravidlá benediktínskeho rádu .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#10
+1	Odstránené	odstránený	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	listy	list	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	pravdepodobne	pravdepodobne	PART	T	_	4	advmod:emph	_	_
+4	obsahovali	obsahovať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	rehoľné	rehoľný	ADJ	AAnp4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	_
+6	pravidlá	pravidlo	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_
+7	benediktínskeho	benediktínsky	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	rádu	rád	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s11
+# text = Hmotnosť celého kódexu sa uvádza okolo 80 kg , na výrobu potrebného pergamenu boli spotrebované kože 160 oslov .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#11
+1	Hmotnosť	hmotnosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+2	celého	celý	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	kódexu	kódex	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pass	_	_
+5	uvádza	uvádzať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	okolo	okolo	PART	T	_	7	cc	_	_
+7	80	80	NUM	0	NumForm=Digit	5	obl	_	_
+8	kg	kg	X	W	Abbr=Yes	7	nmod	_	_
+9	,	,	PUNCT	Z	_	15	punct	_	_
+10	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+11	výrobu	výroba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_
+12	potrebného	potrebný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	pergamenu	pergamen	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	boli	byť	AUX	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	15	cop	_	_
+15	spotrebované	spotrebovaný	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	5	conj	_	_
+16	kože	koža	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+17	160	160	NUM	0	NumForm=Digit	18	nummod	_	_
+18	oslov	osol	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+19	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s12
+# text = História kódexu
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#12
+1	História	história	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	kódexu	kódex	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+
+# sent_id = s13
+# text = Kódex pravdepodobne vznikol v dnes už neexistujúcom kláštore v Podlažicích pri Chrudimi .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#13
+1	Kódex	kódex	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	pravdepodobne	pravdepodobne	PART	T	_	3	advmod:emph	_	_
+3	vznikol	vzniknúť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+5	dnes	dnes	ADV	Dx	Degree=Pos	7	advmod	_	_
+6	už	už	PART	T	_	7	advmod:emph	_	_
+7	neexistujúcom	existujúci	ADJ	Gkis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Act	8	amod	_	_
+8	kláštore	kláštor	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	Podlažicích	podlažice	PROPN	SSfp6:rq	Case=Loc|Gender=Fem|Number=Plur	8	nmod	_	_
+11	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	Chrudimi	chrudim	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+13	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s14
+# text = Záznamy v kódexe končia rokom 1229 .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#14
+1	Záznamy	záznam	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	kódexe	kódex	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+4	končia	končiť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	rokom	rok	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+6	1229	1229	NUM	0	NumForm=Digit	5	nummod	_	_
+7	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s15
+# text = Onedlho potom bol spis zastavený cisterciáckemu kláštoru v Sedlci .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#15
+1	Onedlho	onedlho	ADV	Dx	Degree=Pos	5	advmod	_	_
+2	potom	potom	ADV	Dx	Degree=Pos	5	advmod	_	_
+3	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	cop	_	_
+4	spis	spis	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	zastavený	zastavený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+6	cisterciáckemu	cisterciácky	ADJ	AAis3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	kláštoru	kláštor	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	obj	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	Sedlci	sedlec	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+10	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s16
+# text = Pavel Bavor z Nečtin ( 1290 až 1332 ) ho odkúpil pre břevnovský kláštor .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#16
+1	Pavel	pavel	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Bavor	bavor	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+3	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	Nečtin	nečtiny	PROPN	SSfp2:r	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+5	(	(	PUNCT	Z	_	2	punct	_	_
+6	1290	1290	NUM	0	NumForm=Digit	2	dep	_	_
+7	až	až	PART	T	_	8	cc	_	_
+8	1332	1332	NUM	0	NumForm=Digit	6	conj	_	_
+9	)	)	PUNCT	Z	_	2	punct	_	_
+10	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	odkúpil	odkúpiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+13	břevnovský	břevnovský	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	kláštor	kláštor	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl:arg	_	_
+15	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s17
+# text = V rokoch 1477 – 1593 sa kódex nachádzal v kláštore v Broumove .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#17
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	obl	_	_
+3	1477	1477	NUM	0	NumForm=Digit	2	nummod	_	_
+4	–	–	PUNCT	Z	_	5	punct	_	_
+5	1593	1593	NUM	0	NumForm=Digit	3	conj	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+7	kódex	kódex	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	nachádzal	nachádzať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	kláštore	kláštor	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	Broumove	broumov	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+13	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s18
+# text = V marci 1594 bol prevezený do Prahy , kde sa stal súčasťou zbierky cisára Rudolfa II .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#18
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	marci	marec	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	1594	1594	NUM	0	NumForm=Digit	2	nummod	_	_
+4	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	cop	_	_
+5	prevezený	prevezený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+6	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	Prahy	praha	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+8	,	,	PUNCT	Z	_	11	punct	_	_
+9	kde	kde	ADV	PD	PronType=Int,Rel	11	advmod	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+11	stal	stať	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
+12	súčasťou	súčasť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	11	obj	_	_
+13	zbierky	zbierka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	cisára	cisár	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+15	Rudolfa	rudolf	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	II	ii	NUM	0	NumForm=Digit	15	nummod	_	_
+17	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s19
+# text = Na konci tridsaťročnej vojny , v roku 1648 , celú zbierka odviezli Švédi .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#19
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	konci	koniec	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+3	tridsaťročnej	tridsaťročný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	vojny	vojna	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	appos	_	_
+8	1648	1648	NUM	0	NumForm=Digit	7	nummod	_	_
+9	,	,	PUNCT	Z	_	7	punct	_	_
+10	celú	celý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	zbierka	zbierka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+12	odviezli	odviezť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+13	Švédi	švéd	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+14	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s20
+# text = Od tej doby je tento rukopis uložený v Kráľovskej knižnici v Štokholme .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#20
+1	Od	od	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	tej	tá	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	doby	doba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+4	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	tento	tento	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	rukopis	rukopis	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	uložený	uložený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+9	Kráľovskej	kráľovský	ADJ	AAfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	knižnici	knižnica	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	Štokholme	štokholm	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+13	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s21
+# text = Neďaleko miesta svojho vzniku , v expozícii Mestského múzea v Chrasti ( www . mestochrast . cz ) je rukopis pripomenutý aspoň maketou .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#21
+1	Neďaleko	neďaleko	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	miesta	miesto	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	21	obl	_	_
+3	svojho	svoj	DET	PFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	4	det	_	_
+4	vzniku	vznik	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	expozícii	expozícia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	2	appos	_	_
+8	Mestského	mestský	ADJ	AAns2x:r	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	múzea	múzeum	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	Chrasti	chrast	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	_
+12	(	(	PUNCT	Z	_	9	punct	_	_
+13	www	www	X	W	Abbr=Yes	9	dep	_	_
+14	.	.	PUNCT	Z	_	13	punct	_	_
+15	mestochrast	mestochrast	X	Q	Hyph=Yes	13	nmod	_	_
+16	.	.	PUNCT	Z	_	17	punct	_	_
+17	cz	cz	X	W	Abbr=Yes	13	nmod	_	_
+18	)	)	PUNCT	Z	_	9	punct	_	_
+19	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	rukopis	rukopis	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+21	pripomenutý	pripomenutý	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+22	aspoň	aspoň	PART	T	_	23	advmod:emph	_	_
+23	maketou	maketa	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	21	obl	_	_
+24	.	.	PUNCT	Z	_	21	punct	_	_
+
+# sent_id = s22
+# text = Obsah kódexu
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#22
+1	Obsah	obsah	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	kódexu	kódex	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+
+# sent_id = s23
+# text = Do knihy je latinsky vpísaná celá biblia , Starý a Nový zákon , Kosmova kronika česká , a celý rad ďalších traktátov ( okrem iného z histórie , etymológie a fyziológie ) a menších spisov , kalendár s nekrológom , zoznam bratov podlažického kláštora , zaklínadlá a rôzne dobové záznamy .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#23
+1	Do	do	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	knihy	kniha	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	latinsky	latinsky	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	vpísaná	vpísaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+6	celá	celý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	xcomp	_	_
+7	biblia	biblia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+8	,	,	PUNCT	Z	_	12	punct	_	_
+9	Starý	starý	ADJ	AAis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+10	a	a	CCONJ	O	_	11	cc	_	_
+11	Nový	nový	ADJ	AAis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	conj	_	_
+12	zákon	zákon	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+13	,	,	PUNCT	Z	_	15	punct	_	_
+14	Kosmova	kosmov	ADJ	AFfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	kronika	kronika	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	_
+16	česká	český	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+17	,	,	PUNCT	Z	_	20	punct	_	_
+18	a	a	CCONJ	O	_	20	cc	_	_
+19	celý	celý	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	xcomp	_	_
+20	rad	rad	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+21	ďalších	ďalší	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	_
+22	traktátov	traktát	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+23	(	(	PUNCT	Z	_	27	punct	_	_
+24	okrem	okrem	ADP	Eu2	AdpType=Prep|Case=Gen	25	case	_	_
+25	iného	iný	DET	PAns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind	27	obl	_	_
+26	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	27	case	_	_
+27	histórie	história	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+28	,	,	PUNCT	Z	_	29	punct	_	_
+29	etymológie	etymológia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	27	conj	_	_
+30	a	a	CCONJ	O	_	31	cc	_	_
+31	fyziológie	fyziológia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	27	conj	_	_
+32	)	)	PUNCT	Z	_	27	punct	_	_
+33	a	a	CCONJ	O	_	35	cc	_	_
+34	menších	malý	ADJ	AAip2y	Animacy=Inan|Case=Gen|Degree=Cmp|Gender=Masc|Number=Plur	35	amod	_	_
+35	spisov	spis	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	conj	_	_
+36	,	,	PUNCT	Z	_	37	punct	_	_
+37	kalendár	kalendár	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+38	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	39	case	_	_
+39	nekrológom	nekrológ	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	37	nmod	_	_
+40	,	,	PUNCT	Z	_	41	punct	_	_
+41	zoznam	zoznam	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+42	bratov	brat	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	41	nmod	_	_
+43	podlažického	podlažický	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	44	amod	_	_
+44	kláštora	kláštor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	_
+45	,	,	PUNCT	Z	_	46	punct	_	_
+46	zaklínadlá	zaklínadlo	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	7	conj	_	_
+47	a	a	CCONJ	O	_	50	cc	_	_
+48	rôzne	rôzny	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	50	amod	_	_
+49	dobové	dobový	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	50	amod	_	_
+50	záznamy	záznam	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	conj	_	_
+51	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s24
+# text = Kódex obsahuje iluminácie červenej , modrej , žltej , zelenej a zlatej farby , iniciály sú veľmi bohaté , často cez celú výšku stránky .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#24
+1	Kódex	kódex	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	obsahuje	obsahovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	iluminácie	iluminácia	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+4	červenej	červený	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+5	,	,	PUNCT	Z	_	6	punct	_	_
+6	modrej	modrý	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	conj	_	_
+7	,	,	PUNCT	Z	_	8	punct	_	_
+8	žltej	žltý	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	conj	_	_
+9	,	,	PUNCT	Z	_	10	punct	_	_
+10	zelenej	zelený	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	conj	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	zlatej	zlatý	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	conj	_	_
+13	farby	farba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+14	,	,	PUNCT	Z	_	18	punct	_	_
+15	iniciály	iniciála	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	_
+16	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	veľmi	veľmi	ADV	Dx	Degree=Pos	18	advmod	_	_
+18	bohaté	bohatý	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	conj	_	_
+19	,	,	PUNCT	Z	_	20	punct	_	_
+20	často	často	ADV	Dx	Degree=Pos	18	advmod	_	_
+21	cez	cez	ADP	Eu4	AdpType=Prep|Case=Acc	23	case	_	_
+22	celú	celý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	xcomp	_	_
+23	výšku	výška	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
+24	stránky	stránka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s25
+# text = Značne pútavé sú špirálovito zdobené vzory , z ktorých vyrastajú rôzne kvetinové výhonky .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#25
+1	Značne	značne	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	pútavé	pútavý	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	_
+3	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	špirálovito	špirálovito	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	zdobené	zdobený	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	vzory	vzor	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+7	,	,	PUNCT	Z	_	10	punct	_	_
+8	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	ktorých	ktorý	DET	PAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|PronType=Int,Rel	10	obl	_	_
+10	vyrastajú	vyrastať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	acl	_	_
+11	rôzne	rôzny	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_
+12	kvetinové	kvetinový	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_
+13	výhonky	výhonok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+14	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s26
+# text = Na celom diele fascinuje jeho jednota , ráz písma je bez zmeny takmer v celom rozsahu , bez vplyvu starnutia pisára , ochorenia , počasia či nálad , ako keby celá kniha bola skutočne spísaná počas veľmi krátkej doby ( pozri legenda o spísaní ) .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#26
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	celom	celý	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	xcomp	_	_
+3	diele	dielo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+4	fascinuje	fascinovať	VERB	VKjsc+	Aspect=Imp,Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	jednota	jednota	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+7	,	,	PUNCT	Z	_	19	punct	_	_
+8	ráz	ráz	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+9	písma	písmo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	cop	_	_
+11	bez	bez	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+12	zmeny	zmena	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+13	takmer	takmer	PART	T	_	19	advmod:emph	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+15	celom	celý	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	xcomp	_	_
+16	rozsahu	rozsah	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+17	,	,	PUNCT	Z	_	19	punct	_	_
+18	bez	bez	ADP	Eu2	AdpType=Prep|Case=Gen	19	case	_	_
+19	vplyvu	vplyv	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	conj	_	_
+20	starnutia	starnutie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	pisára	pisár	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	,	,	PUNCT	Z	_	23	punct	_	_
+23	ochorenia	ochorenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	20	conj	_	_
+24	,	,	PUNCT	Z	_	25	punct	_	_
+25	počasia	počasie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	20	conj	_	_
+26	či	či	CCONJ	O	_	27	cc	_	_
+27	nálad	nálada	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	20	conj	_	_
+28	,	,	PUNCT	Z	_	35	punct	_	_
+29	ako	ako	SCONJ	O	_	35	mark	_	_
+30	keby	keby	SCONJ	OY	Mood=Cnd	29	fixed	_	_
+31	celá	celý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	xcomp	_	_
+32	kniha	kniha	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	35	nsubj	_	_
+33	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	35	cop	_	_
+34	skutočne	skutočne	ADV	Dx	Degree=Pos	35	advmod	_	_
+35	spísaná	spísaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	19	advcl	_	_
+36	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	39	case	_	_
+37	veľmi	veľmi	ADV	Dx	Degree=Pos	38	advmod	_	_
+38	krátkej	krátky	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+39	doby	doba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	35	obl	_	_
+40	(	(	PUNCT	Z	_	41	punct	_	_
+41	pozri	pozrieť	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	4	parataxis	_	_
+42	legenda	legenda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	41	obj	_	_
+43	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	44	case	_	_
+44	spísaní	spísanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	42	nmod	_	_
+45	)	)	PUNCT	Z	_	41	punct	_	_
+46	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s27
+# text = Na liste 290 je na inak prázdnej stránke úplne unikátne zobrazenie diabla , veľkosti skoro 50 cm .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#27
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	liste	list	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	290	290	NUM	0	NumForm=Digit	2	nummod	_	_
+4	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+6	inak	inak	PART	T	_	7	cc	_	_
+7	prázdnej	prázdny	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	stránke	stránka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+9	úplne	úplne	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	unikátne	unikátny	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	zobrazenie	zobrazenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+12	diabla	diabol	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	,	,	PUNCT	Z	_	14	punct	_	_
+14	veľkosti	veľkosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	skoro	skoro	PART	T	_	16	advmod:emph	_	_
+16	50	50	NUM	0	NumForm=Digit	14	nummod	_	_
+17	cm	cm	X	W	Abbr=Yes	16	nmod	_	_
+18	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s28
+# text = Niekoľko strán predtým je napísaných na sčernetom pergamene , a má charakter veľmi ponurý , veľmi odlišný od celého zvyšku kódexu .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#28
+1	Niekoľko	niekoľko	DET	PUns1	Case=Nom|Gender=Neut|Number=Sing|NumType=Card|PronType=Ind	2	amod	_	_
+2	strán	strana	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	nsubj	_	_
+3	predtým	predtým	ADV	Dx	Degree=Pos	5	advmod	_	_
+4	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	napísaných	napísaný	ADJ	Gtfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+6	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+7	sčernetom	sčernetý	ADJ	Gtis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	pergamene	pergamen	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+9	,	,	PUNCT	Z	_	11	punct	_	_
+10	a	a	CCONJ	O	_	11	cc	_	_
+11	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
+12	charakter	charakter	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nsubj	_	_
+13	veľmi	veľmi	ADV	Dx	Degree=Pos	14	advmod	_	_
+14	ponurý	ponurý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	xcomp	_	_
+15	,	,	PUNCT	Z	_	17	punct	_	_
+16	veľmi	veľmi	ADV	Dx	Degree=Pos	17	advmod	_	_
+17	odlišný	odlišný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	conj	_	_
+18	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+19	celého	celý	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	xcomp	_	_
+20	zvyšku	zvyšok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl:arg	_	_
+21	kódexu	kódex	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s29
+# text = Legenda o spísaní Diablovej biblie
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#29
+1	Legenda	legenda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	spísaní	spísanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_
+4	Diablovej	diablov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	biblie	biblia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+
+# sent_id = s30
+# text = Podľa legendy v kláštore žil mních , ktorý zhrešil .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#30
+1	Podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	legendy	legenda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	kláštore	kláštor	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+5	žil	žiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	mních	mních	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	9	nsubj	_	_
+9	zhrešil	zhrešiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
+10	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s31
+# text = Aby sa vyhol prísnemu trestu , oznámil , že napíše za jedinú noc najväčšiu knihu , obsahujúcu všetky vedomosti sveta .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#31
+1	Aby	aby	SCONJ	OY	Mood=Cnd	3	mark	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	vyhol	vyhnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	advcl	_	_
+4	prísnemu	prísny	ADJ	AAis3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	trestu	trest	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obj	_	_
+6	,	,	PUNCT	Z	_	3	punct	_	_
+7	oznámil	oznámiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	,	,	PUNCT	Z	_	10	punct	_	_
+9	že	že	SCONJ	O	_	10	mark	_	_
+10	napíše	napísať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+11	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+12	jedinú	jediný	ADJ	NAfs4	Case=Acc|Gender=Fem|Number=Sing|NumType=Mult	13	amod	_	_
+13	noc	noc	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+14	najväčšiu	veľký	ADJ	AAfs4z	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	13	amod	_	_
+15	knihu	kniha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+16	,	,	PUNCT	Z	_	17	punct	_	_
+17	obsahujúcu	obsahujúci	ADJ	Gkfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	15	amod	_	_
+18	všetky	všetok	DET	PFfp4	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	19	det	_	_
+19	vedomosti	vedomosť	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
+20	sveta	svet	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s32
+# text = Dostal všetok potrebný materiál a pustil sa do diela .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#32
+1	Dostal	dostať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	všetok	všetok	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	4	det	_	_
+3	potrebný	potrebný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	materiál	materiál	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	pustil	pustiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+8	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	diela	dielo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+10	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s33
+# text = O polnoci mu bolo jasné , že úlohu nemôže zvládnuť , a preto zapredal svoju dušu diablovi .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#33
+1	O	o	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	polnoci	polnoc	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+3	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+4	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	cop	_	_
+5	jasné	jasný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+6	,	,	PUNCT	Z	_	9	punct	_	_
+7	že	že	SCONJ	O	_	9	mark	_	_
+8	úlohu	úloha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	iobj	_	_
+9	nemôže	môcť	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	csubj	_	_
+10	zvládnuť	zvládnuť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	9	xcomp	_	_
+11	,	,	PUNCT	Z	_	14	punct	_	_
+12	a	a	CCONJ	O	_	14	cc	_	_
+13	preto	preto	CCONJ	O	_	14	cc	_	_
+14	zapredal	zapredať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+15	svoju	svoj	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	_
+16	dušu	duša	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+17	diablovi	diabol	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	14	iobj	_	_
+18	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s34
+# text = Ten za neho celé veľdielo spísal , biblické pasáže však s veľkým sebazaprením , odporom a nechuťou .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#34
+1	Ten	ten	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+2	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+3	neho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+4	celé	celý	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	xcomp	_	_
+5	veľdielo	veľdielo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+6	spísal	spísať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	biblické	biblický	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
+9	pasáže	pasáž	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	_
+10	však	však	CCONJ	O	_	9	cc	_	_
+11	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	13	case	_	_
+12	veľkým	veľký	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	sebazaprením	sebazaprenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	6	dep	_	_
+14	,	,	PUNCT	Z	_	15	punct	_	_
+15	odporom	odpor	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	conj	_	_
+16	a	a	CCONJ	O	_	17	cc	_	_
+17	nechuťou	nechuť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	13	conj	_	_
+18	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s35
+# text = Mních len z vďačnosti pridal jeho obrázok .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#35
+1	Mních	mních	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	len	len	PART	T	_	4	advmod:emph	_	_
+3	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	vďačnosti	vďačnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+5	pridal	pridať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	jeho	jeho	DET	PUis4	Animacy=Inan|Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	obrázok	obrázok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s36
+# text = Napriek tejto legende o spísaní nebol kódex Gigas nikdy zatratený inkvizíciou , a bol rôznymi učencami starostlivo študovaný .
+# orig_file_sentence wiki-nove-031_hudekova_wiki-nove-031_kandracova#36
+1	Napriek	napriek	ADP	Eu3	AdpType=Prep|Case=Dat	3	case	_	_
+2	tejto	táto	DET	PFfs3	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	legende	legenda	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+4	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	spísaní	spísanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	_
+6	nebol	byť	AUX	VLesci-	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	10	cop	_	_
+7	kódex	kódex	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+8	Gigas	gigas	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+9	nikdy	nikdy	ADV	PD	PronType=Neg	10	advmod	_	_
+10	zatratený	zatratený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+11	inkvizíciou	inkvizícia	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+12	,	,	PUNCT	Z	_	18	punct	_	_
+13	a	a	CCONJ	O	_	18	cc	_	_
+14	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	18	cop	_	_
+15	rôznymi	rôzny	ADJ	AAmp7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
+16	učencami	učenec	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	18	obl	_	_
+17	starostlivo	starostlivo	ADV	Dx	Degree=Pos	18	advmod	_	_
+18	študovaný	študovaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	conj	_	_
+19	.	.	PUNCT	Z	_	10	punct	_	_
+

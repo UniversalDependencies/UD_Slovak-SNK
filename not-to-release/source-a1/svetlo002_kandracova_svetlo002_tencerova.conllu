@@ -1,0 +1,399 @@
+# sent_id = s1
+# text = Rýchlosť svetla sa však môže prejaviť aj pri malých vzdialenostiach .
+# orig_file_sentence svetlo002_kandracova_svetlo002_tencerova#1
+1	Rýchlosť	rýchlosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	svetla	svetlo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+4	však	však	CCONJ	O	_	5	cc	_	_
+5	môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	prejaviť	prejaviť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+7	aj	aj	PART	T	_	9	advmod:emph	_	_
+8	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+9	malých	malý	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
+10	vzdialenostiach	vzdialenosť	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	6	obl	_	_
+11	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s2
+# text = V superpočítačoch obmedzuje rýchlosť svetla posielania dát medzi procesormi .
+# orig_file_sentence svetlo002_kandracova_svetlo002_tencerova#2
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	superpočítačoch	superpočítač	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	_
+3	obmedzuje	obmedzovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	rýchlosť	rýchlosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+5	svetla	svetlo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	posielania	posielanie	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+7	dát	dáta	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+8	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+9	procesormi	procesor	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	nmod	_	_
+10	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s3
+# text = Ak pracuje procesor s frekvenciou 1 GHz tak sa signál počas jedného cyklu dostane iba do vzdialenosti 300 mm .
+# orig_file_sentence svetlo002_kandracova_svetlo002_tencerova#3
+1	Ak	ak	SCONJ	O	_	2	mark	_	_
+2	pracuje	pracovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+3	procesor	procesor	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	5	case	_	_
+5	frekvenciou	frekvencia	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	_
+6	1	1	NUM	0	NumForm=Digit	7	nummod	_	_
+7	GHz	ghz	X	W	Abbr=Yes	5	nmod	_	_
+8	tak	tak	CCONJ	O	_	14	advmod	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pv	_	_
+10	signál	signál	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+11	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+12	jedného	jeden	NUM	NFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nummod	_	_
+13	cyklu	cyklus	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	_
+14	dostane	dostať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	iba	iba	PART	T	_	18	advmod:emph	_	_
+16	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+17	vzdialenosti	vzdialenosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_
+18	300	300	NUM	0	NumForm=Digit	17	nummod	_	_
+19	mm	mm	X	W	Abbr=Yes	18	nmod	_	_
+20	.	.	PUNCT	Z	_	14	punct	_	_
+
+# sent_id = s4
+# text = Preto musia byť procesory na obmedzenie latencie umiestnené tesne vedľa seba .
+# orig_file_sentence svetlo002_kandracova_svetlo002_tencerova#4
+1	Preto	preto	CCONJ	O	_	2	advmod	_	_
+2	musia	musieť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	8	aux:pass	_	_
+4	procesory	procesor	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	obmedzenie	obmedzenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
+7	latencie	latencia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	umiestnené	umiestnený	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	2	obj	_	_
+9	tesne	tesne	ADV	Dx	Degree=Pos	8	advmod	_	_
+10	vedľa	vedľa	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+11	seba	seba	PRON	PPhs2	Case=Gen|Number=Sing|PronType=Prs|Reflex=Yes	9	obl	_	_
+12	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s5
+# text = Ak budú procesory pracovať na vyšších frekvenciách , rýchlosť svetla sa napokon stane obmedzujúcim faktorom aj pri návrhu procesora samotného .
+# orig_file_sentence svetlo002_kandracova_svetlo002_tencerova#5
+1	Ak	ak	SCONJ	O	_	4	mark	_	_
+2	budú	byť	AUX	VBepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	4	aux	_	_
+3	procesory	procesor	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	pracovať	pracovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	13	advcl	_	_
+5	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	vyšších	vysoký	ADJ	AAfp6y	Case=Loc|Degree=Cmp|Gender=Fem|Number=Plur	7	amod	_	_
+7	frekvenciách	frekvencia	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	4	obl	_	_
+8	,	,	PUNCT	Z	_	4	punct	_	_
+9	rýchlosť	rýchlosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+10	svetla	svetlo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+12	napokon	napokon	ADV	Dx	Degree=Pos	13	advmod	_	_
+13	stane	stať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	obmedzujúcim	obmedzujúci	ADJ	Gkis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	15	amod	_	_
+15	faktorom	faktor	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obj	_	_
+16	aj	aj	CCONJ	O	_	18	advmod:emph	_	_
+17	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+18	návrhu	návrh	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+19	procesora	procesor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	samotného	samotný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	xcomp	_	_
+21	.	.	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s6
+# text = Fyzika
+# orig_file_sentence svetlo002_kandracova_svetlo002_tencerova#6
+1	Fyzika	fyzika	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = s7
+# text = Rovnaká rýchlosť zo všetkých vzťažných sústav
+# orig_file_sentence svetlo002_kandracova_svetlo002_tencerova#7
+1	Rovnaká	rovnaký	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	rýchlosť	rýchlosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	6	case	_	_
+4	všetkých	všetok	DET	PFfp2	Case=Gen|Gender=Fem|Number=Plur|PronType=Tot	6	det	_	_
+5	vzťažných	vzťažný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+6	sústav	sústava	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+
+# sent_id = s8
+# text = Je dôležité si uvedomiť , že rýchlosť svetla nie je „ rýchlostným obmedzením “ v tradičnom vnímaní .
+# orig_file_sentence svetlo002_kandracova_svetlo002_tencerova#8
+1	Je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	dôležité	dôležitý	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+3	si	si	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	uvedomiť	uvedomiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	2	csubj	_	_
+5	,	,	PUNCT	Z	_	13	punct	_	_
+6	že	že	SCONJ	O	_	13	mark	_	_
+7	rýchlosť	rýchlosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+8	svetla	svetlo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	nie	nie	PART	T	_	13	advmod	_	_
+10	je	byť	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	„	„	PUNCT	Z	_	13	punct	_	_
+12	rýchlostným	rýchlostný	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	obmedzením	obmedzenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	4	ccomp	_	_
+14	“	“	PUNCT	Z	_	13	punct	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+16	tradičnom	tradičný	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	vnímaní	vnímanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
+18	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s9
+# text = Pozorovateľ prenasledujúci svetelný lúč nameria rovnakú rýchlosť vzďaľovania sa od neho ako pozorovateľ v pokoji .
+# orig_file_sentence svetlo002_kandracova_svetlo002_tencerova#9
+1	Pozorovateľ	pozorovateľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	prenasledujúci	prenasledujúci	ADJ	Gkms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	1	amod	_	_
+3	svetelný	svetelný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	lúč	lúč	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	nameria	namerať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	rovnakú	rovnaký	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	rýchlosť	rýchlosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	vzďaľovania	vzďaľovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+10	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+11	neho	on	PRON	PFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+12	ako	ako	SCONJ	O	_	13	mark	_	_
+13	pozorovateľ	pozorovateľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	dep	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	pokoji	pokoj	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
+16	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s10
+# text = To vedie k neobyčajným dôsledkom pre rýchlosti .
+# orig_file_sentence svetlo002_kandracova_svetlo002_tencerova#10
+1	To	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	vedie	viesť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	5	case	_	_
+4	neobyčajným	neobyčajný	ADJ	AAip3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+5	dôsledkom	dôsledok	NOUN	SSip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	2	obl	_	_
+6	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+7	rýchlosti	rýchlosť	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	5	nmod	_	_
+8	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s11
+# text = Mnohí sú zvyknutí , že rýchlosti sa sčítavajú : ak idú dve autá proti sebe , každé z nich idúce rýchlosťou 50 km / h , očakáva sa , že každé z áut bude vnímať to druhé približujúce sa celkovou rýchlosťou 50 + 50 = 100 km / h .
+# orig_file_sentence svetlo002_kandracova_svetlo002_tencerova#11
+1	Mnohí	mnohý	ADJ	NAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|NumType=Mult	3	nsubj	_	_
+2	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	zvyknutí	zvyknutý	ADJ	Gtmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	,	,	PUNCT	Z	_	8	punct	_	_
+5	že	že	SCONJ	O	_	8	mark	_	_
+6	rýchlosti	rýchlosť	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	8	nsubj:pass	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pass	_	_
+8	sčítavajú	sčítavať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	:	:	PUNCT	Z	_	27	punct	_	_
+10	ak	ak	SCONJ	O	_	11	mark	_	_
+11	idú	ísť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+12	dve	dva	NUM	NNnp1	Case=Nom|Gender=Neut|Number=Plur	13	nummod	_	_
+13	autá	auto	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	_
+14	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	15	case	_	_
+15	sebe	seba	PRON	PPhs3	Case=Dat|Number=Sing|PronType=Prs|Reflex=Yes	11	obl	_	_
+16	,	,	PUNCT	Z	_	11	punct	_	_
+17	každé	každý	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	11	dep	_	_
+18	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	19	case	_	_
+19	nich	ono	PRON	PFnp2	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	17	nmod	_	_
+20	idúce	idúci	ADJ	Gkns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	17	amod	_	_
+21	rýchlosťou	rýchlosť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	20	obl	_	_
+22	50	50	NUM	0	NumForm=Digit	21	nummod	_	_
+23	km	km	X	W	Abbr=Yes	22	nmod	_	_
+24	/	/	PUNCT	Z	_	25	punct	_	_
+25	h	h	X	W	Abbr=Yes	23	nmod	_	_
+26	,	,	PUNCT	Z	_	11	punct	_	_
+27	očakáva	očakávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+28	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	27	expl:pass	_	_
+29	,	,	PUNCT	Z	_	35	punct	_	_
+30	že	že	SCONJ	O	_	35	mark	_	_
+31	každé	každý	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	35	nsubj	_	_
+32	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	33	case	_	_
+33	áut	auto	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	31	nmod	_	_
+34	bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	35	aux	_	_
+35	vnímať	vnímať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	27	csubj:pass	_	_
+36	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	35	obj	_	_
+37	druhé	druhý	ADJ	NAns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Ord	36	amod	_	_
+38	približujúce	približujúci	ADJ	Gkns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	36	amod	_	_
+39	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	38	expl:pv	_	_
+40	celkovou	celkový	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_
+41	rýchlosťou	rýchlosť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	38	obl	_	_
+42	50	50	NUM	0	NumForm=Digit	45	nsubj	_	_
+43	+	+	SYM	Z	_	42	nmod	_	_
+44	50	50	NUM	0	NumForm=Digit	43	obj	_	_
+45	=	=	SYM	Z	_	41	nmod	_	_
+46	100	100	NUM	0	NumForm=Digit	45	obj	_	_
+47	km	km	X	W	Abbr=Yes	46	nmod	_	_
+48	/	/	PUNCT	Z	_	49	punct	_	_
+49	h	h	X	W	Abbr=Yes	47	nmod	_	_
+50	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s12
+# text = Avšak pri rýchlostiach približujúcich sa rýchlosti svetla sa z výsledkov experimentov stalo jasné , že toto pravidlo neplatí .
+# orig_file_sentence svetlo002_kandracova_svetlo002_tencerova#12
+1	Avšak	avšak	CCONJ	O	_	13	cc	_	_
+2	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	rýchlostiach	rýchlosť	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	13	obl	_	_
+4	približujúcich	približujúci	ADJ	Gkfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	3	amod	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+6	rýchlosti	rýchlosť	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	4	obj	_	_
+7	svetla	svetlo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+9	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	výsledkov	výsledok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+11	experimentov	experiment	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	stalo	stať	AUX	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	cop	_	_
+13	jasné	jasný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+14	,	,	PUNCT	Z	_	18	punct	_	_
+15	že	že	SCONJ	O	_	18	mark	_	_
+16	toto	toto	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	17	det	_	_
+17	pravidlo	pravidlo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+18	neplatí	platiť	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	13	csubj	_	_
+19	.	.	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s13
+# text = Dve vesmírne lode letiace proti sebe , obe letiace relatívnou rýchlosťou 90 % rýchlosti svetla z hľadiska pre nich nezávislého tretieho pozorovateľa medzi nimi , nevnímajú približovanie rýchlosťou 90 % + 90 % = 180 % rýchlosti svetla ; namiesto toho vnímajú vzájomné približovanie pri rýchlosti mierne nižšej ako je 99 , 5 % rýchlosti svetla .
+# orig_file_sentence svetlo002_kandracova_svetlo002_tencerova#13
+1	Dve	dva	NUM	NNfp1	Case=Nom|Gender=Fem|Number=Plur	3	nummod	_	_
+2	vesmírne	vesmírny	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
+3	lode	loď	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	26	nsubj	_	_
+4	letiace	letiaci	ADJ	Gkfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	3	amod	_	_
+5	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	6	case	_	_
+6	sebe	seba	PRON	PPhs3	Case=Dat|Number=Sing|PronType=Prs|Reflex=Yes	4	obl	_	_
+7	,	,	PUNCT	Z	_	3	punct	_	_
+8	obe	oba	NUM	NNfp1	Case=Nom|Gender=Fem|Number=Plur	3	dep	_	_
+9	letiace	letiaci	ADJ	Gkfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	3	dep	_	_
+10	relatívnou	relatívny	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	rýchlosťou	rýchlosť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+12	90	90	NUM	0	NumForm=Digit	11	nummod	_	_
+13	%	%	SYM	Z	_	12	nmod	_	_
+14	rýchlosti	rýchlosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	svetla	svetlo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	22	case	_	_
+17	hľadiska	hľadisko	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	16	fixed	_	_
+18	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	19	case	_	_
+19	nich	on	PRON	PFmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	obl:arg	_	_
+20	nezávislého	nezávislý	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+21	tretieho	tretí	ADJ	NAms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|NumType=Ord	22	amod	_	_
+22	pozorovateľa	pozorovateľ	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+23	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	24	case	_	_
+24	nimi	ona	PRON	PFfp7	Case=Ins|Gender=Fem|Number=Plur|Person=3|PronType=Prs	22	nmod	_	_
+25	,	,	PUNCT	Z	_	3	punct	_	_
+26	nevnímajú	vnímať	VERB	VKepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	42	parataxis	_	_
+27	približovanie	približovanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	26	obj	_	_
+28	rýchlosťou	rýchlosť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	27	nmod	_	_
+29	90	90	NUM	0	NumForm=Digit	34	nsubj	_	_
+30	%	%	SYM	Z	_	29	nmod	_	_
+31	+	+	SYM	Z	_	29	nmod	_	_
+32	90	90	NUM	0	NumForm=Digit	31	obj	_	_
+33	%	%	SYM	Z	_	32	nmod	_	_
+34	=	=	SYM	Z	_	28	nmod	_	_
+35	180	180	NUM	0	NumForm=Digit	34	obj	_	_
+36	%	%	SYM	Z	_	35	nmod	_	_
+37	rýchlosti	rýchlosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	_
+38	svetla	svetlo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	37	nmod	_	_
+39	;	;	PUNCT	Z	_	42	punct	_	_
+40	namiesto	miesto	ADP	Eu2	AdpType=Prep|Case=Gen	41	case	_	_
+41	toho	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	42	obl	_	_
+42	vnímajú	vnímať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+43	vzájomné	vzájomný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	44	amod	_	_
+44	približovanie	približovanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	42	nsubj	_	_
+45	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	46	case	_	_
+46	rýchlosti	rýchlosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	42	obl	_	_
+47	mierne	mierne	ADV	Dx	Degree=Pos	48	advmod	_	_
+48	nižšej	nízky	ADJ	AAfs6y	Case=Loc|Degree=Cmp|Gender=Fem|Number=Sing	46	amod	_	_
+49	ako	ako	SCONJ	O	_	50	mark	_	_
+50	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	48	advcl	_	_
+51	99	99	NUM	0	NumForm=Digit	52	nummod	_	_
+52	,	,	PUNCT	Z	_	50	punct	_	_
+53	5	5	NUM	0	NumForm=Digit	50	nsubj	_	_
+54	%	%	SYM	Z	_	53	nmod	_	_
+55	rýchlosti	rýchlosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	54	nmod	_	_
+56	svetla	svetlo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	55	nmod	_	_
+57	.	.	PUNCT	Z	_	42	punct	_	_
+
+# sent_id = s14
+# text = V protiklade so všeobecnou intuíciou , nezávisle od relatívnej rýchlosti , ktorou sa jeden pozorovateľ približuje k inému , obaja namerajú rýchlosť prichádzajúceho svetla ako konštantnú hodnotu rovnajúcu sa rýchlosti svetla .
+# orig_file_sentence svetlo002_kandracova_svetlo002_tencerova#14
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+2	protiklade	protiklad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	1	fixed	_	_
+4	všeobecnou	všeobecný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	intuíciou	intuícia	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	21	obl	_	_
+6	,	,	PUNCT	Z	_	10	punct	_	_
+7	nezávisle	nezávisle	ADV	Dx	Degree=Pos	10	case	_	_
+8	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	7	fixed	_	_
+9	relatívnej	relatívny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	rýchlosti	rýchlosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	conj	_	_
+11	,	,	PUNCT	Z	_	16	punct	_	_
+12	ktorou	ktorý	DET	PAfs7	Case=Ins|Gender=Fem|Number=Sing|PronType=Int,Rel	16	obl	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+14	jeden	jeden	NUM	NFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nummod	_	_
+15	pozorovateľ	pozorovateľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	približuje	približovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	acl	_	_
+17	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	18	case	_	_
+18	inému	iný	DET	PAms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	16	dep	_	_
+19	,	,	PUNCT	Z	_	16	punct	_	_
+20	obaja	oba	NUM	NNmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+21	namerajú	namerať	VERB	VKdpc+	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	rýchlosť	rýchlosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+23	prichádzajúceho	prichádzajúci	ADJ	Gkns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	24	amod	_	_
+24	svetla	svetlo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+25	ako	ako	SCONJ	O	_	27	mark	_	_
+26	konštantnú	konštantný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	hodnotu	hodnota	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	22	xcomp	_	_
+28	rovnajúcu	rovnajúci	ADJ	Gkfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	27	amod	_	_
+29	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	28	expl:pv	_	_
+30	rýchlosti	rýchlosť	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	28	obj	_	_
+31	svetla	svetlo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	_
+32	.	.	PUNCT	Z	_	21	punct	_	_
+
+# sent_id = s15
+# text = Rovnica uvedená vyššie je odvodená Albertom Einsteinom z jeho špeciálnej teórie relativity , ktorá vychádza z princípu relativity .
+# orig_file_sentence svetlo002_kandracova_svetlo002_tencerova#15
+1	Rovnica	rovnica	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	uvedená	uvedený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	1	amod	_	_
+3	vyššie	vysoko	ADV	Dy	Degree=Cmp	2	advmod	_	_
+4	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	odvodená	odvodený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+6	Albertom	albert	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	_
+7	Einsteinom	einstein	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obj	_	_
+8	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+9	jeho	jeho	DET	PUfs2	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+10	špeciálnej	špeciálny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	teórie	teória	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+12	relativity	relativita	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	,	,	PUNCT	Z	_	15	punct	_	_
+14	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	15	nsubj	_	_
+15	vychádza	vychádzať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	acl	_	_
+16	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+17	princípu	princíp	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
+18	relativity	relativita	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s16
+# text = Tento princíp ( pôvodne navrhnutý Galileim ) vyžaduje správanie sa fyzikálnych zákonov rovnako vo všetkých vzťažných sústavách .
+# orig_file_sentence svetlo002_kandracova_svetlo002_tencerova#16
+1	Tento	tento	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	princíp	princíp	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+3	(	(	PUNCT	Z	_	5	punct	_	_
+4	pôvodne	pôvodne	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	navrhnutý	navrhnutý	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	amod	_	_
+6	Galileim	galilei	PROPN	SFms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obj	_	_
+7	)	)	PUNCT	Z	_	5	punct	_	_
+8	vyžaduje	vyžadovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	správanie	správanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	8	nsubj	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+11	fyzikálnych	fyzikálny	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
+12	zákonov	zákon	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+13	rovnako	rovnako	ADV	Dx	Degree=Pos	8	advmod	_	_
+14	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	17	case	_	_
+15	všetkých	všetok	DET	PFfp6	Case=Loc|Gender=Fem|Number=Plur|PronType=Tot	17	det	_	_
+16	vzťažných	vzťažný	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_
+17	sústavách	sústava	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	13	obl	_	_
+18	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s17
+# text = Rýchlosť svetla priamo daná Maxwellovými rovnicami musí byť rovnaká pre každého pozorovateľa .
+# orig_file_sentence svetlo002_kandracova_svetlo002_tencerova#17
+1	Rýchlosť	rýchlosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	svetla	svetlo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	priamo	priamo	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	daná	daný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	1	amod	_	_
+5	Maxwellovými	maxwellov	ADJ	AFfp7x:r	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+6	rovnicami	rovnica	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	4	obj	_	_
+7	musí	musieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	9	cop	_	_
+9	rovnaká	rovnaký	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	xcomp	_	_
+10	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+11	každého	každý	DET	PAms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	12	det	_	_
+12	pozorovateľa	pozorovateľ	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	obl:arg	_	_
+13	.	.	PUNCT	Z	_	7	punct	_	_
+

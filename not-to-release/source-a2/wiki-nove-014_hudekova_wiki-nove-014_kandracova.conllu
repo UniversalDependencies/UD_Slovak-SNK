@@ -1,0 +1,268 @@
+# sent_id = s1
+# text = Ludvík Svoboda ( prezident )
+# orig_file_sentence wiki-nove-014_hudekova_wiki-nove-014_kandracova#1
+1	Ludvík	ludvík	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Svoboda	svoboda	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	(	(	PUNCT	Z	_	4	punct	_	_
+4	prezident	prezident	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+5	)	)	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s2
+# text = Ludvík Svoboda ( * 25 . november 1895 – † 20 . september 1979 ) bol česko ‐ slovenský generál a prezident , nositeľ titulov hrdina ČSSR a ZSSR .
+# orig_file_sentence wiki-nove-014_hudekova_wiki-nove-014_kandracova#2
+1	Ludvík	ludvík	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Svoboda	svoboda	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+3	(	(	PUNCT	Z	_	2	punct	_	_
+4	*	*	PUNCT	#	_	7	punct	_	_
+5	25	25	NUM	0	NumForm=Digit	7	nummod	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	november	november	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	dep	_	_
+8	1895	1895	NUM	0	NumForm=Digit	7	nummod	_	_
+9	–	–	PUNCT	Z	_	13	punct	_	_
+10	†	†	PUNCT	#	_	13	punct	_	_
+11	20	20	NUM	0	NumForm=Digit	13	nummod	_	_
+12	.	.	PUNCT	Z	_	11	punct	_	_
+13	september	september	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+14	1979	1979	NUM	0	NumForm=Digit	13	nummod	_	_
+15	)	)	PUNCT	Z	_	2	punct	_	_
+16	bol	byť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+17	česko	česko	X	Q	Hyph=Yes	16	nmod	_	_
+18	‐	‐	PUNCT	Z	_	19	punct	_	_
+19	slovenský	slovenský	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	conj	_	_
+20	generál	generál	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_
+21	a	a	CCONJ	O	_	22	cc	_	_
+22	prezident	prezident	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_
+23	,	,	PUNCT	Z	_	24	punct	_	_
+24	nositeľ	nositeľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_
+25	titulov	titul	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+26	hrdina	hrdina	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nmod	_	_
+27	ČSSR	čssr	X	W	Abbr=Yes	26	nmod	_	_
+28	a	a	CCONJ	O	_	29	cc	_	_
+29	ZSSR	zssr	X	W	Abbr=Yes	27	conj	_	_
+30	.	.	PUNCT	Z	_	16	punct	_	_
+
+# sent_id = s3
+# text = Po prepadnutí ZSSR Nemeckom ( 1941 ) vstúpil do novoustanovovaných bojových jednotiek Čechoslovákov bojujúcich po boku Červenej armády , kde rýchlo stúpal v hodnostiach .
+# orig_file_sentence wiki-nove-014_hudekova_wiki-nove-014_kandracova#3
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	prepadnutí	prepadnutie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+3	ZSSR	zssr	X	W	Abbr=Yes	2	nmod	_	_
+4	Nemeckom	nemecko	PROPN	SSns7:r	Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+5	(	(	PUNCT	Z	_	2	punct	_	_
+6	1941	1941	NUM	0	NumForm=Digit	2	dep	_	_
+7	)	)	PUNCT	Z	_	2	punct	_	_
+8	vstúpil	vstúpiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+10	novoustanovovaných	novoustanovovaný	ADJ	Gtfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	_	_
+11	bojových	bojový	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	_
+12	jednotiek	jednotka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	8	obl	_	_
+13	Čechoslovákov	čechoslovák	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	bojujúcich	bojujúci	ADJ	Gkmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	13	amod	_	_
+15	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+16	boku	bok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+17	Červenej	červený	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	armády	armáda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	,	,	PUNCT	Z	_	22	punct	_	_
+20	kde	kde	ADV	PD	PronType=Int,Rel	22	advmod	_	_
+21	rýchlo	rýchlo	ADV	Dx	Degree=Pos	22	advmod	_	_
+22	stúpal	stúpať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	acl	_	_
+23	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+24	hodnostiach	hodnosť	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	22	obl	_	_
+25	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s4
+# text = V roku 1945 sa stal divíznym generálom a ministrom obrany ČSR ako nestranník ( hoci už vtedy bol s veľkou pravdepodobnosťou tajným členom KSČ ) .
+# orig_file_sentence wiki-nove-014_hudekova_wiki-nove-014_kandracova#4
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+3	1945	1945	NUM	0	NumForm=Digit	2	nummod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+5	stal	stať	AUX	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	cop	_	_
+6	divíznym	divízny	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	generálom	generál	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	ministrom	minister	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	conj	_	_
+10	obrany	obrana	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	ČSR	čsr	X	W	Abbr=Yes	7	nmod	_	_
+12	ako	ako	SCONJ	O	_	13	mark	_	_
+13	nestranník	nestraník	NOUN	SSms1:q	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Typo=Yes	7	xcomp	_	_
+14	(	(	PUNCT	Z	_	23	punct	_	_
+15	hoci	hoci	SCONJ	O	_	23	mark	_	_
+16	už	už	PART	T	_	17	advmod:emph	_	_
+17	vtedy	vtedy	ADV	PD	PronType=Dem	23	advmod	_	_
+18	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	23	cop	_	_
+19	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	21	case	_	_
+20	veľkou	veľký	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	pravdepodobnosťou	pravdepodobnosť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	23	obl	_	_
+22	tajným	tajný	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	členom	člen	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	advcl	_	_
+24	KSČ	ksč	X	W	Abbr=Yes	23	nmod	_	_
+25	)	)	PUNCT	Z	_	23	punct	_	_
+26	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s5
+# text = Práve jeho úplná lojalita ku KSČ , ktorej si demokratické strany neboli vedomé ( inak by ho nikdy do tejto funkcie neschválili ) , bola jedným z kľúčových prvkov vo februárovom prevrate .
+# orig_file_sentence wiki-nove-014_hudekova_wiki-nove-014_kandracova#5
+1	Práve	práve	PART	T	_	4	advmod:emph	_	_
+2	jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+3	úplná	úplný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	lojalita	lojalita	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
+5	ku	k	ADP	Ev3	AdpType=Voc|Case=Dat	6	case	_	_
+6	KSČ	ksč	X	W	Abbr=Yes	4	nmod	_	_
+7	,	,	PUNCT	Z	_	13	punct	_	_
+8	ktorej	ktorý	DET	PAfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Int,Rel	13	obj	_	_
+9	si	si	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+10	demokratické	demokratický	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
+11	strany	strana	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+12	neboli	byť	AUX	VLepcf-	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	13	cop	_	_
+13	vedomé	vedomý	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	acl	_	_
+14	(	(	PUNCT	Z	_	22	punct	_	_
+15	inak	inak	SCONJ	O	_	22	cc	_	_
+16	by	by	AUX	Y	Mood=Cnd	22	aux	_	_
+17	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+18	nikdy	nikdy	ADV	PD	PronType=Neg	22	advmod	_	_
+19	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	21	case	_	_
+20	tejto	táto	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+21	funkcie	funkcia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	22	obl	_	_
+22	neschválili	schváliť	VERB	VLdpcf-	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	13	conj	_	_
+23	)	)	PUNCT	Z	_	13	punct	_	_
+24	,	,	PUNCT	Z	_	13	punct	_	_
+25	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	26	cop	_	_
+26	jedným	jeden	NUM	NFis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+27	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	29	case	_	_
+28	kľúčových	kľúčový	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	29	amod	_	_
+29	prvkov	prvok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+30	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	32	case	_	_
+31	februárovom	februárový	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	prevrate	prevrat	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	obl	_	_
+33	.	.	PUNCT	Z	_	26	punct	_	_
+
+# sent_id = s6
+# text = Svoboda vtedy oznámil prezidentovi Benešovi , že armáda za žiadnych okolností „ nepôjde proti ľudu “ , čím sa spreneveril svojim povinnostiam ministra obrany , ale zato splnil úlohu komunistického trójskeho koňa vo vláde a ozbrojených silách .
+# orig_file_sentence wiki-nove-014_hudekova_wiki-nove-014_kandracova#6
+1	Svoboda	svoboda	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	vtedy	vtedy	ADV	PD	PronType=Dem	3	advmod	_	_
+3	oznámil	oznámiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	prezidentovi	prezident	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	_
+5	Benešovi	beneš	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	_
+6	,	,	PUNCT	Z	_	13	punct	_	_
+7	že	že	SCONJ	O	_	13	mark	_	_
+8	armáda	armáda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+9	za	za	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+10	žiadnych	žiaden	DET	PFfp2	Case=Gen|Gender=Fem|Number=Plur|PronType=Neg	11	det	_	_
+11	okolností	okolnosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	13	obl	_	_
+12	„	„	PUNCT	Z	_	13	punct	_	_
+13	nepôjde	ísť	VERB	VBesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
+14	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	15	case	_	_
+15	ľudu	ľud	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	obl	_	_
+16	“	“	PUNCT	Z	_	13	punct	_	_
+17	,	,	PUNCT	Z	_	20	punct	_	_
+18	čím	čo	PRON	PFns7	Case=Ins|Gender=Neut|Number=Sing|PronType=Int,Rel	20	obl	_	_
+19	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	20	expl:pv	_	_
+20	spreneveril	spreneveriť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+21	svojim	svoj	DET	PFfp3	Case=Dat|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	22	det	_	_
+22	povinnostiam	povinnosť	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	20	obj	_	_
+23	ministra	minister	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+24	obrany	obrana	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+25	,	,	PUNCT	Z	_	28	punct	_	_
+26	ale	ale	CCONJ	O	_	28	cc	_	_
+27	zato	zato	CCONJ	O	_	28	advmod	_	_
+28	splnil	splniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	20	conj	_	_
+29	úlohu	úloha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	28	obj	_	_
+30	komunistického	komunistický	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+31	trójskeho	trójsky	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	koňa	kôň	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+33	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	34	case	_	_
+34	vláde	vláda	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	32	nmod	_	_
+35	a	a	CCONJ	O	_	37	cc	_	_
+36	ozbrojených	ozbrojený	ADJ	Gtfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	37	amod	_	_
+37	silách	sila	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	34	conj	_	_
+38	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s7
+# text = Na začiatku 50 . rokov bol odstránený z politiky a krátky čas väznený .
+# orig_file_sentence wiki-nove-014_hudekova_wiki-nove-014_kandracova#7
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	začiatku	začiatok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+3	50	50	NUM	0	NumForm=Digit	5	nummod	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+5	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+6	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	aux	_	_
+7	odstránený	odstránený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+8	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	politiky	politika	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+10	a	a	CCONJ	O	_	13	cc	_	_
+11	krátky	krátky	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	čas	čas	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+13	väznený	väznený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	conj	_	_
+14	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s8
+# text = V rámci Pražskej jari bol 30 . marca 1968 zvolený za prezidenta namiesto príliš skompromitovaného Antonína Novotného .
+# orig_file_sentence wiki-nove-014_hudekova_wiki-nove-014_kandracova#8
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+2	rámci	rámec	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	Pražskej	pražský	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	jari	jar	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+5	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+6	30	30	NUM	0	NumForm=Digit	8	nummod	_	_
+7	.	.	PUNCT	Z	_	6	punct	_	_
+8	marca	marec	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+9	1968	1968	NUM	0	NumForm=Digit	8	nummod	_	_
+10	zvolený	zvolený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+11	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	prezidenta	prezident	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	obl:arg	_	_
+13	namiesto	namiesto	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+14	príliš	príliš	ADV	Dx	Degree=Pos	15	advmod	_	_
+15	skompromitovaného	skompromitovaný	ADJ	Gtms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	16	amod	_	_
+16	Antonína	antonín	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+17	Novotného	novotný	PROPN	SAms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+18	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s9
+# text = Za augustovej okupácie na jednej strane odmietol vymenovať robotnícko ‐ roľnícku vládu Vasila Biľaka a Aloisa Indru , na druhej strane sa v nasledujúcich rokoch podieľal na tzv . normalizácii . 29 . mája 1975 bol pre zdravotné problémy zbavený prezidentskej funkcie .
+# orig_file_sentence wiki-nove-014_hudekova_wiki-nove-014_kandracova#9
+1	Za	za	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	augustovej	augustový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	okupácie	okupácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+4	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+5	jednej	jeden	NUM	NFfs6	Case=Loc|Gender=Fem|Number=Sing	6	nummod	_	_
+6	strane	strana	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+7	odmietol	odmietnuť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	vymenovať	vymenovať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	7	xcomp	_	_
+9	robotnícko	robotnícko	X	Q	Hyph=Yes	12	nmod	_	_
+10	‐	‐	PUNCT	Z	_	11	punct	_	_
+11	roľnícku	roľnícky	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	conj	_	_
+12	vládu	vláda	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+13	Vasila	vasil	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+14	Biľaka	biľak	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	a	a	CCONJ	O	_	17	cc	_	_
+16	Aloisa	alois	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+17	Indru	indra	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	conj	_	_
+18	,	,	PUNCT	Z	_	26	punct	_	_
+19	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	_	_
+20	druhej	druhý	ADJ	NAfs6	Case=Loc|Gender=Fem|Number=Sing|NumType=Ord	21	amod	_	_
+21	strane	strana	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	26	obl	_	_
+22	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	26	expl:pv	_	_
+23	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	25	case	_	_
+24	nasledujúcich	nasledujúci	ADJ	Gkip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	25	amod	_	_
+25	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	26	obl	_	_
+26	podieľal	podieľať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+27	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	30	case	_	_
+28	tzv	tzv	X	W	Abbr=Yes	30	nmod	_	_
+29	.	.	PUNCT	Z	_	28	punct	_	_
+30	normalizácii	normalizácia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	26	obl:arg	_	_
+31	.	.	PUNCT	Z	_	7	punct	_	_
+32	29	29	NUM	0	NumForm=Digit	34	nummod	_	_
+33	.	.	PUNCT	Z	_	32	punct	_	_
+34	mája	máj	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	40	obl	_	_
+35	1975	1975	NUM	0	NumForm=Digit	34	nummod	_	_
+36	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	40	aux:pass	_	_
+37	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	39	case	_	_
+38	zdravotné	zdravotný	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	39	amod	_	_
+39	problémy	problém	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	40	obl	_	_
+40	zbavený	zbavený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	parataxis	_	_
+41	prezidentskej	prezidentský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	_
+42	funkcie	funkcia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	40	obj	_	_
+43	.	.	PUNCT	Z	_	7	punct	_	_
+

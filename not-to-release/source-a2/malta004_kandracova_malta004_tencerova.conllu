@@ -1,0 +1,356 @@
+# sent_id = s1
+# text = Väčšina obyvateľov Malty žije na hlavnom ostrove Malta , tu prevažne v mestských aglomeráciách ( viac ako 90 % ) .
+# orig_file_sentence malta004_kandracova_malta004_tencerova#1
+1	Väčšina	väčšina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	obyvateľov	obyvateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	Malty	malta	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	žije	žiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	hlavnom	hlavný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	ostrove	ostrov	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+8	Malta	malta	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	Z	_	10	punct	_	_
+10	tu	tu	ADV	PD	PronType=Dem	4	conj	_	_
+11	prevažne	prevažne	ADV	Dx	Degree=Pos	10	orphan	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+13	mestských	mestský	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
+14	aglomeráciách	aglomerácia	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	10	orphan	_	_
+15	(	(	PUNCT	Z	_	10	punct	_	_
+16	viac	viac	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	10	orphan	_	_
+17	ako	ako	SCONJ	O	_	18	mark	_	_
+18	90	90	NUM	0	NumForm=Digit	16	dep	_	_
+19	%	%	SYM	Z	_	18	nmod	_	_
+20	)	)	PUNCT	Z	_	4	punct	_	_
+21	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s2
+# text = Vzhľadom na malú rozlohu je hustota zaľudnenia takmer 1265 obyvateľov na km² ( najväčšia v Európe a tretia najväčšia na svete ) .
+# orig_file_sentence malta004_kandracova_malta004_tencerova#2
+1	Vzhľadom	vzhľadom	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+2	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	1	fixed	_	_
+3	malú	malý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	rozlohu	rozloha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+5	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	hustota	hustota	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+7	zaľudnenia	zaľudnenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	takmer	takmer	PART	T	_	9	advmod:emph	_	_
+9	1265	1265	NUM	0	NumForm=Digit	0	root	_	_
+10	obyvateľov	obyvateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	km²	km2	X	W	Abbr=Yes	10	nmod	_	_
+13	(	(	PUNCT	Z	_	14	punct	_	_
+14	najväčšia	veľký	ADJ	AAfs1z	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	9	appos	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+16	Európe	európa	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	14	obl	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	tretia	tretí	ADJ	NAfs1	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	14	conj	_	_
+19	najväčšia	veľký	ADJ	AAfs1z	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	18	amod	_	_
+20	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	_	_
+21	svete	svet	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+22	)	)	PUNCT	Z	_	14	punct	_	_
+23	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s3
+# text = Približne 3 percentá obyvateľov sú cudzinci , najmä Briti .
+# orig_file_sentence malta004_kandracova_malta004_tencerova#3
+1	Približne	približne	PART	T	_	2	advmod:emph	_	_
+2	3	3	NUM	0	NumForm=Digit	3	nummod	_	_
+3	percentá	percento	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	_
+4	obyvateľov	obyvateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	cudzinci	cudzinec	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nmod	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	najmä	najmä	PART	T	_	9	advmod:emph	_	_
+9	Briti	brit	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+10	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s4
+# text = Takmer rovnaký počet obyvateľov žije natrvalo v zahraničí ( v Kanade , Austrálii a tiež v USA ) .
+# orig_file_sentence malta004_kandracova_malta004_tencerova#4
+1	Takmer	takmer	PART	T	_	2	advmod:emph	_	_
+2	rovnaký	rovnaký	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	počet	počet	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	obyvateľov	obyvateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	žije	žiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	natrvalo	natrvalo	ADV	Dx	Degree=Pos	5	advmod	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	zahraničí	zahraničie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+9	(	(	PUNCT	Z	_	11	punct	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	Kanade	kanada	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	8	appos	_	_
+12	,	,	PUNCT	Z	_	13	punct	_	_
+13	Austrálii	austrália	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	11	conj	_	_
+14	a	a	CCONJ	O	_	17	cc	_	_
+15	tiež	tiež	PART	T	_	17	advmod:emph	_	_
+16	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	USA	usa	X	W	Abbr=Yes	11	conj	_	_
+18	)	)	PUNCT	Z	_	11	punct	_	_
+19	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s5
+# text = Na rozdiel od hlavného ostrova má Gozo viac zelene a skôr poľnohospodársky charakter s príslušnou štruktúrou obyvateľstva a zároveň aj s menšou hustotou zaľudnenia .
+# orig_file_sentence malta004_kandracova_malta004_tencerova#5
+1	Na	na	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+2	rozdiel	rozdiel	ADP	Eu2	AdpType=Prep|Case=Gen	1	fixed	_	_
+3	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	1	fixed	_	_
+4	hlavného	hlavný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	ostrova	ostrov	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+6	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	Gozo	gozo	X	%	Foreign=Yes	6	nsubj	_	_
+8	viac	viac	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+9	zelene	zeleň	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	a	a	CCONJ	O	_	13	cc	_	_
+11	skôr	skôr	PART	T	_	12	advmod:emph	_	_
+12	poľnohospodársky	poľnohospodársky	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	charakter	charakter	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	conj	_	_
+14	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	16	case	_	_
+15	príslušnou	príslušný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	štruktúrou	štruktúra	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	13	nmod	_	_
+17	obyvateľstva	obyvateľstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	a	a	CCONJ	O	_	19	cc	_	_
+19	zároveň	zároveň	ADV	Dx	Degree=Pos	16	conj	_	_
+20	aj	aj	CCONJ	O	_	19	advmod:emph	_	_
+21	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	19	case	_	_
+22	menšou	malý	ADJ	AAfs7y	Case=Ins|Degree=Cmp|Gender=Fem|Number=Sing	23	amod	_	_
+23	hustotou	hustota	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	19	nmod	_	_
+24	zaľudnenia	zaľudnenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+25	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s6
+# text = Comino je obývané iba v turistickej sezóne ( hostia jedného hotela , inak má mimo sezónu približne štyroch obyvateľov ) .
+# orig_file_sentence malta004_kandracova_malta004_tencerova#6
+1	Comino	comino	X	%	Foreign=Yes	3	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	obývané	obývaný	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	iba	iba	PART	T	_	7	advmod:emph	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	turistickej	turistický	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	sezóne	sezóna	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+8	(	(	PUNCT	Z	_	9	punct	_	_
+9	hostia	hosť	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	dep	_	_
+10	jedného	jeden	NUM	NFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nummod	_	_
+11	hotela	hotel	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	,	,	PUNCT	Z	_	14	punct	_	_
+13	inak	inak	ADV	PD	PronType=Ind	14	advmod	_	_
+14	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	conj	_	_
+15	mimo	mimo	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
+16	sezónu	sezóna	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
+17	približne	približne	PART	T	_	18	advmod:emph	_	_
+18	štyroch	štyri	NUM	NNmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	19	nummod	_	_
+19	obyvateľov	obyvateľ	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+20	)	)	PUNCT	Z	_	9	punct	_	_
+21	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s7
+# text = Etnický pôvod
+# orig_file_sentence malta004_kandracova_malta004_tencerova#7
+1	Etnický	etnický	ADJ	AAis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	pôvod	pôvod	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s8
+# text = O pôvodnom obyvateľstve z megalitického obdobia existujú iba domnienky .
+# orig_file_sentence malta004_kandracova_malta004_tencerova#8
+1	O	o	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	pôvodnom	pôvodný	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	obyvateľstve	obyvateľstvo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	9	nmod	_	_
+4	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+5	megalitického	megalitický	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	obdobia	obdobie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+7	existujú	existovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	iba	iba	PART	T	_	9	advmod:emph	_	_
+9	domnienky	domnienka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+10	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s9
+# text = Osídlenie dnešným obyvateľstvom začalo okolo roku 2000 pred Kr . , potom , čo bola Malta asi 500 rokov neobývaná .
+# orig_file_sentence malta004_kandracova_malta004_tencerova#9
+1	Osídlenie	osídlenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	dnešným	dnešný	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	obyvateľstvom	obyvateľstvo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	_
+4	začalo	začať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	okolo	okolo	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+7	2000	2000	NUM	0	NumForm=Digit	6	nummod	_	_
+8	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+9	Kr	kr	X	W	Abbr=Yes	7	nmod	_	_
+10	.	.	PUNCT	Z	_	9	punct	_	_
+11	,	,	PUNCT	Z	_	12	punct	_	_
+12	potom	potom	ADV	Dx	Degree=Pos	6	appos	_	_
+13	,	,	PUNCT	Z	_	20	punct	_	_
+14	čo	čo	SCONJ	O	_	20	mark	_	_
+15	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	20	cop	_	_
+16	Malta	malta	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+17	asi	asi	PART	T	_	18	advmod:emph	_	_
+18	500	500	NUM	0	NumForm=Digit	20	obl	_	_
+19	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	neobývaná	obývaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	12	advcl	_	_
+21	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s10
+# text = Podľa jednej stále neoverenej teórie bola Malta osídlená zo Sicílie , pričom v priebehu ďalšieho vývoja došlo čiastočne k premiešaniu obyvateľstva s inými národmi .
+# orig_file_sentence malta004_kandracova_malta004_tencerova#10
+1	Podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+2	jednej	jeden	NUM	NFfs2	Case=Gen|Gender=Fem|Number=Sing	5	nummod	_	_
+3	stále	stále	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	neoverenej	overený	ADJ	Gtfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	teórie	teória	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+6	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+7	Malta	malta	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+8	osídlená	osídlený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+9	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	10	case	_	_
+10	Sicílie	sicília	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+11	,	,	PUNCT	Z	_	17	punct	_	_
+12	pričom	pričom	CCONJ	O	_	17	cc	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+14	priebehu	priebeh	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	fixed	_	_
+15	ďalšieho	ďalší	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	vývoja	vývoj	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
+17	došlo	dôjsť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	conj	_	_
+18	čiastočne	čiastočne	ADV	Dx	Degree=Pos	17	advmod	_	_
+19	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	20	case	_	_
+20	premiešaniu	premiešanie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	17	obl:arg	_	_
+21	obyvateľstva	obyvateľstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	24	case	_	_
+23	inými	iný	DET	PAip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|PronType=Ind	24	det	_	_
+24	národmi	národ	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	20	nmod	_	_
+25	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s11
+# text = Maltský jazyk
+# orig_file_sentence malta004_kandracova_malta004_tencerova#11
+1	Maltský	maltský	ADJ	AAis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	jazyk	jazyk	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s12
+# text = Úradným jazykom na Malte je maltčina ( Malti ) , prevažná väčšina obyvateľov však hovorí aj po anglicky , čiastočne po taliansky .
+# orig_file_sentence malta004_kandracova_malta004_tencerova#12
+1	Úradným	úradný	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	jazykom	jazyk	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+3	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	Malte	malta	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+5	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+6	maltčina	maltčina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+7	(	(	PUNCT	Z	_	8	punct	_	_
+8	Malti	malťan	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	appos	_	_
+9	)	)	PUNCT	Z	_	8	punct	_	_
+10	,	,	PUNCT	Z	_	15	punct	_	_
+11	prevažná	prevažný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	väčšina	väčšina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+13	obyvateľov	obyvateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	však	však	CCONJ	O	_	15	cc	_	_
+15	hovorí	hovoriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+16	aj	aj	PART	T	_	18	advmod:emph	_	_
+17	po	po	X	Q	Hyph=Yes	18	case	_	_
+18	anglicky	anglicky	ADV	Dx	Degree=Pos	15	advmod	_	_
+19	,	,	PUNCT	Z	_	20	punct	_	_
+20	čiastočne	čiastočne	ADV	Dx	Degree=Pos	18	conj	_	_
+21	po	po	X	Q	Hyph=Yes	20	case	_	_
+22	taliansky	taliansky	ADV	Dx	Degree=Pos	20	advmod	_	_
+23	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s13
+# text = Angličtina je pritom druhým úradným jazykom .
+# orig_file_sentence malta004_kandracova_malta004_tencerova#13
+1	Angličtina	angličtina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	pritom	pritom	ADV	Dx	Degree=Pos	6	advmod	_	_
+4	druhým	druhý	ADJ	NAis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+5	úradným	úradný	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	jazykom	jazyk	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+7	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s14
+# text = Maltčina je semitský jazyk , ktorý sa pôvodne vyvinul z jazyka Feničanov .
+# orig_file_sentence malta004_kandracova_malta004_tencerova#14
+1	Maltčina	maltčina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	semitský	semitský	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	jazyk	jazyk	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	,	,	PUNCT	Z	_	9	punct	_	_
+6	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	9	nsubj	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+8	pôvodne	pôvodne	ADV	Dx	Degree=Pos	9	advmod	_	_
+9	vyvinul	vyvinúť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
+10	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+11	jazyka	jazyk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+12	Feničanov	feničan	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s15
+# text = V priebehu vývoja však bol silno ovplyvnený arabčinou , veľmi silný vplyv mali tiež románske jazyky ( hlavne taliančina ) a angličtina .
+# orig_file_sentence malta004_kandracova_malta004_tencerova#15
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	priebehu	priebeh	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	vývoja	vývoj	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+4	však	však	CCONJ	O	_	7	cc	_	_
+5	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+6	silno	silno	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	ovplyvnený	ovplyvnený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+8	arabčinou	arabčina	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	7	obl:agent	_	_
+9	,	,	PUNCT	Z	_	13	punct	_	_
+10	veľmi	veľmi	ADV	Dx	Degree=Pos	11	advmod	_	_
+11	silný	silný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	vplyv	vplyv	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+13	mali	mať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+14	tiež	tiež	PART	T	_	13	advmod	_	_
+15	románske	románsky	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
+16	jazyky	jazyk	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+17	(	(	PUNCT	Z	_	19	punct	_	_
+18	hlavne	hlavne	PART	T	_	19	advmod:emph	_	_
+19	taliančina	taliančina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	16	nmod	_	_
+20	)	)	PUNCT	Z	_	19	punct	_	_
+21	a	a	CCONJ	O	_	22	cc	_	_
+22	angličtina	angličtina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	19	conj	_	_
+23	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s16
+# text = Maltčina je jediným semitským jazykom , ktorý používa latinskú abecedu obohatenú o niekoľko vlastných písmen .
+# orig_file_sentence malta004_kandracova_malta004_tencerova#16
+1	Maltčina	maltčina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	jediným	jediný	ADJ	NAis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|NumType=Mult	5	amod	_	_
+4	semitským	semitský	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	jazykom	jazyk	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	8	nsubj	_	_
+8	používa	používať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	acl	_	_
+9	latinskú	latinský	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	abecedu	abeceda	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	obohatenú	obohatený	ADJ	Gtfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	xcomp	_	_
+12	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+13	niekoľko	niekoľko	DET	PUns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Card|PronType=Ind	15	det:numgov	_	_
+14	vlastných	vlastný	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	15	amod	_	_
+15	písmen	písmeno	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	11	obl	_	_
+16	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s17
+# text = Aj názov Malta sa vyvinul z pôvodne fenických a neskôr arabských názvov , ktoré sa pre ostrov používali : Malet , Melita , Maltacheum a ďalšie .
+# orig_file_sentence malta004_kandracova_malta004_tencerova#17
+1	Aj	aj	PART	T	_	2	advmod:emph	_	_
+2	názov	názov	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Malta	malta	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	vyvinul	vyvinúť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+7	pôvodne	pôvodne	ADV	Dx	Degree=Pos	8	advmod	_	_
+8	fenických	fenický	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
+9	a	a	CCONJ	O	_	11	cc	_	_
+10	neskôr	neskôr	ADV	Dx	Degree=Pos	11	advmod	_	_
+11	arabských	arabský	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	conj	_	_
+12	názvov	názov	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+13	,	,	PUNCT	Z	_	18	punct	_	_
+14	ktoré	ktorý	DET	PAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	18	nsubj:pass	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	18	expl:pass	_	_
+16	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
+17	ostrov	ostrov	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
+18	používali	používať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	12	acl	_	_
+19	:	:	PUNCT	Z	_	20	punct	_	_
+20	Malet	malet	X	%	Foreign=Yes	18	appos	_	_
+21	,	,	PUNCT	Z	_	22	punct	_	_
+22	Melita	melita	X	%	Foreign=Yes	20	conj	_	_
+23	,	,	PUNCT	Z	_	24	punct	_	_
+24	Maltacheum	maltacheum	X	%	Foreign=Yes	20	conj	_	_
+25	a	a	CCONJ	O	_	26	cc	_	_
+26	ďalšie	ďalší	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	20	conj	_	_
+27	.	.	PUNCT	Z	_	5	punct	_	_
+

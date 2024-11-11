@@ -1,0 +1,738 @@
+# sent_id = s1
+# text = Čakal som , že N . T . otočí hlavu , záhadne sa usmeje a povie , že mi čítal myšlienky .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#1
+1	Čakal	čakať	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	,	,	PUNCT	Z	_	9	punct	_	_
+4	že	že	SCONJ	O	_	9	mark	_	_
+5	N	n	X	W	Abbr=Yes	7	nmod	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	T	t	X	W	Abbr=Yes	9	nsubj	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+9	otočí	otočiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+10	hlavu	hlava	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	,	,	PUNCT	Z	_	14	punct	_	_
+12	záhadne	záhadne	ADV	Dx	Degree=Pos	14	advmod	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pv	_	_
+14	usmeje	usmiať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	conj	_	_
+15	a	a	CCONJ	O	_	16	cc	_	_
+16	povie	povedať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	conj	_	_
+17	,	,	PUNCT	Z	_	20	punct	_	_
+18	že	že	SCONJ	O	_	20	mark	_	_
+19	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	20	iobj	_	_
+20	čítal	čítať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	ccomp	_	_
+21	myšlienky	myšlienka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	20	obj	_	_
+22	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s2
+# text = Neotočil hlavu .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#2
+1	Neotočil	otočiť	VERB	VLdscm-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+2	hlavu	hlava	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s3
+# text = Zhováral sa so svojou manželkou Sofi , ktorá je zároveň mojou sesternicou .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#3
+1	Zhováral	zhovárať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	6	case	_	_
+4	svojou	svoj	DET	PFfs7	Case=Ins|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	_
+5	manželkou	manželka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	_
+6	Sofi	sofi	PROPN	SUfs7:r	Case=Ins|Gender=Fem|Number=Sing	1	obl	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	9	nsubj	_	_
+9	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	acl	_	_
+10	zároveň	zároveň	ADV	Dx	Degree=Pos	9	advmod	_	_
+11	mojou	môj	DET	PFfs7	Case=Ins|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det	_	_
+12	sesternicou	sesternica	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	9	obj	_	_
+13	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s4
+# text = Z toho som pochopil , že pri stole obďaleč je naozaj môj starý priateľ , nikto iný , takže moje otázky zostanú bez odpovede .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#4
+1	Z	z	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	toho	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	4	obl	_	_
+3	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	pochopil	pochopiť	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	,	,	PUNCT	Z	_	10	punct	_	_
+6	že	že	SCONJ	O	_	10	mark	_	_
+7	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	stole	stôl	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+9	obďaleč	obďaleč	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+11	naozaj	naozaj	PART	T	_	10	advmod:emph	_	_
+12	môj	môj	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	14	det	_	_
+13	starý	starý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	priateľ	priateľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+15	,	,	PUNCT	Z	_	16	punct	_	_
+16	nikto	nikto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	14	appos	_	_
+17	iný	iný	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
+18	,	,	PUNCT	Z	_	22	punct	_	_
+19	takže	takže	CCONJ	O	_	22	mark	_	_
+20	moje	môj	DET	PFfp1	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	21	det	_	_
+21	otázky	otázka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	_
+22	zostanú	zostať	VERB	VKdpc+	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+23	bez	bez	ADP	Eu2	AdpType=Prep|Case=Gen	24	case	_	_
+24	odpovede	odpoveď	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	22	obl	_	_
+25	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s5
+# text = Pocítil som znechutenosť .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#5
+1	Pocítil	pocítiť	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	znechutenosť	znechutenosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s6
+# text = Nevedel som , koho by som mal radšej v svojej blízkosti , starého priateľa alebo jeho dvojníka .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#6
+1	Nevedel	vedieť	VERB	VLesam-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	,	,	PUNCT	Z	_	7	punct	_	_
+4	koho	kto	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	7	obj	_	_
+5	by	by	AUX	Y	Mood=Cnd	7	aux	_	_
+6	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	mal	mať	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	ccomp	_	_
+8	radšej	rád	ADJ	AUms1y	Animacy=Anim|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	7	obl	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+10	svojej	svoj	DET	PFfs6	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	11	det	_	_
+11	blízkosti	blízkosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+12	,	,	PUNCT	Z	_	14	punct	_	_
+13	starého	starý	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	priateľa	priateľ	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	dep	_	_
+15	alebo	alebo	CCONJ	O	_	17	cc	_	_
+16	jeho	jeho	DET	PUms4	Animacy=Anim|Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+17	dvojníka	dvojník	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	14	conj	_	_
+18	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s7
+# text = Potom miestnosť naplnili tóny hudby , ľudia vstávali , že pôjdu tancovať , a vstal aj doktor N . T .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#7
+1	Potom	potom	ADV	Dx	Degree=Pos	3	advmod	_	_
+2	miestnosť	miestnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+3	naplnili	naplniť	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	tóny	tón	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+5	hudby	hudba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	ľudia	človek	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	vstávali	vstávať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+9	,	,	PUNCT	Z	_	11	punct	_	_
+10	že	že	SCONJ	O	_	11	mark	_	_
+11	pôjdu	ísť	VERB	VBepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	8	advcl	_	_
+12	tancovať	tancovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	11	xcomp	_	_
+13	,	,	PUNCT	Z	_	15	punct	_	_
+14	a	a	CCONJ	O	_	15	cc	_	_
+15	vstal	vstať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+16	aj	aj	CCONJ	O	_	17	advmod:emph	_	_
+17	doktor	doktor	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+18	N	n	X	W	Abbr=Yes	20	nmod	_	_
+19	.	.	PUNCT	Z	_	18	punct	_	_
+20	T	t	X	W	Abbr=Yes	17	nmod	_	_
+21	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s8
+# text = Zostal som v mlčanlivej spoločnosti Marginých sesterníc – vyjadrili sa , že je neslýchaná nehanebnosť , ak teraz vyhráva hudba , keď po múroch ešte visia Margine smútočné oznámenia – a začal som blúdiť očami po sále .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#8
+1	Zostal	zostať	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+4	mlčanlivej	mlčanlivý	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	spoločnosti	spoločnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	1	obl	_	_
+6	Marginých	margin	ADJ	AFfp2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
+7	sesterníc	sesternica	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	–	–	PUNCT	Z	_	9	punct	_	_
+9	vyjadrili	vyjadriť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	parataxis	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+11	,	,	PUNCT	Z	_	15	punct	_	_
+12	že	že	SCONJ	O	_	15	mark	_	_
+13	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	neslýchaná	slýchaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	nehanebnosť	nehanebnosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	advcl	_	_
+16	,	,	PUNCT	Z	_	19	punct	_	_
+17	ak	ak	SCONJ	O	_	19	mark	_	_
+18	teraz	teraz	ADV	Dx	Degree=Pos	19	advmod	_	_
+19	vyhráva	vyhrávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+20	hudba	hudba	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+21	,	,	PUNCT	Z	_	26	punct	_	_
+22	keď	keď	SCONJ	O	_	26	mark	_	_
+23	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+24	múroch	múr	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	26	obl	_	_
+25	ešte	ešte	PART	T	_	26	advmod:emph	_	_
+26	visia	visieť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+27	Margine	margin	ADJ	AFnp1x:r	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	29	amod	_	_
+28	smútočné	smútočný	ADJ	AAnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	29	amod	_	_
+29	oznámenia	oznámenie	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	26	nsubj	_	_
+30	–	–	PUNCT	Z	_	9	punct	_	_
+31	a	a	CCONJ	O	_	32	cc	_	_
+32	začal	začať	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+33	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	32	aux	_	_
+34	blúdiť	blúdiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	32	xcomp	_	_
+35	očami	oko	NOUN	SSnp7	Case=Ins|Gender=Neut|Number=Plur	34	obl	_	_
+36	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	37	case	_	_
+37	sále	sála	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	34	obl	_	_
+38	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s9
+# text = Ako nejaká neviditeľná kamera .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#9
+1	Ako	ako	SCONJ	O	_	4	mark	_	_
+2	nejaká	nejaký	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
+3	neviditeľná	neviditeľný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	kamera	kamera	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s10
+# text = V húfe tanečníkov sa mi ako prvé dostali do záberu tváre Irmy a Adriana .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#10
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	húfe	húf	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+3	tanečníkov	tanečník	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+5	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+6	ako	ako	SCONJ	O	_	7	mark	_	_
+7	prvé	prvý	ADJ	NAfp1	Case=Nom|Gender=Fem|Number=Plur|NumType=Ord	8	xcomp	_	_
+8	dostali	dostať	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	záberu	záber	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+11	tváre	tvár	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+12	Irmy	irma	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	Adriana	adriano	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	conj	_	_
+15	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s11
+# text = Posunul som kameru doprava , trochu vyššie , aby som zachytil iba tvár dôstojníka KFOR .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#11
+1	Posunul	posunúť	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	kameru	kamera	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	doprava	doprava	ADV	Dx	Degree=Pos	1	advmod	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	trochu	trochu	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	vyššie	vysoko	ADV	Dy	Degree=Cmp	4	conj	_	_
+8	,	,	PUNCT	Z	_	11	punct	_	_
+9	aby	aby	SCONJ	OY	Mood=Cnd	11	mark	_	_
+10	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	zachytil	zachytiť	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	advcl	_	_
+12	iba	iba	PART	T	_	13	advmod:emph	_	_
+13	tvár	tvár	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	dôstojníka	dôstojník	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	KFOR	kfor	X	W	Abbr=Yes	14	nmod	_	_
+16	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s12
+# text = Mladí tancovali takmer v objatí a ja som musel chvíľu čakať .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#12
+1	Mladí	mladý	NOUN	SAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	tancovali	tancovať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	takmer	takmer	PART	T	_	5	advmod:emph	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	objatí	objatie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+6	a	a	CCONJ	O	_	9	cc	_	_
+7	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	musel	musieť	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+10	chvíľu	chvíľa	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+11	čakať	čakať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	9	xcomp	_	_
+12	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s13
+# text = Odtiahni sa , ticho som povedal Irme , dovoľ mi pozrieť sa na neho .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#13
+1	Odtiahni	odtiahnuť	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	6	ccomp	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	,	,	PUNCT	Z	_	1	punct	_	_
+4	ticho	ticho	ADV	Dx	Degree=Pos	6	advmod	_	_
+5	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	povedal	povedať	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	Irme	irma	PROPN	SSfs3:r	Case=Dat|Gender=Fem|Number=Sing	6	iobj	_	_
+8	,	,	PUNCT	Z	_	9	punct	_	_
+9	dovoľ	dovoliť	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	6	ccomp	_	_
+10	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+11	pozrieť	pozrieť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	9	xcomp	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+13	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+14	neho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+15	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s14
+# text = Akoby ma počula , ustúpila nabok a otočila sa mi chrbtom .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#14
+1	Akoby	akoby	SCONJ	OY	Mood=Cnd	3	mark	_	_
+2	ma	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	počula	počuť	VERB	VLjscf+	Aspect=Imp,Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	advcl	_	_
+4	,	,	PUNCT	Z	_	3	punct	_	_
+5	ustúpila	ustúpiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	nabok	nabok	ADV	Dx	Degree=Pos	5	advmod	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	otočila	otočiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+10	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+11	chrbtom	chrbát	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+12	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s15
+# text = Za jej chrbtom mi zostala v zábere Talianova tvár .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#15
+1	Za	za	ADP	Eu7	AdpType=Prep|Case=Ins	3	case	_	_
+2	jej	jej	DET	PUis7	Animacy=Inan|Case=Ins|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	chrbtom	chrbát	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+4	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+5	zostala	zostať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	zábere	záber	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+8	Talianova	talianov	ADJ	AFfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	tvár	tvár	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+10	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s16
+# text = Moja úcta , povedal som Talianovi .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#16
+1	Moja	môj	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	úcta	úcta	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	dep	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	povedal	povedať	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_
+6	Talianovi	talian	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	obj	_	_
+7	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s17
+# text = Musím ťa upozorniť , pane , že mi nepripadáš ako typ muža pre Irmu .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#17
+1	Musím	musieť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ťa	ty	PRON	PPhs4	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	iobj	_	_
+3	upozorniť	upozorniť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	xcomp	_	_
+4	,	,	PUNCT	Z	_	1	punct	_	_
+5	pane	pán	NOUN	SSms5	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	_
+6	,	,	PUNCT	Z	_	1	punct	_	_
+7	že	že	SCONJ	O	_	9	mark	_	_
+8	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+9	nepripadáš	pripadať	VERB	VKesb-	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+10	ako	ako	SCONJ	O	_	11	mark	_	_
+11	typ	typ	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	dep	_	_
+12	muža	muž	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+14	Irmu	irma	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_
+15	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s18
+# text = Si krehký , máš jemnú tvár , jedným slovom , nie je v tebe nič vojenské , aj keď som ťa ešte nikdy nevidel v uniforme .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#18
+1	Si	byť	AUX	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	krehký	krehký	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	máš	mať	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	jemnú	jemný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	tvár	tvár	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	jedným	jeden	NUM	NFns7	Case=Ins|Gender=Neut|Number=Sing	9	nummod	_	_
+9	slovom	slovo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+10	,	,	PUNCT	Z	_	2	punct	_	_
+11	nie	nie	PART	T	_	12	advmod	_	_
+12	je	byť	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	tebe	ty	PRON	PPhs6	Case=Loc|Number=Sing|Person=2|PronType=Prs	12	obl	_	_
+15	nič	nič	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	12	nsubj	_	_
+16	vojenské	vojenský	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+17	,	,	PUNCT	Z	_	24	punct	_	_
+18	aj	aj	CCONJ	O	_	24	mark	_	_
+19	keď	keď	SCONJ	O	_	18	fixed	_	_
+20	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	24	aux	_	_
+21	ťa	ty	PRON	PPhs4	Case=Acc|Number=Sing|Person=2|PronType=Prs	24	obj	_	_
+22	ešte	ešte	PART	T	_	23	advmod:emph	_	_
+23	nikdy	nikdy	ADV	PD	PronType=Neg	24	advmod	_	_
+24	nevidel	vidieť	VERB	VLesam-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	12	advcl	_	_
+25	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	26	case	_	_
+26	uniforme	uniforma	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	24	obl	_	_
+27	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s19
+# text = A tie tenké prsty , ako prsty klaviristu . . .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#19
+1	A	a	CCONJ	O	_	4	cc	_	_
+2	tie	ten	DET	PFip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+3	tenké	tenký	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	prsty	prst	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	ako	ako	SCONJ	O	_	7	mark	_	_
+7	prsty	prst	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	dep	_	_
+8	klaviristu	klavirista	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	.	.	PUNCT	Z	_	4	punct	_	_
+10	.	.	PUNCT	Z	_	4	punct	_	_
+11	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s20
+# text = Ženista , v poriadku .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#20
+1	Ženista	ženista	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	,	,	PUNCT	Z	_	4	punct	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	poriadku	poriadok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	conj	_	_
+5	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s21
+# text = A teraz mi porozprávaj , ako sa ti podarilo prehovoriť Irmu , aby sa všetkého vzdala , aby nechala štúdium , keď jej zostáva už iba niekoľko mesiacov do získania diplomu ?
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#21
+1	A	a	CCONJ	O	_	4	cc	_	_
+2	teraz	teraz	ADV	Dx	Degree=Pos	4	advmod	_	_
+3	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	porozprávaj	porozprávať	VERB	VMesb+	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+5	,	,	PUNCT	Z	_	9	punct	_	_
+6	ako	ako	SCONJ	O	_	9	mark	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+8	ti	ty	PRON	PPhs3	Case=Dat|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
+9	podarilo	podariť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	ccomp	_	_
+10	prehovoriť	prehovoriť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	9	xcomp	_	_
+11	Irmu	irma	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	,	,	PUNCT	Z	_	16	punct	_	_
+13	aby	aby	SCONJ	OY	Mood=Cnd	16	mark	_	_
+14	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+15	všetkého	všetok	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	16	obj	_	_
+16	vzdala	vzdať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	ccomp	_	_
+17	,	,	PUNCT	Z	_	19	punct	_	_
+18	aby	aby	SCONJ	OY	Mood=Cnd	19	mark	_	_
+19	nechala	nechať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	conj	_	_
+20	štúdium	štúdium	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
+21	,	,	PUNCT	Z	_	24	punct	_	_
+22	keď	keď	SCONJ	O	_	24	mark	_	_
+23	jej	ona	PRON	PFfs3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+24	zostáva	zostávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+25	už	už	PART	T	_	26	advmod:emph	_	_
+26	iba	iba	PART	T	_	27	cc	_	_
+27	niekoľko	niekoľko	DET	PUns1	Case=Nom|Gender=Neut|Number=Sing|NumType=Card|PronType=Ind	28	det:numgov	_	_
+28	mesiacov	mesiac	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nsubj	_	_
+29	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	30	case	_	_
+30	získania	získanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	24	obl	_	_
+31	diplomu	diplom	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+32	?	?	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s22
+# text = Pretože , odpusť mi , ja mám nedobrý mozog , všeličo mi zíde na um .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#22
+1	Pretože	pretože	SCONJ	O	_	7	mark	_	_
+2	,	,	PUNCT	Z	_	3	punct	_	_
+3	odpusť	odpustiť	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	7	parataxis	_	_
+4	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	,	,	PUNCT	Z	_	3	punct	_	_
+6	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	mám	mať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	nedobrý	nedobrý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	mozog	mozog	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	,	,	PUNCT	Z	_	13	punct	_	_
+11	všeličo	všeličo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	13	nsubj	_	_
+12	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+13	zíde	zísť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	conj	_	_
+14	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+15	um	um	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+16	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s23
+# text = Narodil som sa v malej krajine , pane , a ako sa u nás hovorí , opäť prosím o prepáčenie , u nás sa hovorí , že je lepšie byť kus h . . . ako byť malý .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#23
+1	Narodil	narodiť	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+5	malej	malý	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	krajine	krajina	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	1	obl	_	_
+7	,	,	PUNCT	Z	_	1	punct	_	_
+8	pane	pán	NOUN	SSms5	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	_
+9	,	,	PUNCT	Z	_	1	punct	_	_
+10	a	a	CCONJ	O	_	15	cc	_	_
+11	ako	ako	SCONJ	O	_	15	advmod	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+13	u	u	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+14	nás	my	PRON	PPhp2	Case=Gen|Number=Plur|Person=1|PronType=Prs	15	obl	_	_
+15	hovorí	hovoriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+16	,	,	PUNCT	Z	_	18	punct	_	_
+17	opäť	opäť	ADV	Dx	Degree=Pos	18	advmod	_	_
+18	prosím	prosiť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
+19	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	20	case	_	_
+20	prepáčenie	prepáčenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	18	obl:arg	_	_
+21	,	,	PUNCT	Z	_	25	punct	_	_
+22	u	u	ADP	Eu2	AdpType=Prep|Case=Gen	23	case	_	_
+23	nás	my	PRON	PPhp2	Case=Gen|Number=Plur|Person=1|PronType=Prs	25	obl	_	_
+24	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	25	expl:pv	_	_
+25	hovorí	hovoriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+26	,	,	PUNCT	Z	_	29	punct	_	_
+27	že	že	SCONJ	O	_	29	mark	_	_
+28	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	29	cop	_	_
+29	lepšie	dobre	ADV	Dy	Degree=Cmp	25	ccomp	_	_
+30	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	31	cop	_	_
+31	kus	kus	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	csubj	_	_
+32	h	h	X	W	Abbr=Yes	31	nmod	_	_
+33	.	.	PUNCT	Z	_	32	punct	_	_
+34	.	.	PUNCT	Z	_	32	punct	_	_
+35	.	.	PUNCT	Z	_	32	punct	_	_
+36	ako	ako	SCONJ	O	_	38	mark	_	_
+37	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	38	cop	_	_
+38	malý	malý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	xcomp	_	_
+39	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s24
+# text = Pravda , ty mi nerozumieš .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#24
+1	Pravda	pravda	PART	T	_	5	dep	_	_
+2	,	,	PUNCT	Z	_	5	punct	_	_
+3	ty	ty	PRON	PPhs1	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+4	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+5	nerozumieš	rozumieť	VERB	VKesb-	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s25
+# text = Ak si ešte nepočul toto príslovie , ťažko mi budeš rozumieť .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#25
+1	Ak	ak	SCONJ	O	_	4	mark	_	_
+2	si	byť	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	compound	_	_
+3	ešte	ešte	ADV	Dx	Degree=Pos	4	advmod:emph	_	_
+4	nepočul	počuť	VERB	VLjsbm-	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	10	advcl	_	_
+5	toto	toto	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
+6	príslovie	príslovie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+7	,	,	PUNCT	Z	_	10	punct	_	_
+8	ťažko	ťažko	ADV	Dx	Degree=Pos	10	advmod	_	_
+9	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+10	budeš	byť	VERB	VBesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	_
+11	rozumieť	rozumieť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	10	ccomp	_	_
+12	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s26
+# text = Sám neviem , čo mi to zišlo na um , že ťa vediem do sféry folklórneho bohatstva našej krajiny po takomto skatologickom chodníčku .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#26
+1	Sám	sám	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	2	xcomp	_	_
+2	neviem	vedieť	VERB	VKesa-	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	Z	_	7	punct	_	_
+4	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	7	obj	_	_
+5	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+6	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	_
+7	zišlo	zísť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	ccomp	_	_
+8	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+9	um	um	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+10	,	,	PUNCT	Z	_	13	punct	_	_
+11	že	že	SCONJ	O	_	13	mark	_	_
+12	ťa	ty	PRON	PPhs4	Case=Acc|Number=Sing|Person=2|PronType=Prs	13	obj	_	_
+13	vediem	viesť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+14	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+15	sféry	sféra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+16	folklórneho	folklórny	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	bohatstva	bohatstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+18	našej	náš	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	19	det	_	_
+19	krajiny	krajina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+20	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	23	case	_	_
+21	takomto	takýto	DET	PAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+22	skatologickom	skatologický	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	chodníčku	chodníček	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+24	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s27
+# text = Adriano sa mi otočil chrbtom .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#27
+1	Adriano	adriano	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+4	otočil	otočiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	chrbtom	chrbát	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+6	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s28
+# text = V zábere kamery , kúsok nad Adrianovým plecom , sa objavila Irmina tvár , medzitým nadobudla červenú farbu .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#28
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	zábere	záber	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+3	kamery	kamera	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	,	,	PUNCT	Z	_	8	punct	_	_
+5	kúsok	kúsok	ADV	Dx	Degree=Pos	8	advmod	_	_
+6	nad	nad	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+7	Adrianovým	adrianov	ADJ	AFns7x:r	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	plecom	plece	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	2	conj	_	_
+9	,	,	PUNCT	Z	_	11	punct	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pass	_	_
+11	objavila	objaviť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	Irmina	irmin	ADJ	AFfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	tvár	tvár	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+14	,	,	PUNCT	Z	_	16	punct	_	_
+15	medzitým	medzitým	ADV	Dx	Degree=Pos	16	advmod	_	_
+16	nadobudla	nadobudnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	conj	_	_
+17	červenú	červený	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	farbu	farba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+19	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s29
+# text = Zmĺkol som .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#29
+1	Zmĺkol	zmĺknuť	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s30
+# text = Akoby som sa obával , že mi prečíta myšlienky , rozzúri sa a vrhne sa na mňa s ostrou kritikou mojej pokryteckej generácie .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#30
+1	Akoby	akoby	SCONJ	OY	Mood=Cnd	4	mark	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	obával	obávať	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	,	,	PUNCT	Z	_	8	punct	_	_
+6	že	že	SCONJ	O	_	8	mark	_	_
+7	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	prečíta	prečítať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+9	myšlienky	myšlienka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	rozzúri	rozzúriť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	conj	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	vrhne	vrhnúť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	conj	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pv	_	_
+16	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
+17	mňa	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obl	_	_
+18	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	20	case	_	_
+19	ostrou	ostrý	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	kritikou	kritika	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_
+21	mojej	môj	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	23	det	_	_
+22	pokryteckej	pokrytecký	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	generácie	generácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+24	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s31
+# text = A začal som otáčať kamerou po sále , až kým sa v zábere neobjavila Lorina tvár .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#31
+1	A	a	PART	T	_	2	advmod	_	_
+2	začal	začať	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	aux	_	_
+4	otáčať	otáčať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
+5	kamerou	kamera	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+6	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	sále	sála	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+8	,	,	PUNCT	Z	_	14	punct	_	_
+9	až	až	SCONJ	O	_	14	mark	_	_
+10	kým	kým	SCONJ	O	_	9	fixed	_	_
+11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pv	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	zábere	záber	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+14	neobjavila	objaviť	VERB	VLdscf-	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	4	advcl	_	_
+15	Lorina	lorin	ADJ	AFfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	tvár	tvár	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+17	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s32
+# text = Lori bola sama .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#32
+1	Lori	lori	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	cop	_	_
+3	sama	sám	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Emp	0	root	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s33
+# text = Pri troche pozornosti by som si bol všimol , že je znudená , a jej otrávenosť by som si bol celkom prirodzene dal do súvisu s tým , že jej spoločník , vysoký blondín Sergej , nebol – nevedno prečo – na tom obede .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#33
+1	Pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	troche	trocha	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+3	pozornosti	pozornosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	by	by	AUX	Y	Mood=Cnd	8	aux	_	_
+5	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	si	si	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+7	bol	byť	AUX	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	aux	_	_
+8	všimol	všimnúť	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	,	,	PUNCT	Z	_	12	punct	_	_
+10	že	že	SCONJ	O	_	12	mark	_	_
+11	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	znudená	znudený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	ccomp	_	_
+13	,	,	PUNCT	Z	_	23	punct	_	_
+14	a	a	CCONJ	O	_	23	cc	_	_
+15	jej	jej	DET	PUfs4	Case=Acc|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+16	otrávenosť	otrávenosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+17	by	by	AUX	Y	Mood=Cnd	23	aux	_	_
+18	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	23	aux	_	_
+19	si	si	PRON	R	PronType=Prs|Reflex=Yes	23	expl:pv	_	_
+20	bol	byť	AUX	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	23	aux	_	_
+21	celkom	celkom	PART	T	_	22	cc	_	_
+22	prirodzene	prirodzene	ADV	Dx	Degree=Pos	23	advmod	_	_
+23	dal	dať	VERB	VLjsam+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	conj	_	_
+24	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	25	case	_	_
+25	súvisu	súvis	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	obl	_	_
+26	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	27	case	_	_
+27	tým	to	DET	PFns7	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	25	det	_	_
+28	,	,	PUNCT	Z	_	37	punct	_	_
+29	že	že	SCONJ	O	_	37	mark	_	_
+30	jej	jej	DET	PUms1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	31	det	_	_
+31	spoločník	spoločník	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	37	nsubj	_	_
+32	,	,	PUNCT	Z	_	35	punct	_	_
+33	vysoký	vysoký	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	blondín	blondín	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	35	nmod	_	_
+35	Sergej	sergej	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	31	appos	_	_
+36	,	,	PUNCT	Z	_	35	punct	_	_
+37	nebol	byť	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	27	acl	_	_
+38	–	–	PUNCT	Z	_	40	punct	_	_
+39	nevedno	nevedno	PART	T	_	40	cc	_	_
+40	prečo	prečo	ADV	PD	PronType=Int,Rel	37	advmod	_	_
+41	–	–	PUNCT	Z	_	40	punct	_	_
+42	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	44	case	_	_
+43	tom	ten	DET	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	44	det	_	_
+44	obede	obed	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	37	obl	_	_
+45	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s34
+# text = Ale ja som si nič nevšimol .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#34
+1	Ale	ale	CCONJ	O	_	6	cc	_	_
+2	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	si	si	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+5	nič	nič	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	6	obj	_	_
+6	nevšimol	všimnúť	VERB	VLdsam-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+7	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s35
+# text = Moja kamera sa dlhšie zastavila na Lorinej tvári a ja som sa začal dívať na Lori , akoby som ju videl prvýkrát .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#35
+1	Moja	môj	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	kamera	kamera	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+4	dlhšie	dlho	ADV	Dy	Degree=Cmp	5	advmod	_	_
+5	zastavila	zastaviť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+7	Lorinej	lorin	ADJ	AFfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	tvári	tvár	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+9	a	a	CCONJ	O	_	13	cc	_	_
+10	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+11	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pv	_	_
+13	začal	začať	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+14	dívať	dívať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	13	xcomp	_	_
+15	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
+16	Lori	lori	PROPN	SUfs4:r	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
+17	,	,	PUNCT	Z	_	21	punct	_	_
+18	akoby	akoby	SCONJ	OY	Mood=Cnd	21	mark	_	_
+19	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+21	videl	vidieť	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	advcl	_	_
+22	prvýkrát	prvýkrát	ADV	ND	NumType=Mult	21	obl	_	_
+23	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s36
+# text = Mal som pocit , že za známymi črtami tváre , ktorých som sa vo sne neraz dotýkal , sa skrýva akési tajomstvo .
+# orig_file_sentence Psia-koza-059_mz_Psia-koza-059_hudekova#36
+1	Mal	mať	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	pocit	pocit	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+4	,	,	PUNCT	Z	_	20	punct	_	_
+5	že	že	SCONJ	O	_	20	mark	_	_
+6	za	za	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+7	známymi	známy	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	črtami	črta	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	20	obl	_	_
+9	tváre	tvár	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	,	,	PUNCT	Z	_	17	punct	_	_
+11	ktorých	ktorý	DET	PAfp2	Case=Gen|Gender=Fem|Number=Plur|PronType=Int,Rel	17	obj	_	_
+12	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	aux	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	17	expl:pv	_	_
+14	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	15	case	_	_
+15	sne	sen	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+16	neraz	neraz	ADV	Dx	Degree=Pos	17	advmod	_	_
+17	dotýkal	dotýkať	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+18	,	,	PUNCT	Z	_	17	punct	_	_
+19	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	20	expl:pv	_	_
+20	skrýva	skrývať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	acl	_	_
+21	akési	akýsi	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	22	det	_	_
+22	tajomstvo	tajomstvo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+23	.	.	PUNCT	Z	_	1	punct	_	_
+

@@ -1,0 +1,197 @@
+# sent_id = s1
+# text = Percento
+# orig_file_sentence percento000_tencerova_percento000_kandracova#1
+1	Percento	percento	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+
+# sent_id = s2
+# text = Percentá sú spôsobom ako vyjadriť časť celku ( stotiny , čiže zlomok ) pomocou celého čísla .
+# orig_file_sentence percento000_tencerova_percento000_kandracova#2
+1	Percentá	percento	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+2	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	spôsobom	spôsob	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+4	ako	ako	ADV	PD	PronType=Int,Rel	5	advmod	_	_
+5	vyjadriť	vyjadriť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	dep	_	_
+6	časť	časť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	celku	celok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	(	(	PUNCT	Z	_	9	punct	_	_
+9	stotiny	stotina	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	6	appos	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	čiže	čiže	CCONJ	O	_	12	cc	_	_
+12	zlomok	zlomok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	conj	_	_
+13	)	)	PUNCT	Z	_	9	punct	_	_
+14	pomocou	pomocou	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+15	celého	celý	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	čísla	číslo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+17	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s3
+# text = Zápis napr . " 45 % " ( 45 percent ) je v skutočnosti iba skratka pre zlomok 45 / 100 , tzn . desatinné číslo 0 , 45 .
+# orig_file_sentence percento000_tencerova_percento000_kandracova#3
+1	Zápis	zápis	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+2	napr	napr	X	W	Abbr=Yes	5	advmod:emph	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+4	"	"	PUNCT	Z	_	5	punct	_	_
+5	45	45	NUM	0	NumForm=Digit	1	nummod	_	_
+6	%	%	SYM	#	_	5	nmod	_	_
+7	"	"	PUNCT	Z	_	5	punct	_	_
+8	(	(	PUNCT	Z	_	9	punct	_	_
+9	45	45	NUM	0	NumForm=Digit	5	appos	_	_
+10	percent	percento	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
+11	)	)	PUNCT	Z	_	9	punct	_	_
+12	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	cop	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	skutočnosti	skutočnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+15	iba	iba	PART	T	_	16	advmod:emph	_	_
+16	skratka	skratka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+17	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	18	case	_	_
+18	zlomok	zlomok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	_
+19	45	45	NUM	0	NumForm=Digit	18	nummod	_	_
+20	/	/	SYM	Z	_	19	nmod	_	_
+21	100	100	NUM	0	NumForm=Digit	19	obj	_	_
+22	,	,	PUNCT	Z	_	26	punct	_	_
+23	tzn	tzn	X	W	Abbr=Yes	26	cc	_	_
+24	.	.	PUNCT	Z	_	26	punct	_	_
+25	desatinné	desatinný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	číslo	číslo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	18	appos	_	_
+27	0	0	NUM	0	NumForm=Digit	28	nummod	_	_
+28	,	,	PUNCT	Z	_	26	punct	_	_
+29	45	45	NUM	0	NumForm=Digit	26	nummod	_	_
+30	.	.	PUNCT	Z	_	16	punct	_	_
+
+# sent_id = s4
+# text = Názov pochádza z per cento , znamenajúceho ( pripadajúci ) na sto .
+# orig_file_sentence percento000_tencerova_percento000_kandracova#4
+1	Názov	názov	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	pochádza	pochádzať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	per	per	X	%	Foreign=Yes	2	advmod	_	_
+5	cento	cento	X	%	Foreign=Yes	4	flat:foreign	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	znamenajúceho	znamenajúci	ADJ	Gkis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	4	amod	_	_
+8	(	(	PUNCT	Z	_	9	punct	_	_
+9	pripadajúci	pripadajúci	ADJ	Gkis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	7	obj	_	_
+10	)	)	PUNCT	Z	_	9	punct	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	sto	sto	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	9	obl:arg	_	_
+13	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s5
+# text = Príklady použitia
+# orig_file_sentence percento000_tencerova_percento000_kandracova#5
+1	Príklady	príklad	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+2	použitia	použitie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+
+# sent_id = s6
+# text = 40 % alkohol – V každom litri tejto tekutiny je 0 , 4 litra alkoholu ( a zvyšok , čiže 60 % , tvoria iné látky ‐ tzv . objemové percento )
+# orig_file_sentence percento000_tencerova_percento000_kandracova#6
+1	40	40	NUM	0	NumForm=Digit	3	nummod	_	_
+2	%	%	SYM	#	_	1	nmod	_	_
+3	alkohol	alkohol	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	–	–	PUNCT	Z	_	10	punct	_	_
+5	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	každom	každý	DET	PAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Tot	7	det	_	_
+7	litri	liter	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+8	tejto	táto	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	tekutiny	tekutina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11	0	0	NUM	0	NumForm=Digit	12	nummod	_	_
+12	,	,	PUNCT	Z	_	10	punct	_	_
+13	4	4	NUM	0	NumForm=Digit	10	nsubj	_	_
+14	litra	liter	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	alkoholu	alkohol	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	(	(	PUNCT	Z	_	24	punct	_	_
+17	a	a	CCONJ	O	_	24	cc	_	_
+18	zvyšok	zvyšok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
+19	,	,	PUNCT	Z	_	21	punct	_	_
+20	čiže	čiže	CCONJ	O	_	21	cc	_	_
+21	60	60	NUM	0	NumForm=Digit	18	appos	_	_
+22	%	%	SYM	#	_	21	nmod	_	_
+23	,	,	PUNCT	Z	_	21	punct	_	_
+24	tvoria	tvoriť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	conj	_	_
+25	iné	iný	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	26	det	_	_
+26	látky	látka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	24	nsubj	_	_
+27	‐	‐	PUNCT	Z	_	31	punct	_	_
+28	tzv	tzv	X	W	Abbr=Yes	31	nmod	_	_
+29	.	.	PUNCT	Z	_	28	punct	_	_
+30	objemové	objemový	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	_
+31	percento	percento	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	24	dep	_	_
+32	)	)	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s7
+# text = 15 % zvýšenie ceny – Po tomto zvýšení stojí daná vec 1 , 15 ‐ násobok pôvodnej ceny ; ak bola predtým cena 100 Sk , po zvýšení bude stáť 115 Sk .
+# orig_file_sentence percento000_tencerova_percento000_kandracova#7
+1	15	15	NUM	0	NumForm=Digit	3	nummod	_	_
+2	%	%	SYM	#	_	1	nmod	_	_
+3	zvýšenie	zvýšenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+4	ceny	cena	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	–	–	PUNCT	Z	_	9	punct	_	_
+6	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+7	tomto	toto	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	8	det	_	_
+8	zvýšení	zvýšenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+9	stojí	stáť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	daná	daný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	vec	vec	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+12	1	1	NUM	0	NumForm=Digit	13	nummod	_	_
+13	,	,	PUNCT	Z	_	16	punct	_	_
+14	15	15	NUM	0	NumForm=Digit	16	nummod	_	_
+15	‐	‐	PUNCT	Z	_	14	punct	_	_
+16	násobok	násobok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	obl	_	_
+17	pôvodnej	pôvodný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	ceny	cena	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	;	;	PUNCT	Z	_	31	punct	_	_
+20	ak	ak	SCONJ	O	_	24	mark	_	_
+21	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	24	cop	_	_
+22	predtým	predtým	ADV	Dx	Degree=Pos	24	advmod	_	_
+23	cena	cena	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+24	100	100	NUM	0	NumForm=Digit	31	advcl	_	_
+25	Sk	sk	X	W	Abbr=Yes	24	nmod	_	_
+26	,	,	PUNCT	Z	_	24	punct	_	_
+27	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	28	case	_	_
+28	zvýšení	zvýšenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	31	obl	_	_
+29	bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	31	aux	_	_
+30	stáť	stáť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	31	cop	_	_
+31	115	115	NUM	0	NumForm=Digit	9	conj	_	_
+32	Sk	sk	X	W	Abbr=Yes	31	nmod	_	_
+33	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s8
+# text = 15 % zľava – Po zľave stojí vec 0 , 85 ‐ násobok ( = 1 − 0 , 15 ) pôvodnej ceny ; ak pred zľavou stála 100 Sk , po zľave stojí 85 Sk .
+# orig_file_sentence percento000_tencerova_percento000_kandracova#8
+1	15	15	NUM	0	NumForm=Digit	3	nummod	_	_
+2	%	%	SYM	#	_	1	nmod	_	_
+3	zľava	zľava	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	–	–	PUNCT	Z	_	7	punct	_	_
+5	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	zľave	zľava	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+7	stojí	stáť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	vec	vec	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+9	0	0	NUM	0	NumForm=Digit	10	nummod	_	_
+10	,	,	PUNCT	Z	_	13	punct	_	_
+11	85	85	NUM	0	NumForm=Digit	13	nummod	_	_
+12	‐	‐	PUNCT	Z	_	11	punct	_	_
+13	násobok	násobok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	obl	_	_
+14	(	(	PUNCT	Z	_	16	punct	_	_
+15	=	=	X	#	_	16	cc	_	_
+16	1	1	NUM	0	NumForm=Digit	13	appos	_	_
+17	−	−	NUM	0	NumForm=Digit	16	nummod	_	_
+18	0	0	NUM	0	NumForm=Digit	19	nummod	_	_
+19	,	,	PUNCT	Z	_	17	punct	_	_
+20	15	15	NUM	0	NumForm=Digit	17	obj	_	_
+21	)	)	PUNCT	Z	_	16	punct	_	_
+22	pôvodnej	pôvodný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	ceny	cena	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+24	;	;	PUNCT	Z	_	34	punct	_	_
+25	ak	ak	SCONJ	O	_	28	mark	_	_
+26	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	27	case	_	_
+27	zľavou	zľava	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	28	obl	_	_
+28	stála	stáť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	34	advcl	_	_
+29	100	100	NUM	0	NumForm=Digit	28	obl	_	_
+30	Sk	sk	X	W	Abbr=Yes	29	nmod	_	_
+31	,	,	PUNCT	Z	_	28	punct	_	_
+32	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	33	case	_	_
+33	zľave	zľava	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	34	obl	_	_
+34	stojí	stáť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	conj	_	_
+35	85	85	NUM	0	NumForm=Digit	34	obl	_	_
+36	Sk	sk	X	W	Abbr=Yes	35	nmod	_	_
+37	.	.	PUNCT	Z	_	3	punct	_	_
+

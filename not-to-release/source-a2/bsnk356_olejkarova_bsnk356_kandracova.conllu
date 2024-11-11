@@ -1,0 +1,173 @@
+# sent_id = s1
+# text = Nič z toho nejestvuje . Členovia Bratstva sa nemajú ako poznať a každý pozná len niekoľko ďalších .
+# orig_file_sentence bsnk356_olejkarova_bsnk356_kandracova#1
+1	Nič	nič	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	4	nsubj	_	_
+2	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+3	toho	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	1	det	_	_
+4	nejestvuje	jestvovať	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	.	.	PUNCT	Z	_	4	punct	_	_
+6	Členovia	člen	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+7	Bratstva	bratstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	obj	_	_
+9	nemajú	mať	VERB	VKepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+10	ako	ako	ADV	PD	PronType=Int,Rel	11	mark	_	_
+11	poznať	poznať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	9	xcomp	_	_
+12	a	a	CCONJ	O	_	14	cc	_	_
+13	každý	každý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	14	nsubj	_	_
+14	pozná	poznať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	conj	_	_
+15	len	len	PART	T	_	16	advmod:emph	_	_
+16	niekoľko	niekoľko	DET	PUns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Card|PronType=Ind	17	amod	_	_
+17	ďalších	ďalší	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	14	obj	_	_
+18	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s2
+# text = Aj keby sám Goldstein padol do rúk Ideopolície , nemohol by jej poskytnúť zoznam všetkých členov , ani informácie , ktoré by ju k nemu priviedli .
+# orig_file_sentence bsnk356_olejkarova_bsnk356_kandracova#2
+1	Aj	aj	CCONJ	O	_	5	mark	_	_
+2	keby	keby	SCONJ	OY	Mood=Cnd	1	fixed	_	_
+3	sám	sám	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	4	det	_	_
+4	Goldstein	goldstein	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	padol	padnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	advcl	_	_
+6	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	rúk	ruka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+8	Ideopolície	ideopolícia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	Z	_	5	punct	_	_
+10	nemohol	môcť	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+11	by	by	AUX	Y	Mood=Cnd	10	aux	_	_
+12	jej	ona	PRON	PFfs3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
+13	poskytnúť	poskytnúť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	10	xcomp	_	_
+14	zoznam	zoznam	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+15	všetkých	všetok	DET	PFmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	16	det	_	_
+16	členov	člen	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+17	,	,	PUNCT	Z	_	19	punct	_	_
+18	ani	ani	CCONJ	O	_	19	cc	_	_
+19	informácie	informácia	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	14	conj	_	_
+20	,	,	PUNCT	Z	_	26	punct	_	_
+21	ktoré	ktorý	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	26	nsubj	_	_
+22	by	by	AUX	Y	Mood=Cnd	26	aux	_	_
+23	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+24	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	25	case	_	_
+25	nemu	on	PRON	PFis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obl:arg	_	_
+26	priviedli	priviesť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	19	acl	_	_
+27	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s3
+# text = Nijaký taký zoznam totiž nejestvuje .
+# orig_file_sentence bsnk356_olejkarova_bsnk356_kandracova#3
+1	Nijaký	nijaký	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
+2	taký	taký	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	zoznam	zoznam	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	totiž	totiž	PART	T	_	5	advmod:emph	_	_
+5	nejestvuje	jestvovať	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s4
+# text = Bratstvo nemožno zlikvidovať , lebo nie je organizáciou v bežnom zmysle slova .
+# orig_file_sentence bsnk356_olejkarova_bsnk356_kandracova#4
+1	Bratstvo	bratstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	nemožno	nemožno	ADV	Dx	Degree=Pos	0	root	_	_
+3	zlikvidovať	zlikvidovať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
+4	,	,	PUNCT	Z	_	8	punct	_	_
+5	lebo	lebo	CCONJ	O	_	8	mark	_	_
+6	nie	nie	PART	T	_	8	advmod	_	_
+7	je	byť	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	organizáciou	organizácia	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	advcl	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+10	bežnom	bežný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	zmysle	zmysel	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+12	slova	slovo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s5
+# text = Okrem idey , nezničiteľnej , ju nedrží pokope nič .
+# orig_file_sentence bsnk356_olejkarova_bsnk356_kandracova#5
+1	Okrem	okrem	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	idey	idea	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	nezničiteľnej	nezničiteľný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+5	,	,	PUNCT	Z	_	4	punct	_	_
+6	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	nedrží	držať	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	pokope	pokope	ADV	Dx	Degree=Pos	7	advmod	_	_
+9	nič	nič	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	7	nsubj	_	_
+10	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s6
+# text = Okrem nej nikdy nebudete mať k dispozícii nič , o čo by ste sa mohli oprieť .
+# orig_file_sentence bsnk356_olejkarova_bsnk356_kandracova#6
+1	Okrem	okrem	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	nej	ona	PRON	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+3	nikdy	nikdy	ADV	PD	PronType=Neg	5	advmod	_	_
+4	nebudete	byť	AUX	VBepb-	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Neg|Tense=Fut|VerbForm=Fin	5	aux	_	_
+5	mať	mať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	_
+6	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	7	case	_	_
+7	dispozícii	dispozícia	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+8	nič	nič	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	5	obj	_	_
+9	,	,	PUNCT	Z	_	15	punct	_	_
+10	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+11	čo	čo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	16	obl:arg	_	_
+12	by	by	AUX	Y	Mood=Cnd	15	aux	_	_
+13	ste	byť	AUX	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	obj	_	_
+15	mohli	môcť	VERB	VLepbh+	Aspect=Imp|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+16	oprieť	oprieť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	15	xcomp	_	_
+17	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s7
+# text = Nebudete poznať kamarátstvo , nebude mať čo vás povzbudiť .
+# orig_file_sentence bsnk356_olejkarova_bsnk356_kandracova#7
+1	Nebudete	byť	AUX	VBepb-	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Neg|Tense=Fut|VerbForm=Fin	2	aux	_	_
+2	poznať	poznať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	_
+3	kamarátstvo	kamarátstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	,	,	PUNCT	Z	_	6	punct	_	_
+5	nebude	byť	AUX	VBesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	6	aux	_	_
+6	mať	mať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	conj	_	_
+7	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
+8	vás	vy	PRON	PPhp4	Case=Acc|Number=Plur|Person=2|PronType=Prs	9	obj	_	_
+9	povzbudiť	povzbudiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+10	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s8
+# text = Keď vás napokon chytia , nebude vám mať kto pomôcť .
+# orig_file_sentence bsnk356_olejkarova_bsnk356_kandracova#8
+1	Keď	keď	SCONJ	O	_	4	mark	_	_
+2	vás	vy	PRON	PPhp4	Case=Acc|Number=Plur|Person=2|PronType=Prs	4	obj	_	_
+3	napokon	napokon	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	chytia	chytiť	VERB	VKdpc+	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+5	,	,	PUNCT	Z	_	4	punct	_	_
+6	nebude	byť	AUX	VBesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	8	aux	_	_
+7	vám	vy	PRON	PPhp3	Case=Dat|Number=Plur|Person=2|PronType=Prs	10	obj	_	_
+8	mať	mať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	_
+9	kto	kto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	8	nsubj	_	_
+10	pomôcť	pomôcť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	8	xcomp	_	_
+11	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s9
+# text = Svojim členom nikdy nepomáhame .
+# orig_file_sentence bsnk356_olejkarova_bsnk356_kandracova#9
+1	Svojim	svoj	DET	PFmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	2	det	_	_
+2	členom	člen	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obj	_	_
+3	nikdy	nikdy	ADV	PD	PronType=Neg	4	advmod	_	_
+4	nepomáhame	pomáhať	VERB	VKepa-	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s10
+# text = Ak je to naprosto nevyhnutné , najviac , ak niekedy prepašujeme väzňovi do cely žiletku .
+# orig_file_sentence bsnk356_olejkarova_bsnk356_kandracova#10
+1	Ak	ak	SCONJ	O	_	5	mark	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+4	naprosto	naprosto	ADV	Dx	Degree=Pos	5	advmod:emph	_	_
+5	nevyhnutné	nevyhnutný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	advcl	_	_
+6	,	,	PUNCT	Z	_	5	punct	_	_
+7	najviac	najviac	PART	T	_	11	advmod	_	_
+8	,	,	PUNCT	Z	_	7	punct	_	_
+9	ak	ak	PART	T	_	11	advmod	_	_
+10	niekedy	niekedy	ADV	PD	PronType=Ind	11	advmod	_	_
+11	prepašujeme	prepašovať	VERB	VKdpa+	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	väzňovi	väzeň	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	11	iobj	_	_
+13	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+14	cely	cela	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+15	žiletku	žiletka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+16	.	.	PUNCT	Z	_	11	punct	_	_
+

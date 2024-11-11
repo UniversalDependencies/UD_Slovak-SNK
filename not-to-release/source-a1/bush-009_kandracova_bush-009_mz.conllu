@@ -1,0 +1,338 @@
+# sent_id = s1
+# text = Náboženstvo
+# orig_file_sentence bush-009_kandracova_bush-009_mz#1
+1	Náboženstvo	náboženstvo	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+
+# sent_id = s2
+# text = George W . Bush je takzvaný “ znovuzrodený ‐ kresťan ” , to znamená kresťan , ktorý znovu objavil vieru a akoby sa nanovo narodil prostredníctvom viery .
+# orig_file_sentence bush-009_kandracova_bush-009_mz#2
+1	George	george	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+2	W	w	X	W	Abbr=Yes	4	nmod	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+4	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+5	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	_
+6	takzvaný	takzvaný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+7	“	“	PUNCT	Z	_	10	punct	_	_
+8	znovuzrodený	znovuzrodený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	_	_
+9	‐	‐	PUNCT	Z	_	8	punct	_	_
+10	kresťan	kresťan	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+11	”	”	PUNCT	Z	_	10	punct	_	_
+12	,	,	PUNCT	Z	_	14	punct	_	_
+13	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj	_	_
+14	znamená	znamenať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	conj	_	_
+15	kresťan	kresťan	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	obj	_	_
+16	,	,	PUNCT	Z	_	19	punct	_	_
+17	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	19	nsubj	_	_
+18	znovu	znovu	ADV	Dx	Degree=Pos	19	advmod	_	_
+19	objavil	objaviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	15	acl	_	_
+20	vieru	viera	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+21	a	a	CCONJ	O	_	25	cc	_	_
+22	akoby	akoby	SCONJ	OY	Mood=Cnd	25	advmod	_	_
+23	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	25	expl:pv	_	_
+24	nanovo	nanovo	ADV	Dx	Degree=Pos	25	advmod	_	_
+25	narodil	narodiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	19	conj	_	_
+26	prostredníctvom	prostredníctvom	ADP	Eu2	AdpType=Prep|Case=Gen	27	case	_	_
+27	viery	viera	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	25	obl	_	_
+28	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s3
+# text = Jeho konverzia je spájaná s menom reverenda Billyho Grahama , neoficiálne nazývaného „ evanjelikálny pápež “ .
+# orig_file_sentence bush-009_kandracova_bush-009_mz#3
+1	Jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	konverzia	konverzia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	spájaná	spájaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+5	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	6	case	_	_
+6	menom	meno	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	4	obl:arg	_	_
+7	reverenda	reverend	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+8	Billyho	billy	PROPN	SFms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+9	Grahama	graham	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	neoficiálne	neoficiálne	ADV	Dx	Degree=Pos	12	advmod	_	_
+12	nazývaného	nazývaný	ADJ	Gtms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	9	amod	_	_
+13	„	„	PUNCT	Z	_	15	punct	_	_
+14	evanjelikálny	evanjelikálny	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	pápež	pápež	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	obl	_	_
+16	“	“	PUNCT	Z	_	15	punct	_	_
+17	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s4
+# text = Priznáva sa , že sa viackrát do dňa modlí a vo svojich prejavoch referuje viac či menej otvorene na verše z Biblie .
+# orig_file_sentence bush-009_kandracova_bush-009_mz#4
+1	Priznáva	priznávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	,	,	PUNCT	Z	_	9	punct	_	_
+4	že	že	SCONJ	O	_	9	mark	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+6	viackrát	viackrát	ADV	ND	NumType=Mult	9	obl	_	_
+7	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	dňa	deň	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+9	modlí	modliť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+10	a	a	CCONJ	O	_	14	cc	_	_
+11	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	13	case	_	_
+12	svojich	svoj	DET	PFip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	13	det	_	_
+13	prejavoch	prejav	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	obl	_	_
+14	referuje	referovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+15	viac	viac	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_
+16	či	či	CCONJ	O	_	17	cc	_	_
+17	menej	menej	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	15	conj	_	_
+18	otvorene	otvorene	ADV	Dx	Degree=Pos	14	advmod	_	_
+19	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	20	case	_	_
+20	verše	verš	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obl:arg	_	_
+21	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	22	case	_	_
+22	Biblie	biblia	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+23	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s5
+# text = Viackrát spomínal v prejavoch aj Korán , prípadne z neho citoval alebo ho dokonca označil za slová pochádzajúce od Boha . [ 3 ] [ 4 ] .
+# orig_file_sentence bush-009_kandracova_bush-009_mz#5
+1	Viackrát	viackrát	ADV	ND	NumType=Mult	2	obl	_	_
+2	spomínal	spomínať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	prejavoch	prejav	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	obl	_	_
+5	aj	aj	CCONJ	O	_	6	advmod:emph	_	_
+6	Korán	korán	PROPN	SSis4:r	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+7	,	,	PUNCT	Z	_	11	punct	_	_
+8	prípadne	prípadne	PART	T	_	11	advmod	_	_
+9	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	neho	on	PRON	PFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+11	citoval	citovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+12	alebo	alebo	CCONJ	O	_	15	cc	_	_
+13	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+14	dokonca	dokonca	PART	T	_	15	advmod:emph	_	_
+15	označil	označiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+16	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
+17	slová	slovo	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	15	obl:arg	_	_
+18	pochádzajúce	pochádzajúci	ADJ	Gknp4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	17	amod	_	_
+19	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+20	Boha	boh	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+21	.	.	PUNCT	Z	_	2	punct	_	_
+22	[	[	PUNCT	Z	_	2	punct	_	_
+23	3	3	NUM	0	NumForm=Digit	2	dep	_	_
+24	]	]	PUNCT	Z	_	2	punct	_	_
+25	[	[	PUNCT	Z	_	2	punct	_	_
+26	4	4	NUM	0	NumForm=Digit	2	dep	_	_
+27	]	]	PUNCT	Z	_	2	punct	_	_
+28	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s6
+# text = Z náboženských dôvodov sa Bush stavia proti eutanázii , proti výskumom buniek z ľudských embryí , vyjadruje nepriateľský postoj voči interupciám a je formálne proti manželstvu dvoch osôb rovnakého pohlavia .
+# orig_file_sentence bush-009_kandracova_bush-009_mz#6
+1	Z	z	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	náboženských	náboženský	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	dôvodov	dôvod	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+5	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	stavia	stavať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	8	case	_	_
+8	eutanázii	eutanázia	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	6	obl:arg	_	_
+9	,	,	PUNCT	Z	_	11	punct	_	_
+10	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	11	case	_	_
+11	výskumom	výskum	NOUN	SSip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	8	conj	_	_
+12	buniek	bunka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+13	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+14	ľudských	ľudský	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	15	amod	_	_
+15	embryí	embryo	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	_
+16	,	,	PUNCT	Z	_	17	punct	_	_
+17	vyjadruje	vyjadrovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	conj	_	_
+18	nepriateľský	nepriateľský	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	postoj	postoj	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+20	voči	voči	ADP	Eu3	AdpType=Prep|Case=Dat	21	case	_	_
+21	interupciám	interupcia	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	19	nmod	_	_
+22	a	a	CCONJ	O	_	23	cc	_	_
+23	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	conj	_	_
+24	formálne	formálne	ADV	Dx	Degree=Pos	23	advmod	_	_
+25	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	26	case	_	_
+26	manželstvu	manželstvo	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	23	obl	_	_
+27	dvoch	dva	NUM	NNfp2	Case=Gen|Gender=Fem|Number=Plur	28	nummod	_	_
+28	osôb	osoba	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	_
+29	rovnakého	rovnaký	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
+30	pohlavia	pohlavie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	_
+31	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s7
+# text = 9 . apríla 2005 sa George W . Bush stal prvým úradujúcim americkým prezidentom , ktorý sa osobne zúčastnil na pohrebe pápeža .
+# orig_file_sentence bush-009_kandracova_bush-009_mz#7
+1	9	9	NUM	0	NumForm=Digit	3	nummod	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+3	apríla	apríl	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+4	2005	2005	NUM	0	NumForm=Digit	3	nummod	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+6	George	george	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+7	W	w	X	W	Abbr=Yes	9	nmod	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+9	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+11	prvým	prvý	ADJ	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|NumType=Ord	14	amod	_	_
+12	úradujúcim	úradujúci	ADJ	Gkms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	14	amod	_	_
+13	americkým	americký	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	prezidentom	prezident	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obj	_	_
+15	,	,	PUNCT	Z	_	19	punct	_	_
+16	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	19	nsubj	_	_
+17	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	19	expl:pv	_	_
+18	osobne	osobne	ADV	Dx	Degree=Pos	19	advmod	_	_
+19	zúčastnil	zúčastniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	acl	_	_
+20	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	_	_
+21	pohrebe	pohreb	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl:arg	_	_
+22	pápeža	pápež	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s8
+# text = Sprevádzali ho jeho predchodcovia Bill Clinton a jeho otec George H . W . Bush .
+# orig_file_sentence bush-009_kandracova_bush-009_mz#8
+1	Sprevádzali	sprevádzať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	jeho	jeho	DET	PUmp1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	predchodcovia	predchodca	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nmod	_	_
+5	Bill	bill	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+6	Clinton	clinton	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	iobj	_	_
+7	a	a	CCONJ	O	_	15	cc	_	_
+8	jeho	jeho	DET	PUms1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	otec	otec	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
+10	George	george	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
+11	H	h	X	W	Abbr=Yes	15	nmod	_	_
+12	.	.	PUNCT	Z	_	11	punct	_	_
+13	W	w	X	W	Abbr=Yes	15	nmod	_	_
+14	.	.	PUNCT	Z	_	13	punct	_	_
+15	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+16	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s9
+# text = Už v roku 2001 začal Bush pracovať s republikánmi v kongrese na schválení legislatívy , ktorá by menila spôsob , akým federálna vláda regulovala , zdaňovala a podporovala neziskové organizácie riadené náboženskými organizáciami .
+# orig_file_sentence bush-009_kandracova_bush-009_mz#9
+1	Už	už	PART	T	_	4	advmod:emph	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+4	2001	2001	NUM	0	NumForm=Digit	3	nummod	_	_
+5	začal	začať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	pracovať	pracovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+8	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+9	republikánmi	republikán	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	obl:arg	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	kongrese	kongres	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+12	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	schválení	schválenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	7	obl:arg	_	_
+14	legislatívy	legislatíva	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	,	,	PUNCT	Z	_	18	punct	_	_
+16	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	18	nsubj	_	_
+17	by	by	AUX	Y	Mood=Cnd	18	aux	_	_
+18	menila	meniť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	acl	_	_
+19	spôsob	spôsob	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+20	,	,	PUNCT	Z	_	24	punct	_	_
+21	akým	aký	DET	PAis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|PronType=Int,Rel	24	obl	_	_
+22	federálna	federálny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+24	regulovala	regulovať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	19	acl	_	_
+25	,	,	PUNCT	Z	_	26	punct	_	_
+26	zdaňovala	zdaňovať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	24	conj	_	_
+27	a	a	CCONJ	O	_	28	cc	_	_
+28	podporovala	podporovať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	24	conj	_	_
+29	neziskové	neziskový	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	30	amod	_	_
+30	organizácie	organizácia	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	28	obj	_	_
+31	riadené	riadený	ADJ	Gtfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	30	amod	_	_
+32	náboženskými	náboženský	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	_
+33	organizáciami	organizácia	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	31	obj	_	_
+34	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s10
+# text = Hoci prvoradou v rámci tejto legislatívy bola možnosť , aby tieto organizácie mohli čerpať federálnu podporu , ďalší zákon priniesol požiadavku , aby organizácie oddelili svoje charitatívne funkcie od náboženských .
+# orig_file_sentence bush-009_kandracova_bush-009_mz#10
+1	Hoci	hoci	SCONJ	O	_	2	mark	_	_
+2	prvoradou	prvoradý	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	advcl	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+4	rámci	rámec	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	fixed	_	_
+5	tejto	táto	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	legislatívy	legislatíva	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_
+7	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	cop	_	_
+8	možnosť	možnosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+9	,	,	PUNCT	Z	_	13	punct	_	_
+10	aby	aby	SCONJ	OY	Mood=Cnd	13	mark	_	_
+11	tieto	táto	DET	PFfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	12	det	_	_
+12	organizácie	organizácia	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+13	mohli	môcť	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+14	čerpať	čerpať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	13	xcomp	_	_
+15	federálnu	federálny	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	podporu	podpora	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+17	,	,	PUNCT	Z	_	2	punct	_	_
+18	ďalší	ďalší	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	zákon	zákon	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+20	priniesol	priniesť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+21	požiadavku	požiadavka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+22	,	,	PUNCT	Z	_	25	punct	_	_
+23	aby	aby	SCONJ	OY	Mood=Cnd	25	mark	_	_
+24	organizácie	organizácia	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	25	nsubj	_	_
+25	oddelili	oddeliť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	21	acl	_	_
+26	svoje	svoj	DET	PFfp4	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	28	det	_	_
+27	charitatívne	charitatívny	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	_
+28	funkcie	funkcia	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	25	obj	_	_
+29	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	30	case	_	_
+30	náboženských	náboženský	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	25	dep	_	_
+31	.	.	PUNCT	Z	_	20	punct	_	_
+
+# sent_id = s11
+# text = Bush tiež vytvoril Úrad Bieleho domu pre komunitné a na viere založené iniciatívy ( en : White House Office of Faith ‐ Based and Community Initiatives ) .
+# orig_file_sentence bush-009_kandracova_bush-009_mz#11
+1	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	tiež	tiež	PART	T	_	3	advmod:emph	_	_
+3	vytvoril	vytvoriť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	Úrad	úrad	PROPN	SSis4:r	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	Bieleho	biely	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	domu	dom	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+8	komunitné	komunitný	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_
+9	a	a	CCONJ	O	_	12	cc	_	_
+10	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	viere	viera	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	12	obl:arg	_	_
+12	založené	založený	ADJ	Gtfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	conj	_	_
+13	iniciatívy	iniciatíva	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	4	nmod	_	_
+14	(	(	PUNCT	Z	_	17	punct	_	_
+15	en	en	X	W	Abbr=Yes	17	nmod	_	_
+16	:	:	PUNCT	Z	_	15	punct	_	_
+17	White	white	X	%	Foreign=Yes	4	appos	_	_
+18	House	house	X	%	Foreign=Yes	17	flat:foreign	_	_
+19	Office	office	X	%	Foreign=Yes	17	flat:foreign	_	_
+20	of	of	X	%	Foreign=Yes	21	case	_	_
+21	Faith	faith	X	%	Foreign=Yes	17	flat:foreign	_	_
+22	‐	‐	PUNCT	Z	_	21	punct	_	_
+23	Based	based	X	%	Foreign=Yes	21	flat:foreign	_	_
+24	and	and	X	%	Foreign=Yes	25	cc	_	_
+25	Community	community	X	%	Foreign=Yes	21	conj	_	_
+26	Initiatives	initiatives	X	%	Foreign=Yes	21	flat:foreign	_	_
+27	)	)	PUNCT	Z	_	17	punct	_	_
+28	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s12
+# text = Niektoré organizácie , ako napríklad Únia amerických občianskych slobôd ( en : American Civil Liberties Union ) kritizovali tento Bushov program .
+# orig_file_sentence bush-009_kandracova_bush-009_mz#12
+1	Niektoré	niektorý	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	organizácie	organizácia	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	_
+3	,	,	PUNCT	Z	_	6	punct	_	_
+4	ako	ako	SCONJ	O	_	6	cc	_	_
+5	napríklad	napríklad	PART	T	_	6	cc	_	_
+6	Únia	únia	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+7	amerických	americký	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
+8	občianskych	občiansky	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
+9	slobôd	sloboda	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+10	(	(	PUNCT	Z	_	13	punct	_	_
+11	en	en	X	W	Abbr=Yes	13	nmod	_	_
+12	:	:	PUNCT	Z	_	11	punct	_	_
+13	American	american	X	%	Foreign=Yes	6	appos	_	_
+14	Civil	civil	X	%	Foreign=Yes	13	flat:foreign	_	_
+15	Liberties	liberties	X	%	Foreign=Yes	13	flat:foreign	_	_
+16	Union	union	X	%	Foreign=Yes	13	flat:foreign	_	_
+17	)	)	PUNCT	Z	_	13	punct	_	_
+18	kritizovali	kritizovať	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+19	tento	tento	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+20	Bushov	bushov	ADJ	AFis4x:r	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	program	program	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+22	.	.	PUNCT	Z	_	18	punct	_	_
+
+# sent_id = s13
+# text = Menšiny a imigračná politika
+# orig_file_sentence bush-009_kandracova_bush-009_mz#13
+1	Menšiny	menšina	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+2	a	a	CCONJ	O	_	4	cc	_	_
+3	imigračná	imigračný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	politika	politika	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+

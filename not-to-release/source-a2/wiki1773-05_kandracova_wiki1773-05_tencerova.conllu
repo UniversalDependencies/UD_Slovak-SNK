@@ -1,0 +1,430 @@
+# sent_id = s1
+# text = V r . 1552 založil Ignác " Collegium Germanicum " ( neskoršie Germanicum - Hungaricum ) , na ktorom sa vychovávali kňazi pre krajiny strednej Európy .
+# orig_file_sentence wiki1773-05_kandracova_wiki1773-05_tencerova#1
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	r	r	X	W	Abbr=Yes	5	advmod	_	_
+3	.	.	PUNCT	ZIP	_	2	punct	_	_
+4	1552	1552	NUM	0	NumForm=Digit	2	nummod	_	_
+5	založil	založiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	Ignác	ignác	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	"	"	PUNCT	ZIP	_	8	punct	_	_
+8	Collegium	collegium	X	%	Foreign=Yes	5	obj	_	_
+9	Germanicum	germanicum	X	%	Foreign=Yes	8	flat:foreign	_	_
+10	"	"	PUNCT	ZIP	_	8	punct	_	_
+11	(	(	PUNCT	ZIP	_	13	punct	_	_
+12	neskoršie	neskoršie	ADV	Dx	Degree=Pos	13	advmod	_	_
+13	Germanicum	germanicum	X	%	Foreign=Yes	9	appos	_	_
+14	-	-	PUNCT	ZIP	_	15	punct	_	_
+15	Hungaricum	hungaricum	X	%	Foreign=Yes	13	conj	_	_
+16	)	)	PUNCT	ZIP	_	13	punct	_	_
+17	,	,	PUNCT	ZIP	_	21	punct	_	_
+18	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	ktorom	ktorý	DET	PAns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Int,Rel	21	obl	_	_
+20	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	21	expl:pass	_	_
+21	vychovávali	vychovávať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+22	kňazi	kňaz	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj:pass	_	_
+23	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	24	case	_	_
+24	krajiny	krajina	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	22	nmod	_	_
+25	strednej	stredný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	Európy	európa	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+27	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s2
+# text = Tieto kolégiá sa stali predvojom rozsiahleho jezuitského školstva , ktoré malo význam nielen pre Cirkev , ale pre rozvoj celej západnej kultúry .
+# orig_file_sentence wiki1773-05_kandracova_wiki1773-05_tencerova#2
+1	Tieto	toto	DET	PFnp1	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	2	det	_	_
+2	kolégiá	kolégium	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	stali	stať	VERB	VLdpcn+	Aspect=Perf|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	predvojom	predvoj	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obj	_	_
+6	rozsiahleho	rozsiahly	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+7	jezuitského	jezuitský	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	školstva	školstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+9	,	,	PUNCT	ZIP	_	11	punct	_	_
+10	ktoré	ktorý	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	11	nsubj	_	_
+11	malo	mať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+12	význam	význam	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	nielen	nielen	CCONJ	O	_	15	cc	_	_
+14	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+15	Cirkev	cirkev	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+16	,	,	PUNCT	ZIP	_	19	punct	_	_
+17	ale	ale	CCONJ	O	_	19	cc	_	_
+18	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	19	case	_	_
+19	rozvoj	rozvoj	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	conj	_	_
+20	celej	celý	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+21	západnej	západný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	kultúry	kultúra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+23	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s3
+# text = Nová rehoľa zohrala dôležitú úlohu pri vnútornej obnove Cirkvi , ale osobitne vynikla v boji proti šíriacim sa bludom .
+# orig_file_sentence wiki1773-05_kandracova_wiki1773-05_tencerova#3
+1	Nová	nový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	rehoľa	rehoľa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	zohrala	zohrať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	dôležitú	dôležitý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	úlohu	úloha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+7	vnútornej	vnútorný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	obnove	obnova	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+9	Cirkvi	cirkev	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	,	,	PUNCT	ZIP	_	13	punct	_	_
+11	ale	ale	CCONJ	O	_	13	cc	_	_
+12	osobitne	osobitne	ADV	Dx	Degree=Pos	13	advmod	_	_
+13	vynikla	vyniknúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	boji	boj	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+16	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	19	case	_	_
+17	šíriacim	šíriaci	ADJ	Gkip3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	19	amod	_	_
+18	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	17	expl:pv	_	_
+19	bludom	blud	NOUN	SSip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	15	nmod	_	_
+20	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s4
+# text = Preto mala hneď od počiatku veľa otvorených i skrytých nepriateľov .
+# orig_file_sentence wiki1773-05_kandracova_wiki1773-05_tencerova#4
+1	Preto	preto	ADV	PD	PronType=Dem	2	cc	_	_
+2	mala	mať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	hneď	hneď	ADV	Dx	Degree=Pos	2	advmod	_	_
+4	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+5	počiatku	počiatok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+6	veľa	veľa	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+7	otvorených	otvorený	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+8	i	i	CCONJ	O	_	9	cc	_	_
+9	skrytých	skrytý	ADJ	Gtmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	7	conj	_	_
+10	nepriateľov	nepriateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+11	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s5
+# text = Ignác Loyolský potreboval veľa trpezlivosti , diplomatického taktu a neraz i rozhodnej energie , aby obránil a upevnil rozvíjajúce sa dielo .
+# orig_file_sentence wiki1773-05_kandracova_wiki1773-05_tencerova#5
+1	Ignác	ignác	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Loyolský	loyolský	PROPN	SAms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	potreboval	potrebovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	veľa	veľa	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	trpezlivosti	trpezlivosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	,	,	PUNCT	ZIP	_	8	punct	_	_
+7	diplomatického	diplomatický	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	taktu	takt	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	conj	_	_
+9	a	a	CCONJ	O	_	13	cc	_	_
+10	neraz	neraz	ADV	Dx	Degree=Pos	13	advmod	_	_
+11	i	i	CCONJ	O	_	13	advmod:emph	_	_
+12	rozhodnej	rozhodný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	energie	energia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	conj	_	_
+14	,	,	PUNCT	ZIP	_	16	punct	_	_
+15	aby	aby	SCONJ	OY	Mood=Cnd	16	mark	_	_
+16	obránil	obrániť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	advcl	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	upevnil	upevniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	conj	_	_
+19	rozvíjajúce	rozvíjajúci	ADJ	Gkns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	21	amod	_	_
+20	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	19	expl:pv	_	_
+21	dielo	dielo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+22	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s6
+# text = No najviac sa spoliehal na nadprirodzenú Božiu pomoc , ktorá viedla k založeniu rehole a účinne ju sprevádzala v jej prácach .
+# orig_file_sentence wiki1773-05_kandracova_wiki1773-05_tencerova#6
+1	No	no	CCONJ	O	_	4	cc	_	_
+2	najviac	veľa	ADV	Dz	Degree=Sup	4	advmod	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	spoliehal	spoliehať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+6	nadprirodzenú	nadprirodzený	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	Božiu	boží	ADJ	AAfs4x:r	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	pomoc	pomoc	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obl:arg	_	_
+9	,	,	PUNCT	ZIP	_	11	punct	_	_
+10	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	11	nsubj	_	_
+11	viedla	viesť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+12	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	13	case	_	_
+13	založeniu	založenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	11	obl:arg	_	_
+14	rehole	rehoľa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	a	a	CCONJ	O	_	18	cc	_	_
+16	účinne	účinne	ADV	Dx	Degree=Pos	18	advmod	_	_
+17	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+18	sprevádzala	sprevádzať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	conj	_	_
+19	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	_	_
+20	jej	jej	DET	PUfp6	Case=Loc|Gender=Fem|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	prácach	práca	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	18	obl	_	_
+22	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s7
+# text = Napokon celá existencia nového rehoľného spoločenstva mala nadprirodzené zameranie , ako to vyjadrovalo Ignácovo heslo " Všetko na väčšiu Božiu slávu " .
+# orig_file_sentence wiki1773-05_kandracova_wiki1773-05_tencerova#7
+1	Napokon	napokon	PART	T	_	7	advmod	_	_
+2	celá	celý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	existencia	existencia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+4	nového	nový	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+5	rehoľného	rehoľný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	spoločenstva	spoločenstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+7	mala	mať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	nadprirodzené	nadprirodzený	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	zameranie	zameranie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+10	,	,	PUNCT	ZIP	_	13	punct	_	_
+11	ako	ako	SCONJ	O	_	13	mark	_	_
+12	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	13	obj	_	_
+13	vyjadrovalo	vyjadrovať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	advcl	_	_
+14	Ignácovo	ignácov	ADJ	AFns1x:r	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	heslo	heslo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+16	"	"	PUNCT	ZIP	_	17	punct	_	_
+17	Všetko	všetok	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	15	det	_	_
+18	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	21	case	_	_
+19	väčšiu	veľký	ADJ	AAfs4y	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	21	amod	_	_
+20	Božiu	boží	ADJ	AAfs4x:r	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	slávu	sláva	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	_
+22	"	"	PUNCT	ZIP	_	17	punct	_	_
+23	.	.	PUNCT	ZIP	_	7	punct	_	_
+
+# sent_id = s8
+# text = V poslednom období svojho života Ignác zakúsil veľa telesného utrpenia .
+# orig_file_sentence wiki1773-05_kandracova_wiki1773-05_tencerova#8
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	poslednom	posledný	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	období	obdobie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+4	svojho	svoj	DET	PFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	_
+5	života	život	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	Ignác	ignác	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	zakúsil	zakúsiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	veľa	veľa	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	telesného	telesný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	utrpenia	utrpenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+11	.	.	PUNCT	ZIP	_	7	punct	_	_
+
+# sent_id = s9
+# text = Zosilneli jeho žalúdočné a žlčníkové bolesti , proti ktorým boli lekári bezmocní .
+# orig_file_sentence wiki1773-05_kandracova_wiki1773-05_tencerova#9
+1	Zosilneli	zosilnieť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	jeho	jeho	DET	PFfp1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	žalúdočné	žalúdočný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+4	a	a	CCONJ	O	_	5	cc	_	_
+5	žlčníkové	žlčníkový	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	conj	_	_
+6	bolesti	bolesť	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	_
+7	,	,	PUNCT	ZIP	_	12	punct	_	_
+8	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	9	case	_	_
+9	ktorým	ktorý	DET	PAfp3	Case=Dat|Gender=Fem|Number=Plur|PronType=Int,Rel	12	obl	_	_
+10	boli	byť	AUX	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	12	cop	_	_
+11	lekári	lekár	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	bezmocní	bezmocný	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	acl	_	_
+13	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s10
+# text = Napriek tomu veľmi intenzívne pracoval v apoštoláte , takže si zaslúžil titul apoštol Ríma .
+# orig_file_sentence wiki1773-05_kandracova_wiki1773-05_tencerova#10
+1	Napriek	napriek	ADP	Eu3	AdpType=Prep|Case=Dat	2	case	_	_
+2	tomu	to	DET	PFns3	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	_
+3	veľmi	veľmi	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	intenzívne	intenzívne	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	pracoval	pracovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	apoštoláte	apoštolát	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+8	,	,	PUNCT	ZIP	_	11	punct	_	_
+9	takže	takže	CCONJ	O	_	11	mark	_	_
+10	si	si	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+11	zaslúžil	zaslúžiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	advcl	_	_
+12	titul	titul	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	apoštol	apoštol	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_
+14	Ríma	rím	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s11
+# text = Okrem toho musel venovať veľa času a síl vedeniu vzrastajúcej rehole .
+# orig_file_sentence wiki1773-05_kandracova_wiki1773-05_tencerova#11
+1	Okrem	okrem	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	toho	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	_
+3	musel	musieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	venovať	venovať	VERB	VIj+	Aspect=Imp,Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+5	veľa	veľa	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	času	čas	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	síl	sila	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	6	conj	_	_
+9	vedeniu	vedenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	4	iobj	_	_
+10	vzrastajúcej	vzrastajúci	ADJ	Gkfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	11	amod	_	_
+11	rehole	rehoľa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s12
+# text = Vypracoval stanovy , zakladal rehoľné provincie a kolégiá , usmerňoval výchovu novej rádovej generácie a dôležité apoštolské diela .
+# orig_file_sentence wiki1773-05_kandracova_wiki1773-05_tencerova#12
+1	Vypracoval	vypracovať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	stanovy	stanovy	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	1	obj	_	_
+3	,	,	PUNCT	ZIP	_	4	punct	_	_
+4	zakladal	zakladať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+5	rehoľné	rehoľný	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+6	provincie	provincia	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	kolégiá	kolégium	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	6	conj	_	_
+9	,	,	PUNCT	ZIP	_	10	punct	_	_
+10	usmerňoval	usmerňovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+11	výchovu	výchova	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	novej	nový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+13	rádovej	rádový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	generácie	generácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+15	a	a	CCONJ	O	_	18	cc	_	_
+16	dôležité	dôležitý	ADJ	AAnp4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	18	amod	_	_
+17	apoštolské	apoštolský	ADJ	AAnp4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	18	amod	_	_
+18	diela	dielo	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	11	conj	_	_
+19	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s13
+# text = Veľká časť jeho takmer 7000 listov vznikla v tomto období .
+# orig_file_sentence wiki1773-05_kandracova_wiki1773-05_tencerova#13
+1	Veľká	veľký	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	časť	časť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	jeho	jeho	DET	PUip2	Animacy=Inan|Case=Gen|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+4	takmer	takmer	PART	T	_	5	advmod:emph	_	_
+5	7000	7000	NUM	0	NumForm=Digit	6	nummod	_	_
+6	listov	list	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+7	vznikla	vzniknúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+9	tomto	tento	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	_
+10	období	obdobie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+11	.	.	PUNCT	ZIP	_	7	punct	_	_
+
+# sent_id = s14
+# text = Kvôli spravodlivosti však treba dodať , že jeho mimoriadne cenným pomocníkom bol od r . 1547 jeho tajomník Juan Polanco .
+# orig_file_sentence wiki1773-05_kandracova_wiki1773-05_tencerova#14
+1	Kvôli	kvôli	ADP	Eu3	AdpType=Prep|Case=Dat	2	case	_	_
+2	spravodlivosti	spravodlivosť	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+3	však	však	PART	T	_	4	cc	_	_
+4	treba	treba	ADV	Dx	Degree=Pos	0	root	_	_
+5	dodať	dodať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+6	,	,	PUNCT	ZIP	_	11	punct	_	_
+7	že	že	SCONJ	O	_	11	mark	_	_
+8	jeho	jeho	DET	PUms7	Animacy=Anim|Case=Ins|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+9	mimoriadne	mimoriadne	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	cenným	cenný	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	pomocníkom	pomocník	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	ccomp	_	_
+12	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	cop	_	_
+13	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+14	r	r	X	W	Abbr=Yes	11	advmod	_	_
+15	.	.	PUNCT	ZIP	_	14	punct	_	_
+16	1547	1547	NUM	0	NumForm=Digit	14	nummod	_	_
+17	jeho	jeho	DET	PUms1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+18	tajomník	tajomník	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nmod	_	_
+19	Juan	juan	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nmod	_	_
+20	Polanco	polanco	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+21	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s15
+# text = Popri intenzívnej a náročnej vonkajšej činnosti Ignác žil hlbokým duchovným životom .
+# orig_file_sentence wiki1773-05_kandracova_wiki1773-05_tencerova#15
+1	Popri	popri	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+2	intenzívnej	intenzívny	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+3	a	a	CCONJ	O	_	4	cc	_	_
+4	náročnej	náročný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	2	conj	_	_
+5	vonkajšej	vonkajší	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+6	činnosti	činnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+7	Ignác	ignác	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	žil	žiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	hlbokým	hlboký	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	duchovným	duchovný	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	životom	život	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+12	.	.	PUNCT	ZIP	_	8	punct	_	_
+
+# sent_id = s16
+# text = Rannému rozjímaniu a svätej omši venoval niekoľko hodín , pričom dostával veľa milostí , ako prezrádza jeho čiastočne zachovaný duchovný denník .
+# orig_file_sentence wiki1773-05_kandracova_wiki1773-05_tencerova#16
+1	Rannému	ranný	ADJ	AAns3x	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	rozjímaniu	rozjímanie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	6	obj	_	_
+3	a	a	CCONJ	O	_	5	cc	_	_
+4	svätej	svätý	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	omši	omša	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	2	conj	_	_
+6	venoval	venovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	niekoľko	niekoľko	DET	PUns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Card|PronType=Ind	8	det:numgov	_	_
+8	hodín	hodina	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	6	obj	_	_
+9	,	,	PUNCT	ZIP	_	11	punct	_	_
+10	pričom	pričom	CCONJ	O	_	11	mark	_	_
+11	dostával	dostávať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	advcl	_	_
+12	veľa	veľa	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+13	milostí	milosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+14	,	,	PUNCT	ZIP	_	16	punct	_	_
+15	ako	ako	SCONJ	O	_	16	mark	_	_
+16	prezrádza	prezrádzať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+17	jeho	jeho	DET	PUis1	Animacy=Inan|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+18	čiastočne	čiastočne	ADV	Dx	Degree=Pos	19	advmod	_	_
+19	zachovaný	zachovaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	21	amod	_	_
+20	duchovný	duchovný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	denník	denník	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+22	.	.	PUNCT	ZIP	_	6	punct	_	_
+
+# sent_id = s17
+# text = Ignác Loyolský zomrel takmer nebadane 31 . júla 1556 ráno .
+# orig_file_sentence wiki1773-05_kandracova_wiki1773-05_tencerova#17
+1	Ignác	ignác	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Loyolský	loyolský	PROPN	SAms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	zomrel	zomrieť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	takmer	takmer	PART	T	_	5	advmod:emph	_	_
+5	nebadane	nebadane	ADV	Dx	Degree=Pos	3	advmod	_	_
+6	31	31	NUM	0	NumForm=Digit	8	nummod	_	_
+7	.	.	PUNCT	ZIP	_	6	punct	_	_
+8	júla	júl	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+9	1556	1556	NUM	0	NumForm=Digit	8	nummod	_	_
+10	ráno	ráno	ADV	Dx	Degree=Pos	3	advmod	_	_
+11	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s18
+# text = Vtedy mal ním založený rád už tisíc členov , ktorí pracovali v trinástich rehoľných provinciách .
+# orig_file_sentence wiki1773-05_kandracova_wiki1773-05_tencerova#18
+1	Vtedy	vtedy	ADV	PD	PronType=Dem	2	advmod	_	_
+2	mal	mať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	ním	on	PRON	PFms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+4	založený	založený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	rád	rád	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+6	už	už	PART	T	_	7	advmod:emph	_	_
+7	tisíc	tisíc	NUM	NUnp4	Case=Acc|Gender=Neut|Number=Plur	8	nummod	_	_
+8	členov	člen	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	obj	_	_
+9	,	,	PUNCT	ZIP	_	11	punct	_	_
+10	ktorí	ktorý	DET	PAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	11	nsubj	_	_
+11	pracovali	pracovať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+13	trinástich	trinásť	NUM	NUfp6	Case=Loc|Gender=Fem|Number=Plur	15	nummod	_	_
+14	rehoľných	rehoľný	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
+15	provinciách	provincia	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	11	obl	_	_
+16	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s19
+# text = Pápež Pavol V . vyhlásil r . 1609 Ignáca Loyolského za blahoslaveného a pápež Gregor XV . r . 1622 za svätého .
+# orig_file_sentence wiki1773-05_kandracova_wiki1773-05_tencerova#19
+1	Pápež	pápež	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Pavol	pavol	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	V	v	NUM	0	NumForm=Digit	2	nummod	_	_
+4	.	.	PUNCT	ZIP	_	3	punct	_	_
+5	vyhlásil	vyhlásiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	r	r	X	W	Abbr=Yes	5	advmod	_	_
+7	.	.	PUNCT	ZIP	_	6	punct	_	_
+8	1609	1609	NUM	0	NumForm=Digit	6	nummod	_	_
+9	Ignáca	ignác	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
+10	Loyolského	loyolský	PROPN	SAms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+11	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	blahoslaveného	blahoslavený	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	obl:arg	_	_
+13	a	a	CCONJ	O	_	15	cc	_	_
+14	pápež	pápež	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
+15	Gregor	gregor	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+16	XV	xv	X	W	Abbr=Yes	15	nmod	_	_
+17	.	.	PUNCT	ZIP	_	16	punct	_	_
+18	r	r	X	W	Abbr=Yes	15	orphan	_	_
+19	.	.	PUNCT	ZIP	_	18	punct	_	_
+20	1622	1622	NUM	0	NumForm=Digit	18	nummod	_	_
+21	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	22	case	_	_
+22	svätého	svätý	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	orphan	_	_
+23	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s20
+# text = Jeho telesné pozostatky sú uložené v bočnej kaplnke hlavného jezuitského kostola Al Gesú v Ríme .
+# orig_file_sentence wiki1773-05_kandracova_wiki1773-05_tencerova#20
+1	Jeho	jeho	DET	PUip1	Animacy=Inan|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+2	telesné	telesný	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	pozostatky	pozostatok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+4	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	uložené	uložený	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+7	bočnej	bočný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	kaplnke	kaplnka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+9	hlavného	hlavný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	jezuitského	jezuitský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	kostola	kostol	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+12	Al	al	X	%	Foreign=Yes	11	nmod	_	_
+13	Gesú	gesú	X	%	Foreign=Yes	12	flat:foreign	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	Ríme	rím	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	_
+16	.	.	PUNCT	ZIP	_	5	punct	_	_
+

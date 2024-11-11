@@ -1,0 +1,368 @@
+# sent_id = s1
+# text = “ Pán rak , priniesol som vám plátno .
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#1
+1	“	“	PUNCT	Z	_	5	punct	_	_
+2	Pán	pán	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+3	rak	rak	NOUN	SSms5	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	5	vocative	_	_
+4	,	,	PUNCT	Z	_	5	punct	_	_
+5	priniesol	priniesť	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_
+7	vám	vy	PRON	PPhp3	Case=Dat|Number=Plur|Person=2|PronType=Prs	5	iobj	_	_
+8	plátno	plátno	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+9	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s2
+# text = Vystrihnite mi z neho , prosím , nohavičky .
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#2
+1	Vystrihnite	vystrihnúť	VERB	VMdpb+	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+2	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
+3	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	neho	ono	PRON	PFns2	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
+5	,	,	PUNCT	Z	_	6	punct	_	_
+6	prosím	prosím	PART	T	_	1	parataxis	_	_
+7	,	,	PUNCT	Z	_	6	punct	_	_
+8	nohavičky	nohavičky	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
+9	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s3
+# text = S veľkými vreckami . “
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#3
+1	S	s	ADP	Eu7	AdpType=Prep|Case=Ins	3	case	_	_
+2	veľkými	veľký	ADJ	AAnp7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur	3	amod	_	_
+3	vreckami	vrecko	NOUN	SSnp7	Case=Ins|Gender=Neut|Number=Plur	0	root	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+5	“	“	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s4
+# text = “ To je plátienko , “ pochvaľoval si rak , “ to je plátienko .
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#4
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	To	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	plátienko	plátenko	NOUN	SSns1:q	Case=Nom|Gender=Neut|Number=Sing|Typo=Yes	7	ccomp	_	_
+5	,	,	PUNCT	Z	_	14	punct	_	_
+6	“	“	PUNCT	Z	_	14	punct	_	_
+7	pochvaľoval	pochvaľovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	si	si	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+9	rak	rak	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+10	,	,	PUNCT	Z	_	14	punct	_	_
+11	“	“	PUNCT	Z	_	14	punct	_	_
+12	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj	_	_
+13	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	plátienko	plátenko	NOUN	SSns1:q	Case=Nom|Gender=Neut|Number=Sing|Typo=Yes	4	conj	_	_
+15	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s5
+# text = Z toho sa budú strihať nohavičky jedna radosť . “
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#5
+1	Z	z	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	toho	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pass	_	_
+4	budú	byť	AUX	VBepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	5	aux	_	_
+5	strihať	strihať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	_
+6	nohavičky	nohavičky	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+7	jedna	jeden	NUM	NFfs1	Case=Nom|Gender=Fem|Number=Sing	8	nummod	_	_
+8	radosť	radosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_
+9	.	.	PUNCT	Z	_	5	punct	_	_
+10	“	“	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s6
+# text = Rak plátno odmeral a už aj strihal .
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#6
+1	Rak	rak	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	plátno	plátno	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+3	odmeral	odmerať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	CCONJ	O	_	7	cc	_	_
+5	už	už	PART	T	_	6	cc	_	_
+6	aj	aj	PART	T	_	7	advmod	_	_
+7	strihal	strihať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+8	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s7
+# text = “ Ešte tie vrecká , “ vraví .
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#7
+1	“	“	PUNCT	Z	_	7	punct	_	_
+2	Ešte	ešte	PART	T	_	7	dep	_	_
+3	tie	to	DET	PFnpo	Gender=Neut|Number=Plur|PronType=Dem	4	det	_	_
+4	vrecká	vrecko	NOUN	SSnpo	Gender=Neut|Number=Plur	7	dep	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	“	“	PUNCT	Z	_	7	punct	_	_
+7	vraví	vravieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s8
+# text = “ I vrecká budú , veru budú . “
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#8
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	I	i	CCONJ	O	_	4	cc	_	_
+3	vrecká	vrecko	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+4	budú	byť	VERB	VBepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	veru	veru	PART	T	_	7	advmod	_	_
+7	budú	byť	VERB	VBepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	4	conj	_	_
+8	.	.	PUNCT	Z	_	4	punct	_	_
+9	“	“	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s9
+# text = “ Ale pekné veľké , aby sa mi do nich veľa zmestilo , “ poprosil krtko .
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#9
+1	“	“	PUNCT	Z	_	15	punct	_	_
+2	Ale	ale	PART	T	_	15	dep	_	_
+3	pekné	pekný	ADJ	AAnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	15	dep	_	_
+4	veľké	veľký	ADJ	AAnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	15	dep	_	_
+5	,	,	PUNCT	Z	_	12	punct	_	_
+6	aby	aby	SCONJ	OY	Mood=Cnd	12	mark	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+8	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+9	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	nich	ono	PRON	PFnp2	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	12	obl	_	_
+11	veľa	veľa	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	12	obj	_	_
+12	zmestilo	zmestiť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	15	dep	_	_
+13	,	,	PUNCT	Z	_	15	punct	_	_
+14	“	“	PUNCT	Z	_	15	punct	_	_
+15	poprosil	poprosiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+16	krtko	krtko	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+17	.	.	PUNCT	Z	_	15	punct	_	_
+
+# sent_id = s10
+# text = 10
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#10
+1	10	10	NUM	0	NumForm=Digit	0	root	_	_
+
+# sent_id = s11
+# text = “ So žabou som ľan namočil , bocian mi ho polámal , na ježkovi som ho prečesal , pavúčikovia mi upriadli nite , čučoriedky ich zafarbili , mravčekovia utkali plátno a rak mi z neho vystrihol nohavičky .
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#11
+1	“	“	PUNCT	Z	_	6	punct	_	_
+2	So	s	ADP	Ev7	AdpType=Voc|Case=Ins	3	case	_	_
+3	žabou	žaba	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+4	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	ľan	ľan	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+6	namočil	namočiť	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	,	,	PUNCT	Z	_	11	punct	_	_
+8	bocian	bocian	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+9	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+10	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	polámal	polámať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+12	,	,	PUNCT	Z	_	17	punct	_	_
+13	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	ježkovi	ježko	NOUN	SSms6	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+15	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+17	prečesal	prečesať	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+18	,	,	PUNCT	Z	_	21	punct	_	_
+19	pavúčikovia	pavúčik	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+20	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	21	iobj	_	_
+21	upriadli	upriasť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+22	nite	niť	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	21	obj	_	_
+23	,	,	PUNCT	Z	_	26	punct	_	_
+24	čučoriedky	čučoriedka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	26	nsubj	_	_
+25	ich	ona	PRON	PFfp4	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	26	obj	_	_
+26	zafarbili	zafarbiť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+27	,	,	PUNCT	Z	_	29	punct	_	_
+28	mravčekovia	mravček	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	_
+29	utkali	utkať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+30	plátno	plátno	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	29	obj	_	_
+31	a	a	CCONJ	O	_	36	cc	_	_
+32	rak	rak	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	36	nsubj	_	_
+33	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	36	iobj	_	_
+34	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	35	case	_	_
+35	neho	ono	PRON	PFns2	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	36	obl	_	_
+36	vystrihol	vystrihnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+37	nohavičky	nohavičky	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	36	obj	_	_
+38	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s12
+# text = S veľkými vreckami .
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#12
+1	S	s	ADP	Eu7	AdpType=Prep|Case=Ins	3	case	_	_
+2	veľkými	veľký	ADJ	AAnp7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur	3	amod	_	_
+3	vreckami	vrecko	NOUN	SSnp7	Case=Ins|Gender=Neut|Number=Plur	0	root	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s13
+# text = A ty , vtáčik trsteniarik , ty mi , prosím ťa , uši nohavičky . “
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#13
+1	A	a	PART	T	_	10	cc	_	_
+2	ty	ty	PRON	PPhs1	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	dep	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	vtáčik	vtáčik	NOUN	SSms5	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	2	appos	_	_
+5	trsteniarik	trsteniarik	NOUN	SSms5	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	4	nmod	_	_
+6	,	,	PUNCT	Z	_	13	punct	_	_
+7	ty	ty	PRON	PPhs1	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
+8	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+9	,	,	PUNCT	Z	_	10	punct	_	_
+10	prosím	prosím	PART	T	_	0	root	_	_
+11	ťa	ty	PRON	PPhs4	Case=Acc|Number=Sing|Person=2|PronType=Prs	10	obj	_	_
+12	,	,	PUNCT	Z	_	13	punct	_	_
+13	uši	ušiť	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	10	conj	_	_
+14	nohavičky	nohavičky	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+15	.	.	PUNCT	Z	_	10	punct	_	_
+16	“	“	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s14
+# text = “ Ušijem , “ vraví trsteniarik , “ ušijem , “ a ušil nohavičky .
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#14
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Ušijem	ušiť	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+3	,	,	PUNCT	Z	_	9	punct	_	_
+4	“	“	PUNCT	Z	_	9	punct	_	_
+5	vraví	vravieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	trsteniarik	trsteniarik	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	“	“	PUNCT	Z	_	9	punct	_	_
+9	ušijem	ušiť	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	,	,	PUNCT	Z	_	2	punct	_	_
+11	“	“	PUNCT	Z	_	2	punct	_	_
+12	a	a	CCONJ	O	_	13	cc	_	_
+13	ušil	ušiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+14	nohavičky	nohavičky	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+15	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s15
+# text = “ Tu sú tvoje nohavičky , krtko .
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#15
+1	“	“	PUNCT	Z	_	3	punct	_	_
+2	Tu	tu	ADV	PD	PronType=Dem	3	advmod	_	_
+3	sú	byť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tvoje	tvoj	DET	PFfp1	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	5	det	_	_
+5	nohavičky	nohavičky	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+6	,	,	PUNCT	Z	_	3	punct	_	_
+7	krtko	krtko	NOUN	SSms5	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	3	vocative	_	_
+8	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s16
+# text = Nech ti padnú k duhu .
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#16
+1	Nech	nech	PART	T	_	3	advmod	_	_
+2	ti	ty	PRON	PPhs3	Case=Dat|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
+3	padnú	padnúť	VERB	VKdpc+	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	5	case	_	_
+5	duhu	duh	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+6	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s17
+# text = Dobre si ich uži ! “
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#17
+1	Dobre	dobre	ADV	Dx	Degree=Pos	4	advmod	_	_
+2	si	si	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pass	_	_
+3	ich	ona	PRON	PFfp4	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+4	uži	užiť	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+5	!	!	PUNCT	Z	_	4	punct	_	_
+6	“	“	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s18
+# text = 11
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#18
+1	11	11	NUM	0	NumForm=Digit	0	root	_	_
+
+# sent_id = s19
+# text = “ Ach , jaj !
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#19
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Ach	ach	INTJ	J	_	0	root	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	jaj	jaj	INTJ	J	_	2	conj	_	_
+5	!	!	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s20
+# text = To sú krásne nohavičky !
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#20
+1	To	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	krásne	krásny	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+4	nohavičky	nohavičky	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+5	!	!	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s21
+# text = A tie vrecká !
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#21
+1	A	a	CCONJ	O	_	3	cc	_	_
+2	tie	to	DET	PFnp1	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	3	det	_	_
+3	vrecká	vrecko	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
+4	!	!	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s22
+# text = Zmestí sa do nich všetko , čo som v zemi našiel .
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#22
+1	Zmestí	zmestiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	nich	ono	PRON	PFnp2	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	1	obl	_	_
+5	všetko	všetok	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	1	obj	_	_
+6	,	,	PUNCT	Z	_	11	punct	_	_
+7	čo	čo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	11	obj	_	_
+8	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	zemi	zem	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+11	našiel	nájsť	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	acl	_	_
+12	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s23
+# text = Guľôčka , kliniec , gombík i zrkadielko .
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#23
+1	Guľôčka	guľôčka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	,	,	PUNCT	Z	_	3	punct	_	_
+3	kliniec	klinec	NOUN	SSis1:q	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Typo=Yes	1	conj	_	_
+4	,	,	PUNCT	Z	_	3	punct	_	_
+5	gombík	gombík	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	orphan	_	_
+6	i	i	CCONJ	O	_	3	cc	_	_
+7	zrkadielko	zrkadielko	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	3	orphan	_	_
+8	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s24
+# text = Ale najprv sa pozriem do zrkadielka .
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#24
+1	Ale	ale	CCONJ	O	_	4	cc	_	_
+2	najprv	najprv	ADV	Dx	Degree=Pos	4	advmod	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	pozriem	pozrieť	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	zrkadielka	zrkadielko	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+7	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s25
+# text = To je krása !
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#25
+1	To	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	krása	krása	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	!	!	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s26
+# text = Videli ste už také nohavičky ?
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#26
+1	Videli	vidieť	VERB	VLepbm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	ste	byť	AUX	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	už	už	PART	T	_	1	advmod	_	_
+4	také	taký	DET	PAfp4	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+5	nohavičky	nohavičky	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
+6	?	?	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s27
+# text = Tralala !
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#27
+1	Tralala	tralala	INTJ	J	_	0	root	_	_
+2	!	!	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s28
+# text = A ako mi len pristanú .
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#28
+1	A	a	CCONJ	O	_	5	cc	_	_
+2	ako	ako	ADV	PD	PronType=Int,Rel	5	advmod	_	_
+3	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+4	len	len	PART	T	_	5	advmod	_	_
+5	pristanú	pristať	VERB	VKdpc+	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s29
+# text = Mám krásne nohavičky s veľkými vreckami . “
+# orig_file_sentence krtko-003_tencerova_krtko-003_olejkarova#29
+1	Mám	mať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	krásne	krásny	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
+3	nohavičky	nohavičky	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
+4	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	6	case	_	_
+5	veľkými	veľký	ADJ	AAnp7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	_
+6	vreckami	vrecko	NOUN	SSnp7	Case=Ins|Gender=Neut|Number=Plur	3	nmod	_	_
+7	.	.	PUNCT	Z	_	1	punct	_	_
+8	“	“	PUNCT	Z	_	1	punct	_	_
+

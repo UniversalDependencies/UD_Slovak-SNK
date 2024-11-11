@@ -1,0 +1,186 @@
+# sent_id = s1
+# text = Henotikon
+# orig_file_sentence wiki-nove-050_hudekova_wiki-nove-050_kandracova#1
+1	Henotikon	henotikon	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s2
+# text = Henotikon ( gréc . „ zjednotenie “ ; z ἕν hen jedno ) bol edikt vyhlásený roku 482 byzantským cisárom Zenónom , ktorého cieľom bolo urovnať teologické spory medzi prívržencami záverov ekumenického Chalkedonského koncilu ( 451 ) a monofyzitmi , ktorí sa nachádzali najmä vo východných provinciách ríše .
+# orig_file_sentence wiki-nove-050_hudekova_wiki-nove-050_kandracova#2
+1	Henotikon	henotikon	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+2	(	(	PUNCT	Z	_	1	punct	_	_
+3	gréc	gréc	X	W	Abbr=Yes	6	nmod	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+5	„	„	PUNCT	Z	_	6	punct	_	_
+6	zjednotenie	zjednotenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	1	dep	_	_
+7	“	“	PUNCT	Z	_	6	punct	_	_
+8	;	;	PUNCT	Z	_	9	punct	_	_
+9	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	6	conj	_	_
+10	ἕν	ἕν	X	%	Foreign=Yes	6	conj	_	_
+11	hen	hen	X	Q	Hyph=Yes	6	conj	_	_
+12	jedno	jeden	NUM	NFns1	Case=Nom|Gender=Neut|Number=Sing	6	conj	_	_
+13	)	)	PUNCT	Z	_	1	punct	_	_
+14	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	15	cop	_	_
+15	edikt	edikt	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+16	vyhlásený	vyhlásený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	15	amod	_	_
+17	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+18	482	482	NUM	0	NumForm=Digit	17	nummod	_	_
+19	byzantským	byzantský	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	cisárom	cisár	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	21	nmod	_	_
+21	Zenónom	zenón	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obj	_	_
+22	,	,	PUNCT	Z	_	24	punct	_	_
+23	ktorého	ktorý	DET	PAis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Int,Rel	24	amod	_	_
+24	cieľom	cieľ	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	acl	_	_
+25	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	24	cop	_	_
+26	urovnať	urovnať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	24	csubj	_	_
+27	teologické	teologický	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	_
+28	spory	spor	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	26	obj	_	_
+29	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	30	case	_	_
+30	prívržencami	prívrženec	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	28	nmod	_	_
+31	záverov	záver	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_
+32	ekumenického	ekumenický	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+33	Chalkedonského	chalkedonský	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	koncilu	koncil	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+35	(	(	PUNCT	Z	_	34	punct	_	_
+36	451	451	NUM	0	NumForm=Digit	34	dep	_	_
+37	)	)	PUNCT	Z	_	34	punct	_	_
+38	a	a	CCONJ	O	_	39	cc	_	_
+39	monofyzitmi	monofyzita	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	30	conj	_	_
+40	,	,	PUNCT	Z	_	43	punct	_	_
+41	ktorí	ktorý	DET	PAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	43	nsubj	_	_
+42	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	43	expl:pv	_	_
+43	nachádzali	nachádzať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	39	acl	_	_
+44	najmä	najmä	PART	T	_	47	cc	_	_
+45	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	47	case	_	_
+46	východných	východný	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	47	amod	_	_
+47	provinciách	provincia	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	43	obl	_	_
+48	ríše	ríša	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	47	nmod	_	_
+49	.	.	PUNCT	Z	_	15	punct	_	_
+
+# sent_id = s3
+# text = Závery Chalkedonského koncilu neboli celkom odmietnuté , avšak v praxi ignorované .
+# orig_file_sentence wiki-nove-050_hudekova_wiki-nove-050_kandracova#3
+1	Závery	záver	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+2	Chalkedonského	chalkedonský	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	koncilu	koncil	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	neboli	byť	AUX	VLepci-	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+5	celkom	celkom	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	odmietnuté	odmietnutý	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+7	,	,	PUNCT	Z	_	11	punct	_	_
+8	avšak	avšak	CCONJ	O	_	11	cc	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	praxi	prax	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+11	ignorované	ignorovaný	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	conj	_	_
+12	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s4
+# text = Definícia pravej viery , ktorú na Zenónov príkaz vypracoval konštantínopolský patriarcha Akakios a ktorá bola obsiahnutá v Henotikone , sa vracala naspäť k záverom predchádzajúcich koncilov , a to Nikajskému ( 325 ) , 1 . konštantínopolskému ( 381 ) a Efezskému ( 431 ) .
+# orig_file_sentence wiki-nove-050_hudekova_wiki-nove-050_kandracova#4
+1	Definícia	definícia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+2	pravej	pravý	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	viery	viera	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	,	,	PUNCT	Z	_	9	punct	_	_
+5	ktorú	ktorý	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	9	obj	_	_
+6	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+7	Zenónov	zenónov	ADJ	AFis4x:r	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	príkaz	príkaz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+9	vypracoval	vypracovať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	acl	_	_
+10	konštantínopolský	konštantínopolský	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	patriarcha	patriarcha	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_
+12	Akakios	akakios	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+13	a	a	CCONJ	O	_	16	cc	_	_
+14	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	16	nsubj	_	_
+15	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	cop	_	_
+16	obsiahnutá	obsiahnutý	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	9	conj	_	_
+17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+18	Henotikone	henotikon	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+19	,	,	PUNCT	Z	_	9	punct	_	_
+20	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	21	expl:pv	_	_
+21	vracala	vracať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+22	naspäť	naspäť	ADV	Dx	Degree=Pos	21	advmod	_	_
+23	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	24	case	_	_
+24	záverom	záver	NOUN	SSip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	21	obl	_	_
+25	predchádzajúcich	predchádzajúci	ADJ	Gkip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	26	amod	_	_
+26	koncilov	koncil	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+27	,	,	PUNCT	Z	_	30	punct	_	_
+28	a	a	CCONJ	O	_	30	cc	_	_
+29	to	to	CCONJ	O	_	30	cc	_	_
+30	Nikajskému	nikajský	ADJ	AAis3x:r	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	25	appos	_	_
+31	(	(	PUNCT	Z	_	30	punct	_	_
+32	325	325	NUM	0	NumForm=Digit	30	dep	_	_
+33	)	)	PUNCT	Z	_	30	punct	_	_
+34	,	,	PUNCT	Z	_	35	punct	_	_
+35	1	1	NUM	0	NumForm=Digit	30	conj	_	_
+36	.	.	PUNCT	Z	_	35	punct	_	_
+37	konštantínopolskému	konštantínopolský	ADJ	AAis3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	30	conj	_	_
+38	(	(	PUNCT	Z	_	37	punct	_	_
+39	381	381	NUM	0	NumForm=Digit	37	dep	_	_
+40	)	)	PUNCT	Z	_	37	punct	_	_
+41	a	a	CCONJ	O	_	42	cc	_	_
+42	Efezskému	efezský	ADJ	AAis3x:r	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	30	conj	_	_
+43	(	(	PUNCT	Z	_	42	punct	_	_
+44	431	431	NUM	0	NumForm=Digit	42	dep	_	_
+45	)	)	PUNCT	Z	_	42	punct	_	_
+46	.	.	PUNCT	Z	_	21	punct	_	_
+
+# sent_id = s5
+# text = Kompromisná formulácia Henotikonu monofyzitov celkom uspokojovala , nemohla však priniesť skutočný zmier , pretože sa proti nemu postavili pápeži .
+# orig_file_sentence wiki-nove-050_hudekova_wiki-nove-050_kandracova#5
+1	Kompromisná	kompromisný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	formulácia	formulácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	Henotikonu	henotikon	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	monofyzitov	monofyzita	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+5	celkom	celkom	PART	T	_	6	advmod	_	_
+6	uspokojovala	uspokojovať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	,	,	PUNCT	Z	_	8	punct	_	_
+8	nemohla	môcť	VERB	VLescf-	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	6	conj	_	_
+9	však	však	CCONJ	O	_	8	cc	_	_
+10	priniesť	priniesť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	8	xcomp	_	_
+11	skutočný	skutočný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	zmier	zmier	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+13	,	,	PUNCT	Z	_	18	punct	_	_
+14	pretože	pretože	SCONJ	O	_	18	mark	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	18	expl:pv	_	_
+16	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	17	case	_	_
+17	nemu	on	PRON	PFis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obl:arg	_	_
+18	postavili	postaviť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	8	advcl	_	_
+19	pápeži	pápež	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+20	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s6
+# text = Cisárov záujem nábožensky zjednotiť ríšu bol tak odsúdený na zánik .
+# orig_file_sentence wiki-nove-050_hudekova_wiki-nove-050_kandracova#6
+1	Cisárov	cisárov	ADJ	AFis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	záujem	záujem	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+3	nábožensky	nábožensky	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	zjednotiť	zjednotiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	2	acl	_	_
+5	ríšu	ríša	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	cop	_	_
+7	tak	tak	ADV	PD	PronType=Dem	8	advmod	_	_
+8	odsúdený	odsúdený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+9	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+10	zánik	zánik	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl:arg	_	_
+11	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s7
+# text = Namiesto toho viedol výnos dokonca na krátky čas k schizme medzi Rímom a Konštantínopolom ( akakiánska schizma ) .
+# orig_file_sentence wiki-nove-050_hudekova_wiki-nove-050_kandracova#7
+1	Namiesto	namiesto	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	toho	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	_
+3	viedol	viesť	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	výnos	výnos	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	dokonca	dokonca	PART	T	_	8	advmod:emph	_	_
+6	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+7	krátky	krátky	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	čas	čas	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+9	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	10	case	_	_
+10	schizme	schizma	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+11	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	12	case	_	_
+12	Rímom	rím	PROPN	SSis7:r	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	Konštantínopolom	konštantínopol	PROPN	SSis7:r	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	conj	_	_
+15	(	(	PUNCT	Z	_	17	punct	_	_
+16	akakiánska	akakiánsky	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	schizma	schizma	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	10	appos	_	_
+18	)	)	PUNCT	Z	_	17	punct	_	_
+19	.	.	PUNCT	Z	_	3	punct	_	_
+

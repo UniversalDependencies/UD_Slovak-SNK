@@ -1,0 +1,453 @@
+# sent_id = s1
+# text = Szabolcsská synoda stanovila aj spôsob , ako má vyzerať obrad privítania kráľa a biskupa , ktorí prichádzajú do kláštora .
+# orig_file_sentence muca089_katarinag_muca089_kandracova#1
+1	Szabolcsská	szabolcsský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	synoda	synoda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	stanovila	stanoviť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	aj	aj	PART	T	_	5	advmod:emph	_	_
+5	spôsob	spôsob	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	ako	ako	ADV	PD	PronType=Int,Rel	8	advmod	_	_
+8	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	acl	_	_
+9	vyzerať	vyzerať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	8	xcomp	_	_
+10	obrad	obrad	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+11	privítania	privítanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	kráľa	kráľ	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	biskupa	biskup	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	conj	_	_
+15	,	,	PUNCT	Z	_	17	punct	_	_
+16	ktorí	ktorý	DET	PAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	17	nsubj	_	_
+17	prichádzajú	prichádzať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	acl	_	_
+18	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	19	case	_	_
+19	kláštora	kláštor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
+20	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s2
+# text = Podľa tohto majú opát a mnísi kláštora privítať príchodiaceho bozkom mieru ( osculum pacis ) v kláštore a nie v kostole .
+# orig_file_sentence muca089_katarinag_muca089_kandracova#2
+1	Podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	tohto	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	_
+3	majú	mať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	opát	opát	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	mnísi	mních	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	conj	_	_
+7	kláštora	kláštor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+8	privítať	privítať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+9	príchodiaceho	príchodiaci	ADJ	Gkms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	8	obj	_	_
+10	bozkom	bozk	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+11	mieru	mier	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	(	(	PUNCT	Z	_	13	punct	_	_
+13	osculum	osculum	X	%	Foreign=Yes	10	nmod	_	_
+14	pacis	pacis	X	%	Foreign=Yes	13	flat:foreign	_	_
+15	)	)	PUNCT	Z	_	13	punct	_	_
+16	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	kláštore	kláštor	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+18	a	a	CCONJ	O	_	19	cc	_	_
+19	nie	nie	PART	T	_	3	conj	_	_
+20	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	_	_
+21	kostole	kostol	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	orphan	_	_
+22	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s3
+# text = Opátovi zároveň ukladá povinnosť , aby kedykoľvek umožnil kráľovi a ( diecéznemu ) biskupovi a ich sprievodu vstup do klauzúry . [ 383 ]
+# orig_file_sentence muca089_katarinag_muca089_kandracova#3
+1	Opátovi	opát	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	_
+2	zároveň	zároveň	ADV	Dx	Degree=Pos	3	advmod	_	_
+3	ukladá	ukladať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	povinnosť	povinnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	,	,	PUNCT	Z	_	8	punct	_	_
+6	aby	aby	SCONJ	OY	Mood=Cnd	8	mark	_	_
+7	kedykoľvek	kedykoľvek	ADV	PD	PronType=Ind	8	advmod	_	_
+8	umožnil	umožniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
+9	kráľovi	kráľ	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	8	iobj	_	_
+10	a	a	CCONJ	O	_	14	cc	_	_
+11	(	(	PUNCT	Z	_	12	punct	_	_
+12	diecéznemu	diecézny	ADJ	AAms3x	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+13	)	)	PUNCT	Z	_	12	punct	_	_
+14	biskupovi	biskup	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	9	conj	_	_
+15	a	a	CCONJ	O	_	17	cc	_	_
+16	ich	ich	DET	PUis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+17	sprievodu	sprievod	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	conj	_	_
+18	vstup	vstup	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+19	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+20	klauzúry	klauzúra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	.	.	PUNCT	Z	_	3	punct	_	_
+22	[	[	PUNCT	Z	_	23	punct	_	_
+23	383	383	NUM	0	NumForm=Digit	3	dep	_	_
+24	]	]	PUNCT	Z	_	23	punct	_	_
+
+# sent_id = s4
+# text = V podobnom duchu je formulovaný i ďalší synodálny kánon : ak opát alebo mních prichádza na kráľovský dvor , nech nepristúpi k pozdraveniu kráľa v kostole , ale má vyčkať , kým panovník z neho vyjde a pozdraviť ho až v príbytku . [ 384 ]
+# orig_file_sentence muca089_katarinag_muca089_kandracova#4
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	podobnom	podobný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	duchu	duch	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+4	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	formulovaný	formulovaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+6	i	i	PART	T	_	9	advmod:emph	_	_
+7	ďalší	ďalší	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+8	synodálny	synodálny	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	kánon	kánon	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+10	:	:	PUNCT	Z	_	21	punct	_	_
+11	ak	ak	SCONJ	O	_	15	mark	_	_
+12	opát	opát	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+13	alebo	alebo	CCONJ	O	_	14	cc	_	_
+14	mních	mních	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_
+15	prichádza	prichádzať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+16	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	18	case	_	_
+17	kráľovský	kráľovský	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	dvor	dvor	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
+19	,	,	PUNCT	Z	_	15	punct	_	_
+20	nech	nech	SCONJ	O	_	21	cc	_	_
+21	nepristúpi	pristúpiť	VERB	VKdsc-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	9	acl	_	_
+22	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	23	case	_	_
+23	pozdraveniu	pozdravenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	21	obl:arg	_	_
+24	kráľa	kráľ	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	26	case	_	_
+26	kostole	kostol	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	nmod	_	_
+27	,	,	PUNCT	Z	_	29	punct	_	_
+28	ale	ale	CCONJ	O	_	29	cc	_	_
+29	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	conj	_	_
+30	vyčkať	vyčkať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	29	xcomp	_	_
+31	,	,	PUNCT	Z	_	36	punct	_	_
+32	kým	kým	SCONJ	O	_	36	mark	_	_
+33	panovník	panovník	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	36	nsubj	_	_
+34	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	35	case	_	_
+35	neho	on	PRON	PFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	obl	_	_
+36	vyjde	vyjsť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	30	advcl	_	_
+37	a	a	CCONJ	O	_	38	cc	_	_
+38	pozdraviť	pozdraviť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	30	conj	_	_
+39	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	obj	_	_
+40	až	až	PART	T	_	42	advmod:emph	_	_
+41	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	42	case	_	_
+42	príbytku	príbytok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	38	obl	_	_
+43	.	.	PUNCT	Z	_	5	punct	_	_
+44	[	[	PUNCT	Z	_	45	punct	_	_
+45	384	384	NUM	0	NumForm=Digit	5	dep	_	_
+46	]	]	PUNCT	Z	_	45	punct	_	_
+
+# sent_id = s5
+# text = I tieto synodálne kánony majú svoj pôvod v Regule , aj keď Benediktov text nerozlišuje status a hodnosť prichádzajúcich .
+# orig_file_sentence muca089_katarinag_muca089_kandracova#5
+1	I	i	CCONJ	O	_	4	cc	_	_
+2	tieto	tento	DET	PFip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+3	synodálne	synodálny	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	kánony	kánon	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	majú	mať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	svoj	svoj	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	_
+7	pôvod	pôvod	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	Regule	regula	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+10	,	,	PUNCT	Z	_	15	punct	_	_
+11	aj	aj	CCONJ	O	_	15	mark	_	_
+12	keď	keď	SCONJ	O	_	11	fixed	_	_
+13	Benediktov	benediktov	ADJ	AFis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	text	text	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	nerozlišuje	rozlišovať	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+16	status	status	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	hodnosť	hodnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	16	conj	_	_
+19	prichádzajúcich	prichádzajúci	NOUN	SAmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+20	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s6
+# text = Regula rovnako predpisuje , že bozk mieru sa prichádzajúcemu má dať až po vykonaní spoločnej modlitby so zdôvodnením Quod pacis osculum non prius offeratur , nisi oratione praemissa propter inlusiones diabolicas . [ 385 ]
+# orig_file_sentence muca089_katarinag_muca089_kandracova#6
+1	Regula	regula	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	rovnako	rovnako	ADV	Dx	Degree=Pos	3	advmod	_	_
+3	predpisuje	predpisovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	,	,	PUNCT	Z	_	10	punct	_	_
+5	že	že	SCONJ	O	_	10	mark	_	_
+6	bozk	bozk	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+7	mieru	mier	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+9	prichádzajúcemu	prichádzajúci	NOUN	SAms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	11	obj	_	_
+10	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+11	dať	dať	VERB	VIj+	Aspect=Imp,Perf|Polarity=Pos|VerbForm=Inf	10	xcomp	_	_
+12	až	až	PART	T	_	14	advmod:emph	_	_
+13	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	vykonaní	vykonanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
+15	spoločnej	spoločný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	modlitby	modlitba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	18	case	_	_
+18	zdôvodnením	zdôvodnenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	16	nmod	_	_
+19	Quod	quod	X	%	Foreign=Yes	18	nmod	_	_
+20	pacis	pacis	X	%	Foreign=Yes	19	flat:foreign	_	_
+21	osculum	osculum	X	%	Foreign=Yes	19	flat:foreign	_	_
+22	non	non	X	%	Foreign=Yes	19	flat:foreign	_	_
+23	prius	prius	X	%	Foreign=Yes	19	flat:foreign	_	_
+24	offeratur	offeratur	X	%	Foreign=Yes	19	flat:foreign	_	_
+25	,	,	PUNCT	Z	_	19	punct	_	_
+26	nisi	nisi	X	%	Foreign=Yes	19	flat:foreign	_	_
+27	oratione	oratione	X	%	Foreign=Yes	19	flat:foreign	_	_
+28	praemissa	praemissa	X	%	Foreign=Yes	19	flat:foreign	_	_
+29	propter	propter	X	%	Foreign=Yes	19	flat:foreign	_	_
+30	inlusiones	inlusiones	X	%	Foreign=Yes	19	flat:foreign	_	_
+31	diabolicas	diabolicas	X	%	Foreign=Yes	19	flat:foreign	_	_
+32	.	.	PUNCT	Z	_	3	punct	_	_
+33	[	[	PUNCT	Z	_	34	punct	_	_
+34	385	385	NUM	0	NumForm=Digit	3	dep	_	_
+35	]	]	PUNCT	Z	_	34	punct	_	_
+
+# sent_id = s7
+# text = Z textov uhorských zákonov by mohlo vyplynúť , že tunajšie kláštory mali za povinnosť preukazovať zvláštnu úctu okrem svojho diecézneho biskupa aj kráľovi .
+# orig_file_sentence muca089_katarinag_muca089_kandracova#7
+1	Z	z	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	textov	text	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+3	uhorských	uhorský	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	zákonov	zákon	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	by	by	AUX	Y	Mood=Cnd	6	aux	_	_
+6	mohlo	môcť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	vyplynúť	vyplynúť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+8	,	,	PUNCT	Z	_	12	punct	_	_
+9	že	že	SCONJ	O	_	12	mark	_	_
+10	tunajšie	tunajší	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_
+11	kláštory	kláštor	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	mali	mať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	6	csubj	_	_
+13	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+14	povinnosť	povinnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+15	preukazovať	preukazovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	12	xcomp	_	_
+16	zvláštnu	zvláštny	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	úctu	úcta	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+18	okrem	okrem	ADP	Eu2	AdpType=Prep|Case=Gen	21	case	_	_
+19	svojho	svoj	DET	PFms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	21	det	_	_
+20	diecézneho	diecézny	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	biskupa	biskup	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
+22	aj	aj	CCONJ	O	_	23	advmod:emph	_	_
+23	kráľovi	kráľ	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	15	iobj	_	_
+24	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s8
+# text = Regula ale jasne hovorí : Omnes supervenientes hospites tanquam Christus suscipiantur . . .
+# orig_file_sentence muca089_katarinag_muca089_kandracova#8
+1	Regula	regula	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	ale	ale	PART	T	_	4	advmod	_	_
+3	jasne	jasne	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	hovorí	hovoriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	:	:	PUNCT	Z	_	6	punct	_	_
+6	Omnes	omnes	X	%	Foreign=Yes	4	obj	_	_
+7	supervenientes	supervenientes	X	%	Foreign=Yes	6	flat:foreign	_	_
+8	hospites	hospites	X	%	Foreign=Yes	6	flat:foreign	_	_
+9	tanquam	tanquam	X	%	Foreign=Yes	6	flat:foreign	_	_
+10	Christus	christus	X	%	Foreign=Yes	6	flat:foreign	_	_
+11	suscipiantur	suscipiantur	X	%	Foreign=Yes	6	flat:foreign	_	_
+12	.	.	PUNCT	Z	_	4	punct	_	_
+13	.	.	PUNCT	Z	_	4	punct	_	_
+14	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s9
+# text = Et omnibus congruus honor exhibeatur , maxime domesticis fidei et peregrinis . [ 386 ] , takže kláštor mal povinnosť byť pohostinný voči všetkým , ktorí doň zavítali ako hostia .
+# orig_file_sentence muca089_katarinag_muca089_kandracova#9
+1	Et	et	X	%	Foreign=Yes	0	root	_	_
+2	omnibus	omnibus	X	%	Foreign=Yes	1	flat:foreign	_	_
+3	congruus	congruus	X	%	Foreign=Yes	1	flat:foreign	_	_
+4	honor	honor	X	%	Foreign=Yes	1	flat:foreign	_	_
+5	exhibeatur	exhibeatur	X	%	Foreign=Yes	1	flat:foreign	_	_
+6	,	,	PUNCT	Z	_	1	punct	_	_
+7	maxime	maxime	X	%	Foreign=Yes	1	flat:foreign	_	_
+8	domesticis	domesticis	X	%	Foreign=Yes	1	flat:foreign	_	_
+9	fidei	fidei	X	%	Foreign=Yes	1	flat:foreign	_	_
+10	et	et	X	%	Foreign=Yes	1	flat:foreign	_	_
+11	peregrinis	peregrinis	X	%	Foreign=Yes	1	flat:foreign	_	_
+12	.	.	PUNCT	Z	_	10	punct	_	_
+13	[	[	PUNCT	Z	_	14	punct	_	_
+14	386	386	NUM	0	NumForm=Digit	1	dep	_	_
+15	]	]	PUNCT	Z	_	14	punct	_	_
+16	,	,	PUNCT	Z	_	20	punct	_	_
+17	takže	takže	CCONJ	O	_	20	mark	_	_
+18	kláštor	kláštor	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+19	mal	mať	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	20	cop	_	_
+20	povinnosť	povinnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	advcl	_	_
+21	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	22	cop	_	_
+22	pohostinný	pohostinný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	acl	_	_
+23	voči	voči	ADP	Eu3	AdpType=Prep|Case=Dat	24	case	_	_
+24	všetkým	všetok	DET	PFmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	22	obl	_	_
+25	,	,	PUNCT	Z	_	28	punct	_	_
+26	ktorí	ktorý	DET	PAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	28	nsubj	_	_
+27	doň	do_on	PRON	PFis2g	AdpType=Preppron|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Prs	28	obl	_	_
+28	zavítali	zavítať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	24	acl	_	_
+29	ako	ako	SCONJ	O	_	30	mark	_	_
+30	hostia	hosť	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	28	dep	_	_
+31	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s10
+# text = Pod domestici fidei treba rozumieť v prvom rade rehoľných spolubratov , kňazov , no aj patrónov a dobrodincov kláštora . [ 387 ]
+# orig_file_sentence muca089_katarinag_muca089_kandracova#10
+1	Pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	2	case	_	_
+2	domestici	domestici	X	%	Foreign=Yes	4	advmod	_	_
+3	fidei	fidei	X	%	Foreign=Yes	2	flat:foreign	_	_
+4	treba	treba	ADV	Dx	Degree=Pos	0	root	_	_
+5	rozumieť	rozumieť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	csubj	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+7	prvom	prvý	ADJ	NAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	rade	rad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+9	rehoľných	rehoľný	ADJ	AAmp4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+10	spolubratov	spolubrat	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+11	,	,	PUNCT	Z	_	12	punct	_	_
+12	kňazov	kňaz	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	10	conj	_	_
+13	,	,	PUNCT	Z	_	16	punct	_	_
+14	no	no	CCONJ	O	_	16	cc	_	_
+15	aj	aj	PART	T	_	16	cc	_	_
+16	patrónov	patrón	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	10	conj	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	dobrodincov	dobrodinec	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	10	conj	_	_
+19	kláštora	kláštor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	.	.	PUNCT	Z	_	4	punct	_	_
+21	[	[	PUNCT	Z	_	22	punct	_	_
+22	387	387	NUM	0	NumForm=Digit	4	dep	_	_
+23	]	]	PUNCT	Z	_	22	punct	_	_
+
+# sent_id = s11
+# text = Skutočným poukazom na osobité práva kráľa voči kláštorom je vari až formulácia o neobmedzenom prístupe kráľa do klauzúry .
+# orig_file_sentence muca089_katarinag_muca089_kandracova#11
+1	Skutočným	skutočný	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	poukazom	poukaz	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+4	osobité	osobitý	ADJ	AAnp4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	_
+5	práva	právo	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	2	nmod	_	_
+6	kráľa	kráľ	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	voči	voči	ADP	Eu3	AdpType=Prep|Case=Dat	8	case	_	_
+8	kláštorom	kláštor	NOUN	SSip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	_
+9	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+10	vari	vari	PART	T	_	2	advmod	_	_
+11	až	až	PART	T	_	12	advmod:emph	_	_
+12	formulácia	formulácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+13	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+14	neobmedzenom	neobmedzený	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	prístupe	prístup	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_
+16	kráľa	kráľ	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	18	case	_	_
+18	klauzúry	klauzúra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+19	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s12
+# text = Nie je to ale žiadne uhorské špecifikum , hoci o výnimočnom postavení panovníka v dobovej ( nielen ) uhorskej cirkvi netreba pochybovať . [ 388 ]
+# orig_file_sentence muca089_katarinag_muca089_kandracova#12
+1	Nie	nie	PART	T	_	7	advmod	_	_
+2	je	byť	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	_
+4	ale	ale	PART	T	_	7	advmod	_	_
+5	žiadne	žiadny	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	7	det	_	_
+6	uhorské	uhorský	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	špecifikum	špecifikum	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+8	,	,	PUNCT	Z	_	21	punct	_	_
+9	hoci	hoci	SCONJ	O	_	21	mark	_	_
+10	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+11	výnimočnom	výnimočný	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	postavení	postavenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	21	obl:arg	_	_
+13	panovníka	panovník	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+15	dobovej	dobový	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+16	(	(	PUNCT	Z	_	19	punct	_	_
+17	nielen	nielen	CCONJ	O	_	19	cc	_	_
+18	)	)	PUNCT	Z	_	19	punct	_	_
+19	uhorskej	uhorský	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	cirkvi	cirkev	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	_
+21	netreba	netreba	ADV	Dx	Degree=Pos	7	advmod	_	_
+22	pochybovať	pochybovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	21	csubj	_	_
+23	.	.	PUNCT	Z	_	7	punct	_	_
+24	[	[	PUNCT	Z	_	25	punct	_	_
+25	388	388	NUM	0	NumForm=Digit	7	dep	_	_
+26	]	]	PUNCT	Z	_	25	punct	_	_
+
+# sent_id = s13
+# text = Posledný szabolcsský kánon , ktorý sa venuje kláštornému životu nariaďuje opátom a mníchom , aby sa nezúčastňovali na kalendových sedeniach , ale aby prijímali oblácie ich účastníkov v kláštoroch .
+# orig_file_sentence muca089_katarinag_muca089_kandracova#13
+1	Posledný	posledný	ADJ	NAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+2	szabolcsský	szabolcsský	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	kánon	kánon	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+4	,	,	PUNCT	Z	_	7	punct	_	_
+5	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	7	nsubj	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+7	venuje	venovať	VERB	VKjsc+	Aspect=Imp,Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	acl	_	_
+8	kláštornému	kláštorný	ADJ	AAis3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	životu	život	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	obj	_	_
+10	nariaďuje	nariaďovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	opátom	opát	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	10	iobj	_	_
+12	a	a	CCONJ	O	_	13	cc	_	_
+13	mníchom	mních	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	conj	_	_
+14	,	,	PUNCT	Z	_	17	punct	_	_
+15	aby	aby	SCONJ	OY	Mood=Cnd	17	mark	_	_
+16	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	17	expl:pv	_	_
+17	nezúčastňovali	zúčastňovať	VERB	VLepcm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	10	ccomp	_	_
+18	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+19	kalendových	kalendový	ADJ	AAnp6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	20	amod	_	_
+20	sedeniach	sedenie	NOUN	SSnp6	Case=Loc|Gender=Neut|Number=Plur	17	obl	_	_
+21	,	,	PUNCT	Z	_	24	punct	_	_
+22	ale	ale	CCONJ	O	_	24	cc	_	_
+23	aby	aby	SCONJ	OY	Mood=Cnd	24	mark	_	_
+24	prijímali	prijímať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	17	conj	_	_
+25	oblácie	oblácia	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	24	obj	_	_
+26	ich	ich	DET	PUmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
+27	účastníkov	účastník	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+28	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	29	case	_	_
+29	kláštoroch	kláštor	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	27	nmod	_	_
+30	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s14
+# text = Získané dary mali potom podľa ustanovení reguly rozdeliť medzi frátrov . [ 389 ]
+# orig_file_sentence muca089_katarinag_muca089_kandracova#14
+1	Získané	získaný	ADJ	Gtip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	dary	dar	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	mali	mať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	potom	potom	ADV	Dx	Degree=Pos	3	advmod	_	_
+5	podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	ustanovení	ustanovenie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	3	obl	_	_
+7	reguly	regula	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	rozdeliť	rozdeliť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+9	medzi	medzi	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+10	frátrov	fráter	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_
+11	.	.	PUNCT	Z	_	3	punct	_	_
+12	[	[	PUNCT	Z	_	13	punct	_	_
+13	389	389	NUM	0	NumForm=Digit	3	dep	_	_
+14	]	]	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s15
+# text = Všetky ďalšie uhorské právne normy , ktoré reglementujú život kláštorných spoločenstiev nachádzame potom až medzi kánonmi I . ostrihomskej synody .
+# orig_file_sentence muca089_katarinag_muca089_kandracova#15
+1	Všetky	všetok	DET	PFfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	5	det	_	_
+2	ďalšie	ďalší	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
+3	uhorské	uhorský	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
+4	právne	právny	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
+5	normy	norma	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	12	obj	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	ktoré	ktorý	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	8	nsubj	_	_
+8	reglementujú	reglementovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	acl	_	_
+9	život	život	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	kláštorných	kláštorný	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	11	amod	_	_
+11	spoločenstiev	spoločenstvo	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
+12	nachádzame	nachádzať	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	potom	potom	ADV	Dx	Degree=Pos	12	advmod	_	_
+14	až	až	PART	T	_	16	advmod:emph	_	_
+15	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	16	case	_	_
+16	kánonmi	kánon	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	12	obl	_	_
+17	I	i	NUM	0	NumForm=Digit	20	nummod	_	_
+18	.	.	PUNCT	Z	_	17	punct	_	_
+19	ostrihomskej	ostrihomský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	synody	synoda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+21	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s16
+# text = Sú zamerané na dôslednejšie precizovanie predpisov pre fungovanie uhorských kláštorných komunít a v niektorých prípadoch čiastočne dopĺňajú szabolcsské nariadenia .
+# orig_file_sentence muca089_katarinag_muca089_kandracova#16
+1	Sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	zamerané	zameraný	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+4	dôslednejšie	dôsledný	ADJ	AAns4y	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	5	amod	_	_
+5	precizovanie	precizovanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	2	obl:arg	_	_
+6	predpisov	predpis	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+8	fungovanie	fungovanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	_
+9	uhorských	uhorský	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
+10	kláštorných	kláštorný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
+11	komunít	komunita	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+12	a	a	CCONJ	O	_	17	cc	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+14	niektorých	niektorý	DET	PAip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	prípadoch	prípad	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	obl	_	_
+16	čiastočne	čiastočne	ADV	Dx	Degree=Pos	17	advmod	_	_
+17	dopĺňajú	dopĺňať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+18	szabolcsské	szabolcsský	ADJ	AAnp4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	19	amod	_	_
+19	nariadenia	nariadenie	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	17	obj	_	_
+20	.	.	PUNCT	Z	_	2	punct	_	_
+

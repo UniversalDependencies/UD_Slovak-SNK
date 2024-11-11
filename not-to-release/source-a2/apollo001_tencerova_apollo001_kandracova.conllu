@@ -1,0 +1,851 @@
+# sent_id = s1
+# text = Prvé miesto pristátia pre lunárny modul programu Apollo , v južnej časti Mora pokoja ( Mare Tranquillitatis ) okolo 20 km juhozápadne od krátera Sabine D , bolo vybrané sčasti preto , lebo bolo automatickými pristávacími sondami Ranger 8 a Surveyor 5 ako aj orbitálnou mapovacou sondou Lunar Orbiter charakterizované ako relatívne ploché a hladké a tým pádom si nevyžadovalo nejaké namáhavé povrchové aktivity posádky .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#1
+1	Prvé	prvý	ADJ	NAns1	Case=Nom|Gender=Neut|Number=Sing|NumType=Ord	2	amod	_	_
+2	miesto	miesto	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	29	nsubj:pass	_	_
+3	pristátia	pristátie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+5	lunárny	lunárny	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	modul	modul	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_
+7	programu	program	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	Apollo	apollo	PROPN	SUns1:r	Case=Nom|Gender=Neut|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	Z	_	12	punct	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+11	južnej	južný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	časti	časť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+13	Mora	more	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	pokoja	pokoj	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	(	(	PUNCT	Z	_	16	punct	_	_
+16	Mare	mare	X	%	Foreign=Yes	13	appos	_	_
+17	Tranquillitatis	tranquillitatis	X	%	Foreign=Yes	16	flat:foreign	_	_
+18	)	)	PUNCT	Z	_	16	punct	_	_
+19	okolo	okolo	PART	T	_	20	case	_	_
+20	20	20	NUM	0	NumForm=Digit	12	nummod	_	_
+21	km	km	X	W	Abbr=Yes	20	nmod	_	_
+22	juhozápadne	juhozápadne	ADV	Dx	Degree=Pos	20	advmod	_	_
+23	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	24	case	_	_
+24	krátera	kráter	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	_
+25	Sabine	sabine	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	24	nmod	_	_
+26	D	d	X	W	Abbr=Yes	25	nmod	_	_
+27	,	,	PUNCT	Z	_	12	punct	_	_
+28	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	29	aux:pass	_	_
+29	vybrané	vybraný	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+30	sčasti	sčasti	ADV	Dx	Degree=Pos	29	advmod	_	_
+31	preto	preto	ADV	PD	PronType=Dem	29	advmod	_	_
+32	,	,	PUNCT	Z	_	50	punct	_	_
+33	lebo	lebo	CCONJ	O	_	50	mark	_	_
+34	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	50	cop	_	_
+35	automatickými	automatický	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	37	amod	_	_
+36	pristávacími	pristávací	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	37	amod	_	_
+37	sondami	sonda	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	50	obj	_	_
+38	Ranger	ranger	PROPN	SUis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	37	nmod	_	_
+39	8	8	NUM	0	NumForm=Digit	38	nummod	_	_
+40	a	a	CCONJ	O	_	41	cc	_	_
+41	Surveyor	surveyor	PROPN	SUis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	38	conj	_	_
+42	5	5	NUM	0	NumForm=Digit	41	nummod	_	_
+43	ako	ako	SCONJ	O	_	47	cc	_	_
+44	aj	aj	CCONJ	O	_	47	cc	_	_
+45	orbitálnou	orbitálny	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	47	amod	_	_
+46	mapovacou	mapovací	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	47	amod	_	_
+47	sondou	sonda	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	37	conj	_	_
+48	Lunar	lunar	X	%	Foreign=Yes	47	nmod	_	_
+49	Orbiter	orbiter	X	%	Foreign=Yes	48	flat:foreign	_	_
+50	charakterizované	charakterizovaný	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	29	advcl	_	_
+51	ako	ako	SCONJ	O	_	53	cc	_	_
+52	relatívne	relatívne	ADV	Dx	Degree=Pos	53	advmod	_	_
+53	ploché	plochý	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	50	xcomp	_	_
+54	a	a	CCONJ	O	_	55	cc	_	_
+55	hladké	hladký	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	53	conj	_	_
+56	a	a	CCONJ	O	_	60	cc	_	_
+57	tým	tým	PRON	PFis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|PronType=Prs	58	nmod	_	_
+58	pádom	pád	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	60	obl	_	_
+59	si	si	PRON	R	PronType=Prs|Reflex=Yes	60	expl:pv	_	_
+60	nevyžadovalo	vyžadovať	VERB	VLescn-	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	50	conj	_	_
+61	nejaké	nejaký	DET	PAfp4	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	64	det	_	_
+62	namáhavé	namáhavý	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	64	amod	_	_
+63	povrchové	povrchový	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	64	amod	_	_
+64	aktivity	aktivita	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	60	obj	_	_
+65	posádky	posádka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	64	nmod	_	_
+66	.	.	PUNCT	Z	_	29	punct	_	_
+
+# sent_id = s2
+# text = Armstrong ho pohotovo hneď po pristátí nazval " Tranquillity Base " ( Základňa Tranquility / Základňa pokoja ) .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#2
+1	Armstrong	armstrong	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	ho	ono	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+3	pohotovo	pohotovo	ADV	Dx	Degree=Pos	7	advmod	_	_
+4	hneď	hneď	ADV	Dx	Degree=Pos	7	advmod	_	_
+5	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	pristátí	pristátie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+7	nazval	nazvať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	"	"	PUNCT	Z	_	9	punct	_	_
+9	Tranquillity	tranquillity	X	%	Foreign=Yes	7	advmod	_	_
+10	Base	base	X	%	Foreign=Yes	9	flat:foreign	_	_
+11	"	"	PUNCT	Z	_	9	punct	_	_
+12	(	(	PUNCT	Z	_	13	punct	_	_
+13	Základňa	základňa	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	9	appos	_	_
+14	Tranquility	tranquility	X	%	Foreign=Yes	13	nmod	_	_
+15	/	/	PUNCT	Z	_	16	punct	_	_
+16	Základňa	základňa	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	13	flat	_	_
+17	pokoja	pokoj	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	)	)	PUNCT	Z	_	13	punct	_	_
+19	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s3
+# text = Misia Apolla 11 odštartovala z Kennedyho vesmírneho strediska 16 . júla 1969 .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#3
+1	Misia	misia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	Apolla	apollo	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	11	11	NUM	0	NumForm=Digit	2	nummod	_	_
+4	odštartovala	odštartovať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+6	Kennedyho	kennedy	PROPN	SFms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+7	vesmírneho	vesmírny	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	strediska	stredisko	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+9	16	16	NUM	0	NumForm=Digit	11	nummod	_	_
+10	.	.	PUNCT	Z	_	9	punct	_	_
+11	júla	júl	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+12	1969	1969	NUM	0	NumForm=Digit	11	nummod	_	_
+13	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s4
+# text = Po jeden a pol oblete Zeme sa veliteľský a servisný modul oddelený od posledného stupňa nosnej rakety Saturn V úspešne spojil s lunárnym modulom čakajúcim na orbite a spolu sa vydali na cestu k Mesiacu .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#4
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	jeden	jeden	NUM	NFns4	Case=Acc|Gender=Neut|Number=Sing	21	nummod	_	_
+3	a	a	CCONJ	O	_	4	cc	_	_
+4	pol	pol	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	2	conj	_	_
+5	oblete	oblet	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+6	Zeme	zem	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	21	expl:pv	_	_
+8	veliteľský	veliteľský	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	servisný	servisný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	conj	_	_
+11	modul	modul	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+12	oddelený	oddelený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	amod	_	_
+13	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+14	posledného	posledný	ADJ	NAis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumType=Ord	15	amod	_	_
+15	stupňa	stupeň	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl:arg	_	_
+16	nosnej	nosný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	rakety	raketa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	Saturn	saturn	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_
+19	V	v	NUM	0	NumForm=Digit	18	nummod	_	_
+20	úspešne	úspešne	ADV	Dx	Degree=Pos	21	advmod	_	_
+21	spojil	spojiť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+22	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	24	case	_	_
+23	lunárnym	lunárny	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	modulom	modul	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	21	obl:arg	_	_
+25	čakajúcim	čakajúci	ADJ	Gkis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	24	amod	_	_
+26	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	27	case	_	_
+27	orbite	orbit	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	obl	_	_
+28	a	a	CCONJ	O	_	31	cc	_	_
+29	spolu	spolu	ADV	Dx	Degree=Pos	31	advmod	_	_
+30	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	31	expl:pv	_	_
+31	vydali	vydať	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	21	conj	_	_
+32	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	33	case	_	_
+33	cestu	cesta	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	31	obl	_	_
+34	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	35	case	_	_
+35	Mesiacu	mesiac	PROPN	SSis3:r	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	33	nmod	_	_
+36	.	.	PUNCT	Z	_	21	punct	_	_
+
+# sent_id = s5
+# text = 20 . júla nad odvrátenou stranou Mesiaca Michael Collins z veliteľského modulu Columbia dôkladne skontroloval lunárny modul Eagle , ktorý sa len krátko predtým oddelil a otáčal sa pred veliteľským modulom .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#5
+1	20	20	NUM	0	NumForm=Digit	3	nummod	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+3	júla	júl	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
+4	nad	nad	ADP	Eu7	AdpType=Prep|Case=Ins	6	case	_	_
+5	odvrátenou	odvrátený	ADJ	Gtfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	stranou	strana	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	15	obl	_	_
+7	Mesiaca	mesiac	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	Michael	michael	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+9	Collins	collins	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+10	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+11	veliteľského	veliteľský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	modulu	modul	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+13	Columbia	columbia	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	12	nmod	_	_
+14	dôkladne	dôkladne	ADV	Dx	Degree=Pos	15	advmod	_	_
+15	skontroloval	skontrolovať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+16	lunárny	lunárny	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	modul	modul	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+18	Eagle	eagle	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_
+19	,	,	PUNCT	Z	_	25	punct	_	_
+20	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	25	nsubj	_	_
+21	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	25	expl:pv	_	_
+22	len	len	PART	T	_	23	advmod:emph	_	_
+23	krátko	krátko	ADV	Dx	Degree=Pos	24	advmod	_	_
+24	predtým	predtým	ADV	Dx	Degree=Pos	25	advmod	_	_
+25	oddelil	oddeliť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	17	acl	_	_
+26	a	a	CCONJ	O	_	27	cc	_	_
+27	otáčal	otáčať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	25	conj	_	_
+28	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	27	expl:pv	_	_
+29	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	31	case	_	_
+30	veliteľským	veliteľský	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	modulom	modul	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	27	obl:arg	_	_
+32	.	.	PUNCT	Z	_	15	punct	_	_
+
+# sent_id = s6
+# text = Zanedlho Armstrong a Aldrin zažali motory lunárneho modulu a začali svoj zostup na povrch .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#6
+1	Zanedlho	zanedlho	ADV	Dx	Degree=Pos	5	advmod	_	_
+2	Armstrong	armstrong	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	a	a	CCONJ	O	_	4	cc	_	_
+4	Aldrin	aldrin	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+5	zažali	zažať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	motory	motor	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+7	lunárneho	lunárny	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	modulu	modul	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	začali	začať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+11	svoj	svoj	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	_	_
+12	zostup	zostup	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+13	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+14	povrch	povrch	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_
+15	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s7
+# text = Skoro však spozorovali , že motory boli v činnosti dlhšie a Eagle bol o štyri sekundy pred plánovanou trasou a pristával na kilometre vzdialený od pôvodne plánovaného miesta .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#7
+1	Skoro	skoro	ADV	Dx	Degree=Pos	3	advmod	_	_
+2	však	však	CCONJ	O	_	3	cc	_	_
+3	spozorovali	spozorovať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	,	,	PUNCT	Z	_	7	punct	_	_
+5	že	že	SCONJ	O	_	7	mark	_	_
+6	motory	motor	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	boli	byť	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	3	ccomp	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	činnosti	činnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+10	dlhšie	dlho	ADV	Dy	Degree=Cmp	7	advmod	_	_
+11	a	a	CCONJ	O	_	13	cc	_	_
+12	Eagle	eagle	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+13	bol	byť	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+14	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
+15	štyri	štyri	NUM	NNfp4	Case=Acc|Gender=Fem|Number=Plur	16	nummod	_	_
+16	sekundy	sekunda	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	13	obl	_	_
+17	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	19	case	_	_
+18	plánovanou	plánovaný	ADJ	Gtfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	19	amod	_	_
+19	trasou	trasa	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_
+20	a	a	CCONJ	O	_	21	cc	_	_
+21	pristával	pristávať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	conj	_	_
+22	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	23	case	_	_
+23	kilometre	kilometer	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	24	obl	_	_
+24	vzdialený	vzdialený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	21	xcomp	_	_
+25	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	28	case	_	_
+26	pôvodne	pôvodne	ADV	Dx	Degree=Pos	27	advmod	_	_
+27	plánovaného	plánovaný	ADJ	Gtns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	28	amod	_	_
+28	miesta	miesto	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	24	obl	_	_
+29	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s8
+# text = Navigačný a riadiaci počítač hlásili hneď niekoľko alarmov zapríčinených vychýlením sa z plánovanej trasy a to prinútilo posádku sústrediť sa na riadenie modulu .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#8
+1	Navigačný	navigačný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+2	a	a	CCONJ	O	_	3	cc	_	_
+3	riadiaci	riadiaci	ADJ	Gkis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	1	conj	_	_
+4	počítač	počítač	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	hlásili	hlásiť	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	hneď	hneď	ADV	Dx	Degree=Pos	7	advmod:emph	_	_
+7	niekoľko	niekoľko	DET	PUns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Card|PronType=Ind	8	det:numgov	_	_
+8	alarmov	alarm	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obj	_	_
+9	zapríčinených	zapríčinený	ADJ	Gtip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
+10	vychýlením	vychýlenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	9	nmod	_	_
+11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+12	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+13	plánovanej	plánovaný	ADJ	Gtfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	trasy	trasa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	obl:arg	_	_
+15	a	a	CCONJ	O	_	17	cc	_	_
+16	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	17	nsubj	_	_
+17	prinútilo	prinútiť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+18	posádku	posádka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	17	iobj	_	_
+19	sústrediť	sústrediť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	17	xcomp	_	_
+20	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	19	expl:pv	_	_
+21	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	22	case	_	_
+22	riadenie	riadenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	19	obl:arg	_	_
+23	modulu	modul	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s9
+# text = V riadiacom stredisku NASA mladý operátor Steve Bales však oznámil riaditeľovi letu , že napriek alarmom je bezpečné pokračovať v zostupe .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#9
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	riadiacom	riadiaci	ADJ	Gkns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	3	amod	_	_
+3	stredisku	stredisko	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+4	NASA	nasa	X	W	Abbr=Yes	3	nmod	_	_
+5	mladý	mladý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	operátor	operátor	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+7	Steve	steve	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+8	Bales	bales	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+9	však	však	PART	T	_	10	advmod	_	_
+10	oznámil	oznámiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+11	riaditeľovi	riaditeľ	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	10	iobj	_	_
+12	letu	let	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	,	,	PUNCT	Z	_	18	punct	_	_
+14	že	že	SCONJ	O	_	18	mark	_	_
+15	napriek	napriek	ADP	Eu3	AdpType=Prep|Case=Dat	16	case	_	_
+16	alarmom	alarm	NOUN	SSip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	18	obl	_	_
+17	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	bezpečné	bezpečný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	ccomp	_	_
+19	pokračovať	pokračovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	18	csubj	_	_
+20	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	_	_
+21	zostupe	zostup	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl:arg	_	_
+22	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s10
+# text = Hneď ako posádka mohla obrátiť svoju pozornosť naspäť k výhľadu von , astronauti videli , že počítač ich vedie priamo na miesto plné veľkých kameňov v okolí veľkého krátera .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#10
+1	Hneď	hneď	ADV	Dx	Degree=Pos	14	advmod	_	_
+2	ako	ako	SCONJ	O	_	4	mark	_	_
+3	posádka	posádka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	mohla	môcť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	advcl	_	_
+5	obrátiť	obrátiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+6	svoju	svoj	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	_
+7	pozornosť	pozornosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	naspäť	naspäť	ADV	Dx	Degree=Pos	5	advmod	_	_
+9	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	10	case	_	_
+10	výhľadu	výhľad	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+11	von	von	ADV	Dx	Degree=Pos	10	advmod	_	_
+12	,	,	PUNCT	Z	_	4	punct	_	_
+13	astronauti	astronaut	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+14	videli	vidieť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+15	,	,	PUNCT	Z	_	19	punct	_	_
+16	že	že	SCONJ	O	_	19	mark	_	_
+17	počítač	počítač	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+18	ich	on	PRON	PFmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
+19	vedie	viesť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+20	priamo	priamo	ADV	Dx	Degree=Pos	19	advmod	_	_
+21	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	22	case	_	_
+22	miesto	miesto	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	_
+23	plné	plný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+24	veľkých	veľký	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	25	amod	_	_
+25	kameňov	kameň	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	obj	_	_
+26	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	27	case	_	_
+27	okolí	okolie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	22	nmod	_	_
+28	veľkého	veľký	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	krátera	kráter	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+30	.	.	PUNCT	Z	_	14	punct	_	_
+
+# sent_id = s11
+# text = Armstrong prevzal manuálnu kontrolu nad lunárnym modulom a naviedol ho na pristátie o 16 : 17 Eastern Daylight Time s menej ako 30 sekundovou palivovou rezervou .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#11
+1	Armstrong	armstrong	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	prevzal	prevziať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	manuálnu	manuálny	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	kontrolu	kontrola	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	nad	nad	ADP	Eu7	AdpType=Prep|Case=Ins	7	case	_	_
+6	lunárnym	lunárny	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	modulom	modul	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	nmod	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	naviedol	naviesť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+10	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	pristátie	pristátie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	9	obl:arg	_	_
+13	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	16	16	NUM	0	NumForm=Digit	12	obl	_	_
+15	:	:	PUNCT	Z	_	16	punct	_	_
+16	17	17	NUM	0	NumForm=Digit	14	conj	_	_
+17	Eastern	eastern	X	%	Foreign=Yes	14	nmod	_	_
+18	Daylight	daylight	X	%	Foreign=Yes	17	flat:foreign	_	_
+19	Time	time	X	%	Foreign=Yes	17	flat:foreign	_	_
+20	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	26	case	_	_
+21	menej	málo	ADV	Dy	Degree=Cmp	25	advmod	_	_
+22	ako	ako	SCONJ	O	_	21	xcomp	_	_
+23	30	30	NUM	0	NumForm=Digit	24	nummod	_	_
+24	sekundovou	sekundový	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	xcomp	_	_
+25	palivovou	palivový	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	rezervou	rezerva	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	12	nmod	_	_
+27	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s12
+# text = Za prvé slová z povrchu Mesiaca sa všeobecne považujú slová Neila Armstronga " Houston , tu je zakládňa Tranquility .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#12
+1	Za	za	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+2	prvé	prvý	ADJ	NAnp4	Case=Acc|Gender=Neut|Number=Plur|NumType=Ord	3	amod	_	_
+3	slová	slovo	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	9	obl:arg	_	_
+4	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+5	povrchu	povrch	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	Mesiaca	mesiac	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pass	_	_
+8	všeobecne	všeobecne	ADV	Dx	Degree=Pos	9	advmod	_	_
+9	považujú	považovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	slová	slovo	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	9	nsubj:pass	_	_
+11	Neila	neil	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+12	Armstronga	armstrong	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	"	"	PUNCT	Z	_	17	punct	_	_
+14	Houston	houston	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	dep	_	_
+15	,	,	PUNCT	Z	_	17	punct	_	_
+16	tu	tu	ADV	PD	PronType=Dem	17	advmod	_	_
+17	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	acl	_	_
+18	zakládňa	zakládňa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+19	Tranquility	tranquility	X	%	Foreign=Yes	18	nmod	_	_
+20	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s13
+# text = Orol pristál ! " , hoci fakticky to boli Aldrinove slová " Hladké pristátie " ( po anglicky " Contact Light " ) , ktoré vyslovil po tom , ako sa nohy lunárneho modulu dotkli povrchu Mesiaca .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#13
+1	Orol	orol	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	pristál	pristáť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	!	!	PUNCT	Z	_	2	punct	_	_
+4	"	"	PUNCT	Z	_	2	punct	_	_
+5	,	,	PUNCT	Z	_	8	punct	_	_
+6	hoci	hoci	SCONJ	O	_	8	mark	_	_
+7	fakticky	fakticky	ADV	Dx	Degree=Pos	8	advmod	_	_
+8	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	dep	_	_
+9	boli	byť	AUX	VLepcn+	Aspect=Imp|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	8	cop	_	_
+10	Aldrinove	aldrinov	ADJ	AFnp1x:r	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	11	amod	_	_
+11	slová	slovo	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
+12	"	"	PUNCT	Z	_	14	punct	_	_
+13	Hladké	hladký	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	pristátie	pristátie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	11	nmod	_	_
+15	"	"	PUNCT	Z	_	14	punct	_	_
+16	(	(	PUNCT	Z	_	20	punct	_	_
+17	po	po	X	Q	Hyph=Yes	18	case	_	_
+18	anglicky	anglicky	ADV	Dx	Degree=Pos	20	advmod	_	_
+19	"	"	PUNCT	Z	_	20	punct	_	_
+20	Contact	contact	X	%	Foreign=Yes	14	appos	_	_
+21	Light	light	X	%	Foreign=Yes	20	flat:foreign	_	_
+22	"	"	PUNCT	Z	_	20	punct	_	_
+23	)	)	PUNCT	Z	_	20	punct	_	_
+24	,	,	PUNCT	Z	_	26	punct	_	_
+25	ktoré	ktorý	DET	PAnp4	Case=Acc|Gender=Neut|Number=Plur|PronType=Int,Rel	26	obj	_	_
+26	vyslovil	vysloviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	parataxis	_	_
+27	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	28	case	_	_
+28	tom	to	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	26	obl	_	_
+29	,	,	PUNCT	Z	_	35	punct	_	_
+30	ako	ako	SCONJ	O	_	35	advmod	_	_
+31	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	35	expl:pv	_	_
+32	nohy	noha	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	35	nsubj	_	_
+33	lunárneho	lunárny	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	modulu	modul	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
+35	dotkli	dotknúť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	28	acl	_	_
+36	povrchu	povrch	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	obj	_	_
+37	Mesiaca	mesiac	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
+38	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s14
+# text = Alarmy , ktoré generoval program lunárneho modulu signalizovali , že počítač nie je schopný dokončiť svoje výpočty vo vyhradenom čase ( " executive overflows " ) .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#14
+1	Alarmy	alarm	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+2	,	,	PUNCT	Z	_	4	punct	_	_
+3	ktoré	ktorý	DET	PAip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Int,Rel	4	nsubj	_	_
+4	generoval	generovať	VERB	VLjsci+	Animacy=Inan|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	acl	_	_
+5	program	program	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
+6	lunárneho	lunárny	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	modulu	modul	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	signalizovali	signalizovať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	,	,	PUNCT	Z	_	14	punct	_	_
+10	že	že	SCONJ	O	_	14	mark	_	_
+11	počítač	počítač	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+12	nie	nie	PART	T	_	14	advmod	_	_
+13	je	byť	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	schopný	schopný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	ccomp	_	_
+15	dokončiť	dokončiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	14	xcomp	_	_
+16	svoje	svoj	DET	PFip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	17	det	_	_
+17	výpočty	výpočet	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_
+18	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	20	case	_	_
+19	vyhradenom	vyhradený	ADJ	Gtis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	20	amod	_	_
+20	čase	čas	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+21	(	(	PUNCT	Z	_	23	punct	_	_
+22	"	"	PUNCT	Z	_	23	punct	_	_
+23	executive	executive	X	%	Foreign=Yes	20	appos	_	_
+24	overflows	overflows	X	%	Foreign=Yes	23	flat:foreign	_	_
+25	"	"	PUNCT	Z	_	23	punct	_	_
+26	)	)	PUNCT	Z	_	23	punct	_	_
+27	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s15
+# text = Ako sa neskoršie zistilo , príčinou bolo , že počítač strávil neplánovaný čas obsluhou stretávacieho radaru , ktorý sa počas zostupu nepoužíval .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#15
+1	Ako	ako	SCONJ	O	_	4	mark	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pass	_	_
+3	neskoršie	neskoršie	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	zistilo	zistiť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	advcl	_	_
+5	,	,	PUNCT	Z	_	4	punct	_	_
+6	príčinou	príčina	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+7	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	cop	_	_
+8	,	,	PUNCT	Z	_	11	punct	_	_
+9	že	že	SCONJ	O	_	11	mark	_	_
+10	počítač	počítač	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	strávil	stráviť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	csubj	_	_
+12	neplánovaný	plánovaný	ADJ	Gtis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	čas	čas	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+14	obsluhou	obsluha	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	11	iobj	_	_
+15	stretávacieho	stretávací	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	radaru	radar	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	,	,	PUNCT	Z	_	22	punct	_	_
+18	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	22	nsubj:pass	_	_
+19	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	22	expl:pass	_	_
+20	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	21	case	_	_
+21	zostupu	zostup	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	_
+22	nepoužíval	používať	VERB	VLesci-	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	16	acl	_	_
+23	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s16
+# text = Steve Bales , za svoje " pokračujeme " v napätej chvíli zostupu , obdržal Medailu slobody ( Medal of Freedom ) .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#16
+1	Steve	steve	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Bales	bales	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+3	,	,	PUNCT	Z	_	7	punct	_	_
+4	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	7	mark	_	_
+5	svoje	svoj	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	_
+6	"	"	PUNCT	Z	_	7	punct	_	_
+7	pokračujeme	pokračovať	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+8	"	"	PUNCT	Z	_	7	punct	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+10	napätej	napätý	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	chvíli	chvíľa	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl:arg	_	_
+12	zostupu	zostup	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	,	,	PUNCT	Z	_	7	punct	_	_
+14	obdržal	obdržať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+15	Medailu	medaila	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	14	iobj	_	_
+16	slobody	sloboda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	(	(	PUNCT	Z	_	18	punct	_	_
+18	Medal	medal	X	%	Foreign=Yes	15	appos	_	_
+19	of	of	X	%	Foreign=Yes	18	flat:foreign	_	_
+20	Freedom	freedom	X	%	Foreign=Yes	18	flat:foreign	_	_
+21	)	)	PUNCT	Z	_	18	punct	_	_
+22	.	.	PUNCT	Z	_	14	punct	_	_
+
+# sent_id = s17
+# text = 21 . júla o 2 : 56 UTC , šesť a pol hodiny po pristátí , Armstrong uskutočnil svoj zostup na povrch Mesiaca a predniesol pamätnú vetu " . . . veľký skok pre ľudstvo " .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#17
+1	21	21	NUM	0	NumForm=Digit	3	nummod	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+3	júla	júl	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+4	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	2	2	NUM	0	NumForm=Digit	18	obl	_	_
+6	:	:	PUNCT	Z	_	7	punct	_	_
+7	56	56	NUM	0	NumForm=Digit	5	conj	_	_
+8	UTC	utc	X	W	Abbr=Yes	5	nmod	_	_
+9	,	,	PUNCT	Z	_	10	punct	_	_
+10	šesť	šesť	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	18	obl	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	pol	pol	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	10	conj	_	_
+13	hodiny	hodina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	pristátí	pristátie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	13	nmod	_	_
+16	,	,	PUNCT	Z	_	10	punct	_	_
+17	Armstrong	armstrong	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+18	uskutočnil	uskutočniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+19	svoj	svoj	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	20	det	_	_
+20	zostup	zostup	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+21	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	22	case	_	_
+22	povrch	povrch	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	nmod	_	_
+23	Mesiaca	mesiac	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	a	a	CCONJ	O	_	25	cc	_	_
+25	predniesol	predniesť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	18	conj	_	_
+26	pamätnú	pamätný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	vetu	veta	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+28	"	"	PUNCT	Z	_	33	punct	_	_
+29	.	.	PUNCT	Z	_	33	punct	_	_
+30	.	.	PUNCT	Z	_	33	punct	_	_
+31	.	.	PUNCT	Z	_	33	punct	_	_
+32	veľký	veľký	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	skok	skok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nmod	_	_
+34	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	35	case	_	_
+35	ľudstvo	ľudstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	33	nmod	_	_
+36	"	"	PUNCT	Z	_	33	punct	_	_
+37	.	.	PUNCT	Z	_	18	punct	_	_
+
+# sent_id = s18
+# text = Aldrin sa k nemu neskôr pridal a obaja strávili dve a pol hodiny navŕtavaním mesačného povrchu , fotografovaním všetkého , čo videli , a zbieraním kameňov a iných vzoriek .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#18
+1	Aldrin	aldrin	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+3	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	4	case	_	_
+4	nemu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl:arg	_	_
+5	neskôr	neskôr	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	pridal	pridať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	a	a	CCONJ	O	_	9	cc	_	_
+8	obaja	oba	NUM	NNmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	strávili	stráviť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+10	dve	dva	NUM	NNfp4	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	pol	pol	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	10	conj	_	_
+13	hodiny	hodina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	navŕtavaním	navŕtavanie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	9	iobj	_	_
+15	mesačného	mesačný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	povrchu	povrch	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	,	,	PUNCT	Z	_	18	punct	_	_
+18	fotografovaním	fotografovanie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	14	conj	_	_
+19	všetkého	všetok	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	18	amod	_	_
+20	,	,	PUNCT	Z	_	22	punct	_	_
+21	čo	čo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	22	obj	_	_
+22	videli	vidieť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	19	acl	_	_
+23	,	,	PUNCT	Z	_	22	punct	_	_
+24	a	a	CCONJ	O	_	25	cc	_	_
+25	zbieraním	zbieranie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	14	conj	_	_
+26	kameňov	kameň	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+27	a	a	CCONJ	O	_	29	cc	_	_
+28	iných	iný	DET	PAfp2	Case=Gen|Gender=Fem|Number=Plur|PronType=Ind	29	det	_	_
+29	vzoriek	vzorka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	26	conj	_	_
+30	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s19
+# text = Počas pobytu v lunárnom module cez dvojicu trojuholníkových okien vyberali miesto pre Early Apollo Scientific Experiment Package ( EASEP ) ( doslova Včasný súbor vedeckých experimentov programu Apollo ) a pre zástavu Spojených štátov .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#19
+1	Počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	pobytu	pobyt	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+4	lunárnom	lunárny	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	module	modul	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+6	cez	cez	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+7	dvojicu	dvojica	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obl:arg	_	_
+8	trojuholníkových	trojuholníkový	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	_
+9	okien	okno	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+10	vyberali	vyberať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+11	miesto	miesto	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+12	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+13	Early	early	X	%	Foreign=Yes	11	nmod	_	_
+14	Apollo	apollo	X	%	Foreign=Yes	13	flat:foreign	_	_
+15	Scientific	scientific	X	%	Foreign=Yes	13	flat:foreign	_	_
+16	Experiment	experiment	X	%	Foreign=Yes	13	flat:foreign	_	_
+17	Package	package	X	%	Foreign=Yes	13	flat:foreign	_	_
+18	(	(	PUNCT	Z	_	19	punct	_	_
+19	EASEP	easep	X	W	Abbr=Yes	13	appos	_	_
+20	)	)	PUNCT	Z	_	19	punct	_	_
+21	(	(	PUNCT	Z	_	24	punct	_	_
+22	doslova	doslova	ADV	Dx	Degree=Pos	24	advmod:emph	_	_
+23	Včasný	včasný	ADJ	AAis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	súbor	súbor	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
+25	vedeckých	vedecký	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	26	amod	_	_
+26	experimentov	experiment	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+27	programu	program	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+28	Apollo	apollo	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+29	)	)	PUNCT	Z	_	24	punct	_	_
+30	a	a	CCONJ	O	_	32	cc	_	_
+31	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	32	case	_	_
+32	zástavu	zástava	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	conj	_	_
+33	Spojených	spojený	ADJ	Gtip2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	34	amod	_	_
+34	štátov	štát	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	32	nmod	_	_
+35	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s20
+# text = Z okien mali 60 ° výhľad .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#20
+1	Z	z	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	okien	okno	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+3	mali	mať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	60	60	NUM	0	NumForm=Digit	6	nummod	_	_
+5	°	°	X	#	_	4	nmod	_	_
+6	výhľad	výhľad	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+7	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s21
+# text = Príprava trvala dlhšie ako plánované dve hodiny .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#21
+1	Príprava	príprava	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	trvala	trvať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	dlhšie	dlho	ADV	Dy	Degree=Cmp	2	advmod	_	_
+4	ako	ako	SCONJ	O	_	7	mark	_	_
+5	plánované	plánovaný	ADJ	Gtfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	_	_
+6	dve	dva	NUM	NNfp4	Case=Acc|Gender=Fem|Number=Plur	7	nummod	_	_
+7	hodiny	hodina	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	_
+8	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s22
+# text = Armstrong mal spočiatku ťažkosti prejsť prielezom so svojím PLSS ( Primary Life Support Subsystem ‐ primárny podsystém pre podporu života ) .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#22
+1	Armstrong	armstrong	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	mal	mať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	spočiatku	spočiatku	ADV	Dx	Degree=Pos	2	advmod	_	_
+4	ťažkosti	ťažkosť	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+5	prejsť	prejsť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	acl	_	_
+6	prielezom	prielez	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obj	_	_
+7	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	9	case	_	_
+8	svojím	svoj	DET	PFis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	_
+9	PLSS	plss	X	W	Abbr=Yes	5	obl:arg	_	_
+10	(	(	PUNCT	Z	_	11	punct	_	_
+11	Primary	primary	X	%	Foreign=Yes	9	appos	_	_
+12	Life	life	X	%	Foreign=Yes	11	flat:foreign	_	_
+13	Support	support	X	%	Foreign=Yes	11	flat:foreign	_	_
+14	Subsystem	subsystem	X	%	Foreign=Yes	11	flat:foreign	_	_
+15	‐	‐	PUNCT	Z	_	17	punct	_	_
+16	primárny	primárny	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	podsystém	podsystém	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_
+18	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	19	case	_	_
+19	podporu	podpora	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	_
+20	života	život	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	)	)	PUNCT	Z	_	11	punct	_	_
+22	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s23
+# text = Podľa veterána letov Apollo Johna Younga prispôsobenie lunárneho modulu menšiemu prielezu nebolo zohľadnené pri návrhu batoha s PLSS , takže najvyšší pulz astronautov bol zaznamenaný počas vstupov a výstupov z lunárneho modulu .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#23
+1	Podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+2	veterána	veterán	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+3	letov	let	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	Apollo	apollo	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	3	nmod	_	_
+5	Johna	john	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+6	Younga	young	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+7	prispôsobenie	prispôsobenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	13	nsubj:pass	_	_
+8	lunárneho	lunárny	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	modulu	modul	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	menšiemu	malý	ADJ	AAis3y	Animacy=Inan|Case=Dat|Degree=Cmp|Gender=Masc|Number=Sing	11	amod	_	_
+11	prielezu	prielez	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	_
+12	nebolo	byť	AUX	VLescn-	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	13	aux:pass	_	_
+13	zohľadnené	zohľadnený	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+14	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	návrhu	návrh	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl:arg	_	_
+16	batoha	batoh	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	18	case	_	_
+18	PLSS	plss	X	W	Abbr=Yes	16	nmod	_	_
+19	,	,	PUNCT	Z	_	25	punct	_	_
+20	takže	takže	CCONJ	O	_	25	mark	_	_
+21	najvyšší	vysoký	ADJ	AAis1z	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	22	amod	_	_
+22	pulz	pulz	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj:pass	_	_
+23	astronautov	astronaut	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	25	aux:pass	_	_
+25	zaznamenaný	zaznamenaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	13	obl	_	_
+26	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	27	case	_	_
+27	vstupov	vstup	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	obl	_	_
+28	a	a	CCONJ	O	_	29	cc	_	_
+29	výstupov	výstup	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	conj	_	_
+30	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	32	case	_	_
+31	lunárneho	lunárny	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	modulu	modul	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+33	.	.	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s24
+# text = Kvôli ovládaniu diaľkovej riadiacej jednotky , ktorú mal pripnutú na hrudi , si Armstrong nevidel na nohy .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#24
+1	Kvôli	kvôli	ADP	Eu3	AdpType=Prep|Case=Dat	2	case	_	_
+2	ovládaniu	ovládanie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	_
+3	diaľkovej	diaľkový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+4	riadiacej	riadiaci	ADJ	Gkfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	5	amod	_	_
+5	jednotky	jednotka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	ktorú	ktorý	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	8	obj	_	_
+8	mal	mať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	acl	_	_
+9	pripnutú	pripnutý	ADJ	Gtfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	xcomp	_	_
+10	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	hrudi	hruď	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+12	,	,	PUNCT	Z	_	8	punct	_	_
+13	si	si	PRON	R	PronType=Prs|Reflex=Yes	15	obl	_	_
+14	Armstrong	armstrong	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	nevidel	vidieť	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+16	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
+17	nohy	noha	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	15	obl:arg	_	_
+18	.	.	PUNCT	Z	_	15	punct	_	_
+
+# sent_id = s25
+# text = Počas zostupu po deväťstupňovom rebríku Armstrong potiahol D ovládač , aby rozbalil Modular Equipment Stowage Assembly ( MESA ) zložený na boku lunárneho modulu a aktivoval TV kameru .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#25
+1	Počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	zostupu	zostup	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+3	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+4	deväťstupňovom	deväťstupňový	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	rebríku	rebrík	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+6	Armstrong	armstrong	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	potiahol	potiahnuť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	D	d	X	W	Abbr=Yes	9	nmod	_	_
+9	ovládač	ovládač	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	aby	aby	SCONJ	OY	Mood=Cnd	12	mark	_	_
+12	rozbalil	rozbaliť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	advcl	_	_
+13	Modular	modular	X	%	Foreign=Yes	12	obj	_	_
+14	Equipment	equipment	X	%	Foreign=Yes	13	flat:foreign	_	_
+15	Stowage	stowage	X	%	Foreign=Yes	13	flat:foreign	_	_
+16	Assembly	assembly	X	%	Foreign=Yes	13	flat:foreign	_	_
+17	(	(	PUNCT	Z	_	18	punct	_	_
+18	MESA	mesa	X	W	Abbr=Yes	13	appos	_	_
+19	)	)	PUNCT	Z	_	18	punct	_	_
+20	zložený	zložený	ADJ	Gtis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	13	amod	_	_
+21	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	22	case	_	_
+22	boku	bok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+23	lunárneho	lunárny	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	modulu	modul	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+25	a	a	CCONJ	O	_	26	cc	_	_
+26	aktivoval	aktivovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	conj	_	_
+27	TV	tv	X	W	Abbr=Yes	28	nmod	_	_
+28	kameru	kamera	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+29	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s26
+# text = Prvé obrázky boli nasnímané systémom Slow ‐ scan television a boli zachytené observatóriom Goldstone v USA a vo vyššej kvalite v austrálskom Honeysuckle Creek .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#26
+1	Prvé	prvý	ADJ	NAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumType=Ord	2	amod	_	_
+2	obrázky	obrázok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+3	boli	byť	AUX	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	nasnímané	nasnímaný	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+5	systémom	systém	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl:agent	_	_
+6	Slow	slow	X	%	Foreign=Yes	9	nmod	_	_
+7	‐	‐	PUNCT	Z	_	8	punct	_	_
+8	scan	scan	X	%	Foreign=Yes	6	conj	_	_
+9	television	television	X	%	Foreign=Yes	5	nmod	_	_
+10	a	a	CCONJ	O	_	12	cc	_	_
+11	boli	byť	AUX	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	zachytené	zachytený	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	4	conj	_	_
+13	observatóriom	observatórium	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	12	obl:agent	_	_
+14	Goldstone	goldstone	PROPN	SUis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+16	USA	usa	X	W	Abbr=Yes	13	nmod	_	_
+17	a	a	CCONJ	O	_	20	cc	_	_
+18	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	20	case	_	_
+19	vyššej	vysoký	ADJ	AAfs6y	Case=Loc|Degree=Cmp|Gender=Fem|Number=Sing	20	amod	_	_
+20	kvalite	kvalita	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	12	conj	_	_
+21	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	23	case	_	_
+22	austrálskom	austrálsky	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	Honeysuckle	honeysuckle	X	%	Foreign=Yes	20	orphan	_	_
+24	Creek	creek	X	%	Foreign=Yes	23	flat:foreign	_	_
+25	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s27
+# text = O niekoľko minút neskôr bolo televízne vysielanie prepnuté do normálu a signál bol presmerovaný na citlivejšie rádioteleskopy do austrálskeho Parkes Observatory .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#27
+1	O	o	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+2	niekoľko	niekoľko	DET	PUns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Card|PronType=Ind	3	det:numgov	_	_
+3	minút	minúta	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+4	neskôr	neskoro	ADV	Dy	Degree=Cmp	8	advmod	_	_
+5	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+6	televízne	televízny	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	vysielanie	vysielanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	8	nsubj:pass	_	_
+8	prepnuté	prepnutý	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+9	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	normálu	normál	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl:arg	_	_
+11	a	a	CCONJ	O	_	14	cc	_	_
+12	signál	signál	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+13	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	presmerovaný	presmerovaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	conj	_	_
+15	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
+16	citlivejšie	citlivý	ADJ	AAip4y	Animacy=Inan|Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur	17	amod	_	_
+17	rádioteleskopy	rádioteleskop	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obl:arg	_	_
+18	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+19	austrálskeho	austrálsky	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	Parkes	parkes	X	%	Foreign=Yes	14	advmod	_	_
+21	Observatory	observatory	X	%	Foreign=Yes	20	flat:foreign	_	_
+22	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s28
+# text = Napriek niektorým technickým a poveternostným ťažkostiam , bol rozostrený čierno ‐ biely obraz prvej prechádzaky po povrchu Mesiaca zachytený a ihneď vysielaný pre najmenej 600 miliónov ľudí na Zemi .
+# orig_file_sentence apollo001_tencerova_apollo001_kandracova#28
+1	Napriek	napriek	ADP	Eu3	AdpType=Prep|Case=Dat	6	case	_	_
+2	niektorým	niektorý	DET	PAfp3	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+3	technickým	technický	ADJ	AAfp3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+4	a	a	CCONJ	O	_	5	cc	_	_
+5	poveternostným	poveternostný	ADJ	AAfp3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	3	conj	_	_
+6	ťažkostiam	ťažkosť	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	19	obl	_	_
+7	,	,	PUNCT	Z	_	6	punct	_	_
+8	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	19	aux	_	_
+9	rozostrený	rozostrený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	13	amod	_	_
+10	čierno	čierno	X	Q	Hyph=Yes	13	nmod	_	_
+11	‐	‐	PUNCT	Z	_	12	punct	_	_
+12	biely	biely	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	conj	_	_
+13	obraz	obraz	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+14	prvej	prvý	ADJ	NAfs2	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	15	amod	_	_
+15	prechádzaky	prechádzka	NOUN	SSfs2:q	Case=Gen|Gender=Fem|Number=Sing|Typo=Yes	13	nmod	_	_
+16	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	povrchu	povrch	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	nmod	_	_
+18	Mesiaca	mesiac	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	zachytený	zachytený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+20	a	a	CCONJ	O	_	22	cc	_	_
+21	ihneď	ihneď	ADV	Dx	Degree=Pos	22	advmod	_	_
+22	vysielaný	vysielaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	19	conj	_	_
+23	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	25	case	_	_
+24	najmenej	najmenej	PART	T	_	25	advmod:emph	_	_
+25	600	600	NUM	0	NumForm=Digit	22	obl:arg	_	_
+26	miliónov	milión	NUM	NSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nummod	_	_
+27	ľudí	človek	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+28	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	29	case	_	_
+29	Zemi	zem	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	27	nmod	_	_
+30	.	.	PUNCT	Z	_	19	punct	_	_
+

@@ -1,0 +1,374 @@
+# sent_id = s1
+# text = I . ostrihomská synoda ďalej zakázala čokoľvek vyžadovať za celebrovanie omše , za vysluhovanie krstu a za pochovávanie . [ 359 ]
+# orig_file_sentence muca086_olejkarova_muca086_kandracova#1
+1	I	i	NUM	0	NumForm=Digit	4	nummod	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+3	ostrihomská	ostrihomský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	synoda	synoda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	ďalej	ďalej	PART	T	_	6	advmod	_	_
+6	zakázala	zakázať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	čokoľvek	čokoľvek	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	8	obj	_	_
+8	vyžadovať	vyžadovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+9	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+10	celebrovanie	celebrovanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
+11	omše	omša	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	,	,	PUNCT	Z	_	14	punct	_	_
+13	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+14	vysluhovanie	vysluhovanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	10	conj	_	_
+15	krstu	krst	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	a	a	CCONJ	O	_	18	cc	_	_
+17	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	18	case	_	_
+18	pochovávanie	pochovávanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	10	conj	_	_
+19	.	.	PUNCT	Z	_	6	punct	_	_
+20	[	[	PUNCT	Z	_	21	punct	_	_
+21	359	359	NUM	0	NumForm=Digit	6	dep	_	_
+22	]	]	PUNCT	Z	_	21	punct	_	_
+
+# sent_id = s2
+# text = Taký istý , takmer doslovne formulovaný zákaz máme doložený aj v Burchardovej zbierke , spolu so zdôvodnením „ … quod gratis accepimus , gratis dare mandamus . “ [ 360 ]
+# orig_file_sentence muca086_olejkarova_muca086_kandracova#2
+1	Taký	taký	DET	PAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	istý	istý	DET	PAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+3	,	,	PUNCT	Z	_	6	punct	_	_
+4	takmer	takmer	PART	T	_	5	cc	_	_
+5	doslovne	doslovne	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	formulovaný	formulovaný	ADJ	Gtis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	zákaz	zákaz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+8	máme	mať	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	doložený	doložený	ADJ	Gtis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	xcomp	_	_
+10	aj	aj	PART	T	_	13	advmod:emph	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+12	Burchardovej	burchardov	ADJ	AFfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	zbierke	zbierka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+14	,	,	PUNCT	Z	_	17	punct	_	_
+15	spolu	spolu	ADV	Dx	Degree=Pos	17	case	_	_
+16	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	15	fixed	_	_
+17	zdôvodnením	zdôvodnenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+18	„	„	PUNCT	Z	_	20	punct	_	_
+19	…	…	PUNCT	Z	_	20	punct	_	_
+20	quod	quod	X	%	Foreign=Yes	17	nmod	_	_
+21	gratis	gratis	X	%	Foreign=Yes	20	flat:foreign	_	_
+22	accepimus	accepimus	X	%	Foreign=Yes	20	flat:foreign	_	_
+23	,	,	PUNCT	Z	_	20	punct	_	_
+24	gratis	gratis	X	%	Foreign=Yes	20	flat:foreign	_	_
+25	dare	dar	X	%	Foreign=Yes	20	flat:foreign	_	_
+26	mandamus	mandamus	X	%	Foreign=Yes	20	flat:foreign	_	_
+27	.	.	PUNCT	Z	_	8	punct	_	_
+28	“	“	PUNCT	Z	_	20	punct	_	_
+29	[	[	PUNCT	Z	_	30	punct	_	_
+30	360	360	NUM	0	NumForm=Digit	8	dep	_	_
+31	]	]	PUNCT	Z	_	30	punct	_	_
+
+# sent_id = s3
+# text = Skupina kánonov I . ostrihomskej synody sa venuje stanoveniu obsahu bohoslužieb a príbuzným kultovým predpisom .
+# orig_file_sentence muca086_olejkarova_muca086_kandracova#3
+1	Skupina	skupina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+2	kánonov	kánon	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	I	i	NUM	0	NumForm=Digit	6	nummod	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+5	ostrihomskej	ostrihomský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	synody	synoda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pass	_	_
+8	venuje	venovať	VERB	VKjsc+	Aspect=Imp,Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	stanoveniu	stanovenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	8	obj	_	_
+10	obsahu	obsah	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	bohoslužieb	bohoslužba	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	a	a	CCONJ	O	_	15	cc	_	_
+13	príbuzným	príbuzný	ADJ	AAip3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
+14	kultovým	kultový	ADJ	AAip3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
+15	predpisom	predpis	NOUN	SSip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	9	conj	_	_
+16	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s4
+# text = Nariaďujú , že na každej nedeľnej bohoslužbe vo väčších kostoloch sa má veriacim vykladať čítanie z epištol a evanjelia , ako aj Vyznanie viery , kým v menších postačí Otčenáš a Vyznanie viery . [ 361 ]
+# orig_file_sentence muca086_olejkarova_muca086_kandracova#4
+1	Nariaďujú	nariaďovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	,	,	PUNCT	Z	_	12	punct	_	_
+3	že	že	SCONJ	O	_	12	mark	_	_
+4	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+5	každej	každý	DET	PAfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Tot	7	det	_	_
+6	nedeľnej	nedeľný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	bohoslužbe	bohoslužba	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+8	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	10	case	_	_
+9	väčších	veľký	ADJ	AAip6y	Animacy=Inan|Case=Loc|Degree=Cmp|Gender=Masc|Number=Plur	10	amod	_	_
+10	kostoloch	kostol	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	nmod	_	_
+11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pass	_	_
+12	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+13	veriacim	veriaci	NOUN	SAmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	14	obj	_	_
+14	vykladať	vykladať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	12	xcomp	_	_
+15	čítanie	čítanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	12	nsubj:pass	_	_
+16	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+17	epištol	epištola	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+18	a	a	CCONJ	O	_	19	cc	_	_
+19	evanjelia	evanjelium	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	17	conj	_	_
+20	,	,	PUNCT	Z	_	23	punct	_	_
+21	ako	ako	SCONJ	O	_	23	cc	_	_
+22	aj	aj	PART	T	_	23	cc	_	_
+23	Vyznanie	vyznanie	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	15	conj	_	_
+24	viery	viera	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	,	,	PUNCT	Z	_	29	punct	_	_
+26	kým	kým	SCONJ	O	_	29	mark	_	_
+27	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	28	case	_	_
+28	menších	malý	ADJ	AAip6y	Animacy=Inan|Case=Loc|Degree=Cmp|Gender=Masc|Number=Plur	29	dep	_	_
+29	postačí	postačiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+30	Otčenáš	otčenáš	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+31	a	a	CCONJ	O	_	32	cc	_	_
+32	Vyznanie	vyznanie	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	30	conj	_	_
+33	viery	viera	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_
+34	.	.	PUNCT	Z	_	1	punct	_	_
+35	[	[	PUNCT	Z	_	36	punct	_	_
+36	361	361	NUM	0	NumForm=Digit	1	dep	_	_
+37	]	]	PUNCT	Z	_	36	punct	_	_
+
+# sent_id = s5
+# text = Podobné nariadenia , ktoré kňazom kladú za povinnosť naučiť zverených veriacich Modlitbu Pána a Vyznanie viery , obsahuje Burchardova zbierka . [ 362 ]
+# orig_file_sentence muca086_olejkarova_muca086_kandracova#5
+1	Podobné	podobný	ADJ	AAnp4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	2	amod	_	_
+2	nariadenia	nariadenie	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	18	obj	_	_
+3	,	,	PUNCT	Z	_	6	punct	_	_
+4	ktoré	ktorý	DET	PAnp1	Case=Nom|Gender=Neut|Number=Plur|PronType=Int,Rel	6	nsubj	_	_
+5	kňazom	kňaz	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	iobj	_	_
+6	kladú	klásť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	acl	_	_
+7	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+8	povinnosť	povinnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	xcomp	_	_
+9	naučiť	naučiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+10	zverených	zverený	ADJ	Gtmp4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	veriacich	veriaci	NOUN	SAmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+12	Modlitbu	modlitba	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+13	Pána	pán	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	a	a	CCONJ	O	_	15	cc	_	_
+15	Vyznanie	vyznanie	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	12	conj	_	_
+16	viery	viera	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	,	,	PUNCT	Z	_	6	punct	_	_
+18	obsahuje	obsahovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	Burchardova	burchardov	ADJ	AFfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	zbierka	zbierka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+21	.	.	PUNCT	Z	_	18	punct	_	_
+22	[	[	PUNCT	Z	_	23	punct	_	_
+23	362	362	NUM	0	NumForm=Digit	18	dep	_	_
+24	]	]	PUNCT	Z	_	23	punct	_	_
+
+# sent_id = s6
+# text = Veriaci ich majú vedieť spamäti , a to nielen po latinsky , ale i barbarice a majú im rozumieť .
+# orig_file_sentence muca086_olejkarova_muca086_kandracova#6
+1	Veriaci	veriaci	NOUN	SAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	ich	on	PRON	PFip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+3	majú	mať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	vedieť	vedieť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+5	spamäti	spamäti	ADV	Dx	Degree=Pos	4	advmod	_	_
+6	,	,	PUNCT	Z	_	11	punct	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	to	to	CCONJ	O	_	11	cc	_	_
+9	nielen	nielen	CCONJ	O	_	11	cc	_	_
+10	po	po	X	Q	Hyph=Yes	11	case	_	_
+11	latinsky	latinsky	ADV	Dx	Degree=Pos	3	advmod	_	_
+12	,	,	PUNCT	Z	_	15	punct	_	_
+13	ale	ale	CCONJ	O	_	15	cc	_	_
+14	i	i	CCONJ	O	_	15	cc	_	_
+15	barbarice	barbarice	ADV	Dx	Degree=Pos	11	conj	_	_
+16	a	a	CCONJ	O	_	17	cc	_	_
+17	majú	mať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+18	im	on	PRON	PFip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
+19	rozumieť	rozumieť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	17	xcomp	_	_
+20	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s7
+# text = Burchardovi i uhorským zákonodarcom ide teda viac o to , aby veriaci pochopili podstatu týchto dvoch základných kresťanských modlitieb , než aby bazírovali na vonkajšej forme omšových obradov .
+# orig_file_sentence muca086_olejkarova_muca086_kandracova#7
+1	Burchardovi	burchard	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	5	obj	_	_
+2	i	i	CCONJ	O	_	4	cc	_	_
+3	uhorským	uhorský	ADJ	AAmp3x	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	zákonodarcom	zákonodarca	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	1	conj	_	_
+5	ide	ísť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	teda	teda	PART	T	_	5	advmod	_	_
+7	viac	viac	ADV	Dx	Degree=Pos	9	cc	_	_
+8	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+9	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obl:arg	_	_
+10	,	,	PUNCT	Z	_	13	punct	_	_
+11	aby	aby	SCONJ	OY	Mood=Cnd	13	mark	_	_
+12	veriaci	veriaci	NOUN	SAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	pochopili	pochopiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	9	acl	_	_
+14	podstatu	podstata	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	týchto	táto	DET	PFfp2	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	19	det	_	_
+16	dvoch	dva	NUM	NNfp2	Case=Gen|Gender=Fem|Number=Plur	19	nummod	_	_
+17	základných	základný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
+18	kresťanských	kresťanský	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
+19	modlitieb	modlitba	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+20	,	,	PUNCT	Z	_	9	punct	_	_
+21	než	než	SCONJ	O	_	9	cc	_	_
+22	aby	aby	SCONJ	OY	Mood=Cnd	23	mark	_	_
+23	bazírovali	bazírovať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	9	dep	_	_
+24	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	26	case	_	_
+25	vonkajšej	vonkajší	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	forme	forma	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	23	obl:arg	_	_
+27	omšových	omšový	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	_
+28	obradov	obrad	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+29	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s8
+# text = V kánone uvedenej uhorskej synody sa však spomína schválenie akejsi liturgickej príručky , ktorá mala pre celú uhorskú cirkev záväzne stanovovať podobu liturgických obradov a termíny pôstnych období . [ 363 ]
+# orig_file_sentence muca086_olejkarova_muca086_kandracova#8
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	kánone	kánon	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+3	uvedenej	uvedený	ADJ	Gtfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	amod	_	_
+4	uhorskej	uhorský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	synody	synoda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pass	_	_
+7	však	však	PART	T	_	8	advmod	_	_
+8	spomína	spomínať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	schválenie	schválenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	8	nsubj:pass	_	_
+10	akejsi	akýsi	DET	PAfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind	12	det	_	_
+11	liturgickej	liturgický	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	príručky	príručka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+13	,	,	PUNCT	Z	_	15	punct	_	_
+14	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	15	nsubj	_	_
+15	mala	mať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	acl	_	_
+16	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	19	case	_	_
+17	celú	celý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+18	uhorskú	uhorský	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	cirkev	cirkev	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	21	obl:arg	_	_
+20	záväzne	záväzne	ADV	Dx	Degree=Pos	21	advmod	_	_
+21	stanovovať	stanovovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	15	xcomp	_	_
+22	podobu	podoba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+23	liturgických	liturgický	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	24	amod	_	_
+24	obradov	obrad	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+25	a	a	CCONJ	O	_	26	cc	_	_
+26	termíny	termín	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	22	conj	_	_
+27	pôstnych	pôstny	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	28	amod	_	_
+28	období	obdobie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	26	nmod	_	_
+29	.	.	PUNCT	Z	_	8	punct	_	_
+30	[	[	PUNCT	Z	_	31	punct	_	_
+31	363	363	NUM	0	NumForm=Digit	8	dep	_	_
+32	]	]	PUNCT	Z	_	31	punct	_	_
+
+# sent_id = s9
+# text = Ďalší kánon zároveň zakazuje čítať či spievať v kostole niečo iné , než bolo schválené synodou . [ 364 ]
+# orig_file_sentence muca086_olejkarova_muca086_kandracova#9
+1	Ďalší	ďalší	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	kánon	kánon	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	zároveň	zároveň	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	zakazuje	zakazovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	čítať	čítať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+6	či	či	CCONJ	O	_	7	cc	_	_
+7	spievať	spievať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	conj	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	kostole	kostol	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+10	niečo	niečo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	5	obj	_	_
+11	iné	iný	DET	PAns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	10	det	_	_
+12	,	,	PUNCT	Z	_	15	punct	_	_
+13	než	než	SCONJ	O	_	15	mark	_	_
+14	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	15	cop	_	_
+15	schválené	schválený	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	acl	_	_
+16	synodou	synoda	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	15	obl	_	_
+17	.	.	PUNCT	Z	_	4	punct	_	_
+18	[	[	PUNCT	Z	_	19	punct	_	_
+19	364	364	NUM	0	NumForm=Digit	4	dep	_	_
+20	]	]	PUNCT	Z	_	19	punct	_	_
+
+# sent_id = s10
+# text = Takto zamerané predpisy – nepochybné doklady snahy unifikovať liturgiu – máme v nejednom prípade doložené i v sledovaných zbierkach cirkevného práva , predovšetkým – aj s veľmi podobnými formuláciami – u Burcharda , menej u Anselma . [ 365 ]
+# orig_file_sentence muca086_olejkarova_muca086_kandracova#10
+1	Takto	takto	ADV	PD	PronType=Dem	2	advmod	_	_
+2	zamerané	zameraný	ADJ	Gtip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	predpisy	predpis	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+4	–	–	PUNCT	Z	_	6	punct	_	_
+5	nepochybné	nepochybný	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+6	doklady	doklad	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	appos	_	_
+7	snahy	snaha	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	unifikovať	unifikovať	VERB	VIj+	Aspect=Imp,Perf|Polarity=Pos|VerbForm=Inf	7	acl	_	_
+9	liturgiu	liturgia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	–	–	PUNCT	Z	_	6	punct	_	_
+11	máme	mať	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+13	nejednom	nejeden	NUM	NFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	nummod	_	_
+14	prípade	prípad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+15	doložené	doložený	ADJ	Gtip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	3	xcomp	_	_
+16	i	i	CCONJ	O	_	19	advmod:emph	_	_
+17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+18	sledovaných	sledovaný	ADJ	Gtfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	19	amod	_	_
+19	zbierkach	zbierka	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	15	obl	_	_
+20	cirkevného	cirkevný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	práva	právo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+22	,	,	PUNCT	Z	_	32	punct	_	_
+23	predovšetkým	predovšetkým	PART	T	_	32	advmod:emph	_	_
+24	–	–	PUNCT	Z	_	29	punct	_	_
+25	aj	aj	PART	T	_	29	advmod:emph	_	_
+26	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	29	case	_	_
+27	veľmi	veľmi	ADV	Dx	Degree=Pos	28	advmod	_	_
+28	podobnými	podobný	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	_
+29	formuláciami	formulácia	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	15	obl	_	_
+30	–	–	PUNCT	Z	_	29	punct	_	_
+31	u	u	ADP	Eu2	AdpType=Prep|Case=Gen	32	case	_	_
+32	Burcharda	burchard	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
+33	,	,	PUNCT	Z	_	34	punct	_	_
+34	menej	menej	ADV	Dx	Degree=Pos	32	conj	_	_
+35	u	u	ADP	Eu2	AdpType=Prep|Case=Gen	34	case	_	_
+36	Anselma	anselm	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	34	obl	_	_
+37	.	.	PUNCT	Z	_	11	punct	_	_
+38	[	[	PUNCT	Z	_	39	punct	_	_
+39	365	365	NUM	0	NumForm=Digit	11	dep	_	_
+40	]	]	PUNCT	Z	_	39	punct	_	_
+
+# sent_id = s11
+# text = Jestvuje predpoklad , že zmienenou záväznou liturgickou príručkou bol spis Bernolda z Kostnice Micrologus .
+# orig_file_sentence muca086_olejkarova_muca086_kandracova#11
+1	Jestvuje	jestvovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	predpoklad	predpoklad	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+3	,	,	PUNCT	Z	_	8	punct	_	_
+4	že	že	SCONJ	O	_	8	mark	_	_
+5	zmienenou	zmienený	ADJ	Gtfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
+6	záväznou	záväzný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	liturgickou	liturgický	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	príručkou	príručka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	2	acl	_	_
+9	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	cop	_	_
+10	spis	spis	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_
+11	Bernolda	bernold	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+13	Kostnice	kostnica	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	Micrologus	micrologus	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+15	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s12
+# text = Vychádza sa pritom z toho , že text Micrologu , ktorý je súčasťou jednej z najvýznamnejších uhorských liturgických pamiatok – Prayovho kódexu , je v kódexe zaznamenaný hneď za textom synodálnych uznesení I . ostrihomskej synody . [ 366 ]
+# orig_file_sentence muca086_olejkarova_muca086_kandracova#12
+1	Vychádza	vychádzať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pass	_	_
+3	pritom	pritom	PART	T	_	1	advmod	_	_
+4	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+5	toho	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	1	obl:arg	_	_
+6	,	,	PUNCT	Z	_	27	punct	_	_
+7	že	že	SCONJ	O	_	27	mark	_	_
+8	text	text	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+9	Micrologu	micrologus	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	,	,	PUNCT	Z	_	13	punct	_	_
+11	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	13	nsubj	_	_
+12	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	súčasťou	súčasť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	9	acl	_	_
+14	jednej	jeden	NUM	NFfs2	Case=Gen|Gender=Fem|Number=Sing	13	nummod	_	_
+15	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	19	case	_	_
+16	najvýznamnejších	významný	ADJ	AAfp2z	Case=Gen|Degree=Sup|Gender=Fem|Number=Plur	19	amod	_	_
+17	uhorských	uhorský	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
+18	liturgických	liturgický	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
+19	pamiatok	pamiatka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+20	–	–	PUNCT	Z	_	22	punct	_	_
+21	Prayovho	prayov	ADJ	AFis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	kódexu	kódex	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	appos	_	_
+23	,	,	PUNCT	Z	_	22	punct	_	_
+24	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	27	cop	_	_
+25	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	26	case	_	_
+26	kódexe	kódex	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	obl	_	_
+27	zaznamenaný	zaznamenaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	acl	_	_
+28	hneď	hneď	ADV	Dx	Degree=Pos	30	advmod:emph	_	_
+29	za	za	ADP	Eu7	AdpType=Prep|Case=Ins	30	case	_	_
+30	textom	text	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	27	obl	_	_
+31	synodálnych	synodálny	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	32	amod	_	_
+32	uznesení	uznesenie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	30	nmod	_	_
+33	I	i	NUM	0	NumForm=Digit	36	nummod	_	_
+34	.	.	PUNCT	Z	_	33	punct	_	_
+35	ostrihomskej	ostrihomský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	synody	synoda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_
+37	.	.	PUNCT	Z	_	1	punct	_	_
+38	[	[	PUNCT	Z	_	39	punct	_	_
+39	366	366	NUM	0	NumForm=Digit	1	dep	_	_
+40	]	]	PUNCT	Z	_	39	punct	_	_
+

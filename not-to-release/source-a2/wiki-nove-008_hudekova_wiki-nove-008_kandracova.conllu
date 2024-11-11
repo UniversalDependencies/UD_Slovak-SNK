@@ -1,0 +1,1234 @@
+# sent_id = s1
+# text = Martin Luther
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#1
+1	Martin	martin	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Luther	luther	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s2
+# text = Martin Luther , vlastne Martin Luder ( * 10 . november 1483 , Eisleben – † 18 . február 1546 , Eisleben ) bol nemecký teológ , kazateľ a reformátor , zakladateľ protestantizmu ( reformácia ) , autor množstva duchovných , politických , pedagogických spisov , cirkevných piesní a prekladov .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#2
+1	Martin	martin	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Luther	luther	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+3	,	,	PUNCT	Z	_	6	punct	_	_
+4	vlastne	vlastne	PART	T	_	6	cc	_	_
+5	Martin	martin	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+6	Luder	luder	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
+7	(	(	PUNCT	Z	_	6	punct	_	_
+8	*	*	PUNCT	#	_	11	punct	_	_
+9	10	10	NUM	0	NumForm=Digit	11	nummod	_	_
+10	.	.	PUNCT	Z	_	9	punct	_	_
+11	november	november	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	dep	_	_
+12	1483	1483	NUM	0	NumForm=Digit	11	nummod	_	_
+13	,	,	PUNCT	Z	_	14	punct	_	_
+14	Eisleben	eisleben	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_
+15	–	–	PUNCT	Z	_	19	punct	_	_
+16	†	†	PUNCT	#	_	19	punct	_	_
+17	18	18	NUM	0	NumForm=Digit	19	nummod	_	_
+18	.	.	PUNCT	Z	_	17	punct	_	_
+19	február	február	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_
+20	1546	1546	NUM	0	NumForm=Digit	19	nummod	_	_
+21	,	,	PUNCT	Z	_	22	punct	_	_
+22	Eisleben	eisleben	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_
+23	)	)	PUNCT	Z	_	6	punct	_	_
+24	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	26	cop	_	_
+25	nemecký	nemecký	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	teológ	teológ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+27	,	,	PUNCT	Z	_	28	punct	_	_
+28	kazateľ	kazateľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	conj	_	_
+29	a	a	CCONJ	O	_	30	cc	_	_
+30	reformátor	reformátor	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	conj	_	_
+31	,	,	PUNCT	Z	_	32	punct	_	_
+32	zakladateľ	zakladateľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	conj	_	_
+33	protestantizmu	protestantizmus	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
+34	(	(	PUNCT	Z	_	35	punct	_	_
+35	reformácia	reformácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	33	appos	_	_
+36	)	)	PUNCT	Z	_	35	punct	_	_
+37	,	,	PUNCT	Z	_	38	punct	_	_
+38	autor	autor	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	conj	_	_
+39	množstva	množstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	38	nmod	_	_
+40	duchovných	duchovný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	45	amod	_	_
+41	,	,	PUNCT	Z	_	42	punct	_	_
+42	politických	politický	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	40	conj	_	_
+43	,	,	PUNCT	Z	_	44	punct	_	_
+44	pedagogických	pedagogický	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	40	conj	_	_
+45	spisov	spis	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	39	nmod	_	_
+46	,	,	PUNCT	Z	_	48	punct	_	_
+47	cirkevných	cirkevný	ADJ	AAop2x	Case=Gen|Degree=Pos|Number=Plur	48	amod	_	_
+48	piesní	pieseň	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	45	conj	_	_
+49	a	a	CCONJ	O	_	50	cc	_	_
+50	prekladov	preklad	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	45	conj	_	_
+51	.	.	PUNCT	Z	_	26	punct	_	_
+
+# sent_id = s3
+# text = Jeho najvýznamnejším dielom je preklad Biblie do nemčiny .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#3
+1	Jeho	jeho	DET	PUns7	Case=Ins|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+2	najvýznamnejším	významný	ADJ	AAns7z	Case=Ins|Degree=Sup|Gender=Neut|Number=Sing	3	amod	_	_
+3	dielom	dielo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	0	root	_	_
+4	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+5	preklad	preklad	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+6	Biblie	biblia	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	nemčiny	nemčina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+9	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s4
+# text = Život
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#4
+1	Život	život	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s5
+# text = Martin Luther sa narodil ako jedno z deviatich detí baníka .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#5
+1	Martin	martin	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Luther	luther	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	narodil	narodiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	ako	ako	SCONJ	O	_	6	mark	_	_
+6	jedno	jeden	NUM	NFns1	Case=Nom|Gender=Neut|Number=Sing	2	xcomp	_	_
+7	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+8	deviatich	deväť	NUM	NUnp2	Case=Gen|Gender=Neut|Number=Plur	9	nummod	_	_
+9	detí	dieťa	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+10	baníka	baník	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s6
+# text = Vyrastal v chudobných pomeroch , spojených s tvrdou výchovou .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#6
+1	Vyrastal	vyrastať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+3	chudobných	chudobný	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	pomeroch	pomer	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	1	obl	_	_
+5	,	,	PUNCT	Z	_	6	punct	_	_
+6	spojených	spojený	ADJ	Gtip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	4	amod	_	_
+7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+8	tvrdou	tvrdý	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	výchovou	výchova	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	6	obl:arg	_	_
+10	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s7
+# text = Jeho otec sa postupne vypracoval na úspešného podnikateľa , čo mu umožnilo financovať štúdiá svojho syna .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#7
+1	Jeho	jeho	DET	PUms1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	otec	otec	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+4	postupne	postupne	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	vypracoval	vypracovať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+7	úspešného	úspešný	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	podnikateľa	podnikateľ	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+9	,	,	PUNCT	Z	_	12	punct	_	_
+10	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	12	nsubj	_	_
+11	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
+12	umožnilo	umožniť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+13	financovať	financovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	12	xcomp	_	_
+14	štúdiá	štúdium	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	_
+15	svojho	svoj	DET	PFms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	_
+16	syna	syn	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s8
+# text = V rokoch 1501 ‐ 1505 Martin Luther študuje na univerzite v Erfurte filozofiu .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#8
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	obl	_	_
+3	1501	1501	NUM	0	NumForm=Digit	2	nummod	_	_
+4	‐	‐	PUNCT	Z	_	5	punct	_	_
+5	1505	1505	NUM	0	NumForm=Digit	3	conj	_	_
+6	Martin	martin	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+7	Luther	luther	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	študuje	študovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	univerzite	univerzita	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	Erfurte	erfurt	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+13	filozofiu	filozofia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+14	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s9
+# text = Po získaní titulu magistra sa zapisuje na štúdium práv , krátko potom sa však rozhodol vstúpiť do augustiniánskeho kláštora v Erfurte .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#9
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	získaní	získanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	titulu	titul	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	magistra	magister	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+6	zapisuje	zapisovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+8	štúdium	štúdium	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+9	práv	právo	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
+10	,	,	PUNCT	Z	_	15	punct	_	_
+11	krátko	krátko	ADV	Dx	Degree=Pos	15	advmod	_	_
+12	potom	potom	ADV	Dx	Degree=Pos	11	advmod	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+14	však	však	CCONJ	O	_	15	cc	_	_
+15	rozhodol	rozhodnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+16	vstúpiť	vstúpiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	15	xcomp	_	_
+17	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	19	case	_	_
+18	augustiniánskeho	augustiniánsky	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	kláštora	kláštor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+20	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	_	_
+21	Erfurte	erfurt	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	_
+22	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s10
+# text = Aj keď je vzorný mních , pobyt v kláštore v ňom od začiatku vyvoláva pochybnosti o možnosti spasenia z vlastnej moci .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#10
+1	Aj	aj	CCONJ	O	_	5	mark	_	_
+2	keď	keď	SCONJ	O	_	1	fixed	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	vzorný	vzorný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	mních	mních	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	advcl	_	_
+6	,	,	PUNCT	Z	_	5	punct	_	_
+7	pobyt	pobyt	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	kláštore	kláštor	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	ňom	on	PRON	PFms6	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
+12	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+13	začiatku	začiatok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	_
+14	vyvoláva	vyvolávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	pochybnosti	pochybnosť	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	14	nsubj	_	_
+16	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	možnosti	možnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_
+18	spasenia	spasenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	21	case	_	_
+20	vlastnej	vlastný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	moci	moc	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+22	.	.	PUNCT	Z	_	14	punct	_	_
+
+# sent_id = s11
+# text = V roku 1507 bol vysvätený za katolíckeho kňaza .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#11
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	1507	1507	NUM	0	NumForm=Digit	2	nummod	_	_
+4	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	cop	_	_
+5	vysvätený	vysvätený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+6	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+7	katolíckeho	katolícky	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	kňaza	kňaz	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obl:arg	_	_
+9	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s12
+# text = Po vysviacke prestupuje v roku 1508 na univerzitu vo Wittenbergu , kde s krátkymi prestávkami – 1511 cestuje vo veci svojho rádu do Ríma – prednáša filozofiu , neskôr aj teológiu .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#12
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	vysviacke	vysviacka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	prestupuje	prestupovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	1508	1508	NUM	0	NumForm=Digit	5	nummod	_	_
+7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+8	univerzitu	univerzita	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+9	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	10	case	_	_
+10	Wittenbergu	wittenberg	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+11	,	,	PUNCT	Z	_	18	punct	_	_
+12	kde	kde	ADV	PD	PronType=Int,Rel	18	advmod	_	_
+13	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	15	case	_	_
+14	krátkymi	krátky	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
+15	prestávkami	prestávka	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	18	obl	_	_
+16	–	–	PUNCT	Z	_	18	punct	_	_
+17	1511	1511	NUM	0	NumForm=Digit	18	dep	_	_
+18	cestuje	cestovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	acl	_	_
+19	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	20	case	_	_
+20	veci	vec	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	18	obl	_	_
+21	svojho	svoj	DET	PFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	22	det	_	_
+22	rádu	rád	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	24	case	_	_
+24	Ríma	rím	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+25	–	–	PUNCT	Z	_	26	punct	_	_
+26	prednáša	prednášať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	conj	_	_
+27	filozofiu	filozofia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+28	,	,	PUNCT	Z	_	29	punct	_	_
+29	neskôr	neskoro	ADV	Dy	Degree=Cmp	26	conj	_	_
+30	aj	aj	PART	T	_	31	advmod:emph	_	_
+31	teológiu	teológia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	29	orphan	_	_
+32	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s13
+# text = V roku 1512 sa stáva doktorom teológie a získava doživotnú biblickú profesúru , a od roku 1513 začína vo Wittenbergu kazateľskú činnosť .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#13
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	1512	1512	NUM	0	NumForm=Digit	2	nummod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	stáva	stávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	doktorom	doktor	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obj	_	_
+7	teológie	teológia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	získava	získavať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
+10	doživotnú	doživotný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	biblickú	biblický	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	profesúru	profesúra	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+13	,	,	PUNCT	Z	_	18	punct	_	_
+14	a	a	CCONJ	O	_	18	cc	_	_
+15	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+16	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+17	1513	1513	NUM	0	NumForm=Digit	16	nummod	_	_
+18	začína	začínať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
+19	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	20	case	_	_
+20	Wittenbergu	wittenberg	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+21	kazateľskú	kazateľský	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	činnosť	činnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+23	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s14
+# text = V tomto období Luther prekonáva svoje pochybnosti a počas štúdia Písma dospieva k poznaniu , že Božia milosť platí pre každého , kto ju vierou prijme .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#14
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	tomto	toto	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	období	obdobie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+4	Luther	luther	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	prekonáva	prekonávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	svoje	svoj	DET	PFfp4	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	_
+7	pochybnosti	pochybnosť	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+8	a	a	CCONJ	O	_	12	cc	_	_
+9	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	štúdia	štúdium	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_
+11	Písma	písmo	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	dospieva	dospievať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	14	case	_	_
+14	poznaniu	poznanie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	12	obl:arg	_	_
+15	,	,	PUNCT	Z	_	19	punct	_	_
+16	že	že	SCONJ	O	_	19	mark	_	_
+17	Božia	boží	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	milosť	milosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+19	platí	platiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	acl	_	_
+20	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	21	case	_	_
+21	každého	každý	DET	PAms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	19	obl:arg	_	_
+22	,	,	PUNCT	Z	_	26	punct	_	_
+23	kto	kto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	26	nsubj	_	_
+24	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+25	vierou	viera	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	26	obl	_	_
+26	prijme	prijať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	acl	_	_
+27	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s15
+# text = Skúsenosti s rozporom medzi svojím svedomím , vychádzajúcim zo štúdia Biblie , a oficiálnym učením vtedajšej cirkvi a jej praxou , vedú Luthera vo Wittenbergu 31 . októbra 1517 k uverejneniu 95 téz , určených pre akademickú diskusiu , ktoré najmä kriticky reagovali na prax udeľovania odpustkov . ( Pápež Lev X . vydal v roku 1515 bulu o predaji odpustkov pre stavbu svätopeterského chrámu v Ríme . ) .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#15
+1	Skúsenosti	skúsenosť	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	_
+2	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	3	case	_	_
+3	rozporom	rozpor	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+4	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	6	case	_	_
+5	svojím	svoj	DET	PFns7	Case=Ins|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	_
+6	svedomím	svedomie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	3	nmod	_	_
+7	,	,	PUNCT	Z	_	8	punct	_	_
+8	vychádzajúcim	vychádzajúci	ADJ	Gkns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	6	amod	_	_
+9	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	10	case	_	_
+10	štúdia	štúdium	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+11	Biblie	biblia	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	,	,	PUNCT	Z	_	8	punct	_	_
+13	a	a	CCONJ	O	_	15	cc	_	_
+14	oficiálnym	oficiálny	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	učením	učenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	6	conj	_	_
+16	vtedajšej	vtedajší	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	cirkvi	cirkev	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	a	a	CCONJ	O	_	20	cc	_	_
+19	jej	jej	DET	PUfs7	Case=Ins|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	praxou	prax	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	15	conj	_	_
+21	,	,	PUNCT	Z	_	6	punct	_	_
+22	vedú	viesť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	Luthera	luther	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
+24	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	25	case	_	_
+25	Wittenbergu	wittenberg	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	_
+26	31	31	NUM	0	NumForm=Digit	28	nummod	_	_
+27	.	.	PUNCT	Z	_	26	punct	_	_
+28	októbra	október	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	_
+29	1517	1517	NUM	0	NumForm=Digit	28	nummod	_	_
+30	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	31	case	_	_
+31	uverejneniu	uverejnenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	22	obl	_	_
+32	95	95	NUM	0	NumForm=Digit	33	nummod	_	_
+33	téz	téza	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	_
+34	,	,	PUNCT	Z	_	35	punct	_	_
+35	určených	určený	ADJ	Gtfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	33	amod	_	_
+36	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	38	case	_	_
+37	akademickú	akademický	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_
+38	diskusiu	diskusia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	35	obl	_	_
+39	,	,	PUNCT	Z	_	43	punct	_	_
+40	ktoré	ktorý	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	43	nsubj	_	_
+41	najmä	najmä	PART	T	_	42	advmod:emph	_	_
+42	kriticky	kriticky	ADV	Dx	Degree=Pos	43	advmod	_	_
+43	reagovali	reagovať	VERB	VLjpcf+	Aspect=Imp,Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	33	acl	_	_
+44	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	45	case	_	_
+45	prax	prax	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	43	obl:arg	_	_
+46	udeľovania	udeľovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	47	nmod	_	_
+47	odpustkov	odpustky	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	45	nmod	_	_
+48	.	.	PUNCT	Z	_	22	punct	_	_
+49	(	(	PUNCT	Z	_	54	punct	_	_
+50	Pápež	pápež	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	54	nsubj	_	_
+51	Lev	lev	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	50	nmod	_	_
+52	X	x	NUM	0	NumForm=Digit	51	nummod	_	_
+53	.	.	PUNCT	Z	_	52	punct	_	_
+54	vydal	vydať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	43	parataxis	_	_
+55	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	56	case	_	_
+56	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	54	obl	_	_
+57	1515	1515	NUM	0	NumForm=Digit	56	nummod	_	_
+58	bulu	bula	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	54	obj	_	_
+59	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	60	case	_	_
+60	predaji	predaj	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	58	nmod	_	_
+61	odpustkov	odpustky	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	60	nmod	_	_
+62	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	63	case	_	_
+63	stavbu	stavba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	60	nmod	_	_
+64	svätopeterského	svätopeterský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	65	amod	_	_
+65	chrámu	chrám	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	63	nmod	_	_
+66	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	67	case	_	_
+67	Ríme	rím	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	65	nmod	_	_
+68	.	.	PUNCT	Z	_	54	punct	_	_
+69	)	)	PUNCT	Z	_	54	punct	_	_
+70	.	.	PUNCT	Z	_	22	punct	_	_
+
+# sent_id = s16
+# text = Tézy , ktoré sa bez vedomia Luthera rýchlo rozšírili , vyvolali kvôli vtedajšej všeobecnej nespokojnosti s cirkvou veľký ohlas .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#16
+1	Tézy	téza	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+2	,	,	PUNCT	Z	_	9	punct	_	_
+3	ktoré	ktorý	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	9	nsubj	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+5	bez	bez	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	vedomia	vedomie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+7	Luthera	luther	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	rýchlo	rýchlo	ADV	Dx	Degree=Pos	9	advmod	_	_
+9	rozšírili	rozšíriť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	acl	_	_
+10	,	,	PUNCT	Z	_	9	punct	_	_
+11	vyvolali	vyvolať	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	kvôli	kvôli	ADP	Eu3	AdpType=Prep|Case=Dat	15	case	_	_
+13	vtedajšej	vtedajší	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+14	všeobecnej	všeobecný	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	nespokojnosti	nespokojnosť	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+16	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	17	case	_	_
+17	cirkvou	cirkev	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	_
+18	veľký	veľký	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	ohlas	ohlas	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+20	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s17
+# text = Oficiálne miesta spočiatku reagujú na obvinenie Luthera z kacírstva dominikánmi veľmi zdržanlivo , Luther je totiž chránencom saského kurfirsta Frederika Múdreho .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#17
+1	Oficiálne	oficiálny	ADJ	AAnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	2	amod	_	_
+2	miesta	miesto	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+3	spočiatku	spočiatku	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	reagujú	reagovať	VERB	VKjpc+	Aspect=Imp,Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	obvinenie	obvinenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	obl:arg	_	_
+7	Luthera	luther	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	kacírstva	kacírstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+10	dominikánmi	dominikán	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	6	nmod	_	_
+11	veľmi	veľmi	ADV	Dx	Degree=Pos	12	advmod	_	_
+12	zdržanlivo	zdržanlivo	ADV	Dx	Degree=Pos	4	advmod	_	_
+13	,	,	PUNCT	Z	_	17	punct	_	_
+14	Luther	luther	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+15	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	totiž	totiž	SCONJ	O	_	17	advmod	_	_
+17	chránencom	chránenec	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	conj	_	_
+18	saského	saský	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	kurfirsta	kurfirst	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+20	Frederika	frederik	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+21	Múdreho	múdry	PROPN	SAms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+22	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s18
+# text = Namiesto toho , aby šiel do Ríma , kam ho predvolali , presadí kurfirst , aby Luthera vypočul kardinál Kajetán v Augsburgu ( 1518 ) .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#18
+1	Namiesto	namiesto	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	toho	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	13	obl	_	_
+3	,	,	PUNCT	Z	_	5	punct	_	_
+4	aby	aby	SCONJ	OY	Mood=Cnd	5	mark	_	_
+5	šiel	ísť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	acl	_	_
+6	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	Ríma	rím	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+8	,	,	PUNCT	Z	_	11	punct	_	_
+9	kam	kam	ADV	PD	PronType=Int,Rel	11	advmod	_	_
+10	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	predvolali	predvolať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
+12	,	,	PUNCT	Z	_	11	punct	_	_
+13	presadí	presadiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	kurfirst	kurfirst	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+15	,	,	PUNCT	Z	_	18	punct	_	_
+16	aby	aby	SCONJ	OY	Mood=Cnd	18	mark	_	_
+17	Luthera	luther	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+18	vypočul	vypočuť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	ccomp	_	_
+19	kardinál	kardinál	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nmod	_	_
+20	Kajetán	kajetán	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+21	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	22	case	_	_
+22	Augsburgu	augsburg	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+23	(	(	PUNCT	Z	_	22	punct	_	_
+24	1518	1518	NUM	0	NumForm=Digit	22	dep	_	_
+25	)	)	PUNCT	Z	_	22	punct	_	_
+26	.	.	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s19
+# text = Ten Lutherovi pohrozil kliatbou .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#19
+1	Ten	ten	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	Lutherovi	luther	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	obj	_	_
+3	pohrozil	pohroziť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	kliatbou	kliatba	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+5	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s20
+# text = V roku 1519 sa Luther zúčastňuje rozpravy s Eckom v Lipsku , v ktorej popiera neomylnosť pápeža a koncilov .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#20
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	1519	1519	NUM	0	NumForm=Digit	2	nummod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+5	Luther	luther	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	zúčastňuje	zúčastňovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	rozpravy	rozprava	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	obj	_	_
+8	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+9	Eckom	eck	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	Lipsku	lipsko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_
+12	,	,	PUNCT	Z	_	15	punct	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	ktorej	ktorý	DET	PAfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Int,Rel	15	det	_	_
+15	popiera	popierať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	acl	_	_
+16	neomylnosť	neomylnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	pápeža	pápež	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	a	a	CCONJ	O	_	19	cc	_	_
+19	koncilov	koncil	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	conj	_	_
+20	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s21
+# text = Rím v roku 1520 oficiálne vydáva bulu s hrozbou kliatby .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#21
+1	Rím	rím	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	1520	1520	NUM	0	NumForm=Digit	3	nummod	_	_
+5	oficiálne	oficiálne	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	vydáva	vydávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	bulu	bula	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+9	hrozbou	hrozba	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	7	nmod	_	_
+10	kliatby	kliatba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s22
+# text = Luther vydáva reformačné spisy , v ktorých svoje názory ďalej obhajuje .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#22
+1	Luther	luther	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	vydáva	vydávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	reformačné	reformačný	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	spisy	spis	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+5	,	,	PUNCT	Z	_	11	punct	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	ktorých	ktorý	DET	PAip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|PronType=Int,Rel	11	obl	_	_
+8	svoje	svoj	DET	PFip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	_
+9	názory	názor	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+10	ďalej	ďalej	ADV	Dx	Degree=Pos	11	advmod	_	_
+11	obhajuje	obhajovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	acl	_	_
+12	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s23
+# text = Keď po ich verejnom pálení reaguje Luther spálením pápežskej buly , nariadi pápež Lev X . v roku 1521 jeho exkomunikáciu .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#23
+1	Keď	keď	SCONJ	O	_	6	mark	_	_
+2	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+3	ich	ich	DET	PUns6	Case=Loc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	verejnom	verejný	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	6	obl	_	_
+5	pálení	pálenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_
+6	reaguje	reagovať	VERB	VKjsc+	Aspect=Imp,Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+7	Luther	luther	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	spálením	spálenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_
+9	pápežskej	pápežský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	buly	bula	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	,	,	PUNCT	Z	_	6	punct	_	_
+12	nariadi	nariadiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	pápež	pápež	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_
+14	Lev	lev	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+15	X	x	NUM	0	NumForm=Digit	14	nummod	_	_
+16	.	.	PUNCT	Z	_	15	punct	_	_
+17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+18	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+19	1521	1521	NUM	0	NumForm=Digit	18	nummod	_	_
+20	jeho	jeho	DET	PUfs4	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	exkomunikáciu	exkomunikácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+22	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s24
+# text = Keďže svoje tézy neodvolal ani na nemeckom Ríšskom sneme vo Wormse , vydáva cisár Karol V . proti Lutherovi tzv . wormský edikt ( vyhlásenie za kacíra , zákaz spisov ) .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#24
+1	Keďže	keďže	SCONJ	O	_	4	mark	_	_
+2	svoje	svoj	DET	PFfp4	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	_	_
+3	tézy	téza	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+4	neodvolal	odvolať	VERB	VLdscm-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	13	advcl	_	_
+5	ani	ani	PART	T	_	9	advmod:emph	_	_
+6	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+7	nemeckom	nemecký	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+8	Ríšskom	ríšsky	ADJ	AAis6x:r	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	sneme	snem	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+10	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	11	case	_	_
+11	Wormse	worms	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+12	,	,	PUNCT	Z	_	4	punct	_	_
+13	vydáva	vydávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	cisár	cisár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
+15	Karol	karol	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+16	V	v	NUM	0	NumForm=Digit	15	nummod	_	_
+17	.	.	PUNCT	Z	_	16	punct	_	_
+18	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	19	case	_	_
+19	Lutherovi	luther	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	13	obl	_	_
+20	tzv	tzv	X	W	Abbr=Yes	23	nmod	_	_
+21	.	.	PUNCT	Z	_	20	punct	_	_
+22	wormský	wormský	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	edikt	edikt	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+24	(	(	PUNCT	Z	_	25	punct	_	_
+25	vyhlásenie	vyhlásenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	23	appos	_	_
+26	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	27	case	_	_
+27	kacíra	kacír	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	25	nmod	_	_
+28	,	,	PUNCT	Z	_	29	punct	_	_
+29	zákaz	zákaz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	conj	_	_
+30	spisov	spis	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	_
+31	)	)	PUNCT	Z	_	25	punct	_	_
+32	.	.	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s25
+# text = Frederik Múdry hneď nato dá Luthera uniesť do azylu na hrad Wartburg , kde reformátor potom žil v rokoch 1521 ‐ 1522 .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#25
+1	Frederik	frederik	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Múdry	múdry	PROPN	SAms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	hneď	hneď	ADV	Dx	Degree=Pos	5	advmod	_	_
+4	nato	nato	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	dá	dať	VERB	VKjsc+	Aspect=Imp,Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	Luthera	luther	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	iobj	_	_
+7	uniesť	uniesť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+8	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	azylu	azyl	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+10	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+11	hrad	hrad	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
+12	Wartburg	wartburg	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
+13	,	,	PUNCT	Z	_	17	punct	_	_
+14	kde	kde	ADV	PD	PronType=Int,Rel	17	advmod	_	_
+15	reformátor	reformátor	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+16	potom	potom	ADV	Dx	Degree=Pos	17	advmod	_	_
+17	žil	žiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	acl	_	_
+18	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	obl	_	_
+20	1521	1521	NUM	0	NumForm=Digit	19	nummod	_	_
+21	‐	‐	PUNCT	Z	_	22	punct	_	_
+22	1522	1522	NUM	0	NumForm=Digit	20	conj	_	_
+23	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s26
+# text = Tu prekladá Nový zákon .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#26
+1	Tu	tu	ADV	PD	PronType=Dem	2	advmod	_	_
+2	prekladá	prekladať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Nový	nový	ADJ	AAis4x:r	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	zákon	zákon	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s27
+# text = Lutherove myšlienky sa medzitým lavínovito šíria a stretajú sa v celej krajine s búrlivým prijatím .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#27
+1	Lutherove	lutherov	ADJ	AFfp1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
+2	myšlienky	myšlienka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+4	medzitým	medzitým	ADV	Dx	Degree=Pos	6	advmod	_	_
+5	lavínovito	lavínovito	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	šíria	šíriť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	stretajú	stretať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	conj	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+11	celej	celý	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	krajine	krajina	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+13	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	15	case	_	_
+14	búrlivým	búrlivý	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	prijatím	prijatie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	8	obl:arg	_	_
+16	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s28
+# text = Od radikálnych prejavov priaznivcov nového učenia sa Luther od začiatku ostro dištancuje .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#28
+1	Od	od	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	radikálnych	radikálny	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	prejavov	prejav	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+4	priaznivcov	priaznivec	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	nového	nový	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	učenia	učenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+8	Luther	luther	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+9	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	začiatku	začiatok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+11	ostro	ostro	ADV	Dx	Degree=Pos	12	advmod	_	_
+12	dištancuje	dištancovať	VERB	VKjsc+	Aspect=Imp,Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s29
+# text = V roku 1522 sa vracia do Wittenbergu , aby zastavil obrazoborectvo .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#29
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	1522	1522	NUM	0	NumForm=Digit	2	nummod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	vracia	vracať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	Wittenbergu	wittenberg	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+8	,	,	PUNCT	Z	_	10	punct	_	_
+9	aby	aby	SCONJ	OY	Mood=Cnd	10	mark	_	_
+10	zastavil	zastaviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	advcl	_	_
+11	obrazoborectvo	obrazoborectvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+12	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s30
+# text = V roku 1524 začína Luther opäť prednášať , vystupuje proti Tomášovi Müntzerovi ( Thomas Müntzer ) , ktorý svojimi kázňami podnecoval sedliakov k nepokojom .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#30
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	1524	1524	NUM	0	NumForm=Digit	2	nummod	_	_
+4	začína	začínať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Luther	luther	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	opäť	opäť	ADV	Dx	Degree=Pos	4	advmod	_	_
+7	prednášať	prednášať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+8	,	,	PUNCT	Z	_	9	punct	_	_
+9	vystupuje	vystupovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	12	case	_	_
+11	Tomášovi	tomáš	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	_
+12	Müntzerovi	müntzer	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	9	obl:arg	_	_
+13	(	(	PUNCT	Z	_	15	punct	_	_
+14	Thomas	thomas	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
+15	Müntzer	müntzer	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	_
+16	)	)	PUNCT	Z	_	15	punct	_	_
+17	,	,	PUNCT	Z	_	21	punct	_	_
+18	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	21	nsubj	_	_
+19	svojimi	svoj	DET	PFfp7	Case=Ins|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	20	det	_	_
+20	kázňami	kázeň	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	21	obl	_	_
+21	podnecoval	podnecovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	acl	_	_
+22	sedliakov	sedliak	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	_
+23	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	24	case	_	_
+24	nepokojom	nepokoj	NOUN	SSip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	21	obl:arg	_	_
+25	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s31
+# text = Dňa 13 . júna 1525 uzatvára Luther manželstvo s bývalou mníškou Katarínou von Bora .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#31
+1	Dňa	deň	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+2	13	13	NUM	0	NumForm=Digit	4	nummod	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+4	júna	jún	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	1525	1525	NUM	0	NumForm=Digit	4	nummod	_	_
+6	uzatvára	uzatvárať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	Luther	luther	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	manželstvo	manželstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+9	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	14	case	_	_
+10	bývalou	bývalý	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	mníškou	mníška	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	14	nmod	_	_
+12	Katarínou	katarína	PROPN	SSfs7:r	Case=Ins|Gender=Fem|Number=Sing	14	nmod	_	_
+13	von	von	X	Q	Hyph=Yes	14	nmod	_	_
+14	Bora	bora	X	%	Foreign=Yes	6	obl:arg	_	_
+15	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s32
+# text = V roku 1528 sa reformátor zúčastňuje návštev na farnostiach v saskom kurfirstve , pri ktorých sa presvedčí o ich duchovne zaostalom stave .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#32
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	1528	1528	NUM	0	NumForm=Digit	2	nummod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+5	reformátor	reformátor	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	zúčastňuje	zúčastňovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	návštev	návšteva	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	6	obj	_	_
+8	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	farnostiach	farnosť	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	7	nmod	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+11	saskom	saský	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	kurfirstve	kurfirstvo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	9	nmod	_	_
+13	,	,	PUNCT	Z	_	17	punct	_	_
+14	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	ktorých	ktorý	DET	PAfp6	Case=Loc|Gender=Fem|Number=Plur|PronType=Int,Rel	17	obl	_	_
+16	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	17	expl:pv	_	_
+17	presvedčí	presvedčiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	acl	_	_
+18	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	22	case	_	_
+19	ich	ich	DET	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	22	det	_	_
+20	duchovne	duchovne	ADV	Dx	Degree=Pos	22	advmod	_	_
+21	zaostalom	zaostalý	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	stave	stav	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl:arg	_	_
+23	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s33
+# text = Marburské náboženské rozhovory v roku 1529 , na ktorých diskutuje Luther okrem iného s Ulrichom Zwinglim , s cieľom vytvoriť teologickú jednotu evanjelickej strany proti katolíkom , stroskotávajú .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#33
+1	Marburské	marburské	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+2	náboženské	náboženský	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	rozhovory	rozhovor	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+6	1529	1529	NUM	0	NumForm=Digit	5	nummod	_	_
+7	,	,	PUNCT	Z	_	10	punct	_	_
+8	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	ktorých	ktorý	DET	PAip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|PronType=Int,Rel	10	obl	_	_
+10	diskutuje	diskutovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	acl	_	_
+11	Luther	luther	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	okrem	okrem	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+13	iného	iný	DET	PAns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind	10	obl	_	_
+14	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	16	case	_	_
+15	Ulrichom	ulrich	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	nmod	_	_
+16	Zwinglim	zwingli	PROPN	SFms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+17	,	,	PUNCT	Z	_	19	punct	_	_
+18	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	19	case	_	_
+19	cieľom	cieľ	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+20	vytvoriť	vytvoriť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	19	acl	_	_
+21	teologickú	teologický	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	jednotu	jednota	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+23	evanjelickej	evanjelický	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	strany	strana	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+25	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	26	case	_	_
+26	katolíkom	katolík	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	20	obl:arg	_	_
+27	,	,	PUNCT	Z	_	10	punct	_	_
+28	stroskotávajú	stroskotávať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+29	.	.	PUNCT	Z	_	28	punct	_	_
+
+# sent_id = s34
+# text = So svojím spolupracovníkom Philippom Melanchthonom kladie Martin Luther základy inštitucializovanej novej , evanjelickej cirkvi ( Melanchthonove Augsburské vyznanie z roku 1530 ) .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#34
+1	So	s	ADP	Ev7	AdpType=Voc|Case=Ins	5	case	_	_
+2	svojím	svoj	DET	PFms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	_	_
+3	spolupracovníkom	spolupracovník	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	_
+4	Philippom	philipp	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	_
+5	Melanchthonom	melanchthon	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+6	kladie	klásť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	Martin	martin	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+8	Luther	luther	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+9	základy	základ	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+10	inštitucializovanej	inštitucializovaný	ADJ	Gtfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	14	amod	_	_
+11	novej	nový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+12	,	,	PUNCT	Z	_	13	punct	_	_
+13	evanjelickej	evanjelický	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	conj	_	_
+14	cirkvi	cirkev	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+15	(	(	PUNCT	Z	_	18	punct	_	_
+16	Melanchthonove	melanchthonov	ADJ	AFns1x:r	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+17	Augsburské	augsburské	ADJ	AAns1x:r	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	vyznanie	vyznanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	14	appos	_	_
+19	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+20	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	1530	1530	NUM	0	NumForm=Digit	20	nummod	_	_
+22	)	)	PUNCT	Z	_	18	punct	_	_
+23	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s35
+# text = Preklad Starého zákona Luther dokončuje za spolupráce iných wittenberských teológov v roku 1534 .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#35
+1	Preklad	preklad	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+2	Starého	starý	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	zákona	zákon	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Luther	luther	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	dokončuje	dokončovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	za	za	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	spolupráce	spolupráca	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+8	iných	iný	DET	PAmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+9	wittenberských	wittenberský	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+10	teológov	teológ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+13	1534	1534	NUM	0	NumForm=Digit	12	nummod	_	_
+14	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s36
+# text = Vo zvyšnom období svojho života sa Luther venuje podpore novovznikajúcej inštitúcie , riešeniu cirkevnopolitických a praktických teologických otázok a v neposlednom rade vydáva celý rad ostrých polemických spisov .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#36
+1	Vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	3	case	_	_
+2	zvyšnom	zvyšný	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	období	obdobie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+4	svojho	svoj	DET	PFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	_
+5	života	život	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+7	Luther	luther	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	venuje	venovať	VERB	VKjsc+	Aspect=Imp,Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	podpore	podpora	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	8	obj	_	_
+10	novovznikajúcej	novovznikajúci	ADJ	Gkfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	11	amod	_	_
+11	inštitúcie	inštitúcia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	,	,	PUNCT	Z	_	13	punct	_	_
+13	riešeniu	riešenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	9	conj	_	_
+14	cirkevnopolitických	cirkevnopolitický	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	_
+15	a	a	CCONJ	O	_	16	cc	_	_
+16	praktických	praktický	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	14	conj	_	_
+17	teologických	teologický	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	_
+18	otázok	otázka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+19	a	a	CCONJ	O	_	23	cc	_	_
+20	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	22	case	_	_
+21	neposlednom	neposledný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	rade	rad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_
+23	vydáva	vydávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	conj	_	_
+24	celý	celý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	rad	rad	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+26	ostrých	ostrý	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	_
+27	polemických	polemický	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	_
+28	spisov	spis	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+29	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s37
+# text = Pred svojou smrťou trpí prepracovanosťou .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#37
+1	Pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	3	case	_	_
+2	svojou	svoj	DET	PFfs7	Case=Ins|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	_	_
+3	smrťou	smrť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+4	trpí	trpieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	prepracovanosťou	prepracovanosť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+6	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s38
+# text = Umiera v Eislebene dňa 18 . februára 1546 .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#38
+1	Umiera	umierať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	Eislebene	eisleben	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	_
+4	dňa	deň	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl	_	_
+5	18	18	NUM	0	NumForm=Digit	7	nummod	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	februára	február	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+8	1546	1546	NUM	0	NumForm=Digit	7	nummod	_	_
+9	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s39
+# text = Teologická pozícia
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#39
+1	Teologická	teologický	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	pozícia	pozícia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = s40
+# text = Luther sa spočiatku neusiloval o založenie novej cirkvi , ale o reformu vtedajšej cirkvi na základe týchto princípov :
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#40
+1	Luther	luther	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	spočiatku	spočiatku	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	neusiloval	usilovať	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+5	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	založenie	založenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	obl:arg	_	_
+7	novej	nový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	cirkvi	cirkev	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	,	,	PUNCT	Z	_	12	punct	_	_
+10	ale	ale	CCONJ	O	_	12	cc	_	_
+11	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	reformu	reforma	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	_
+13	vtedajšej	vtedajší	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	cirkvi	cirkev	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+16	základe	základ	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	fixed	_	_
+17	týchto	tento	DET	PFip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	18	det	_	_
+18	princípov	princíp	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+19	:	:	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s41
+# text = * Sola scriptura : Autorita Písma je vyššia ako autorita cirkvi .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#41
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Sola	sola	X	%	Foreign=Yes	0	root	_	_
+3	scriptura	scriptura	X	%	Foreign=Yes	2	flat:foreign	_	_
+4	:	:	PUNCT	Z	_	8	punct	_	_
+5	Autorita	autorita	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+6	Písma	písmo	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	vyššia	vysoký	ADJ	AAfs1y	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	2	appos	_	_
+9	ako	ako	SCONJ	O	_	10	mark	_	_
+10	autorita	autorita	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	8	dep	_	_
+11	cirkvi	cirkev	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s42
+# text = * Sola fide : Človeka ospravedlňuje jeho viera a nie dobré skutky .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#42
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Sola	sola	X	%	Foreign=Yes	0	root	_	_
+3	fide	fide	X	%	Foreign=Yes	2	flat:foreign	_	_
+4	:	:	PUNCT	Z	_	6	punct	_	_
+5	Človeka	človek	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+6	ospravedlňuje	ospravedlňovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	appos	_	_
+7	jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	viera	viera	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+9	a	a	CCONJ	O	_	12	cc	_	_
+10	nie	nie	PART	T	_	12	advmod	_	_
+11	dobré	dobrý	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
+12	skutky	skutok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	conj	_	_
+13	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s43
+# text = * Sola gratia : Božia milosť je dar , nemožno si ju nijako zaslúžiť alebo kúpiť .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#43
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Sola	sola	X	%	Foreign=Yes	0	root	_	_
+3	gratia	gratia	X	%	Foreign=Yes	2	flat:foreign	_	_
+4	:	:	PUNCT	Z	_	8	punct	_	_
+5	Božia	boží	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	milosť	milosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+7	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	dar	dar	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+9	,	,	PUNCT	Z	_	10	punct	_	_
+10	nemožno	nemožno	ADV	Dx	Degree=Pos	8	conj	_	_
+11	si	si	PRON	R	PronType=Prs|Reflex=Yes	14	obl	_	_
+12	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+13	nijako	nijako	ADV	PD	PronType=Neg	14	advmod	_	_
+14	zaslúžiť	zaslúžiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	10	csubj	_	_
+15	alebo	alebo	CCONJ	O	_	16	cc	_	_
+16	kúpiť	kúpiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	14	conj	_	_
+17	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s44
+# text = Z nich vyplývajú aj negatívne stanoviská k otázkam pelagianizmu , siedmich sviatostí , uctievaniu svätých a Márie , učeniu o očistci , neomylnosti cirkevných inštitúcií , pápežstva atď .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#44
+1	Z	z	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	nich	on	PRON	PFip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obl	_	_
+3	vyplývajú	vyplývať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	aj	aj	PART	T	_	6	advmod:emph	_	_
+5	negatívne	negatívny	ADJ	AAnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	_
+6	stanoviská	stanovisko	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+7	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	8	case	_	_
+8	otázkam	otázka	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	6	nmod	_	_
+9	pelagianizmu	pelagianizmus	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	siedmich	sedem	NUM	NUfp2	Case=Gen|Gender=Fem|Number=Plur	12	nummod	_	_
+12	sviatostí	sviatosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	9	conj	_	_
+13	,	,	PUNCT	Z	_	14	punct	_	_
+14	uctievaniu	uctievanie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	9	conj	_	_
+15	svätých	svätý	NOUN	SAmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	a	a	CCONJ	O	_	17	cc	_	_
+17	Márie	mária	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	15	conj	_	_
+18	,	,	PUNCT	Z	_	19	punct	_	_
+19	učeniu	učenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	9	conj	_	_
+20	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	_	_
+21	očistci	očistec	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	_
+22	,	,	PUNCT	Z	_	23	punct	_	_
+23	neomylnosti	neomylnosť	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	9	conj	_	_
+24	cirkevných	cirkevný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	_
+25	inštitúcií	inštitúcia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_
+26	,	,	PUNCT	Z	_	27	punct	_	_
+27	pápežstva	pápežstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	9	conj	_	_
+28	atď	atď	X	W	Abbr=Yes	27	cc	_	_
+29	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s45
+# text = Dielo
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#45
+1	Dielo	dielo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+
+# sent_id = s46
+# text = Luther bol veľmi plodný spisovateľ , celkové vydanie jeho spisov obsahuje viac ako 100 zväzkov .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#46
+1	Luther	luther	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	cop	_	_
+3	veľmi	veľmi	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	plodný	plodný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	spisovateľ	spisovateľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	,	,	PUNCT	Z	_	11	punct	_	_
+7	celkové	celkový	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	vydanie	vydanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+9	jeho	jeho	DET	PUip2	Animacy=Inan|Case=Gen|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	spisov	spis	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+11	obsahuje	obsahovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
+12	viac	veľa	ADV	Dy	Degree=Cmp	11	obj	_	_
+13	ako	ako	SCONJ	O	_	14	mark	_	_
+14	100	100	NUM	0	NumForm=Digit	12	dep	_	_
+15	zväzkov	zväzok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s47
+# text = Nasleduje stručný výber :
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#47
+1	Nasleduje	nasledovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	stručný	stručný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	výber	výber	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	obj	_	_
+4	:	:	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s48
+# text = Preklady
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#48
+1	Preklady	preklad	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+
+# sent_id = s49
+# text = * Biblia ‐ Nový zákon prvýkrát v roku 1522 , Starý zákon v roku 1534 .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#49
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Biblia	biblia	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	‐	‐	PUNCT	Z	_	5	punct	_	_
+4	Nový	nový	ADJ	AAis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	zákon	zákon	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+6	prvýkrát	prvýkrát	ADV	ND	NumType=Mult	5	conj	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	conj	_	_
+9	1522	1522	NUM	0	NumForm=Digit	8	nummod	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	Starý	starý	ADJ	AAis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	zákon	zákon	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	conj	_	_
+15	1534	1534	NUM	0	NumForm=Digit	14	nummod	_	_
+16	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s50
+# text = Lutherovo životné dielo , na ktorého redakčných úpravách pracoval až do svojej smrti ( Počas Lutherovho života vyšlo vo Wittenbergu 83 vydaní a ďalej 253 dotlačí ) .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#50
+1	Lutherovo	lutherov	ADJ	AFns1x:r	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+2	životné	životný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	dielo	dielo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+4	,	,	PUNCT	Z	_	9	punct	_	_
+5	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+6	ktorého	ktorý	DET	PAfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Int,Rel	8	amod	_	_
+7	redakčných	redakčný	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	úpravách	úprava	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	9	obl:arg	_	_
+9	pracoval	pracovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	acl	_	_
+10	až	až	PART	T	_	13	advmod:emph	_	_
+11	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+12	svojej	svoj	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	13	det	_	_
+13	smrti	smrť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+14	(	(	PUNCT	Z	_	18	punct	_	_
+15	Počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+16	Lutherovho	lutherov	ADJ	AFis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	života	život	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+18	vyšlo	vyjsť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	parataxis	_	_
+19	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	20	case	_	_
+20	Wittenbergu	wittenberg	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+21	83	83	NUM	0	NumForm=Digit	18	nsubj	_	_
+22	vydaní	vydanie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	21	nmod	_	_
+23	a	a	CCONJ	O	_	25	cc	_	_
+24	ďalej	ďalej	PART	T	_	25	cc	_	_
+25	253	253	NUM	0	NumForm=Digit	21	conj	_	_
+26	dotlačí	dotlač	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	_
+27	)	)	PUNCT	Z	_	18	punct	_	_
+28	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s51
+# text = Lutherova Biblia , preložená z pôvodných jazykov , sa od reformácie používa v liturgii evanjelických cirkví v nemecky hovoriacich krajinách .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#51
+1	Lutherova	lutherov	ADJ	AFfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	Biblia	biblia	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	preložená	preložený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+6	pôvodných	pôvodný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+7	jazykov	jazyk	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+8	,	,	PUNCT	Z	_	4	punct	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pass	_	_
+10	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+11	reformácie	reformácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+12	používa	používať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	liturgii	liturgia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+15	evanjelických	evanjelický	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	_
+16	cirkví	cirkev	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+18	nemecky	nemecky	ADV	Dx	Degree=Pos	19	advmod	_	_
+19	hovoriacich	hovoriaci	ADJ	Gkfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	20	amod	_	_
+20	krajinách	krajina	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	16	nmod	_	_
+21	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s52
+# text = Posledná revízia vyšla v roku 1984 .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#52
+1	Posledná	posledný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	revízia	revízia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	vyšla	vyjsť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	1984	1984	NUM	0	NumForm=Digit	5	nummod	_	_
+7	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s53
+# text = K obrovskému rozšíreniu a popularite Lutherovej Biblie vo svojej dobe prispel nielen Gutenbergov vynález kníhtlače , ale aj zrozumiteľný štýl prekladu ( Luther niekedy aj niekoľko dní hľadal vhodný výraz , aby bol čitateľovi preklad zrozumiteľný , neprekladal doslovne ) a použitý jazyk , ktorý mal osloviť ľudí v južnej ( hovoriacej hornou nemčinou ) aj severnej časti Nemecka ( hovoriacej dolnou nemčinou ) .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#53
+1	K	k	ADP	Eu3	AdpType=Prep|Case=Dat	3	case	_	_
+2	obrovskému	obrovský	ADJ	AAns3x	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	rozšíreniu	rozšírenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	11	obl:arg	_	_
+4	a	a	CCONJ	O	_	5	cc	_	_
+5	popularite	popularita	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	3	conj	_	_
+6	Lutherovej	lutherov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	Biblie	biblia	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+8	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	10	case	_	_
+9	svojej	svoj	DET	PFfs6	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	_
+10	dobe	doba	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+11	prispel	prispieť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	nielen	nielen	CCONJ	O	_	14	cc	_	_
+13	Gutenbergov	gutenbergov	ADJ	AFis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	vynález	vynález	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+15	kníhtlače	kníhtlač	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	,	,	PUNCT	Z	_	20	punct	_	_
+17	ale	ale	CCONJ	O	_	20	cc	_	_
+18	aj	aj	CCONJ	O	_	20	cc	_	_
+19	zrozumiteľný	zrozumiteľný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	štýl	štýl	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+21	prekladu	preklad	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	(	(	PUNCT	Z	_	28	punct	_	_
+23	Luther	luther	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+24	niekedy	niekedy	ADV	PD	PronType=Ind	28	advmod	_	_
+25	aj	aj	PART	T	_	26	advmod:emph	_	_
+26	niekoľko	niekoľko	DET	PUns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Card|PronType=Ind	27	det:numgov	_	_
+27	dní	deň	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nsubj	_	_
+28	hľadal	hľadať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	parataxis	_	_
+29	vhodný	vhodný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	výraz	výraz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obj	_	_
+31	,	,	PUNCT	Z	_	36	punct	_	_
+32	aby	aby	SCONJ	OY	Mood=Cnd	36	mark	_	_
+33	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	36	cop	_	_
+34	čitateľovi	čitateľ	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	36	obj	_	_
+35	preklad	preklad	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	36	nsubj	_	_
+36	zrozumiteľný	zrozumiteľný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	advcl	_	_
+37	,	,	PUNCT	Z	_	38	punct	_	_
+38	neprekladal	prekladať	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	28	conj	_	_
+39	doslovne	doslovne	ADV	Dx	Degree=Pos	38	advmod	_	_
+40	)	)	PUNCT	Z	_	28	punct	_	_
+41	a	a	CCONJ	O	_	43	cc	_	_
+42	použitý	použitý	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	43	amod	_	_
+43	jazyk	jazyk	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	conj	_	_
+44	,	,	PUNCT	Z	_	46	punct	_	_
+45	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	46	nsubj	_	_
+46	mal	mať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	43	acl	_	_
+47	osloviť	osloviť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	46	xcomp	_	_
+48	ľudí	človek	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	47	obj	_	_
+49	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	58	case	_	_
+50	južnej	južný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	58	amod	_	_
+51	(	(	PUNCT	Z	_	52	punct	_	_
+52	hovoriacej	hovoriaci	ADJ	Gkfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	50	appos	_	_
+53	hornou	horný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	54	amod	_	_
+54	nemčinou	nemčina	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	52	obl	_	_
+55	)	)	PUNCT	Z	_	52	punct	_	_
+56	aj	aj	CCONJ	O	_	57	cc	_	_
+57	severnej	severný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	50	conj	_	_
+58	časti	časť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	48	nmod	_	_
+59	Nemecka	nemecko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	58	nmod	_	_
+60	(	(	PUNCT	Z	_	61	punct	_	_
+61	hovoriacej	hovoriaci	ADJ	Gkfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	57	appos	_	_
+62	dolnou	dolný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	63	amod	_	_
+63	nemčinou	nemčina	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	61	obl	_	_
+64	)	)	PUNCT	Z	_	61	punct	_	_
+65	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s54
+# text = Lutherova nemčina , vychádzajúca z jazyka mníchovského kancelárstva a ľudového jazyka , mala veľký vplyv na zjednocovacie tendencie nemčiny a ďalší vývoj spisovného jazyka .
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#54
+1	Lutherova	lutherov	ADJ	AFfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	nemčina	nemčina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	vychádzajúca	vychádzajúci	ADJ	Gkfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	2	amod	_	_
+5	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	jazyka	jazyk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+7	mníchovského	mníchovský	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	kancelárstva	kancelárstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	a	a	CCONJ	O	_	11	cc	_	_
+10	ľudového	ľudový	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	jazyka	jazyk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	conj	_	_
+12	,	,	PUNCT	Z	_	4	punct	_	_
+13	mala	mať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+14	veľký	veľký	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	vplyv	vplyv	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+16	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	18	case	_	_
+17	zjednocovacie	zjednocovací	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	_
+18	tendencie	tendencia	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	15	nmod	_	_
+19	nemčiny	nemčina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	a	a	CCONJ	O	_	22	cc	_	_
+21	ďalší	ďalší	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	vývoj	vývoj	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	conj	_	_
+23	spisovného	spisovný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	jazyka	jazyk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+25	.	.	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s55
+# text = * Ezopove Bájky ( 1530 )
+# orig_file_sentence wiki-nove-008_hudekova_wiki-nove-008_kandracova#55
+1	*	*	PUNCT	#	_	3	punct	_	_
+2	Ezopove	ezopov	ADJ	AFfp1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
+3	Bájky	bájka	PROPN	SSfp1:r	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+4	(	(	PUNCT	Z	_	3	punct	_	_
+5	1530	1530	NUM	0	NumForm=Digit	3	dep	_	_
+6	)	)	PUNCT	Z	_	3	punct	_	_
+

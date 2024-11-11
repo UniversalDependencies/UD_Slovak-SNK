@@ -1,0 +1,218 @@
+# sent_id = s1
+# text = Stávka na dlhovekosť
+# orig_file_sentence 1361_kandracova_fsnew_1361_janovicka_fsnew#1
+1	Stávka	stávka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+3	dlhovekosť	dlhovekosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	_
+
+# sent_id = s2
+# text = CHICAGO - Môže sa človek vďaka pokroku v medicíne dožiť 150 rokov alebo je 130 rokov krajná hranica ?
+# orig_file_sentence 1361_kandracova_fsnew_1361_janovicka_fsnew#2
+1	CHICAGO	chicago	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	-	-	PUNCT	ZIP	_	3	punct	_	_
+3	Môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+5	človek	človek	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+6	vďaka	vďaka	ADP	Eu3	AdpType=Prep|Case=Dat	7	case	_	_
+7	pokroku	pokrok	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	medicíne	medicína	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+10	dožiť	dožiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+11	150	150	NUM	0	NumForm=Digit	12	nummod	_	_
+12	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obj	_	_
+13	alebo	alebo	CCONJ	O	_	18	cc	_	_
+14	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	cop	_	_
+15	130	130	NUM	0	NumForm=Digit	18	nsubj	_	_
+16	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	krajná	krajný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	hranica	hranica	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
+19	?	?	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s3
+# text = Nie je to rečnícka otázka , ale stávka , ktorú uzatvorili dvaja americkí vedci .
+# orig_file_sentence 1361_kandracova_fsnew_1361_janovicka_fsnew#3
+1	Nie	nie	PART	T	_	5	advmod	_	_
+2	je	byť	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+4	rečnícka	rečnícky	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	otázka	otázka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+6	,	,	PUNCT	ZIP	_	8	punct	_	_
+7	ale	ale	CCONJ	O	_	8	cc	_	_
+8	stávka	stávka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+9	,	,	PUNCT	ZIP	_	11	punct	_	_
+10	ktorú	ktorý	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	11	obj	_	_
+11	uzatvorili	uzatvoriť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+12	dvaja	dva	NUM	NNmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nummod	_	_
+13	americkí	americký	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
+14	vedci	vedec	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+15	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s4
+# text = Jej víťaz má byť známy 1 . januára 2150 .
+# orig_file_sentence 1361_kandracova_fsnew_1361_janovicka_fsnew#4
+1	Jej	jej	DET	PUms1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	víťaz	víťaz	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	cop	_	_
+5	známy	známy	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	xcomp	_	_
+6	1	1	NUM	0	NumForm=Digit	5	obl	_	_
+7	.	.	PUNCT	ZIP	_	6	punct	_	_
+8	januára	január	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	2150	2150	NUM	0	NumForm=Digit	8	nummod	_	_
+10	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s5
+# text = S . Jay Olshansky tvrdí , že niektorým jedincom by sa mohlo podariť dosiahnuť vekovú hranicu 130 rokov .
+# orig_file_sentence 1361_kandracova_fsnew_1361_janovicka_fsnew#5
+1	S	s	X	W	Abbr=Yes	4	nmod	_	_
+2	.	.	PUNCT	ZIP	_	1	punct	_	_
+3	Jay	jay	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+4	Olshansky	olshansky	PROPN	SAms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	tvrdí	tvrdiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	,	,	PUNCT	ZIP	_	12	punct	_	_
+7	že	že	SCONJ	O	_	12	mark	_	_
+8	niektorým	niektorý	DET	PAmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	jedincom	jedinec	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	12	iobj	_	_
+10	by	by	AUX	Y	Mood=Cnd	12	aux	_	_
+11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+12	mohlo	môcť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	ccomp	_	_
+13	podariť	podariť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	12	xcomp	_	_
+14	dosiahnuť	dosiahnuť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	12	csubj	_	_
+15	vekovú	vekový	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	hranicu	hranica	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+17	130	130	NUM	0	NumForm=Digit	18	nummod	_	_
+18	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+19	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s6
+# text = Ľudské telo však na to nie je stavané , a preto je aj vek 150 rokov utópiou .
+# orig_file_sentence 1361_kandracova_fsnew_1361_janovicka_fsnew#6
+1	Ľudské	ľudský	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	telo	telo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+3	však	však	PART	T	_	8	advmod	_	_
+4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	8	obl	_	_
+6	nie	nie	PART	T	_	8	advmod	_	_
+7	je	byť	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	stavané	stavaný	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+9	,	,	PUNCT	ZIP	_	17	punct	_	_
+10	a	a	CCONJ	O	_	17	mark	_	_
+11	preto	preto	ADV	PD	PronType=Dem	10	fixed	_	_
+12	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	cop	_	_
+13	aj	aj	PART	T	_	14	advmod:emph	_	_
+14	vek	vek	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+15	150	150	NUM	0	NumForm=Digit	16	nummod	_	_
+16	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+17	utópiou	utópia	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	8	advcl	_	_
+18	.	.	PUNCT	ZIP	_	8	punct	_	_
+
+# sent_id = s7
+# text = Oponentom Olshanského je Steven Austad z University of Idaho .
+# orig_file_sentence 1361_kandracova_fsnew_1361_janovicka_fsnew#7
+1	Oponentom	oponent	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+2	Olshanského	olshanský	PROPN	SAms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	Steven	steven	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+5	Austad	austad	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+6	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	University	university	X	%	Foreign=Yes	5	nmod	_	_
+8	of	of	X	%	Foreign=Yes	9	case	_	_
+9	Idaho	idaho	X	%	Foreign=Yes	7	flat:foreign	_	_
+10	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s8
+# text = Súčasné biomedicínske technológie podľa neho umožňujú dožiť sa teraz narodeným ľuďom 1 . januára 2150 .
+# orig_file_sentence 1361_kandracova_fsnew_1361_janovicka_fsnew#8
+1	Súčasné	súčasný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
+2	biomedicínske	biomedicínsky	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
+3	technológie	technológia	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+4	podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+5	neho	on	PRON	PFms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+6	umožňujú	umožňovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	dožiť	dožiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+9	teraz	teraz	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	narodeným	narodený	ADJ	Gtmp3x	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	11	xcomp	_	_
+11	ľuďom	človek	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	iobj	_	_
+12	1	1	NUM	0	NumForm=Digit	14	nummod	_	_
+13	.	.	PUNCT	ZIP	_	12	punct	_	_
+14	januára	január	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	iobj	_	_
+15	2150	2150	NUM	0	NumForm=Digit	14	nummod	_	_
+16	.	.	PUNCT	ZIP	_	6	punct	_	_
+
+# sent_id = s9
+# text = Keďže Olshansky a Austad už v čase rozhodnutia stávky nebudú nažive , peniaze dostanú dedičia jedného alebo druhého výhercu .
+# orig_file_sentence 1361_kandracova_fsnew_1361_janovicka_fsnew#9
+1	Keďže	keďže	SCONJ	O	_	11	mark	_	_
+2	Olshansky	olshansky	PROPN	SAms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+3	a	a	CCONJ	O	_	4	cc	_	_
+4	Austad	austad	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+5	už	už	PART	T	_	11	advmod	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	čase	čas	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+8	rozhodnutia	rozhodnutie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	stávky	stávka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	nebudú	byť	AUX	VBepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	11	cop	_	_
+11	nažive	nažive	ADV	Dx	Degree=Pos	14	advcl	_	_
+12	,	,	PUNCT	ZIP	_	11	punct	_	_
+13	peniaze	peniaze	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+14	dostanú	dostať	VERB	VKdpc+	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	dedičia	dedič	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+16	jedného	jeden	NUM	NFms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nummod	_	_
+17	alebo	alebo	CCONJ	O	_	18	cc	_	_
+18	druhého	druhý	ADJ	NAms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|NumType=Ord	16	conj	_	_
+19	výhercu	výherca	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+20	.	.	PUNCT	ZIP	_	14	punct	_	_
+
+# sent_id = s10
+# text = V prípade , že nebudú ani dedičia , nahradia ich univerzity .
+# orig_file_sentence 1361_kandracova_fsnew_1361_janovicka_fsnew#10
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	prípade	prípad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+3	,	,	PUNCT	ZIP	_	5	punct	_	_
+4	že	že	SCONJ	O	_	5	mark	_	_
+5	nebudú	byť	VERB	VBepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	2	acl	_	_
+6	ani	ani	PART	T	_	7	advmod:emph	_	_
+7	dedičia	dedič	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+8	,	,	PUNCT	ZIP	_	5	punct	_	_
+9	nahradia	nahradiť	VERB	VKdpc+	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	ich	on	PRON	PFmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+11	univerzity	univerzita	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+12	.	.	PUNCT	ZIP	_	9	punct	_	_
+
+# sent_id = s11
+# text = V hre je 500 miliónov dolárov z fondu , do ktorého budú odteraz sumou 150 dolárov za rok prispievať obaja vedci a ich dedičia .
+# orig_file_sentence 1361_kandracova_fsnew_1361_janovicka_fsnew#11
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	hre	hra	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	500	500	NUM	0	NumForm=Digit	3	nsubj	_	_
+5	miliónov	milión	NUM	NSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nummod	_	_
+6	dolárov	dolár	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	fondu	fond	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	,	,	PUNCT	ZIP	_	19	punct	_	_
+10	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+11	ktorého	ktorý	DET	PAis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Int,Rel	19	obl	_	_
+12	budú	byť	AUX	VBepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	19	aux	_	_
+13	odteraz	odteraz	ADV	Dx	Degree=Pos	19	advmod	_	_
+14	sumou	suma	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	19	obl	_	_
+15	150	150	NUM	0	NumForm=Digit	14	nummod	_	_
+16	dolárov	dolár	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	18	case	_	_
+18	rok	rok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	_
+19	prispievať	prispievať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	8	acl	_	_
+20	obaja	oba	NUM	NNmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nummod	_	_
+21	vedci	vedec	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+22	a	a	CCONJ	O	_	24	cc	_	_
+23	ich	ich	DET	PUmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	dedičia	dedič	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	conj	_	_
+25	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s12
+# text = ( tasr )
+# orig_file_sentence 1361_kandracova_fsnew_1361_janovicka_fsnew#12
+1	(	(	PUNCT	ZIP	_	2	punct	_	_
+2	tasr	tasr	X	W	Abbr=Yes	0	root	_	_
+3	)	)	PUNCT	ZIP	_	2	punct	_	_
+

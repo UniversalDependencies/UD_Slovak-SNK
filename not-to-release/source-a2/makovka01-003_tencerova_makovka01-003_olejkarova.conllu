@@ -1,0 +1,424 @@
+# sent_id = s1
+# text = “ Obslúž sa , prosím , vezmi si vody , koľko len chceš , “ odvetil bodliak .
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#1
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Obslúž	obslúžiť	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	16	ccomp	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	2	obj	_	_
+4	,	,	PUNCT	Z	_	5	punct	_	_
+5	prosím	prosím	PART	T	_	2	parataxis	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	vezmi	vziať	ADJ	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+8	si	si	PRON	R	PronType=Prs|Reflex=Yes	7	obj	_	_
+9	vody	voda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	obj	_	_
+10	,	,	PUNCT	Z	_	13	punct	_	_
+11	koľko	koľko	DET	PUns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Card|PronType=Int,Rel	13	obl	_	_
+12	len	len	PART	T	_	13	advmod	_	_
+13	chceš	chcieť	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+14	,	,	PUNCT	Z	_	2	punct	_	_
+15	“	“	PUNCT	Z	_	2	punct	_	_
+16	odvetil	odvetiť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+17	bodliak	bodliak	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+18	.	.	PUNCT	Z	_	16	punct	_	_
+
+# sent_id = s2
+# text = No len čo sa k nemu Makulienka priblížila , suknička sa jej zachytila o tŕne .
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#2
+1	No	no	PART	T	_	8	mark	_	_
+2	len	len	CCONJ	O	_	1	fixed	_	_
+3	čo	čo	SCONJ	O	_	1	fixed	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+5	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	6	case	_	_
+6	nemu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+7	Makulienka	makulienka	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+8	priblížila	priblížiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	advcl	_	_
+9	,	,	PUNCT	Z	_	8	punct	_	_
+10	suknička	suknička	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+12	jej	ona	PRON	PFfs3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	zachytila	zachytiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+14	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+15	tŕne	tŕň	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obl	_	_
+16	.	.	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s3
+# text = Bodliak ju už nepustil .
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#3
+1	Bodliak	bodliak	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	už	už	PART	T	_	4	advmod	_	_
+4	nepustil	pustiť	VERB	VLdsci-	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+5	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s4
+# text = Motýľ Emanuel zatiaľ pokojne spal , a keď sa prebudil , mesiac bledol .
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#4
+1	Motýľ	motýľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Emanuel	emanuel	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	zatiaľ	zatiaľ	ADV	PD	PronType=Dem	5	advmod	_	_
+4	pokojne	pokojne	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	spal	spať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	,	,	PUNCT	Z	_	10	punct	_	_
+7	a	a	CCONJ	O	_	13	cc	_	_
+8	keď	keď	SCONJ	O	_	10	mark	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+10	prebudil	prebudiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	advcl	_	_
+11	,	,	PUNCT	Z	_	13	punct	_	_
+12	mesiac	mesiac	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+13	bledol	blednúť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+14	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s5
+# text = “ Kde je Makulienka ? “ zľakol sa a letel ju hľadať .
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#5
+1	“	“	PUNCT	Z	_	3	punct	_	_
+2	Kde	kde	ADV	PD	PronType=Int,Rel	3	advmod	_	_
+3	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Makulienka	makulienka	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+5	?	?	PUNCT	Z	_	3	punct	_	_
+6	“	“	PUNCT	Z	_	3	punct	_	_
+7	zľakol	zľaknúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+9	a	a	CCONJ	O	_	7	cc	_	_
+10	letel	letieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	orphan	_	_
+11	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	hľadať	hľadať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	10	advcl	_	_
+13	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s6
+# text = Keď ho zbadali nočné mory , čo sa práve chystali spať , zašepkali : “ Aký je to motýľ ?
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#6
+1	Keď	keď	SCONJ	O	_	3	mark	_	_
+2	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	zbadali	zbadať	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	13	advcl	_	_
+4	nočné	nočný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
+5	mory	mor	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+6	,	,	PUNCT	Z	_	10	punct	_	_
+7	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	10	nsubj	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+9	práve	práve	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	chystali	chystať	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	5	acl	_	_
+11	spať	spať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	10	xcomp	_	_
+12	,	,	PUNCT	Z	_	3	punct	_	_
+13	zašepkali	zašepkať	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+14	:	:	PUNCT	Z	_	19	punct	_	_
+15	“	“	PUNCT	Z	_	19	punct	_	_
+16	Aký	aký	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	19	det	_	_
+17	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	19	nsubj	_	_
+19	motýľ	motýľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	ccomp	_	_
+20	?	?	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s7
+# text = Vari poriadne motýle v noci lietajú ? “
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#7
+1	Vari	vari	PART	T	_	6	advmod	_	_
+2	poriadne	poriadny	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	motýle	motýľ	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	noci	noc	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+6	lietajú	lietať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	?	?	PUNCT	Z	_	6	punct	_	_
+8	“	“	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s8
+# text = “ Aký je to motýľ , čo sa ženie rovno na moje tŕne ? “ čudoval sa o chvíľu aj bodliak .
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#8
+1	“	“	PUNCT	Z	_	5	punct	_	_
+2	Aký	aký	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	4	det	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+5	motýľ	motýľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	parataxis	_	_
+6	,	,	PUNCT	Z	_	9	punct	_	_
+7	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	9	nsubj	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+9	ženie	hnať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	acl	_	_
+10	rovno	rovno	ADV	Dx	Degree=Pos	9	advmod	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+12	moje	môj	DET	PFip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	13	det	_	_
+13	tŕne	tŕň	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obl	_	_
+14	?	?	PUNCT	Z	_	5	punct	_	_
+15	“	“	PUNCT	Z	_	5	punct	_	_
+16	čudoval	čudovať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+17	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+18	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	19	case	_	_
+19	chvíľu	chvíľa	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+20	aj	aj	PART	T	_	21	cc	_	_
+21	bodliak	bodliak	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+22	.	.	PUNCT	Z	_	16	punct	_	_
+
+# sent_id = s9
+# text = Lenže Emanuel bol od neho , iba čo by krídlami mávol , a volal : “ Pusti moje dievčatko .
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#9
+1	Lenže	lenže	PART	T	_	3	cc	_	_
+2	Emanuel	emanuel	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	bol	byť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+5	neho	on	PRON	PFms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	,	,	PUNCT	Z	_	11	punct	_	_
+7	iba	iba	SCONJ	O	_	11	advmod	_	_
+8	čo	čo	SCONJ	O	_	11	advmod	_	_
+9	by	by	AUX	Y	Mood=Cnd	11	aux	_	_
+10	krídlami	krídlo	NOUN	SSnp7	Case=Ins|Gender=Neut|Number=Plur	11	obl	_	_
+11	mávol	mávnuť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	advcl	_	_
+12	,	,	PUNCT	Z	_	11	punct	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	volal	volať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+15	:	:	PUNCT	Z	_	17	punct	_	_
+16	“	“	PUNCT	Z	_	17	punct	_	_
+17	Pusti	pustiť	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	14	ccomp	_	_
+18	moje	môj	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	19	det	_	_
+19	dievčatko	dievčatko	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+20	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s10
+# text = Pusti ho ! “
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#10
+1	Pusti	pustiť	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+2	ho	ono	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	!	!	PUNCT	Z	_	1	punct	_	_
+4	“	“	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s11
+# text = “ Tak si poň príď ! “ zasmial sa bodliak .
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#11
+1	“	“	PUNCT	Z	_	5	punct	_	_
+2	Tak	tak	PART	T	_	5	advmod	_	_
+3	si	si	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pass	_	_
+4	poň	po_ono	PRON	PFns4g	AdpType=Preppron|Case=Acc|Gender=Neut|Number=Sing|PronType=Prs	5	obj	_	_
+5	príď	prísť	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+6	!	!	PUNCT	Z	_	5	punct	_	_
+7	“	“	PUNCT	Z	_	5	punct	_	_
+8	zasmial	zasmiať	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	dep	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+10	bodliak	bodliak	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+11	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s12
+# text = A muchy čo tam nadránom poletovali , bzučali jedna cez druhú : “ Makulienke sa zachytila sukňa a motýľovi Emanuelovi krídlo . “
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#12
+1	A	a	PART	T	_	8	advmod	_	_
+2	muchy	mucha	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+3	čo	čo	SCONJ	O	_	6	nsubj	_	_
+4	tam	tam	ADV	PD	PronType=Dem	6	advmod	_	_
+5	nadránom	nadránom	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	poletovali	poletovať	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	2	acl	_	_
+7	,	,	PUNCT	Z	_	6	punct	_	_
+8	bzučali	bzučať	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	jedna	jeden	NUM	NFfs1	Case=Nom|Gender=Fem|Number=Sing	8	obl	_	_
+10	cez	cez	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+11	druhú	druhý	ADJ	NAfs4	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	9	obl	_	_
+12	:	:	PUNCT	Z	_	16	punct	_	_
+13	“	“	PUNCT	Z	_	16	punct	_	_
+14	Makulienke	makulienka	PROPN	SSfs3:r	Case=Dat|Gender=Fem|Number=Sing	16	obj	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+16	zachytila	zachytiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	ccomp	_	_
+17	sukňa	sukňa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+18	a	a	CCONJ	O	_	20	cc	_	_
+19	motýľovi	motýľ	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	_
+20	Emanuelovi	emanuel	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	16	conj	_	_
+21	krídlo	krídlo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	20	orphan	_	_
+22	.	.	PUNCT	Z	_	8	punct	_	_
+23	“	“	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s13
+# text = No v tej chvíli sa už po steblách trávy hnalo lúčne svetielko Ferdinand .
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#13
+1	No	no	PART	T	_	10	advmod	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+3	tej	tá	DET	PFfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	chvíli	chvíľa	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+6	už	už	PART	T	_	10	advmod	_	_
+7	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	steblách	steblo	NOUN	SSnp6	Case=Loc|Gender=Neut|Number=Plur	10	obl	_	_
+9	trávy	tráva	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	hnalo	hnať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+11	lúčne	lúčny	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	svetielko	svetielko	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+13	Ferdinand	ferdinand	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_
+14	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s14
+# text = Postavilo sa pred bodliak a vraví : “ Okamžite oboch pusti !
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#14
+1	Postavilo	postaviť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	pred	pred	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	bodliak	bodliak	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	obl	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	vraví	vravieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	:	:	PUNCT	Z	_	11	punct	_	_
+8	“	“	PUNCT	Z	_	11	punct	_	_
+9	Okamžite	okamžite	ADV	Dx	Degree=Pos	11	advmod	_	_
+10	oboch	oba	NUM	NNmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	11	obl	_	_
+11	pusti	pustiť	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	6	parataxis	_	_
+12	!	!	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s15
+# text = Dievčatko i Emanuela . “
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#15
+1	Dievčatko	dievčatko	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	i	i	CCONJ	O	_	3	cc	_	_
+3	Emanuela	emanuel	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
+4	.	.	PUNCT	Z	_	1	punct	_	_
+5	“	“	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s16
+# text = “ A čo keď nepustím ? “ naježil sa bodliak .
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#16
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	A	a	PART	T	_	0	root	_	_
+3	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	2	dep	_	_
+4	keď	keď	SCONJ	O	_	5	mark	_	_
+5	nepustím	pustiť	VERB	VKdsa-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	2	dep	_	_
+6	?	?	PUNCT	Z	_	2	punct	_	_
+7	“	“	PUNCT	Z	_	2	punct	_	_
+8	naježil	naježiť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	dep	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+10	bodliak	bodliak	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+11	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s17
+# text = “ Tak uvidíš , “ odvrkol Ferdinand a svietil ako sviečka v súdnej sieni .
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#17
+1	“	“	PUNCT	Z	_	3	punct	_	_
+2	Tak	tak	PART	T	_	3	advmod	_	_
+3	uvidíš	uvidieť	VERB	VKdsb+	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+4	,	,	PUNCT	Z	_	3	punct	_	_
+5	“	“	PUNCT	Z	_	3	punct	_	_
+6	odvrkol	odvrknúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	Ferdinand	ferdinand	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	svietil	svietiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+10	ako	ako	SCONJ	O	_	11	mark	_	_
+11	sviečka	sviečka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	dep	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+13	súdnej	súdny	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	sieni	sieň	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
+15	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s18
+# text = “ Páliš ? “ spýtal sa opatrne bodliak .
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#18
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Páliš	páliť	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+3	?	?	PUNCT	Z	_	2	punct	_	_
+4	“	“	PUNCT	Z	_	2	punct	_	_
+5	spýtal	spýtať	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+7	opatrne	opatrne	ADV	Dx	Degree=Pos	5	advmod	_	_
+8	bodliak	bodliak	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+9	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s19
+# text = “ Pustíš ? “ spýtal sa Ferdinand .
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#19
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Pustíš	pustiť	VERB	VKdsb+	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+3	?	?	PUNCT	Z	_	2	punct	_	_
+4	“	“	PUNCT	Z	_	2	punct	_	_
+5	spýtal	spýtať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+7	Ferdinand	ferdinand	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+8	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s20
+# text = A bodliak Makulienku i motýľa Emanuela radšej pustil .
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#20
+1	A	a	PART	T	_	8	advmod	_	_
+2	bodliak	bodliak	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+3	Makulienku	makulienka	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+4	i	i	CCONJ	O	_	6	cc	_	_
+5	motýľa	motýľ	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
+6	Emanuela	emanuel	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	conj	_	_
+7	radšej	radšej	PART	T	_	8	advmod	_	_
+8	pustil	pustiť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s21
+# text = “ Ibaže ja nepálim , “ zasmialo sa lúčne svetielko Ferdinand a zasa po trávových steblách odcupitalo .
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#21
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	Ibaže	ibaže	PART	T	_	4	advmod	_	_
+3	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	nepálim	páliť	VERB	VKesa-	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	“	“	PUNCT	Z	_	7	punct	_	_
+7	zasmialo	zasmiať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+9	lúčne	lúčny	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	svetielko	svetielko	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+11	Ferdinand	ferdinand	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
+12	a	a	CCONJ	O	_	7	cc	_	_
+13	zasa	zasa	ADV	Dx	Degree=Pos	17	advmod	_	_
+14	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+15	trávových	trávový	ADJ	AAnp6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	16	amod	_	_
+16	steblách	steblo	NOUN	SSnp6	Case=Loc|Gender=Neut|Number=Plur	17	obl	_	_
+17	odcupitalo	odcupitať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	orphan	_	_
+18	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s22
+# text = Roztrhnutú sukničku si Makulienka šikovne zašila a opravila aj Emanuelovi krídlo .
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#22
+1	Roztrhnutú	roztrhnutý	ADJ	Gtfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	sukničku	suknička	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+3	si	si	PRON	R	PronType=Prs|Reflex=Yes	6	iobj	_	_
+4	Makulienka	makulienka	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	šikovne	šikovne	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	zašila	zašiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	opravila	opraviť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+9	aj	aj	PART	T	_	11	cc	_	_
+10	Emanuelovi	emanuel	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	8	iobj	_	_
+11	krídlo	krídlo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+12	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s23
+# text = Ako sa páčila motýľovi Ibrahimovi
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#23
+1	Ako	ako	ADV	PD	PronType=Int,Rel	3	advmod	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	páčila	páčiť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	motýľovi	motýľ	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	obj	_	_
+5	Ibrahimovi	ibrahim	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	_
+
+# sent_id = s24
+# text = Makulienka zbierala z margarétky zlatý prášok a motýľ Emanuel robil závažie , aby sa kvet sklonil a lepšie naň dočiahla .
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#24
+1	Makulienka	makulienka	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	zbierala	zbierať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	margarétky	margarétka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_
+5	zlatý	zlatý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	prášok	prášok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+7	a	a	CCONJ	O	_	10	cc	_	_
+8	motýľ	motýľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+9	Emanuel	emanuel	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	robil	robiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+11	závažie	závažie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+12	,	,	PUNCT	Z	_	16	punct	_	_
+13	aby	aby	SCONJ	OY	Mood=Cnd	16	mark	_	_
+14	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+15	kvet	kvet	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	sklonil	skloniť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	advcl	_	_
+17	a	a	CCONJ	O	_	20	cc	_	_
+18	lepšie	dobre	ADV	Dy	Degree=Cmp	20	advmod	_	_
+19	naň	na_on	PRON	PFis4g	AdpType=Preppron|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	20	obj	_	_
+20	dočiahla	dočiahnuť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	conj	_	_
+21	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s25
+# text = Slniečko svietilo a zlatý prášok sa dievčatku trblietal pred očami .
+# orig_file_sentence makovka01-003_tencerova_makovka01-003_olejkarova#25
+1	Slniečko	slniečko	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	svietilo	svietiť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	CCONJ	O	_	8	cc	_	_
+4	zlatý	zlatý	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	prášok	prášok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+7	dievčatku	dievčatko	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	8	obj	_	_
+8	trblietal	trblietať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+9	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	10	case	_	_
+10	očami	oko	NOUN	SSnp7	Case=Ins|Gender=Neut|Number=Plur	8	obl	_	_
+11	.	.	PUNCT	Z	_	2	punct	_	_
+

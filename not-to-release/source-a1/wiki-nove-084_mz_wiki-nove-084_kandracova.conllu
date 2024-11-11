@@ -1,0 +1,1814 @@
+# sent_id = s1
+# text = Milan Uhde
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#1
+1	Milan	milan	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Uhde	uhde	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s2
+# text = PhDr . doc .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#2
+1	PhDr	phdr	X	W	Abbr=Yes	0	root	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+3	doc	doc	X	W	Abbr=Yes	1	dep	_	_
+4	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s3
+# text = Milan Uhde ( * 28 . júl 1936 , Brno ) je moravský spisovateľ , dramatik a politik .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#3
+1	Milan	milan	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Uhde	uhde	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+3	(	(	PUNCT	Z	_	2	punct	_	_
+4	*	*	PUNCT	#	_	2	punct	_	_
+5	28	28	NUM	0	NumForm=Digit	7	nummod	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	júl	júl	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+8	1936	1936	NUM	0	NumForm=Digit	7	nummod	_	_
+9	,	,	PUNCT	Z	_	7	punct	_	_
+10	Brno	brno	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	7	orphan	_	_
+11	)	)	PUNCT	Z	_	2	punct	_	_
+12	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	moravský	moravský	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	spisovateľ	spisovateľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+15	,	,	PUNCT	Z	_	16	punct	_	_
+16	dramatik	dramatik	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	politik	politik	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+19	.	.	PUNCT	Z	_	14	punct	_	_
+
+# sent_id = s4
+# text = Počas komunistickej vlády bol významným predstaviteľom disentu a po nežnej revolúcii sa stal ministrom kultúry a predsedom Poslaneckej snemovne Českej republiky .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#4
+1	Počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	komunistickej	komunistický	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+4	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	cop	_	_
+5	významným	významný	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	predstaviteľom	predstaviteľ	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+7	disentu	disent	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	a	a	CCONJ	O	_	13	cc	_	_
+9	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+10	nežnej	nežný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	revolúcii	revolúcia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+13	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+14	ministrom	minister	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	obj	_	_
+15	kultúry	kultúra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	a	a	CCONJ	O	_	17	cc	_	_
+17	predsedom	predseda	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	conj	_	_
+18	Poslaneckej	poslanecký	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	snemovne	snemovňa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+20	Českej	český	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	republiky	republika	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+22	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s5
+# text = Životopis
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#5
+1	Životopis	životopis	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s6
+# text = Narodil sa v rodine právnika a advokátky , vzdelanie nadobudol v Brne : chodil tu do obecnej školy , roku 1953 maturoval na gymnáziu v Králově Poli a v roku 1958 absolvoval Filozoficku fakultu Moravskej univerzity ( neskôr Jana Evangelisty Purkyně , dnes Masarykova univerzita ) , odbor čeština a ruština .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#6
+1	Narodil	narodiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	rodine	rodina	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	1	obl	_	_
+5	právnika	právnik	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	advokátky	advokátka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	conj	_	_
+8	,	,	PUNCT	Z	_	10	punct	_	_
+9	vzdelanie	vzdelanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+10	nadobudol	nadobudnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	Brne	brno	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+13	:	:	PUNCT	Z	_	14	punct	_	_
+14	chodil	chodiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+15	tu	tu	ADV	PD	PronType=Dem	14	advmod	_	_
+16	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	18	case	_	_
+17	obecnej	obecný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	školy	škola	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_
+19	,	,	PUNCT	Z	_	22	punct	_	_
+20	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	_
+21	1953	1953	NUM	0	NumForm=Digit	20	nummod	_	_
+22	maturoval	maturovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	conj	_	_
+23	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+24	gymnáziu	gymnázium	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	22	obl	_	_
+25	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	27	case	_	_
+26	Králově	králově	X	Q	Hyph=Yes	27	nmod	_	_
+27	Poli	pole	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	24	nmod	_	_
+28	a	a	CCONJ	O	_	32	cc	_	_
+29	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	30	case	_	_
+30	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	32	obl	_	_
+31	1958	1958	NUM	0	NumForm=Digit	30	nummod	_	_
+32	absolvoval	absolvovať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	conj	_	_
+33	Filozoficku	filozofický	ADJ	AAfs4x:rq	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	fakultu	fakulta	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	32	obj	_	_
+35	Moravskej	moravský	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	univerzity	univerzita	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	_
+37	(	(	PUNCT	Z	_	36	punct	_	_
+38	neskôr	neskôr	ADV	Dx	Degree=Pos	36	dep	_	_
+39	Jana	jan	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	_
+40	Evangelisty	evangelista	PROPN	SSms2:rq	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	_
+41	Purkyně	purkyně	PROPN	SUms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	38	conj	_	_
+42	,	,	PUNCT	Z	_	43	punct	_	_
+43	dnes	dnes	ADV	Dx	Degree=Pos	38	conj	_	_
+44	Masarykova	masarykov	ADJ	AFfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	45	amod	_	_
+45	univerzita	univerzita	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	38	conj	_	_
+46	)	)	PUNCT	Z	_	36	punct	_	_
+47	,	,	PUNCT	Z	_	32	punct	_	_
+48	odbor	odbor	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	dep	_	_
+49	čeština	čeština	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	48	nmod	_	_
+50	a	a	CCONJ	O	_	51	cc	_	_
+51	ruština	ruština	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	49	conj	_	_
+52	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s7
+# text = Potom pracoval ako redaktor významného brnenského mesíčníka pre literatúru , umenie a kritiku Host do domu ( vychádzal 1954 – 1970 ) a zároveň pôsobil ako externý učiteľ na Janáčkovej akadémii múzickych umení ( 1967 – 1971 ) .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#7
+1	Potom	potom	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	pracoval	pracovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	ako	ako	SCONJ	O	_	4	mark	_	_
+4	redaktor	redaktor	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	xcomp	_	_
+5	významného	významný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	brnenského	brnenský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	mesíčníka	mesačník	NOUN	SSis2:q	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Typo=Yes	4	nmod	_	_
+8	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+9	literatúru	literatúra	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	umenie	umenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	9	conj	_	_
+12	a	a	CCONJ	O	_	13	cc	_	_
+13	kritiku	kritika	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	conj	_	_
+14	Host	host	X	%	Foreign=Yes	7	nmod	_	_
+15	do	do	X	%	Foreign=Yes	16	case	_	_
+16	domu	domu	X	%	Foreign=Yes	14	flat:foreign	_	_
+17	(	(	PUNCT	Z	_	18	punct	_	_
+18	vychádzal	vychádzať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	parataxis	_	_
+19	1954	1954	NUM	0	NumForm=Digit	18	obl	_	_
+20	–	–	PUNCT	Z	_	21	punct	_	_
+21	1970	1970	NUM	0	NumForm=Digit	19	conj	_	_
+22	)	)	PUNCT	Z	_	18	punct	_	_
+23	a	a	CCONJ	O	_	25	cc	_	_
+24	zároveň	zároveň	ADV	Dx	Degree=Pos	25	advmod	_	_
+25	pôsobil	pôsobiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+26	ako	ako	SCONJ	O	_	28	mark	_	_
+27	externý	externý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	učiteľ	učiteľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	xcomp	_	_
+29	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	31	case	_	_
+30	Janáčkovej	janáčkov	ADJ	AFfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	akadémii	akadémia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	28	nmod	_	_
+32	múzickych	múzický	ADJ	AAnp2x:q	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|Typo=Yes	33	amod	_	_
+33	umení	umenie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	31	nmod	_	_
+34	(	(	PUNCT	Z	_	35	punct	_	_
+35	1967	1967	NUM	0	NumForm=Digit	25	dep	_	_
+36	–	–	PUNCT	Z	_	37	punct	_	_
+37	1971	1971	NUM	0	NumForm=Digit	35	conj	_	_
+38	)	)	PUNCT	Z	_	35	punct	_	_
+39	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s8
+# text = V roku 1971 dosiahol titulu doktora filozofie .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#8
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	1971	1971	NUM	0	NumForm=Digit	2	nummod	_	_
+4	dosiahol	dosiahnuť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	titulu	titul	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obj	_	_
+6	doktora	doktor	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	filozofie	filozofia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s9
+# text = Po zákaze časopisu sa stal spisovateľom z povolania , ale roku 1972 sa po zverejnení článku v Rudom práve dostal na zoznam zakázaných spisovateľov a jeho tvorba sa nesmela publikovať až do nežnej revolúcie v roku 1989 .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#9
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	zákaze	zákaz	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	časopisu	časopis	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	spisovateľom	spisovateľ	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obj	_	_
+7	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	povolania	povolanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	,	,	PUNCT	Z	_	20	punct	_	_
+10	ale	ale	CCONJ	O	_	20	cc	_	_
+11	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	obl	_	_
+12	1972	1972	NUM	0	NumForm=Digit	11	nummod	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	20	expl:pv	_	_
+14	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	zverejnení	zverejnenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+16	článku	článok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+18	Rudom	rudý	ADJ	AAns6x:r	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	práve	právo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	_
+20	dostal	dostať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+21	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	22	case	_	_
+22	zoznam	zoznam	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
+23	zakázaných	zakázaný	ADJ	Gtmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	24	amod	_	_
+24	spisovateľov	spisovateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+25	a	a	CCONJ	O	_	29	cc	_	_
+26	jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
+27	tvorba	tvorba	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	_
+28	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	30	expl:pass	_	_
+29	nesmela	smieť	VERB	VLescf-	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	20	conj	_	_
+30	publikovať	publikovať	VERB	VIj+	Aspect=Imp,Perf|Polarity=Pos|VerbForm=Inf	29	xcomp	_	_
+31	až	až	PART	T	_	34	advmod:emph	_	_
+32	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	34	case	_	_
+33	nežnej	nežný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	revolúcie	revolúcia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	29	obl	_	_
+35	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	36	case	_	_
+36	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	34	nmod	_	_
+37	1989	1989	NUM	0	NumForm=Digit	36	nummod	_	_
+38	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s10
+# text = Jeho knihy boli odstránené z verejných knižníc a bolo mu bránené vykonávať akékoľvek zárobkové povolanie .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#10
+1	Jeho	jeho	DET	PUfp1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	knihy	kniha	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+3	boli	byť	AUX	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	odstránené	odstránený	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+5	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+6	verejných	verejný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
+7	knižníc	knižnica	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+8	a	a	CCONJ	O	_	11	cc	_	_
+9	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+10	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	bránené	bránený	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	4	conj	_	_
+12	vykonávať	vykonávať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	11	csubj:pass	_	_
+13	akékoľvek	akýkoľvek	DET	PAns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	15	det	_	_
+14	zárobkové	zárobkový	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	povolanie	povolanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+16	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s11
+# text = Písal pod inými menami divadelné hry ( najčastejšie pre Divadlo na provázku ) , publikoval v samizdate , spolupracoval so zahraničnými divadlami a rozhlasovými a televíznymi stanicami .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#11
+1	Písal	písať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	4	case	_	_
+3	inými	iný	DET	PAnp7	Case=Ins|Gender=Neut|Number=Plur|PronType=Ind	4	det	_	_
+4	menami	meno	NOUN	SSnp7	Case=Ins|Gender=Neut|Number=Plur	1	obl	_	_
+5	divadelné	divadelný	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+6	hry	hra	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
+7	(	(	PUNCT	Z	_	8	punct	_	_
+8	najčastejšie	často	ADV	Dz	Degree=Sup	1	advmod	_	_
+9	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+10	Divadlo	divadlo	X	%	Foreign=Yes	1	advmod	_	_
+11	na	na	X	%	Foreign=Yes	12	case	_	_
+12	provázku	provázku	X	%	Foreign=Yes	10	flat:foreign	_	_
+13	)	)	PUNCT	Z	_	10	punct	_	_
+14	,	,	PUNCT	Z	_	15	punct	_	_
+15	publikoval	publikovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+16	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	samizdate	samizdat	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+18	,	,	PUNCT	Z	_	19	punct	_	_
+19	spolupracoval	spolupracovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+20	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	22	case	_	_
+21	zahraničnými	zahraničný	ADJ	AAnp7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur	22	amod	_	_
+22	divadlami	divadlo	NOUN	SSnp7	Case=Ins|Gender=Neut|Number=Plur	19	obl:arg	_	_
+23	a	a	CCONJ	O	_	27	cc	_	_
+24	rozhlasovými	rozhlasový	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	27	amod	_	_
+25	a	a	CCONJ	O	_	26	cc	_	_
+26	televíznymi	televízny	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	24	conj	_	_
+27	stanicami	stanica	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	22	conj	_	_
+28	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s12
+# text = Podpísal Chartu 77 , v roku 1988 sa stal aj signatárom Hnutia za občiansku slobodu .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#12
+1	Podpísal	podpísať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	Chartu	charta	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	77	77	NUM	0	NumForm=Digit	2	nummod	_	_
+4	,	,	PUNCT	Z	_	9	punct	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+7	1988	1988	NUM	0	NumForm=Digit	6	nummod	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+9	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+10	aj	aj	PART	T	_	11	advmod:emph	_	_
+11	signatárom	signatár	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obj	_	_
+12	Hnutia	hnutie	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+14	občiansku	občiansky	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	slobodu	sloboda	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+16	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s13
+# text = V roku 1989 založil spolu s inými disidentami nakladateľstvo Atlantis a stal sa jeho šéfredaktorom .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#13
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	1989	1989	NUM	0	NumForm=Digit	2	nummod	_	_
+4	založil	založiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	spolu	spolu	ADV	Dx	Degree=Pos	8	case	_	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	5	fixed	_	_
+7	inými	iný	DET	PAmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	disidentami	disident	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_
+9	nakladateľstvo	nakladateľstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+10	Atlantis	atlantis	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+14	jeho	jeho	DET	PUms7	Animacy=Anim|Case=Ins|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	šéfredaktorom	šéfredaktor	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	obj	_	_
+16	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s14
+# text = V nasledujúcom roku po ňom túto pozíciu prevzala jeho manželka , aby sa mohol plne venovať politickej kariére .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#14
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	nasledujúcom	nasledujúci	ADJ	Gkis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	3	amod	_	_
+3	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+4	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	ňom	on	PRON	PFms6	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+6	túto	táto	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	pozíciu	pozícia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+8	prevzala	prevziať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	manželka	manželka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+11	,	,	PUNCT	Z	_	14	punct	_	_
+12	aby	aby	SCONJ	OY	Mood=Cnd	14	mark	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+14	mohol	môcť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	advcl	_	_
+15	plne	plne	ADV	Dx	Degree=Pos	16	advmod	_	_
+16	venovať	venovať	VERB	VIj+	Aspect=Imp,Perf|Polarity=Pos|VerbForm=Inf	14	xcomp	_	_
+17	politickej	politický	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	kariére	kariéra	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	16	obj	_	_
+19	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s15
+# text = V roku 1990 sa stal po Milanovi Lukešovi druhým ponovembrovým ministrom kultúry , v roku 1992 sa na JAMU habilitoval ako docent .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#15
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	1990	1990	NUM	0	NumForm=Digit	2	nummod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+7	Milanovi	milan	PROPN	SSms6:r	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+8	Lukešovi	lukeš	PROPN	SSms6:r	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+9	druhým	druhý	ADJ	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|NumType=Ord	11	amod	_	_
+10	ponovembrovým	ponovembrový	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	ministrom	minister	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obj	_	_
+12	kultúry	kultúra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	,	,	PUNCT	Z	_	20	punct	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+16	1992	1992	NUM	0	NumForm=Digit	15	nummod	_	_
+17	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	20	expl:pv	_	_
+18	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	JAMU	jamu	X	W	Abbr=Yes	20	advmod	_	_
+20	habilitoval	habilitovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+21	ako	ako	SCONJ	O	_	22	mark	_	_
+22	docent	docent	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	xcomp	_	_
+23	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s16
+# text = V období od 6 . júna 1992 do 6 . júna 1996 bol za ODS najprv poslancom Českej národnej rady a po jej premenovaní v súvislosti s rozdelením štátu 1 . januára 1993 poslancom Poslaneckej snemovne .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#16
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	období	obdobie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+3	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+4	6	6	NUM	0	NumForm=Digit	6	nummod	_	_
+5	.	.	PUNCT	Z	_	4	punct	_	_
+6	júna	jún	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+7	1992	1992	NUM	0	NumForm=Digit	6	nummod	_	_
+8	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+9	6	6	NUM	0	NumForm=Digit	11	nummod	_	_
+10	.	.	PUNCT	Z	_	9	punct	_	_
+11	júna	jún	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+12	1996	1996	NUM	0	NumForm=Digit	11	nummod	_	_
+13	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	17	cop	_	_
+14	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+15	ODS	ods	X	W	Abbr=Yes	17	advmod	_	_
+16	najprv	najprv	ADV	Dx	Degree=Pos	17	advmod	_	_
+17	poslancom	poslanec	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+18	Českej	český	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+19	národnej	národný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	rady	rada	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+21	a	a	CCONJ	O	_	24	cc	_	_
+22	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+23	jej	jej	DET	PUns6	Case=Loc|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	premenovaní	premenovanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	17	conj	_	_
+25	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	28	case	_	_
+26	súvislosti	súvislosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	25	fixed	_	_
+27	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	25	fixed	_	_
+28	rozdelením	rozdelenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	24	nmod	_	_
+29	štátu	štát	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	1	1	NUM	0	NumForm=Digit	32	nummod	_	_
+31	.	.	PUNCT	Z	_	30	punct	_	_
+32	januára	január	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+33	1993	1993	NUM	0	NumForm=Digit	32	nummod	_	_
+34	poslancom	poslanec	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	orphan	_	_
+35	Poslaneckej	poslanecký	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	snemovne	snemovňa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	_
+37	.	.	PUNCT	Z	_	17	punct	_	_
+
+# sent_id = s17
+# text = V rovnakom období bol od 29 . júna 1992 zvolený za predsedu Poslaneckej snemovne .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#17
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	rovnakom	rovnaký	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	období	obdobie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+4	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+5	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+6	29	29	NUM	0	NumForm=Digit	8	nummod	_	_
+7	.	.	PUNCT	Z	_	6	punct	_	_
+8	júna	jún	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+9	1992	1992	NUM	0	NumForm=Digit	8	nummod	_	_
+10	zvolený	zvolený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+11	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	predsedu	predseda	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	obl:arg	_	_
+13	Poslaneckej	poslanecký	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	snemovne	snemovňa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s18
+# text = V nasledujúcom volebnom období , od 1 . júna 1996 do 19 . júna 1998 , bol zase zvolený do Poslaneckej snemovne , od 16 . júla 1996 do 9 . júna 1997 bol predsedom poslaneckého klubu ODS .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#18
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+2	nasledujúcom	nasledujúci	ADJ	Gkns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	4	amod	_	_
+3	volebnom	volebný	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	období	obdobie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	19	obl	_	_
+5	,	,	PUNCT	Z	_	9	punct	_	_
+6	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+7	1	1	NUM	0	NumForm=Digit	9	nummod	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+9	júna	jún	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	appos	_	_
+10	1996	1996	NUM	0	NumForm=Digit	9	nummod	_	_
+11	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+12	19	19	NUM	0	NumForm=Digit	14	nummod	_	_
+13	.	.	PUNCT	Z	_	12	punct	_	_
+14	júna	jún	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	appos	_	_
+15	1998	1998	NUM	0	NumForm=Digit	14	nummod	_	_
+16	,	,	PUNCT	Z	_	9	punct	_	_
+17	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	19	aux:pass	_	_
+18	zase	zase	ADV	Dx	Degree=Pos	19	advmod	_	_
+19	zvolený	zvolený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+20	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	22	case	_	_
+21	Poslaneckej	poslanecký	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	snemovne	snemovňa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	19	obl	_	_
+23	,	,	PUNCT	Z	_	35	punct	_	_
+24	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	27	case	_	_
+25	16	16	NUM	0	NumForm=Digit	27	nummod	_	_
+26	.	.	PUNCT	Z	_	25	punct	_	_
+27	júla	júl	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	obl	_	_
+28	1996	1996	NUM	0	NumForm=Digit	27	nummod	_	_
+29	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	32	case	_	_
+30	9	9	NUM	0	NumForm=Digit	32	nummod	_	_
+31	.	.	PUNCT	Z	_	30	punct	_	_
+32	júna	jún	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	obl	_	_
+33	1997	1997	NUM	0	NumForm=Digit	32	nummod	_	_
+34	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	35	cop	_	_
+35	predsedom	predseda	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	conj	_	_
+36	poslaneckého	poslanecký	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	klubu	klub	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_
+38	ODS	ods	X	W	Abbr=Yes	37	nmod	_	_
+39	.	.	PUNCT	Z	_	19	punct	_	_
+
+# sent_id = s19
+# text = Po páde koaličnej vlády ODS sa vďaka svojmu kritickému postoju ocitol medzi tými , ktorí boli vyzvaní na odchod zo strany , prestúpil teda do poslaneckého klubu Únie slobody , ktorého členom bol od 20 . januára 1998 do konca skrateného volebného obdobia .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#19
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	páde	pád	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+3	koaličnej	koaličný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	ODS	ods	X	W	Abbr=Yes	4	nmod	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+7	vďaka	vďaka	ADP	Eu3	AdpType=Prep|Case=Dat	10	case	_	_
+8	svojmu	svoj	DET	PFis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	_
+9	kritickému	kritický	ADJ	AAis3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	postoju	postoj	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	obl	_	_
+11	ocitol	ocitnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	13	case	_	_
+13	tými	ten	DET	PFmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|PronType=Dem	11	obl	_	_
+14	,	,	PUNCT	Z	_	17	punct	_	_
+15	ktorí	ktorý	DET	PAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	17	nsubj:pass	_	_
+16	boli	byť	AUX	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	17	aux:pass	_	_
+17	vyzvaní	vyzvaný	ADJ	Gtmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	13	amod	_	_
+18	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	19	case	_	_
+19	odchod	odchod	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl:arg	_	_
+20	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	21	case	_	_
+21	strany	strana	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+22	,	,	PUNCT	Z	_	23	punct	_	_
+23	prestúpil	prestúpiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	conj	_	_
+24	teda	teda	CCONJ	O	_	23	cc	_	_
+25	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	27	case	_	_
+26	poslaneckého	poslanecký	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	klubu	klub	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	obl	_	_
+28	Únie	únia	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+29	slobody	sloboda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	_
+30	,	,	PUNCT	Z	_	32	punct	_	_
+31	ktorého	ktorý	DET	PAis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Int,Rel	32	amod	_	_
+32	členom	člen	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	27	acl	_	_
+33	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	32	cop	_	_
+34	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	37	case	_	_
+35	20	20	NUM	0	NumForm=Digit	37	nummod	_	_
+36	.	.	PUNCT	Z	_	35	punct	_	_
+37	januára	január	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	obl	_	_
+38	1998	1998	NUM	0	NumForm=Digit	37	nummod	_	_
+39	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	40	case	_	_
+40	konca	koniec	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	obl	_	_
+41	skrateného	skrátený	ADJ	Gtns2x:q	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Typo=Yes|VerbForm=Part|Voice=Pass	43	amod	_	_
+42	volebného	volebný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	43	amod	_	_
+43	obdobia	obdobie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	40	nmod	_	_
+44	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s20
+# text = Bol iniciátorom niekoľkých poslaneckých návrhov zákonov , z ktorých bol schválený iba jeho Návrh novely zákona o mimosúdnych rehabilitáciách ( 78 / 1998 Sb . ) , ktorý inicioval spolu s Jiřím Karasom .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#20
+1	Bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	cop	_	_
+2	iniciátorom	iniciátor	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+3	niekoľkých	niekoľko	DET	PUip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	5	det	_	_
+4	poslaneckých	poslanecký	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+5	návrhov	návrh	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+6	zákonov	zákon	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	,	,	PUNCT	Z	_	11	punct	_	_
+8	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	ktorých	ktorý	DET	PAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|PronType=Int,Rel	11	obl	_	_
+10	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	schválený	schválený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	amod	_	_
+12	iba	iba	PART	T	_	14	advmod:emph	_	_
+13	jeho	jeho	DET	PUis1	Animacy=Inan|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	Návrh	návrh	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+15	novely	novela	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	zákona	zákon	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+18	mimosúdnych	mimosúdny	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
+19	rehabilitáciách	rehabilitácia	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	16	nmod	_	_
+20	(	(	PUNCT	Z	_	21	punct	_	_
+21	78	78	NUM	0	NumForm=Digit	16	nummod	_	_
+22	/	/	PUNCT	Z	_	23	punct	_	_
+23	1998	1998	NUM	0	NumForm=Digit	21	conj	_	_
+24	Sb	sb	X	W	Abbr=Yes	16	nmod	_	_
+25	.	.	PUNCT	Z	_	24	punct	_	_
+26	)	)	PUNCT	Z	_	24	punct	_	_
+27	,	,	PUNCT	Z	_	29	punct	_	_
+28	ktorý	ktorý	DET	PAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	29	obj	_	_
+29	inicioval	iniciovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	acl	_	_
+30	spolu	spolu	ADV	Dx	Degree=Pos	33	case	_	_
+31	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	30	fixed	_	_
+32	Jiřím	jiří	PROPN	SFms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	33	nmod	_	_
+33	Karasom	karas	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	29	obl	_	_
+34	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s21
+# text = Zákon sa snažil zrovnoprávniť nútené práce príslušníkov vojenských banských oddielov s nútenými prácami príslušníkov PTP .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#21
+1	Zákon	zákon	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	snažil	snažiť	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	zrovnoprávniť	zrovnoprávniť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+5	nútené	nútený	ADJ	Gtfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	práce	práca	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+7	príslušníkov	príslušník	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	vojenských	vojenský	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+9	banských	banský	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+10	oddielov	oddiel	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+11	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	13	case	_	_
+12	nútenými	nútený	ADJ	Gtfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	prácami	práca	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	4	obl:arg	_	_
+14	príslušníkov	príslušník	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	PTP	ptp	X	W	Abbr=Yes	14	nmod	_	_
+16	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s22
+# text = V roku 1998 opustil aktívnu politiku a stal sa znova spisovateľom z povolania .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#22
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	1998	1998	NUM	0	NumForm=Digit	2	nummod	_	_
+4	opustil	opustiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	aktívnu	aktívny	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	politiku	politika	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+10	znova	znova	ADV	Dx	Degree=Pos	8	advmod	_	_
+11	spisovateľom	spisovateľ	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obj	_	_
+12	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+13	povolania	povolanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+14	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s23
+# text = Vydáva pre nakladateľstvo Atlantis v zborníkoch svoje skoršie práce , ale neváha ani zahajovať nové projekty .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#23
+1	Vydáva	vydávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+3	nakladateľstvo	nakladateľstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	_
+4	Atlantis	atlantis	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	zborníkoch	zborník	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	1	obl	_	_
+7	svoje	svoj	DET	PFfp4	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	_
+8	skoršie	skorší	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
+9	práce	práca	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	ale	ale	CCONJ	O	_	12	cc	_	_
+12	neváha	váhať	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	1	conj	_	_
+13	ani	ani	CCONJ	O	_	12	cc	_	_
+14	zahajovať	zahajovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	12	xcomp	_	_
+15	nové	nový	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
+16	projekty	projekt	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+17	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s24
+# text = S postupom času sa zdá , že sa jeho názory opäť zbližujú s názormi ODS .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#24
+1	S	s	ADP	Eu7	AdpType=Prep|Case=Ins	2	case	_	_
+2	postupom	postup	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+3	času	čas	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	zdá	zdať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	,	,	PUNCT	Z	_	12	punct	_	_
+7	že	že	SCONJ	O	_	12	mark	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	obj	_	_
+9	jeho	jeho	DET	PUip1	Animacy=Inan|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	názory	názor	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+11	opäť	opäť	ADV	Dx	Degree=Pos	12	advmod	_	_
+12	zbližujú	zbližovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	csubj	_	_
+13	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	14	case	_	_
+14	názormi	názor	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	12	obl:arg	_	_
+15	ODS	ods	X	W	Abbr=Yes	14	nmod	_	_
+16	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s25
+# text = Ľutuje , že problémy ODS otvorene nekritizoval už skôr , ale ozval sa až v čase , kedy sa neriešené rozrástli do takej šírky , že sa ich kritika stala nástrojom iných snáh než len snahy o nápravu vecí ( jeho list Václavovi Klausovi k 60 . narodeninám ) .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#25
+1	Ľutuje	ľutovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	,	,	PUNCT	Z	_	7	punct	_	_
+3	že	že	SCONJ	O	_	7	mark	_	_
+4	problémy	problém	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+5	ODS	ods	X	W	Abbr=Yes	4	nmod	_	_
+6	otvorene	otvorene	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	nekritizoval	kritizovať	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	1	ccomp	_	_
+8	už	už	PART	T	_	9	advmod:emph	_	_
+9	skôr	skôr	ADV	Dx	Degree=Pos	7	advmod	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	ale	ale	CCONJ	O	_	12	cc	_	_
+12	ozval	ozvať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+14	až	až	PART	T	_	16	advmod:emph	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+16	čase	čas	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+17	,	,	PUNCT	Z	_	21	punct	_	_
+18	kedy	kedy	ADV	PD	PronType=Int,Rel	21	advmod	_	_
+19	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	21	expl:pv	_	_
+20	neriešené	riešený	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Neg|VerbForm=Part|Voice=Pass	4	xcomp	_	_
+21	rozrástli	rozrásť	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	16	acl	_	_
+22	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	24	case	_	_
+23	takej	taký	DET	PAfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	24	det	_	_
+24	šírky	šírka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	21	obl	_	_
+25	,	,	PUNCT	Z	_	30	punct	_	_
+26	že	že	SCONJ	O	_	30	mark	_	_
+27	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	30	expl:pv	_	_
+28	ich	ich	DET	PUfs1	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	29	det	_	_
+29	kritika	kritika	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	30	nsubj	_	_
+30	stala	stať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	23	advcl	_	_
+31	nástrojom	nástroj	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	30	obj	_	_
+32	iných	iný	DET	PAfp2	Case=Gen|Gender=Fem|Number=Plur|PronType=Ind	33	det	_	_
+33	snáh	snaha	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	_
+34	než	než	SCONJ	O	_	36	mark	_	_
+35	len	len	PART	T	_	36	advmod:emph	_	_
+36	snahy	snaha	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	32	advcl	_	_
+37	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	38	case	_	_
+38	nápravu	náprava	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	36	nmod	_	_
+39	vecí	vec	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	38	nmod	_	_
+40	(	(	PUNCT	Z	_	1	punct	_	_
+41	jeho	jeho	DET	PUis1	Animacy=Inan|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	42	det	_	_
+42	list	list	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	dep	_	_
+43	Václavovi	václav	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	44	nmod	_	_
+44	Klausovi	klaus	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	42	nmod	_	_
+45	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	48	case	_	_
+46	60	60	NUM	0	NumForm=Digit	48	nummod	_	_
+47	.	.	PUNCT	Z	_	46	punct	_	_
+48	narodeninám	narodeniny	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	42	nmod	_	_
+49	)	)	PUNCT	Z	_	1	punct	_	_
+50	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s26
+# text = V názore na udalosti v ČT v roku 2000 sa stavia na stranu ODS proti vzbúrencom ( http : / / www . blisty . cz / art / 9758 . html ) V roku 2002 bol za ODS navrhnutý a stal sa miestopredsedom Rady Českého rozhlasu .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#26
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	názore	názor	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	udalosti	udalosť	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	2	nmod	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	ČT	čt	X	W	Abbr=Yes	4	nmod	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+9	2000	2000	NUM	0	NumForm=Digit	8	nummod	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+11	stavia	stavať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+13	stranu	strana	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+14	ODS	ods	X	W	Abbr=Yes	13	nmod	_	_
+15	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	16	case	_	_
+16	vzbúrencom	vzbúrenec	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	obl	_	_
+17	(	(	PUNCT	Z	_	11	punct	_	_
+18	http	http	X	W	Abbr=Yes	11	dep	_	_
+19	:	:	PUNCT	Z	_	11	punct	_	_
+20	/	/	PUNCT	Z	_	11	punct	_	_
+21	/	/	PUNCT	Z	_	11	punct	_	_
+22	www	www	X	W	Abbr=Yes	11	dep	_	_
+23	.	.	PUNCT	Z	_	22	punct	_	_
+24	blisty	blisty	X	Q	Hyph=Yes	11	dep	_	_
+25	.	.	PUNCT	Z	_	24	punct	_	_
+26	cz	cz	X	W	Abbr=Yes	11	dep	_	_
+27	/	/	PUNCT	Z	_	26	punct	_	_
+28	art	art	X	Q	Hyph=Yes	11	dep	_	_
+29	/	/	PUNCT	Z	_	28	punct	_	_
+30	9758	9758	NUM	0	NumForm=Digit	11	dep	_	_
+31	.	.	PUNCT	Z	_	30	punct	_	_
+32	html	html	X	W	Abbr=Yes	11	dep	_	_
+33	)	)	PUNCT	Z	_	11	punct	_	_
+34	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	35	case	_	_
+35	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	40	obl	_	_
+36	2002	2002	NUM	0	NumForm=Digit	35	nummod	_	_
+37	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	40	aux:pass	_	_
+38	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	39	case	_	_
+39	ODS	ods	X	W	Abbr=Yes	40	obl:arg	_	_
+40	navrhnutý	navrhnutý	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	parataxis	_	_
+41	a	a	CCONJ	O	_	42	cc	_	_
+42	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	40	conj	_	_
+43	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	42	expl:pv	_	_
+44	miestopredsedom	miestopredseda	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	42	obj	_	_
+45	Rady	rada	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	44	nmod	_	_
+46	Českého	český	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	47	amod	_	_
+47	rozhlasu	rozhlas	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	45	nmod	_	_
+48	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s27
+# text = Žije v Brne , od roku 1963 je jeho manželkou Jitka Uhdeová , v súčasnej dobe jednateľka a riaditeľka nakladateľstva Atlantis .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#27
+1	Žije	žiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	Brne	brno	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	1	obl	_	_
+4	,	,	PUNCT	Z	_	10	punct	_	_
+5	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+7	1963	1963	NUM	0	NumForm=Digit	6	nummod	_	_
+8	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	jeho	jeho	DET	PUfs7	Case=Ins|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	manželkou	manželka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	1	conj	_	_
+11	Jitka	jitka	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	12	nmod	_	_
+12	Uhdeová	uhdeová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+13	,	,	PUNCT	Z	_	16	punct	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+15	súčasnej	súčasný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	dobe	doba	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	12	dep	_	_
+17	jednateľka	jednateľka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	16	dep	_	_
+18	a	a	CCONJ	O	_	19	cc	_	_
+19	riaditeľka	riaditeľka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	17	conj	_	_
+20	nakladateľstva	nakladateľstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+21	Atlantis	atlantis	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nmod	_	_
+22	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s28
+# text = Má dve deti : Michala ( podnikateľ ) a Janu ( pracuje v nakladateľstve Atlantis ) .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#28
+1	Má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	dve	dva	NUM	NNnp4	Case=Acc|Gender=Neut|Number=Plur	3	nummod	_	_
+3	deti	dieťa	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	_
+4	:	:	PUNCT	Z	_	5	punct	_	_
+5	Michala	michal	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	appos	_	_
+6	(	(	PUNCT	Z	_	5	punct	_	_
+7	podnikateľ	podnikateľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	dep	_	_
+8	)	)	PUNCT	Z	_	5	punct	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	Janu	jana	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	_
+11	(	(	PUNCT	Z	_	12	punct	_	_
+12	pracuje	pracovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	nakladateľstve	nakladateľstvo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+15	Atlantis	atlantis	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	_
+16	)	)	PUNCT	Z	_	12	punct	_	_
+17	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s29
+# text = Dielo
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#29
+1	Dielo	dielo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+
+# sent_id = s30
+# text = Milan Uhde je autorom poviedok , divadelných a rozhlasových hier , scenárov a zbierok poézie .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#30
+1	Milan	milan	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Uhde	uhde	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	autorom	autor	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+5	poviedok	poviedka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	,	,	PUNCT	Z	_	10	punct	_	_
+7	divadelných	divadelný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	rozhlasových	rozhlasový	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	7	conj	_	_
+10	hier	hra	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	conj	_	_
+11	,	,	PUNCT	Z	_	12	punct	_	_
+12	scenárov	scenár	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	conj	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	zbierok	zbierka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	conj	_	_
+15	poézie	poézia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s31
+# text = Medzi jeho diela patria :
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#31
+1	Medzi	medzi	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+2	jeho	jeho	DET	PUnp4	Case=Acc|Gender=Neut|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	diela	dielo	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	4	obl	_	_
+4	patria	patriť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	:	:	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s32
+# text = * Lidé z přízemí ( 1962 )
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#32
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Lidé	lidé	X	%	Foreign=Yes	0	root	_	_
+3	z	z	X	%	Foreign=Yes	4	case	_	_
+4	přízemí	přízemí	X	%	Foreign=Yes	2	flat:foreign	_	_
+5	(	(	PUNCT	Z	_	2	punct	_	_
+6	1962	1962	NUM	0	NumForm=Digit	2	dep	_	_
+7	)	)	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s33
+# text = * Komedie s Lotem ( 1963 ) – rozhlasová hra .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#33
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Komedie	komedie	X	%	Foreign=Yes	0	root	_	_
+3	s	s	X	%	Foreign=Yes	2	flat:foreign	_	_
+4	Lotem	lotem	X	%	Foreign=Yes	3	flat:foreign	_	_
+5	(	(	PUNCT	Z	_	2	punct	_	_
+6	1963	1963	NUM	0	NumForm=Digit	2	dep	_	_
+7	)	)	PUNCT	Z	_	2	punct	_	_
+8	–	–	PUNCT	Z	_	10	punct	_	_
+9	rozhlasová	rozhlasový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	hra	hra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+11	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s34
+# text = * Hrách na stěnu ( 1964 ) – krátke poviedky z každodenného života .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#34
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Hrách	hrách	X	%	Foreign=Yes	0	root	_	_
+3	na	na	X	%	Foreign=Yes	4	case	_	_
+4	stěnu	stěnu	X	%	Foreign=Yes	2	flat:foreign	_	_
+5	(	(	PUNCT	Z	_	2	punct	_	_
+6	1964	1964	NUM	0	NumForm=Digit	2	dep	_	_
+7	)	)	PUNCT	Z	_	2	punct	_	_
+8	–	–	PUNCT	Z	_	10	punct	_	_
+9	krátke	krátky	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
+10	poviedky	poviedka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	2	appos	_	_
+11	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+12	každodenného	každodenný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	života	život	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+14	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s35
+# text = * Král ‐ Vávra ( premiéra 1964 v divadle Večerní Brno ) – satirická divadelná politická hra , variacia na tému Kráľa Leara ukazuje strojový svet odcudzený ľuďom , kde trio vládcov riadi zemskú poloos .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#35
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Král	král	X	%	Foreign=Yes	24	nsubj	_	_
+3	‐	‐	PUNCT	Z	_	4	punct	_	_
+4	Vávra	vávra	X	%	Foreign=Yes	2	flat:foreign	_	_
+5	(	(	PUNCT	Z	_	2	punct	_	_
+6	premiéra	premiéra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	_
+7	1964	1964	NUM	0	NumForm=Digit	2	dep	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	divadle	divadlo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	2	dep	_	_
+10	Večerní	večerní	X	%	Foreign=Yes	9	nmod	_	_
+11	Brno	brno	X	%	Foreign=Yes	10	flat:foreign	_	_
+12	)	)	PUNCT	Z	_	2	punct	_	_
+13	–	–	PUNCT	Z	_	17	punct	_	_
+14	satirická	satirický	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+15	divadelná	divadelný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+16	politická	politický	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	hra	hra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+18	,	,	PUNCT	Z	_	19	punct	_	_
+19	variacia	variácia	NOUN	SSfs1:q	Case=Nom|Gender=Fem|Number=Sing|Typo=Yes	17	appos	_	_
+20	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	21	case	_	_
+21	tému	téma	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	19	nmod	_	_
+22	Kráľa	kráľ	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	Leara	lear	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	ukazuje	ukazovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+25	strojový	strojový	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	svet	svet	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
+27	odcudzený	odcudzený	ADJ	Gtis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	26	amod	_	_
+28	ľuďom	človek	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	27	obj	_	_
+29	,	,	PUNCT	Z	_	33	punct	_	_
+30	kde	kde	ADV	PD	PronType=Int,Rel	33	advmod	_	_
+31	trio	trio	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	33	nsubj	_	_
+32	vládcov	vládca	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	_
+33	riadi	riadiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	26	acl	_	_
+34	zemskú	zemský	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
+35	poloos	poloos	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	33	obj	_	_
+36	.	.	PUNCT	Z	_	24	punct	_	_
+
+# sent_id = s36
+# text = Hra je tvorená 10 obrazmi , obsahuje 9 piesní , balad , blues romancí a jednu medzihru .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#36
+1	Hra	hra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	tvorená	tvorený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	10	10	NUM	0	NumForm=Digit	5	nummod	_	_
+5	obrazmi	obraz	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl:agent	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	obsahuje	obsahovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	9	9	NUM	0	NumForm=Digit	7	obj	_	_
+9	piesní	pieseň	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	balad	balada	NOUN	SSfp2:q	Case=Gen|Gender=Fem|Number=Plur|Typo=Yes	9	conj	_	_
+12	,	,	PUNCT	Z	_	13	punct	_	_
+13	blues	blues	ADJ	AUfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	8	conj	_	_
+14	romancí	romanca	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+15	a	a	CCONJ	O	_	17	cc	_	_
+16	jednu	jeden	NUM	NFfs4	Case=Acc|Gender=Fem|Number=Sing	17	nummod	_	_
+17	medzihru	medzihra	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	conj	_	_
+18	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s37
+# text = Autor tu nadväzuje na K . H . Borovského .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#37
+1	Autor	autor	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	tu	tu	ADV	PD	PronType=Dem	3	advmod	_	_
+3	nadväzuje	nadväzovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+5	K	k	X	W	Abbr=Yes	9	nmod	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	H	h	X	W	Abbr=Yes	9	nmod	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+9	Borovského	borovský	PROPN	SAms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obl:arg	_	_
+10	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s38
+# text = * Svědkové ( 1965 ) – pôvodná absurdná rozhlasová hra , ukazuje bezmocnosť ľudí proti zlovôli polície .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#38
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Svědkové	svědkové	X	%	Foreign=Yes	12	nsubj	_	_
+3	(	(	PUNCT	Z	_	2	punct	_	_
+4	1965	1965	NUM	0	NumForm=Digit	2	dep	_	_
+5	)	)	PUNCT	Z	_	2	punct	_	_
+6	–	–	PUNCT	Z	_	10	punct	_	_
+7	pôvodná	pôvodný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+8	absurdná	absurdný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	rozhlasová	rozhlasový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	hra	hra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+11	,	,	PUNCT	Z	_	10	punct	_	_
+12	ukazuje	ukazovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	bezmocnosť	bezmocnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	ľudí	človek	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	16	case	_	_
+16	zlovôli	zlovôľa	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	_
+17	polície	polícia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s39
+# text = * Souhvězdí Panny ( 1965 ) – filmový scenár podľa svojej poviedky Ošetřovna , príbeh o láske a kamarátstve z prostredia vojenského letiska .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#39
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Souhvězdí	souhvězdí	X	%	Foreign=Yes	0	root	_	_
+3	Panny	panny	X	%	Foreign=Yes	2	flat:foreign	_	_
+4	(	(	PUNCT	Z	_	2	punct	_	_
+5	1965	1965	NUM	0	NumForm=Digit	2	dep	_	_
+6	)	)	PUNCT	Z	_	2	punct	_	_
+7	–	–	PUNCT	Z	_	9	punct	_	_
+8	filmový	filmový	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	scenár	scenár	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+10	podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+11	svojej	svoj	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	_	_
+12	poviedky	poviedka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+13	Ošetřovna	ošetřovna	X	%	Foreign=Yes	12	nmod	_	_
+14	,	,	PUNCT	Z	_	15	punct	_	_
+15	príbeh	príbeh	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_
+16	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	láske	láska	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_
+18	a	a	CCONJ	O	_	19	cc	_	_
+19	kamarátstve	kamarátstvo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	17	conj	_	_
+20	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	21	case	_	_
+21	prostredia	prostredie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+22	vojenského	vojenský	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	letiska	letisko	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+24	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s40
+# text = Film bol natočený v tom istom roku .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#40
+1	Film	film	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	natočený	natočený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+5	tom	ten	DET	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+6	istom	istý	DET	PAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+8	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s41
+# text = * Výběrčí ( 1966 ) – absurdná rozhlasová dráma , dočkala sa aj divadelného spracovania .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#41
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Výběrčí	výběrčí	X	%	Foreign=Yes	11	dep	_	_
+3	(	(	PUNCT	Z	_	2	punct	_	_
+4	1966	1966	NUM	0	NumForm=Digit	2	dep	_	_
+5	)	)	PUNCT	Z	_	2	punct	_	_
+6	–	–	PUNCT	Z	_	9	punct	_	_
+7	absurdná	absurdný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	rozhlasová	rozhlasový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	dráma	dráma	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	dočkala	dočkať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+13	aj	aj	PART	T	_	15	advmod:emph	_	_
+14	divadelného	divadelný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	spracovania	spracovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	11	obj	_	_
+16	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s42
+# text = * Děvka z města Théby ( 1967 zverejnená v májovom čísle Divadla 18 , v tom istom roku uvedená v Národnom divadle v Prahe ) – pôvodna divadelná hra , satirická variácia na antickú tému Antigony .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#42
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Děvka	děvka	X	%	Foreign=Yes	0	root	_	_
+3	z	z	X	%	Foreign=Yes	4	case	_	_
+4	města	města	X	%	Foreign=Yes	2	flat:foreign	_	_
+5	Théby	théby	X	%	Foreign=Yes	4	flat:foreign	_	_
+6	(	(	PUNCT	Z	_	2	punct	_	_
+7	1967	1967	NUM	0	NumForm=Digit	2	dep	_	_
+8	zverejnená	zverejnený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	conj	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+10	májovom	májový	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	čísle	číslo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+12	Divadla	divadlo	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	18	18	NUM	0	NumForm=Digit	12	nummod	_	_
+14	,	,	PUNCT	Z	_	19	punct	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+16	tom	ten	DET	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+17	istom	istý	DET	PAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Ind	18	det	_	_
+18	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+19	uvedená	uvedený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	conj	_	_
+20	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	22	case	_	_
+21	Národnom	národný	ADJ	AAns6x:r	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	divadle	divadlo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	19	obl	_	_
+23	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+24	Prahe	praha	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	22	nmod	_	_
+25	)	)	PUNCT	Z	_	2	punct	_	_
+26	–	–	PUNCT	Z	_	29	punct	_	_
+27	pôvodna	pôvodný	ADJ	AAfs1x:q	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Typo=Yes	29	amod	_	_
+28	divadelná	divadelný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	hra	hra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+30	,	,	PUNCT	Z	_	32	punct	_	_
+31	satirická	satirický	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	variácia	variácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	29	appos	_	_
+33	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	35	case	_	_
+34	antickú	antický	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
+35	tému	téma	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	32	nmod	_	_
+36	Antigony	antigona	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	_
+37	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s43
+# text = Kritika hru nešetrila [ 1 ] .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#43
+1	Kritika	kritika	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	hru	hra	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+3	nešetrila	šetriť	VERB	VLescf-	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+4	[	[	PUNCT	Z	_	3	punct	_	_
+5	1	1	NUM	0	NumForm=Digit	3	dep	_	_
+6	]	]	PUNCT	Z	_	3	punct	_	_
+7	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s44
+# text = * Obloha samej cvok ( 1967 ) – zbierka textov piesní pre brnenské Divadlo X .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#44
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Obloha	obloha	X	%	Foreign=Yes	0	root	_	_
+3	samej	samej	X	%	Foreign=Yes	4	xcomp	_	_
+4	cvok	cvok	X	%	Foreign=Yes	2	flat:foreign	_	_
+5	(	(	PUNCT	Z	_	2	punct	_	_
+6	1967	1967	NUM	0	NumForm=Digit	2	dep	_	_
+7	)	)	PUNCT	Z	_	2	punct	_	_
+8	–	–	PUNCT	Z	_	9	punct	_	_
+9	zbierka	zbierka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+10	textov	text	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	piesní	pieseň	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+13	brnenské	brnenský	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	Divadlo	divadlo	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	_
+15	X	x	X	W	Abbr=Yes	14	nmod	_	_
+16	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s45
+# text = * Záhadná věž v B . ( 1967 ) – zbierka historických mystifikácií .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#45
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Záhadná	záhadná	X	%	Foreign=Yes	0	root	_	_
+3	věž	věž	X	%	Foreign=Yes	2	flat:foreign	_	_
+4	v	v	X	%	Foreign=Yes	5	case	_	_
+5	B	b	X	%	Foreign=Yes	2	flat:foreign	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	(	(	PUNCT	Z	_	2	punct	_	_
+8	1967	1967	NUM	0	NumForm=Digit	2	dep	_	_
+9	)	)	PUNCT	Z	_	2	punct	_	_
+10	–	–	PUNCT	Z	_	11	punct	_	_
+11	zbierka	zbierka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+12	historických	historický	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_
+13	mystifikácií	mystifikácia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+14	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s46
+# text = * Ten , který přichází ( 1968 ) – rozhlasová hra .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#46
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Ten	ten	X	%	Foreign=Yes	0	root	_	_
+3	,	,	PUNCT	Z	_	5	punct	_	_
+4	který	který	X	%	Foreign=Yes	5	nsubj	_	_
+5	přichází	přichází	X	%	Foreign=Yes	2	flat:foreign	_	_
+6	(	(	PUNCT	Z	_	2	punct	_	_
+7	1968	1968	NUM	0	NumForm=Digit	2	dep	_	_
+8	)	)	PUNCT	Z	_	2	punct	_	_
+9	–	–	PUNCT	Z	_	11	punct	_	_
+10	rozhlasová	rozhlasový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	hra	hra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+12	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s47
+# text = * Parta ( 1969 ) – rozhlasová hra
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#47
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Parta	parta	X	%	Foreign=Yes	0	root	_	_
+3	(	(	PUNCT	Z	_	2	punct	_	_
+4	1969	1969	NUM	0	NumForm=Digit	2	dep	_	_
+5	)	)	PUNCT	Z	_	2	punct	_	_
+6	–	–	PUNCT	Z	_	8	punct	_	_
+7	rozhlasová	rozhlasový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	hra	hra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+
+# sent_id = s48
+# text = * Šach ‐ mat , Vaše Výsosti ( 1969 )
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#48
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Šach	šach	X	%	Foreign=Yes	0	root	_	_
+3	‐	‐	PUNCT	Z	_	4	punct	_	_
+4	mat	mat	X	%	Foreign=Yes	2	flat:foreign	_	_
+5	,	,	PUNCT	Z	_	2	punct	_	_
+6	Vaše	vaše	X	%	Foreign=Yes	2	dep	_	_
+7	Výsosti	výsosti	X	%	Foreign=Yes	6	flat:foreign	_	_
+8	(	(	PUNCT	Z	_	2	punct	_	_
+9	1969	1969	NUM	0	NumForm=Digit	2	dep	_	_
+10	)	)	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s49
+# text = * Vraždění ve Veracruz ( 1970 )
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#49
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Vraždění	vraždění	X	%	Foreign=Yes	0	root	_	_
+3	ve	ve	X	%	Foreign=Yes	4	case	_	_
+4	Veracruz	veracruz	X	%	Foreign=Yes	2	flat:foreign	_	_
+5	(	(	PUNCT	Z	_	2	punct	_	_
+6	1970	1970	NUM	0	NumForm=Digit	2	dep	_	_
+7	)	)	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s50
+# text = * Hra na holuba ( 1974 ) – pôvodna divadelná hra , vyšla v samizdate .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#50
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Hra	hra	X	%	Foreign=Yes	13	nsubj	_	_
+3	na	na	X	%	Foreign=Yes	4	case	_	_
+4	holuba	holuba	X	%	Foreign=Yes	2	flat:foreign	_	_
+5	(	(	PUNCT	Z	_	2	punct	_	_
+6	1974	1974	NUM	0	NumForm=Digit	2	dep	_	_
+7	)	)	PUNCT	Z	_	2	punct	_	_
+8	–	–	PUNCT	Z	_	11	punct	_	_
+9	pôvodna	pôvodný	ADJ	AAfs1x:q	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Typo=Yes	11	amod	_	_
+10	divadelná	divadelný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	hra	hra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+12	,	,	PUNCT	Z	_	11	punct	_	_
+13	vyšla	vyjsť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	samizdate	samizdat	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+16	.	.	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s51
+# text = * Balada pro banditu ( 1975 ) – muzikálová adaptácia divadelnej hry na tému Olbrachtovho Nikola Šuhaje Loupežníka , ktorú napísal pod menom Zdeňka Pospíšila pre Divadlo na provázku .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#51
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Balada	balada	X	%	Foreign=Yes	0	root	_	_
+3	pro	pro	X	%	Foreign=Yes	4	case	_	_
+4	banditu	banditu	X	%	Foreign=Yes	2	flat:foreign	_	_
+5	(	(	PUNCT	Z	_	2	punct	_	_
+6	1975	1975	NUM	0	NumForm=Digit	2	dep	_	_
+7	)	)	PUNCT	Z	_	2	punct	_	_
+8	–	–	PUNCT	Z	_	10	punct	_	_
+9	muzikálová	muzikálový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	adaptácia	adaptácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+11	divadelnej	divadelný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	hry	hra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+14	tému	téma	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+15	Olbrachtovho	olbrachtov	ADJ	AFms2x:r	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+16	Nikola	nikola	PROPN	SSms2:rq	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+17	Šuhaje	šuhaj	PROPN	SSms2:rq	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+18	Loupežníka	loupežník	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+19	,	,	PUNCT	Z	_	21	punct	_	_
+20	ktorú	ktorý	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	21	obj	_	_
+21	napísal	napísať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
+22	pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	23	case	_	_
+23	menom	meno	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	21	obl	_	_
+24	Zdeňka	zdeněk	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+25	Pospíšila	pospíšil	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+26	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	27	case	_	_
+27	Divadlo	divadlo	X	%	Foreign=Yes	21	advmod	_	_
+28	na	na	X	%	Foreign=Yes	29	case	_	_
+29	provázku	provázku	X	%	Foreign=Yes	27	flat:foreign	_	_
+30	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s52
+# text = Podľa tejto hry vznikol v roku 1978 aj rovnomenný film režiséra Vladimíra Sísa s Miroslavom Donutilom v hlavnej úlohe .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#52
+1	Podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	tejto	táto	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	hry	hra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+4	vznikol	vzniknúť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	1978	1978	NUM	0	NumForm=Digit	6	nummod	_	_
+8	aj	aj	PART	T	_	10	advmod:emph	_	_
+9	rovnomenný	rovnomenný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	film	film	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+11	režiséra	režisér	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+12	Vladimíra	vladimír	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+13	Sísa	sís	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+14	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	16	case	_	_
+15	Miroslavom	miroslav	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	nmod	_	_
+16	Donutilom	donutil	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	_
+17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+18	hlavnej	hlavný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	úlohe	úloha	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	_
+20	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s53
+# text = * Profesionální žena ( 1975 ) – scenár dramatizácie na námet Vladimíra Párala , ktorú napísal pod menom Zdeňka Pospíšila .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#53
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Profesionální	profesionální	X	%	Foreign=Yes	0	root	_	_
+3	žena	žena	X	%	Foreign=Yes	2	flat:foreign	_	_
+4	(	(	PUNCT	Z	_	2	punct	_	_
+5	1975	1975	NUM	0	NumForm=Digit	2	dep	_	_
+6	)	)	PUNCT	Z	_	2	punct	_	_
+7	–	–	PUNCT	Z	_	8	punct	_	_
+8	scenár	scenár	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+9	dramatizácie	dramatizácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+11	námet	námet	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
+12	Vladimíra	vladimír	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+13	Párala	páral	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	,	,	PUNCT	Z	_	16	punct	_	_
+15	ktorú	ktorý	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	16	obj	_	_
+16	napísal	napísať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	acl	_	_
+17	pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	18	case	_	_
+18	menom	meno	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	16	obl	_	_
+19	Zdeňka	zdeněk	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+20	Pospíšila	pospíšil	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s54
+# text = * Zubařovo pokušení ( 1976 ) – rozhlasová hra , vyšla v samizdate .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#54
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Zubařovo	zubařovo	X	%	Foreign=Yes	11	nsubj	_	_
+3	pokušení	pokušení	X	%	Foreign=Yes	2	flat:foreign	_	_
+4	(	(	PUNCT	Z	_	2	punct	_	_
+5	1976	1976	NUM	0	NumForm=Digit	2	dep	_	_
+6	)	)	PUNCT	Z	_	2	punct	_	_
+7	–	–	PUNCT	Z	_	9	punct	_	_
+8	rozhlasová	rozhlasový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	hra	hra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	vyšla	vyjsť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	samizdate	samizdat	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+14	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s55
+# text = * Pohádka máje ( 1976 , uvedené pod názvom Poslední leč ) – adaptácia Mrštíkovej divadelnej hry , napísal ju pod menom Zdeňka Pospíšila , ten však v roku 1980 emigroval a spoluprácu s Uhdem prezradil .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#55
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Pohádka	pohádka	X	%	Foreign=Yes	0	root	_	_
+3	máje	máje	X	%	Foreign=Yes	2	flat:foreign	_	_
+4	(	(	PUNCT	Z	_	2	punct	_	_
+5	1976	1976	NUM	0	NumForm=Digit	2	dep	_	_
+6	,	,	PUNCT	Z	_	2	punct	_	_
+7	uvedené	uvedený	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	dep	_	_
+8	pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+9	názvom	názov	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+10	Poslední	poslední	X	%	Foreign=Yes	9	nmod	_	_
+11	leč	leč	X	%	Foreign=Yes	10	flat:foreign	_	_
+12	)	)	PUNCT	Z	_	2	punct	_	_
+13	–	–	PUNCT	Z	_	14	punct	_	_
+14	adaptácia	adaptácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+15	Mrštíkovej	mrštíkov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+16	divadelnej	divadelný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	hry	hra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+18	,	,	PUNCT	Z	_	19	punct	_	_
+19	napísal	napísať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+20	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	22	case	_	_
+22	menom	meno	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	19	obl	_	_
+23	Zdeňka	zdeněk	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+24	Pospíšila	pospíšil	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+25	,	,	PUNCT	Z	_	31	punct	_	_
+26	ten	ten	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	31	nsubj	_	_
+27	však	však	PART	T	_	31	cc	_	_
+28	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	29	case	_	_
+29	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	31	obl	_	_
+30	1980	1980	NUM	0	NumForm=Digit	29	nummod	_	_
+31	emigroval	emigrovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	19	conj	_	_
+32	a	a	CCONJ	O	_	36	cc	_	_
+33	spoluprácu	spolupráca	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	36	obj	_	_
+34	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	35	case	_	_
+35	Uhdem	uhde	PROPN	SFms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	33	nmod	_	_
+36	prezradil	prezradiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	31	conj	_	_
+37	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s56
+# text = * Hodina obrany ( 1977 ) – televízna hra .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#56
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Hodina	hodina	X	%	Foreign=Yes	0	root	_	_
+3	obrany	obrany	X	%	Foreign=Yes	2	flat:foreign	_	_
+4	(	(	PUNCT	Z	_	2	punct	_	_
+5	1977	1977	NUM	0	NumForm=Digit	2	dep	_	_
+6	)	)	PUNCT	Z	_	2	punct	_	_
+7	–	–	PUNCT	Z	_	9	punct	_	_
+8	televízna	televízny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	hra	hra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+10	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s57
+# text = * Pán plamínků ( 1977 ) – pôvodná televízna hra , vyšla v samizdate .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#57
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Pán	pán	X	%	Foreign=Yes	12	nsubj	_	_
+3	plamínků	plamínků	X	%	Foreign=Yes	2	flat:foreign	_	_
+4	(	(	PUNCT	Z	_	2	punct	_	_
+5	1977	1977	NUM	0	NumForm=Digit	2	dep	_	_
+6	)	)	PUNCT	Z	_	2	punct	_	_
+7	–	–	PUNCT	Z	_	10	punct	_	_
+8	pôvodná	pôvodný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	televízna	televízny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	hra	hra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+11	,	,	PUNCT	Z	_	10	punct	_	_
+12	vyšla	vyjsť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	samizdate	samizdat	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+15	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s58
+# text = Motívom boli skutočné osudy niektorých disidentov , na ktorých bola zločinne zneužitá psychiatria .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#58
+1	Motívom	motív	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+2	boli	byť	AUX	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	cop	_	_
+3	skutočné	skutočný	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	osudy	osud	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+5	niektorých	niektorý	DET	PAmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	disidentov	disident	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	,	,	PUNCT	Z	_	12	punct	_	_
+8	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	ktorých	ktorý	DET	PAmp6	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur|PronType=Int,Rel	12	obl:arg	_	_
+10	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+11	zločinne	zločinne	ADV	Dx	Degree=Pos	12	advmod	_	_
+12	zneužitá	zneužitý	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
+13	psychiatria	psychiatria	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+14	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s59
+# text = * Jitřenka naší slávy ( 1977 ) – rozhlasová hra o živote Boženy Němcovej .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#59
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Jitřenka	jitřenka	X	%	Foreign=Yes	0	root	_	_
+3	naší	naší	X	%	Foreign=Yes	2	flat:foreign	_	_
+4	slávy	slávy	X	%	Foreign=Yes	3	flat:foreign	_	_
+5	(	(	PUNCT	Z	_	2	punct	_	_
+6	1977	1977	NUM	0	NumForm=Digit	2	dep	_	_
+7	)	)	PUNCT	Z	_	2	punct	_	_
+8	–	–	PUNCT	Z	_	10	punct	_	_
+9	rozhlasová	rozhlasový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	hra	hra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+11	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	živote	život	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+13	Boženy	božena	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+14	Němcovej	němcová	PROPN	SAfs2:r	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s60
+# text = * Modrý anděl ( 1979 ) – pôvodna rozhlasová hra , ktorá bola spracovana aj pre divadlo : monológ udavačky , ktorá zahrávajúc si so životmi druhých , porovnáva svoju situáciu s údelom anjela spravodlivosti , zaťaženého zodpovednosťou za osud ľudstva .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#60
+1	*	*	PUNCT	#	_	3	punct	_	_
+2	Modrý	modrý	X	%	Foreign=Yes	3	nsubj	_	_
+3	anděl	anděl	X	%	Foreign=Yes	0	root	_	_
+4	(	(	PUNCT	Z	_	3	punct	_	_
+5	1979	1979	NUM	0	NumForm=Digit	3	dep	_	_
+6	)	)	PUNCT	Z	_	3	punct	_	_
+7	–	–	PUNCT	Z	_	10	punct	_	_
+8	pôvodna	pôvodný	ADJ	AAfs1x:q	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Typo=Yes	10	amod	_	_
+9	rozhlasová	rozhlasový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	hra	hra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	_
+11	,	,	PUNCT	Z	_	14	punct	_	_
+12	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	14	nsubj:pass	_	_
+13	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	spracovana	spracovaný	ADJ	Gtfs1x:q	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Typo=Yes|VerbForm=Part|Voice=Pass	10	amod	_	_
+15	aj	aj	PART	T	_	17	advmod:emph	_	_
+16	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
+17	divadlo	divadlo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_
+18	:	:	PUNCT	Z	_	19	punct	_	_
+19	monológ	monológ	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
+20	udavačky	udavačka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	,	,	PUNCT	Z	_	23	punct	_	_
+22	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	29	nsubj	_	_
+23	zahrávajúc	zahrávať	VERB	VHe+	Aspect=Imp|Polarity=Pos|VerbForm=Conv	29	xcomp	_	_
+24	si	si	PRON	R	PronType=Prs|Reflex=Yes	23	expl:pv	_	_
+25	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	26	case	_	_
+26	životmi	život	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	23	obl:arg	_	_
+27	druhých	druhý	ADJ	NAmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|NumType=Ord	26	amod	_	_
+28	,	,	PUNCT	Z	_	23	punct	_	_
+29	porovnáva	porovnávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	acl	_	_
+30	svoju	svoj	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	31	det	_	_
+31	situáciu	situácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	29	iobj	_	_
+32	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	33	case	_	_
+33	údelom	údel	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	29	obl:arg	_	_
+34	anjela	anjel	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
+35	spravodlivosti	spravodlivosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	_
+36	,	,	PUNCT	Z	_	37	punct	_	_
+37	zaťaženého	zaťažený	ADJ	Gtms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	34	amod	_	_
+38	zodpovednosťou	zodpovednosť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	37	obj	_	_
+39	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	40	case	_	_
+40	osud	osud	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	38	nmod	_	_
+41	ľudstva	ľudstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	40	nmod	_	_
+42	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s61
+# text = * Velice tiché Ave ( 1981 ) – autobiografická retrospektívna rozhlasová hra .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#61
+1	*	*	PUNCT	#	_	3	punct	_	_
+2	Velice	velice	X	%	Foreign=Yes	3	advmod	_	_
+3	tiché	tiché	X	%	Foreign=Yes	0	root	_	_
+4	Ave	ave	X	%	Foreign=Yes	3	flat:foreign	_	_
+5	(	(	PUNCT	Z	_	3	punct	_	_
+6	1981	1981	NUM	0	NumForm=Digit	3	dep	_	_
+7	)	)	PUNCT	Z	_	3	punct	_	_
+8	–	–	PUNCT	Z	_	12	punct	_	_
+9	autobiografická	autobiografický	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+10	retrospektívna	retrospektívny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	rozhlasová	rozhlasový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	hra	hra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	_
+13	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s62
+# text = Vyšla v samizdate , neskôr bola spracovaná aj ako divadelná hra .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#62
+1	Vyšla	vyjsť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	samizdate	samizdat	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	_
+4	,	,	PUNCT	Z	_	7	punct	_	_
+5	neskôr	neskôr	ADV	Dx	Degree=Pos	7	advmod	_	_
+6	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	spracovaná	spracovaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	1	conj	_	_
+8	aj	aj	PART	T	_	11	advmod:emph	_	_
+9	ako	ako	SCONJ	O	_	11	mark	_	_
+10	divadelná	divadelný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	hra	hra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	xcomp	_	_
+12	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s63
+# text = * O divadle ( vychádzal 1986 – 9 ) – zborník , vychádzal v samizdate .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#63
+1	*	*	PUNCT	#	_	3	punct	_	_
+2	O	o	X	%	Foreign=Yes	0	root	_	_
+3	divadle	divadle	X	%	Foreign=Yes	2	dep	_	_
+4	(	(	PUNCT	Z	_	5	punct	_	_
+5	vychádzal	vychádzať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	parataxis	_	_
+6	1986	1986	NUM	0	NumForm=Digit	5	dep	_	_
+7	–	–	PUNCT	Z	_	8	punct	_	_
+8	9	9	NUM	0	NumForm=Digit	6	conj	_	_
+9	)	)	PUNCT	Z	_	5	punct	_	_
+10	–	–	PUNCT	Z	_	11	punct	_	_
+11	zborník	zborník	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+12	,	,	PUNCT	Z	_	13	punct	_	_
+13	vychádzal	vychádzať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	samizdate	samizdat	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+16	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s64
+# text = Uhde tu bol spoluautorom spolu s Josefom Topolom a Václavom Havlom .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#64
+1	Uhde	uhde	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	tu	tu	ADV	PD	PronType=Dem	4	advmod	_	_
+3	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	cop	_	_
+4	spoluautorom	spoluautor	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+5	spolu	spolu	ADV	Dx	Degree=Pos	8	case	_	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	5	fixed	_	_
+7	Josefom	josef	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	nmod	_	_
+8	Topolom	topol	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+9	a	a	CCONJ	O	_	11	cc	_	_
+10	Václavom	václav	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
+11	Havlom	havel	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	conj	_	_
+12	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s65
+# text = * Prodaný a prodaná ( 1987 ) – divadelná inscenácia stvarňuje osud Karla Sabinu , konflikt jednotlivca , politickej moci a spoločnosti .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#65
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Prodaný	prodaný	X	%	Foreign=Yes	0	root	_	_
+3	a	a	X	%	Foreign=Yes	4	cc	_	_
+4	prodaná	prodaná	X	%	Foreign=Yes	2	conj	_	_
+5	(	(	PUNCT	Z	_	2	punct	_	_
+6	1987	1987	NUM	0	NumForm=Digit	2	dep	_	_
+7	)	)	PUNCT	Z	_	2	punct	_	_
+8	–	–	PUNCT	Z	_	11	punct	_	_
+9	divadelná	divadelný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	inscenácia	inscenácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+11	stvarňuje	stvárňovať	VERB	VKesc+:q	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Typo=Yes|VerbForm=Fin	2	conj	_	_
+12	osud	osud	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	Karla	karel	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+14	Sabinu	sabina	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	,	,	PUNCT	Z	_	16	punct	_	_
+16	konflikt	konflikt	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	conj	_	_
+17	jednotlivca	jednotlivec	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	,	,	PUNCT	Z	_	20	punct	_	_
+19	politickej	politický	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	moci	moc	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	17	conj	_	_
+21	a	a	CCONJ	O	_	22	cc	_	_
+22	spoločnosti	spoločnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	17	conj	_	_
+23	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s66
+# text = Napísal pre Divadlo na provázku pod menami Petr Oslzlý a Peter Scherhaufer .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#66
+1	Napísal	napísať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+3	Divadlo	divadlo	X	%	Foreign=Yes	1	advmod	_	_
+4	na	na	X	%	Foreign=Yes	5	case	_	_
+5	provázku	provázku	X	%	Foreign=Yes	3	flat:foreign	_	_
+6	pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	7	case	_	_
+7	menami	meno	NOUN	SSnp7	Case=Ins|Gender=Neut|Number=Plur	1	obl	_	_
+8	Petr	petr	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+9	Oslzlý	oslzlý	PROPN	SAms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+10	a	a	CCONJ	O	_	12	cc	_	_
+11	Peter	peter	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_
+12	Scherhaufer	scherhaufer	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
+13	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s67
+# text = * Česká republiko , dobrý den ( Atlantis 1995 ) – prejavy z obdobia svojej činnosti vo vyššej politike , vybraných 50 článkov pre Denní Telegraf a rozhovory , ktoré vyvolali čitateľský ohlas .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#67
+1	*	*	PUNCT	#	_	5	punct	_	_
+2	Česká	česká	X	%	Foreign=Yes	5	dep	_	_
+3	republiko	republiko	X	%	Foreign=Yes	2	flat:foreign	_	_
+4	,	,	PUNCT	Z	_	5	punct	_	_
+5	dobrý	dobrý	X	%	Foreign=Yes	0	root	_	_
+6	den	den	X	%	Foreign=Yes	5	flat:foreign	_	_
+7	(	(	PUNCT	Z	_	5	punct	_	_
+8	Atlantis	atlantis	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	dep	_	_
+9	1995	1995	NUM	0	NumForm=Digit	5	dep	_	_
+10	)	)	PUNCT	Z	_	5	punct	_	_
+11	–	–	PUNCT	Z	_	12	punct	_	_
+12	prejavy	prejav	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	appos	_	_
+13	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+14	obdobia	obdobie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+15	svojej	svoj	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	_
+16	činnosti	činnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	19	case	_	_
+18	vyššej	vysoký	ADJ	AAfs6y	Case=Loc|Degree=Cmp|Gender=Fem|Number=Sing	19	amod	_	_
+19	politike	politika	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	_
+20	,	,	PUNCT	Z	_	22	punct	_	_
+21	vybraných	vybraný	ADJ	Gtip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	22	amod	_	_
+22	50	50	NUM	0	NumForm=Digit	12	conj	_	_
+23	článkov	článok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	25	case	_	_
+25	Denní	denní	X	%	Foreign=Yes	23	nmod	_	_
+26	Telegraf	telegraf	X	%	Foreign=Yes	25	flat:foreign	_	_
+27	a	a	CCONJ	O	_	28	cc	_	_
+28	rozhovory	rozhovor	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	conj	_	_
+29	,	,	PUNCT	Z	_	31	punct	_	_
+30	ktoré	ktorý	DET	PAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	31	nsubj	_	_
+31	vyvolali	vyvolať	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	28	acl	_	_
+32	čitateľský	čitateľský	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	ohlas	ohlas	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	_
+34	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s68
+# text = * Balada pro banditu a jiné hry na zapřenou ( Atlantis 2001 ) – zborník 10 titulov vydaných väčšinou pod cudzími menami ( Balada pro Banditu , Profesionální žena , Pohádka máje , Prodaný a prodaná , Jitřenka naší slávy , Nos a Plášť – úprava Gogoľovho námetu , Krásná rána – úprava Puškinovho námetu ) .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#68
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Balada	balada	X	%	Foreign=Yes	0	root	_	_
+3	pro	pro	X	%	Foreign=Yes	4	case	_	_
+4	banditu	banditu	X	%	Foreign=Yes	2	flat:foreign	_	_
+5	a	a	X	%	Foreign=Yes	6	cc	_	_
+6	jiné	jiné	X	%	Foreign=Yes	2	conj	_	_
+7	hry	hry	X	%	Foreign=Yes	6	flat:foreign	_	_
+8	na	na	X	%	Foreign=Yes	9	case	_	_
+9	zapřenou	zapřenou	X	%	Foreign=Yes	6	flat:foreign	_	_
+10	(	(	PUNCT	Z	_	2	punct	_	_
+11	Atlantis	atlantis	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	dep	_	_
+12	2001	2001	NUM	0	NumForm=Digit	2	dep	_	_
+13	)	)	PUNCT	Z	_	2	punct	_	_
+14	–	–	PUNCT	Z	_	15	punct	_	_
+15	zborník	zborník	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+16	10	10	NUM	0	NumForm=Digit	17	nummod	_	_
+17	titulov	titul	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+18	vydaných	vydaný	ADJ	Gtip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	17	amod	_	_
+19	väčšinou	väčšinou	ADV	Dx	Degree=Pos	22	advmod:emph	_	_
+20	pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	22	case	_	_
+21	cudzími	cudzí	ADJ	AAnp7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur	22	amod	_	_
+22	menami	meno	NOUN	SSnp7	Case=Ins|Gender=Neut|Number=Plur	18	obl	_	_
+23	(	(	PUNCT	Z	_	15	punct	_	_
+24	Balada	balada	X	%	Foreign=Yes	15	dep	_	_
+25	pro	pro	X	%	Foreign=Yes	26	case	_	_
+26	Banditu	banditu	X	%	Foreign=Yes	24	flat:foreign	_	_
+27	,	,	PUNCT	Z	_	28	punct	_	_
+28	Profesionální	profesionální	X	%	Foreign=Yes	24	conj	_	_
+29	žena	žena	X	%	Foreign=Yes	28	flat:foreign	_	_
+30	,	,	PUNCT	Z	_	31	punct	_	_
+31	Pohádka	pohádka	X	%	Foreign=Yes	24	conj	_	_
+32	máje	máje	X	%	Foreign=Yes	31	flat:foreign	_	_
+33	,	,	PUNCT	Z	_	34	punct	_	_
+34	Prodaný	prodaný	X	%	Foreign=Yes	24	conj	_	_
+35	a	a	X	%	Foreign=Yes	36	cc	_	_
+36	prodaná	prodaná	X	%	Foreign=Yes	34	conj	_	_
+37	,	,	PUNCT	Z	_	38	punct	_	_
+38	Jitřenka	jitřenka	X	%	Foreign=Yes	24	conj	_	_
+39	naší	naší	X	%	Foreign=Yes	38	flat:foreign	_	_
+40	slávy	slávy	X	%	Foreign=Yes	39	flat:foreign	_	_
+41	,	,	PUNCT	Z	_	42	punct	_	_
+42	Nos	nos	X	%	Foreign=Yes	24	conj	_	_
+43	a	a	X	%	Foreign=Yes	44	cc	_	_
+44	Plášť	plášť	X	%	Foreign=Yes	42	conj	_	_
+45	–	–	PUNCT	Z	_	46	punct	_	_
+46	úprava	úprava	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	42	appos	_	_
+47	Gogoľovho	gogoľov	ADJ	AFis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	48	amod	_	_
+48	námetu	námet	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	46	nmod	_	_
+49	,	,	PUNCT	Z	_	50	punct	_	_
+50	Krásná	krásná	X	%	Foreign=Yes	24	conj	_	_
+51	rána	rána	X	%	Foreign=Yes	50	flat:foreign	_	_
+52	–	–	PUNCT	Z	_	53	punct	_	_
+53	úprava	úprava	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	50	appos	_	_
+54	Puškinovho	puškinov	ADJ	AFis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	55	amod	_	_
+55	námetu	námet	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	53	nmod	_	_
+56	)	)	PUNCT	Z	_	15	punct	_	_
+57	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s69
+# text = * Zázrak v černém domě ( 2004 ) – hra napísaná pre Divadlo na Vinohradech v Prahe .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#69
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Zázrak	zázrak	X	%	Foreign=Yes	0	root	_	_
+3	v	v	X	%	Foreign=Yes	4	case	_	_
+4	černém	černém	X	%	Foreign=Yes	2	flat:foreign	_	_
+5	domě	domě	X	%	Foreign=Yes	4	flat:foreign	_	_
+6	(	(	PUNCT	Z	_	2	punct	_	_
+7	2004	2004	NUM	0	NumForm=Digit	2	dep	_	_
+8	)	)	PUNCT	Z	_	2	punct	_	_
+9	–	–	PUNCT	Z	_	10	punct	_	_
+10	hra	hra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+11	napísaná	napísaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	_	_
+12	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+13	Divadlo	divadlo	X	%	Foreign=Yes	11	advmod	_	_
+14	na	na	X	%	Foreign=Yes	15	case	_	_
+15	Vinohradech	vinohradech	X	%	Foreign=Yes	13	flat:foreign	_	_
+16	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	Prahe	praha	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	_
+18	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s70
+# text = * Na rozchodnou ( 2004 ) – televízna hra : odohráva sa v roku 1945 v období odsunu Nemcov z Brna .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#70
+1	*	*	PUNCT	#	_	3	punct	_	_
+2	Na	na	X	%	Foreign=Yes	3	case	_	_
+3	rozchodnou	rozchodnou	X	%	Foreign=Yes	0	root	_	_
+4	(	(	PUNCT	Z	_	3	punct	_	_
+5	2004	2004	NUM	0	NumForm=Digit	3	dep	_	_
+6	)	)	PUNCT	Z	_	3	punct	_	_
+7	–	–	PUNCT	Z	_	9	punct	_	_
+8	televízna	televízny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	hra	hra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	_
+10	:	:	PUNCT	Z	_	11	punct	_	_
+11	odohráva	odohrávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+15	1945	1945	NUM	0	NumForm=Digit	14	nummod	_	_
+16	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	období	obdobie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
+18	odsunu	odsun	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	Nemcov	nemec	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	21	case	_	_
+21	Brna	brno	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+22	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s71
+# text = * Nana ( 2005 ) – muzikál na tému Zolovej Nany je písaný pre hudobnú scénu Mestského divadla v Brne .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#71
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	Nana	nana	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	(	(	PUNCT	Z	_	2	punct	_	_
+4	2005	2005	NUM	0	NumForm=Digit	2	expl:pass	_	_
+5	)	)	PUNCT	Z	_	2	punct	_	_
+6	–	–	PUNCT	Z	_	13	punct	_	_
+7	muzikál	muzikál	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+8	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+9	tému	téma	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_
+10	Zolovej	zolov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	Nany	nana	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	písaný	písaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	conj	_	_
+14	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
+15	hudobnú	hudobný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	scénu	scéna	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	obl:arg	_	_
+17	Mestského	mestský	ADJ	AAns2x:r	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	divadla	divadlo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+19	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+20	Brne	brno	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	18	nmod	_	_
+21	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s72
+# text = Od roku 1952 prispieval tiež do periodík : Rovnosti , Hostu do domu , Literárních novin , Plamene , Kultury , Kulturní tvorby .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#72
+1	Od	od	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+3	1952	1952	NUM	0	NumForm=Digit	2	nummod	_	_
+4	prispieval	prispievať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	tiež	tiež	PART	T	_	7	advmod:emph	_	_
+6	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	periodík	periodikum	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	4	obl	_	_
+8	:	:	PUNCT	Z	_	9	punct	_	_
+9	Rovnosti	rovnosti	X	%	Foreign=Yes	7	appos	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	Hostu	hostu	X	%	Foreign=Yes	9	conj	_	_
+12	do	do	X	%	Foreign=Yes	13	case	_	_
+13	domu	domu	X	%	Foreign=Yes	11	flat:foreign	_	_
+14	,	,	PUNCT	Z	_	15	punct	_	_
+15	Literárních	literárních	X	%	Foreign=Yes	9	conj	_	_
+16	novin	novin	X	%	Foreign=Yes	15	flat:foreign	_	_
+17	,	,	PUNCT	Z	_	18	punct	_	_
+18	Plamene	plamene	X	%	Foreign=Yes	9	conj	_	_
+19	,	,	PUNCT	Z	_	20	punct	_	_
+20	Kultury	kultury	X	%	Foreign=Yes	9	conj	_	_
+21	,	,	PUNCT	Z	_	22	punct	_	_
+22	Kulturní	kulturní	X	%	Foreign=Yes	9	conj	_	_
+23	tvorby	tvorby	X	%	Foreign=Yes	22	flat:foreign	_	_
+24	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s73
+# text = Napísal celý rad textov pre brnenské Divadlo X .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#73
+1	Napísal	napísať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	celý	celý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	rad	rad	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+4	textov	text	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+6	brnenské	brnenský	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	Divadlo	divadlo	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	_
+8	X	x	X	W	Abbr=Yes	7	nmod	_	_
+9	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s74
+# text = Ocenenia
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#74
+1	Ocenenia	ocenenie	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
+
+# sent_id = s75
+# text = * cena Egona Hostovského
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#75
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	cena	cena	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	Egona	egon	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+4	Hostovského	hostovský	PROPN	SAms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+
+# sent_id = s76
+# text = * 1987 cena Toma Stopparda za hru Pán plamínků
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#76
+1	*	*	PUNCT	#	_	2	punct	_	_
+2	1987	1987	NUM	0	NumForm=Digit	0	root	_	_
+3	cena	cena	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	_
+4	Toma	tom	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+5	Stopparda	stoppard	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+7	hru	hra	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	dep	_	_
+8	Pán	pán	X	%	Foreign=Yes	7	nmod	_	_
+9	plamínků	plamínků	X	%	Foreign=Yes	8	flat:foreign	_	_
+
+# sent_id = s77
+# text = Citáty
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#77
+1	Citáty	citát	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+
+# sent_id = s78
+# text = * jeho krédo : Byť sám sebou a zodpovedať za to .
+# orig_file_sentence wiki-nove-084_mz_wiki-nove-084_kandracova#78
+1	*	*	PUNCT	#	_	3	punct	_	_
+2	jeho	jeho	DET	PUns1	Case=Nom|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	krédo	krédo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+4	:	:	PUNCT	Z	_	7	punct	_	_
+5	Byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	7	cop	_	_
+6	sám	sám	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	7	xcomp	_	_
+7	sebou	seba	PRON	PPhs7	Case=Ins|Number=Sing|PronType=Prs|Reflex=Yes	3	appos	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	zodpovedať	zodpovedať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	7	conj	_	_
+10	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+11	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	9	obl:arg	_	_
+12	.	.	PUNCT	Z	_	3	punct	_	_
+

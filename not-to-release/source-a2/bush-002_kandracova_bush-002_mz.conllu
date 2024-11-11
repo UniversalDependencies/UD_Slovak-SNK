@@ -1,0 +1,394 @@
+# sent_id = s1
+# text = 4 . septembra 1976 zastavila Busha polícia blízko letoviska jeho rodiny v Maine .
+# orig_file_sentence bush-002_kandracova_bush-002_mz#1
+1	4	4	NUM	0	NumForm=Digit	3	nummod	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+3	septembra	september	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+4	1976	1976	NUM	0	NumForm=Digit	3	nummod	_	_
+5	zastavila	zastaviť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	Busha	bush	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	polícia	polícia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+8	blízko	blízko	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	letoviska	letovisko	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+10	jeho	jeho	DET	PUfs2	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	rodiny	rodina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	Maine	maine	PROPN	SUis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+14	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s2
+# text = Bol zatknutý za riadenie auta pod vplyvom alkoholu .
+# orig_file_sentence bush-002_kandracova_bush-002_mz#2
+1	Bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	aux:pass	_	_
+2	zatknutý	zatknutý	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+3	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	riadenie	riadenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
+5	auta	auto	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	7	case	_	_
+7	vplyvom	vplyv	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	nmod	_	_
+8	alkoholu	alkohol	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s3
+# text = Bush priznal svoju vinu , zaplatil pokutu 150 dolárov a na dobu 30 dní mu bol odobratý vodičský preukaz v rámci štátu .
+# orig_file_sentence bush-002_kandracova_bush-002_mz#3
+1	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	priznal	priznať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	svoju	svoj	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	4	det	_	_
+4	vinu	vina	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	,	,	PUNCT	Z	_	6	punct	_	_
+6	zaplatil	zaplatiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+7	pokutu	pokuta	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	150	150	NUM	0	NumForm=Digit	7	nummod	_	_
+9	dolárov	dolár	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	a	a	CCONJ	O	_	17	cc	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	dobu	doba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
+13	30	30	NUM	0	NumForm=Digit	12	nummod	_	_
+14	dní	deň	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+16	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	17	aux:pass	_	_
+17	odobratý	odobratý	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	conj	_	_
+18	vodičský	vodičský	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	preukaz	preukaz	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+20	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	_	_
+21	rámci	rámec	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+22	štátu	štát	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s4
+# text = Správy týkajúce sa tohto zatknutia objavila tlač 5 dní pred prezidentskými voľbami v roku 2000 .
+# orig_file_sentence bush-002_kandracova_bush-002_mz#4
+1	Správy	správa	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+2	týkajúce	týkajúci	ADJ	Gkfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	1	amod	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+4	tohto	toto	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
+5	zatknutia	zatknutie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	2	obj	_	_
+6	objavila	objaviť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	tlač	tlač	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+8	5	5	NUM	0	NumForm=Digit	12	obl	_	_
+9	dní	deň	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	12	case	_	_
+11	prezidentskými	prezidentský	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	_
+12	voľbami	voľba	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	6	obl	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_
+15	2000	2000	NUM	0	NumForm=Digit	14	nummod	_	_
+16	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s5
+# text = Bush označil dni predchádzajúce náboženskej konverzii ako svoje „ nomádske ” obdobie a „ nezodpovednú mladosť ” .
+# orig_file_sentence bush-002_kandracova_bush-002_mz#5
+1	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	označil	označiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	dni	deň	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+4	predchádzajúce	predchádzajúci	ADJ	Gkip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	3	amod	_	_
+5	náboženskej	náboženský	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	konverzii	konverzia	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	4	obj	_	_
+7	ako	ako	SCONJ	O	_	12	cc	_	_
+8	svoje	svoj	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	_	_
+9	„	„	PUNCT	Z	_	10	punct	_	_
+10	nomádske	nomádsky	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+11	”	”	PUNCT	Z	_	10	punct	_	_
+12	obdobie	obdobie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	3	xcomp	_	_
+13	a	a	CCONJ	O	_	16	cc	_	_
+14	„	„	PUNCT	Z	_	16	punct	_	_
+15	nezodpovednú	nezodpovedný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	mladosť	mladosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	conj	_	_
+17	”	”	PUNCT	Z	_	16	punct	_	_
+18	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s6
+# text = Priznal , že v tých dňoch pil „ príliš ” .
+# orig_file_sentence bush-002_kandracova_bush-002_mz#6
+1	Priznal	priznať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	,	,	PUNCT	Z	_	7	punct	_	_
+3	že	že	SCONJ	O	_	7	mark	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+5	tých	ten	DET	PFip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	dňoch	deň	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	_
+7	pil	piť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	ccomp	_	_
+8	„	„	PUNCT	Z	_	9	punct	_	_
+9	príliš	príliš	ADV	Dx	Degree=Pos	7	advmod	_	_
+10	”	”	PUNCT	Z	_	9	punct	_	_
+11	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s7
+# text = „ Prestal som piť v roku 1986 a odvtedy som nevypil ani kvapku ” .
+# orig_file_sentence bush-002_kandracova_bush-002_mz#7
+1	„	„	PUNCT	Z	_	2	punct	_	_
+2	Prestal	prestať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	aux	_	_
+4	piť	piť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+7	1986	1986	NUM	0	NumForm=Digit	6	nummod	_	_
+8	a	a	CCONJ	O	_	11	cc	_	_
+9	odvtedy	odvtedy	ADV	PD	PronType=Dem	11	advmod	_	_
+10	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	nevypil	vypiť	VERB	VLdscm-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	2	conj	_	_
+12	ani	ani	PART	T	_	13	advmod:emph	_	_
+13	kvapku	kvapka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	”	”	PUNCT	Z	_	2	punct	_	_
+15	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s8
+# text = Túto zmenu sčasti pripísal stretnutiu s reverendom Billym Grahamom v roku 1985 .
+# orig_file_sentence bush-002_kandracova_bush-002_mz#8
+1	Túto	táto	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	zmenu	zmena	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+3	sčasti	sčasti	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	pripísal	pripísať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	stretnutiu	stretnutie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	4	iobj	_	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+7	reverendom	reverend	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_
+8	Billym	billy	PROPN	SFms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_
+9	Grahamom	graham	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+12	1985	1985	NUM	0	NumForm=Digit	11	nummod	_	_
+13	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s9
+# text = V roku 1977 sa oženil s Laurou Welchovou .
+# orig_file_sentence bush-002_kandracova_bush-002_mz#9
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	1977	1977	NUM	0	NumForm=Digit	2	nummod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	oženil	oženiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+7	Laurou	laura	PROPN	SSfs7:r	Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	_
+8	Welchovou	welchová	PROPN	SAfs7:r	Case=Ins|Gender=Fem|Number=Sing	5	obl:arg	_	_
+9	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s10
+# text = V roku 1981 sa im narodili dievčatá dvojičky Barbara a Jenna .
+# orig_file_sentence bush-002_kandracova_bush-002_mz#10
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	1981	1981	NUM	0	NumForm=Digit	2	nummod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+5	im	on	PRON	PFmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+6	narodili	narodiť	VERB	VLdpcn+	Aspect=Perf|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	dievčatá	dievča	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	9	nmod	_	_
+8	dvojičky	dvojička	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	9	nmod	_	_
+9	Barbara	barbara	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+10	a	a	CCONJ	O	_	11	cc	_	_
+11	Jenna	jenna	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	_
+12	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s11
+# text = V roku 1986 vo veku 40 rokov opustil Episkopálnu cirkev a pripojil sa k cirkvi svojej manželky , Spojenej metodistickej cirkvi .
+# orig_file_sentence bush-002_kandracova_bush-002_mz#11
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+3	1986	1986	NUM	0	NumForm=Digit	2	nummod	_	_
+4	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	5	case	_	_
+5	veku	vek	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+6	40	40	NUM	0	NumForm=Digit	5	nummod	_	_
+7	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	opustil	opustiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	Episkopálnu	episkopálny	ADJ	AAfs4x:r	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	cirkev	cirkev	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	pripojil	pripojiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	conj	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+14	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	15	case	_	_
+15	cirkvi	cirkev	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	12	obl:arg	_	_
+16	svojej	svoj	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	17	det	_	_
+17	manželky	manželka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	,	,	PUNCT	Z	_	21	punct	_	_
+19	Spojenej	spojený	ADJ	Gtfs3x:r	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	21	amod	_	_
+20	metodistickej	metodistický	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	cirkvi	cirkev	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	17	appos	_	_
+22	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s12
+# text = Podnikateľská kariéra a politické začiatky
+# orig_file_sentence bush-002_kandracova_bush-002_mz#12
+1	Podnikateľská	podnikateľský	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	kariéra	kariéra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	a	a	CCONJ	O	_	5	cc	_	_
+4	politické	politický	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+5	začiatky	začiatok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	_
+
+# sent_id = s13
+# text = V roku 1978 sa Bush uchádzal o post v Snemovni reprezentantov USA , ale prehral v súboji s demokratickým protivníkom , senátorom Kentom Hanceom .
+# orig_file_sentence bush-002_kandracova_bush-002_mz#13
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	1978	1978	NUM	0	NumForm=Digit	2	nummod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+5	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	uchádzal	uchádzať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+8	post	post	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl:arg	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	Snemovni	snemovňa	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
+11	reprezentantov	reprezentant	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	USA	usa	X	W	Abbr=Yes	11	nmod	_	_
+13	,	,	PUNCT	Z	_	15	punct	_	_
+14	ale	ale	CCONJ	O	_	15	cc	_	_
+15	prehral	prehrať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+16	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	súboji	súboj	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+18	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	20	case	_	_
+19	demokratickým	demokratický	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	protivníkom	protivník	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	obl:arg	_	_
+21	,	,	PUNCT	Z	_	24	punct	_	_
+22	senátorom	senátor	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	nmod	_	_
+23	Kentom	kent	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	nmod	_	_
+24	Hanceom	hance	PROPN	SFms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	20	appos	_	_
+25	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s14
+# text = Začal teda svoju kariéru v oblasti ropného priemyslu založením podniku Arbusto Energy , zameraným na hľadanie a ťažbu ropy a zemného plynu .
+# orig_file_sentence bush-002_kandracova_bush-002_mz#14
+1	Začal	začať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	teda	teda	PART	T	_	1	advmod	_	_
+3	svoju	svoj	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	4	det	_	_
+4	kariéru	kariéra	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	oblasti	oblasť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	1	obl	_	_
+7	ropného	ropný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	priemyslu	priemysel	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	založením	založenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	1	obl	_	_
+10	podniku	podnik	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	Arbusto	arbusto	X	%	Foreign=Yes	10	nmod	_	_
+12	Energy	energy	X	%	Foreign=Yes	11	flat:foreign	_	_
+13	,	,	PUNCT	Z	_	14	punct	_	_
+14	zameraným	zameraný	ADJ	Gtis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	_	_
+15	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
+16	hľadanie	hľadanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	14	obl:arg	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	ťažbu	ťažba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	16	conj	_	_
+19	ropy	ropa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+20	a	a	CCONJ	O	_	22	cc	_	_
+21	zemného	zemný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	plynu	plyn	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	conj	_	_
+23	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s15
+# text = Tento podnik musel čeliť energetickej kríze v roku 1979 .
+# orig_file_sentence bush-002_kandracova_bush-002_mz#15
+1	Tento	tento	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	podnik	podnik	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	musel	musieť	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	čeliť	čeliť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+5	energetickej	energetický	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	kríze	kríza	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	4	obj	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+9	1979	1979	NUM	0	NumForm=Digit	8	nummod	_	_
+10	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s16
+# text = Po tom , čo Bush zmenil meno podniku na Bush Exploration , ho v roku 1984 predal konkurenčnej firme Spektrum 7 .
+# orig_file_sentence bush-002_kandracova_bush-002_mz#16
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	tom	to	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	17	obl	_	_
+3	,	,	PUNCT	Z	_	6	punct	_	_
+4	čo	čo	SCONJ	O	_	6	mark	_	_
+5	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	zmenil	zmeniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	acl	_	_
+7	meno	meno	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	podniku	podnik	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+10	Bush	bush	X	%	Foreign=Yes	6	obl:arg	_	_
+11	Exploration	exploration	X	%	Foreign=Yes	10	flat:foreign	_	_
+12	,	,	PUNCT	Z	_	2	punct	_	_
+13	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+16	1984	1984	NUM	0	NumForm=Digit	15	nummod	_	_
+17	predal	predať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+18	konkurenčnej	konkurenčný	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	firme	firma	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	17	iobj	_	_
+20	Spektrum	spektrum	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	19	nmod	_	_
+21	7	7	NUM	0	NumForm=Digit	20	nummod	_	_
+22	.	.	PUNCT	Z	_	17	punct	_	_
+
+# sent_id = s17
+# text = Súčasťou podmienok predajnej zmluvy bolo , že sa Bush stane generálnym riaditeľom ( CEO ) tejto firmy .
+# orig_file_sentence bush-002_kandracova_bush-002_mz#17
+1	Súčasťou	súčasť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+2	podmienok	podmienka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+3	predajnej	predajný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	zmluvy	zmluva	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	cop	_	_
+6	,	,	PUNCT	Z	_	10	punct	_	_
+7	že	že	SCONJ	O	_	10	mark	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+9	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	stane	stať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	csubj	_	_
+11	generálnym	generálny	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	riaditeľom	riaditeľ	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obj	_	_
+13	(	(	PUNCT	Z	_	14	punct	_	_
+14	CEO	ceo	X	W	Abbr=Yes	12	appos	_	_
+15	)	)	PUNCT	Z	_	14	punct	_	_
+16	tejto	táto	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	firmy	firma	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+18	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s18
+# text = S podobným scenárom sa firma zlúčila v roku 1986 s Harken Energy Corporation , ktorej riaditeľom sa stal opäť George W . Bush .
+# orig_file_sentence bush-002_kandracova_bush-002_mz#18
+1	S	s	ADP	Eu7	AdpType=Prep|Case=Ins	3	case	_	_
+2	podobným	podobný	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	scenárom	scenár	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+5	firma	firma	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	zlúčila	zlúčiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+9	1986	1986	NUM	0	NumForm=Digit	8	nummod	_	_
+10	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	11	case	_	_
+11	Harken	harken	X	%	Foreign=Yes	6	obl:arg	_	_
+12	Energy	energy	X	%	Foreign=Yes	11	flat:foreign	_	_
+13	Corporation	corporation	X	%	Foreign=Yes	11	flat:foreign	_	_
+14	,	,	PUNCT	Z	_	18	punct	_	_
+15	ktorej	ktorý	DET	PAfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Int,Rel	16	amod	_	_
+16	riaditeľom	riaditeľ	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	obj	_	_
+17	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	18	expl:pv	_	_
+18	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	acl	_	_
+19	opäť	opäť	ADV	Dx	Degree=Pos	18	advmod	_	_
+20	George	george	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nmod	_	_
+21	W	w	X	W	Abbr=Yes	23	nmod	_	_
+22	.	.	PUNCT	Z	_	21	punct	_	_
+23	Bush	bush	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+24	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s19
+# text = Niektorí obviňujú preto jeho otca ( v tom čase viceprezidenta USA ) , že vyvinul nátlak , aby sa niektoré údajne podozrivé prvky tohto predaja nestali predmetom vyšetrovania .
+# orig_file_sentence bush-002_kandracova_bush-002_mz#19
+1	Niektorí	niektorý	DET	PAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	_
+2	obviňujú	obviňovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	preto	preto	ADV	PD	PronType=Dem	2	advmod	_	_
+4	jeho	jeho	DET	PUms4	Animacy=Anim|Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	otca	otec	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+6	(	(	PUNCT	Z	_	10	punct	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+8	tom	ten	DET	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	čase	čas	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+10	viceprezidenta	viceprezident	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	appos	_	_
+11	USA	usa	X	W	Abbr=Yes	10	nmod	_	_
+12	)	)	PUNCT	Z	_	10	punct	_	_
+13	,	,	PUNCT	Z	_	15	punct	_	_
+14	že	že	SCONJ	O	_	15	mark	_	_
+15	vyvinul	vyvinúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	advcl	_	_
+16	nátlak	nátlak	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+17	,	,	PUNCT	Z	_	26	punct	_	_
+18	aby	aby	SCONJ	OY	Mood=Cnd	26	mark	_	_
+19	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	26	expl:pv	_	_
+20	niektoré	niektorý	DET	PAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	23	det	_	_
+21	údajne	údajne	PART	T	_	22	advmod	_	_
+22	podozrivé	podozrivý	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	_
+23	prvky	prvok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
+24	tohto	tento	DET	PFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
+25	predaja	predaj	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+26	nestali	stať	VERB	VLdpci-	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	15	advcl	_	_
+27	predmetom	predmet	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	26	obj	_	_
+28	vyšetrovania	vyšetrovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+29	.	.	PUNCT	Z	_	2	punct	_	_
+

@@ -1,0 +1,70 @@
+# sent_id = s1
+# text = Zviera , čo obýva zámok , ja naskutku skolím .
+# orig_file_sentence 042-kraa_olejkarova_042-kraa_bugajova#1
+1	Zviera	zviera	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+2	,	,	PUNCT	Z	_	4	punct	_	_
+3	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	_	_
+4	obýva	obývať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	acl	_	_
+5	zámok	zámok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	,	,	PUNCT	Z	_	4	punct	_	_
+7	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	naskutku	naskutku	ADV	Dx	Degree=Pos	9	advmod	_	_
+9	skolím	skoliť	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s2
+# text = Bele nastoknem prstienok , veľkú svadbu vystrojím .
+# orig_file_sentence 042-kraa_olejkarova_042-kraa_bugajova#2
+1	Bele	bela	PROPN	SSfs3:r	Case=Dat|Gender=Fem|Number=Sing	2	iobj	_	_
+2	nastoknem	nastoknúť	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	prstienok	prstienok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	,	,	PUNCT	Z	_	7	punct	_	_
+5	veľkú	veľký	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	svadbu	svadba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+7	vystrojím	vystrojiť	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s3
+# text = Celý svet vyvalí oči , keď Belu a Gastona zbadá taký pár málokde zočí , krásavci jedna balada .
+# orig_file_sentence 042-kraa_olejkarova_042-kraa_bugajova#3
+1	Celý	celý	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	svet	svet	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	vyvalí	vyvaliť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	oči	oko	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+5	,	,	PUNCT	Z	_	10	punct	_	_
+6	keď	keď	SCONJ	O	_	10	mark	_	_
+7	Belu	bela	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	Gastona	gaston	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	conj	_	_
+10	zbadá	zbadať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+11	taký	taký	DET	PAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	pár	pár	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+13	málokde	málokde	ADV	PD	PronType=Ind	14	advmod	_	_
+14	zočí	zočiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+15	,	,	PUNCT	Z	_	16	punct	_	_
+16	krásavci	krásavec	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	conj	_	_
+17	jedna	jeden	NUM	NFfs1	Case=Nom|Gender=Fem|Number=Sing	18	nummod	_	_
+18	balada	balada	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	16	orphan	_	_
+19	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s4
+# text = Lež jednu starosť mám , kto krajší je , čestne priznávam , Bela a či ja ?
+# orig_file_sentence 042-kraa_olejkarova_042-kraa_bugajova#4
+1	Lež	lež	SCONJ	O	_	4	cc	_	_
+2	jednu	jeden	NUM	NFfs4	Case=Acc|Gender=Fem|Number=Sing	3	nummod	_	_
+3	starosť	starosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+4	mám	mať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	kto	kto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	7	nsubj	_	_
+7	krajší	pekný	ADJ	AAms1y	Animacy=Anim|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	3	acl	_	_
+8	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	_
+9	,	,	PUNCT	Z	_	11	punct	_	_
+10	čestne	čestne	ADV	Dx	Degree=Pos	11	advmod	_	_
+11	priznávam	priznávať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+12	,	,	PUNCT	Z	_	13	punct	_	_
+13	Bela	bela	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	_
+14	a	a	CCONJ	O	_	16	cc	_	_
+15	či	či	CCONJ	O	_	16	cc	_	_
+16	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	conj	_	_
+17	?	?	PUNCT	Z	_	4	punct	_	_
+

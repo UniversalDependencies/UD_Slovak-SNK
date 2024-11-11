@@ -1,0 +1,431 @@
+# sent_id = s1
+# text = “ Konečne !
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#1
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Konečne	konečne	PART	T	_	0	root	_	_
+3	!	!	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s2
+# text = Je moja ! “ skríkla Uršuľa a položila si na hlavu zlatú kráľovskú korunu .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#2
+1	Je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	moja	môj	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	ccomp	_	_
+3	!	!	PUNCT	Z	_	2	punct	_	_
+4	“	“	PUNCT	Z	_	2	punct	_	_
+5	skríkla	skríknuť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	Uršuľa	uršuľa	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	položila	položiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+9	si	si	PRON	R	PronType=Prs|Reflex=Yes	8	iobj	_	_
+10	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+11	hlavu	hlava	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+12	zlatú	zlatý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+13	kráľovskú	kráľovský	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	korunu	koruna	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+15	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s3
+# text = Vzala si kráľov trojzubec a jeho zlatá žiara sa jej rozliala po tvári .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#3
+1	Vzala	vziať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	si	si	PRON	R	PronType=Prs|Reflex=Yes	1	iobj	_	_
+3	kráľov	kráľov	ADJ	AFis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	trojzubec	trojzubec	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+5	a	a	CCONJ	O	_	11	cc	_	_
+6	jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+7	zlatá	zlatý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	žiara	žiara	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+10	jej	ona	PRON	PFfs3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	rozliala	rozliať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+12	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	tvári	tvár	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+14	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s4
+# text = “ Ty . . . ty obluda ! “ trpko zaplakala Ariela a zaútočila na Uršuľu .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#4
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Ty	ty	PRON	PPhs1	Case=Nom|Number=Sing|Person=2|PronType=Prs	0	root	_	_
+3	.	.	PUNCT	Z	_	6	punct	_	_
+4	.	.	PUNCT	Z	_	6	punct	_	_
+5	.	.	PUNCT	Z	_	6	punct	_	_
+6	ty	ty	PRON	PPhs1	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	conj	_	_
+7	obluda	obluda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	_
+8	!	!	PUNCT	Z	_	2	punct	_	_
+9	“	“	PUNCT	Z	_	2	punct	_	_
+10	trpko	trpko	ADV	Dx	Degree=Pos	11	advmod	_	_
+11	zaplakala	zaplakať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	dep	_	_
+12	Ariela	ariela	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	zaútočila	zaútočiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	conj	_	_
+15	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
+16	Uršuľu	uršuľu	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	14	obl:arg	_	_
+17	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s5
+# text = Chcela morskú strigu schmatnúť za hrdlo , lenže tá ju šmarila o dno .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#5
+1	Chcela	chcieť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	morskú	morský	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	strigu	striga	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+4	schmatnúť	schmatnúť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	xcomp	_	_
+5	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	hrdlo	hrdlo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+7	,	,	PUNCT	Z	_	11	punct	_	_
+8	lenže	lenže	CCONJ	O	_	11	cc	_	_
+9	tá	tá	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	11	nsubj	_	_
+10	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	šmarila	šmariť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+12	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+13	dno	dno	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
+14	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s6
+# text = “ Nezahrávaj sa so mnou , ty šteňa ! “ zvrieskla Uršuľa a hrozivo zamávala trojzubcom .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#6
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Nezahrávaj	zahrávať	VERB	VMesb-	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin	11	ccomp	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+4	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	5	case	_	_
+5	mnou	ja	PRON	PPhs7	Case=Ins|Number=Sing|Person=1|PronType=Prs	2	obl:arg	_	_
+6	,	,	PUNCT	Z	_	2	punct	_	_
+7	ty	ty	PRON	PPhs1	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	dep	_	_
+8	šteňa	šteňa	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	7	nmod	_	_
+9	!	!	PUNCT	Z	_	2	punct	_	_
+10	“	“	PUNCT	Z	_	2	punct	_	_
+11	zvrieskla	zvriesknuť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	Uršuľa	uršuľa	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+13	a	a	CCONJ	O	_	15	cc	_	_
+14	hrozivo	hrozivo	ADV	Dx	Degree=Pos	15	advmod	_	_
+15	zamávala	zamávať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	conj	_	_
+16	trojzubcom	trojzubec	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	_
+17	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s7
+# text = “ Zmluva ‐ nezmluva , zničím ťa . . . “
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#7
+1	“	“	PUNCT	Z	_	6	punct	_	_
+2	Zmluva	zmluva	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	dep	_	_
+3	‐	-	PUNCT	Z	_	4	punct	_	_
+4	nezmluva	nezmluva	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
+5	,	,	PUNCT	Z	_	6	punct	_	_
+6	zničím	zničiť	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	ťa	ty	PRON	PPhs4	Case=Acc|Number=Sing|Person=2|PronType=Prs	6	obj	_	_
+8	.	.	PUNCT	Z	_	6	punct	_	_
+9	.	.	PUNCT	Z	_	6	punct	_	_
+10	.	.	PUNCT	Z	_	6	punct	_	_
+11	“	“	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s8
+# text = No nestihla dopovedať , do pleca sa jej zabodla harpúna .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#8
+1	No	no	CCONJ	O	_	2	cc	_	_
+2	nestihla	stihnúť	VERB	VLdscf-	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+3	dopovedať	dopovedať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
+4	,	,	PUNCT	Z	_	9	punct	_	_
+5	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	pleca	plece	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+8	jej	ona	PRON	PFfs3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	zabodla	zabodnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+10	harpúna	harpúna	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+11	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s9
+# text = Pocítila prenikavú , pálčivú bolesť .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#9
+1	Pocítila	pocítiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	prenikavú	prenikavý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	pálčivú	pálčivý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	conj	_	_
+5	bolesť	bolesť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+6	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s10
+# text = Obzrela sa a uvidela nad sebou plávať princa Erika .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#10
+1	Obzrela	obzrieť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	a	a	CCONJ	O	_	4	cc	_	_
+4	uvidela	uvidieť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+5	nad	nad	ADP	Eu7	AdpType=Prep|Case=Ins	6	case	_	_
+6	sebou	seba	PRON	PPhs7	Case=Ins|Number=Sing|PronType=Prs|Reflex=Yes	4	obl	_	_
+7	plávať	plávať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+8	princa	princ	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
+9	Erika	erik	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s11
+# text = “ Hlupák ! “ zrevala a chytila si poranenú ruku .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#11
+1	“	“	PUNCT	Z	_	5	punct	_	_
+2	Hlupák	hlupák	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	dep	_	_
+3	!	!	PUNCT	Z	_	5	punct	_	_
+4	“	“	PUNCT	Z	_	5	punct	_	_
+5	zrevala	zrevať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	chytila	chytiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+8	si	si	PRON	R	PronType=Prs|Reflex=Yes	7	iobj	_	_
+9	poranenú	poranený	ADJ	Gtfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	ruku	ruka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+11	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s12
+# text = “ Pozor , Erik ! “ zvolala Ariela , no Uršuľa okolo nej ovinula jedno zo svojich chápadiel a umlčala ju .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#12
+1	“	“	PUNCT	Z	_	7	punct	_	_
+2	Pozor	pozor	INTJ	J	_	7	dep	_	_
+3	,	,	PUNCT	Z	_	7	punct	_	_
+4	Erik	erik	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	dep	_	_
+5	!	!	PUNCT	Z	_	7	punct	_	_
+6	“	“	PUNCT	Z	_	7	punct	_	_
+7	zvolala	zvolať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	Ariela	ariela	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+9	,	,	PUNCT	Z	_	14	punct	_	_
+10	no	no	CCONJ	O	_	14	cc	_	_
+11	Uršuľa	uršuľa	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+12	okolo	okolo	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+13	nej	ona	PRON	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obl:arg	_	_
+14	ovinula	ovinúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+15	jedno	jeden	NUM	NFns4	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+16	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	18	case	_	_
+17	svojich	svoj	DET	PFnp2	Case=Gen|Gender=Neut|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	18	det	_	_
+18	chápadiel	chápadlo	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	_
+19	a	a	CCONJ	O	_	20	cc	_	_
+20	umlčala	umlčať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	conj	_	_
+21	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s13
+# text = “ Za ním ! “ zavelila morská striga svojim miláčikom , dvom morským murénam Herte a Sirache .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#13
+1	“	“	PUNCT	Z	_	6	punct	_	_
+2	Za	za	ADP	Eu7	AdpType=Prep|Case=Ins	3	case	_	_
+3	ním	on	PRON	PFms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	dep	_	_
+4	!	!	PUNCT	Z	_	6	punct	_	_
+5	“	“	PUNCT	Z	_	6	punct	_	_
+6	zavelila	zaveliť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	morská	morský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	striga	striga	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+9	svojim	svoj	DET	PFmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	_
+10	miláčikom	miláčik	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	obj	_	_
+11	,	,	PUNCT	Z	_	15	punct	_	_
+12	dvom	dva	NUM	NNfp3	Case=Dat|Gender=Fem|Number=Plur	14	nummod	_	_
+13	morským	morský	ADJ	AAfp3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
+14	murénam	muréna	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	15	nmod	_	_
+15	Herte	herta	PROPN	SSfs3:r	Case=Dat|Gender=Fem|Number=Sing	10	appos	_	_
+16	a	a	CCONJ	O	_	17	cc	_	_
+17	Sirache	siracha	PROPN	SSfs3:r	Case=Dat|Gender=Fem|Number=Sing	15	conj	_	_
+18	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s14
+# text = Princ Erik zúfalo plával preč , chcel sa dostať na hladinu , ale dlhým zeleným murénam nemohol uniknúť .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#14
+1	Princ	princ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Erik	erik	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	zúfalo	zúfalo	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	plával	plávať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	preč	preč	ADV	Dx	Degree=Pos	4	advmod	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	chcel	chcieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+9	dostať	dostať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	7	xcomp	_	_
+10	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+11	hladinu	hladina	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+12	,	,	PUNCT	Z	_	17	punct	_	_
+13	ale	ale	CCONJ	O	_	17	cc	_	_
+14	dlhým	dlhý	ADJ	AAfp3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	_
+15	zeleným	zelený	ADJ	AAfp3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	_
+16	murénam	muréna	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	18	obj	_	_
+17	nemohol	môcť	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	4	conj	_	_
+18	uniknúť	uniknúť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	17	xcomp	_	_
+19	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s15
+# text = Zajali ho .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#15
+1	Zajali	zajať	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s16
+# text = Uršuľa sa usmievala , keď princa ťahali na morské dno .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#16
+1	Uršuľa	uršuľa	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	usmievala	usmievať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	,	,	PUNCT	Z	_	7	punct	_	_
+5	keď	keď	SCONJ	O	_	7	mark	_	_
+6	princa	princ	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+7	ťahali	ťahať	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	3	advcl	_	_
+8	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+9	morské	morský	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	dno	dno	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
+11	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s17
+# text = Je to človek , a preto sa čoskoro utopí .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#17
+1	Je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	človek	človek	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	,	,	PUNCT	Z	_	9	punct	_	_
+5	a	a	CCONJ	O	_	9	cc	_	_
+6	preto	preto	ADV	PD	PronType=Dem	9	cc	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+8	čoskoro	čoskoro	ADV	Dx	Degree=Pos	9	advmod	_	_
+9	utopí	utopiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s18
+# text = Vtom spoza skaly zaútočili na murény Arielini priatelia ryba Fabius a rak Sebastián .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#18
+1	Vtom	vtom	ADV	Dx	Degree=Pos	4	advmod	_	_
+2	spoza	spoza	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+3	skaly	skala	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+4	zaútočili	zaútočiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	murény	muréna	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	4	obl:arg	_	_
+7	Arielini	arielin	ADJ	AFmp1x:r	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	priatelia	priateľ	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nmod	_	_
+9	ryba	ryba	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	10	nmod	_	_
+10	Fabius	fabius	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+11	a	a	CCONJ	O	_	13	cc	_	_
+12	rak	rak	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
+13	Sebastián	sebastián	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_
+14	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s19
+# text = Sebastián sa zakvačil Herte do chvosta a Fabius mocne plesol Sirachu chvostom do tváre .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#19
+1	Sebastián	sebastián	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	zakvačil	zakvačiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	Herte	herta	PROPN	SSfs3:r	Case=Dat|Gender=Fem|Number=Sing	3	obj	_	_
+5	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	chvosta	chvost	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+7	a	a	CCONJ	O	_	10	cc	_	_
+8	Fabius	fabius	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+9	mocne	mocne	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	plesol	plesnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+11	Sirachu	siracha	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	chvostom	chvost	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+13	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+14	tváre	tvár	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+15	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s20
+# text = Omráčené murény princa napokon pustili .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#20
+1	Omráčené	omráčený	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	murény	muréna	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+3	princa	princ	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+4	napokon	napokon	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	pustili	pustiť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s21
+# text = Striga Uršuľa sa však stále sebavedome vyškierala .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#21
+1	Striga	striga	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_
+2	Uršuľa	uršuľa	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+4	však	však	PART	T	_	7	advmod	_	_
+5	stále	stále	ADV	Dx	Degree=Pos	7	advmod	_	_
+6	sebavedome	sebavedome	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	vyškierala	vyškierať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s22
+# text = Arielini priatelia sú bezvýznamné morské červy !
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#22
+1	Arielini	arielin	ADJ	AFmp1x:r	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+2	priatelia	priateľ	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+3	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	bezvýznamné	bezvýznamný	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+5	morské	morský	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+6	červy	červ	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+7	!	!	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s23
+# text = Namierila na Erika žiarivý trojzubec , chcela ho zahubiť smrtiacimi bleskami .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#23
+1	Namierila	namieriť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+3	Erika	erik	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	obl:arg	_	_
+4	žiarivý	žiarivý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	trojzubec	trojzubec	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	chcela	chcieť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+8	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	zahubiť	zahubiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	7	xcomp	_	_
+10	smrtiacimi	smrtiaci	ADJ	AAip7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_
+11	bleskami	blesk	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	obl	_	_
+12	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s24
+# text = “ Rozlúč sa so svojím milým , “ posmievala sa Ariele .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#24
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Rozlúč	rozlúčiť	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+4	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	6	case	_	_
+5	svojím	svoj	DET	PFms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	_
+6	milým	milý	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	obl:arg	_	_
+7	,	,	PUNCT	Z	_	2	punct	_	_
+8	“	“	PUNCT	Z	_	2	punct	_	_
+9	posmievala	posmievať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	dep	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+11	Ariele	ariela	PROPN	SSfs3:r	Case=Dat|Gender=Fem|Number=Sing	9	obj	_	_
+12	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s25
+# text = Len čo chcela vychrliť blesky , Ariela sa na ňu vrhla a schmatla ju za biele vlasy .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#25
+1	Len	len	CCONJ	O	_	3	mark	_	_
+2	čo	čo	SCONJ	O	_	1	fixed	_	_
+3	chcela	chcieť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	advcl	_	_
+4	vychrliť	vychrliť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+5	blesky	blesk	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+6	,	,	PUNCT	Z	_	3	punct	_	_
+7	Ariela	ariela	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+9	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+10	ňu	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obl:arg	_	_
+11	vrhla	vrhnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	a	a	CCONJ	O	_	13	cc	_	_
+13	schmatla	schmatnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	conj	_	_
+14	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
+16	biele	biely	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_
+17	vlasy	vlas	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obl	_	_
+18	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s26
+# text = Trojzubec sa odchýlil iným smerom .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#26
+1	Trojzubec	trojzubec	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	odchýlil	odchýliť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	iným	iný	DET	PAis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	smerom	smer	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+6	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s27
+# text = Vyšľahol z neho blesk , no namiesto Erika zasiahol Sirachu a Hertu .
+# orig_file_sentence 038-ariel_olejkarova_038-ariel_bugajova#27
+1	Vyšľahol	vyšľahnúť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	1	advmod:emph	_	_
+3	neho	on	PRON	PFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+4	blesk	blesk	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+5	,	,	PUNCT	Z	_	9	punct	_	_
+6	no	no	CCONJ	O	_	9	cc	_	_
+7	namiesto	namiesto	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	Erika	erik	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+9	zasiahol	zasiahnuť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+10	Sirachu	siracha	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	Hertu	herta	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	_
+13	.	.	PUNCT	Z	_	1	punct	_	_
+

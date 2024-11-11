@@ -1,0 +1,296 @@
+# sent_id = s1
+# text = Prepad Cremony
+# orig_file_sentence wiki-33_kandracova_wiki-33_hudekova#1
+1	Prepad	prepad	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Cremony	cremona	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+
+# sent_id = s2
+# text = Prepad Cremony bol jedným z úspechov Habsburgovcov vo vojnách o španielske dedičstvo .
+# orig_file_sentence wiki-33_kandracova_wiki-33_hudekova#2
+1	Prepad	prepad	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	Cremony	cremony	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	cop	_	_
+4	jedným	jeden	NUM	NFis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+5	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	úspechov	úspech	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	Habsburgovcov	habsburg	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	9	case	_	_
+9	vojnách	vojna	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	4	obl	_	_
+10	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+11	španielske	španielsky	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	dedičstvo	dedičstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	_
+13	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s3
+# text = Išlo o pokus Eugena Savojského nečakaným útokom obsadiť mohutnú pevnosť Cremonu .
+# orig_file_sentence wiki-33_kandracova_wiki-33_hudekova#3
+1	Išlo	ísť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+3	pokus	pokus	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl:arg	_	_
+4	Eugena	eugen	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+5	Savojského	savojský	PROPN	SAms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	nečakaným	čakaný	ADJ	Gtis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	útokom	útok	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+8	obsadiť	obsadiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	acl	_	_
+9	mohutnú	mohutný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	pevnosť	pevnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_
+11	Cremonu	cremona	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+12	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s4
+# text = Plán síce nevyšiel a Eugen sa musel obsadenia mesta vzdať , ale celkovo nie je možné stretnutie hodnotiť ako neúspešné , pretože straty cisárskych vojsk boli zreteľne menšie .
+# orig_file_sentence wiki-33_kandracova_wiki-33_hudekova#4
+1	Plán	plán	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	síce	síce	CCONJ	O	_	3	cc	_	_
+3	nevyšiel	vyjsť	VERB	VLdsci-	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	CCONJ	O	_	7	cc	_	_
+5	Eugen	eugen	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+7	musel	musieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+8	obsadenia	obsadenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	10	obj	_	_
+9	mesta	mesto	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	vzdať	vzdať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	7	xcomp	_	_
+11	,	,	PUNCT	Z	_	16	punct	_	_
+12	ale	ale	CCONJ	O	_	16	cc	_	_
+13	celkovo	celkovo	ADV	Dx	Degree=Pos	16	advmod	_	_
+14	nie	nie	PART	T	_	16	advmod	_	_
+15	je	byť	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	možné	možný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	_
+17	stretnutie	stretnutie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+18	hodnotiť	hodnotiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	16	xcomp	_	_
+19	ako	ako	SCONJ	O	_	20	mark	_	_
+20	neúspešné	neúspešný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	obl	_	_
+21	,	,	PUNCT	Z	_	28	punct	_	_
+22	pretože	pretože	SCONJ	O	_	28	mark	_	_
+23	straty	strata	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	28	nsubj	_	_
+24	cisárskych	cisársky	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	25	amod	_	_
+25	vojsk	vojsko	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	23	nmod	_	_
+26	boli	byť	AUX	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	28	cop	_	_
+27	zreteľne	zreteľne	ADV	Dx	Degree=Pos	28	advmod	_	_
+28	menšie	malý	ADJ	AAfp1y	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	16	advcl	_	_
+29	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s5
+# text = Eugen získal bohatú korisť a na dôvažok zajal hlavného veliteľa francúzskych vojsk v Taliansku , vojvodu de Villeroya a väčšinu jeho štábu .
+# orig_file_sentence wiki-33_kandracova_wiki-33_hudekova#5
+1	Eugen	eugen	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	získal	získať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	bohatú	bohatý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	korisť	korisť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	a	a	CCONJ	O	_	8	cc	_	_
+6	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+7	dôvažok	dôvažok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+8	zajal	zajať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+9	hlavného	hlavný	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	veliteľa	veliteľ	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+11	francúzskych	francúzsky	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	12	amod	_	_
+12	vojsk	vojsko	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	Taliansku	taliansko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+15	,	,	PUNCT	Z	_	18	punct	_	_
+16	vojvodu	vojvoda	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	18	nmod	_	_
+17	de	de	X	Q	Hyph=Yes	18	nmod	_	_
+18	Villeroya	villeroy	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	appos	_	_
+19	a	a	CCONJ	O	_	20	cc	_	_
+20	väčšinu	väčšina	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	_
+21	jeho	jeho	DET	PUis2	Animacy=Inan|Case=Gen|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det	_	_
+22	štábu	štáb	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s6
+# text = Posledný triumf mal ale jeden neblahý následok : do Talianska prišli noví , podstatne lepší francúzski velitelia .
+# orig_file_sentence wiki-33_kandracova_wiki-33_hudekova#6
+1	Posledný	posledný	ADJ	NAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
+2	triumf	triumf	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	mal	mať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	ale	ale	CCONJ	O	_	11	cc	_	_
+5	jeden	jeden	NUM	NFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nummod	_	_
+6	neblahý	neblahý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	následok	následok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+8	:	:	PUNCT	Z	_	11	punct	_	_
+9	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	Talianska	taliansko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	11	obl	_	_
+11	prišli	prísť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+12	noví	nový	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_
+13	,	,	PUNCT	Z	_	15	punct	_	_
+14	podstatne	podstatne	ADV	Dx	Degree=Pos	15	advmod	_	_
+15	lepší	dobrý	ADJ	AAmp1y	Animacy=Anim|Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	12	conj	_	_
+16	francúzski	francúzsky	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_
+17	velitelia	veliteľ	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+18	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s7
+# text = Priebeh bitky
+# orig_file_sentence wiki-33_kandracova_wiki-33_hudekova#7
+1	Priebeh	priebeh	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	bitky	bitka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+
+# sent_id = s8
+# text = Rakúski granátnici sa v noci tajne vkradli do mesta vyschnutým kanálom , ktorého polohu im prezradil farár jedného z Cremonských kostolov , nečakaným útokom sa zmocnili strážnice a Brány sv . Margaréty a vpustili dovnútra ďalšie jednotky .
+# orig_file_sentence wiki-33_kandracova_wiki-33_hudekova#8
+1	Rakúski	rakúsky	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+2	granátnici	granátnik	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	noci	noc	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+6	tajne	tajne	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	vkradli	vkradnúť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	mesta	mesto	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+10	vyschnutým	vyschnutý	ADJ	Gtis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	kanálom	kanál	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+12	,	,	PUNCT	Z	_	16	punct	_	_
+13	ktorého	ktorý	DET	PAis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Int,Rel	16	iobj	_	_
+14	polohu	poloha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+15	im	on	PRON	PFmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	iobj	_	_
+16	prezradil	prezradiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	acl	_	_
+17	farár	farár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+18	jedného	jeden	NUM	NFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nummod	_	_
+19	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	21	case	_	_
+20	Cremonských	cremonský	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	_
+21	kostolov	kostol	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+22	,	,	PUNCT	Z	_	26	punct	_	_
+23	nečakaným	čakaný	ADJ	Gtis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	24	amod	_	_
+24	útokom	útok	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	26	obl	_	_
+25	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	26	expl:pv	_	_
+26	zmocnili	zmocniť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+27	strážnice	strážnica	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	26	obj	_	_
+28	a	a	CCONJ	O	_	29	cc	_	_
+29	Brány	brána	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	27	conj	_	_
+30	sv	sv	X	W	Abbr=Yes	32	nmod	_	_
+31	.	.	PUNCT	Z	_	30	punct	_	_
+32	Margaréty	margaréta	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_
+33	a	a	CCONJ	O	_	34	cc	_	_
+34	vpustili	vpustiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+35	dovnútra	dovnútra	ADV	Dx	Degree=Pos	34	advmod	_	_
+36	ďalšie	ďalší	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	37	amod	_	_
+37	jednotky	jednotka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	34	obj	_	_
+38	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s9
+# text = Rýchlo obsadili veľkú časť mesta , ale potom sa vyskytli veľké problémy .
+# orig_file_sentence wiki-33_kandracova_wiki-33_hudekova#9
+1	Rýchlo	rýchlo	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	obsadili	obsadiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	veľkú	veľký	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	časť	časť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	mesta	mesto	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	,	,	PUNCT	Z	_	10	punct	_	_
+7	ale	ale	CCONJ	O	_	10	cc	_	_
+8	potom	potom	ADV	Dx	Degree=Pos	10	advmod	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+10	vyskytli	vyskytnúť	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+11	veľké	veľký	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
+12	problémy	problém	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+13	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s10
+# text = Početne výrazne silnejšia francúzska posádka sa spamätala omnoho rýchlejšie , ako sa očakávalo , a odrazila pokus o rýchle dobytie citadely a keď divé husi ( Íri verní Jakubovi II . bojujúci vo francúzskych službách ) ubránili Pádsku bránu pred útokom druhej polovice Eugenových mužov , začalo byť zrejmé , že útok neuspel .
+# orig_file_sentence wiki-33_kandracova_wiki-33_hudekova#10
+1	Početne	početne	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	výrazne	výrazne	ADV	Dx	Degree=Pos	3	advmod	_	_
+3	silnejšia	silný	ADJ	AAfs1y	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	5	amod	_	_
+4	francúzska	francúzsky	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	posádka	posádka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+7	spamätala	spamätať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	omnoho	omnoho	ADV	Dx	Degree=Pos	9	advmod	_	_
+9	rýchlejšie	rýchlo	ADV	Dy	Degree=Cmp	7	advmod	_	_
+10	,	,	PUNCT	Z	_	13	punct	_	_
+11	ako	ako	SCONJ	O	_	13	mark	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pass	_	_
+13	očakávalo	očakávať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	advcl	_	_
+14	,	,	PUNCT	Z	_	16	punct	_	_
+15	a	a	CCONJ	O	_	16	cc	_	_
+16	odrazila	odraziť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+17	pokus	pokus	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+18	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	20	case	_	_
+19	rýchle	rýchly	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	dobytie	dobytie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	17	nmod	_	_
+21	citadely	citadela	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	a	a	CCONJ	O	_	47	cc	_	_
+23	keď	keď	SCONJ	O	_	37	mark	_	_
+24	divé	divý	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	_
+25	husi	hus	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	37	nsubj	_	_
+26	(	(	PUNCT	Z	_	27	punct	_	_
+27	Íri	ír	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	25	appos	_	_
+28	verní	verný	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	27	amod	_	_
+29	Jakubovi	jakub	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	28	obj	_	_
+30	II	ii	NUM	0	NumForm=Digit	29	nummod	_	_
+31	.	.	PUNCT	Z	_	30	punct	_	_
+32	bojujúci	bojujúci	ADJ	Gkmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	27	amod	_	_
+33	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	35	case	_	_
+34	francúzskych	francúzsky	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	35	amod	_	_
+35	službách	služba	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	32	obl	_	_
+36	)	)	PUNCT	Z	_	27	punct	_	_
+37	ubránili	ubrániť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	47	advcl	_	_
+38	Pádsku	pádska	ADJ	AAfs4x:r	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+39	bránu	brána	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	37	obj	_	_
+40	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	41	case	_	_
+41	útokom	útok	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	37	obl	_	_
+42	druhej	druhý	ADJ	NAfs2	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	43	amod	_	_
+43	polovice	polovica	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	_
+44	Eugenových	eugenov	ADJ	AFmp2x:r	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	45	amod	_	_
+45	mužov	muž	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	43	nmod	_	_
+46	,	,	PUNCT	Z	_	47	punct	_	_
+47	začalo	začať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+48	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	49	cop	_	_
+49	zrejmé	zrejmý	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	47	xcomp	_	_
+50	,	,	PUNCT	Z	_	53	punct	_	_
+51	že	že	SCONJ	O	_	53	mark	_	_
+52	útok	útok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	53	nsubj	_	_
+53	neuspel	uspieť	VERB	VLdsci-	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	49	ccomp	_	_
+54	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s11
+# text = Ku Cremone sa urýchlene začali sťahovať francúzske jednotky z okolia a hrozilo nebezpečie , že cisárski budú zovretí presilou v meste medzi hradbami a citadelou , a rozdrvení .
+# orig_file_sentence wiki-33_kandracova_wiki-33_hudekova#11
+1	Ku	k	ADP	Ev3	AdpType=Voc|Case=Dat	2	case	_	_
+2	Cremone	cremona	PROPN	SSfs3:r	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+4	urýchlene	urýchlene	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	začali	začať	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	sťahovať	sťahovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+7	francúzske	francúzsky	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	jednotky	jednotka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+9	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	okolia	okolie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	hrozilo	hroziť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+13	nebezpečie	nebezpečie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+14	,	,	PUNCT	Z	_	18	punct	_	_
+15	že	že	SCONJ	O	_	18	mark	_	_
+16	cisárski	cisársky	NOUN	SAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+17	budú	byť	AUX	VBepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	18	cop	_	_
+18	zovretí	zovretý	ADJ	Gtmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	13	acl	_	_
+19	presilou	presila	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	18	obl	_	_
+20	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	_	_
+21	meste	mesto	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	18	obl	_	_
+22	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	23	case	_	_
+23	hradbami	hradba	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	21	nmod	_	_
+24	a	a	CCONJ	O	_	25	cc	_	_
+25	citadelou	citadela	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	23	conj	_	_
+26	,	,	PUNCT	Z	_	28	punct	_	_
+27	a	a	CCONJ	O	_	28	cc	_	_
+28	rozdrvení	rozdrvený	ADJ	Gtmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	18	conj	_	_
+29	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s12
+# text = Eugen teda prikázal ustúpiť a s bohatou korisťou a asi 300 zajatcami Cremonu opustil .
+# orig_file_sentence wiki-33_kandracova_wiki-33_hudekova#12
+1	Eugen	eugen	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	teda	teda	PART	T	_	3	advmod	_	_
+3	prikázal	prikázať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	ustúpiť	ustúpiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+5	a	a	CCONJ	O	_	14	cc	_	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+7	bohatou	bohatý	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	korisťou	korisť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_
+9	a	a	CCONJ	O	_	12	cc	_	_
+10	asi	asi	PART	T	_	11	cc	_	_
+11	300	300	NUM	0	NumForm=Digit	12	nummod	_	_
+12	zajatcami	zajatec	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	8	conj	_	_
+13	Cremonu	cremona	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+14	opustil	opustiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+15	.	.	PUNCT	Z	_	3	punct	_	_
+

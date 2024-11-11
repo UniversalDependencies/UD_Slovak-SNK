@@ -1,0 +1,507 @@
+# sent_id = s1
+# text = Okupačné zóny Nemecka
+# orig_file_sentence wiki-nove-015_hudekova_wiki-nove-015_kandracova#1
+1	Okupačné	okupačný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
+2	zóny	zóna	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+3	Nemecka	nemecko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+
+# sent_id = s2
+# text = Po skončení druhej svetovej vojny bolo územie Nemecka ( bez území , ktoré pripadli Poľsku ) rozdelené do štyroch častí , takzvaných okupačných zón , spravovaných USA , Veľkou Britániou , Sovietskym zväzom a Francúzskom .
+# orig_file_sentence wiki-nove-015_hudekova_wiki-nove-015_kandracova#2
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	skončení	skončenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+3	druhej	druhý	ADJ	NAfs2	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+4	svetovej	svetový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	vojny	vojna	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+6	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	17	aux:pass	_	_
+7	územie	územie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	17	nsubj:pass	_	_
+8	Nemecka	nemecko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	(	(	PUNCT	Z	_	11	punct	_	_
+10	bez	bez	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+11	území	územie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+12	,	,	PUNCT	Z	_	14	punct	_	_
+13	ktoré	ktorý	DET	PAnp1	Case=Nom|Gender=Neut|Number=Plur|PronType=Int,Rel	14	nsubj	_	_
+14	pripadli	pripadnúť	VERB	VLdpcn+	Aspect=Perf|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	11	acl	_	_
+15	Poľsku	poľsko	PROPN	SSns3:r	Case=Dat|Gender=Neut|Number=Sing	14	obj	_	_
+16	)	)	PUNCT	Z	_	11	punct	_	_
+17	rozdelené	rozdelený	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+18	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+19	štyroch	štyri	NUM	NNfp2	Case=Gen|Gender=Fem|Number=Plur	20	nummod	_	_
+20	častí	časť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	17	obl	_	_
+21	,	,	PUNCT	Z	_	24	punct	_	_
+22	takzvaných	takzvaný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	_
+23	okupačných	okupačný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	_
+24	zón	zóna	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	20	appos	_	_
+25	,	,	PUNCT	Z	_	26	punct	_	_
+26	spravovaných	spravovaný	ADJ	Gtfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	24	amod	_	_
+27	USA	usa	X	W	Abbr=Yes	26	obj	_	_
+28	,	,	PUNCT	Z	_	30	punct	_	_
+29	Veľkou	veľký	ADJ	AAfs7x:r	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	Britániou	británia	PROPN	SSfs7:r	Case=Ins|Gender=Fem|Number=Sing	27	conj	_	_
+31	,	,	PUNCT	Z	_	33	punct	_	_
+32	Sovietskym	sovietsky	ADJ	AAis7x:r	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	zväzom	zväz	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	27	conj	_	_
+34	a	a	CCONJ	O	_	35	cc	_	_
+35	Francúzskom	francúzsko	PROPN	SSns7:r	Case=Ins|Gender=Neut|Number=Sing	27	conj	_	_
+36	.	.	PUNCT	Z	_	17	punct	_	_
+
+# sent_id = s3
+# text = Toto rozdelenie bolo zmluvne potvrdené Konferenciou štyroch mocností v Londýne ( 26 . júna – 8 . augusta 1945 ) .
+# orig_file_sentence wiki-nove-015_hudekova_wiki-nove-015_kandracova#3
+1	Toto	toto	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+2	rozdelenie	rozdelenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	_
+3	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+4	zmluvne	zmluvne	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	potvrdené	potvrdený	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+6	Konferenciou	konferencia	PROPN	SSfs7:r	Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+7	štyroch	štyri	NUM	NNfp2	Case=Gen|Gender=Fem|Number=Plur	8	nummod	_	_
+8	mocností	mocnosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	Londýne	londýn	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+11	(	(	PUNCT	Z	_	6	punct	_	_
+12	26	26	NUM	0	NumForm=Digit	14	nummod	_	_
+13	.	.	PUNCT	Z	_	12	punct	_	_
+14	júna	jún	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	dep	_	_
+15	–	–	PUNCT	Z	_	18	punct	_	_
+16	8	8	NUM	0	NumForm=Digit	18	nummod	_	_
+17	.	.	PUNCT	Z	_	16	punct	_	_
+18	augusta	august	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	conj	_	_
+19	1945	1945	NUM	0	NumForm=Digit	18	nummod	_	_
+20	)	)	PUNCT	Z	_	6	punct	_	_
+21	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s4
+# text = Na týchto územiach vznikli v jednotlivých zónach nasledujúce správne jednotky , odpovedajúce viac menej historickým krajinám a pruským provinciám :
+# orig_file_sentence wiki-nove-015_hudekova_wiki-nove-015_kandracova#4
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	týchto	toto	DET	PFnp6	Case=Loc|Gender=Neut|Number=Plur|PronType=Dem	3	det	_	_
+3	územiach	územie	NOUN	SSnp6	Case=Loc|Gender=Neut|Number=Plur	4	obl	_	_
+4	vznikli	vzniknúť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	jednotlivých	jednotlivý	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
+7	zónach	zóna	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	4	obl	_	_
+8	nasledujúce	nasledujúci	ADJ	Gkfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	10	amod	_	_
+9	správne	správny	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
+10	jednotky	jednotka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+11	,	,	PUNCT	Z	_	12	punct	_	_
+12	odpovedajúce	odpovedajúci	ADJ	Gkfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	10	amod	_	_
+13	viac	viac	PART	T	_	12	advmod	_	_
+14	menej	menej	PART	T	_	12	advmod	_	_
+15	historickým	historický	ADJ	AAfp3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	_
+16	krajinám	krajina	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	12	obj	_	_
+17	a	a	CCONJ	O	_	19	cc	_	_
+18	pruským	pruský	ADJ	AAfp3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
+19	provinciám	provincia	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	16	conj	_	_
+20	:	:	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s5
+# text = * americká zóna : Bavorsko , Bádensko ‐ Württembersko , Hesensko , Brémy
+# orig_file_sentence wiki-nove-015_hudekova_wiki-nove-015_kandracova#5
+1	*	*	PUNCT	#	_	3	punct	_	_
+2	americká	americký	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	zóna	zóna	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	:	:	PUNCT	Z	_	5	punct	_	_
+5	Bavorsko	bavorsko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	3	appos	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	Bádensko	bádensko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	_
+8	‐	‐	PUNCT	Z	_	9	punct	_	_
+9	Württembersko	württembersko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	7	conj	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	Hesensko	hesensko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	_
+12	,	,	PUNCT	Z	_	13	punct	_	_
+13	Brémy	brémy	PROPN	SSfp1:r	Case=Nom|Gender=Fem|Number=Plur	5	conj	_	_
+
+# sent_id = s6
+# text = * britská zóna : Dolné Sasko , Severné Porýnie ‐ Vestfálsko , Šlezvicko ‐ Holštajnsko , Hamburg
+# orig_file_sentence wiki-nove-015_hudekova_wiki-nove-015_kandracova#6
+1	*	*	PUNCT	#	_	3	punct	_	_
+2	britská	britský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	zóna	zóna	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	:	:	PUNCT	Z	_	6	punct	_	_
+5	Dolné	dolný	ADJ	AAns1x:r	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	Sasko	sasko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	3	appos	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	Severné	severný	ADJ	AAns1x:r	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	Porýnie	porýnie	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	6	conj	_	_
+10	‐	‐	PUNCT	Z	_	11	punct	_	_
+11	Vestfálsko	vestfálsko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	9	conj	_	_
+12	,	,	PUNCT	Z	_	13	punct	_	_
+13	Šlezvicko	šlezvicko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	6	conj	_	_
+14	‐	‐	PUNCT	Z	_	15	punct	_	_
+15	Holštajnsko	holštajnsko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	13	conj	_	_
+16	,	,	PUNCT	Z	_	17	punct	_	_
+17	Hamburg	hamburg	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+
+# sent_id = s7
+# text = * francúzska zóna : Porýnie ‐ Falcko , Bádensko , Württembersko ‐ Hohenzollernsko ( Sársko nebolo formálne okupované , malo zvláštny autonomný status )
+# orig_file_sentence wiki-nove-015_hudekova_wiki-nove-015_kandracova#7
+1	*	*	PUNCT	#	_	3	punct	_	_
+2	francúzska	francúzsky	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	zóna	zóna	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	:	:	PUNCT	Z	_	5	punct	_	_
+5	Porýnie	porýnie	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	3	appos	_	_
+6	‐	‐	PUNCT	Z	_	7	punct	_	_
+7	Falcko	falcko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	_
+8	,	,	PUNCT	Z	_	9	punct	_	_
+9	Bádensko	bádensko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	Württembersko	württembersko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	_
+12	‐	‐	PUNCT	Z	_	13	punct	_	_
+13	Hohenzollernsko	hohenzollernsko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	11	conj	_	_
+14	(	(	PUNCT	Z	_	3	punct	_	_
+15	Sársko	sársko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	18	nsubj:pass	_	_
+16	nebolo	byť	AUX	VLescn-	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	18	aux:pass	_	_
+17	formálne	formálne	ADV	Dx	Degree=Pos	18	advmod	_	_
+18	okupované	okupovaný	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	dep	_	_
+19	,	,	PUNCT	Z	_	20	punct	_	_
+20	malo	mať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	18	conj	_	_
+21	zvláštny	zvláštny	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+22	autonomný	autonómny	ADJ	AAis4x:q	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Typo=Yes	23	amod	_	_
+23	status	status	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+24	)	)	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s8
+# text = * sovietska zóna : Meklenbursko , Brandenbursko , Sasko , Sasko ‐ Anhaltsko , Durínsko
+# orig_file_sentence wiki-nove-015_hudekova_wiki-nove-015_kandracova#8
+1	*	*	PUNCT	#	_	3	punct	_	_
+2	sovietska	sovietsky	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	zóna	zóna	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	:	:	PUNCT	Z	_	5	punct	_	_
+5	Meklenbursko	meklenbursko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	3	appos	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	Brandenbursko	brandenbursko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	_
+8	,	,	PUNCT	Z	_	9	punct	_	_
+9	Sasko	sasko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	Sasko	sasko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	_
+12	‐	‐	PUNCT	Z	_	13	punct	_	_
+13	Anhaltsko	anhaltsko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	11	conj	_	_
+14	,	,	PUNCT	Z	_	15	punct	_	_
+15	Durínsko	durínsko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	_
+
+# sent_id = s9
+# text = Bizónia a trizónia
+# orig_file_sentence wiki-nove-015_hudekova_wiki-nove-015_kandracova#9
+1	Bizónia	bizónia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	a	a	CCONJ	O	_	3	cc	_	_
+3	trizónia	trizónia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+
+# sent_id = s10
+# text = Vzrastajúce nezhody medzi veľmocami o budúcnosti Nemecka viedli roku 1947 k vytvoreniu takzvanej bizónie ( dvojzóna , Bizone ) , teda k združeniu americkej a britskej okupačnej zóny .
+# orig_file_sentence wiki-nove-015_hudekova_wiki-nove-015_kandracova#10
+1	Vzrastajúce	vzrastajúci	ADJ	Gkfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	2	amod	_	_
+2	nezhody	nezhoda	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+3	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	4	case	_	_
+4	veľmocami	veľmoc	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	2	nmod	_	_
+5	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	budúcnosti	budúcnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+7	Nemecka	nemecko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	viedli	viesť	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+10	1947	1947	NUM	0	NumForm=Digit	9	nummod	_	_
+11	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	12	case	_	_
+12	vytvoreniu	vytvorenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
+13	takzvanej	takzvaný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	bizónie	bizónia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	(	(	PUNCT	Z	_	16	punct	_	_
+16	dvojzóna	dvojzóna	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	14	appos	_	_
+17	,	,	PUNCT	Z	_	18	punct	_	_
+18	Bizone	bizone	X	%	Foreign=Yes	16	conj	_	_
+19	)	)	PUNCT	Z	_	16	punct	_	_
+20	,	,	PUNCT	Z	_	23	punct	_	_
+21	teda	teda	CCONJ	O	_	23	cc	_	_
+22	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	23	case	_	_
+23	združeniu	združenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	12	appos	_	_
+24	americkej	americký	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+25	a	a	CCONJ	O	_	26	cc	_	_
+26	britskej	britský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	conj	_	_
+27	okupačnej	okupačný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	zóny	zóna	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+29	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s11
+# text = Príslušnú zmluvu podpísali 2 . decembra 1946 v New Yorku britský minister zahraničia Ernest Bevin a jeho americký kolega James F . Byrnes , do platnosti vstúpila 1 . januára 1947 .
+# orig_file_sentence wiki-nove-015_hudekova_wiki-nove-015_kandracova#11
+1	Príslušnú	príslušný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	zmluvu	zmluva	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+3	podpísali	podpísať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	2	2	NUM	0	NumForm=Digit	6	nummod	_	_
+5	.	.	PUNCT	Z	_	4	punct	_	_
+6	decembra	december	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+7	1946	1946	NUM	0	NumForm=Digit	6	nummod	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	New	new	X	Q	Hyph=Yes	3	advmod	_	_
+10	Yorku	york	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+11	britský	britský	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	minister	minister	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
+13	zahraničia	zahraničie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	Ernest	ernest	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
+15	Bevin	bevin	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+16	a	a	CCONJ	O	_	23	cc	_	_
+17	jeho	jeho	DET	PUms1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+18	americký	americký	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	kolega	kolega	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nmod	_	_
+20	James	james	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nmod	_	_
+21	F	f	X	W	Abbr=Yes	23	nmod	_	_
+22	.	.	PUNCT	Z	_	21	punct	_	_
+23	Byrnes	byrnes	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	conj	_	_
+24	,	,	PUNCT	Z	_	27	punct	_	_
+25	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	26	case	_	_
+26	platnosti	platnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	27	obl	_	_
+27	vstúpila	vstúpiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+28	1	1	NUM	0	NumForm=Digit	30	nummod	_	_
+29	.	.	PUNCT	Z	_	28	punct	_	_
+30	januára	január	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	obl	_	_
+31	1947	1947	NUM	0	NumForm=Digit	30	nummod	_	_
+32	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s12
+# text = Jedným z hlavných cieľov bolo vytvorenie predpokladov pre hospodársku obnovu vojnou zničeného Nemecka .
+# orig_file_sentence wiki-nove-015_hudekova_wiki-nove-015_kandracova#12
+1	Jedným	jeden	NUM	NFis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+2	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+3	hlavných	hlavný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	cieľov	cieľ	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+5	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	cop	_	_
+6	vytvorenie	vytvorenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
+7	predpokladov	predpoklad	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+9	hospodársku	hospodársky	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	obnovu	obnova	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_
+11	vojnou	vojna	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_
+12	zničeného	zničený	ADJ	Gtns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	Nemecka	nemecko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+14	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s13
+# text = Za týmto účelom bola 5 . až 11 . septembra 1946 vytvorená Hospodárska rada ( Wirtschaftsrat ) so sídlom v Mindenu a 10 . júna 1947 Správa zjednoteného hospodárskeho územia ( Verwaltung des Vereinigten Wirtschaftsgebiets ) so sídlom vo Frankfurte nad Mohanom .
+# orig_file_sentence wiki-nove-015_hudekova_wiki-nove-015_kandracova#13
+1	Za	za	ADP	Eu7	AdpType=Prep|Case=Ins	3	case	_	_
+2	týmto	tento	DET	PFis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	účelom	účel	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+4	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+5	5	5	NUM	0	NumForm=Digit	10	nummod	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	až	až	PART	T	_	8	cc	_	_
+8	11	11	NUM	0	NumForm=Digit	5	conj	_	_
+9	.	.	PUNCT	Z	_	8	punct	_	_
+10	septembra	september	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+11	1946	1946	NUM	0	NumForm=Digit	10	nummod	_	_
+12	vytvorená	vytvorený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+13	Hospodárska	hospodársky	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	rada	rada	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+15	(	(	PUNCT	Z	_	16	punct	_	_
+16	Wirtschaftsrat	wirtschaftsrat	X	%	Foreign=Yes	14	appos	_	_
+17	)	)	PUNCT	Z	_	16	punct	_	_
+18	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	19	case	_	_
+19	sídlom	sídlo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	14	nmod	_	_
+20	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	_	_
+21	Mindenu	minden	PROPN	SSis6:rq	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	_
+22	a	a	CCONJ	O	_	25	cc	_	_
+23	10	10	NUM	0	NumForm=Digit	25	nummod	_	_
+24	.	.	PUNCT	Z	_	23	punct	_	_
+25	júna	jún	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	conj	_	_
+26	1947	1947	NUM	0	NumForm=Digit	25	nummod	_	_
+27	Správa	správa	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	12	dep	_	_
+28	zjednoteného	zjednotený	ADJ	Gtns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	30	amod	_	_
+29	hospodárskeho	hospodársky	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
+30	územia	územie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+31	(	(	PUNCT	Z	_	32	punct	_	_
+32	Verwaltung	verwaltung	X	%	Foreign=Yes	27	appos	_	_
+33	des	des	X	%	Foreign=Yes	32	flat:foreign	_	_
+34	Vereinigten	vereinigten	X	%	Foreign=Yes	32	flat:foreign	_	_
+35	Wirtschaftsgebiets	wirtschaftsgebiets	X	%	Foreign=Yes	32	flat:foreign	_	_
+36	)	)	PUNCT	Z	_	32	punct	_	_
+37	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	38	case	_	_
+38	sídlom	sídlo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	27	nmod	_	_
+39	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	40	case	_	_
+40	Frankfurte	frankfurt	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	38	nmod	_	_
+41	nad	nad	ADP	Eu7	AdpType=Prep|Case=Ins	42	case	_	_
+42	Mohanom	mohan	PROPN	SSis7:r	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	40	nmod	_	_
+43	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s14
+# text = K tomuto územiu sa 8 . apríla 1949 pridružilo aj Francúzsko , čím došlo k vytvoreniu takzvanej trizónie ( trojzóna , Trizone ) – s výnimkou Sárska , ktoré sa ku Spolkovej republike Nemecko pripojilo až 1 . januára 1957 ( po referende v roku 1955 ) .
+# orig_file_sentence wiki-nove-015_hudekova_wiki-nove-015_kandracova#14
+1	K	k	ADP	Eu3	AdpType=Prep|Case=Dat	3	case	_	_
+2	tomuto	toto	DET	PFns3	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	územiu	územie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	9	obl:arg	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+5	8	8	NUM	0	NumForm=Digit	7	nummod	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	apríla	apríl	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+8	1949	1949	NUM	0	NumForm=Digit	7	nummod	_	_
+9	pridružilo	pridružiť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	aj	aj	PART	T	_	11	advmod:emph	_	_
+11	Francúzsko	francúzsko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+12	,	,	PUNCT	Z	_	14	punct	_	_
+13	čím	čo	PRON	PFns7	Case=Ins|Gender=Neut|Number=Sing|PronType=Int,Rel	14	obl	_	_
+14	došlo	dôjsť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	conj	_	_
+15	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	16	case	_	_
+16	vytvoreniu	vytvorenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	14	obl:arg	_	_
+17	takzvanej	takzvaný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	trizónie	trizónia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	(	(	PUNCT	Z	_	20	punct	_	_
+20	trojzóna	trojzóna	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	18	appos	_	_
+21	,	,	PUNCT	Z	_	22	punct	_	_
+22	Trizone	trizone	X	%	Foreign=Yes	20	appos	_	_
+23	)	)	PUNCT	Z	_	20	punct	_	_
+24	–	–	PUNCT	Z	_	26	punct	_	_
+25	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	26	case	_	_
+26	výnimkou	výnimka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	16	obl	_	_
+27	Sárska	sársko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_
+28	,	,	PUNCT	Z	_	35	punct	_	_
+29	ktoré	ktorý	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	35	nsubj	_	_
+30	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	35	expl:pv	_	_
+31	ku	k	ADP	Ev3	AdpType=Voc|Case=Dat	33	case	_	_
+32	Spolkovej	spolkový	ADJ	AAfs3x:r	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	republike	republika	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	35	obl:arg	_	_
+34	Nemecko	nemecko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	33	nmod	_	_
+35	pripojilo	pripojiť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	27	acl	_	_
+36	až	až	PART	T	_	39	advmod:emph	_	_
+37	1	1	NUM	0	NumForm=Digit	39	nummod	_	_
+38	.	.	PUNCT	Z	_	37	punct	_	_
+39	januára	január	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	obl	_	_
+40	1957	1957	NUM	0	NumForm=Digit	39	nummod	_	_
+41	(	(	PUNCT	Z	_	43	punct	_	_
+42	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	43	case	_	_
+43	referende	referendum	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	35	obl	_	_
+44	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	45	case	_	_
+45	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	43	nmod	_	_
+46	1955	1955	NUM	0	NumForm=Digit	45	nummod	_	_
+47	)	)	PUNCT	Z	_	43	punct	_	_
+48	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s15
+# text = Trizónia sa stala 23 . mája 1949 základom novo vzniknutej Spolkovej republiky Nemecko , zo Sovietskej okupačnej zóny vznikla 7 . októbra 1949 Nemecká Demokratická Republika .
+# orig_file_sentence wiki-nove-015_hudekova_wiki-nove-015_kandracova#15
+1	Trizónia	trizónia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	stala	stať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	23	23	NUM	0	NumForm=Digit	6	nummod	_	_
+5	.	.	PUNCT	Z	_	4	punct	_	_
+6	mája	máj	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+7	1949	1949	NUM	0	NumForm=Digit	6	nummod	_	_
+8	základom	základ	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obj	_	_
+9	novo	novo	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	vzniknutej	vzniknutý	ADJ	Gtfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	_	_
+11	Spolkovej	spolkový	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	republiky	republika	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+13	Nemecko	nemecko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	12	nmod	_	_
+14	,	,	PUNCT	Z	_	19	punct	_	_
+15	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	18	case	_	_
+16	Sovietskej	sovietsky	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+17	okupačnej	okupačný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	zóny	zóna	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	19	obl	_	_
+19	vznikla	vzniknúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+20	7	7	NUM	0	NumForm=Digit	22	nummod	_	_
+21	.	.	PUNCT	Z	_	20	punct	_	_
+22	októbra	október	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	obl	_	_
+23	1949	1949	NUM	0	NumForm=Digit	22	nummod	_	_
+24	Nemecká	nemecký	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+25	Demokratická	demokratický	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	Republika	republika	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+27	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s16
+# text = Berlín
+# orig_file_sentence wiki-nove-015_hudekova_wiki-nove-015_kandracova#16
+1	Berlín	berlín	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s17
+# text = Berlín , hlavné mesto porazeného Nemecka , ležiaci úplne v sovietskej okupačnej zóne , bol z tohto členenia vyňatý .
+# orig_file_sentence wiki-nove-015_hudekova_wiki-nove-015_kandracova#17
+1	Berlín	berlín	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj:pass	_	_
+2	,	,	PUNCT	Z	_	4	punct	_	_
+3	hlavné	hlavný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	mesto	mesto	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	_
+5	porazeného	porazený	ADJ	Gtns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	Nemecka	nemecko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	,	,	PUNCT	Z	_	8	punct	_	_
+8	ležiaci	ležiaci	ADJ	Gkis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	1	amod	_	_
+9	úplne	úplne	ADV	Dx	Degree=Pos	8	advmod	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+11	sovietskej	sovietsky	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+12	okupačnej	okupačný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	zóne	zóna	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+14	,	,	PUNCT	Z	_	8	punct	_	_
+15	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	19	aux:pass	_	_
+16	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	18	case	_	_
+17	tohto	toto	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	18	det	_	_
+18	členenia	členenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	19	obl	_	_
+19	vyňatý	vyňatý	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+20	.	.	PUNCT	Z	_	19	punct	_	_
+
+# sent_id = s18
+# text = Mesto bolo rozdelené do štyroch sektorov , ktoré mali byť spravované ako celok spoločnou takzvanou Komandatúrou .
+# orig_file_sentence wiki-nove-015_hudekova_wiki-nove-015_kandracova#18
+1	Mesto	mesto	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	cop	_	_
+3	rozdelené	rozdelený	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+5	štyroch	štyri	NUM	NNip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nummod	_	_
+6	sektorov	sektor	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+7	,	,	PUNCT	Z	_	9	punct	_	_
+8	ktoré	ktorý	DET	PAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	9	nsubj	_	_
+9	mali	mať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
+10	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	11	aux:pass	_	_
+11	spravované	spravovaný	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	9	obj	_	_
+12	ako	ako	SCONJ	O	_	13	mark	_	_
+13	celok	celok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	xcomp	_	_
+14	spoločnou	spoločný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+15	takzvanou	takzvaný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	Komandatúrou	komandatúra	PROPN	SSfs7:r	Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+17	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s19
+# text = Tento stav trval v dôsledku vzrastajúceho napätia medzi mocnosťami len krátky čas , 1 . júla 1948 sa zástupcovia Sovietskeho zväzu z práce Komandatúry stiahli .
+# orig_file_sentence wiki-nove-015_hudekova_wiki-nove-015_kandracova#19
+1	Tento	tento	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	stav	stav	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	trval	trvať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	dôsledku	dôsledok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	vzrastajúceho	vzrastajúci	ADJ	Gkns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	7	amod	_	_
+7	napätia	napätie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+9	mocnosťami	mocnosť	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	7	nmod	_	_
+10	len	len	PART	T	_	12	advmod:emph	_	_
+11	krátky	krátky	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	čas	čas	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+13	,	,	PUNCT	Z	_	25	punct	_	_
+14	1	1	NUM	0	NumForm=Digit	16	nummod	_	_
+15	.	.	PUNCT	Z	_	14	punct	_	_
+16	júla	júl	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	obl	_	_
+17	1948	1948	NUM	0	NumForm=Digit	16	nummod	_	_
+18	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	25	expl:pv	_	_
+19	zástupcovia	zástupca	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+20	Sovietskeho	sovietsky	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	zväzu	zväz	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+22	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	23	case	_	_
+23	práce	práca	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	25	obl	_	_
+24	Komandatúry	komandatúra	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	stiahli	stiahnuť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+26	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s20
+# text = Roku 1948 / 1949 situácia eskalovala a v dôsledku Berlínskej blokády došlo k faktickému politickému rozdeleniu Berlína .
+# orig_file_sentence wiki-nove-015_hudekova_wiki-nove-015_kandracova#20
+1	Roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+2	1948	1948	NUM	0	NumForm=Digit	1	nummod	_	_
+3	/	/	PUNCT	Z	_	4	punct	_	_
+4	1949	1949	NUM	0	NumForm=Digit	2	conj	_	_
+5	situácia	situácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	eskalovala	eskalovať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	a	a	CCONJ	O	_	12	cc	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	dôsledku	dôsledok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+10	Berlínskej	berlínsky	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	blokády	blokáda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	došlo	dôjsť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+13	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	16	case	_	_
+14	faktickému	faktický	ADJ	AAns3x	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+15	politickému	politický	ADJ	AAns3x	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	rozdeleniu	rozdelenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	12	obl:arg	_	_
+17	Berlína	berlín	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	.	.	PUNCT	Z	_	6	punct	_	_
+

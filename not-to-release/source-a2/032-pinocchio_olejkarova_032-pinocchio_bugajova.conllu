@@ -1,0 +1,315 @@
+# sent_id = s1
+# text = Pinocchiovo prvé predstavenie malo obrovský úspech .
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#1
+1	Pinocchiovo	pinocchiov	ADJ	AFns1x:r	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+2	prvé	prvý	ADJ	NAns1	Case=Nom|Gender=Neut|Number=Sing|NumType=Ord	3	amod	_	_
+3	predstavenie	predstavenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	malo	mať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	obrovský	obrovský	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	úspech	úspech	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s2
+# text = Kým Stromboli spieval , napichol si na hrot noža mäso a syr a vložil si ich do úst .
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#2
+1	Kým	kým	SCONJ	O	_	3	mark	_	_
+2	Stromboli	stromboli	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	spieval	spievať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	advcl	_	_
+4	,	,	PUNCT	Z	_	3	punct	_	_
+5	napichol	napichnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	si	si	PRON	R	PronType=Prs|Reflex=Yes	5	obl	_	_
+7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+8	hrot	hrot	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+9	noža	nôž	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	mäso	mäso	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	syr	syr	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	conj	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	vložil	vložiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+15	si	si	PRON	R	PronType=Prs|Reflex=Yes	14	iobj	_	_
+16	ich	on	PRON	PFip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
+17	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	18	case	_	_
+18	úst	ústa	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	14	obl	_	_
+19	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s3
+# text = V duchu sa zasmial a pozrel pred seba na stôl , kde sedel Pinocchio .
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#3
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	duchu	duch	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	zasmial	zasmiať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	pozrel	pozrieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+7	pred	pred	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+8	seba	seba	PRON	PPhs4	Case=Acc|Number=Sing|PronType=Prs|Reflex=Yes	6	obl	_	_
+9	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+10	stôl	stôl	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl:arg	_	_
+11	,	,	PUNCT	Z	_	13	punct	_	_
+12	kde	kde	ADV	PD	PronType=Int,Rel	13	advmod	_	_
+13	sedel	sedieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
+14	Pinocchio	pinocchio	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+15	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s4
+# text = “ Výborne , Pinocchio ! “ chválil ho nahlas .
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#4
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Výborne	výborne	PART	T	_	0	root	_	_
+3	,	,	PUNCT	Z	_	2	punct	_	_
+4	Pinocchio	pinocchio	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	dep	_	_
+5	!	!	PUNCT	Z	_	2	punct	_	_
+6	“	“	PUNCT	Z	_	2	punct	_	_
+7	chválil	chváliť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	dep	_	_
+8	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	nahlas	nahlas	ADV	Dx	Degree=Pos	7	advmod	_	_
+10	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s5
+# text = “ Páčil som sa im , “ nadšene odvetil Pinocchio .
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#5
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Páčil	páčiť	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	ccomp	_	_
+3	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	aux	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+5	im	on	PRON	PFmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+6	,	,	PUNCT	Z	_	2	punct	_	_
+7	“	“	PUNCT	Z	_	2	punct	_	_
+8	nadšene	nadšene	ADV	Dx	Degree=Pos	9	advmod	_	_
+9	odvetil	odvetiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	Pinocchio	pinocchio	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s6
+# text = Ešte mu v ušiach znel smiech a potlesk divákov .
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#6
+1	Ešte	ešte	ADV	Dx	Degree=Pos	5	advmod	_	_
+2	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	ušiach	ucho	NOUN	SSnp6	Case=Loc|Gender=Neut|Number=Plur	5	obl	_	_
+5	znel	znieť	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	smiech	smiech	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	potlesk	potlesk	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+9	divákov	divák	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s7
+# text = “ Mhm , “ prikývol Stromboli a pozrel na úhľadné stĺpiky zlatých dukátov pred sebou .
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#7
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Mhm	mhm	INTJ	J	_	0	root	_	_
+3	,	,	PUNCT	Z	_	2	punct	_	_
+4	“	“	PUNCT	Z	_	2	punct	_	_
+5	prikývol	prikývnuť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	dep	_	_
+6	Stromboli	stromboli	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	pozrel	pozrieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+9	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+10	úhľadné	úhľadný	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_
+11	stĺpiky	stĺpik	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obl:arg	_	_
+12	zlatých	zlatý	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_
+13	dukátov	dukát	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+14	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	15	case	_	_
+15	sebou	seba	PRON	PPhs7	Case=Ins|Number=Sing|PronType=Prs|Reflex=Yes	8	obl	_	_
+16	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s8
+# text = Hrotom noža prešiel po ľavom stĺpiku mincí .
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#8
+1	Hrotom	hrot	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+2	noža	nôž	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	prešiel	prejsť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+5	ľavom	ľavý	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	stĺpiku	stĺpik	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+7	mincí	minca	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s9
+# text = “ Dvesto , “ zamrmlal si spokojne .
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#9
+1	“	“	PUNCT	Z	_	5	punct	_	_
+2	Dvesto	dvesto	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	5	dep	_	_
+3	,	,	PUNCT	Z	_	5	punct	_	_
+4	“	“	PUNCT	Z	_	5	punct	_	_
+5	zamrmlal	zamrmlať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	si	si	PRON	R	PronType=Prs|Reflex=Yes	5	obl	_	_
+7	spokojne	spokojne	ADV	Dx	Degree=Pos	5	advmod	_	_
+8	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s10
+# text = Páčil je slabé slovo , pomyslel si .
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#10
+1	Páčil	páčiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	csubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	slabé	slabý	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	slovo	slovo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	6	ccomp	_	_
+5	,	,	PUNCT	Z	_	4	punct	_	_
+6	pomyslel	pomyslieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	si	si	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+8	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s11
+# text = Oni to hlúpe drevené chlapčisko priam zbožňovali .
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#11
+1	Oni	on	PRON	PFmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+2	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
+3	hlúpe	hlúpy	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+4	drevené	drevený	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	chlapčisko	chlapčisko	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+6	priam	priam	PART	T	_	7	advmod:emph	_	_
+7	zbožňovali	zbožňovať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s12
+# text = Strombolimu bolo nad slnko jasnejšie , že na Pinocchiovi zarobí hŕbu peňazí .
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#12
+1	Strombolimu	stromboli	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	5	obj	_	_
+2	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	cop	_	_
+3	nad	nad	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	slnko	slnko	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+5	jasnejšie	jasný	ADJ	AAns1y	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	0	root	_	_
+6	,	,	PUNCT	Z	_	10	punct	_	_
+7	že	že	SCONJ	O	_	10	mark	_	_
+8	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	Pinocchiovi	pinocchio	PROPN	SSms6:r	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+10	zarobí	zarobiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	csubj	_	_
+11	hŕbu	hŕba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	nsubj	_	_
+12	peňazí	peniaz	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s13
+# text = “ Bol si úžasný ! “ zvolal šťastne a napichol si nožom zelenú olivu .
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#13
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	Bol	byť	AUX	VLesbm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	cop	_	_
+3	si	byť	AUX	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	úžasný	úžasný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	ccomp	_	_
+5	!	!	PUNCT	Z	_	4	punct	_	_
+6	“	“	PUNCT	Z	_	4	punct	_	_
+7	zvolal	zvolať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	šťastne	šťastne	ADV	Dx	Degree=Pos	7	advmod	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	napichol	napichnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+11	si	si	PRON	R	PronType=Prs|Reflex=Yes	10	obl	_	_
+12	nožom	nôž	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	iobj	_	_
+13	zelenú	zelený	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	olivu	oliva	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+15	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s14
+# text = “ Teda som naozaj dobrý ? “ naivne sa spytoval Pinocchio .
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#14
+1	“	“	PUNCT	Z	_	5	punct	_	_
+2	Teda	teda	PART	T	_	5	advmod	_	_
+3	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	naozaj	naozaj	PART	T	_	5	advmod	_	_
+5	dobrý	dobrý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	ccomp	_	_
+6	?	?	PUNCT	Z	_	5	punct	_	_
+7	“	“	PUNCT	Z	_	5	punct	_	_
+8	naivne	naivne	ADV	Dx	Degree=Pos	10	advmod	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+10	spytoval	spytovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+11	Pinocchio	pinocchio	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s15
+# text = Stromboli sa usmial popod nos a nožom prešiel po ďalšom stĺpiku mincí .
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#15
+1	Stromboli	stromboli	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	usmial	usmiať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	popod	popod	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	nos	nos	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+6	a	a	CCONJ	O	_	8	cc	_	_
+7	nožom	nôž	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obj	_	_
+8	prešiel	prejsť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+9	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+10	ďalšom	ďalší	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	stĺpiku	stĺpik	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+12	mincí	minca	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+13	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s16
+# text = “ Tristo ! “
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#16
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Tristo	tristo	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	0	root	_	_
+3	!	!	PUNCT	Z	_	2	punct	_	_
+4	“	“	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s17
+# text = Obrátil sa k Pinocchiovi .
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#17
+1	Obrátil	obrátiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	4	case	_	_
+4	Pinocchiovi	pinocchio	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	obl	_	_
+5	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s18
+# text = “ Si svetový ! “
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#18
+1	“	“	PUNCT	Z	_	3	punct	_	_
+2	Si	byť	AUX	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	svetový	svetový	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+4	!	!	PUNCT	Z	_	3	punct	_	_
+5	“	“	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s19
+# text = Len čo to vyriekol , mocne zaťal nožom do pecňa chleba až krajec , ktorý odkrojil , vyletel do vzduchu .
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#19
+1	Len	len	CCONJ	O	_	4	mark	_	_
+2	čo	čo	SCONJ	O	_	1	fixed	_	_
+3	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	_
+4	vyriekol	vyriecť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	advcl	_	_
+5	,	,	PUNCT	Z	_	4	punct	_	_
+6	mocne	mocne	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	zaťal	zaťať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	nožom	nôž	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obj	_	_
+9	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	pecňa	peceň	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+11	chleba	chlieb	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	až	až	SCONJ	O	_	18	mark	_	_
+13	krajec	krajec	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+14	,	,	PUNCT	Z	_	16	punct	_	_
+15	ktorý	ktorý	DET	PAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	16	obj	_	_
+16	odkrojil	odkrojiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	acl	_	_
+17	,	,	PUNCT	Z	_	16	punct	_	_
+18	vyletel	vyletieť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	advcl	_	_
+19	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+20	vzduchu	vzduch	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+21	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s20
+# text = Potom si chlieb napichol na nôž aj s cibuľou .
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#20
+1	Potom	potom	ADV	Dx	Degree=Pos	4	advmod	_	_
+2	si	si	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pass	_	_
+3	chlieb	chlieb	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+4	napichol	napichnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	nôž	nôž	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+7	aj	aj	CCONJ	O	_	9	advmod:emph	_	_
+8	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+9	cibuľou	cibuľa	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+10	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s21
+# text = “ Chcete povedať , že som herec ? “ pýtal sa Pinocchio .
+# orig_file_sentence 032-pinocchio_olejkarova_032-pinocchio_bugajova#21
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Chcete	chcieť	VERB	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+3	povedať	povedať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
+4	,	,	PUNCT	Z	_	7	punct	_	_
+5	že	že	SCONJ	O	_	7	mark	_	_
+6	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	herec	herec	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	ccomp	_	_
+8	?	?	PUNCT	Z	_	2	punct	_	_
+9	“	“	PUNCT	Z	_	2	punct	_	_
+10	pýtal	pýtať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+12	Pinocchio	pinocchio	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+13	.	.	PUNCT	Z	_	10	punct	_	_
+

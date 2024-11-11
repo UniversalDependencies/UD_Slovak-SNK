@@ -1,0 +1,119 @@
+# sent_id = s1
+# text = Lev II . ( cisár )
+# orig_file_sentence wiki-nove-012_hudekova_wiki-nove-012_kandracova#1
+1	Lev	lev	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	II	ii	NUM	0	NumForm=Digit	1	nummod	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+4	(	(	PUNCT	Z	_	5	punct	_	_
+5	cisár	cisár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+6	)	)	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s2
+# text = Lev II . vlastným menom Flavius Leo Augustus ( * 467 ‐ † 17 . november 474 ) bol niekoľko mesiacov v roku 474 cisárom Byzantskej ríše .
+# orig_file_sentence wiki-nove-012_hudekova_wiki-nove-012_kandracova#2
+1	Lev	lev	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+2	II	ii	NUM	0	NumForm=Digit	1	nummod	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+4	vlastným	vlastný	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	menom	meno	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	_
+6	Flavius	flavius	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+7	Leo	leo	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+8	Augustus	augustus	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	obl	_	_
+9	(	(	PUNCT	Z	_	1	punct	_	_
+10	*	*	PUNCT	#	_	1	punct	_	_
+11	467	467	NUM	0	NumForm=Digit	10	conj	_	_
+12	‐	‐	PUNCT	Z	_	13	punct	_	_
+13	†	†	PUNCT	#	_	10	conj	_	_
+14	17	17	NUM	0	NumForm=Digit	16	nummod	_	_
+15	.	.	PUNCT	Z	_	14	punct	_	_
+16	november	november	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	orphan	_	_
+17	474	474	NUM	0	NumForm=Digit	16	nummod	_	_
+18	)	)	PUNCT	Z	_	1	punct	_	_
+19	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	25	cop	_	_
+20	niekoľko	niekoľko	DET	PUns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Card|PronType=Ind	21	det:numgov	_	_
+21	mesiacov	mesiac	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	obl	_	_
+22	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	23	case	_	_
+23	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	obl	_	_
+24	474	474	NUM	0	NumForm=Digit	23	nummod	_	_
+25	cisárom	cisár	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+26	Byzantskej	byzantský	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	ríše	ríša	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+28	.	.	PUNCT	Z	_	25	punct	_	_
+
+# sent_id = s3
+# text = Bol synom Zenóna a Ariadne , dcéry Leva I .
+# orig_file_sentence wiki-nove-012_hudekova_wiki-nove-012_kandracova#3
+1	Bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	cop	_	_
+2	synom	syn	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+3	Zenóna	zenón	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	a	a	CCONJ	O	_	3	cc	_	_
+5	Ariadne	ariadne	PROPN	SUfs2:r	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	dcéry	dcéra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	appos	_	_
+8	Leva	lev	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	I	i	NUM	0	NumForm=Digit	8	nummod	_	_
+10	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s4
+# text = Ako najbližší mužský príbuzný cisára Leva I . bol určený za jeho nástupcu .
+# orig_file_sentence wiki-nove-012_hudekova_wiki-nove-012_kandracova#4
+1	Ako	ako	SCONJ	O	_	4	mark	_	_
+2	najbližší	blízky	ADJ	AAms1z	Animacy=Anim|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	4	amod	_	_
+3	mužský	mužský	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	príbuzný	príbuzný	NOUN	SAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	xcomp	_	_
+5	cisára	cisár	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+6	Leva	lev	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	I	i	NUM	0	NumForm=Digit	6	nummod	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+9	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	cop	_	_
+10	určený	určený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+11	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+12	jeho	jeho	DET	PUms4	Animacy=Anim|Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	nástupcu	nástupca	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	obl:arg	_	_
+14	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s5
+# text = Regentom sa stal jeho otec Zenón , ktorý bol hneď nato ustanovený aj ako spolucisár .
+# orig_file_sentence wiki-nove-012_hudekova_wiki-nove-012_kandracova#5
+1	Regentom	regent	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl:agent	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pass	_	_
+3	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	jeho	jeho	DET	PUms1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	otec	otec	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+6	Zenón	zenón	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+7	,	,	PUNCT	Z	_	12	punct	_	_
+8	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	12	nsubj	_	_
+9	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	cop	_	_
+10	hneď	hneď	ADV	Dx	Degree=Pos	12	advmod	_	_
+11	nato	nato	ADV	Dx	Degree=Pos	12	advmod	_	_
+12	ustanovený	ustanovený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	6	acl	_	_
+13	aj	aj	PART	T	_	15	advmod:emph	_	_
+14	ako	ako	SCONJ	O	_	15	cc	_	_
+15	spolucisár	spolucisár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	obl	_	_
+16	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s6
+# text = Ukázalo sa , že to bolo veľmi prezieravé rozhodnutie , lebo Lev po sotva ročnej vláde zomrel na neznámu chorobu .
+# orig_file_sentence wiki-nove-012_hudekova_wiki-nove-012_kandracova#6
+1	Ukázalo	ukázať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pass	_	_
+3	,	,	PUNCT	Z	_	9	punct	_	_
+4	že	že	SCONJ	O	_	9	mark	_	_
+5	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	_
+6	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	cop	_	_
+7	veľmi	veľmi	ADV	Dx	Degree=Pos	8	advmod	_	_
+8	prezieravé	prezieravý	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	rozhodnutie	rozhodnutie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	1	csubj:pass	_	_
+10	,	,	PUNCT	Z	_	17	punct	_	_
+11	lebo	lebo	CCONJ	O	_	17	mark	_	_
+12	Lev	lev	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+13	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+14	sotva	sotva	PART	T	_	15	advmod:emph	_	_
+15	ročnej	ročný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	vláde	vláda	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_
+17	zomrel	zomrieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	advcl	_	_
+18	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	20	case	_	_
+19	neznámu	neznámy	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	chorobu	choroba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
+21	.	.	PUNCT	Z	_	1	punct	_	_
+

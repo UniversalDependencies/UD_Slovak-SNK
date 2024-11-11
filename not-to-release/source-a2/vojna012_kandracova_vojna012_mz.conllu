@@ -1,0 +1,201 @@
+# sent_id = s1
+# text = 1940
+# orig_file_sentence vojna012_kandracova_vojna012_mz#1
+1	1940	1940	NUM	0	NumForm=Digit	0	root	_	_
+
+# sent_id = s2
+# text = ZSSR zahájilo druhú fázu operáciou proti Fínsku 1 . februára 1940 .
+# orig_file_sentence vojna012_kandracova_vojna012_mz#2
+1	ZSSR	zssr	X	W	Abbr=Yes	2	nsubj	_	_
+2	zahájilo	zahájiť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	druhú	druhý	ADJ	NAfs4	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	fázu	fáza	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	operáciou	operácia	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+6	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	7	case	_	_
+7	Fínsku	fínsko	PROPN	SSns3:r	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	_
+8	1	1	NUM	0	NumForm=Digit	10	nummod	_	_
+9	.	.	PUNCT	Z	_	8	punct	_	_
+10	februára	február	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+11	1940	1940	NUM	0	NumForm=Digit	10	nummod	_	_
+12	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s3
+# text = Proti unavenej fínskej armáde , ktorá už trpela akútnym nedostatkom munície , boli vrhnuté obrovské sily ( pomer mužov v bojových líniách bol 1 : 10 až 1 : 15 v prospech Červenej armády ) .
+# orig_file_sentence vojna012_kandracova_vojna012_mz#3
+1	Proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	4	case	_	_
+2	unavenej	unavený	ADJ	Gtfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	4	amod	_	_
+3	fínskej	fínsky	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	armáde	armáda	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	14	obl:arg	_	_
+5	,	,	PUNCT	Z	_	8	punct	_	_
+6	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	8	nsubj	_	_
+7	už	už	ADV	Dx	Degree=Pos	8	advmod	_	_
+8	trpela	trpieť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
+9	akútnym	akútny	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	nedostatkom	nedostatok	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+11	munície	munícia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	,	,	PUNCT	Z	_	8	punct	_	_
+13	boli	byť	AUX	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	vrhnuté	vrhnuté	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+15	obrovské	obrovský	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	_
+16	sily	sila	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	14	nsubj:pass	_	_
+17	(	(	PUNCT	Z	_	24	punct	_	_
+18	pomer	pomer	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+19	mužov	muž	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	22	case	_	_
+21	bojových	bojový	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	_
+22	líniách	línia	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	19	nmod	_	_
+23	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	24	cop	_	_
+24	1	1	NUM	0	NumForm=Digit	14	parataxis	_	_
+25	:	:	PUNCT	Z	_	26	punct	_	_
+26	10	10	NUM	0	NumForm=Digit	24	conj	_	_
+27	až	až	PART	T	_	28	cc	_	_
+28	1	1	NUM	0	NumForm=Digit	24	conj	_	_
+29	:	:	PUNCT	Z	_	30	punct	_	_
+30	15	15	NUM	0	NumForm=Digit	28	conj	_	_
+31	v	v	ADP	Eu4	AdpType=Prep|Case=Acc	32	case	_	_
+32	prospech	prospech	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	_
+33	Červenej	červený	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	armády	armáda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_
+35	)	)	PUNCT	Z	_	24	punct	_	_
+36	.	.	PUNCT	Z	_	14	punct	_	_
+
+# sent_id = s4
+# text = Po 15 dňoch intenzívnych bojov prelomili sovietske vojska hlavné opevnenie Mannerheimovej línie a po ďalších 21 dňoch prekročila Viipurský záliv .
+# orig_file_sentence vojna012_kandracova_vojna012_mz#4
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	15	15	NUM	0	NumForm=Digit	3	nummod	_	_
+3	dňoch	deň	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obl	_	_
+4	intenzívnych	intenzívny	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+5	bojov	boj	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	prelomili	prelomiť	VERB	VLdpcn+	Aspect=Perf|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	sovietske	sovietsky	ADJ	AAnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	8	amod	_	_
+8	vojska	vojsko	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
+9	hlavné	hlavný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	opevnenie	opevnenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+11	Mannerheimovej	mannerheimov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	línie	línia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	a	a	CCONJ	O	_	18	cc	_	_
+14	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+15	ďalších	ďalší	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_
+16	21	21	NUM	0	NumForm=Digit	17	nummod	_	_
+17	dňoch	deň	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	obl	_	_
+18	prekročila	prekročiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+19	Viipurský	vipurský	ADJ	AAis4x:r	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	záliv	záliv	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+21	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s5
+# text = Fínska armáda bola vyčerpaná a straty bojových jednotiek dosiahli 40 % pôvodných stavov , avšak stále ešte držala frontovú líniu .
+# orig_file_sentence vojna012_kandracova_vojna012_mz#5
+1	Fínska	fínsky	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	armáda	armáda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	cop	_	_
+4	vyčerpaná	vyčerpaná	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+5	a	a	CCONJ	O	_	9	cc	_	_
+6	straty	strata	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+7	bojových	bojový	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	jednotiek	jednotka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+9	dosiahli	dosiahnuť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+10	40	40	NUM	0	NumForm=Digit	9	obj	_	_
+11	%	%	SYM	Z	_	10	nmod	_	_
+12	pôvodných	pôvodný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_
+13	stavov	stav	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+14	,	,	PUNCT	Z	_	18	punct	_	_
+15	avšak	avšak	CCONJ	O	_	18	cc	_	_
+16	stále	stále	ADV	Dx	Degree=Pos	18	advmod	_	_
+17	ešte	ešte	ADV	Dx	Degree=Pos	18	advmod	_	_
+18	držala	držať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+19	frontovú	frontový	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	líniu	línia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+21	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s6
+# text = 13 . marca 1940 bolo uzavrené prímerie .
+# orig_file_sentence vojna012_kandracova_vojna012_mz#6
+1	13	13	NUM	0	NumForm=Digit	3	nummod	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+3	marca	marec	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+4	1940	1940	NUM	0	NumForm=Digit	3	nummod	_	_
+5	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	uzavrené	uzavrený	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+7	prímerie	prímerie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	6	nsubj:pass	_	_
+8	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s7
+# text = Podľa týchto podmienok Fínsko poskytlo ZSSR značnú časť svojho územia a muselo spraviť ďalšie ústupky .
+# orig_file_sentence vojna012_kandracova_vojna012_mz#7
+1	Podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	týchto	táto	DET	PFfp2	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	podmienok	podmienka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+4	Fínsko	fínsko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+5	poskytlo	poskytnúť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	ZSSR	zssr	X	W	Abbr=Yes	5	iobj	_	_
+7	značnú	značný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	časť	časť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+9	svojho	svoj	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	_
+10	územia	územie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	muselo	musieť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+13	spraviť	spraviť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	12	xcomp	_	_
+14	ďalšie	ďalší	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
+15	ústupky	ústupok	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
+16	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s8
+# text = Zimná vojna mala za následok tri veci : prudký pokles reputácie Červenej armády reorganizáciu a mnohé zlepšenia v Červenej armáde + odstránenie Vorošilova z jej vedenia
+# orig_file_sentence vojna012_kandracova_vojna012_mz#8
+1	Zimná	zimný	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	vojna	vojna	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	mala	mať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	následok	následok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+6	tri	tri	NUM	NNfp4	Case=Acc|Gender=Fem|Number=Plur	7	nummod	_	_
+7	veci	vec	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+8	:	:	PUNCT	Z	_	10	punct	_	_
+9	prudký	prudký	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	pokles	pokles	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	appos	_	_
+11	reputácie	reputácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	Červenej	červený	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	armády	armáda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	reorganizáciu	reorganizácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	_
+15	a	a	CCONJ	O	_	17	cc	_	_
+16	mnohé	mnohý	ADJ	NAnp4	Case=Acc|Gender=Neut|Number=Plur|NumType=Mult	17	amod	_	_
+17	zlepšenia	zlepšenie	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	10	conj	_	_
+18	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+19	Červenej	červený	ADJ	AAfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	armáde	armáda	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	17	nmod	_	_
+21	+	+	SYM	Z	_	22	cc	_	_
+22	odstránenie	odstránenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	10	conj	_	_
+23	Vorošilova	vorošilov	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	26	case	_	_
+25	jej	jej	DET	PUns2	Case=Gen|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	26	det	_	_
+26	vedenia	vedenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+
+# sent_id = s9
+# text = spečatila osud Nórska , pretože presvedčila Hitlera o neochote Francúzska a Británie rešpektovať nórsku neutralitu a taktiež aj nutnosť obsadiť Dánsko a Nórsko .
+# orig_file_sentence vojna012_kandracova_vojna012_mz#9
+1	spečatila	spečatiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	osud	osud	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+3	Nórska	nórsko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	,	,	PUNCT	Z	_	6	punct	_	_
+5	pretože	pretože	SCONJ	O	_	6	mark	_	_
+6	presvedčila	presvedčiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	advcl	_	_
+7	Hitlera	hitler	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	neochote	neochota	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	6	obl:arg	_	_
+10	Francúzska	francúzsko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	Británie	británia	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	10	conj	_	_
+13	rešpektovať	rešpektovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	9	acl	_	_
+14	nórsku	nórsky	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	neutralitu	neutralita	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+16	a	a	CCONJ	O	_	19	cc	_	_
+17	taktiež	taktiež	PART	T	_	19	advmod:emph	_	_
+18	aj	aj	CCONJ	O	_	19	advmod:emph	_	_
+19	nutnosť	nutnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	15	conj	_	_
+20	obsadiť	obsadiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	19	acl	_	_
+21	Dánsko	dánsko	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+22	a	a	CCONJ	O	_	23	cc	_	_
+23	Nórsko	nórsko	PROPN	SSns4:r	Case=Acc|Gender=Neut|Number=Sing	21	conj	_	_
+24	.	.	PUNCT	Z	_	1	punct	_	_
+

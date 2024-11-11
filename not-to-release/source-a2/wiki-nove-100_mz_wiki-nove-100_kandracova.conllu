@@ -1,0 +1,630 @@
+# sent_id = s1
+# text = Horst Mahler
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#1
+1	Horst	horst	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Mahler	mahler	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s2
+# text = Horst Mahler ( * 23 . január 1936 , Haynau ) je nemecký právnik a obhajca .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#2
+1	Horst	horst	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Mahler	mahler	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+3	(	(	PUNCT	Z	_	2	punct	_	_
+4	*	*	PUNCT	#	_	2	punct	_	_
+5	23	23	NUM	0	NumForm=Digit	7	nummod	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	január	január	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	dep	_	_
+8	1936	1936	NUM	0	NumForm=Digit	7	nummod	_	_
+9	,	,	PUNCT	Z	_	2	punct	_	_
+10	Haynau	haynau	PROPN	SUns1:r	Case=Nom|Gender=Neut|Number=Sing	2	dep	_	_
+11	)	)	PUNCT	Z	_	2	punct	_	_
+12	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	nemecký	nemecký	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	právnik	právnik	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+15	a	a	CCONJ	O	_	16	cc	_	_
+16	obhajca	obhajca	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+17	.	.	PUNCT	Z	_	14	punct	_	_
+
+# sent_id = s3
+# text = V sedemdesiatych rokoch bol okrem iného jedným zo zakladajúcich členov ultraľavicovej teroristickej organizácie Frakcia Červenej armády ( Rote Armee Fraktion ) , dnes patrí medzi najznámejšich pravicových aktivistov v Nemecku , vyznačuje sa najmä popieraním holokaustu .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#3
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	sedemdesiatych	sedemdesiaty	ADJ	NAip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|NumType=Ord	3	amod	_	_
+3	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	_
+4	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	cop	_	_
+5	okrem	okrem	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	iného	iný	DET	PAns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind	7	obl	_	_
+7	jedným	jeden	NUM	NFms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+8	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	10	case	_	_
+9	zakladajúcich	zakladajúci	ADJ	Gkmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	10	amod	_	_
+10	členov	člen	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+11	ultraľavicovej	ultraľavicový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+12	teroristickej	teroristický	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	organizácie	organizácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+14	Frakcia	frakcia	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	13	nmod	_	_
+15	Červenej	červený	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	armády	armáda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	(	(	PUNCT	Z	_	18	punct	_	_
+18	Rote	rote	X	%	Foreign=Yes	14	appos	_	_
+19	Armee	armee	X	%	Foreign=Yes	18	flat:foreign	_	_
+20	Fraktion	fraktion	X	%	Foreign=Yes	18	flat:foreign	_	_
+21	)	)	PUNCT	Z	_	18	punct	_	_
+22	,	,	PUNCT	Z	_	24	punct	_	_
+23	dnes	dnes	ADV	Dx	Degree=Pos	24	advmod	_	_
+24	patrí	patriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	conj	_	_
+25	medzi	medzi	ADP	Eu4	AdpType=Prep|Case=Acc	28	case	_	_
+26	najznámejšich	známy	ADJ	AAmp4z:q	Animacy=Anim|Case=Acc|Degree=Sup|Gender=Masc|Number=Plur|Typo=Yes	28	amod	_	_
+27	pravicových	pravicový	ADJ	AAmp4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	_
+28	aktivistov	aktivista	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	24	obl	_	_
+29	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	30	case	_	_
+30	Nemecku	nemecko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	28	nmod	_	_
+31	,	,	PUNCT	Z	_	32	punct	_	_
+32	vyznačuje	vyznačovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	24	conj	_	_
+33	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	32	expl:pv	_	_
+34	najmä	najmä	PART	T	_	35	advmod:emph	_	_
+35	popieraním	popieranie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	32	obj	_	_
+36	holokaustu	holokaust	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_
+37	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s4
+# text = Horst Mahler študoval právo na západoberlínskej Slobodnej univerzite , po štúdiách založil roku 1964 právnicku poradňu .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#4
+1	Horst	horst	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Mahler	mahler	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	študoval	študovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	právo	právo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+6	západoberlínskej	západoberlínsky	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	Slobodnej	slobodný	ADJ	AAfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	univerzite	univerzita	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+9	,	,	PUNCT	Z	_	12	punct	_	_
+10	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	štúdiách	štúdium	NOUN	SSnp6	Case=Loc|Gender=Neut|Number=Plur	12	obl	_	_
+12	založil	založiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+13	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+14	1964	1964	NUM	0	NumForm=Digit	13	nummod	_	_
+15	právnicku	právnický	ADJ	AAfs4x:q	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Typo=Yes	16	amod	_	_
+16	poradňu	poradňa	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+17	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s5
+# text = V dôsledku svojich stykov s ľavicovými organizáciami patrili medzi jeho zákazníkov prominentné osobnosti ako Rainer Langhans , Fritz Teufel , Gudrun Ensslinová , Beate Klarsfeldová , Andreas Baader a ďalší .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#5
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+2	dôsledku	dôsledok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	svojich	svoj	DET	PFip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	4	det	_	_
+4	stykov	styk	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+5	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	7	case	_	_
+6	ľavicovými	ľavicový	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
+7	organizáciami	organizácia	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	4	nmod	_	_
+8	patrili	patriť	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	medzi	medzi	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+10	jeho	jeho	DET	PUmp4	Animacy=Anim|Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	zákazníkov	zákazník	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_
+12	prominentné	prominentný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_
+13	osobnosti	osobnosť	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+14	ako	ako	SCONJ	O	_	16	cc	_	_
+15	Rainer	rainer	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nmod	_	_
+16	Langhans	langhans	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
+17	,	,	PUNCT	Z	_	19	punct	_	_
+18	Fritz	fritz	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	_
+19	Teufel	teufel	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	conj	_	_
+20	,	,	PUNCT	Z	_	22	punct	_	_
+21	Gudrun	gudrun	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	22	nmod	_	_
+22	Ensslinová	ensslinová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	16	conj	_	_
+23	,	,	PUNCT	Z	_	25	punct	_	_
+24	Beate	beate	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	25	nmod	_	_
+25	Klarsfeldová	klarsfeldová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	16	conj	_	_
+26	,	,	PUNCT	Z	_	28	punct	_	_
+27	Andreas	andreas	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	nmod	_	_
+28	Baader	baader	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	conj	_	_
+29	a	a	CCONJ	O	_	30	cc	_	_
+30	ďalší	ďalší	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	16	conj	_	_
+31	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s6
+# text = Roku 1969 založil spolu s neskorším poslancom strany Zelených , Hansom Christianom Ströbelem , takzvaný Socialistický advokátsky kolektiv ( Sozialistisches Anwaltskollektiv ) .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#6
+1	Roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+2	1969	1969	NUM	0	NumForm=Digit	1	nummod	_	_
+3	založil	založiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	spolu	spolu	ADV	Dx	Degree=Pos	7	case	_	_
+5	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	4	fixed	_	_
+6	neskorším	neskorý	ADJ	AAms7y	Animacy=Anim|Case=Ins|Degree=Cmp|Gender=Masc|Number=Sing	7	amod	_	_
+7	poslancom	poslanec	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+8	strany	strana	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	Zelených	zelený	PROPN	SAmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	,	,	PUNCT	Z	_	13	punct	_	_
+11	Hansom	hans	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	_
+12	Christianom	christian	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	_
+13	Ströbelem	ströbele	PROPN	SFms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	appos	_	_
+14	,	,	PUNCT	Z	_	13	punct	_	_
+15	takzvaný	takzvaný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+16	Socialistický	socialistický	ADJ	AAis4x:r	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+17	advokátsky	advokátsky	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	kolektiv	kolektív	NOUN	SSis4:q	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Typo=Yes	3	obj	_	_
+19	(	(	PUNCT	Z	_	20	punct	_	_
+20	Sozialistisches	sozialistisches	X	%	Foreign=Yes	18	appos	_	_
+21	Anwaltskollektiv	anwaltskollektiv	X	%	Foreign=Yes	20	flat:foreign	_	_
+22	)	)	PUNCT	Z	_	20	punct	_	_
+23	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s7
+# text = Horst Mahler patrí k rozporuplným osobnostiam spoločenského a politického života v Nemecku .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#7
+1	Horst	horst	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Mahler	mahler	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	patrí	patriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	6	case	_	_
+5	rozporuplným	rozporuplný	ADJ	AAfp3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+6	osobnostiam	osobnosť	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	3	obl:arg	_	_
+7	spoločenského	spoločenský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	politického	politický	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	conj	_	_
+10	života	život	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	Nemecku	nemecko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	_
+13	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s8
+# text = Počas svojho štúdia bol členom ľavicového , avšak v porovnaní s neskoršími organizáciami nedogmatického zväzu SDS .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#8
+1	Počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	svojho	svoj	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	_	_
+3	štúdia	štúdium	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+4	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	cop	_	_
+5	členom	člen	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+6	ľavicového	ľavicový	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+7	,	,	PUNCT	Z	_	14	punct	_	_
+8	avšak	avšak	CCONJ	O	_	14	cc	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+10	porovnaní	porovnanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	9	fixed	_	_
+11	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	fixed	_	_
+12	neskoršími	neskorý	ADJ	AAfp7y	Case=Ins|Degree=Cmp|Gender=Fem|Number=Plur	13	amod	_	_
+13	organizáciami	organizácia	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	14	obl	_	_
+14	nedogmatického	nedogmatický	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	conj	_	_
+15	zväzu	zväz	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+16	SDS	sds	X	W	Abbr=Yes	15	nmod	_	_
+17	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s9
+# text = Za členstvo v tomto zväze ho roku 1960 vylúčili z SPD .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#9
+1	Za	za	ADP	Eu4	AdpType=Prep|Case=Acc	2	case	_	_
+2	členstvo	členstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+4	tomto	tento	DET	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	zväze	zväz	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+6	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+7	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+8	1960	1960	NUM	0	NumForm=Digit	7	nummod	_	_
+9	vylúčili	vylúčiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+11	SPD	spd	X	W	Abbr=Yes	9	advmod	_	_
+12	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s10
+# text = V neskorých šesťdesiatych rokoch sa silne angažoval v takzvanej mimoparlamentnej opozícii ( APO ) a roku 1970 sa stal členom teroristickej organizáce RAF .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#10
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+2	neskorých	neskorý	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+3	šesťdesiatych	šesťdesiaty	ADJ	NAip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
+4	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+6	silne	silne	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	angažoval	angažovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+9	takzvanej	takzvaný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+10	mimoparlamentnej	mimoparlamentný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	opozícii	opozícia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+12	(	(	PUNCT	Z	_	13	punct	_	_
+13	APO	apo	X	W	Abbr=Yes	11	appos	_	_
+14	)	)	PUNCT	Z	_	13	punct	_	_
+15	a	a	CCONJ	O	_	19	cc	_	_
+16	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	obl	_	_
+17	1970	1970	NUM	0	NumForm=Digit	16	nummod	_	_
+18	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	19	expl:pv	_	_
+19	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+20	členom	člen	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	obj	_	_
+21	teroristickej	teroristický	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	organizáce	organizácia	NOUN	SSfs2:q	Case=Gen|Gender=Fem|Number=Sing|Typo=Yes	20	nmod	_	_
+23	RAF	raf	X	W	Abbr=Yes	22	nmod	_	_
+24	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s11
+# text = Činnosť v tejto organizácii viedla 8 . októbra 1970 k jeho zatknutiu a neskoršiemu odsúdeniu ( prepad banky , násilné oslobodenie väzňa ) .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#11
+1	Činnosť	činnosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+3	tejto	táto	DET	PFfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	organizácii	organizácia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
+5	viedla	viesť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	8	8	NUM	0	NumForm=Digit	8	nummod	_	_
+7	.	.	PUNCT	Z	_	6	punct	_	_
+8	októbra	október	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+9	1970	1970	NUM	0	NumForm=Digit	8	nummod	_	_
+10	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	12	case	_	_
+11	jeho	jeho	DET	PUns3	Case=Dat|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	zatknutiu	zatknutie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	5	obl:arg	_	_
+13	a	a	CCONJ	O	_	15	cc	_	_
+14	neskoršiemu	neskorý	ADJ	AAns3y	Case=Dat|Degree=Cmp|Gender=Neut|Number=Sing	15	amod	_	_
+15	odsúdeniu	odsúdenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	12	conj	_	_
+16	(	(	PUNCT	Z	_	5	punct	_	_
+17	prepad	prepad	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	dep	_	_
+18	banky	banka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	,	,	PUNCT	Z	_	21	punct	_	_
+20	násilné	násilný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	oslobodenie	oslobodenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	17	conj	_	_
+22	väzňa	väzeň	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	)	)	PUNCT	Z	_	5	punct	_	_
+24	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s12
+# text = K Mahlerovým obhajcom patril aj Otto Schilly , neskôr minister vnútra SRN , ale aj Gerhard Schröder , neskôr kancelár SRN .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#12
+1	K	k	ADP	Eu3	AdpType=Prep|Case=Dat	3	case	_	_
+2	Mahlerovým	mahlerov	ADJ	AFmp3x:r	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	obhajcom	obhajca	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obl:arg	_	_
+4	patril	patriť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	aj	aj	PART	T	_	7	advmod:emph	_	_
+6	Otto	otto	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+7	Schilly	schilly	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+8	,	,	PUNCT	Z	_	7	punct	_	_
+9	neskôr	neskoro	ADV	Dy	Degree=Cmp	7	dep	_	_
+10	minister	minister	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	dep	_	_
+11	vnútra	vnútro	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	SRN	srn	X	W	Abbr=Yes	11	nmod	_	_
+13	,	,	PUNCT	Z	_	17	punct	_	_
+14	ale	ale	CCONJ	O	_	17	cc	_	_
+15	aj	aj	CCONJ	O	_	17	advmod:emph	_	_
+16	Gerhard	gerhard	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_
+17	Schröder	schröder	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+18	,	,	PUNCT	Z	_	17	punct	_	_
+19	neskôr	neskoro	ADV	Dy	Degree=Cmp	17	dep	_	_
+20	kancelár	kancelár	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	dep	_	_
+21	SRN	srn	X	W	Abbr=Yes	20	nmod	_	_
+22	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s13
+# text = Ešte počas výkonu trestu bol Mahler kvôli členstvu v maoistickej takzvanej strane KPD a v dôsledku ideologických sporov z RAF vylúčený .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#13
+1	Ešte	ešte	PART	T	_	3	advmod:emph	_	_
+2	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+3	výkonu	výkon	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	obl	_	_
+4	trestu	trest	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	21	cop	_	_
+6	Mahler	mahler	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+7	kvôli	kvôli	ADP	Eu3	AdpType=Prep|Case=Dat	8	case	_	_
+8	členstvu	členstvo	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+10	maoistickej	maoistický	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	takzvanej	takzvaný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	strane	strana	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
+13	KPD	kpd	X	W	Abbr=Yes	12	nmod	_	_
+14	a	a	CCONJ	O	_	18	cc	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+16	dôsledku	dôsledok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	fixed	_	_
+17	ideologických	ideologický	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	_
+18	sporov	spor	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	_
+19	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+20	RAF	raf	X	W	Abbr=Yes	21	advmod	_	_
+21	vylúčený	vylúčený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+22	.	.	PUNCT	Z	_	21	punct	_	_
+
+# sent_id = s14
+# text = Roku 1980 ho predčasne prepustili po výkone dvoch tretín trestu a roku 1987 dostal povolenie pôsobiť ako právny obhajca .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#14
+1	Roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+2	1980	1980	NUM	0	NumForm=Digit	1	nummod	_	_
+3	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+4	predčasne	predčasne	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	prepustili	prepustiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	výkone	výkon	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+8	dvoch	dva	NUM	NNfp2	Case=Gen|Gender=Fem|Number=Plur	9	nummod	_	_
+9	tretín	tretina	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+10	trestu	trest	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	a	a	CCONJ	O	_	14	cc	_	_
+12	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	_
+13	1987	1987	NUM	0	NumForm=Digit	12	nummod	_	_
+14	dostal	dostať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+15	povolenie	povolenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+16	pôsobiť	pôsobiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	15	acl	_	_
+17	ako	ako	SCONJ	O	_	19	mark	_	_
+18	právny	právny	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	obhajca	obhajca	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	xcomp	_	_
+20	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s15
+# text = Počas väzby sa Mahler zoznámil s Hegelovým dielom , čítal ďalšiu literatúru a zmenil svoje názory .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#15
+1	Počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	väzby	väzba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+4	Mahler	mahler	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	zoznámil	zoznámiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+7	Hegelovým	hegelov	ADJ	AFns7x:r	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	dielom	dielo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	5	obl:arg	_	_
+9	,	,	PUNCT	Z	_	10	punct	_	_
+10	čítal	čítať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+11	ďalšiu	ďalší	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	literatúru	literatúra	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	zmenil	zmeniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+15	svoje	svoj	DET	PFip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	_
+16	názory	názor	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+17	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s16
+# text = Germánstvo sa pomaly stávalo v jeho očiach východiskom pre problémy nemeckej spoločnosti .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#16
+1	Germánstvo	germánstvo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	pomaly	pomaly	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	stávalo	stávať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	jeho	jeho	DET	PUnp6	Case=Loc|Gender=Neut|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	očiach	oko	NOUN	SSnp6	Case=Loc|Gender=Neut|Number=Plur	4	obl	_	_
+8	východiskom	východisko	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	4	obj	_	_
+9	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+10	problémy	problém	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	_
+11	nemeckej	nemecký	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	spoločnosti	spoločnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s17
+# text = Roku 2000 vstúpil k veľkému prekvapeniu svojich bývalých kolegov do ultrapravicovej Národnej demokratickej strany Nemecka ( NPD ) .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#17
+1	Roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+2	2000	2000	NUM	0	NumForm=Digit	1	nummod	_	_
+3	vstúpil	vstúpiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	6	case	_	_
+5	veľkému	veľký	ADJ	AAns3x	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	prekvapeniu	prekvapenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+7	svojich	svoj	DET	PFmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	_
+8	bývalých	bývalý	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
+9	kolegov	kolega	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+10	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+11	ultrapravicovej	ultrapravicový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+12	Národnej	národný	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+13	demokratickej	demokratický	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	strany	strana	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+15	Nemecka	nemecko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	(	(	PUNCT	Z	_	17	punct	_	_
+17	NPD	npd	X	W	Abbr=Yes	14	appos	_	_
+18	)	)	PUNCT	Z	_	17	punct	_	_
+19	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s18
+# text = Neskôr zastupoval stranu aj v rôznych procesoch a pri rôznych príležitostiach sa zasadzoval za obnovu Veľkonemeckej ríše .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#18
+1	Neskôr	neskoro	ADV	Dy	Degree=Cmp	2	advmod	_	_
+2	zastupoval	zastupovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	stranu	strana	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	aj	aj	PART	T	_	7	advmod:emph	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	rôznych	rôzny	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+7	procesoch	proces	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	obl	_	_
+8	a	a	CCONJ	O	_	13	cc	_	_
+9	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+10	rôznych	rôzny	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
+11	príležitostiach	príležitosť	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	13	obl	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+13	zasadzoval	zasadzovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+14	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+15	obnovu	obnova	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	obl:arg	_	_
+16	Veľkonemeckej	veľkonemecký	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	ríše	ríša	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s19
+# text = V roku 2003 z NPD vystúpil a založil Spolok za rehabilitáciu prenasledovaných v dôsledku popierania holokaustu ( Verein zur Rehabilitierung der wegen Bestreitens des Holocaust Verfolgten ) .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#19
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	2003	2003	NUM	0	NumForm=Digit	2	nummod	_	_
+4	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+5	NPD	npd	X	W	Abbr=Yes	6	advmod	_	_
+6	vystúpil	vystúpiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	založil	založiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+9	Spolok	spolok	PROPN	SSis4:r	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+11	rehabilitáciu	rehabilitácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_
+12	prenasledovaných	prenasledovaný	NOUN	SAmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+14	dôsledku	dôsledok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	fixed	_	_
+15	popierania	popieranie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+16	holokaustu	holokaust	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	(	(	PUNCT	Z	_	18	punct	_	_
+18	Verein	verein	X	%	Foreign=Yes	9	appos	_	_
+19	zur	zur	X	%	Foreign=Yes	18	flat:foreign	_	_
+20	Rehabilitierung	rehabilitierung	X	%	Foreign=Yes	18	flat:foreign	_	_
+21	der	der	X	%	Foreign=Yes	18	flat:foreign	_	_
+22	wegen	wegen	X	%	Foreign=Yes	18	flat:foreign	_	_
+23	Bestreitens	bestreitens	X	%	Foreign=Yes	18	flat:foreign	_	_
+24	des	des	X	%	Foreign=Yes	18	flat:foreign	_	_
+25	Holocaust	holocaust	X	%	Foreign=Yes	18	flat:foreign	_	_
+26	Verfolgten	verfolgten	X	%	Foreign=Yes	18	flat:foreign	_	_
+27	)	)	PUNCT	Z	_	18	punct	_	_
+28	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s20
+# text = Začiatkom roku 2004 sa ocitol opäť v súdnej sieni , tentoraz obvinený zo štvania ľudu ( po nemecky Volksverhetzung ) .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#20
+1	Začiatkom	začiatkom	ADP	Eu2	AdpType=Prep|Case=Gen	5	advmod	_	_
+2	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	2004	2004	NUM	0	NumForm=Digit	2	nummod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	ocitol	ocitnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	opäť	opäť	ADV	Dx	Degree=Pos	5	advmod	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+8	súdnej	súdny	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	sieni	sieň	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	tentoraz	tentoraz	ADV	Dx	Degree=Pos	12	advmod	_	_
+12	obvinený	obvinený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	xcomp	_	_
+13	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	14	case	_	_
+14	štvania	štvanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_
+15	ľudu	ľud	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	(	(	PUNCT	Z	_	14	punct	_	_
+17	po	po	X	Q	Hyph=Yes	18	case	_	_
+18	nemecky	nemecky	ADV	Dx	Degree=Pos	14	dep	_	_
+19	Volksverhetzung	volksverhetzung	X	%	Foreign=Yes	14	dep	_	_
+20	)	)	PUNCT	Z	_	14	punct	_	_
+21	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s21
+# text = Mahler s niekoľkými stúpencami žiadal zákaz židovských obcí v Nemecku , vypovedanie všetkých nezamestnaných prisťahovalcov z Nemecka a vyzýval na ďalšie silné zásahy proti rôznym menšinám .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#21
+1	Mahler	mahler	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	4	case	_	_
+3	niekoľkými	niekoľko	DET	PUmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	4	det	_	_
+4	stúpencami	stúpenec	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	_
+5	žiadal	žiadať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	zákaz	zákaz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	židovských	židovský	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	obcí	obec	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	Nemecku	nemecko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	_
+11	,	,	PUNCT	Z	_	12	punct	_	_
+12	vypovedanie	vypovedanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	conj	_	_
+13	všetkých	všetok	DET	PFmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	15	det	_	_
+14	nezamestnaných	zamestnaný	ADJ	Gtmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Neg|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	prisťahovalcov	prisťahovalec	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+16	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+17	Nemecka	nemecko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+18	a	a	CCONJ	O	_	19	cc	_	_
+19	vyzýval	vyzývať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+20	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	23	case	_	_
+21	ďalšie	ďalší	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	_
+22	silné	silný	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	_
+23	zásahy	zásah	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	19	obl:arg	_	_
+24	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	26	case	_	_
+25	rôznym	rôzny	ADJ	AAfp3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	_
+26	menšinám	menšina	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	23	nmod	_	_
+27	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s22
+# text = Roku 2002 rozdával novinárom na straníckej konferencii NPD neonacistické letáky , ktoré označovali nenávisť voči Židom za niečo celkom obvyklé .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#22
+1	Roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+2	2002	2002	NUM	0	NumForm=Digit	1	nummod	_	_
+3	rozdával	rozdávať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	novinárom	novinár	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	iobj	_	_
+5	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	straníckej	stranícky	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	konferencii	konferencia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+8	NPD	npd	X	W	Abbr=Yes	7	nmod	_	_
+9	neonacistické	neonacistický	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+10	letáky	leták	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+11	,	,	PUNCT	Z	_	13	punct	_	_
+12	ktoré	ktorý	DET	PAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	13	nsubj	_	_
+13	označovali	označovať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
+14	nenávisť	nenávisť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	voči	voči	ADP	Eu3	AdpType=Prep|Case=Dat	16	case	_	_
+16	Židom	žid	PROPN	SSmp3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	14	nmod	_	_
+17	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	18	case	_	_
+18	niečo	niečo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	13	obl:arg	_	_
+19	celkom	celkom	PART	T	_	20	advmod:emph	_	_
+20	obvyklé	obvyklý	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+21	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s23
+# text = Počas procesu hrozil sudcom , prokurátorovi a prísediacim trestom smrti podľa starého a neplatného ríšskeho trestného kódexu ( sudca si v dôsledku jeho počínania vyžiadal psychiatrov posudok ) .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#23
+1	Počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	procesu	proces	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+3	hrozil	hroziť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	sudcom	sudca	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obj	_	_
+5	,	,	PUNCT	Z	_	6	punct	_	_
+6	prokurátorovi	prokurátor	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	conj	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	prísediacim	prísediaci	NOUN	SAmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	conj	_	_
+9	trestom	trest	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obj	_	_
+10	smrti	smrť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+12	starého	starý	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	neplatného	neplatný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	conj	_	_
+15	ríšskeho	ríšsky	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+16	trestného	trestný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	kódexu	kódex	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+18	(	(	PUNCT	Z	_	25	punct	_	_
+19	sudca	sudca	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+20	si	si	PRON	R	PronType=Prs|Reflex=Yes	25	expl:pv	_	_
+21	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+22	dôsledku	dôsledok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	fixed	_	_
+23	jeho	jeho	DET	PUns2	Case=Gen|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	počínania	počínanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	25	obl	_	_
+25	vyžiadal	vyžiadať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	parataxis	_	_
+26	psychiatrov	psychiatrov	ADJ	AFis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	posudok	posudok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
+28	)	)	PUNCT	Z	_	25	punct	_	_
+29	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s24
+# text = Aj vzhľadom k ďalším antisemitistickým výstupom bol Mahler 8 . apríla 2004 odsúdený za propagáciu rasizmu a antisemitizmu na deväť mesiacov väzenia a dostal zákaz vykonávať prax obhajcu .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#24
+1	Aj	aj	PART	T	_	6	advmod:emph	_	_
+2	vzhľadom	vzhľad	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	case	_	_
+3	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	2	fixed	_	_
+4	ďalším	ďalší	ADJ	AAip3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+5	antisemitistickým	antisemitistický	ADJ	AAip3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+6	výstupom	výstup	NOUN	SSip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	13	obl	_	_
+7	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	cop	_	_
+8	Mahler	mahler	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+9	8	8	NUM	0	NumForm=Digit	11	nummod	_	_
+10	.	.	PUNCT	Z	_	9	punct	_	_
+11	apríla	apríl	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+12	2004	2004	NUM	0	NumForm=Digit	11	nummod	_	_
+13	odsúdený	odsúdený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+14	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+15	propagáciu	propagácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+16	rasizmu	rasizmus	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	antisemitizmu	antisemitizmus	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	conj	_	_
+19	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	20	case	_	_
+20	deväť	deväť	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	13	obl	_	_
+21	mesiacov	mesiac	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+22	väzenia	väzenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	a	a	CCONJ	O	_	24	cc	_	_
+24	dostal	dostať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	conj	_	_
+25	zákaz	zákaz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
+26	vykonávať	vykonávať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	25	acl	_	_
+27	prax	prax	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+28	obhajcu	obhajca	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	.	.	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s25
+# text = Istú pozornosť vzbudil Horst Mahler až v novembri 2005 , kedy vystupoval ako asistent obhajoby v procese proti Ernstovi Zündelovi a tejto funkcie ho sudca zbavil .
+# orig_file_sentence wiki-nove-100_mz_wiki-nove-100_kandracova#25
+1	Istú	istý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	pozornosť	pozornosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	vzbudil	vzbudiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	Horst	horst	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+5	Mahler	mahler	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+6	až	až	PART	T	_	8	advmod:emph	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	novembri	november	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+9	2005	2005	NUM	0	NumForm=Digit	8	nummod	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	kedy	kedy	ADV	PD	PronType=Int,Rel	12	nsubj	_	_
+12	vystupoval	vystupovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+13	ako	ako	SCONJ	O	_	14	mark	_	_
+14	asistent	asistent	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	xcomp	_	_
+15	obhajoby	obhajoba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	procese	proces	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+18	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	20	case	_	_
+19	Ernstovi	ernst	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	_
+20	Zündelovi	zündel	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	_
+21	a	a	CCONJ	O	_	26	cc	_	_
+22	tejto	táto	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
+23	funkcie	funkcia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	26	iobj	_	_
+24	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+25	sudca	sudca	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+26	zbavil	zbaviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	conj	_	_
+27	.	.	PUNCT	Z	_	3	punct	_	_
+

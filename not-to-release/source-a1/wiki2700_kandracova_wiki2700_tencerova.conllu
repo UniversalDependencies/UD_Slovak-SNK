@@ -1,0 +1,969 @@
+# sent_id = s1
+# text = Kompaktný disk ( eng . Compact Disc alebo CD ) je optický digitálny dátový nosič .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#1
+1	Kompaktný	kompaktný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	disk	disk	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+3	(	(	PUNCT	Z	_	4	punct	_	_
+4	eng	eng	X	%	Foreign=Yes	2	appos	_	_
+5	.	.	PUNCT	Z	_	4	punct	_	_
+6	Compact	compact	X	%	Foreign=Yes	2	appos	_	_
+7	Disc	disc	X	%	Foreign=Yes	6	flat:foreign	_	_
+8	alebo	alebo	CCONJ	O	_	9	cc	_	_
+9	CD	cd	X	W	Abbr=Yes	6	conj	_	_
+10	)	)	PUNCT	Z	_	4	punct	_	_
+11	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	cop	_	_
+12	optický	optický	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+13	digitálny	digitálny	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	dátový	dátový	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	nosič	nosič	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+16	.	.	PUNCT	Z	_	15	punct	_	_
+
+# sent_id = s2
+# text = Pôvodne bol určený len na uloženie zvuku v digitálnej forme .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#2
+1	Pôvodne	pôvodne	ADV	Dx	Degree=Pos	3	advmod	_	_
+2	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	cop	_	_
+3	určený	určený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	len	len	PART	T	_	6	advmod:emph	_	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	uloženie	uloženie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
+7	zvuku	zvuk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+9	digitálnej	digitálny	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	forme	forma	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+11	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s3
+# text = Neskôr tento nosič umožnil aj uloženie iných počítačových údajov ( CD - ROM ) , videozáznamu ( Video CD alebo SVCD ) alebo fotografií ( Photo CD ) .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#3
+1	Neskôr	neskôr	ADV	Dx	Degree=Pos	4	advmod	_	_
+2	tento	tento	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	nosič	nosič	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	umožnil	umožniť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	aj	aj	PART	T	_	6	cc	_	_
+6	uloženie	uloženie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+7	iných	iný	DET	PAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+8	počítačových	počítačový	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
+9	údajov	údaj	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+10	(	(	PUNCT	Z	_	9	punct	_	_
+11	CD	cd	X	W	Abbr=Yes	13	nmod	_	_
+12	-	-	PUNCT	Z	_	11	punct	_	_
+13	ROM	rom	X	W	Abbr=Yes	9	dep	_	_
+14	)	)	PUNCT	Z	_	9	punct	_	_
+15	,	,	PUNCT	Z	_	16	punct	_	_
+16	videozáznamu	videozáznam	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
+17	(	(	PUNCT	Z	_	19	punct	_	_
+18	Video	video	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	19	nmod	_	_
+19	CD	cd	X	W	Abbr=Yes	16	dep	_	_
+20	alebo	alebo	CCONJ	O	_	21	cc	_	_
+21	SVCD	svcd	X	W	Abbr=Yes	19	conj	_	_
+22	)	)	PUNCT	Z	_	19	punct	_	_
+23	alebo	alebo	CCONJ	O	_	24	cc	_	_
+24	fotografií	fotografia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	9	conj	_	_
+25	(	(	PUNCT	Z	_	24	punct	_	_
+26	Photo	photo	X	%	Foreign=Yes	27	nmod	_	_
+27	CD	cd	X	W	Abbr=Yes	24	dep	_	_
+28	)	)	PUNCT	Z	_	24	punct	_	_
+29	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s4
+# text = Evolúciou prešiel aj zápis údajov na CD .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#4
+1	Evolúciou	evolúcia	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	2	obj	_	_
+2	prešiel	prejsť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	aj	aj	PART	T	_	4	cc	_	_
+4	zápis	zápis	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	údajov	údaj	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+7	CD	cd	X	W	Abbr=Yes	4	nmod	_	_
+8	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s5
+# text = Pôvodne sa so zápisom na CD nepočítalo vôbec ( údaje sa na CD ukladali lisovaním ) , až neskôr pribudla možnosť jednorázového zápisu ( CD - R ) a neskôr aj viacnásobneho zápisu ( CD - RW ) .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#5
+1	Pôvodne	pôvodne	ADV	Dx	Degree=Pos	7	advmod	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pass	_	_
+3	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	4	case	_	_
+4	zápisom	zápis	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl:arg	_	_
+5	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	CD	cd	X	W	Abbr=Yes	4	nmod	_	_
+7	nepočítalo	počítať	VERB	VLescn-	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+8	vôbec	vôbec	PART	T	_	7	advmod	_	_
+9	(	(	PUNCT	Z	_	14	punct	_	_
+10	údaje	údaj	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj:pass	_	_
+11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pass	_	_
+12	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+13	CD	cd	X	W	Abbr=Yes	14	advmod	_	_
+14	ukladali	ukladať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	7	parataxis	_	_
+15	lisovaním	lisovanie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	14	obl	_	_
+16	)	)	PUNCT	Z	_	14	punct	_	_
+17	,	,	PUNCT	Z	_	20	punct	_	_
+18	až	až	PART	T	_	19	advmod:emph	_	_
+19	neskôr	neskôr	ADV	Dx	Degree=Pos	20	advmod	_	_
+20	pribudla	pribudnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+21	možnosť	možnosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	20	obj	_	_
+22	jednorázového	jednorázový	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	zápisu	zápis	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+24	(	(	PUNCT	Z	_	27	punct	_	_
+25	CD	cd	X	W	Abbr=Yes	27	nmod	_	_
+26	-	-	PUNCT	Z	_	25	punct	_	_
+27	R	r	X	W	Abbr=Yes	21	nmod	_	_
+28	)	)	PUNCT	Z	_	27	punct	_	_
+29	a	a	CCONJ	O	_	30	cc	_	_
+30	neskôr	neskôr	ADV	Dx	Degree=Pos	20	conj	_	_
+31	aj	aj	PART	T	_	33	advmod:emph	_	_
+32	viacnásobneho	viacnásobný	ADJ	NAis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumType=Mult	33	amod	_	_
+33	zápisu	zápis	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	orphan	_	_
+34	(	(	PUNCT	Z	_	37	punct	_	_
+35	CD	cd	X	W	Abbr=Yes	37	nmod	_	_
+36	-	-	PUNCT	Z	_	35	punct	_	_
+37	RW	rw	X	W	Abbr=Yes	33	nmod	_	_
+38	)	)	PUNCT	Z	_	37	punct	_	_
+39	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s6
+# text = Kompaktné disky sa vyrábajú z polykarbonátového plastu a sú hrubé 1 , 2 mm .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#6
+1	Kompaktné	kompaktný	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+2	disky	disk	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	vyrábajú	vyrábať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+6	polykarbonátového	polykarbonátový	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	plastu	plast	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl:arg	_	_
+8	a	a	CCONJ	O	_	10	cc	_	_
+9	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	hrubé	hrubý	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	conj	_	_
+11	1	1	NUM	0	NumForm=Digit	12	nummod	_	_
+12	,	,	PUNCT	Z	_	10	punct	_	_
+13	2	2	NUM	0	NumForm=Digit	10	obl	_	_
+14	mm	mm	X	W	Abbr=Yes	13	nmod	_	_
+15	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s7
+# text = Disky sú pokryté veľmi tenkou hliníkovou vrstvou ( pôvodne sa používalo zlato , s ktorým sa môžeme stretnúť aj dnes , vďaka trvácnosti údajov uložených na vrstvu zo zlata ) .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#7
+1	Disky	disk	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	pokryté	pokrytý	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	veľmi	veľmi	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	tenkou	tenký	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	hliníkovou	hliníkový	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	vrstvou	vrstva	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	obj	_	_
+8	(	(	PUNCT	Z	_	11	punct	_	_
+9	pôvodne	pôvodne	ADV	Dx	Degree=Pos	11	advmod	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pass	_	_
+11	používalo	používať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	parataxis	_	_
+12	zlato	zlato	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	11	nsubj:pass	_	_
+13	,	,	PUNCT	Z	_	17	punct	_	_
+14	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	15	case	_	_
+15	ktorým	ktorý	DET	PAns7	Case=Ins|Gender=Neut|Number=Sing|PronType=Int,Rel	18	obl:arg	_	_
+16	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	18	obj	_	_
+17	môžeme	môcť	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	acl	_	_
+18	stretnúť	stretnúť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	17	xcomp	_	_
+19	aj	aj	PART	T	_	20	advmod:emph	_	_
+20	dnes	dnes	ADV	Dx	Degree=Pos	18	advmod	_	_
+21	,	,	PUNCT	Z	_	23	punct	_	_
+22	vďaka	vďaka	ADP	Eu3	AdpType=Prep|Case=Dat	23	case	_	_
+23	trvácnosti	trvácnosť	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	_
+24	údajov	údaj	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+25	uložených	uložený	ADJ	Gtip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	24	amod	_	_
+26	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	27	case	_	_
+27	vrstvu	vrstva	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	25	obl	_	_
+28	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	29	case	_	_
+29	zlata	zlato	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+30	)	)	PUNCT	Z	_	11	punct	_	_
+31	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s8
+# text = Hliníková vrstva je chránená lakovým filmom .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#8
+1	Hliníková	hliníkový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	vrstva	vrstva	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	chránená	chránený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+5	lakovým	lakový	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	filmom	film	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+7	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s9
+# text = Na lakový film sa môže vytlačiť potlač disku .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#9
+1	Na	na	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+2	lakový	lakový	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	film	film	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pass	_	_
+5	môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	vytlačiť	vytlačiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+7	potlač	potlač	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+8	disku	disk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s10
+# text = Kompaktné disky sa vyrábajú v rôznych veľkostiach ( priemeroch ) a dokonca aj tvaroch ( tzv . eng . shape disc , v preklade tvarovaný disk ) , najčastejšie však majú disky priemer 120 mm , ktorých kapacita býva 74 minút pre záznam zvuku alebo 650 MB pre uloženie údajov .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#10
+1	Kompaktné	kompaktný	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+2	disky	disk	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pass	_	_
+4	vyrábajú	vyrábať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	rôznych	rôzny	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
+7	veľkostiach	veľkosť	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	4	obl	_	_
+8	(	(	PUNCT	Z	_	9	punct	_	_
+9	priemeroch	priemer	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	appos	_	_
+10	)	)	PUNCT	Z	_	9	punct	_	_
+11	a	a	CCONJ	O	_	18	cc	_	_
+12	dokonca	dokonca	PART	T	_	18	cc	_	_
+13	aj	aj	PART	T	_	18	cc	_	_
+14	tvaroch	tvar	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	cc	_	_
+15	(	(	PUNCT	Z	_	18	punct	_	_
+16	tzv	tzv	X	W	Abbr=Yes	18	nmod	_	_
+17	.	.	PUNCT	Z	_	16	punct	_	_
+18	eng	eng	X	%	Foreign=Yes	7	conj	_	_
+19	.	.	PUNCT	Z	_	18	punct	_	_
+20	shape	shape	X	%	Foreign=Yes	18	flat:foreign	_	_
+21	disc	disc	X	%	Foreign=Yes	18	flat:foreign	_	_
+22	,	,	PUNCT	Z	_	26	punct	_	_
+23	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+24	preklade	preklad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	nmod	_	_
+25	tvarovaný	tvarovaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	26	amod	_	_
+26	disk	disk	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	_
+27	)	)	PUNCT	Z	_	18	punct	_	_
+28	,	,	PUNCT	Z	_	31	punct	_	_
+29	najčastejšie	často	ADV	Dz	Degree=Sup	31	advmod	_	_
+30	však	však	PART	T	_	31	advmod	_	_
+31	majú	mať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	_	_
+32	disky	disk	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	31	nsubj	_	_
+33	priemer	priemer	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	_
+34	120	120	NUM	0	NumForm=Digit	33	nummod	_	_
+35	mm	mm	X	W	Abbr=Yes	34	nmod	_	_
+36	,	,	PUNCT	Z	_	38	punct	_	_
+37	ktorých	ktorý	DET	PAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|PronType=Int,Rel	38	amod	_	_
+38	kapacita	kapacita	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	32	acl	_	_
+39	býva	bývať	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	38	cop	_	_
+40	74	74	NUM	0	NumForm=Digit	38	nsubj	_	_
+41	minút	minúta	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	40	nmod	_	_
+42	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	43	case	_	_
+43	záznam	záznam	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	41	nmod	_	_
+44	zvuku	zvuk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	_
+45	alebo	alebo	CCONJ	O	_	46	cc	_	_
+46	650	650	NUM	0	NumForm=Digit	40	conj	_	_
+47	MB	mb	X	W	Abbr=Yes	46	nmod	_	_
+48	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	49	case	_	_
+49	uloženie	uloženie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	47	nmod	_	_
+50	údajov	údaj	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	49	nmod	_	_
+51	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s11
+# text = Informácie sa na bežný kompaktný disk kódujú do stopy špirálového tvaru ( Špirála stopy sa začína v strede disku a pokračuje smerom k okraju disku , práve preto je možné vyrábať kompaktné disky rozličných veľkostí a tvarov . ) , ktorá pozostáva z jamiek ( eng . pits ) vyhĺbených do vrchnej časti polykarbonátovej vrstvy .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#11
+1	Informácie	informácia	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+4	bežný	bežný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	kompaktný	kompaktný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	disk	disk	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+7	kódujú	kódovať	VERB	VKjpc+	Aspect=Imp,Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	stopy	stopa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+10	špirálového	špirálový	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	tvaru	tvar	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	(	(	PUNCT	Z	_	16	punct	_	_
+13	Špirála	špirála	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+14	stopy	stopa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+16	začína	začínať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+18	strede	stred	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+19	disku	disk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	a	a	CCONJ	O	_	21	cc	_	_
+21	pokračuje	pokračovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	conj	_	_
+22	smerom	smer	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	24	case	_	_
+23	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	22	fixed	_	_
+24	okraju	okraj	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	21	obl	_	_
+25	disku	disk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	,	,	PUNCT	Z	_	30	punct	_	_
+27	práve	práve	PART	T	_	28	advmod:emph	_	_
+28	preto	preto	ADV	PD	PronType=Dem	30	advmod	_	_
+29	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	možné	možný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	conj	_	_
+31	vyrábať	vyrábať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	30	csubj	_	_
+32	kompaktné	kompaktný	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	33	amod	_	_
+33	disky	disk	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	31	obj	_	_
+34	rozličných	rozličný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	35	amod	_	_
+35	veľkostí	veľkosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	33	nmod	_	_
+36	a	a	CCONJ	O	_	37	cc	_	_
+37	tvarov	tvar	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	35	conj	_	_
+38	.	.	PUNCT	Z	_	30	punct	_	_
+39	)	)	PUNCT	Z	_	16	punct	_	_
+40	,	,	PUNCT	Z	_	42	punct	_	_
+41	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	42	nsubj	_	_
+42	pozostáva	pozostávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	acl	_	_
+43	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	44	case	_	_
+44	jamiek	jamka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	42	obl:arg	_	_
+45	(	(	PUNCT	Z	_	46	punct	_	_
+46	eng	eng	X	%	Foreign=Yes	44	appos	_	_
+47	.	.	PUNCT	Z	_	46	punct	_	_
+48	pits	pits	X	%	Foreign=Yes	46	flat:foreign	_	_
+49	)	)	PUNCT	Z	_	46	punct	_	_
+50	vyhĺbených	vyhĺbený	ADJ	Gtfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	44	amod	_	_
+51	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	53	case	_	_
+52	vrchnej	vrchný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	53	amod	_	_
+53	časti	časť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	50	obl:arg	_	_
+54	polykarbonátovej	polykarbonátový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	55	amod	_	_
+55	vrstvy	vrstva	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	53	nmod	_	_
+56	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s12
+# text = Miesta medzi jednotlivými jamkami sa nazývajú plôšky ( eng . lands ) .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#12
+1	Miesta	miesto	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
+2	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	4	case	_	_
+3	jednotlivými	jednotlivý	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+4	jamkami	jamka	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	1	nmod	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+6	nazývajú	nazývať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	plôšky	plôška	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	6	obl	_	_
+8	(	(	PUNCT	Z	_	9	punct	_	_
+9	eng	eng	X	%	Foreign=Yes	7	appos	_	_
+10	.	.	PUNCT	Z	_	9	punct	_	_
+11	lands	lands	X	%	Foreign=Yes	9	flat:foreign	_	_
+12	)	)	PUNCT	Z	_	9	punct	_	_
+13	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s13
+# text = Každá jamka je hlboká približne 125 nm a široká 500 nm , dĺžka jamky sa pohybuje v rozsahu 850 nm až po 3 , 5 μm .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#13
+1	Každá	každý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	2	det	_	_
+2	jamka	jamka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	hlboká	hlboký	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+5	približne	približne	PART	T	_	6	advmod:emph	_	_
+6	125	125	NUM	0	NumForm=Digit	4	obl	_	_
+7	nm	nm	X	W	Abbr=Yes	6	nmod	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	široká	široký	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	conj	_	_
+10	500	500	NUM	0	NumForm=Digit	9	obl	_	_
+11	nm	nm	X	W	Abbr=Yes	10	nmod	_	_
+12	,	,	PUNCT	Z	_	16	punct	_	_
+13	dĺžka	dĺžka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	14	nmod	_	_
+14	jamky	jamka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	nsubj:pass	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pass	_	_
+16	pohybuje	pohybovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	_	_
+17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+18	rozsahu	rozsah	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+19	850	850	NUM	0	NumForm=Digit	18	nummod	_	_
+20	nm	nm	X	W	Abbr=Yes	19	nmod	_	_
+21	až	až	PART	T	_	25	cc	_	_
+22	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	25	case	_	_
+23	3	3	NUM	0	NumForm=Digit	24	nummod	_	_
+24	,	,	PUNCT	Z	_	25	punct	_	_
+25	5	5	NUM	0	NumForm=Digit	19	conj	_	_
+26	μm	μm	X	W	Abbr=Yes	25	nmod	_	_
+27	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s14
+# text = Odstupy medzi jednotlivými stopami sú 1 , 5 μm .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#14
+1	Odstupy	odstup	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+2	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	4	case	_	_
+3	jednotlivými	jednotlivý	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+4	stopami	stopa	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	1	nmod	_	_
+5	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_
+6	1	1	NUM	0	NumForm=Digit	7	nummod	_	_
+7	,	,	PUNCT	Z	_	1	punct	_	_
+8	5	5	NUM	0	NumForm=Digit	1	nsubj	_	_
+9	μm	μm	X	W	Abbr=Yes	8	nmod	_	_
+10	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s15
+# text = Ak by ste si chceli predstaviť veľkosť jamiek a plôšok , predstavte si , že kompaktný disk je taký veľký ako štadión , jamka by potom bola asi taká malá ako zrnko piesku .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#15
+1	Ak	ak	SCONJ	O	_	5	mark	_	_
+2	by	by	AUX	Y	Mood=Cnd	5	aux	_	_
+3	ste	byť	AUX	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	si	si	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+5	chceli	chcieť	VERB	VLepbh+	Aspect=Imp|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	12	advcl	_	_
+6	predstaviť	predstaviť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+7	veľkosť	veľkosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	jamiek	jamka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	plôšok	plôška	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	8	conj	_	_
+11	,	,	PUNCT	Z	_	5	punct	_	_
+12	predstavte	predstaviť	VERB	VMdpb+	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+13	si	si	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+14	,	,	PUNCT	Z	_	19	punct	_	_
+15	že	že	SCONJ	O	_	19	mark	_	_
+16	kompaktný	kompaktný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	disk	disk	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+18	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	taký	taký	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	12	ccomp	_	_
+20	veľký	veľký	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	nmod	_	_
+21	ako	ako	SCONJ	O	_	22	mark	_	_
+22	štadión	štadión	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	dep	_	_
+23	,	,	PUNCT	Z	_	29	punct	_	_
+24	jamka	jamka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	_
+25	by	by	AUX	Y	Mood=Cnd	29	aux	_	_
+26	potom	potom	PART	T	_	29	advmod	_	_
+27	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	29	cop	_	_
+28	asi	asi	PART	T	_	29	advmod:emph	_	_
+29	taká	taký	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	19	conj	_	_
+30	malá	malý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	29	nmod	_	_
+31	ako	ako	SCONJ	O	_	32	mark	_	_
+32	zrnko	zrnko	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	30	dep	_	_
+33	piesku	piesok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
+34	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s16
+# text = Informácie z kompaktného disku sa čítajú zaostrením polovodičového lasera s vlnovou dĺžkou 780 nm cez spodok polykarbonátovej vrstvy .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#16
+1	Informácie	informácia	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	6	nsubj:pass	_	_
+2	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+3	kompaktného	kompaktný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	disku	disk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pass	_	_
+6	čítajú	čítať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	zaostrením	zaostrenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_
+8	polovodičového	polovodičový	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	lasera	laser	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	12	case	_	_
+11	vlnovou	vlnový	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	dĺžkou	dĺžka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	_
+13	780	780	NUM	0	NumForm=Digit	12	nummod	_	_
+14	nm	nm	X	W	Abbr=Yes	13	nmod	_	_
+15	cez	cez	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
+16	spodok	spodok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+17	polykarbonátovej	polykarbonátový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	vrstvy	vrstva	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s17
+# text = Rozdiel výšky jamky a plôšky je jedna štvrtina vlnovej dĺžky svetla lasera .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#17
+1	Rozdiel	rozdiel	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+2	výšky	výška	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	jamky	jamka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	a	a	CCONJ	O	_	5	cc	_	_
+5	plôšky	plôška	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_
+6	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	jedna	jeden	NUM	NFfs1	Case=Nom|Gender=Fem|Number=Sing	8	nummod	_	_
+8	štvrtina	štvrtina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+9	vlnovej	vlnový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	dĺžky	dĺžka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	svetla	svetlo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	lasera	laser	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s18
+# text = Tak vzniká fázový rozdiel medzi svetlom odrazeným od jamky a svetlom odrazeným od okolitých plôšok , ktorého vlnová dĺžka je polovičná .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#18
+1	Tak	tak	ADV	PD	PronType=Dem	2	advmod	_	_
+2	vzniká	vznikať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	fázový	fázový	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	rozdiel	rozdiel	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	6	case	_	_
+6	svetlom	svetlo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	4	nmod	_	_
+7	odrazeným	odrazený	ADJ	Gtns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
+8	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	jamky	jamka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	obl:arg	_	_
+10	a	a	CCONJ	O	_	11	cc	_	_
+11	svetlom	svetlo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	6	conj	_	_
+12	odrazeným	odrazený	ADJ	Gtns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	amod	_	_
+13	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+14	okolitých	okolitý	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
+15	plôšok	plôška	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	12	obl:arg	_	_
+16	,	,	PUNCT	Z	_	21	punct	_	_
+17	ktorého	ktorý	DET	PAns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Int,Rel	19	amod	_	_
+18	vlnová	vlnový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	dĺžka	dĺžka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+20	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	polovičná	polovičný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	acl	_	_
+22	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s19
+# text = Deštruktívna interferencia , ktorá pri tom vzniká , znižuje intenzitu odrazeného svetla , na rozdiel od prípadu , kedy je laser zaostrený len na plôšku .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#19
+1	Deštruktívna	deštruktívny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	interferencia	interferencia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+3	,	,	PUNCT	Z	_	7	punct	_	_
+4	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	7	nsubj	_	_
+5	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	tom	to	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	7	obl	_	_
+7	vzniká	vznikať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	acl	_	_
+8	,	,	PUNCT	Z	_	7	punct	_	_
+9	znižuje	znižovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	intenzitu	intenzita	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	odrazeného	odrazený	ADJ	Gtns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	svetla	svetlo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+13	,	,	PUNCT	Z	_	17	punct	_	_
+14	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
+15	rozdiel	rozdiel	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	fixed	_	_
+16	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	14	fixed	_	_
+17	prípadu	prípad	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+18	,	,	PUNCT	Z	_	22	punct	_	_
+19	kedy	kedy	ADV	PD	PronType=Int,Rel	22	advmod	_	_
+20	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	laser	laser	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+22	zaostrený	zaostrený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	17	acl	_	_
+23	len	len	PART	T	_	25	advmod:emph	_	_
+24	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	25	case	_	_
+25	plôšku	plôška	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	22	obl:arg	_	_
+26	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s20
+# text = Meraním intenzity svetla pomocou fotodiódy ( diódy citlivej na svetlo ) dokážeme potom z kompaktného disku čítať údaje .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#20
+1	Meraním	meranie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+2	intenzity	intenzita	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	svetla	svetlo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	pomocou	pomocou	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+5	fotodiódy	fotodióda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+6	(	(	PUNCT	Z	_	7	punct	_	_
+7	diódy	dióda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	appos	_	_
+8	citlivej	citlivý	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+9	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+10	svetlo	svetlo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	8	nmod	_	_
+11	)	)	PUNCT	Z	_	7	punct	_	_
+12	dokážeme	dokázať	VERB	VKdpa+	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	potom	potom	PART	T	_	12	advmod	_	_
+14	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+15	kompaktného	kompaktný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	disku	disk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+17	čítať	čítať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	12	xcomp	_	_
+18	údaje	údaj	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+19	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s21
+# text = Jamky a plôšky samé o sebe nepredstavujú nuly a jednotky binárneho zápisu .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#21
+1	Jamky	jamka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+2	a	a	CCONJ	O	_	3	cc	_	_
+3	plôšky	plôška	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	_
+4	samé	samý	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Emp	1	xcomp	_	_
+5	o	o	ADP	Eu6:q	AdpType=Prep|Case=Loc|Typo=Yes	6	case	_	_
+6	sebe	osebe	ADV	Dx:q	Degree=Pos|Typo=Yes	1	advmod	_	_
+7	nepredstavujú	predstavovať	VERB	VKepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	nuly	nula	NUM	NSfp4	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	jednotky	jednotka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	8	conj	_	_
+11	binárneho	binárny	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	zápisu	zápis	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+13	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s22
+# text = Je to prechod z jamky na plôšku alebo z plôšky na jamku , ktorý predstavuje jednotku a stav bez zmeny ( teda bez prechodu z jamky na plôšku alebo naopak ) predstavuje nulu .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#22
+1	Je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	prechod	prechod	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+5	jamky	jamka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+7	plôšku	plôška	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	_
+8	alebo	alebo	CCONJ	O	_	10	cc	_	_
+9	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+10	plôšky	plôška	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	conj	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	jamku	jamka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	_
+13	,	,	PUNCT	Z	_	15	punct	_	_
+14	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	15	nsubj	_	_
+15	predstavuje	predstavovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	acl	_	_
+16	jednotku	jednotka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	a	a	CCONJ	O	_	32	cc	_	_
+18	stav	stav	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	nsubj	_	_
+19	bez	bez	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+20	zmeny	zmena	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	(	(	PUNCT	Z	_	24	punct	_	_
+22	teda	teda	CCONJ	O	_	24	cc	_	_
+23	bez	bez	ADP	Eu2	AdpType=Prep|Case=Gen	24	case	_	_
+24	prechodu	prechod	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	appos	_	_
+25	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	26	case	_	_
+26	jamky	jamka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+27	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	28	case	_	_
+28	plôšku	plôška	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	26	conj	_	_
+29	alebo	alebo	CCONJ	O	_	30	cc	_	_
+30	naopak	naopak	ADV	Dx	Degree=Pos	26	conj	_	_
+31	)	)	PUNCT	Z	_	24	punct	_	_
+32	predstavuje	predstavovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+33	nulu	nula	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	32	obj	_	_
+34	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s23
+# text = Takto získané údaje sa dekódujú inverziou modulácie osem - ku - štrnásť , ktorá sa používa pri vytváraní disku , čím získame surové údaje uložené na disku .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#23
+1	Takto	takto	ADV	PD	PronType=Dem	2	advmod	_	_
+2	získané	získaný	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	údaje	údaj	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pass	_	_
+5	dekódujú	dekódovať	VERB	VKjpc+	Aspect=Imp,Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	inverziou	inverzia	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+7	modulácie	modulácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	osem	osem	NUM	NUnp1	Case=Nom|Gender=Neut|Number=Plur	6	nummod	_	_
+9	-	-	PUNCT	Z	_	12	punct	_	_
+10	ku	k	ADP	Ev3	AdpType=Voc|Case=Dat	12	cc	_	_
+11	-	-	PUNCT	Z	_	12	punct	_	_
+12	štrnásť	štrnásť	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	8	conj	_	_
+13	,	,	PUNCT	Z	_	16	punct	_	_
+14	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	16	nsubj	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+16	používa	používať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	acl	_	_
+17	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+18	vytváraní	vytváranie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
+19	disku	disk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	,	,	PUNCT	Z	_	22	punct	_	_
+21	čím	čo	PRON	PFns7	Case=Ins|Gender=Neut|Number=Sing|PronType=Int,Rel	22	obl	_	_
+22	získame	získať	VERB	VKdpa+	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
+23	surové	surový	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	24	amod	_	_
+24	údaje	údaj	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	22	obj	_	_
+25	uložené	uložený	ADJ	Gtip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	24	amod	_	_
+26	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	27	case	_	_
+27	disku	disk	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	obl	_	_
+28	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s24
+# text = Špecifikácia kompaktného disku odporúča konštantnú rýchlosť 1 , 22 m / s a odstup stopy 1 , 59 μm .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#24
+1	Špecifikácia	špecifikácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	kompaktného	kompaktný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	disku	disk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	odporúča	odporúčať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	konštantnú	konštantný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	rýchlosť	rýchlosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	1	1	NUM	0	NumForm=Digit	8	nummod	_	_
+8	,	,	PUNCT	Z	_	6	punct	_	_
+9	22	22	NUM	0	NumForm=Digit	6	nummod	_	_
+10	m	m	X	W	Abbr=Yes	9	nmod	_	_
+11	/	/	PUNCT	Z	_	12	punct	_	_
+12	s	s	X	W	Abbr=Yes	10	nmod	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	odstup	odstup	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	conj	_	_
+15	stopy	stopa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	1	1	NUM	0	NumForm=Digit	17	nummod	_	_
+17	,	,	PUNCT	Z	_	14	punct	_	_
+18	59	59	NUM	0	NumForm=Digit	14	nummod	_	_
+19	μm	μm	X	W	Abbr=Yes	18	nmod	_	_
+20	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s25
+# text = Pre disk s priemerom 120 mm potom pri dodržaní týchto odporúčaní dostaneme kapacitu 74 minút pre disk pre zvukový záznam alebo približne 650 MB pre disk typu CD - ROM .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#25
+1	Pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	2	case	_	_
+2	disk	disk	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl:arg	_	_
+3	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	4	case	_	_
+4	priemerom	priemer	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+5	120	120	NUM	0	NumForm=Digit	4	nummod	_	_
+6	mm	mm	X	W	Abbr=Yes	5	nmod	_	_
+7	potom	potom	PART	T	_	12	advmod	_	_
+8	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	dodržaní	dodržanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+10	týchto	toto	DET	PFnp2	Case=Gen|Gender=Neut|Number=Plur|PronType=Dem	11	det	_	_
+11	odporúčaní	odporúčanie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
+12	dostaneme	dostať	VERB	VKdpa+	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	kapacitu	kapacita	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	74	74	NUM	0	NumForm=Digit	13	nummod	_	_
+15	minút	minúta	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+16	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
+17	disk	disk	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	nmod	_	_
+18	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	20	case	_	_
+19	zvukový	zvukový	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	záznam	záznam	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	_
+21	alebo	alebo	CCONJ	O	_	23	cc	_	_
+22	približne	približne	PART	T	_	23	advmod:emph	_	_
+23	650	650	NUM	0	NumForm=Digit	14	conj	_	_
+24	MB	mb	X	W	Abbr=Yes	23	nmod	_	_
+25	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	26	case	_	_
+26	disk	disk	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	nmod	_	_
+27	typu	typ	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+28	CD	cd	X	W	Abbr=Yes	30	nmod	_	_
+29	-	-	PUNCT	Z	_	28	punct	_	_
+30	ROM	rom	X	W	Abbr=Yes	27	nmod	_	_
+31	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s26
+# text = Aby sa mohli používať rozličné postupy výroby kompaktných diskov , špecifikácia pripúšťa ukladanie údajov aj hustejším spôsobom .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#26
+1	Aby	aby	SCONJ	OY	Mood=Cnd	3	mark	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	mohli	môcť	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	12	advcl	_	_
+4	používať	používať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+5	rozličné	rozličný	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+6	postupy	postup	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+7	výroby	výroba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	kompaktných	kompaktný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
+9	diskov	disk	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	,	,	PUNCT	Z	_	3	punct	_	_
+11	špecifikácia	špecifikácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+12	pripúšťa	pripúšťať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	ukladanie	ukladanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+14	údajov	údaj	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	aj	aj	PART	T	_	16	advmod:emph	_	_
+16	hustejším	hustý	ADJ	AAis7y	Animacy=Inan|Case=Ins|Degree=Cmp|Gender=Masc|Number=Sing	17	amod	_	_
+17	spôsobom	spôsob	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+18	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s27
+# text = Ak sa potom takéto zhustenie používa zámerne , nie len ako odchýlka pri výrobe , môžeme vyrobiť disky s väčšou kapacitou a dodržať tak požiadavky špecifikácie ( alebo ich prekročiť len nepatrne ) .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#27
+1	Ak	ak	SCONJ	O	_	6	mark	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pass	_	_
+3	potom	potom	PART	T	_	6	advmod	_	_
+4	takéto	takýto	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
+5	zhustenie	zhustenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	6	nsubj:pass	_	_
+6	používa	používať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+7	zámerne	zámerne	ADV	Dx	Degree=Pos	6	advmod	_	_
+8	,	,	PUNCT	Z	_	12	punct	_	_
+9	nie	nie	PART	T	_	12	advmod	_	_
+10	len	len	PART	T	_	9	cc	_	_
+11	ako	ako	SCONJ	O	_	12	cc	_	_
+12	odchýlka	odchýlka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	_
+13	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	výrobe	výroba	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	_
+15	,	,	PUNCT	Z	_	6	punct	_	_
+16	môžeme	môcť	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	vyrobiť	vyrobiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	16	xcomp	_	_
+18	disky	disk	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+19	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	21	case	_	_
+20	väčšou	veľký	ADJ	AAfs7y	Case=Ins|Degree=Cmp|Gender=Fem|Number=Sing	21	amod	_	_
+21	kapacitou	kapacita	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	18	nmod	_	_
+22	a	a	CCONJ	O	_	23	cc	_	_
+23	dodržať	dodržať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	17	conj	_	_
+24	tak	tak	ADV	PD	PronType=Dem	23	advmod	_	_
+25	požiadavky	požiadavka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	23	obj	_	_
+26	špecifikácie	špecifikácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	(	(	PUNCT	Z	_	23	punct	_	_
+28	alebo	alebo	CCONJ	O	_	23	cc	_	_
+29	ich	ona	PRON	PFfp4	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	30	obj	_	_
+30	prekročiť	prekročiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	23	xcomp	_	_
+31	len	len	PART	T	_	32	advmod:emph	_	_
+32	nepatrne	nepatrne	ADV	Dx	Degree=Pos	30	advmod	_	_
+33	)	)	PUNCT	Z	_	23	punct	_	_
+34	.	.	PUNCT	Z	_	16	punct	_	_
+
+# sent_id = s28
+# text = Ak sa pre disk použije konštantná rýchlosť 1 , 1975 m / s a odstup stopy je 1 , 497 μm , takýto disk má potom kapacitu 79 minút a 40 sekúnd pre zvuk alebo 702 MB pre údaje .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#28
+1	Ak	ak	SCONJ	O	_	5	mark	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pass	_	_
+3	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	disk	disk	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+5	použije	použiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	25	advcl	_	_
+6	konštantná	konštantný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	rýchlosť	rýchlosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+8	1	1	NUM	0	NumForm=Digit	9	nummod	_	_
+9	,	,	PUNCT	Z	_	7	punct	_	_
+10	1975	1975	NUM	0	NumForm=Digit	7	nummod	_	_
+11	m	m	X	W	Abbr=Yes	10	nmod	_	_
+12	/	/	PUNCT	Z	_	13	punct	_	_
+13	s	s	X	W	Abbr=Yes	11	nmod	_	_
+14	a	a	CCONJ	O	_	15	cc	_	_
+15	odstup	odstup	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+16	stopy	stopa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	cop	_	_
+18	1	1	NUM	0	NumForm=Digit	19	nummod	_	_
+19	,	,	PUNCT	Z	_	15	punct	_	_
+20	497	497	NUM	0	NumForm=Digit	15	nsubj	_	_
+21	μm	μm	X	W	Abbr=Yes	20	nmod	_	_
+22	,	,	PUNCT	Z	_	5	punct	_	_
+23	takýto	takýto	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	24	det	_	_
+24	disk	disk	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+25	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	potom	potom	PART	T	_	25	advmod	_	_
+27	kapacitu	kapacita	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+28	79	79	NUM	0	NumForm=Digit	27	nummod	_	_
+29	minút	minúta	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	_
+30	a	a	CCONJ	O	_	31	cc	_	_
+31	40	40	NUM	0	NumForm=Digit	28	conj	_	_
+32	sekúnd	sekunda	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	_
+33	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	34	case	_	_
+34	zvuk	zvuk	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	nmod	_	_
+35	alebo	alebo	CCONJ	O	_	36	cc	_	_
+36	702	702	NUM	0	NumForm=Digit	28	conj	_	_
+37	MB	mb	X	W	Abbr=Yes	36	nmod	_	_
+38	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	39	case	_	_
+39	údaje	údaj	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	37	nmod	_	_
+40	.	.	PUNCT	Z	_	25	punct	_	_
+
+# sent_id = s29
+# text = Aj napriek tomu , že tolerancia odchýliek pri výrobe takýchto diskov je nižšia , sú vo všeobecnosti spoľahlivé a len malé množstvo prehrávačov ich neprehrá .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#29
+1	Aj	aj	PART	T	_	13	advmod:emph	_	_
+2	napriek	napriek	ADP	Eu3	AdpType=Prep|Case=Dat	13	case	_	_
+3	tomu	to	DET	PFns3	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	13	case	_	_
+4	,	,	PUNCT	Z	_	13	punct	_	_
+5	že	že	SCONJ	O	_	13	mark	_	_
+6	tolerancia	tolerancia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+7	odchýliek	odchýlka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	výrobe	výroba	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+10	takýchto	takýto	DET	PAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	11	det	_	_
+11	diskov	disk	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	nižšia	nízky	ADJ	AAfs1y	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	18	acl	_	_
+14	,	,	PUNCT	Z	_	13	punct	_	_
+15	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	17	case	_	_
+17	všeobecnosti	všeobecnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	18	obl	_	_
+18	spoľahlivé	spoľahlivý	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	_
+19	a	a	CCONJ	O	_	25	cc	_	_
+20	len	len	PART	T	_	21	advmod:emph	_	_
+21	malé	malý	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	množstvo	množstvo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	_
+23	prehrávačov	prehrávač	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	ich	ona	PRON	PFfp4	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	25	obj	_	_
+25	neprehrá	prehrať	VERB	VKdpc-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	18	conj	_	_
+26	.	.	PUNCT	Z	_	18	punct	_	_
+
+# sent_id = s30
+# text = Niektoré zdroje dokonca uvádzajú , že disky s kapacitou 90 a viac minút môžu spôsobiť fyzické poškodenie prehrávača alebo rekordéra .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#30
+1	Niektoré	niektorý	DET	PAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	zdroje	zdroj	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	dokonca	dokonca	PART	T	_	4	advmod:emph	_	_
+4	uvádzajú	uvádzať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	,	,	PUNCT	Z	_	14	punct	_	_
+6	že	že	SCONJ	O	_	14	mark	_	_
+7	disky	disk	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+8	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+9	kapacitou	kapacita	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	7	nmod	_	_
+10	90	90	NUM	0	NumForm=Digit	9	nummod	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	viac	viac	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	10	conj	_	_
+13	minút	minúta	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+14	môžu	môcť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+15	spôsobiť	spôsobiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	14	xcomp	_	_
+16	fyzické	fyzický	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	poškodenie	poškodenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+18	prehrávača	prehrávač	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+19	alebo	alebo	CCONJ	O	_	20	cc	_	_
+20	rekordéra	rekordér	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+21	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s31
+# text = Aj z horeuvedených dôvodov , problémami s kompatibilitou takýchto diskov s hardvérom a softvérom sa disky s kapacitou 90 minút a viac považujú za štrbinový produkt a ich používanie sa neodporúča .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#31
+1	Aj	aj	PART	T	_	4	advmod:emph	_	_
+2	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+3	horeuvedených	horeuvedený	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	dôvodov	dôvod	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	obl	_	_
+5	,	,	PUNCT	Z	_	4	punct	_	_
+6	problémami	problém	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	23	obl	_	_
+7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+8	kompatibilitou	kompatibilita	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	_
+9	takýchto	takýto	DET	PAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
+10	diskov	disk	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+11	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	12	case	_	_
+12	hardvérom	hardvér	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	softvérom	softvér	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	conj	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	23	expl:pv	_	_
+16	disky	disk	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+17	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	18	case	_	_
+18	kapacitou	kapacita	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	16	nmod	_	_
+19	90	90	NUM	0	NumForm=Digit	18	nummod	_	_
+20	minút	minúta	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+21	a	a	CCONJ	O	_	22	cc	_	_
+22	viac	viac	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	19	conj	_	_
+23	považujú	považovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	26	case	_	_
+25	štrbinový	štrbinový	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	produkt	produkt	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obl:arg	_	_
+27	a	a	CCONJ	O	_	31	cc	_	_
+28	ich	ich	DET	PUns1	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	29	det	_	_
+29	používanie	používanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	31	nsubj	_	_
+30	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	31	expl:pv	_	_
+31	neodporúča	odporúčať	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	23	conj	_	_
+32	.	.	PUNCT	Z	_	23	punct	_	_
+
+# sent_id = s32
+# text = Ďalším spôsobom , ako sa dá zvýšiť kapacita disku je uložiť údaje do tzv . koncovej drážky ( eng . lead out groove ) , ktorá sa zvyčajne používa na označenie konca disku ( na označenie začiatku disku sa používa úvodná drážka , ang . lead in groove ) .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#32
+1	Ďalším	ďalší	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	spôsobom	spôsob	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+3	,	,	PUNCT	Z	_	6	punct	_	_
+4	ako	ako	ADV	PD	PronType=Int,Rel	6	advmod	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+6	dá	dať	VERB	VKjsc+	Aspect=Imp,Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	acl	_	_
+7	zvýšiť	zvýšiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+8	kapacita	kapacita	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	_
+9	disku	disk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+11	uložiť	uložiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	2	csubj	_	_
+12	údaje	údaj	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	nmod	_	_
+13	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+14	tzv	tzv	X	W	Abbr=Yes	17	nmod	_	_
+15	.	.	PUNCT	Z	_	14	punct	_	_
+16	koncovej	koncový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	drážky	drážka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+18	(	(	PUNCT	Z	_	19	punct	_	_
+19	eng	eng	X	%	Foreign=Yes	17	appos	_	_
+20	.	.	PUNCT	Z	_	19	punct	_	_
+21	lead	lead	X	%	Foreign=Yes	19	flat:foreign	_	_
+22	out	out	X	%	Foreign=Yes	19	flat:foreign	_	_
+23	groove	groove	X	%	Foreign=Yes	19	flat:foreign	_	_
+24	)	)	PUNCT	Z	_	19	punct	_	_
+25	,	,	PUNCT	Z	_	29	punct	_	_
+26	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	29	nsubj:pass	_	_
+27	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	29	expl:pass	_	_
+28	zvyčajne	zvyčajne	ADV	Dx	Degree=Pos	29	advmod	_	_
+29	používa	používať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	acl	_	_
+30	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	31	case	_	_
+31	označenie	označenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	29	obl	_	_
+32	konca	koniec	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+33	disku	disk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
+34	(	(	PUNCT	Z	_	40	punct	_	_
+35	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	36	case	_	_
+36	označenie	označenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	40	obl	_	_
+37	začiatku	začiatok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
+38	disku	disk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+39	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	40	expl:pass	_	_
+40	používa	používať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	29	parataxis	_	_
+41	úvodná	úvodný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	_
+42	drážka	drážka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	40	nsubj:pass	_	_
+43	,	,	PUNCT	Z	_	46	punct	_	_
+44	ang	ang	X	W	Abbr=Yes	46	nmod	_	_
+45	.	.	PUNCT	Z	_	44	punct	_	_
+46	lead	lead	X	%	Foreign=Yes	42	appos	_	_
+47	in	in	X	%	Foreign=Yes	46	flat:foreign	_	_
+48	groove	groove	X	%	Foreign=Yes	46	flat:foreign	_	_
+49	)	)	PUNCT	Z	_	40	punct	_	_
+50	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s33
+# text = Takto môže používateľ zvyčajne získať jednu alebo dve minúty nahrávania navyše .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#33
+1	Takto	takto	ADV	PD	PronType=Dem	2	advmod	_	_
+2	môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	používateľ	používateľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	zvyčajne	zvyčajne	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	získať	získať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
+6	jednu	jeden	NUM	NFfs4	Case=Acc|Gender=Fem|Number=Sing	5	dep	_	_
+7	alebo	alebo	CCONJ	O	_	9	cc	_	_
+8	dve	dva	NUM	NNfp4	Case=Acc|Gender=Fem|Number=Plur	9	nummod	_	_
+9	minúty	minúta	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	_
+10	nahrávania	nahrávanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	navyše	navyše	ADV	Dx	Degree=Pos	10	advmod	_	_
+12	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s34
+# text = Môže sa stať , že takto vytvorené disky je problematické prehrávať , najmä keď prehrávač dosiahne koniec disku .
+# orig_file_sentence wiki2700_kandracova_wiki2700_tencerova#34
+1	Môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	stať	stať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	xcomp	_	_
+4	,	,	PUNCT	Z	_	10	punct	_	_
+5	že	že	SCONJ	O	_	10	mark	_	_
+6	takto	takto	ADV	PD	PronType=Dem	7	advmod	_	_
+7	vytvorené	vytvorený	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	disky	disk	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	obj	_	_
+9	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	problematické	problematický	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	csubj	_	_
+11	prehrávať	prehrávať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	10	csubj	_	_
+12	,	,	PUNCT	Z	_	16	punct	_	_
+13	najmä	najmä	PART	T	_	16	advmod:emph	_	_
+14	keď	keď	SCONJ	O	_	16	mark	_	_
+15	prehrávač	prehrávač	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	dosiahne	dosiahnuť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+17	koniec	koniec	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+18	disku	disk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	.	.	PUNCT	Z	_	1	punct	_	_
+

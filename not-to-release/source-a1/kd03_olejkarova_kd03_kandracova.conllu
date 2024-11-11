@@ -1,0 +1,483 @@
+# sent_id = s1
+# text = “ Dohodnuté , nesmieme ohroziť svorku , “ povedal Akéla .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#1
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Dohodnuté	dohodnutý	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	9	dep	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	nesmieme	smieť	VERB	VKepa-	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	ohroziť	ohroziť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+6	svorku	svorka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	,	,	PUNCT	Z	_	2	punct	_	_
+8	“	“	PUNCT	Z	_	2	punct	_	_
+9	povedal	povedať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	Akéla	Akéla	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s2
+# text = “ Ľudské mláďa musí v záujme bezpečia odísť . “
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#2
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	Ľudské	ľudský	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	mláďa	mláďa	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	musí	musieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	záujme	záujem	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	bezpečia	bezpečie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	odísť	odísť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+9	.	.	PUNCT	Z	_	4	punct	_	_
+10	“	“	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s3
+# text = Znovu všetci súhlasne zavyli a Akéla opäť prehovoril : “ Je mojou povinnosťou , a veľmi nemilou , aby som to povedal jeho otcovi Rámovi . “
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#3
+1	Znovu	znovu	ADV	Dx	Degree=Pos	4	advmod	_	_
+2	všetci	všetko	PRON	PFmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	4	nsubj	_	_
+3	súhlasne	súhlasne	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	zavyli	zavyť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	CCONJ	O	_	8	cc	_	_
+6	Akéla	Akéla	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	opäť	opäť	ADV	Dx	Degree=Pos	8	advmod	_	_
+8	prehovoril	prehovoriť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+9	:	:	PUNCT	Z	_	13	punct	_	_
+10	“	“	PUNCT	Z	_	13	punct	_	_
+11	Je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	mojou	môj	DET	PFfs7	Case=Ins|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	13	det	_	_
+13	povinnosťou	povinný	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	8	ccomp	_	_
+14	,	,	PUNCT	Z	_	17	punct	_	_
+15	a	a	CCONJ	O	_	17	cc	_	_
+16	veľmi	veľmi	ADV	Dx	Degree=Pos	17	advmod	_	_
+17	nemilou	milý	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	obl	_	_
+18	,	,	PUNCT	Z	_	22	punct	_	_
+19	aby	aby	SCONJ	OY	Mood=Cnd	22	mark	_	_
+20	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	to	ten	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	22	obj	_	_
+22	povedal	povedať	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	csubj	_	_
+23	jeho	jeho	DET	PUms3	Animacy=Anim|Case=Dat|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	otcovi	otec	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	25	nmod	_	_
+25	Rámovi	Rámovi	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	22	iobj	_	_
+26	.	.	PUNCT	Z	_	4	punct	_	_
+27	“	“	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s4
+# text = Ráma sedel sám bokom od svorky .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#4
+1	Ráma	Ráma	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	sedel	sedieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	sám	sám	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	1	xcomp	_	_
+4	bokom	bok	ADV	Dx	Degree=Pos	2	advmod	_	_
+5	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	svorky	svorka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+7	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s5
+# text = No teraz ho Akéla zavolal .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#5
+1	No	no	CCONJ	O	_	5	cc	_	_
+2	teraz	teraz	ADV	Dx	Degree=Pos	5	advmod	_	_
+3	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+4	Akéla	Akéla	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	zavolal	zavolať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s6
+# text = “ Prosím , poď sem , Ráma ! “
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#6
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	Prosím	prosiť	PART	T	_	4	parataxis	_	_
+3	,	,	PUNCT	Z	_	2	punct	_	_
+4	poď	ísť	VERB	VMesb+	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+5	sem	sem	ADV	PD	PronType=Dem	4	advmod	_	_
+6	,	,	PUNCT	Z	_	4	punct	_	_
+7	Ráma	Ráma	PROPN	SSms5:r	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	4	vocative	_	_
+8	!	!	PUNCT	Z	_	4	punct	_	_
+9	“	“	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s7
+# text = “ Už idem , Akéla , “ odvetil Ráma .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#7
+1	“	“	PUNCT	Z	_	3	punct	_	_
+2	Už	už	PART	T	_	3	advmod	_	_
+3	idem	ísť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+4	,	,	PUNCT	Z	_	3	punct	_	_
+5	Akéla	Akéla	PROPN	SSms5:r	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	3	vocative	_	_
+6	,	,	PUNCT	Z	_	3	punct	_	_
+7	“	“	PUNCT	Z	_	3	punct	_	_
+8	odvetil	odvetiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	Ráma	Ráma	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+10	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s8
+# text = “ Ľudské mláďa nemôže ostať so svorkou . “
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#8
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	Ľudské	ľudský	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	mláďa	mláďa	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	nemôže	môcť	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ostať	ostať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+6	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	7	case	_	_
+7	svorkou	svorka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	5	obl:arg	_	_
+8	.	.	PUNCT	Z	_	4	punct	_	_
+9	“	“	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s9
+# text = Ráma bol zhrozený , i keď niečo podobné očakával .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#9
+1	Ráma	Ráma	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	cop	_	_
+3	zhrozený	zhroziť	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	,	,	PUNCT	Z	_	9	punct	_	_
+5	i	i	CCONJ	O	_	9	mark	_	_
+6	keď	keď	SCONJ	O	_	5	fixed	_	_
+7	niečo	niečo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	9	obj	_	_
+8	podobné	podobný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+9	očakával	očakávať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	advcl	_	_
+10	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s10
+# text = “ Ale . . . veď ľudské mláďa . . . je ako môj vlastný syn . “
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#10
+1	“	“	PUNCT	Z	_	12	punct	_	_
+2	Ale	ale	CCONJ	O	_	12	cc	_	_
+3	.	.	PUNCT	Z	_	12	punct	_	_
+4	.	.	PUNCT	Z	_	12	punct	_	_
+5	.	.	PUNCT	Z	_	12	punct	_	_
+6	veď	veď	PART	T	_	12	advmod	_	_
+7	ľudské	ľudský	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	mláďa	mláďa	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+9	.	.	PUNCT	Z	_	12	punct	_	_
+10	.	.	PUNCT	Z	_	12	punct	_	_
+11	.	.	PUNCT	Z	_	12	punct	_	_
+12	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	ako	ako	SCONJ	O	_	16	mark	_	_
+14	môj	môj	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	16	det	_	_
+15	vlastný	vlastný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	syn	syn	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	dep	_	_
+17	.	.	PUNCT	Z	_	12	punct	_	_
+18	“	“	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s11
+# text = Akéla milo pozrel na Rámu a odvetil : “ Dobre vieš , že svorka vlkov sa svojou silou nevyrovná tigrovi . “
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#11
+1	Akéla	Akéla	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	milo	milo	ADV	Dx	Degree=Pos	3	advmod	_	_
+3	pozrel	pozrieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	Rámu	rám	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	odvetil	odvetiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+8	:	:	PUNCT	Z	_	11	punct	_	_
+9	“	“	PUNCT	Z	_	11	punct	_	_
+10	Dobre	dobre	ADV	Dx	Degree=Pos	11	advmod	_	_
+11	vieš	vedieť	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+12	,	,	PUNCT	Z	_	19	punct	_	_
+13	že	že	SCONJ	O	_	19	mark	_	_
+14	svorka	svorka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+15	vlkov	vlk	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	19	expl:pv	_	_
+17	svojou	svoj	DET	PFfs7	Case=Ins|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	18	det	_	_
+18	silou	sila	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	19	obl	_	_
+19	nevyrovná	vyrovnať	VERB	VKdsc-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+20	tigrovi	tiger	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	19	obj	_	_
+21	.	.	PUNCT	Z	_	3	punct	_	_
+22	“	“	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s12
+# text = Rama pomaly prikývol .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#12
+1	Rama	Rama	PROPN	SSms1:r:q	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Typo=Yes	3	nsubj	_	_
+2	pomaly	pomalý	ADV	Dx	Degree=Pos	3	advmod	_	_
+3	prikývol	prikývnuť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s13
+# text = Vedel , že Akéla má pravdu .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#13
+1	Vedel	vedieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	,	,	PUNCT	Z	_	5	punct	_	_
+3	že	že	SCONJ	O	_	5	mark	_	_
+4	Akéla	Akéla	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+6	pravdu	pravda	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s14
+# text = So slzami v očiach pozrel na zhromaždenie .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#14
+1	So	s	ADP	Ev7	AdpType=Voc|Case=Ins	2	case	_	_
+2	slzami	slza	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	5	obl	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	očiach	oko	NOUN	SSnp6	Case=Loc|Gender=Neut|Number=Plur	2	nmod	_	_
+5	pozrel	pozrieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+7	zhromaždenie	zhromaždenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+8	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s15
+# text = “ To nie je spravodlivé !
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#15
+1	“	“	PUNCT	Z	_	5	punct	_	_
+2	To	ten	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	nie	nie	PART	T	_	5	advmod	_	_
+4	je	byť	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	spravodlivé	spravodlivý	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+6	!	!	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s16
+# text = Ak ostane sám , ten chlapec v džungli neprežije , “ namietol .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#16
+1	Ak	ak	SCONJ	O	_	2	mark	_	_
+2	ostane	ostať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+3	sám	sám	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	2	xcomp	_	_
+4	,	,	PUNCT	Z	_	2	punct	_	_
+5	ten	ten	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	chlapec	chlapec	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	džungli	džungľa	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+9	neprežije	prežiť	VERB	VKdsc-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+10	,	,	PUNCT	Z	_	9	punct	_	_
+11	“	“	PUNCT	Z	_	9	punct	_	_
+12	namietol	namietnuť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+13	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s17
+# text = V tej chvíli zišiel zo svojho ležoviska na strome Baghíra , ktorý pozorne počúval všetko , čo sa vravelo .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#17
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	tej	ten	DET	PFfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	chvíli	chvíľa	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+4	zišiel	zísť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	7	case	_	_
+6	svojho	svoj	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	_
+7	ležoviska	ležovisko	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+8	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	strome	strom	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+10	Baghíra	baghíra	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+11	,	,	PUNCT	Z	_	14	punct	_	_
+12	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	14	nsubj	_	_
+13	pozorne	pozorne	ADV	Dx	Degree=Pos	14	advmod	_	_
+14	počúval	počúvať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
+15	všetko	všetko	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	14	obj	_	_
+16	,	,	PUNCT	Z	_	19	punct	_	_
+17	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	19	nsubj:pass	_	_
+18	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	19	expl:pass	_	_
+19	vravelo	vravieť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	15	acl	_	_
+20	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s18
+# text = “ Možno vám pomôžem , “ ozval sa .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#18
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	Možno	možno	PART	T	_	4	advmod	_	_
+3	vám	ty	PRON	PPhp3	Case=Dat|Number=Plur|Person=2|PronType=Prs	4	obj	_	_
+4	pomôžem	pomôcť	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	“	“	PUNCT	Z	_	4	punct	_	_
+7	ozval	ozvať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+9	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s19
+# text = “ Ty Baghíra ?
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#19
+1	“	“	PUNCT	Z	_	3	punct	_	_
+2	Ty	ty	PRON	PPhs1	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nmod	_	_
+3	Baghíra	Baghíra	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	?	?	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s20
+# text = A ako ? “ spýtal sa Akéla .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#20
+1	A	a	PART	T	_	5	dep	_	_
+2	ako	ako	ADV	PD	PronType=Int,Rel	5	dep	_	_
+3	?	?	PUNCT	Z	_	5	punct	_	_
+4	“	“	PUNCT	Z	_	5	punct	_	_
+5	spýtal	spýtať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+7	Akéla	Akéla	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+8	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s21
+# text = “ Poznám istú osadu , v ktorej žijú ľudia , tam bude v bezpečí , “ odvetil Baghíra .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#21
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Poznám	poznať	VERB	VKjsa+	Aspect=Imp,Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+3	istú	istý	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
+4	osadu	osada	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	,	,	PUNCT	Z	_	8	punct	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	ktorej	ktorý	DET	PAfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Int,Rel	8	obl	_	_
+8	žijú	žiť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	acl	_	_
+9	ľudia	ľudia	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	tam	tam	ADV	PD	PronType=Dem	12	advmod	_	_
+12	bude	byť	VERB	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	2	conj	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	bezpečí	bezpečie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+15	,	,	PUNCT	Z	_	2	punct	_	_
+16	“	“	PUNCT	Z	_	2	punct	_	_
+17	odvetil	odvetiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+18	Baghíra	Baghíra	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+19	.	.	PUNCT	Z	_	17	punct	_	_
+
+# sent_id = s22
+# text = “ Často som brával Mauglího na potulky džungľou .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#22
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	Často	často	ADV	Dx	Degree=Pos	4	advmod	_	_
+3	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	brával	brávať	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	Mauglího	Mauglího	PROPN	SFms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+7	potulky	potulka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	4	obl	_	_
+8	džungľou	džungľa	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	7	nmod	_	_
+9	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s23
+# text = So mnou určite pôjde . “
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#23
+1	So	s	ADP	Ev7	AdpType=Voc|Case=Ins	2	case	_	_
+2	mnou	ja	PRON	PPhs7	Case=Ins|Number=Sing|Person=1|PronType=Prs	4	obl:arg	_	_
+3	určite	určite	PART	T	_	4	advmod	_	_
+4	pôjde	ísť	VERB	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	.	.	PUNCT	Z	_	4	punct	_	_
+6	“	“	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s24
+# text = “ Tak to sprav , “ súhlasil Akéla .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#24
+1	“	“	PUNCT	Z	_	4	punct	_	_
+2	Tak	tak	ADV	PD	PronType=Dem	4	advmod	_	_
+3	to	ten	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+4	sprav	spraviť	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	“	“	PUNCT	Z	_	4	punct	_	_
+7	súhlasil	súhlasiť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+8	Akéla	Akéla	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s25
+# text = “ A čo najrýchlejšie — najlepšie hneď .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#25
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	A	a	CCONJ	O	_	0	root	_	_
+3	čo	čo	SCONJ	O	_	4	advmod	_	_
+4	najrýchlejšie	rýchlo	ADV	Dz	Degree=Sup	2	dep	_	_
+5	—	—	PUNCT	Z	_	7	punct	_	_
+6	najlepšie	dobre	ADV	Dz	Degree=Sup	7	advmod	_	_
+7	hneď	hneď	ADV	Dx	Degree=Pos	4	appos	_	_
+8	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s26
+# text = Nesmieme strácať čas . “
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#26
+1	Nesmieme	smieť	VERB	VKepa-	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	strácať	strácať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	xcomp	_	_
+3	čas	čas	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	.	.	PUNCT	Z	_	1	punct	_	_
+5	“	“	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s27
+# text = A tak sa stalo .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#27
+1	A	a	CCONJ	O	_	2	cc	_	_
+2	tak	tak	CCONJ	O	_	4	cc	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	stalo	stať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s28
+# text = Neskoro v noci bežal Baghíra hlbokou tmavou džungľou s Mauglím na chrbte .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#28
+1	Neskoro	neskoro	ADV	Dx	Degree=Pos	4	advmod	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	noci	noc	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	1	obl	_	_
+4	bežal	bežať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	Baghíra	Baghíra	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	hlbokou	hlboký	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	tmavou	tmavý	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	džungľou	džungľa	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+9	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	10	case	_	_
+10	Mauglím	Mauglím	PROPN	SFms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+11	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	chrbte	chrbát	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+13	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s29
+# text = Chlapcovi sa to páčilo , ale po čase ho premohla únava a chcel sa vrátiť domov .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#29
+1	Chlapcovi	chlapec	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	obj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	to	ten	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+4	páčilo	páčiť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	,	,	PUNCT	Z	_	10	punct	_	_
+6	ale	ale	CCONJ	O	_	10	cc	_	_
+7	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	čase	čas	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+9	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	premohla	premôcť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+11	únava	únava	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+12	a	a	CCONJ	O	_	13	cc	_	_
+13	chcel	chcieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+14	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+15	vrátiť	vrátiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	13	xcomp	_	_
+16	domov	domov	ADV	Dx	Degree=Pos	15	advmod	_	_
+17	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s30
+# text = “ Baghíra , “ zamrmlal , premáhajúc zívnutie .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#30
+1	“	“	PUNCT	Z	_	5	punct	_	_
+2	Baghíra	Baghíra	PROPN	SSms5:r	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	5	vocative	_	_
+3	,	,	PUNCT	Z	_	5	punct	_	_
+4	“	“	PUNCT	Z	_	5	punct	_	_
+5	zamrmlal	zamrmlať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	premáhajúc	premáhať	VERB	VHe+	Aspect=Imp|Polarity=Pos|VerbForm=Conv	5	advcl	_	_
+8	zívnutie	zívnutie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s31
+# text = “ Chce sa mi spať .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#31
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Chce	chcieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	2	expl:pass	_	_
+4	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+5	spať	spať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	csubj:pass	_	_
+6	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s32
+# text = Vráťme sa radšej domov . “
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#32
+1	Vráťme	vrátiť	VERB	VMdpa+	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|Polarity=Pos|VerbForm=Fin	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	radšej	radšej	ADJ	AUmp1y	Animacy=Anim|Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	1	advmod	_	_
+4	domov	domov	ADV	Dx	Degree=Pos	1	advmod	_	_
+5	.	.	PUNCT	Z	_	1	punct	_	_
+6	“	“	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s33
+# text = “ Nejdeme domov , “ odvetil Baghíra .
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#33
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Nejdeme	ísť	VERB	VKepa-	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+3	domov	domov	ADV	Dx	Degree=Pos	2	advmod	_	_
+4	,	,	PUNCT	Z	_	2	punct	_	_
+5	“	“	PUNCT	Z	_	2	punct	_	_
+6	odvetil	odvetiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	Baghíra	Baghíra	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s34
+# text = “ Zavediem ťa k ľuďom do osady . “
+# orig_file_sentence kd03_olejkarova_kd03_kandracova#34
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Zavediem	zaviesť	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ťa	ty	PRON	PPhs4	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	obj	_	_
+4	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	5	case	_	_
+5	ľuďom	ľudia	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	2	obl	_	_
+6	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	osady	osada	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	.	.	PUNCT	Z	_	2	punct	_	_
+9	“	“	PUNCT	Z	_	2	punct	_	_
+

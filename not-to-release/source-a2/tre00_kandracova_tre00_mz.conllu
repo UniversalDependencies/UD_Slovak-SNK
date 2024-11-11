@@ -1,0 +1,478 @@
+# sent_id = s1
+# text = Veľký tresk
+# orig_file_sentence tre00_kandracova_tre00_mz#1
+1	Veľký	veľký	ADJ	AAis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	tresk	tresk	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = s2
+# text = Podľa teórie Veľkého tresku vznikol vesmír z nekonečne hustej singularity .
+# orig_file_sentence tre00_kandracova_tre00_mz#2
+1	Podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	teórie	teória	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+3	Veľkého	veľký	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	tresku	tresk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	vznikol	vzniknúť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	vesmír	vesmír	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+8	nekonečne	nekonečne	ADV	Dx	Degree=Pos	9	advmod	_	_
+9	hustej	hustý	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	singularity	singularita	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+11	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s3
+# text = Vesmír sa s postupom času rozpína , čím sa objekty od seba vzďaľujú .
+# orig_file_sentence tre00_kandracova_tre00_mz#3
+1	Vesmír	vesmír	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+3	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	4	case	_	_
+4	postupom	postup	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+5	času	čas	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	rozpína	rozpínať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	,	,	PUNCT	Z	_	13	punct	_	_
+8	čím	čím	SCONJ	O	_	13	mark	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+10	objekty	objekt	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+11	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+12	seba	seba	PRON	PPhs2	Case=Gen|Number=Sing|PronType=Prs|Reflex=Yes	13	obl	_	_
+13	vzďaľujú	vzďaľovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+14	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s4
+# text = Veľký tresk ( po anglicky Big Bang ) je vedecká teória kozmológie , ktorá opisuje raný vývoj a tvar vesmíru .
+# orig_file_sentence tre00_kandracova_tre00_mz#4
+1	Veľký	veľký	ADJ	AAis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	tresk	tresk	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+3	(	(	PUNCT	Z	_	7	punct	_	_
+4	po	po	X	Q	Hyph=Yes	5	case	_	_
+5	anglicky	anglicky	ADV	Dx	Degree=Pos	2	dep	_	_
+6	Big	big	X	%	Foreign=Yes	7	dep	_	_
+7	Bang	bang	X	%	Foreign=Yes	2	appos	_	_
+8	)	)	PUNCT	Z	_	7	punct	_	_
+9	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	vedecká	vedecký	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	teória	teória	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+12	kozmológie	kozmológie	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	,	,	PUNCT	Z	_	15	punct	_	_
+14	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	15	nsubj	_	_
+15	opisuje	opisovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	acl	_	_
+16	raný	raný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	vývoj	vývoj	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+18	a	a	CCONJ	O	_	19	cc	_	_
+19	tvar	tvar	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	conj	_	_
+20	vesmíru	vesmír	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+21	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s5
+# text = Nosnou myšlienkou je , že všeobecná teória relativity môže byť skombinovaná s pozorovaniami galaxií vzďaľujúcich sa od seba , čím sa dá odvodiť stav vesmíru v minulosti alebo aj v budúcnosti .
+# orig_file_sentence tre00_kandracova_tre00_mz#5
+1	Nosnou	nosný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	myšlienkou	myšlienka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	,	,	PUNCT	Z	_	9	punct	_	_
+5	že	že	SCONJ	O	_	9	mark	_	_
+6	všeobecná	všeobecný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	teória	teória	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+8	relativity	relativita	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	csubj	_	_
+10	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	11	cop	_	_
+11	skombinovaná	skombinovaný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	9	xcomp	_	_
+12	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	13	case	_	_
+13	pozorovaniami	pozorovanie	NOUN	SSnp7	Case=Ins|Gender=Neut|Number=Plur	11	obl:arg	_	_
+14	galaxií	galaxia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+15	vzďaľujúcich	vzďaľujúci	ADJ	Gkfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	14	amod	_	_
+16	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+17	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	18	case	_	_
+18	seba	seba	PRON	PPhs2	Case=Gen|Number=Sing|PronType=Prs|Reflex=Yes	15	obl	_	_
+19	,	,	PUNCT	Z	_	22	punct	_	_
+20	čím	čím	SCONJ	O	_	22	advmod	_	_
+21	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	22	expl:pv	_	_
+22	dá	dať	VERB	VKjsc+	Aspect=Imp,Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	conj	_	_
+23	odvodiť	odvodiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	22	xcomp	_	_
+24	stav	stav	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+25	vesmíru	vesmír	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	27	case	_	_
+27	minulosti	minulosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	24	nmod	_	_
+28	alebo	alebo	CCONJ	O	_	27	cc	_	_
+29	aj	aj	CCONJ	O	_	31	advmod:emph	_	_
+30	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	31	case	_	_
+31	budúcnosti	budúcnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	27	nmod	_	_
+32	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s6
+# text = Prirodzeným následkom Veľkého tresku je , že vesmír mal v minulosti vyššiu teplotu a hustotu .
+# orig_file_sentence tre00_kandracova_tre00_mz#6
+1	Prirodzeným	prirodzený	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	následkom	následok	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+3	Veľkého	veľký	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	tresku	tresk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+6	,	,	PUNCT	Z	_	9	punct	_	_
+7	že	že	SCONJ	O	_	9	mark	_	_
+8	vesmír	vesmír	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	mal	mať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	csubj	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	minulosti	minulosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+12	vyššiu	vysoký	ADJ	AAfs4y	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	13	amod	_	_
+13	teplotu	teplota	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+14	a	a	CCONJ	O	_	15	cc	_	_
+15	hustotu	hustota	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	conj	_	_
+16	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s7
+# text = Termín " Veľký tresk " sa v užšom zmysle používa na označenie časového bodu , kedy sa začalo pozorované rozpínanie vesmíru , v širšom zmysle na označenie prevládajúcej kozmologickej paradigmy , vysvetľujúcej vznik a vývin vesmíru .
+# orig_file_sentence tre00_kandracova_tre00_mz#7
+1	Termín	termín	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+2	"	"	PUNCT	Z	_	4	punct	_	_
+3	Veľký	veľký	ADJ	AAis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	tresk	tresk	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+5	"	"	PUNCT	Z	_	4	punct	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pass	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+8	užšom	úzky	ADJ	AAis6y	Animacy=Inan|Case=Loc|Degree=Cmp|Gender=Masc|Number=Sing	9	amod	_	_
+9	zmysle	zmysel	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+10	používa	používať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	označenie	označenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
+13	časového	časový	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	bodu	bod	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	,	,	PUNCT	Z	_	18	punct	_	_
+16	kedy	kedy	ADV	PD	PronType=Int,Rel	18	advmod	_	_
+17	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	18	expl:pv	_	_
+18	začalo	začať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	acl	_	_
+19	pozorované	pozorovaný	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	20	amod	_	_
+20	rozpínanie	rozpínanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+21	vesmíru	vesmír	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	,	,	PUNCT	Z	_	25	punct	_	_
+23	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	25	case	_	_
+24	širšom	široký	ADJ	AAis6y	Animacy=Inan|Case=Loc|Degree=Cmp|Gender=Masc|Number=Sing	25	amod	_	_
+25	zmysle	zmysel	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	conj	_	_
+26	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	27	case	_	_
+27	označenie	označenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	25	orphan	_	_
+28	prevládajúcej	prevládajúci	ADJ	Gkfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	30	amod	_	_
+29	kozmologickej	kozmologický	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	paradigmy	paradigma	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+31	,	,	PUNCT	Z	_	32	punct	_	_
+32	vysvetľujúcej	vysvetľujúci	ADJ	Gkfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	30	amod	_	_
+33	vznik	vznik	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	obj	_	_
+34	a	a	CCONJ	O	_	35	cc	_	_
+35	vývin	vývin	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	conj	_	_
+36	vesmíru	vesmír	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
+37	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s8
+# text = Termín " Veľký tresk " prvýkrát použil Fred Hoyle v roku 1949 počas programu rozhlasovej stanice BBC s názvom " Podstata vecí " ( po anglicky " The Nature of Things " ) ; text bol vydaný v roku 1950 .
+# orig_file_sentence tre00_kandracova_tre00_mz#8
+1	Termín	termín	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	obj	_	_
+2	"	"	PUNCT	Z	_	4	punct	_	_
+3	Veľký	veľký	ADJ	AAis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	tresk	tresk	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+5	"	"	PUNCT	Z	_	4	punct	_	_
+6	prvýkrát	prvýkrát	ADV	ND	NumType=Mult	7	obl	_	_
+7	použil	použiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	Fred	fred	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+9	Hoyle	hoyle	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+12	1949	1949	NUM	0	NumForm=Digit	11	nummod	_	_
+13	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+14	programu	program	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+15	rozhlasovej	rozhlasový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	stanice	stanica	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	BBC	bbc	X	W	Abbr=Yes	16	nmod	_	_
+18	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	19	case	_	_
+19	názvom	názov	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	nmod	_	_
+20	"	"	PUNCT	Z	_	21	punct	_	_
+21	Podstata	podstata	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	19	nmod	_	_
+22	vecí	vec	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_
+23	"	"	PUNCT	Z	_	21	punct	_	_
+24	(	(	PUNCT	Z	_	21	punct	_	_
+25	po	po	X	Q	Hyph=Yes	26	case	_	_
+26	anglicky	anglicky	ADV	Dx	Degree=Pos	21	dep	_	_
+27	"	"	PUNCT	Z	_	28	punct	_	_
+28	The	the	X	%	Foreign=Yes	21	dep	_	_
+29	Nature	nature	X	%	Foreign=Yes	28	flat:foreign	_	_
+30	of	of	X	%	Foreign=Yes	31	case	_	_
+31	Things	things	X	%	Foreign=Yes	28	flat:foreign	_	_
+32	"	"	PUNCT	Z	_	28	punct	_	_
+33	)	)	PUNCT	Z	_	21	punct	_	_
+34	;	;	PUNCT	Z	_	37	punct	_	_
+35	text	text	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	37	nsubj:pass	_	_
+36	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	37	aux:pass	_	_
+37	vydaný	vydaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	conj	_	_
+38	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	39	case	_	_
+39	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	37	obl	_	_
+40	1950	1950	NUM	0	NumForm=Digit	39	nummod	_	_
+41	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s9
+# text = Hoyle túto teóriu nepodporoval a plánoval sa jej vysmiať .
+# orig_file_sentence tre00_kandracova_tre00_mz#9
+1	Hoyle	hoyle	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	túto	táto	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	teóriu	teória	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+4	nepodporoval	podporovať	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	plánoval	plánovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+8	jej	ona	PRON	PFfs3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	vysmiať	vysmiať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+10	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s10
+# text = Jedným z dôsledkov Veľkého tresku je , že podmienky dnešného vesmíru sú odlišné od podmienok v minulosti alebo v budúcnosti .
+# orig_file_sentence tre00_kandracova_tre00_mz#10
+1	Jedným	jeden	NUM	NFis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+2	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+3	dôsledkov	dôsledok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	Veľkého	veľký	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	tresku	tresk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_
+7	,	,	PUNCT	Z	_	13	punct	_	_
+8	že	že	SCONJ	O	_	13	mark	_	_
+9	podmienky	podmienka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+10	dnešného	dnešný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	vesmíru	vesmír	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	odlišné	odlišný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	csubj	_	_
+14	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+15	podmienok	podmienka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	13	obl:arg	_	_
+16	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	minulosti	minulosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_
+18	alebo	alebo	CCONJ	O	_	20	cc	_	_
+19	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+20	budúcnosti	budúcnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	17	conj	_	_
+21	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s11
+# text = Na základe tohto modelu bol George Gamow v roku 1948 schopný predpovedať kozmické mikrovlnné reliktové žiarenie ( alebo kozmické mikrovlnné reliktné žiarenie / základné žiarenie / žiarenie pozadia ; po anglicky cosmic microwave background radiation , CMB ) , ktoré bolo v roku 1960 objavené a poslúžilo ako dôkaz potvrdzujúci správnosť teórie Veľkého tresku , vyvracajúc tak teóriu nemenného stavu ( po anglicky steady state theory ) .
+# orig_file_sentence tre00_kandracova_tre00_mz#11
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+2	základe	základ	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	tohto	tento	DET	PFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	modelu	model	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+5	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	cop	_	_
+6	George	george	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+7	Gamow	gamow	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+10	1948	1948	NUM	0	NumForm=Digit	9	nummod	_	_
+11	schopný	schopný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+12	predpovedať	predpovedať	VERB	VIj+	Aspect=Imp,Perf|Polarity=Pos|VerbForm=Inf	11	xcomp	_	_
+13	kozmické	kozmický	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+14	mikrovlnné	mikrovlnný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+15	reliktové	reliktový	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	žiarenie	žiarenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+17	(	(	PUNCT	Z	_	22	punct	_	_
+18	alebo	alebo	CCONJ	O	_	22	cc	_	_
+19	kozmické	kozmický	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+20	mikrovlnné	mikrovlnný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+21	reliktné	reliktný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	žiarenie	žiarenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	16	appos	_	_
+23	/	/	PUNCT	Z	_	25	punct	_	_
+24	základné	základný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	žiarenie	žiarenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	22	appos	_	_
+26	/	/	PUNCT	Z	_	25	punct	_	_
+27	žiarenie	žiarenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	22	appos	_	_
+28	pozadia	pozadie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+29	;	;	PUNCT	Z	_	22	punct	_	_
+30	po	po	X	Q	Hyph=Yes	31	case	_	_
+31	anglicky	anglicky	ADV	Dx	Degree=Pos	22	dep	_	_
+32	cosmic	cosmic	X	%	Foreign=Yes	22	dep	_	_
+33	microwave	microwave	X	%	Foreign=Yes	32	flat:foreign	_	_
+34	background	background	X	%	Foreign=Yes	32	flat:foreign	_	_
+35	radiation	radiation	X	%	Foreign=Yes	32	flat:foreign	_	_
+36	,	,	PUNCT	Z	_	37	punct	_	_
+37	CMB	cmb	X	W	Abbr=Yes	32	appos	_	_
+38	)	)	PUNCT	Z	_	22	punct	_	_
+39	,	,	PUNCT	Z	_	45	punct	_	_
+40	ktoré	ktorý	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	45	nsubj:pass	_	_
+41	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	45	aux:pass	_	_
+42	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	43	case	_	_
+43	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	45	obl	_	_
+44	1960	1960	NUM	0	NumForm=Digit	43	nummod	_	_
+45	objavené	objavený	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	16	amod	_	_
+46	a	a	CCONJ	O	_	47	cc	_	_
+47	poslúžilo	poslúžiť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	45	conj	_	_
+48	ako	ako	SCONJ	O	_	49	mark	_	_
+49	dôkaz	dôkaz	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	40	xcomp	_	_
+50	potvrdzujúci	potvrdzujúci	ADJ	Gkis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	49	amod	_	_
+51	správnosť	správnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	50	obj	_	_
+52	teórie	teória	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	51	nmod	_	_
+53	Veľkého	veľký	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	54	amod	_	_
+54	tresku	tresk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	52	nmod	_	_
+55	,	,	PUNCT	Z	_	56	punct	_	_
+56	vyvracajúc	vyvracať	VERB	VHe+	Aspect=Imp|Polarity=Pos|VerbForm=Conv	11	advcl	_	_
+57	tak	tak	ADV	PD	PronType=Dem	56	advmod	_	_
+58	teóriu	teória	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	56	obj	_	_
+59	nemenného	nemenný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	60	amod	_	_
+60	stavu	stav	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	58	nmod	_	_
+61	(	(	PUNCT	Z	_	58	punct	_	_
+62	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	63	case	_	_
+63	anglicky	anglicky	ADV	Dx	Degree=Pos	58	dep	_	_
+64	steady	steady	X	%	Foreign=Yes	58	dep	_	_
+65	state	state	X	%	Foreign=Yes	64	flat:foreign	_	_
+66	theory	theory	X	%	Foreign=Yes	64	flat:foreign	_	_
+67	)	)	PUNCT	Z	_	58	punct	_	_
+68	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s12
+# text = Podľa súčasných fyzikálnych modelov bol vesmír pred 13 , 7 miliardami ( 1 , 37 × 1010 ) rokov vo forme gravitačnej singularity , v ktorej boli merania času a dĺžky bezpredmetné a teplota spolu s tlakom boli nekonečné .
+# orig_file_sentence tre00_kandracova_tre00_mz#12
+1	Podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+2	súčasných	súčasný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+3	fyzikálnych	fyzikálny	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	modelov	model	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+5	bol	byť	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	vesmír	vesmír	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	11	case	_	_
+8	13	13	NUM	0	NumForm=Digit	9	nummod	_	_
+9	,	,	PUNCT	Z	_	11	punct	_	_
+10	7	7	NUM	0	NumForm=Digit	11	nummod	_	_
+11	miliardami	miliarda	NUM	NSfp7	Case=Ins|Gender=Fem|Number=Plur	6	nummod	_	_
+12	(	(	PUNCT	Z	_	14	punct	_	_
+13	1	1	NUM	0	NumForm=Digit	14	nummod	_	_
+14	,	,	PUNCT	Z	_	11	punct	_	_
+15	37	37	NUM	0	NumForm=Digit	11	appos	_	_
+16	×	×	PUNCT	Z	_	15	punct	_	_
+17	1010	1010	NUM	0	NumForm=Digit	16	obj	_	_
+18	)	)	PUNCT	Z	_	14	punct	_	_
+19	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+20	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	23	case	_	_
+21	forme	forma	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	20	fixed	_	_
+22	gravitačnej	gravitačný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	singularity	singularita	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+24	,	,	PUNCT	Z	_	32	punct	_	_
+25	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	26	case	_	_
+26	ktorej	ktorý	DET	PAfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Int,Rel	32	obl	_	_
+27	boli	byť	AUX	VLepcn+	Aspect=Imp|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	32	cop	_	_
+28	merania	meranie	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	32	nsubj	_	_
+29	času	čas	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	a	a	CCONJ	O	_	31	cc	_	_
+31	dĺžky	dĺžka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	29	conj	_	_
+32	bezpredmetné	bezpredmetný	ADJ	AAnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	23	acl	_	_
+33	a	a	CCONJ	O	_	39	cc	_	_
+34	teplota	teplota	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	39	nsubj	_	_
+35	spolu	spolu	ADP	Eu7	AdpType=Prep|Case=Ins	37	case	_	_
+36	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	35	fixed	_	_
+37	tlakom	tlak	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	39	obl	_	_
+38	boli	byť	AUX	VLepco+	Aspect=Imp|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	39	cop	_	_
+39	nekonečné	nekonečný	ADJ	AAop1x	Case=Nom|Degree=Pos|Number=Plur	32	conj	_	_
+40	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s13
+# text = Pretože zatiaľ neexistujú žiadne modely systémov s týmito charakteristikami , špeciálne žiadna teória kvantovej gravitácie , ostáva toto obdobie histórie vesmíru nevyriešeným fyzikálnym problémom .
+# orig_file_sentence tre00_kandracova_tre00_mz#13
+1	Pretože	pretože	SCONJ	O	_	3	advmod	_	_
+2	zatiaľ	zatiaľ	ADV	PD	PronType=Dem	3	advmod	_	_
+3	neexistujú	existovať	VERB	VKepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	24	parataxis	_	_
+4	žiadne	žiaden	DET	PFip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Neg	5	det	_	_
+5	modely	model	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+6	systémov	systém	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+8	týmito	táto	DET	PFfp7	Case=Ins|Gender=Fem|Number=Plur|PronType=Dem	9	det	_	_
+9	charakteristikami	charakteristika	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	5	nmod	_	_
+10	,	,	PUNCT	Z	_	13	punct	_	_
+11	špeciálne	špeciálne	ADV	Dx	Degree=Pos	13	cc	_	_
+12	žiadna	žiaden	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Neg	13	det	_	_
+13	teória	teória	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	_
+14	kvantovej	kvantov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	gravitácie	gravitácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	,	,	PUNCT	Z	_	3	punct	_	_
+17	ostáva	ostávať	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	24	cop	_	_
+18	toto	toto	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	19	det	_	_
+19	obdobie	obdobie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	_
+20	histórie	história	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	vesmíru	vesmír	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	nevyriešeným	vyriešený	ADJ	Gtis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	24	amod	_	_
+23	fyzikálnym	fyzikálny	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	problémom	problém	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+25	.	.	PUNCT	Z	_	24	punct	_	_
+
+# sent_id = s14
+# text = História teórie
+# orig_file_sentence tre00_kandracova_tre00_mz#14
+1	História	história	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	teórie	teória	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+
+# sent_id = s15
+# text = V roku 1927 bol belgický kňaz Georges Lemaître prvým , kto predložil návrh , že vesmír sa začal " výbuchom prehistorického atómu " .
+# orig_file_sentence tre00_kandracova_tre00_mz#15
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+3	1927	1927	NUM	0	NumForm=Digit	2	nummod	_	_
+4	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	cop	_	_
+5	belgický	belgický	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	kňaz	kňaz	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+7	Georges	georges	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+8	Lemaître	lemaître	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+9	prvým	prvý	ADJ	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|NumType=Ord	0	root	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	kto	kto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	12	nsubj	_	_
+12	predložil	predložiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	acl	_	_
+13	návrh	návrh	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	,	,	PUNCT	Z	_	18	punct	_	_
+15	že	že	SCONJ	O	_	18	mark	_	_
+16	vesmír	vesmír	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+17	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	18	expl:pv	_	_
+18	začal	začať	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	acl	_	_
+19	"	"	PUNCT	Z	_	20	punct	_	_
+20	výbuchom	výbuch	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	_
+21	prehistorického	prehistorický	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	atómu	atóm	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	"	"	PUNCT	Z	_	20	punct	_	_
+24	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s16
+# text = Skôr , v roku 1918 , zmeral štrasburský astronóm Carl Wilhelm Wirtz systematický červený posun niektorých " hmlovín " , ktorý nazval " K ‐ korekcia " ; nebol si však vedomý kozmologických dôsledkov , ani toho , že údajné hmloviny boli v skutočnosti galaxie mimo našej Mliečnej dráhy .
+# orig_file_sentence tre00_kandracova_tre00_mz#16
+1	Skôr	skôr	ADV	Dx	Degree=Pos	7	advmod	_	_
+2	,	,	PUNCT	Z	_	4	punct	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+5	1918	1918	NUM	0	NumForm=Digit	4	nummod	_	_
+6	,	,	PUNCT	Z	_	4	punct	_	_
+7	zmeral	zmerať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	štrasburský	štrasburský	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	astronóm	astronóm	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_
+10	Carl	carl	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_
+11	Wilhelm	wilhelm	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_
+12	Wirtz	wirtz	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+13	systematický	systematický	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	červený	červený	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	posun	posun	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+16	niektorých	niektorý	DET	PAfp2	Case=Gen|Gender=Fem|Number=Plur|PronType=Ind	18	det	_	_
+17	"	"	PUNCT	Z	_	18	punct	_	_
+18	hmlovín	hmlovina	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+19	"	"	PUNCT	Z	_	18	punct	_	_
+20	,	,	PUNCT	Z	_	22	punct	_	_
+21	ktorý	ktorý	DET	PAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	22	obj	_	_
+22	nazval	nazvať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	15	acl	_	_
+23	"	"	PUNCT	Z	_	26	punct	_	_
+24	K	k	X	W	Abbr=Yes	26	nmod	_	_
+25	‐	‐	PUNCT	Z	_	24	punct	_	_
+26	korekcia	korekcia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	22	obl	_	_
+27	"	"	PUNCT	Z	_	26	punct	_	_
+28	;	;	PUNCT	Z	_	32	punct	_	_
+29	nebol	byť	AUX	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	32	cop	_	_
+30	si	si	PRON	R	PronType=Prs|Reflex=Yes	32	expl:pv	_	_
+31	však	však	CCONJ	O	_	32	cc	_	_
+32	vedomý	vedomý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	conj	_	_
+33	kozmologických	kozmologický	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	34	amod	_	_
+34	dôsledkov	dôsledok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	32	obj	_	_
+35	,	,	PUNCT	Z	_	37	punct	_	_
+36	ani	ani	CCONJ	O	_	37	cc	_	_
+37	toho	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	34	conj	_	_
+38	,	,	PUNCT	Z	_	45	punct	_	_
+39	že	že	SCONJ	O	_	45	mark	_	_
+40	údajné	údajný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	41	amod	_	_
+41	hmloviny	hmlovina	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	45	nsubj	_	_
+42	boli	byť	AUX	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	45	cop	_	_
+43	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	44	case	_	_
+44	skutočnosti	skutočnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	45	obl	_	_
+45	galaxie	galaxia	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	37	acl	_	_
+46	mimo	mimo	ADP	Eu2	AdpType=Prep|Case=Gen	49	case	_	_
+47	našej	náš	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	49	det	_	_
+48	Mliečnej	mliečny	ADJ	AAfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	49	amod	_	_
+49	dráhy	dráha	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	45	nmod	_	_
+50	.	.	PUNCT	Z	_	7	punct	_	_
+

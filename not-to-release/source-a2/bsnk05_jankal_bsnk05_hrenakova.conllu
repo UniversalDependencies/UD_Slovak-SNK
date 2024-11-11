@@ -1,0 +1,344 @@
+# sent_id = s1
+# text = Museli ste žiť -- a aj ste žili vďaka zvyku , ktorý sa stal pudom -- za podmienky , že každý zvuk , ktorý vydáte , môže niekto počuť a každý pohyb , ktorý urobíte , ak pravda nie je práve úplná tma , niekto zaznamená .
+# orig_file_sentence bsnk05_jankal_bsnk05_hrenakova#1
+1	Museli	musieť	VERB	VLepbh+	Aspect=Imp|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	ste	byť	VERB	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	csubj	_	_
+3	žiť	žiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	xcomp	_	_
+4	--	--	PUNCT	Z	_	1	punct	_	_
+5	a	a	CCONJ	O	_	1	cc	_	_
+6	aj	aj	CCONJ	O	_	1	cc	_	_
+7	ste	byť	VERB	VKepb+	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	csubj	_	_
+8	žili	žiť	VERB	VLepbh+	Aspect=Imp|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	csubj	_	_
+9	vďaka	vďaka	ADP	Eu3	AdpType=Prep|Case=Dat	8	advmod	_	_
+10	zvyku	zvyk	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	obl:arg	_	_
+11	,	,	PUNCT	Z	_	14	punct	_	_
+12	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	14	nsubj	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pv	_	_
+14	stal	stať	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	parataxis	_	_
+15	pudom	pud	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obj	_	_
+16	--	--	PUNCT	Z	_	1	punct	_	_
+17	za	za	ADP	Eu2	AdpType=Prep|Case=Gen	18	case	_	_
+18	podmienky	podmienka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	obl:arg	_	_
+19	,	,	PUNCT	Z	_	18	punct	_	_
+20	že	že	SCONJ	O	_	18	mark	_	_
+21	každý	každý	DET	PAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	22	det	_	_
+22	zvuk	zvuk	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
+23	,	,	PUNCT	Z	_	25	punct	_	_
+24	ktorý	ktorý	DET	PAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	25	advmod	_	_
+25	vydáte	vydať	VERB	VKdpb+	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	parataxis	_	_
+26	,	,	PUNCT	Z	_	27	punct	_	_
+27	môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	25	parataxis	_	_
+28	niekto	niekto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	27	nsubj	_	_
+29	počuť	počuť	VERB	VIj+	Aspect=Imp,Perf|Polarity=Pos|VerbForm=Inf	27	xcomp	_	_
+30	a	a	CCONJ	O	_	35	cc	_	_
+31	každý	každý	DET	PAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	32	det	_	_
+32	pohyb	pohyb	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	obj	_	_
+33	,	,	PUNCT	Z	_	32	punct	_	_
+34	ktorý	ktorý	DET	PAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	33	cc	_	_
+35	urobíte	urobiť	VERB	VKdpb+	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	25	conj	_	_
+36	,	,	PUNCT	Z	_	37	punct	_	_
+37	ak	ak	SCONJ	O	_	35	advmod	_	_
+38	pravda	pravda	PART	T	_	40	nsubj	_	_
+39	nie	nie	PART	T	_	40	nmod	_	_
+40	je	byť	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	37	parataxis	_	_
+41	práve	práve	ADV	Dx	Degree=Pos	43	advmod	_	_
+42	úplná	úplný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	43	amod	_	_
+43	tma	tma	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	40	nsubj	_	_
+44	,	,	PUNCT	Z	_	35	punct	_	_
+45	niekto	niekto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	35	nsubj	_	_
+46	zaznamená	zaznamenať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	35	parataxis	_	_
+47	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s2
+# text = Winston tam stále postával chrbtom k obrazovke .
+# orig_file_sentence bsnk05_jankal_bsnk05_hrenakova#2
+1	Winston	winston	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	tam	tam	ADV	PD	PronType=Dem	4	advmod	_	_
+3	stále	stále	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	postával	postávať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	chrbtom	chrbát	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+6	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	5	case	_	_
+7	obrazovke	obrazovka	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	5	obl:arg	_	_
+8	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s3
+# text = Bolo to bezpečnejšie , aj keď -- ako si dobre uvedomoval -- aj chrbát môže všeličo prezradiť .
+# orig_file_sentence bsnk05_jankal_bsnk05_hrenakova#3
+1	Bolo	byť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	_
+3	bezpečnejšie	bezpečný	ADJ	AAns1y	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	1	amod	_	_
+4	,	,	PUNCT	Z	_	11	punct	_	_
+5	aj	aj	CCONJ	O	_	11	mark	_	_
+6	keď	keď	SCONJ	O	_	5	fixed	_	_
+7	--	--	PUNCT	Z	_	11	punct	_	_
+8	ako	ako	SCONJ	O	_	9	mark	_	_
+9	si	si	PRON	R	PronType=Prs|Reflex=Yes	11	mark	_	_
+10	dobre	dobre	ADV	Dx	Degree=Pos	11	advmod	_	_
+11	uvedomoval	uvedomovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	advcl	_	_
+12	--	--	PUNCT	Z	_	11	punct	_	_
+13	aj	aj	PART	T	_	14	cc	_	_
+14	chrbát	chrbát	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+16	všeličo	všeličo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	17	nmod	_	_
+17	prezradiť	prezradiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	15	parataxis	_	_
+18	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s4
+# text = Vo vzdialenosti asi jedného kilometra sa nad zašpinenou krajinou týčila vysoká biela budova Ministerstva pravdy , kde pracoval .
+# orig_file_sentence bsnk05_jankal_bsnk05_hrenakova#4
+1	Vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	2	case	_	_
+2	vzdialenosti	vzdialenosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+3	asi	asi	PART	T	_	5	advmod:emph	_	_
+4	jedného	jeden	NUM	NFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nummod	_	_
+5	kilometra	kilometer	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obj	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+7	nad	nad	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+8	zašpinenou	zašpinený	ADJ	Gtfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	krajinou	krajina	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+10	týčila	týčiť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+11	vysoká	vysoký	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	biela	biely	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	budova	budova	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+14	Ministerstva	ministerstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	13	obj	_	_
+15	pravdy	pravda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	,	,	PUNCT	Z	_	17	punct	_	_
+17	kde	kde	ADV	PD	PronType=Int,Rel	10	advmod	_	_
+18	pracoval	pracovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	17	parataxis	_	_
+19	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s5
+# text = Tak toto je , pomyslel si s istou dávkou odporu , toto je Londýn , hlavné mesto Regiónu číslo jeden , tretej najľudnatejšej provincie Oceánie .
+# orig_file_sentence bsnk05_jankal_bsnk05_hrenakova#5
+1	Tak	tak	PART	T	_	3	advmod	_	_
+2	toto	toto	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	,	,	PUNCT	Z	_	5	punct	_	_
+5	pomyslel	pomyslieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	parataxis	_	_
+6	si	si	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+8	istou	istý	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	dávkou	dávka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	5	obl:arg	_	_
+10	odporu	odpor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	,	,	PUNCT	Z	_	14	punct	_	_
+12	toto	toto	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj	_	_
+13	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	Londýn	londýn	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+15	,	,	PUNCT	Z	_	14	punct	_	_
+16	hlavné	hlavný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	mesto	mesto	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+18	Regiónu	región	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obj	_	_
+19	číslo	číslo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	18	nmod	_	_
+20	jeden	jeden	NUM	NX	_	19	nummod	_	_
+21	,	,	PUNCT	Z	_	17	punct	_	_
+22	tretej	tretí	ADJ	NAfs2	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	24	amod	_	_
+23	najľudnatejšej	ľudnatý	ADJ	AAfs2z	Case=Gen|Degree=Sup|Gender=Fem|Number=Sing	24	amod	_	_
+24	provincie	provincia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	21	nsubj	_	_
+25	Oceánie	oceánia	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s6
+# text = Pokúsil sa vyloviť z mysle nejakú spomienku na detstvo , ktorá by mu prezradila , či bol Londýn vždy takýto . Či sa tu vždy človeku naskytali tieto pohľady na polozrúcané domy z devätnásteho storočia , zboku podopierané drevenými kladami , s oknami zadebnenými lepenkou , so strechami zo zvlneného plechu a s ošarpanými záhradnými múrmi , ktoré sa všade rozpadajú ?
+# orig_file_sentence bsnk05_jankal_bsnk05_hrenakova#6
+1	Pokúsil	pokúsiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	vyloviť	vyloviť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	parataxis	_	_
+4	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+5	mysle	myseľ	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+6	nejakú	nejaký	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	7	det	_	_
+7	spomienku	spomienka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+8	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+9	detstvo	detstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	7	obl:arg	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	14	mark	_	_
+12	by	by	AUX	Y	Mood=Cnd	14	aux	_	_
+13	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+14	prezradila	prezradiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
+15	,	,	PUNCT	Z	_	14	punct	_	_
+16	či	či	CCONJ	O	_	14	cc	_	_
+17	bol	byť	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	parataxis	_	_
+18	Londýn	londýn	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+19	vždy	vždy	ADV	PD	PronType=Tot	20	advmod	_	_
+20	takýto	takýto	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+21	.	.	PUNCT	Z	_	1	punct	_	_
+22	Či	či	PART	T	_	23	cc	_	_
+23	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	27	expl:pv	_	_
+24	tu	tu	ADV	PD	PronType=Dem	27	advmod	_	_
+25	vždy	vždy	ADV	PD	PronType=Tot	27	advmod	_	_
+26	človeku	človek	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	27	obj	_	_
+27	naskytali	naskytať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	parataxis	_	_
+28	tieto	tento	DET	PFip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	29	det	_	_
+29	pohľady	pohľad	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	_
+30	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	32	case	_	_
+31	polozrúcané	polozrúcaný	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	32	amod	_	_
+32	domy	dom	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	29	obl:arg	_	_
+33	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	35	case	_	_
+34	devätnásteho	devätnásty	ADJ	NAns2	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord	35	amod	_	_
+35	storočia	storočie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	32	obl	_	_
+36	,	,	PUNCT	Z	_	38	punct	_	_
+37	zboku	zboku	ADV	Dx	Degree=Pos	38	advmod	_	_
+38	podopierané	podopieraný	ADJ	Gtip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	32	amod	_	_
+39	drevenými	drevený	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	40	amod	_	_
+40	kladami	klada	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	38	obj	_	_
+41	,	,	PUNCT	Z	_	43	punct	_	_
+42	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	43	case	_	_
+43	oknami	okno	NOUN	SSnp7	Case=Ins|Gender=Neut|Number=Plur	32	obl:arg	_	_
+44	zadebnenými	zadebnený	ADJ	Gtnp7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	43	amod	_	_
+45	lepenkou	lepenka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	44	obj	_	_
+46	,	,	PUNCT	Z	_	48	punct	_	_
+47	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	48	case	_	_
+48	strechami	strecha	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	32	obl:arg	_	_
+49	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	51	case	_	_
+50	zvlneného	zvlnený	ADJ	Gtis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	51	amod	_	_
+51	plechu	plech	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	48	obl:arg	_	_
+52	a	a	CCONJ	O	_	56	cc	_	_
+53	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	56	case	_	_
+54	ošarpanými	ošarpaný	ADJ	Gtip7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	56	amod	_	_
+55	záhradnými	záhradný	ADJ	AAip7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	56	amod	_	_
+56	múrmi	múr	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	32	obl:arg	_	_
+57	,	,	PUNCT	Z	_	59	punct	_	_
+58	ktoré	ktorý	DET	PAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	59	mark	_	_
+59	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	56	expl:pv	_	_
+60	všade	všade	ADV	PD	PronType=Tot	61	advmod	_	_
+61	rozpadajú	rozpadať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	59	parataxis	_	_
+62	?	?	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s7
+# text = A na stopy po bombardovaní , nad ktorými víri prach z omietky , a vŕbovky , ktoré sa týčia ponad kopy ruín a priestranstvá , kde bomby vyhĺbili také veľké plochy , že na nich mohli vyrásť úbohé kolónie barakov pripomínajúce kurníky ?
+# orig_file_sentence bsnk05_jankal_bsnk05_hrenakova#7
+1	A	a	PART	T	_	3	cc	_	_
+2	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+3	stopy	stopa	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	9	obl:arg	_	_
+4	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	bombardovaní	bombardovanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+6	,	,	PUNCT	Z	_	9	punct	_	_
+7	nad	nad	ADP	Eu7	AdpType=Prep|Case=Ins	9	mark	_	_
+8	ktorými	ktorý	DET	PAfp7	Case=Ins|Gender=Fem|Number=Plur|PronType=Int,Rel	7	mark	_	_
+9	víri	víriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	prach	prach	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+12	omietky	omietka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+13	,	,	PUNCT	Z	_	19	punct	_	_
+14	a	a	CCONJ	O	_	19	cc	_	_
+15	vŕbovky	vŕbovka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	19	nsubj	_	_
+16	,	,	PUNCT	Z	_	17	punct	_	_
+17	ktoré	ktorý	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	19	mark	_	_
+18	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	19	expl:pv	_	_
+19	týčia	týčiť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	conj	_	_
+20	ponad	ponad	ADP	Eu4	AdpType=Prep|Case=Acc	21	case	_	_
+21	kopy	kopa	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	19	obl:arg	_	_
+22	ruín	ruina	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_
+23	a	a	CCONJ	O	_	24	cc	_	_
+24	priestranstvá	priestranstvo	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	21	conj	_	_
+25	,	,	PUNCT	Z	_	28	punct	_	_
+26	kde	kde	ADV	PD	PronType=Int,Rel	28	advmod	_	_
+27	bomby	bomba	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	28	nsubj	_	_
+28	vyhĺbili	vyhĺbiť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	19	parataxis	_	_
+29	také	taký	DET	PAfp4	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	30	advmod:emph	_	_
+30	veľké	veľký	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	31	amod	_	_
+31	plochy	plocha	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	28	obj	_	_
+32	,	,	PUNCT	Z	_	36	punct	_	_
+33	že	že	SCONJ	O	_	36	mark	_	_
+34	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	35	case	_	_
+35	nich	ona	PRON	PFfp6	Case=Loc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	37	obl:arg	_	_
+36	mohli	môcť	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	28	advcl	_	_
+37	vyrásť	vyrásť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	36	xcomp	_	_
+38	úbohé	úbohý	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	39	amod	_	_
+39	kolónie	kolónia	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	36	nsubj	_	_
+40	barakov	barak	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	39	nmod	_	_
+41	pripomínajúce	pripomínajúci	ADJ	Gkfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	39	amod	_	_
+42	kurníky	kurník	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	41	obj	_	_
+43	?	?	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s8
+# text = Nikam to však neviedlo , nemohol si spomenúť ; z detstva mu v mysli nezostalo nič okrem niekoľkých presvietených výjavov nezasadených do prostredia a zväčša nezrozumiteľných .
+# orig_file_sentence bsnk05_jankal_bsnk05_hrenakova#8
+1	Nikam	nikam	ADV	PD	PronType=Neg	4	advmod	_	_
+2	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	však	však	PART	T	_	4	advmod:emph	_	_
+4	neviedlo	viesť	VERB	VLescn-	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+5	,	,	PUNCT	Z	_	4	punct	_	_
+6	nemohol	môcť	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	4	appos	_	_
+7	si	si	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+8	spomenúť	spomenúť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+9	;	;	PUNCT	Z	_	6	punct	_	_
+10	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+11	detstva	detstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+12	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	mark	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	mysli	myseľ	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+15	nezostalo	zostať	VERB	VLdscn-	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	4	appos	_	_
+16	nič	nič	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	15	nsubj	_	_
+17	okrem	okrem	ADP	Eu2	AdpType=Prep|Case=Gen	16	mark	_	_
+18	niekoľkých	niekoľko	DET	PUip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	20	det	_	_
+19	presvietených	presvietený	ADJ	Gtip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	18	conj	_	_
+20	výjavov	výjav	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl:arg	_	_
+21	nezasadených	zasadený	ADJ	Gtip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Neg|VerbForm=Part|Voice=Pass	18	conj	_	_
+22	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	23	case	_	_
+23	prostredia	prostredie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	21	obl	_	_
+24	a	a	CCONJ	O	_	26	cc	_	_
+25	zväčša	zväčša	ADV	Dx	Degree=Pos	26	advmod:emph	_	_
+26	nezrozumiteľných	nezrozumiteľný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	18	conj	_	_
+27	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s9
+# text = Ministerstvo pravdy , v newspeaku * Minitrue ( Minipravda ) , sa prekvapujúco líšilo od všetkých ostatných nablízku . * Newspeak bol oficiálnym jazykom Oceánie .
+# orig_file_sentence bsnk05_jankal_bsnk05_hrenakova#9
+1	Ministerstvo	ministerstvo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+2	pravdy	pravda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	,	,	PUNCT	Z	_	1	punct	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	newspeaku	newspeak	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	_
+6	*	*	PUNCT	#	_	1	punct	_	_
+7	Minitrue	minitrue	X	%	Foreign=Yes	1	nmod	_	_
+8	(	(	PUNCT	Z	_	1	punct	_	_
+9	Minipravda	minipravda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	dep	_	_
+10	)	)	PUNCT	Z	_	1	punct	_	_
+11	,	,	PUNCT	Z	_	14	punct	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	14	mark	_	_
+13	prekvapujúco	prekvapujúco	ADV	Dx	Degree=Pos	14	advmod	_	_
+14	líšilo	líšiť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+15	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+16	všetkých	všetok	DET	PFfp2	Case=Gen|Gender=Fem|Number=Plur|PronType=Tot	17	det	_	_
+17	ostatných	ostatný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	14	obl:arg	_	_
+18	nablízku	nablízku	ADV	Dx	Degree=Pos	17	advmod	_	_
+19	.	.	PUNCT	Z	_	14	punct	_	_
+20	*	*	PUNCT	#	_	24	punct	_	_
+21	Newspeak	newspeak	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+22	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	24	cop	_	_
+23	oficiálnym	oficiálny	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	jazykom	jazyk	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	parataxis	_	_
+25	Oceánie	oceánia	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	.	.	PUNCT	Z	_	14	punct	_	_
+
+# sent_id = s10
+# text = O jeho štruktúre a etymológii pozri Dodatok . Bola to obrovská , pyramídová stavba zo žiarivo bieleho betónu , ktorá sa terasovito vypínala do výšky 300 metrov .
+# orig_file_sentence bsnk05_jankal_bsnk05_hrenakova#10
+1	O	o	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	jeho	jeho	DET	PUfs6	Case=Loc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	štruktúre	štruktúra	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	6	obl:arg	_	_
+4	a	a	CCONJ	O	_	5	cc	_	_
+5	etymológii	etymológia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	conj	_	_
+6	pozri	pozrieť	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+7	Dodatok	dodatok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	.	.	PUNCT	Z	_	6	punct	_	_
+9	Bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	cop	_	_
+10	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj	_	_
+11	obrovská	obrovský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+12	,	,	PUNCT	Z	_	13	punct	_	_
+13	pyramídová	pyramídový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	conj	_	_
+14	stavba	stavba	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	parataxis	_	_
+15	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	18	case	_	_
+16	žiarivo	žiarivo	ADV	Dx	Degree=Pos	17	advmod	_	_
+17	bieleho	biely	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	betónu	betón	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl:arg	_	_
+19	,	,	PUNCT	Z	_	21	punct	_	_
+20	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	21	mark	_	_
+21	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pv	_	_
+22	terasovito	terasovito	ADV	Dx	Degree=Pos	23	advmod	_	_
+23	vypínala	vypínať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	21	parataxis	_	_
+24	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	25	case	_	_
+25	výšky	výška	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	23	obl	_	_
+26	300	300	NUM	0	NumForm=Digit	25	nsubj	_	_
+27	metrov	meter	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+28	.	.	PUNCT	Z	_	6	punct	_	_
+

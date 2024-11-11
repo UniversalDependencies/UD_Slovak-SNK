@@ -1,0 +1,225 @@
+# sent_id = s1
+# text = Vezmi si , napríklad , slovo " dobrý " .
+# orig_file_sentence bsnk85_olejkarova_bsnk85_janovicka#1
+1	Vezmi	vziať	VERB	VMdsb+	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+2	si	si	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pass	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	napríklad	napríklad	PART	T	_	1	advmod	_	_
+5	,	,	PUNCT	Z	_	4	punct	_	_
+6	slovo	slovo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+7	"	"	PUNCT	Z	_	8	punct	_	_
+8	dobrý	dobrý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+9	"	"	PUNCT	Z	_	8	punct	_	_
+10	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s2
+# text = Ak jestvuje slovo " dobrý " , načo je potrebné slovo " zlý " ? " Nedobrý " naprosto postačí -- je dokonca lepšie , pretože je to presný opak , čo sa nedá povedať o druhom slove .
+# orig_file_sentence bsnk85_olejkarova_bsnk85_janovicka#2
+1	Ak	ak	SCONJ	O	_	2	mark	_	_
+2	jestvuje	jestvovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+3	slovo	slovo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+4	"	"	PUNCT	Z	_	5	punct	_	_
+5	dobrý	dobrý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+6	"	"	PUNCT	Z	_	5	punct	_	_
+7	,	,	PUNCT	Z	_	2	punct	_	_
+8	načo	načo	PRON	PD	PronType=Prs	10	obl	_	_
+9	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	potrebné	potrebný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+11	slovo	slovo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+12	"	"	PUNCT	Z	_	13	punct	_	_
+13	zlý	zlý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+14	"	"	PUNCT	Z	_	13	punct	_	_
+15	?	?	PUNCT	Z	_	10	punct	_	_
+16	"	"	PUNCT	Z	_	17	punct	_	_
+17	Nedobrý	nedobrý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	nsubj	_	_
+18	"	"	PUNCT	Z	_	17	punct	_	_
+19	naprosto	naprosto	ADV	Dx	Degree=Pos	20	advmod	_	_
+20	postačí	postačiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+21	--	--	PUNCT	Z	_	24	punct	_	_
+22	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	dokonca	dokonca	PART	T	_	24	advmod	_	_
+24	lepšie	dobrý	ADJ	AAns1y	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	20	conj	_	_
+25	,	,	PUNCT	Z	_	30	punct	_	_
+26	pretože	pretože	SCONJ	O	_	30	mark	_	_
+27	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	30	cop	_	_
+28	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	30	nsubj	_	_
+29	presný	presný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	opak	opak	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	advcl	_	_
+31	,	,	PUNCT	Z	_	34	punct	_	_
+32	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	34	nsubj:pass	_	_
+33	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	34	expl:pass	_	_
+34	nedá	dať	VERB	VKjsc-	Aspect=Imp,Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	30	conj	_	_
+35	povedať	povedať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	34	xcomp	_	_
+36	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	38	case	_	_
+37	druhom	druhý	ADJ	NAns6	Case=Loc|Gender=Neut|Number=Sing|NumType=Ord	38	amod	_	_
+38	slove	slovo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	35	obl:arg	_	_
+39	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s3
+# text = Alebo , ak potrebuješ silnejší výraz slova " dobrý " , aký zmysel má celá reťaz nepresných a nepotrebných slov ako " výborný " či " vynikajúci " a všetky ostatné ?
+# orig_file_sentence bsnk85_olejkarova_bsnk85_janovicka#3
+1	Alebo	alebo	CCONJ	O	_	14	cc	_	_
+2	,	,	PUNCT	Z	_	14	punct	_	_
+3	ak	ak	SCONJ	O	_	4	mark	_	_
+4	potrebuješ	potrebovať	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+5	silnejší	silný	ADJ	AAis4y	Animacy=Inan|Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	6	amod	_	_
+6	výraz	výraz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	slova	slovo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	"	"	PUNCT	Z	_	9	punct	_	_
+9	dobrý	dobrý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+10	"	"	PUNCT	Z	_	9	punct	_	_
+11	,	,	PUNCT	Z	_	4	punct	_	_
+12	aký	aký	DET	PAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	13	det	_	_
+13	zmysel	zmysel	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+14	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	celá	celý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	reťaz	reťaz	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+17	nepresných	nepresný	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	20	amod	_	_
+18	a	a	CCONJ	O	_	19	cc	_	_
+19	nepotrebných	nepotrebný	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	17	conj	_	_
+20	slov	slovo	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	_
+21	ako	ako	SCONJ	O	_	23	mark	_	_
+22	"	"	PUNCT	Z	_	23	punct	_	_
+23	výborný	výborný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	dep	_	_
+24	"	"	PUNCT	Z	_	23	punct	_	_
+25	či	či	CCONJ	O	_	23	dep	_	_
+26	"	"	PUNCT	Z	_	27	punct	_	_
+27	vynikajúci	vynikajúci	ADJ	Gkms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	23	conj	_	_
+28	"	"	PUNCT	Z	_	27	punct	_	_
+29	a	a	CCONJ	O	_	30	cc	_	_
+30	všetky	všetok	DET	PFnp1	Case=Nom|Gender=Neut|Number=Plur|PronType=Tot	23	conj	_	_
+31	ostatné	ostatný	ADJ	AAnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	30	amod	_	_
+32	?	?	PUNCT	Z	_	14	punct	_	_
+
+# sent_id = s4
+# text = Ten význam predsa vystihuje " naddobrý " , alebo , ak potrebuješ ešte niečo silnejšie , " nadnaddobrý " .
+# orig_file_sentence bsnk85_olejkarova_bsnk85_janovicka#4
+1	Ten	ten	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	význam	význam	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+3	predsa	predsa	PART	T	_	4	advmod	_	_
+4	vystihuje	vystihovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	"	"	PUNCT	Z	_	6	punct	_	_
+6	naddobrý	naddobrý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	_	_
+7	"	"	PUNCT	Z	_	6	punct	_	_
+8	,	,	PUNCT	Z	_	18	punct	_	_
+9	alebo	alebo	CCONJ	O	_	18	cc	_	_
+10	,	,	PUNCT	Z	_	18	punct	_	_
+11	ak	ak	SCONJ	O	_	12	mark	_	_
+12	potrebuješ	potrebovať	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+13	ešte	ešte	PART	T	_	15	advmod:emph	_	_
+14	niečo	niečo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	12	obj	_	_
+15	silnejšie	silný	ADJ	AAns4y	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	14	amod	_	_
+16	,	,	PUNCT	Z	_	12	punct	_	_
+17	"	"	PUNCT	Z	_	18	punct	_	_
+18	nadnaddobrý	nadnaddobrý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	conj	_	_
+19	"	"	PUNCT	Z	_	18	punct	_	_
+20	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s5
+# text = Samozrejme , že tieto tvary už používame , pravda , v definitívnej verzii newspeaku už nič iné nebude .
+# orig_file_sentence bsnk85_olejkarova_bsnk85_janovicka#5
+1	Samozrejme	samozrejme	PART	T	_	0	root	_	_
+2	,	,	PUNCT	Z	_	7	punct	_	_
+3	že	že	SCONJ	O	_	7	mark	_	_
+4	tieto	tento	DET	PFip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	tvary	tvar	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+6	už	už	ADV	Dx	Degree=Pos	7	advmod:emph	_	_
+7	používame	používať	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	csubj	_	_
+8	,	,	PUNCT	Z	_	9	punct	_	_
+9	pravda	pravda	PART	T	_	18	advmod	_	_
+10	,	,	PUNCT	Z	_	18	punct	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+12	definitívnej	definitívny	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	verzii	verzia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	18	obl	_	_
+14	newspeaku	newspeak	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	už	už	PART	T	_	16	advmod:emph	_	_
+16	nič	nič	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	18	nsubj	_	_
+17	iné	iný	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	16	det	_	_
+18	nebude	byť	VERB	VBesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	1	conj	_	_
+19	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s6
+# text = Nakoniec celý pojem " dobra " a " zla " bude vystihovať iba šesť slov -- v skutočnosti len jedno slovo .
+# orig_file_sentence bsnk85_olejkarova_bsnk85_janovicka#6
+1	Nakoniec	nakoniec	ADV	Dx	Degree=Pos	12	advmod	_	_
+2	celý	celý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	pojem	pojem	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+4	"	"	PUNCT	Z	_	5	punct	_	_
+5	dobra	dobro	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+6	"	"	PUNCT	Z	_	5	punct	_	_
+7	a	a	CCONJ	O	_	9	cc	_	_
+8	"	"	PUNCT	Z	_	9	punct	_	_
+9	zla	zlo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	5	conj	_	_
+10	"	"	PUNCT	Z	_	9	punct	_	_
+11	bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	12	aux	_	_
+12	vystihovať	vystihovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	_
+13	iba	iba	PART	T	_	14	advmod:emph	_	_
+14	šesť	šesť	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+15	slov	slovo	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	_
+16	--	--	PUNCT	Z	_	21	punct	_	_
+17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+18	skutočnosti	skutočnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_
+19	len	len	PART	T	_	20	advmod:emph	_	_
+20	jedno	jeden	NUM	NFns1	Case=Nom|Gender=Neut|Number=Sing	21	nummod	_	_
+21	slovo	slovo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	14	appos	_	_
+22	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s7
+# text = Chápeš , Winston , aká je to krása ?
+# orig_file_sentence bsnk85_olejkarova_bsnk85_janovicka#7
+1	Chápeš	chápať	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	,	,	PUNCT	Z	_	1	punct	_	_
+3	Winston	winston	PROPN	SSms5:r	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	_
+4	,	,	PUNCT	Z	_	8	punct	_	_
+5	aká	aký	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	8	det	_	_
+6	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	_
+8	krása	krása	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	ccomp	_	_
+9	?	?	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s8
+# text = Samozrejme , že autorom pôvodnej myšlienky je VB , " dodal .
+# orig_file_sentence bsnk85_olejkarova_bsnk85_janovicka#8
+1	Samozrejme	samozrejme	PART	T	_	11	dep	_	_
+2	,	,	PUNCT	Z	_	4	punct	_	_
+3	že	že	SCONJ	O	_	4	mark	_	_
+4	autorom	autor	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	1	csubj	_	_
+5	pôvodnej	pôvodný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	myšlienky	myšlienka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+8	VB	vb	X	Wms1	Abbr=Yes|Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+9	,	,	PUNCT	Z	_	1	punct	_	_
+10	"	"	PUNCT	Z	_	1	punct	_	_
+11	dodal	dodať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s9
+# text = Pri zmienke o Veľkom bratovi si Winston ihneď nasadil nedočkavý výraz .
+# orig_file_sentence bsnk85_olejkarova_bsnk85_janovicka#9
+1	Pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	zmienke	zmienka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+3	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+4	Veľkom	veľký	ADJ	AAms6x	Animacy=Anim|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	bratovi	brat	NOUN	SSms6	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+6	si	si	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pass	_	_
+7	Winston	winston	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+8	ihneď	ihneď	ADV	Dx	Degree=Pos	9	advmod	_	_
+9	nasadil	nasadiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	nedočkavý	nedočkavý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	výraz	výraz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s10
+# text = Napriek tomu Syme odhalil uňho niečo ako nedostatok nadšenia .
+# orig_file_sentence bsnk85_olejkarova_bsnk85_janovicka#10
+1	Napriek	napriek	ADP	Eu3	AdpType=Prep|Case=Dat	2	case	_	_
+2	tomu	to	DET	PFns3	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	4	obl	_	_
+3	Syme	syme	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	odhalil	odhaliť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	uňho	u_on	PRON	PFms2g	AdpType=Preppron|Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|PronType=Prs	4	obl	_	_
+6	niečo	niečo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	4	obj	_	_
+7	ako	ako	SCONJ	O	_	8	mark	_	_
+8	nedostatok	nedostatok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	dep	_	_
+9	nadšenia	nadšenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	.	.	PUNCT	Z	_	4	punct	_	_
+

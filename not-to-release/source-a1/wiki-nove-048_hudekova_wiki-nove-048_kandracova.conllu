@@ -1,0 +1,435 @@
+# sent_id = s1
+# text = Hormizd IV .
+# orig_file_sentence wiki-nove-048_hudekova_wiki-nove-048_kandracova#1
+1	Hormizd	hormizd	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	IV	iv	NUM	0	NumForm=Digit	1	nummod	_	_
+3	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s2
+# text = Hormizd IV . ( po stredoperzsky Óhrmazd ) bol perzský veľkokráľ z rodu Sásánovcov vládnuci v rokoch 579 – 590 .
+# orig_file_sentence wiki-nove-048_hudekova_wiki-nove-048_kandracova#2
+1	Hormizd	hormizd	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+2	IV	iv	NUM	0	NumForm=Digit	1	nummod	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+4	(	(	PUNCT	Z	_	7	punct	_	_
+5	po	po	X	Q	Hyph=Yes	6	case	_	_
+6	stredoperzsky	stredoperzsky	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	Óhrmazd	óhrmazd	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+8	)	)	PUNCT	Z	_	7	punct	_	_
+9	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	cop	_	_
+10	perzský	perzský	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	veľkokráľ	veľkokráľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+12	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+13	rodu	rod	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	Sásánovcov	sásánovec	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	vládnuci	vládnuci	ADJ	Gkms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	11	xcomp	_	_
+16	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	15	obl	_	_
+18	579	579	NUM	0	NumForm=Digit	17	nummod	_	_
+19	–	–	PUNCT	Z	_	20	punct	_	_
+20	590	590	NUM	0	NumForm=Digit	18	conj	_	_
+21	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s3
+# text = Jeho otcom bol kráľ Husrav I . , jeden z najvýznamnejších reformátorov v perzských dejinách , matkou turecká princezna Kákin , Chákánova dcéra ( odtiaľ Hormizdov prídomok Turkzád , syn Turkyne ) .
+# orig_file_sentence wiki-nove-048_hudekova_wiki-nove-048_kandracova#3
+1	Jeho	jeho	DET	PUms7	Animacy=Anim|Case=Ins|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	otcom	otec	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+3	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	cop	_	_
+4	kráľ	kráľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+5	Husrav	husrav	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+6	I	i	NUM	0	NumForm=Digit	5	nummod	_	_
+7	.	.	PUNCT	Z	_	6	punct	_	_
+8	,	,	PUNCT	Z	_	9	punct	_	_
+9	jeden	jeden	NUM	NFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+10	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+11	najvýznamnejších	významný	ADJ	AAmp2z	Animacy=Anim|Case=Gen|Degree=Sup|Gender=Masc|Number=Plur	12	amod	_	_
+12	reformátorov	reformátor	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+14	perzských	perzský	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
+15	dejinách	dejiny	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	12	nmod	_	_
+16	,	,	PUNCT	Z	_	17	punct	_	_
+17	matkou	matka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	2	conj	_	_
+18	turecká	turecký	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	princezna	princezná	NOUN	SFfs1:q	Case=Nom|Gender=Fem|Number=Sing|Typo=Yes	20	nmod	_	_
+20	Kákin	kákin	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	17	orphan	_	_
+21	,	,	PUNCT	Z	_	23	punct	_	_
+22	Chákánova	chákánov	ADJ	AFfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	dcéra	dcéra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	20	appos	_	_
+24	(	(	PUNCT	Z	_	23	punct	_	_
+25	odtiaľ	odtiaľ	ADV	PD	PronType=Dem	28	advmod	_	_
+26	Hormizdov	hormizdov	ADJ	AFis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	prídomok	prídomok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nmod	_	_
+28	Turkzád	turkzád	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	dep	_	_
+29	,	,	PUNCT	Z	_	30	punct	_	_
+30	syn	syn	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	appos	_	_
+31	Turkyne	turkyňa	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	)	)	PUNCT	Z	_	23	punct	_	_
+33	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s4
+# text = Hormizd bol panovníkom , ktorého východné pramene ( Tabarí ) , ako aj pramene byzantské ( Theofylaktos Simokattes ) zhodne vyobrazujú celkom negatívne .
+# orig_file_sentence wiki-nove-048_hudekova_wiki-nove-048_kandracova#4
+1	Hormizd	hormizd	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	cop	_	_
+3	panovníkom	panovník	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+4	,	,	PUNCT	Z	_	21	punct	_	_
+5	ktorého	ktorý	DET	PAms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	21	obj	_	_
+6	východné	východný	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+7	pramene	prameň	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+8	(	(	PUNCT	Z	_	9	punct	_	_
+9	Tabarí	tabarí	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
+10	)	)	PUNCT	Z	_	9	punct	_	_
+11	,	,	PUNCT	Z	_	14	punct	_	_
+12	ako	ako	SCONJ	O	_	14	cc	_	_
+13	aj	aj	CCONJ	O	_	14	cc	_	_
+14	pramene	prameň	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	conj	_	_
+15	byzantské	byzantský	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
+16	(	(	PUNCT	Z	_	18	punct	_	_
+17	Theofylaktos	theofylaktos	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	_
+18	Simokattes	simokattes	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_
+19	)	)	PUNCT	Z	_	18	punct	_	_
+20	zhodne	zhodne	ADV	Dx	Degree=Pos	21	advmod	_	_
+21	vyobrazujú	vyobrazovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	acl	_	_
+22	celkom	celkom	ADV	Dx	Degree=Pos	23	advmod	_	_
+23	negatívne	negatívne	ADV	Dx	Degree=Pos	21	advmod	_	_
+24	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s5
+# text = Vytýkajú mu najmä krutý postup proti šľachte , zavraždenie vlastných bratov ( možných nápadníkov trónu ) a konflikty so zaratuštrovským kňažstvom ( mágmi ) .
+# orig_file_sentence wiki-nove-048_hudekova_wiki-nove-048_kandracova#5
+1	Vytýkajú	vytýkať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	iobj	_	_
+3	najmä	najmä	PART	T	_	5	advmod:emph	_	_
+4	krutý	krutý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	postup	postup	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+6	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	7	case	_	_
+7	šľachte	šľachta	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
+8	,	,	PUNCT	Z	_	9	punct	_	_
+9	zavraždenie	zavraždenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	5	conj	_	_
+10	vlastných	vlastný	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_
+11	bratov	brat	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	(	(	PUNCT	Z	_	14	punct	_	_
+13	možných	možný	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
+14	nápadníkov	nápadník	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	appos	_	_
+15	trónu	trón	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	)	)	PUNCT	Z	_	14	punct	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	konflikty	konflikt	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	conj	_	_
+19	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	21	case	_	_
+20	zaratuštrovským	zaratuštrovský	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	kňažstvom	kňazstvo	NOUN	SSns7:q	Case=Ins|Gender=Neut|Number=Sing|Typo=Yes	18	nmod	_	_
+22	(	(	PUNCT	Z	_	23	punct	_	_
+23	mágmi	mág	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	21	appos	_	_
+24	)	)	PUNCT	Z	_	23	punct	_	_
+25	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s6
+# text = Menej už kronikári zdôrazňujú pozitívne stránky Hormizdovej osobnosti , napríklad jeho všestrannú starostlivosť o poddaných a náboženskú toleranciu .
+# orig_file_sentence wiki-nove-048_hudekova_wiki-nove-048_kandracova#6
+1	Menej	málo	ADV	Dy	Degree=Cmp	4	advmod	_	_
+2	už	už	PART	T	_	1	advmod:emph	_	_
+3	kronikári	kronikár	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	zdôrazňujú	zdôrazňovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	pozitívne	pozitívny	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+6	stránky	stránka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+7	Hormizdovej	hormizdov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	osobnosti	osobnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	,	,	PUNCT	Z	_	13	punct	_	_
+10	napríklad	napríklad	PART	T	_	13	cc	_	_
+11	jeho	jeho	DET	PUfs4	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+12	všestrannú	všestranný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	starostlivosť	starostlivosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	appos	_	_
+14	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+15	poddaných	poddaný	NOUN	SAmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	13	nmod	_	_
+16	a	a	CCONJ	O	_	18	cc	_	_
+17	náboženskú	náboženský	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	toleranciu	tolerancia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	15	conj	_	_
+19	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s7
+# text = Štátne záležitosti na začiatku Hormizdovej vlády viedol vezír Vazurgmihr , oceňovaný väčšinou neskorších dejepiscov , po troch rokoch bol však uväznený a jeho miesto zaujali väčšinou pochlebovači , zbavení funkcií Husravom I . Kráľ začal tvrdo vystupovať proti veľmožom aj vzdelancom a prenasledovať kňažstvo , ktoré sa mu stavalo na odpor .
+# orig_file_sentence wiki-nove-048_hudekova_wiki-nove-048_kandracova#7
+1	Štátne	štátny	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
+2	záležitosti	záležitosť	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+3	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	začiatku	začiatok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+5	Hormizdovej	hormizdov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	viedol	viesť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	vezír	vezír	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+9	Vazurgmihr	vazurgmihr	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	oceňovaný	oceňovaný	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	9	xcomp	_	_
+12	väčšinou	väčšina	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+13	neskorších	neskorý	ADJ	AAmp2y	Animacy=Anim|Case=Gen|Degree=Cmp|Gender=Masc|Number=Plur	14	amod	_	_
+14	dejepiscov	dejepisec	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	,	,	PUNCT	Z	_	11	punct	_	_
+16	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+17	troch	tri	NUM	NNip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	nummod	_	_
+18	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	21	obl	_	_
+19	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	21	cop	_	_
+20	však	však	CCONJ	O	_	21	cc	_	_
+21	uväznený	uväznený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	conj	_	_
+22	a	a	CCONJ	O	_	25	cc	_	_
+23	jeho	jeho	DET	PUns4	Case=Acc|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	miesto	miesto	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	25	obj	_	_
+25	zaujali	zaujať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+26	väčšinou	väčšinou	ADV	Dx	Degree=Pos	25	advmod	_	_
+27	pochlebovači	pochlebovač	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+28	,	,	PUNCT	Z	_	29	punct	_	_
+29	zbavení	zbavený	ADJ	Gtmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	27	xcomp	_	_
+30	funkcií	funkcia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	29	obj	_	_
+31	Husravom	husrav	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	29	obj	_	_
+32	I	i	NUM	0	NumForm=Digit	31	nummod	_	_
+33	.	.	PUNCT	Z	_	7	punct	_	_
+34	Kráľ	kráľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
+35	začal	začať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	parataxis	_	_
+36	tvrdo	tvrdo	ADV	Dx	Degree=Pos	37	advmod	_	_
+37	vystupovať	vystupovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	35	xcomp	_	_
+38	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	39	case	_	_
+39	veľmožom	veľmož	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	37	obl	_	_
+40	aj	aj	CCONJ	O	_	41	cc	_	_
+41	vzdelancom	vzdelanec	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	39	conj	_	_
+42	a	a	CCONJ	O	_	43	cc	_	_
+43	prenasledovať	prenasledovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	37	conj	_	_
+44	kňažstvo	kňazstvo	NOUN	SSns4:q	Case=Acc|Gender=Neut|Number=Sing|Typo=Yes	43	obj	_	_
+45	,	,	PUNCT	Z	_	49	punct	_	_
+46	ktoré	ktorý	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	49	nsubj	_	_
+47	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	49	expl:pv	_	_
+48	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	49	obj	_	_
+49	stavalo	stavať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	44	acl	_	_
+50	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	51	case	_	_
+51	odpor	odpor	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	49	obl	_	_
+52	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s8
+# text = Veľa popredných predstaviteľov ríše skončilo na popravisku – bývalý vezír Jazd ‐ Gušnasp , minister Ádharmáh , vrchný mág Zartušt a ďalší .
+# orig_file_sentence wiki-nove-048_hudekova_wiki-nove-048_kandracova#8
+1	Veľa	veľa	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	popredných	popredný	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	predstaviteľov	predstaviteľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	ríše	ríša	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	skončilo	skončiť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	popravisku	popravisko	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+8	–	–	PUNCT	Z	_	5	punct	_	_
+9	bývalý	bývalý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	vezír	vezír	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
+11	Jazd	jazd	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	dep	_	_
+12	‐	‐	PUNCT	Z	_	13	punct	_	_
+13	Gušnasp	gušnasp	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	flat	_	_
+14	,	,	PUNCT	Z	_	16	punct	_	_
+15	minister	minister	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nmod	_	_
+16	Ádharmáh	ádharmáh	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_
+17	,	,	PUNCT	Z	_	20	punct	_	_
+18	vrchný	vrchný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	mág	mág	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nmod	_	_
+20	Zartušt	zartušt	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_
+21	a	a	CCONJ	O	_	22	cc	_	_
+22	ďalší	ďalší	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	11	conj	_	_
+23	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s9
+# text = Počas svojho panovania Hormizd vraj dal popraviť celkom 13 600 osôb .
+# orig_file_sentence wiki-nove-048_hudekova_wiki-nove-048_kandracova#9
+1	Počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	svojho	svoj	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	_	_
+3	panovania	panovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+4	Hormizd	hormizd	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	vraj	vraj	PART	T	_	6	advmod	_	_
+6	dal	dať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	popraviť	popraviť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+8	celkom	celkom	ADV	Dx	Degree=Pos	6	advmod	_	_
+9	13	13	NUM	0	NumForm=Digit	10	nummod	_	_
+10	600	600	NUM	0	NumForm=Digit	6	obl	_	_
+11	osôb	osoba	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s10
+# text = Či tým chcel iba upevniť svoje postavenie a poistiť sa pred prípadnou opozíciou , alebo to bol prejav podozrievavosti či nejaké poruchy osobnosti , možno len tažko usúdiť .
+# orig_file_sentence wiki-nove-048_hudekova_wiki-nove-048_kandracova#10
+1	Či	či	CCONJ	O	_	3	cc	_	_
+2	tým	to	DET	PFns7	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	_
+3	chcel	chcieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	25	csubj	_	_
+4	iba	iba	PART	T	_	5	advmod:emph	_	_
+5	upevniť	upevniť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+6	svoje	svoj	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	_
+7	postavenie	postavenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	poistiť	poistiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	5	conj	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+11	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	13	case	_	_
+12	prípadnou	prípadný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	opozíciou	opozícia	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+14	,	,	PUNCT	Z	_	18	punct	_	_
+15	alebo	alebo	CCONJ	O	_	18	cc	_	_
+16	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	18	nsubj	_	_
+17	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	18	cop	_	_
+18	prejav	prejav	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+19	podozrievavosti	podozrievavosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	či	či	CCONJ	O	_	22	cc	_	_
+21	nejaké	nejaký	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	22	det	_	_
+22	poruchy	porucha	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	18	conj	_	_
+23	osobnosti	osobnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	,	,	PUNCT	Z	_	3	punct	_	_
+25	možno	možno	ADV	Dx	Degree=Pos	0	root	_	_
+26	len	len	PART	T	_	27	advmod:emph	_	_
+27	tažko	tažko	ADV	Dx	Degree=Pos	25	advmod	_	_
+28	usúdiť	usúdiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	25	xcomp	_	_
+29	.	.	PUNCT	Z	_	25	punct	_	_
+
+# sent_id = s11
+# text = Po otcovi Hormizd zdedil vojnu s Byzantskou ríšou , ktorá s prestávkami trvala počas celej jeho vlády .
+# orig_file_sentence wiki-nove-048_hudekova_wiki-nove-048_kandracova#11
+1	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	otcovi	otec	NOUN	SSms6	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	Hormizd	hormizd	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	zdedil	zdediť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	vojnu	vojna	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+7	Byzantskou	byzantský	ADJ	AAfs7x:r	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	ríšou	ríša	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+9	,	,	PUNCT	Z	_	13	punct	_	_
+10	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	13	nsubj	_	_
+11	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	12	case	_	_
+12	prestávkami	prestávka	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	13	obl	_	_
+13	trvala	trvať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	acl	_	_
+14	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+15	celej	celý	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+16	jeho	jeho	DET	PUfs2	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+17	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+18	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s12
+# text = Bojovalo sa aj s Turkami na severovýchode , tu však vojvodca Báhrám Čóvén dokázal nepriateľov rozhodne poraziť v oblasti dnešného Herátu .
+# orig_file_sentence wiki-nove-048_hudekova_wiki-nove-048_kandracova#12
+1	Bojovalo	bojovať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	aj	aj	PART	T	_	5	advmod:emph	_	_
+4	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	5	case	_	_
+5	Turkami	turek	PROPN	SSmp7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	1	obl	_	_
+6	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	severovýchode	severovýchod	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	_
+8	,	,	PUNCT	Z	_	14	punct	_	_
+9	tu	tu	ADV	PD	PronType=Dem	14	advmod	_	_
+10	však	však	PART	T	_	14	cc	_	_
+11	vojvodca	vojvodca	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
+12	Báhrám	báhrám	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
+13	Čóvén	čóvén	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+14	dokázal	dokázať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+15	nepriateľov	nepriateľ	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+16	rozhodne	rozhodne	ADV	Dx	Degree=Pos	17	advmod	_	_
+17	poraziť	poraziť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	14	xcomp	_	_
+18	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	oblasti	oblasť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	14	obl	_	_
+20	dnešného	dnešný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	Herátu	herát	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+22	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s13
+# text = Na prelome rokov 589 / 590 sa Báhrám Čóvén z osobných dôvodov vzbúril proti Hormizdovi , a zatiaľ čo jeho armáda pochodovala na Ktésifón , bol kráľ 6 . februára 590 zvrhnutý palácovým prevratom a posadený do väzenia .
+# orig_file_sentence wiki-nove-048_hudekova_wiki-nove-048_kandracova#13
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	prelome	prelom	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+3	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	589	589	NUM	0	NumForm=Digit	3	nummod	_	_
+5	/	/	PUNCT	Z	_	6	punct	_	_
+6	590	590	NUM	0	NumForm=Digit	4	conj	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+8	Báhrám	báhrám	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+9	Čóvén	čóvén	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+10	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+11	osobných	osobný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
+12	dôvodov	dôvod	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+13	vzbúril	vzbúriť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+14	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	15	case	_	_
+15	Hormizdovi	hormizd	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	13	obl	_	_
+16	,	,	PUNCT	Z	_	32	punct	_	_
+17	a	a	CCONJ	O	_	32	cc	_	_
+18	zatiaľ	zatiaľ	SCONJ	O	_	22	mark	_	_
+19	čo	čo	SCONJ	O	_	18	fixed	_	_
+20	jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
+21	armáda	armáda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+22	pochodovala	pochodovať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	32	advcl	_	_
+23	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	24	case	_	_
+24	Ktésifón	ktésifón	PROPN	SSis4:r	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obl	_	_
+25	,	,	PUNCT	Z	_	22	punct	_	_
+26	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	32	cop	_	_
+27	kráľ	kráľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	_
+28	6	6	NUM	0	NumForm=Digit	30	nummod	_	_
+29	.	.	PUNCT	Z	_	28	punct	_	_
+30	februára	február	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	obl	_	_
+31	590	590	NUM	0	NumForm=Digit	30	nummod	_	_
+32	zvrhnutý	zvrhnutý	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	13	conj	_	_
+33	palácovým	palácový	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	prevratom	prevrat	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	32	obl	_	_
+35	a	a	CCONJ	O	_	36	cc	_	_
+36	posadený	posadený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	32	conj	_	_
+37	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	38	case	_	_
+38	väzenia	väzenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	36	obl	_	_
+39	.	.	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s14
+# text = Novým panovníkom sa stal Hormizdov syn Husrav II . , neskôr veľký bojovník proti Byzancii .
+# orig_file_sentence wiki-nove-048_hudekova_wiki-nove-048_kandracova#14
+1	Novým	nový	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	panovníkom	panovník	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	Hormizdov	hormizdov	ADJ	AFms1x:r	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	syn	syn	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+7	Husrav	husrav	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+8	II	ii	NUM	0	NumForm=Digit	7	nummod	_	_
+9	.	.	PUNCT	Z	_	8	punct	_	_
+10	,	,	PUNCT	Z	_	13	punct	_	_
+11	neskôr	neskôr	ADV	Dx	Degree=Pos	12	advmod	_	_
+12	veľký	veľký	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	bojovník	bojovník	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
+14	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	15	case	_	_
+15	Byzancii	byzancia	PROPN	SSfs3:r	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	_
+16	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s15
+# text = Sám Hormizd bol vo väzení najskôr oslepený , po úteku Husrava II . pred Báhrámom Čóvénom ho však veľmoži Vistám a Vindóé zaškrtili .
+# orig_file_sentence wiki-nove-048_hudekova_wiki-nove-048_kandracova#15
+1	Sám	sám	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	2	xcomp	_	_
+2	Hormizd	hormizd	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	cop	_	_
+4	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	5	case	_	_
+5	väzení	väzenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+6	najskôr	najskôr	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	oslepený	oslepený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+8	,	,	PUNCT	Z	_	23	punct	_	_
+9	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	úteku	útek	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_
+11	Husrava	husrav	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	II	ii	NUM	0	NumForm=Digit	11	nummod	_	_
+13	.	.	PUNCT	Z	_	12	punct	_	_
+14	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	16	case	_	_
+15	Báhrámom	báhrám	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	nmod	_	_
+16	Čóvénom	čóvén	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	_
+17	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+18	však	však	PART	T	_	23	cc	_	_
+19	veľmoži	veľmož	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nmod	_	_
+20	Vistám	vistám	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+21	a	a	CCONJ	O	_	22	cc	_	_
+22	Vindóé	vindóé	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	conj	_	_
+23	zaškrtili	zaškrtiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+24	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s16
+# text = Či sa to stalo s Husravovým vedomím , je nejasné .
+# orig_file_sentence wiki-nove-048_hudekova_wiki-nove-048_kandracova#16
+1	Či	či	CCONJ	O	_	4	mark	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+4	stalo	stať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	csubj	_	_
+5	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	7	case	_	_
+6	Husravovým	husravov	ADJ	AFns7x:r	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	vedomím	vedomie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
+8	,	,	PUNCT	Z	_	4	punct	_	_
+9	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	nejasné	nejasný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+11	.	.	PUNCT	Z	_	10	punct	_	_
+

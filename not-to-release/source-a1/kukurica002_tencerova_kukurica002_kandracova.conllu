@@ -1,0 +1,313 @@
+# sent_id = s1
+# text = Tvrdá alebo obyčajná ( duro , flint ) – podobná Pop kukurici ale s väčšou veľkosťou zrna .
+# orig_file_sentence kukurica002_tencerova_kukurica002_kandracova#1
+1	Tvrdá	tvrdý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+2	alebo	alebo	CCONJ	O	_	3	cc	_	_
+3	obyčajná	obyčajný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	conj	_	_
+4	(	(	PUNCT	Z	_	5	punct	_	_
+5	duro	duro	X	%	Foreign=Yes	1	appos	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	flint	flint	X	%	Foreign=Yes	5	conj	_	_
+8	)	)	PUNCT	Z	_	5	punct	_	_
+9	–	–	PUNCT	Z	_	10	punct	_	_
+10	podobná	podobný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	conj	_	_
+11	Pop	pop	ADJ	AUfs3	Case=Dat|Gender=Fem|Number=Sing	12	amod	_	_
+12	kukurici	kukurica	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	10	obj	_	_
+13	ale	ale	CCONJ	O	_	16	cc	_	_
+14	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	16	case	_	_
+15	väčšou	veľký	ADJ	AAfs7y	Case=Ins|Degree=Cmp|Gender=Fem|Number=Sing	16	amod	_	_
+16	veľkosťou	veľkosť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	10	conj	_	_
+17	zrna	zrno	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s2
+# text = Táto kukurica sa pestuje najmä v horských podmienkach a v oblastiach , kde je potrebná odolnosť k chladu .
+# orig_file_sentence kukurica002_tencerova_kukurica002_kandracova#2
+1	Táto	táto	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	kukurica	kukurica	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	pestuje	pestovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	najmä	najmä	PART	T	_	8	advmod:emph	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+7	horských	horský	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	podmienkach	podmienka	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	4	obl	_	_
+9	a	a	CCONJ	O	_	11	cc	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	oblastiach	oblasť	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	8	conj	_	_
+12	,	,	PUNCT	Z	_	15	punct	_	_
+13	kde	kde	ADV	PD	PronType=Int,Rel	15	advmod	_	_
+14	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	potrebná	potrebný	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	acl	_	_
+16	odolnosť	odolnosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+17	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	18	case	_	_
+18	chladu	chlad	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	_
+19	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s3
+# text = Dobre znáša zlé skladovacie podmienky .
+# orig_file_sentence kukurica002_tencerova_kukurica002_kandracova#3
+1	Dobre	dobre	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	znáša	znášať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	zlé	zlý	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
+4	skladovacie	skladovací	ADJ	Gkfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	5	amod	_	_
+5	podmienky	podmienka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+6	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s4
+# text = Tvorí asi 14 % rozlohy .
+# orig_file_sentence kukurica002_tencerova_kukurica002_kandracova#4
+1	Tvorí	tvoriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	asi	asi	PART	T	_	3	advmod:emph	_	_
+3	14	14	NUM	0	NumForm=Digit	1	obj	_	_
+4	%	%	SYM	#	_	3	nmod	_	_
+5	rozlohy	rozloha	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s5
+# text = Škrobnatá ( blando ) – kukurica na múku .
+# orig_file_sentence kukurica002_tencerova_kukurica002_kandracova#5
+1	Škrobnatá	škrobnatý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+2	(	(	PUNCT	Z	_	3	punct	_	_
+3	blando	blando	X	%	Foreign=Yes	1	appos	_	_
+4	)	)	PUNCT	Z	_	3	punct	_	_
+5	–	–	PUNCT	Z	_	6	punct	_	_
+6	kukurica	kukurica	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+8	múku	múka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
+9	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s6
+# text = Má mäkké škrobové jadro a ľahko sa melie .
+# orig_file_sentence kukurica002_tencerova_kukurica002_kandracova#6
+1	Má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	mäkké	mäkký	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+3	škrobové	škrobový	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	jadro	jadro	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+5	a	a	CCONJ	O	_	8	cc	_	_
+6	ľahko	ľahko	ADV	Dx	Degree=Pos	8	advmod	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pass	_	_
+8	melie	mlieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+9	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s7
+# text = Používa sa na prípravu tortíl a podobne .
+# orig_file_sentence kukurica002_tencerova_kukurica002_kandracova#7
+1	Používa	používať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pass	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	prípravu	príprava	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
+5	tortíl	tortila	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	podobne	podobne	ADV	Dx	Degree=Pos	1	conj	_	_
+8	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s8
+# text = Je to najbežnějšia kukurica pre priamu ľudskú spotrebu .
+# orig_file_sentence kukurica002_tencerova_kukurica002_kandracova#8
+1	Je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	to	ten	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	najbežnějšia	bežný	ADJ	AAfs1z	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	4	amod	_	_
+4	kukurica	kukurica	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+6	priamu	priamy	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	ľudskú	ľudský	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	spotrebu	spotreba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
+9	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s9
+# text = Tvorí asi 12 % rozlohy .
+# orig_file_sentence kukurica002_tencerova_kukurica002_kandracova#9
+1	Tvorí	tvoriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	asi	asi	PART	T	_	3	advmod:emph	_	_
+3	12	12	NUM	0	NumForm=Digit	1	obj	_	_
+4	%	%	SYM	#	_	3	nmod	_	_
+5	rozlohy	rozloha	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s10
+# text = Konský zub ( dentado ) ‐ jadro je tvorené mäkším škrobovým endospermom ktorý je čiastočne zakrytý trochu tvrdšou šupkou .
+# orig_file_sentence kukurica002_tencerova_kukurica002_kandracova#10
+1	Konský	konský	ADJ	AFis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	zub	zub	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	(	(	PUNCT	Z	_	4	punct	_	_
+4	dentado	dentado	X	%	Foreign=Yes	2	appos	_	_
+5	)	)	PUNCT	Z	_	4	punct	_	_
+6	‐	‐	PUNCT	Z	_	9	punct	_	_
+7	jadro	jadro	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+8	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	tvorené	tvoriť	ADJ	Gtnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	2	conj	_	_
+10	mäkším	mäkký	ADJ	AAis7y	Animacy=Inan|Case=Ins|Degree=Cmp|Gender=Masc|Number=Sing	12	amod	_	_
+11	škrobovým	škrobový	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	endospermom	endosperm	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+13	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	16	nsubj	_	_
+14	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	čiastočne	čiastočne	ADV	Dx	Degree=Pos	16	advmod	_	_
+16	zakrytý	zakytý	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	acl	_	_
+17	trochu	trochu	ADV	Dx	Degree=Pos	18	advmod	_	_
+18	tvrdšou	tvrdý	ADJ	AAfs7y	Case=Ins|Degree=Cmp|Gender=Fem|Number=Sing	19	amod	_	_
+19	šupkou	šupka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	16	obl	_	_
+20	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s11
+# text = Tá však nepokrýva celé jadro , to preto pri schnutí vytvorí charakteristickú výduť .
+# orig_file_sentence kukurica002_tencerova_kukurica002_kandracova#11
+1	Tá	tá	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	však	však	PART	T	_	3	advmod	_	_
+3	nepokrýva	pokrývať	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	celé	celý	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	jadro	jadro	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+6	,	,	PUNCT	Z	_	11	punct	_	_
+7	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj	_	_
+8	preto	preto	CCONJ	O	_	11	advmod	_	_
+9	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	schnutí	schnutie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
+11	vytvorí	vytvoriť	VERB	VBdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	3	conj	_	_
+12	charakteristickú	charakteristický	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	výduť	výduť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s12
+# text = Najrozšírenejší typ kukurice , predstavuje zhruba 73 % svetovej produkcie .
+# orig_file_sentence kukurica002_tencerova_kukurica002_kandracova#12
+1	Najrozšírenejší	rozšírený	ADJ	AAis1z	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	2	amod	_	_
+2	typ	typ	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	kukurice	kukurica	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	,	,	PUNCT	Z	_	2	punct	_	_
+5	predstavuje	predstavovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	zhruba	zhruba	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	73	73	NUM	0	NumForm=Digit	5	obj	_	_
+8	%	%	SYM	#	_	7	nmod	_	_
+9	svetovej	svetový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	produkcie	produkcia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s13
+# text = Používa sa prevažne ako krmivo pre dobytok a v priemysle na výrobu škrobu , alkoholu , oleja a podobne .
+# orig_file_sentence kukurica002_tencerova_kukurica002_kandracova#13
+1	Používa	používať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pass	_	_
+3	prevažne	prevažne	ADV	Dx	Degree=Pos	5	advmod	_	_
+4	ako	ako	SCONJ	O	_	5	mark	_	_
+5	krmivo	krmivo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	1	xcomp	_	_
+6	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+7	dobytok	dobytok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
+8	a	a	CCONJ	O	_	10	cc	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	priemysle	priemysel	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	conj	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	výrobu	výroba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	orphan	_	_
+13	škrobu	škrob	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	,	,	PUNCT	Z	_	15	punct	_	_
+15	alkoholu	alkohol	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	conj	_	_
+16	,	,	PUNCT	Z	_	17	punct	_	_
+17	oleja	olej	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	conj	_	_
+18	a	a	ADV	Dx	Degree=Pos	19	cc	_	_
+19	podobne	podobne	ADV	Dx	Degree=Pos	13	conj	_	_
+20	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s14
+# text = Cukrová – endosperm sa skladá prevažne z rozpustných cukrov s malým podielom škrobu .
+# orig_file_sentence kukurica002_tencerova_kukurica002_kandracova#14
+1	Cukrová	cukrový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	–	–	PUNCT	Z	_	3	punct	_	_
+3	endosperm	endosperm	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	skladá	skladať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	prevažne	prevažne	ADV	Dx	Degree=Pos	5	advmod	_	_
+7	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+8	rozpustných	rozpustný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
+9	cukrov	cukor	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+10	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	12	case	_	_
+11	malým	malý	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	podielom	podiel	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_
+13	škrobu	škrob	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s15
+# text = Predstavuje síce zanedbateľnú časť produkcie čo sa týka rozlohy , ale zato sa predáva za veľmi vysokú cenu ako zelenina na vyspelých trhoch .
+# orig_file_sentence kukurica002_tencerova_kukurica002_kandracova#15
+1	Predstavuje	predstavovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	síce	síce	CCONJ	O	_	8	cc	_	_
+3	zanedbateľnú	zanedbateľný	ADJ	Gtfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	časť	časť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+5	produkcie	produkcia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	8	nsubj	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+8	týka	týkať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+9	rozlohy	rozloha	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	obj	_	_
+10	,	,	PUNCT	Z	_	14	punct	_	_
+11	ale	ale	CCONJ	O	_	14	cc	_	_
+12	zato	zato	CCONJ	O	_	14	cc	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pass	_	_
+14	predáva	predávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+15	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	18	case	_	_
+16	veľmi	veľmi	ADV	Dx	Degree=Pos	17	advmod	_	_
+17	vysokú	vysoký	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	cenu	cena	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
+19	ako	ako	SCONJ	O	_	20	mark	_	_
+20	zelenina	zelenina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	14	dep	_	_
+21	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	23	case	_	_
+22	vyspelých	vyspelý	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	_
+23	trhoch	trh	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	20	nmod	_	_
+24	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s16
+# text = Pri pestovaní na zrno sa necháva kukurica dôkladne vyschnúť na poli a zbiera sa až neskôr na jeseň , často aj na jar ďalšieho roku .
+# orig_file_sentence kukurica002_tencerova_kukurica002_kandracova#16
+1	Pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	pestovaní	pestovanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	zrno	zrno	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pass	_	_
+6	necháva	nechať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	kukurica	kukurica	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+8	dôkladne	dôkladne	ADV	Dx	Degree=Pos	9	advmod	_	_
+9	vyschnúť	vyschnúť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+10	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	poli	pole	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+12	a	a	CCONJ	O	_	13	cc	_	_
+13	zbiera	zbierať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	conj	_	_
+14	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pass	_	_
+15	až	až	PART	T	_	16	advmod:emph	_	_
+16	neskôr	neskôr	ADV	Dx	Degree=Pos	13	advmod	_	_
+17	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	18	case	_	_
+18	jeseň	jeseň	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+19	,	,	PUNCT	Z	_	20	punct	_	_
+20	často	často	ADV	Dx	Degree=Pos	13	advmod	_	_
+21	aj	aj	PART	T	_	20	advmod:emph	_	_
+22	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	20	case	_	_
+23	jar	jar	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
+24	ďalšieho	ďalší	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+26	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s17
+# text = V našich podmienkach sa kukurica pestuje prevažne na siláž , v tomto prípade sa zbiera zelená ešte pred dozretím klasov .
+# orig_file_sentence kukurica002_tencerova_kukurica002_kandracova#17
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	našich	náš	DET	PFfp6	Case=Loc|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
+3	podmienkach	podmienka	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	6	obl	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pass	_	_
+5	kukurica	kukurica	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+6	pestuje	pestovať	VERB	VKjsc+	Aspect=Imp,Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	prevažne	prevažne	ADV	Dx	Degree=Pos	6	advmod	_	_
+8	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	7	case	_	_
+9	siláž	siláž	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+10	,	,	PUNCT	Z	_	15	punct	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+12	tomto	tento	DET	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	prípade	prípad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+14	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pass	_	_
+15	zbiera	zbierať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	conj	_	_
+16	zelená	zelený	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	xcomp	_	_
+17	ešte	ešte	PART	T	_	19	advmod:emph	_	_
+18	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	19	case	_	_
+19	dozretím	dozretie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	15	obl	_	_
+20	klasov	klas	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+21	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s18
+# text = Produkcia
+# orig_file_sentence kukurica002_tencerova_kukurica002_kandracova#18
+1	Produkcia	produkcia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+

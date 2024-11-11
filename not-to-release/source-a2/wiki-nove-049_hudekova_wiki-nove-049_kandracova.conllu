@@ -1,0 +1,222 @@
+# sent_id = s1
+# text = Americká okupačná zóna Nemecka
+# orig_file_sentence wiki-nove-049_hudekova_wiki-nove-049_kandracova#1
+1	Americká	americký	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	okupačná	okupačný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	zóna	zóna	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	Nemecka	nemecko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+
+# sent_id = s2
+# text = Americká okupačná zóna Nemecka bola jedným zo štyroch okupačných útvarov , v júli 1945 víťaznými spojencami zriadených v povojnovom Nemecku .
+# orig_file_sentence wiki-nove-049_hudekova_wiki-nove-049_kandracova#2
+1	Americká	americký	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	okupačná	okupačný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	zóna	zóna	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+4	Nemecka	nemecko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	cop	_	_
+6	jedným	jeden	NUM	NFis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+7	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	10	case	_	_
+8	štyroch	štyri	NUM	NNip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nummod	_	_
+9	okupačných	okupačný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+10	útvarov	útvar	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+11	,	,	PUNCT	Z	_	17	punct	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	júli	júl	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+14	1945	1945	NUM	0	NumForm=Digit	13	nummod	_	_
+15	víťaznými	víťazný	ADJ	AAmp7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
+16	spojencami	spojenec	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	17	obj	_	_
+17	zriadených	zriadený	ADJ	Gtip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	_	_
+18	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+19	povojnovom	povojnový	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	Nemecku	nemecko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+21	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s3
+# text = Rozkladala sa na území modernej spolkovej krajiny Hesenska , Brém , takmer celého Bavorska a severnej časti Bádenska ‐ Württemberska .
+# orig_file_sentence wiki-nove-049_hudekova_wiki-nove-049_kandracova#3
+1	Rozkladala	rozkladať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	území	územie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	1	obl	_	_
+5	modernej	moderný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	spolkovej	spolkový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	krajiny	krajina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+8	Hesenska	hesensko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	Z	_	10	punct	_	_
+10	Brém	brémy	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	7	conj	_	_
+11	,	,	PUNCT	Z	_	14	punct	_	_
+12	takmer	takmer	PART	T	_	13	advmod:emph	_	_
+13	celého	celý	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	Bavorska	bavorsko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	7	conj	_	_
+15	a	a	CCONJ	O	_	17	cc	_	_
+16	severnej	severný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	časti	časť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	conj	_	_
+18	Bádenska	bádensko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	‐	‐	PUNCT	Z	_	20	punct	_	_
+20	Württemberska	württembersko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	18	conj	_	_
+21	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s4
+# text = Na severe a severozápade susedila s Britskou okupačnou zónou Nemecka , na západe a juhozápade s Francúzskou okupačnou zónou Nemecka , na severe a severovýchode so Sovietskou okupačnou zónou Nemecka , na juhu so Švajčiarskom a Rakúskom , na juhovýchode s Rakúskom , a na severovýchode s Česko ‐ Slovenskom .
+# orig_file_sentence wiki-nove-049_hudekova_wiki-nove-049_kandracova#4
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	severe	sever	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	a	a	CCONJ	O	_	4	cc	_	_
+4	severozápade	severozápad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	conj	_	_
+5	susedila	susediť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+7	Britskou	britský	ADJ	AAfs7x:r	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	okupačnou	okupačný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	zónou	zóna	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	5	obl:arg	_	_
+10	Nemecka	nemecko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	,	,	PUNCT	Z	_	19	punct	_	_
+12	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	západe	západ	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	dep	_	_
+14	a	a	CCONJ	O	_	15	cc	_	_
+15	juhozápade	juhozápad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	conj	_	_
+16	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	19	case	_	_
+17	Francúzskou	francúzsky	ADJ	AAfs7x:r	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+18	okupačnou	okupačný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	zónou	zóna	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	5	conj	_	_
+20	Nemecka	nemecko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	,	,	PUNCT	Z	_	19	punct	_	_
+22	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	23	case	_	_
+23	severe	sever	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	dep	_	_
+24	a	a	CCONJ	O	_	25	cc	_	_
+25	severovýchode	severovýchod	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	conj	_	_
+26	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	29	case	_	_
+27	Sovietskou	sovietsky	ADJ	AAfs7x:r	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+28	okupačnou	okupačný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	zónou	zóna	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	19	orphan	_	_
+30	Nemecka	nemecko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
+31	,	,	PUNCT	Z	_	19	punct	_	_
+32	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	33	case	_	_
+33	juhu	juh	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	orphan	_	_
+34	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	35	case	_	_
+35	Švajčiarskom	švajčiarsko	PROPN	SSns7:r	Case=Ins|Gender=Neut|Number=Sing	5	dep	_	_
+36	a	a	CCONJ	O	_	37	cc	_	_
+37	Rakúskom	rakúsko	PROPN	SSns7:r	Case=Ins|Gender=Neut|Number=Sing	35	conj	_	_
+38	,	,	PUNCT	Z	_	19	punct	_	_
+39	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	40	case	_	_
+40	juhovýchode	juhovýchod	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	orphan	_	_
+41	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	42	case	_	_
+42	Rakúskom	rakúsko	PROPN	SSns7:r	Case=Ins|Gender=Neut|Number=Sing	19	orphan	_	_
+43	,	,	PUNCT	Z	_	19	punct	_	_
+44	a	a	CCONJ	O	_	19	cc	_	_
+45	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	46	case	_	_
+46	severovýchode	severovýchod	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	orphan	_	_
+47	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	48	case	_	_
+48	Česko	česko	X	Q	Hyph=Yes	19	orphan	_	_
+49	‐	‐	PUNCT	Z	_	50	punct	_	_
+50	Slovenskom	slovensko	PROPN	SSns7:r	Case=Ins|Gender=Neut|Number=Sing	48	conj	_	_
+51	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s5
+# text = Na území tejto zóny vytvorila americká vojenská vláda v roku 1945 nasledujúce autonomné správne jednotky ( krajiny ) : Bavorsko ( 28 . mája 1945 ) , Württembersko ‐ Bádensko ( 19 . septembra 1945 ) , Hesensko ( 19 . septembra 1945 ; 19 . septembra 1945 ‐ 17 . decembra 1946 Veľké Hesensko ) a Brémy ( 6 . júna 1945 ) , ktoré sa 23 . mája 1949 stali spolkovými krajinami SRN .
+# orig_file_sentence wiki-nove-049_hudekova_wiki-nove-049_kandracova#5
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	území	územie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	tejto	táto	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	zóny	zóna	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	vytvorila	vytvoriť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	americká	americký	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	vojenská	vojenský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+11	1945	1945	NUM	0	NumForm=Digit	10	nummod	_	_
+12	nasledujúce	nasledujúci	ADJ	Gkfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	15	amod	_	_
+13	autonomné	autonómny	ADJ	AAfp4x:q	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Typo=Yes	15	amod	_	_
+14	správne	správny	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
+15	jednotky	jednotka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+16	(	(	PUNCT	Z	_	17	punct	_	_
+17	krajiny	krajina	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	15	appos	_	_
+18	)	)	PUNCT	Z	_	17	punct	_	_
+19	:	:	PUNCT	Z	_	20	punct	_	_
+20	Bavorsko	bavorsko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	15	appos	_	_
+21	(	(	PUNCT	Z	_	20	punct	_	_
+22	28	28	NUM	0	NumForm=Digit	24	nummod	_	_
+23	.	.	PUNCT	Z	_	22	punct	_	_
+24	mája	máj	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	dep	_	_
+25	1945	1945	NUM	0	NumForm=Digit	24	nummod	_	_
+26	)	)	PUNCT	Z	_	20	punct	_	_
+27	,	,	PUNCT	Z	_	28	punct	_	_
+28	Württembersko	württembersko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	20	conj	_	_
+29	‐	‐	PUNCT	Z	_	30	punct	_	_
+30	Bádensko	bádensko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	28	conj	_	_
+31	(	(	PUNCT	Z	_	28	punct	_	_
+32	19	19	NUM	0	NumForm=Digit	34	nummod	_	_
+33	.	.	PUNCT	Z	_	32	punct	_	_
+34	septembra	september	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	dep	_	_
+35	1945	1945	NUM	0	NumForm=Digit	34	nummod	_	_
+36	)	)	PUNCT	Z	_	28	punct	_	_
+37	,	,	PUNCT	Z	_	38	punct	_	_
+38	Hesensko	hesensko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	20	conj	_	_
+39	(	(	PUNCT	Z	_	38	punct	_	_
+40	19	19	NUM	0	NumForm=Digit	42	nummod	_	_
+41	.	.	PUNCT	Z	_	40	punct	_	_
+42	septembra	september	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	dep	_	_
+43	1945	1945	NUM	0	NumForm=Digit	42	nummod	_	_
+44	;	;	PUNCT	Z	_	47	punct	_	_
+45	19	19	NUM	0	NumForm=Digit	47	nummod	_	_
+46	.	.	PUNCT	Z	_	45	punct	_	_
+47	septembra	september	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	conj	_	_
+48	1945	1945	NUM	0	NumForm=Digit	47	nummod	_	_
+49	‐	‐	PUNCT	Z	_	52	punct	_	_
+50	17	17	NUM	0	NumForm=Digit	52	nummod	_	_
+51	.	.	PUNCT	Z	_	50	punct	_	_
+52	decembra	december	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	47	conj	_	_
+53	1946	1946	NUM	0	NumForm=Digit	52	nummod	_	_
+54	Veľké	veľký	ADJ	AAns1x:r	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	55	amod	_	_
+55	Hesensko	hesensko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	42	conj	_	_
+56	)	)	PUNCT	Z	_	38	punct	_	_
+57	a	a	CCONJ	O	_	58	cc	_	_
+58	Brémy	brémy	PROPN	SSfp1:r	Case=Nom|Gender=Fem|Number=Plur	20	conj	_	_
+59	(	(	PUNCT	Z	_	58	punct	_	_
+60	6	6	NUM	0	NumForm=Digit	62	nummod	_	_
+61	.	.	PUNCT	Z	_	60	punct	_	_
+62	júna	jún	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	58	dep	_	_
+63	1945	1945	NUM	0	NumForm=Digit	62	nummod	_	_
+64	)	)	PUNCT	Z	_	58	punct	_	_
+65	,	,	PUNCT	Z	_	72	punct	_	_
+66	ktoré	ktorý	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	72	nsubj	_	_
+67	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	72	expl:pv	_	_
+68	23	23	NUM	0	NumForm=Digit	70	nummod	_	_
+69	.	.	PUNCT	Z	_	68	punct	_	_
+70	mája	máj	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	72	obl	_	_
+71	1949	1949	NUM	0	NumForm=Digit	70	nummod	_	_
+72	stali	stať	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	15	acl	_	_
+73	spolkovými	spolkový	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	74	amod	_	_
+74	krajinami	krajina	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	72	obj	_	_
+75	SRN	srn	X	W	Abbr=Yes	74	nmod	_	_
+76	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s6
+# text = V roku 1952 sa spojilo Württembersko ‐ Bádensko s francúzsky okupovanými krajinami Bádenskom a Württemberskom ‐ Hohenzollernskom , a vytvorili krajinu Badensko ‐ Württembersko .
+# orig_file_sentence wiki-nove-049_hudekova_wiki-nove-049_kandracova#6
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	1952	1952	NUM	0	NumForm=Digit	2	nummod	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	spojilo	spojiť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	Württembersko	württembersko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+7	‐	‐	PUNCT	Z	_	8	punct	_	_
+8	Bádensko	bádensko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	6	conj	_	_
+9	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	12	case	_	_
+10	francúzsky	francúzsky	ADV	Dx	Degree=Pos	11	advmod	_	_
+11	okupovanými	okupovaný	ADJ	Gtfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	krajinami	krajina	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	5	obl:arg	_	_
+13	Bádenskom	bádensko	PROPN	SSns7:r	Case=Ins|Gender=Neut|Number=Sing	12	nmod	_	_
+14	a	a	CCONJ	O	_	15	cc	_	_
+15	Württemberskom	württembersko	PROPN	SSns7:r	Case=Ins|Gender=Neut|Number=Sing	13	conj	_	_
+16	‐	‐	PUNCT	Z	_	17	punct	_	_
+17	Hohenzollernskom	hohenzollernsko	PROPN	SSns7:r	Case=Ins|Gender=Neut|Number=Sing	15	conj	_	_
+18	,	,	PUNCT	Z	_	20	punct	_	_
+19	a	a	CCONJ	O	_	20	cc	_	_
+20	vytvorili	vytvoriť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	5	conj	_	_
+21	krajinu	krajina	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+22	Badensko	badensko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	21	nmod	_	_
+23	‐	‐	PUNCT	Z	_	24	punct	_	_
+24	Württembersko	württembersko	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	22	conj	_	_
+25	.	.	PUNCT	Z	_	5	punct	_	_
+

@@ -1,0 +1,862 @@
+# sent_id = s1
+# text = Ferrari a McLaren majú konkurenta - Williams
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#1
+1	Ferrari	ferrari	PROPN	SUns1:r	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	a	a	CCONJ	O	_	3	cc	_	_
+3	McLaren	mclaren	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+4	majú	mať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	konkurenta	konkurent	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	-	-	PUNCT	ZIP	_	7	punct	_	_
+7	Williams	williams	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+
+# sent_id = s2
+# text = Mladší z bratov Schumacherovcov Ralf v cieľovej rovinke mierne odbočil , aby pozdravil mechanikov svojho tímu Williams - BMW .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#2
+1	Mladší	mladý	ADJ	AAms1y	Animacy=Anim|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	10	nsubj	_	_
+2	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+3	bratov	brat	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	obl:arg	_	_
+4	Schumacherovcov	schumacherovec	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	Ralf	ralf	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+7	cieľovej	cieľový	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	rovinke	rovinka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+9	mierne	mierne	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	odbočil	odbočiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+11	,	,	PUNCT	ZIP	_	13	punct	_	_
+12	aby	aby	SCONJ	O	_	13	mark	_	_
+13	pozdravil	pozdraviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	advcl	_	_
+14	mechanikov	mechanik	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
+15	svojho	svoj	DET	PFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	_
+16	tímu	tím	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	Williams	williams	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+18	-	-	PUNCT	ZIP	_	19	punct	_	_
+19	BMW	bmw	X	W	Abbr=Yes	17	appos	_	_
+20	.	.	PUNCT	ZIP	_	10	punct	_	_
+
+# sent_id = s3
+# text = Na menšej snímke prvýkrát v živote s víťaznou trofejou v pretekoch F 1 po Veľkej cene San Marína v Imole .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#3
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+2	menšej	malý	ADJ	AAfs6y	Case=Loc|Degree=Cmp|Gender=Fem|Number=Sing	3	amod	_	_
+3	snímke	snímka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	0	root	_	_
+4	prvýkrát	prvýkrát	ADV	ND	NumType=Mult	3	dep	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	živote	život	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+8	víťaznou	víťazný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	trofejou	trofej	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	dep	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	pretekoch	pretek	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	_
+12	F	f	X	W	Abbr=Yes	11	nmod	_	_
+13	1	1	NUM	0	NumForm=Digit	12	nummod	_	_
+14	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+15	Veľkej	veľký	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	cene	cena	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	dep	_	_
+17	San	san	X	Q	Hyph=Yes	16	nmod	_	_
+18	Marína	maríno	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+20	Imole	imola	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	3	dep	_	_
+21	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s4
+# text = FOTO REUTERS , TASR
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#4
+1	FOTO	foto	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	REUTERS	reuters	X	%	Foreign=Yes	1	dep	_	_
+3	,	,	PUNCT	ZIP	_	1	punct	_	_
+4	TASR	tasr	X	W	Abbr=Yes	1	dep	_	_
+
+# sent_id = s5
+# text = Nemecký pilot formuly 1 Ralf Schumacher bol vždy v tieni svojho staršieho úspešnejšieho brata .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#5
+1	Nemecký	nemecký	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	pilot	pilot	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	formuly	formula	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	1	1	NUM	0	NumForm=Digit	3	nummod	_	_
+5	Ralf	ralf	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+6	Schumacher	schumacher	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+7	bol	byť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	vždy	vždy	ADV	PD	PronType=Tot	7	advmod	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	tieni	tieň	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+11	svojho	svoj	DET	PFms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	_	_
+12	staršieho	starý	ADJ	AAms2y	Animacy=Anim|Case=Gen|Degree=Cmp|Gender=Masc|Number=Sing	13	amod	_	_
+13	úspešnejšieho	úspešný	ADJ	AAms2y	Animacy=Anim|Case=Gen|Degree=Cmp|Gender=Masc|Number=Sing	14	amod	_	_
+14	brata	brat	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	obl:arg	_	_
+15	.	.	PUNCT	ZIP	_	7	punct	_	_
+
+# sent_id = s6
+# text = Michael vstúpil do seriálu F 1 v tíme Jordan v roku 1991 a už pri osemnástom štarte dosiahol v Belgicku za volantom Benettonu prvé víťazstvo .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#6
+1	Michael	michael	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	vstúpil	vstúpiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	seriálu	seriál	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+5	F	f	X	W	Abbr=Yes	4	nmod	_	_
+6	1	1	NUM	0	NumForm=Digit	5	nummod	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	tíme	tím	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+9	Jordan	jordan	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+12	1991	1991	NUM	0	NumForm=Digit	11	nummod	_	_
+13	a	a	CCONJ	O	_	18	cc	_	_
+14	už	už	PART	T	_	18	advmod	_	_
+15	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+16	osemnástom	osemnásty	ADJ	NAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|NumType=Ord	17	amod	_	_
+17	štarte	štart	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+18	dosiahol	dosiahnuť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+19	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+20	Belgicku	belgicko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	18	obl	_	_
+21	za	za	ADP	Eu7	AdpType=Prep|Case=Ins	22	case	_	_
+22	volantom	volant	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obl:arg	_	_
+23	Benettonu	benetton	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	prvé	prvý	ADJ	NAns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Ord	25	amod	_	_
+25	víťazstvo	víťazstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+26	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s7
+# text = Ralf začal jazdiť taktiež v tíme Jordan ( 1997 ) , ale prvý raz sa na najvyšší stupienok postavil až po vyše štyroch rokoch .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#7
+1	Ralf	ralf	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	začal	začať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	jazdiť	jazdiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
+4	taktiež	taktiež	PART	T	_	6	advmod:emph	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	tíme	tím	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+7	Jordan	jordan	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+8	(	(	PUNCT	ZIP	_	9	punct	_	_
+9	1997	1997	NUM	0	NumForm=Digit	2	dep	_	_
+10	)	)	PUNCT	ZIP	_	9	punct	_	_
+11	,	,	PUNCT	ZIP	_	19	punct	_	_
+12	ale	ale	CCONJ	O	_	19	cc	_	_
+13	prvý	prvý	ADJ	NAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	14	amod	_	_
+14	raz	raz	ADV	NSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Mult	19	obl	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	19	expl:pv	_	_
+16	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	18	case	_	_
+17	najvyšší	vysoký	ADJ	AAis4z	Animacy=Inan|Case=Acc|Degree=Sup|Gender=Masc|Number=Sing	18	amod	_	_
+18	stupienok	stupienok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
+19	postavil	postaviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+20	až	až	PART	T	_	24	case	_	_
+21	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	20	fixed	_	_
+22	vyše	vyše	PART	T	_	23	cc	_	_
+23	štyroch	štyri	NUM	NNip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	24	nummod	_	_
+24	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	19	obl	_	_
+25	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s8
+# text = Na nedeľňajšej Veľkej cene San Marína v Imole Ralf vystúpil z Michaelovho tieňa .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#8
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+2	nedeľňajšej	nedeľňajší	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	Veľkej	veľký	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	cene	cena	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+5	San	san	X	Q	Hyph=Yes	6	nmod	_	_
+6	Marína	maríno	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	4	obj	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	Imole	imola	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+9	Ralf	ralf	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	vystúpil	vystúpiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+11	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+12	Michaelovho	michaelov	ADJ	AFis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	tieňa	tieň	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+14	.	.	PUNCT	ZIP	_	10	punct	_	_
+
+# sent_id = s9
+# text = Práve starší brat mu bol v cieli prvým gratulantom .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#9
+1	Práve	práve	PART	T	_	5	advmod	_	_
+2	starší	starý	ADJ	AAms1y	Animacy=Anim|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	3	amod	_	_
+3	brat	brat	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	bol	byť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	cieli	cieľ	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+8	prvým	prvý	ADJ	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|NumType=Ord	9	amod	_	_
+9	gratulantom	gratulant	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obj	_	_
+10	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s10
+# text = „ Na túto chvíľu som čakal veľmi dlho , “ vravel na tlačovej besede emóciami nabitý Ralf a dodal , „ jednako najradšej by som na stupni víťazov stál so svojím bratom . “ Michael ho neskoršie doplnil : „ Som veľmi šťastný .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#10
+1	„	„	PUNCT	ZIP	_	6	punct	_	_
+2	Na	na	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+3	túto	táto	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	advmod:emph	_	_
+4	chvíľu	chvíľa	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+5	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	čakal	čakať	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	20	parataxis	_	_
+7	veľmi	veľmi	ADV	Dx	Degree=Pos	8	advmod	_	_
+8	dlho	dlho	ADV	Dx	Degree=Pos	6	advmod	_	_
+9	,	,	PUNCT	ZIP	_	20	punct	_	_
+10	“	“	PUNCT	ZIP	_	11	punct	_	_
+11	vravel	vravieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	20	parataxis	_	_
+12	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+13	tlačovej	tlačový	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	besede	beseda	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+15	emóciami	emócia	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	16	obj	_	_
+16	nabitý	nabitý	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	17	amod	_	_
+17	Ralf	Ralf	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+18	a	a	CCONJ	O	_	20	cc	_	_
+19	dodal	dodať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	20	parataxis	_	_
+20	,	,	PUNCT	ZIP	_	38	punct	_	_
+21	„	„	PUNCT	ZIP	_	25	punct	_	_
+22	jednako	jednako	PART	T	_	23	nmod	_	_
+23	najradšej	rád	ADV	Dz	Degree=Sup	25	advmod	_	_
+24	by	by	AUX	Y	Mood=Cnd	25	aux	_	_
+25	som	byť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	parataxis	_	_
+26	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	27	case	_	_
+27	stupni	stupeň	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	obl	_	_
+28	víťazov	víťaz	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
+29	stál	stáť	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	25	parataxis	_	_
+30	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	32	case	_	_
+31	svojím	svoj	DET	PFms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	32	det	_	_
+32	bratom	brat	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	29	obl:arg	_	_
+33	.	.	PUNCT	ZIP	_	38	punct	_	_
+34	“	“	PUNCT	ZIP	_	38	punct	_	_
+35	Michael	michael	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	38	nsubj	_	_
+36	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	obj	_	_
+37	neskoršie	neskoršie	ADV	Dy	Degree=Cmp	38	advmod	_	_
+38	doplnil	doplniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+39	:	:	PUNCT	ZIP	_	43	punct	_	_
+40	„	„	PUNCT	ZIP	_	43	punct	_	_
+41	Som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	43	cop	_	_
+42	veľmi	veľmi	ADV	Dx	Degree=Pos	43	advmod	_	_
+43	šťastný	šťastný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	38	parataxis	_	_
+44	.	.	PUNCT	ZIP	_	38	punct	_	_
+
+# sent_id = s11
+# text = Je to prvý raz v histórii , že dvaja bratia vyhrali preteky F 1 .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#11
+1	Je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	_
+3	prvý	prvý	ADJ	NAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	raz	raz	ADV	NSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Mult	1	obl	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	histórii	história	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+7	,	,	PUNCT	ZIP	_	11	punct	_	_
+8	že	že	SCONJ	O	_	11	mark	_	_
+9	dvaja	dva	NUM	NNmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nummod	_	_
+10	bratia	brat	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	vyhrali	vyhrať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	advcl	_	_
+12	preteky	pretek	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+13	F	f	X	W	Abbr=Yes	12	nmod	_	_
+14	1	1	NUM	0	NumForm=Digit	13	nummod	_	_
+15	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s12
+# text = Rodičia môžu byť na nás pyšní . “ Schumacherovci pochádzajú z nemeckého Kerpenu , ale Michael s rodinou kvôli pokojnej klíme už niekoľko rokov žije vo Švajčiarsku a Ralf si našiel nový domov v rakúskom Salzburgu .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#12
+1	Rodičia	rodič	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	môžu	môcť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	6	cop	_	_
+4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	nás	my	PRON	PPhp4	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	obl:arg	_	_
+6	pyšní	pyšný	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	xcomp	_	_
+7	.	.	PUNCT	ZIP	_	2	punct	_	_
+8	“	“	PUNCT	ZIP	_	10	punct	_	_
+9	Schumacherovci	schumacherovec	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	pochádzajú	pochádzať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+11	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+12	nemeckého	nemecký	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	Kerpenu	kerpen	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+14	,	,	PUNCT	ZIP	_	25	punct	_	_
+15	ale	ale	CCONJ	O	_	25	cc	_	_
+16	Michael	michael	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+17	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	18	case	_	_
+18	rodinou	rodina	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	25	obl:arg	_	_
+19	kvôli	kvôli	ADP	Eu3	AdpType=Prep|Case=Dat	21	case	_	_
+20	pokojnej	pokojný	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	klíme	klíma	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	25	obl:arg	_	_
+22	už	už	PART	T	_	23	cc	_	_
+23	niekoľko	niekoľko	DET	PUns4	Case=Acc|Gender=Neut|Number=Sing|NumType=Card|PronType=Ind	24	amod	_	_
+24	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	obl	_	_
+25	žije	žiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	conj	_	_
+26	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	27	case	_	_
+27	Švajčiarsku	švajčiarsko	PROPN	SSns6:r	Case=Loc|Gender=Neut|Number=Sing	25	obl	_	_
+28	a	a	CCONJ	O	_	31	cc	_	_
+29	Ralf	ralf	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
+30	si	si	PRON	R	PronType=Prs|Reflex=Yes	31	iobj	_	_
+31	našiel	nájsť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	conj	_	_
+32	nový	nový	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	domov	domov	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	_
+34	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	35	case	_	_
+35	rakúskom	rakúsky	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+36	Salzburgu	salzburg	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	35	obl	_	_
+37	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s13
+# text = Vravia o nich , že sú rozdielne typy , kým Michael je po otcovi panovačný , Ralf po mame skôr domáckejší , utiahnutejší .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#13
+1	Vravia	vravieť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	nich	on	PRON	PFmp6	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	obl:arg	_	_
+4	,	,	PUNCT	ZIP	_	6	punct	_	_
+5	že	že	SCONJ	O	_	6	mark	_	_
+6	sú	byť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+7	rozdielne	rozdielny	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	typy	typ	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+9	,	,	PUNCT	ZIP	_	15	punct	_	_
+10	kým	kým	SCONJ	O	_	15	mark	_	_
+11	Michael	michael	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+12	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	otcovi	otec	NOUN	SSms6	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	15	obl:arg	_	_
+15	panovačný	panovačný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	acl	_	_
+16	,	,	PUNCT	ZIP	_	21	punct	_	_
+17	Ralf	ralf	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+18	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	mame	mama	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	15	obl:arg	_	_
+20	skôr	skôr	PART	T	_	21	cc	_	_
+21	domáckejší	domácky	ADJ	AAms1y	Animacy=Anim|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	15	conj	_	_
+22	,	,	PUNCT	ZIP	_	23	punct	_	_
+23	utiahnutejší	utiahnutý	ADJ	AAms1y	Animacy=Anim|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	15	conj	_	_
+24	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s14
+# text = Každopádne starší brat má na svojom konte už 46 víťazstiev vo formule 1 , keď aj Ralf prispel do rodinnej bilancie prvým titulom .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#14
+1	Každopádne	každopádne	ADV	Dx	Degree=Pos	4	advmod	_	_
+2	starší	starý	ADJ	AAms1y	Animacy=Anim|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	3	amod	_	_
+3	brat	brat	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	svojom	svoj	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	_
+7	konte	konto	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+8	už	už	PART	T	_	10	cc	_	_
+9	46	46	NUM	0	NumForm=Digit	10	nummod	_	_
+10	víťazstiev	víťazstvo	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	4	obj	_	_
+11	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	12	case	_	_
+12	formule	formula	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+13	1	1	NUM	0	NumForm=Digit	12	nummod	_	_
+14	,	,	PUNCT	ZIP	_	18	punct	_	_
+15	keď	keď	SCONJ	O	_	18	mark	_	_
+16	aj	aj	PART	T	_	17	cc	_	_
+17	Ralf	ralf	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+18	prispel	prispieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	advcl	_	_
+19	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	21	case	_	_
+20	rodinnej	rodinný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	bilancie	bilancia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	18	obl	_	_
+22	prvým	prvý	ADJ	NAis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|NumType=Ord	23	amod	_	_
+23	titulom	titul	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obj	_	_
+24	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s15
+# text = Hoci v Imole vyštartoval z tretej pozície , už pred prvou ostrou zákrutou sa dostal na čelo , vyhral suverénne systémom štart - cieľ . „ Mal som aj šťastie , že David Coulthard z prvého miesta nevyrazil dosť rýchlo a nechal mi priestor , kade som ho mohol predstihnúť , “ povedal Ralf a pochválil svoj tím , že auto , motor aj pneumatiky mu skvele pripravili .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#15
+1	Hoci	hoci	SCONJ	O	_	4	mark	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	Imole	imola	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+4	vyštartoval	vyštartovať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+6	tretej	tretí	ADJ	NAfs2	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	7	amod	_	_
+7	pozície	pozícia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+8	,	,	PUNCT	ZIP	_	15	punct	_	_
+9	už	už	PART	T	_	13	case	_	_
+10	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	9	fixed	_	_
+11	prvou	prvý	ADJ	NAfs7	Case=Ins|Gender=Fem|Number=Sing|NumType=Ord	12	amod	_	_
+12	ostrou	ostrý	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	zákrutou	zákruta	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	15	obl	_	_
+14	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	obj	_	_
+15	dostal	dostať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+16	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
+17	čelo	čelo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	_
+18	,	,	PUNCT	ZIP	_	19	punct	_	_
+19	vyhral	vyhrať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+20	suverénne	suverénne	ADV	Dx	Degree=Pos	19	advmod	_	_
+21	systémom	systém	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	obj	_	_
+22	štart	štart	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+23	-	-	PUNCT	ZIP	_	24	punct	_	_
+24	cieľ	cieľ	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	appos	_	_
+25	.	.	PUNCT	ZIP	_	4	punct	_	_
+26	„	„	PUNCT	ZIP	_	27	punct	_	_
+27	Mal	mať	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	parataxis	_	_
+28	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	27	aux	_	_
+29	aj	aj	PART	T	_	30	cc	_	_
+30	šťastie	šťastie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	27	obj	_	_
+31	,	,	PUNCT	ZIP	_	38	punct	_	_
+32	že	že	SCONJ	O	_	38	mark	_	_
+33	David	david	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	34	nmod	_	_
+34	Coulthard	coulthard	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	38	nsubj	_	_
+35	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	37	case	_	_
+36	prvého	prvý	ADJ	NAns2	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord	37	amod	_	_
+37	miesta	miesto	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	38	obl	_	_
+38	nevyrazil	vyraziť	VERB	VLdscm-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	30	acl	_	_
+39	dosť	dosť	ADV	Dx	Degree=Pos	40	advmod	_	_
+40	rýchlo	rýchlo	ADV	Dx	Degree=Pos	38	advmod	_	_
+41	a	a	CCONJ	O	_	42	cc	_	_
+42	nechal	nechať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	38	conj	_	_
+43	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	42	iobj	_	_
+44	priestor	priestor	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	42	obj	_	_
+45	,	,	PUNCT	ZIP	_	49	punct	_	_
+46	kade	kade	PRON	PD	PronType=Prs	49	obl	_	_
+47	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	49	aux	_	_
+48	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	49	iobj	_	_
+49	mohol	môcť	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	38	conj	_	_
+50	predstihnúť	predstihnúť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	49	xcomp	_	_
+51	,	,	PUNCT	ZIP	_	53	punct	_	_
+52	“	“	PUNCT	ZIP	_	53	punct	_	_
+53	povedal	povedať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	38	conj	_	_
+54	Ralf	ralf	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	53	nsubj	_	_
+55	a	a	CCONJ	O	_	56	cc	_	_
+56	pochválil	pochváliť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	38	conj	_	_
+57	svoj	svoj	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	58	det	_	_
+58	tím	tím	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	56	obj	_	_
+59	,	,	PUNCT	ZIP	_	68	punct	_	_
+60	že	že	SCONJ	O	_	68	mark	_	_
+61	auto	auto	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	68	obj	_	_
+62	,	,	PUNCT	ZIP	_	63	punct	_	_
+63	motor	motor	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	61	conj	_	_
+64	aj	aj	CCONJ	O	_	65	cc	_	_
+65	pneumatiky	pneumatika	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	61	conj	_	_
+66	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	68	iobj	_	_
+67	skvele	skvele	ADV	Dx	Degree=Pos	68	advmod	_	_
+68	pripravili	pripraviť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	56	advcl	_	_
+69	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s16
+# text = Gumári z Michelinu sa z víťazstva v F 1 radovali prvý raz od návratu , majiteľ Williamsu .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#16
+1	Gumári	gumár	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+2	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+3	Michelinu	michelin	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+5	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	víťazstva	víťazstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	10	obl:arg	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	F	f	X	W	Abbr=Yes	6	advmod	_	_
+9	1	1	NUM	0	NumForm=Digit	8	nummod	_	_
+10	radovali	radovať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+11	prvý	prvý	ADJ	NAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	12	amod	_	_
+12	raz	raz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+13	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+14	návratu	návrat	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+15	,	,	PUNCT	ZIP	_	16	punct	_	_
+16	majiteľ	majiteľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_
+17	Williamsu	williams	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	.	.	PUNCT	ZIP	_	10	punct	_	_
+
+# sent_id = s17
+# text = Frank Williams si zaspomínal , že jeho tím vyhral naposledy v roku 1997 .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#17
+1	Frank	frank	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Williams	williams	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+4	zaspomínal	zaspomínať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	,	,	PUNCT	ZIP	_	9	punct	_	_
+6	že	že	SCONJ	O	_	9	mark	_	_
+7	jeho	jeho	DET	PUis1	Animacy=Inan|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	tím	tím	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	vyhral	vyhrať	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	advcl	_	_
+10	naposledy	naposledy	ADV	Dx	Degree=Pos	9	advmod	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+13	1997	1997	NUM	0	NumForm=Digit	12	nummod	_	_
+14	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s18
+# text = Tak na stupni víťazov , ako aj na polhodinovej tlačovke sa Ralf bavil predovšetkým s druhým v cieli Coulthardom z McLarenu , kým tretiemu Brazílčanovi Barrichellovi z Ferrari sa zväčša obracal chrbtom .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#18
+1	Tak	tak	CCONJ	O	_	3	cc	_	_
+2	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	stupni	stupeň	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+4	víťazov	víťaz	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	,	,	PUNCT	ZIP	_	10	punct	_	_
+6	ako	ako	SCONJ	O	_	7	mark	_	_
+7	aj	aj	CCONJ	O	_	10	cc	_	_
+8	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+9	polhodinovej	polhodinový	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	tlačovke	tlačovka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	conj	_	_
+11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+12	Ralf	ralf	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+13	bavil	baviť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+14	predovšetkým	predovšetkým	PART	T	_	19	cc	_	_
+15	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	19	case	_	_
+16	druhým	druhý	ADJ	NAms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|NumType=Ord	19	amod	_	_
+17	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+18	cieli	cieľ	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+19	Coulthardom	coulthard	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	obl:arg	_	_
+20	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	21	case	_	_
+21	McLarenu	mclaren	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	obl	_	_
+22	,	,	PUNCT	ZIP	_	31	punct	_	_
+23	kým	kým	SCONJ	O	_	31	mark	_	_
+24	tretiemu	tretí	ADJ	NAms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	26	amod	_	_
+25	Brazílčanovi	brazílčan	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	26	nmod	_	_
+26	Barrichellovi	barrichello	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	31	obj	_	_
+27	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	28	case	_	_
+28	Ferrari	ferrari	PROPN	SUns2:r	Case=Gen|Gender=Neut|Number=Sing	26	obl	_	_
+29	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	31	expl:pv	_	_
+30	zväčša	zväčša	ADV	Dx	Degree=Pos	31	advmod	_	_
+31	obracal	obracať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	advcl	_	_
+32	chrbtom	chrbát	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	31	obj	_	_
+33	.	.	PUNCT	ZIP	_	13	punct	_	_
+
+# sent_id = s19
+# text = Akoby mu nevedel zabudnúť , že v predchádzajúcich dvoch pretekoch ho Rubinho „ odstrelil “ z trate bez slovka ospravedlnenia .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#19
+1	Akoby	akoby	SCONJ	OY	Mood=Cnd	3	mark	_	_
+2	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	nevedel	vedieť	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+4	zabudnúť	zabudnúť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+5	,	,	PUNCT	ZIP	_	14	punct	_	_
+6	že	že	SCONJ	O	_	14	mark	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+8	predchádzajúcich	predchádzajúci	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
+9	dvoch	dva	NUM	NNip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	nummod	_	_
+10	pretekoch	preteky	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	obl	_	_
+11	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+12	Rubinho	rubinho	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+13	„	„	PUNCT	ZIP	_	14	punct	_	_
+14	odstrelil	odstreliť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	advcl	_	_
+15	“	“	PUNCT	ZIP	_	14	punct	_	_
+16	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+17	trate	trať	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_
+18	bez	bez	ADP	Eu2	AdpType=Prep|Case=Gen	19	case	_	_
+19	slovka	slovko	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	14	obl:arg	_	_
+20	ospravedlnenia	ospravedlnenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s20
+# text = Ralf s Davidom sa celý čas chichotali , Barrichello namosúrene sŕkal vodu .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#20
+1	Ralf	ralf	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	3	case	_	_
+3	Davidom	david	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	1	obl:arg	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+5	celý	celý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	čas	čas	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+7	chichotali	chichotať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	,	,	PUNCT	ZIP	_	11	punct	_	_
+9	Barrichello	barrichello	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+10	namosúrene	namosúrene	ADV	Dx	Degree=Pos	11	advmod	_	_
+11	sŕkal	sŕkať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+12	vodu	voda	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	.	.	PUNCT	ZIP	_	7	punct	_	_
+
+# sent_id = s21
+# text = Coulthard : „ Tesne pred ostrým štartom som sa pohol a keď zhasli červené svetlá , tak sa mi už pretáčali kolesá .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#21
+1	Coulthard	coulthard	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	:	:	PUNCT	ZIP	_	10	punct	_	_
+3	„	„	PUNCT	ZIP	_	10	punct	_	_
+4	Tesne	tesne	ADV	Dx	Degree=Pos	10	advmod	_	_
+5	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	4	case	_	_
+6	ostrým	ostrý	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	štartom	štart	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+8	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	obj	_	_
+10	pohol	pohnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+11	a	a	CCONJ	O	_	13	cc	_	_
+12	keď	keď	SCONJ	O	_	13	mark	_	_
+13	zhasli	zhasnúť	VERB	VLdpcn+	Aspect=Perf|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+14	červené	červený	ADJ	AAnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	15	amod	_	_
+15	svetlá	svetlo	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	_
+16	,	,	PUNCT	ZIP	_	21	punct	_	_
+17	tak	tak	PART	T	_	21	mark	_	_
+18	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	21	expl:pv	_	_
+19	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	21	obj	_	_
+20	už	už	PART	T	_	21	advmod	_	_
+21	pretáčali	pretáčať	VERB	VLepcn+	Aspect=Imp|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+22	kolesá	koleso	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	21	nsubj	_	_
+23	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s22
+# text = Vtedy sa Ralf prehnal popri mne .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#22
+1	Vtedy	vtedy	ADV	PD	PronType=Dem	4	advmod	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	Ralf	ralf	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	prehnal	prehnať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	popri	popri	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	mne	ja	PRON	PPhs6	Case=Loc|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+7	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s23
+# text = Jazdil som za ním a snažil som sa zistiť , dokedy môže byť taký rýchly a sklamane som zistil , že naňho nestačím . “
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#23
+1	Jazdil	jazdiť	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	za	za	ADP	Eu7	AdpType=Prep|Case=Ins	4	case	_	_
+4	ním	on	PRON	PFms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	snažil	snažiť	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+7	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+9	zistiť	zistiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+10	,	,	PUNCT	ZIP	_	12	punct	_	_
+11	dokedy	dokedy	PRON	PD	PronType=Prs	12	obl	_	_
+12	môže	môcť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+13	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	15	cop	_	_
+14	taký	taký	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	15	advmod:emph	_	_
+15	rýchly	rýchly	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	xcomp	_	_
+16	a	a	CCONJ	O	_	19	cc	_	_
+17	sklamane	sklamane	ADV	Dx	Degree=Pos	19	advmod	_	_
+18	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	zistil	zistiť	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+20	,	,	PUNCT	ZIP	_	23	punct	_	_
+21	že	že	SCONJ	O	_	23	mark	_	_
+22	naňho	na_on	PRON	PFms4g	AdpType=Preppron|Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	23	obj	_	_
+23	nestačím	stačiť	VERB	VKjsa-	Aspect=Imp,Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+24	.	.	PUNCT	ZIP	_	1	punct	_	_
+25	“	“	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s24
+# text = Aj pri téme zastávky v boxe ( väčšina jazdcov tankovala a menila pneumatiky dva razy ) ocenil Coulthard víťazove schopnosti a techniku : „ Po prvých kolách som si myslel , že Ralf ide na päť zastávok , inak predsa nemôže byť taký rýchly !
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#24
+1	Aj	aj	PART	T	_	3	cc	_	_
+2	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	téme	téma	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	17	obl:arg	_	_
+4	zastávky	zastávka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	boxe	box	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	(	(	PUNCT	ZIP	_	10	punct	_	_
+8	väčšina	väčšina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+9	jazdcov	jazdec	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	tankovala	tankovať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	17	parataxis	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	menila	meniť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	conj	_	_
+13	pneumatiky	pneumatika	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	_
+14	dva	dva	NUM	NNip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	nummod	_	_
+15	razy	raz	ADV	NSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumType=Mult	12	obl	_	_
+16	)	)	PUNCT	ZIP	_	10	punct	_	_
+17	ocenil	oceniť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+18	Coulthard	coulthard	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+19	víťazove	víťazov	ADJ	AFfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	_
+20	schopnosti	schopnosť	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
+21	a	a	CCONJ	O	_	22	cc	_	_
+22	techniku	technika	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	20	conj	_	_
+23	:	:	PUNCT	ZIP	_	30	punct	_	_
+24	„	„	PUNCT	ZIP	_	30	punct	_	_
+25	Po	po	ADP	Eu6	AdpType=Prep|Case=Loc	27	case	_	_
+26	prvých	prvý	ADJ	NAnp6	Case=Loc|Gender=Neut|Number=Plur|NumType=Ord	27	amod	_	_
+27	kolách	kolo	NOUN	SSnp6	Case=Loc|Gender=Neut|Number=Plur	30	obl	_	_
+28	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	30	aux	_	_
+29	si	si	PRON	R	PronType=Prs|Reflex=Yes	30	expl:pv	_	_
+30	myslel	myslieť	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	17	parataxis	_	_
+31	,	,	PUNCT	ZIP	_	34	punct	_	_
+32	že	že	SCONJ	O	_	34	mark	_	_
+33	Ralf	ralf	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	_
+34	ide	ísť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	30	advcl	_	_
+35	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	37	case	_	_
+36	päť	päť	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	37	nummod	_	_
+37	zastávok	zastávka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	34	obl:arg	_	_
+38	,	,	PUNCT	ZIP	_	41	punct	_	_
+39	inak	inak	SCONJ	O	_	40	cc	_	_
+40	predsa	predsa	PART	T	_	41	advmod	_	_
+41	nemôže	môcť	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	34	conj	_	_
+42	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	44	cop	_	_
+43	taký	taký	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	44	advmod:emph	_	_
+44	rýchly	rýchly	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	41	xcomp	_	_
+45	!	!	PUNCT	ZIP	_	17	punct	_	_
+
+# sent_id = s25
+# text = Keď však prešiel 20 kôl a nič , tak si vravím : to bude asi len jeden pitstop .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#25
+1	Keď	keď	SCONJ	O	_	2	dep:nr	_	_
+2	však	však	PART	T	_	3	dep:nr	_	_
+3	prešiel	prejsť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	20	20	NUM	0	NumForm=Digit	5	nummod	_	_
+5	kôl	kolo	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	3	obj	_	_
+6	a	a	CCONJ	O	_	3	dep:nr	_	_
+7	nič	nič	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	6	dep:nr	_	_
+8	,	,	PUNCT	ZIP	_	7	punct	_	_
+9	tak	tak	CCONJ	O	_	8	dep:nr	_	_
+10	si	si	PRON	R	PronType=Prs|Reflex=Yes	11	mark	_	_
+11	vravím	vravieť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	acl	_	_
+12	:	:	PUNCT	ZIP	_	11	punct	_	_
+13	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	12	dep:nr	_	_
+14	bude	byť	VERB	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	13	dep:nr	_	_
+15	asi	asi	PART	T	_	14	dep:nr	_	_
+16	len	len	PART	T	_	15	dep:nr	_	_
+17	jeden	jeden	NUM	NFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	dep:nr	_	_
+18	pitstop	pitstop	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_
+19	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s26
+# text = Toto vôbec nevyzerá dobre . “
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#26
+1	Toto	toto	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	vôbec	vôbec	PART	T	_	4	advmod	_	_
+3	nevyzerá	vyzerať	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	dobre	dobre	ADV	Dx	Degree=Pos	0	root	_	_
+5	.	.	PUNCT	ZIP	_	4	punct	_	_
+6	“	“	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s27
+# text = Coulthard sa pred sezónou rozišiel so svojou snúbenicou , modelkou Heidi Wichlinskou .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#27
+1	Coulthard	coulthard	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+3	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	4	case	_	_
+4	sezónou	sezóna	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+5	rozišiel	rozísť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	8	case	_	_
+7	svojou	svoj	DET	PFfs7	Case=Ins|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	_
+8	snúbenicou	snúbenica	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	5	obl:arg	_	_
+9	,	,	PUNCT	ZIP	_	10	punct	_	_
+10	modelkou	modelka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	8	appos	_	_
+11	Heidi	heidi	PROPN	SUfs7:r	Case=Ins|Gender=Fem|Number=Sing	10	nmod	_	_
+12	Wichlinskou	wichlinska	PROPN	SAfs7:r	Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	_
+13	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s28
+# text = Nevyzerá psychicky rozladený , skôr naopak .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#28
+1	Nevyzerá	vyzerať	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	psychicky	psychicky	ADV	Dx	Degree=Pos	3	advmod	_	_
+3	rozladený	rozladený	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+4	,	,	PUNCT	ZIP	_	3	punct	_	_
+5	skôr	skôr	PART	T	_	6	cc	_	_
+6	naopak	naopak	ADV	Dx	Degree=Pos	3	dep	_	_
+7	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s29
+# text = V Imole prekypoval optimizmom , výborne si rozumel s tímovým kolegom Mikom Häkkinenom .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#29
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	Imole	imol	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	prekypoval	prekypovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	optimizmom	optimizmus	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obj	_	_
+5	,	,	PUNCT	ZIP	_	8	punct	_	_
+6	výborne	výborne	ADV	Dx	Degree=Pos	8	advmod	_	_
+7	si	si	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+8	rozumel	rozumieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+9	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	11	case	_	_
+10	tímovým	tímový	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	kolegom	kolega	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obl:arg	_	_
+12	Mikom	mik	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
+13	Häkkinenom	häkkinen	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	nmod	_	_
+14	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s30
+# text = A hoci Škót cez víkend býval v kempe , kým Fín s rodinou v hoteli , v nedeľu ráno sa dohodli na spoločnej ceste vtruľníkom späť do Monaka .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#30
+1	A	a	PART	T	_	2	mark	_	_
+2	hoci	hoci	SCONJ	O	_	6	mark	_	_
+3	Škót	škót	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	cez	cez	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	víkend	víkend	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+6	býval	bývať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	kempe	kemp	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+9	,	,	PUNCT	ZIP	_	6	punct	_	_
+10	kým	kým	SCONJ	O	_	11	mark	_	_
+11	Fín	fín	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+12	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	13	case	_	_
+13	rodinou	rodina	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	11	obl:arg	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	hoteli	hotel	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+16	,	,	PUNCT	ZIP	_	21	punct	_	_
+17	v	v	ADP	Eu4	AdpType=Prep|Case=Acc	18	case	_	_
+18	nedeľu	nedeľa	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_
+19	ráno	ráno	ADV	Dx	Degree=Pos	18	advmod	_	_
+20	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	21	expl:pv	_	_
+21	dohodli	dohodnúť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
+22	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+23	spoločnej	spoločný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	ceste	cesta	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_
+25	vtruľníkom	vtruľník	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	24	nmod	_	_
+26	späť	späť	ADV	Dx	Degree=Pos	24	advmod	_	_
+27	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	28	case	_	_
+28	Monaka	monako	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	26	obl	_	_
+29	.	.	PUNCT	ZIP	_	6	punct	_	_
+
+# sent_id = s31
+# text = Letel s nimi aj štvormesačný Mikov syn , ktorému dal otec zhotoviť špeciálnu priepustku do boxov F 1 s fotografiou a textom : Hugo Häkkinen - budúci majster sveta .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#31
+1	Letel	letieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	3	case	_	_
+3	nimi	on	PRON	PFmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	obl:arg	_	_
+4	aj	aj	PART	T	_	7	cc	_	_
+5	štvormesačný	štvormesačný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	Mikov	mikov	ADJ	AFms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	obj	_	_
+7	syn	syn	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+8	,	,	PUNCT	ZIP	_	10	punct	_	_
+9	ktorému	ktorý	DET	PAms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|PronType=Int,Rel	10	mark	_	_
+10	dal	dať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
+11	otec	otec	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	zhotoviť	zhotoviť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	10	xcomp	_	_
+13	špeciálnu	špeciálny	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	priepustku	priepustka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+15	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+16	boxov	box	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+17	F	f	X	W	Abbr=Yes	16	nmod	_	_
+18	1	1	NUM	0	NumForm=Digit	17	nummod	_	_
+19	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	20	case	_	_
+20	fotografiou	fotografia	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	14	obl:arg	_	_
+21	a	a	CCONJ	O	_	22	cc	_	_
+22	textom	text	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	conj	_	_
+23	:	:	PUNCT	ZIP	_	25	punct	_	_
+24	Hugo	hugo	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nmod	_	_
+25	Häkkinen	häkkinen	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+26	-	-	PUNCT	ZIP	_	28	punct	_	_
+27	budúci	budúci	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	majster	majster	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	appos	_	_
+29	sveta	svet	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s32
+# text = Coulthard chce byť svetovým šampiónom už tento rok a po Imole sa už bodovo vyrovnal obhajcovi titulu M .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#32
+1	Coulthard	coulthard	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	chce	chcieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	byť	byť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
+4	svetovým	svetový	ADJ	AAms7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	šampiónom	šampión	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obj	_	_
+6	už	už	PART	T	_	7	cc	_	_
+7	tento	tento	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	8	advmod:emph	_	_
+8	rok	rok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+9	a	a	CCONJ	O	_	15	cc	_	_
+10	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	Imole	imola	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+13	už	už	PART	T	_	14	cc	_	_
+14	bodovo	bodovo	ADV	Dx	Degree=Pos	15	advmod	_	_
+15	vyrovnal	vyrovnať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+16	obhajcovi	obhajca	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	15	obj	_	_
+17	titulu	titul	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	M	m	X	W	Abbr=Yes	17	nmod	_	_
+19	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s33
+# text = Schumacherovi .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#33
+1	Schumacherovi	schumacher	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	0	root	_	_
+2	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s34
+# text = Veľká cena San Marína zároveň definitívne potvrdila , že k doteraz dominujúcej dvojici Ferrari a McLaren - Mercedes pribudol tretí tím Williams - BMW .
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#34
+1	Veľká	veľký	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	cena	cena	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	San	san	X	Q	Hyph=Yes	2	nmod	_	_
+4	Marína	maríno	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	zároveň	zároveň	ADV	Dx	Degree=Pos	6	cc	_	_
+6	definitívne	definitívne	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	potvrdila	potvrdiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	,	,	PUNCT	ZIP	_	19	punct	_	_
+9	že	že	SCONJ	O	_	19	mark	_	_
+10	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	13	case	_	_
+11	doteraz	doteraz	ADV	Dx	Degree=Pos	12	advmod	_	_
+12	dominujúcej	dominujúci	ADJ	AAfs3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	dvojici	dvojica	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	19	obl:arg	_	_
+14	Ferrari	ferrari	PROPN	SUns1:r	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+15	a	a	CCONJ	O	_	16	cc	_	_
+16	McLaren	mclaren	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+17	-	-	PUNCT	ZIP	_	18	punct	_	_
+18	Mercedes	mercedes	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+19	pribudol	pribudnúť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	advcl	_	_
+20	tretí	tretí	ADJ	NAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	21	amod	_	_
+21	tím	tím	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+22	Williams	williams	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nmod	_	_
+23	-	-	PUNCT	ZIP	_	22	punct	_	_
+24	BMW	bmw	X	W	Abbr=Yes	23	nmod	_	_
+25	.	.	PUNCT	ZIP	_	7	punct	_	_
+
+# sent_id = s35
+# text = ONDREJ GAJDOŠ , Imola
+# orig_file_sentence 1000601_katarinag_fsnew_1000601_hrenakova_fsnew#35
+1	ONDREJ	ondrej	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	GAJDOŠ	gajdoš	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	,	,	PUNCT	ZIP	_	2	punct	_	_
+4	Imola	imola	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	_
+

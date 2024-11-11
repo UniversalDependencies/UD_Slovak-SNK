@@ -1,0 +1,463 @@
+# sent_id = s1
+# text = V roku 1915 Einstein vyvinul teóriu gravitácie nazývanú Všeobecná teória relativity .
+# orig_file_sentence diera002_tencerova_diera002_kandracova#1
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	1915	1915	NUM	0	NumForm=Digit	2	nummod	_	_
+4	Einstein	einstein	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	vyvinul	vyvinúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	teóriu	teória	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	gravitácie	gravitácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	nazývanú	nazývaný	ADJ	Gtfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
+9	Všeobecná	všeobecný	ADJ	AAfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	teória	teória	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	8	obl	_	_
+11	relativity	relativita	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s2
+# text = Predtým ukázal , že gravitácia ovplyvňuje svetlo .
+# orig_file_sentence diera002_tencerova_diera002_kandracova#2
+1	Predtým	predtým	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	ukázal	ukázať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	,	,	PUNCT	Z	_	6	punct	_	_
+4	že	že	SCONJ	O	_	6	mark	_	_
+5	gravitácia	gravitácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	ovplyvňuje	ovplyvňovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	svetlo	svetlo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s3
+# text = O niekoľko mesiacov neskôr Karl Schwarzschild ponúkol riešenie pre gravitačné pole bodovej hmoty , a dokázal , že niečo , čo dnes voláme čiernou dierou , može skutočne teoreticky existovať .
+# orig_file_sentence diera002_tencerova_diera002_kandracova#3
+1	O	o	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+2	niekoľko	niekoľko	DET	PUip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	3	det:numgov	_	_
+3	mesiacov	mesiac	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+4	neskôr	neskôr	ADV	Dx	Degree=Pos	3	advmod	_	_
+5	Karl	karl	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+6	Schwarzschild	schwarzschild	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	ponúkol	ponúknuť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	riešenie	riešenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+10	gravitačné	gravitačný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	pole	pole	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	8	nmod	_	_
+12	bodovej	bodový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	hmoty	hmota	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	,	,	PUNCT	Z	_	16	punct	_	_
+15	a	a	CCONJ	O	_	16	cc	_	_
+16	dokázal	dokázať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
+17	,	,	PUNCT	Z	_	27	punct	_	_
+18	že	že	SCONJ	O	_	27	mark	_	_
+19	niečo	niečo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	27	nsubj	_	_
+20	,	,	PUNCT	Z	_	23	punct	_	_
+21	čo	čo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	23	obj	_	_
+22	dnes	dnes	ADV	Dx	Degree=Pos	23	advmod	_	_
+23	voláme	volať	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	acl	_	_
+24	čiernou	čierny	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	dierou	diera	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	23	obl	_	_
+26	,	,	PUNCT	Z	_	23	punct	_	_
+27	može	môcť	VERB	VKesc+:q	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Typo=Yes|VerbForm=Fin	16	ccomp	_	_
+28	skutočne	skutočne	ADV	Dx	Degree=Pos	30	advmod	_	_
+29	teoreticky	teoreticky	ADV	Dx	Degree=Pos	30	advmod	_	_
+30	existovať	existovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	27	xcomp	_	_
+31	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s4
+# text = Schwarzschildov polomer je dnes známy ako polomer nerotujúcej čiernej diery , ale v tom čase nebol dobre pochopený .
+# orig_file_sentence diera002_tencerova_diera002_kandracova#4
+1	Schwarzschildov	schwarzschildov	ADJ	AFis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	polomer	polomer	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	dnes	dnes	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	známy	známy	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+6	ako	ako	SCONJ	O	_	7	mark	_	_
+7	polomer	polomer	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	xcomp	_	_
+8	nerotujúcej	rotujúci	ADJ	Gkfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Act	10	amod	_	_
+9	čiernej	čierny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	diery	diera	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+11	,	,	PUNCT	Z	_	18	punct	_	_
+12	ale	ale	CCONJ	O	_	18	cc	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+14	tom	ten	DET	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	čase	čas	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+16	nebol	byť	AUX	VLesci-	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	18	cop	_	_
+17	dobre	dobre	ADV	Dx	Degree=Pos	18	advmod	_	_
+18	pochopený	pochopený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	conj	_	_
+19	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s5
+# text = Sám Schwarzschild ho nepovažoval za fyzikálny .
+# orig_file_sentence diera002_tencerova_diera002_kandracova#5
+1	Sám	sám	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	2	det	_	_
+2	Schwarzschild	schwarzschild	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	nepovažoval	považovať	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+5	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	fyzikálny	fyzikálny	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	obl:arg	_	_
+7	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s6
+# text = V 20 . rokoch 20 . storočia Subrahmanyan Chandrasekhar dokazoval , že špeciálna relativita ukázala , že nevyžarujúce teleso nad istou hmotnosťou , dnes známou ako Chandrasekharova medza , by sa zrútilo do seba , pretože by neexistovalo nič , čo by tomu mohlo zabrániť .
+# orig_file_sentence diera002_tencerova_diera002_kandracova#6
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+2	20	20	NUM	0	NumForm=Digit	4	nummod	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+4	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	obl	_	_
+5	20	20	NUM	0	NumForm=Digit	7	nummod	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	storočia	storočie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+8	Subrahmanyan	subrahmanyan	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	_
+9	Chandrasekhar	chandrasekhar	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	dokazoval	dokazovať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+11	,	,	PUNCT	Z	_	15	punct	_	_
+12	že	že	SCONJ	O	_	15	mark	_	_
+13	špeciálna	špeciálny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	relativita	relativita	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+15	ukázala	ukázať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	ccomp	_	_
+16	,	,	PUNCT	Z	_	32	punct	_	_
+17	že	že	SCONJ	O	_	32	mark	_	_
+18	nevyžarujúce	vyžarujúci	ADJ	Gkns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Act	19	amod	_	_
+19	teleso	teleso	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	32	nsubj	_	_
+20	nad	nad	ADP	Eu7	AdpType=Prep|Case=Ins	22	case	_	_
+21	istou	istý	DET	PAfs7	Case=Ins|Gender=Fem|Number=Sing|PronType=Ind	22	det	_	_
+22	hmotnosťou	hmotnosť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	19	nmod	_	_
+23	,	,	PUNCT	Z	_	25	punct	_	_
+24	dnes	dnes	ADV	Dx	Degree=Pos	25	advmod	_	_
+25	známou	známy	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+26	ako	ako	SCONJ	O	_	28	cc	_	_
+27	Chandrasekharova	chandrasekharov	ADJ	AFfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	medza	medza	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	25	dep	_	_
+29	,	,	PUNCT	Z	_	25	punct	_	_
+30	by	by	AUX	Y	Mood=Cnd	32	aux	_	_
+31	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	32	expl:pv	_	_
+32	zrútilo	zrútiť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	15	ccomp	_	_
+33	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	34	case	_	_
+34	seba	seba	PRON	PPhs2	Case=Gen|Number=Sing|PronType=Prs|Reflex=Yes	32	obl	_	_
+35	,	,	PUNCT	Z	_	38	punct	_	_
+36	pretože	pretože	SCONJ	O	_	38	mark	_	_
+37	by	by	AUX	Y	Mood=Cnd	38	aux	_	_
+38	neexistovalo	existovať	VERB	VLescn-	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	32	advcl	_	_
+39	nič	nič	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	38	nsubj	_	_
+40	,	,	PUNCT	Z	_	44	punct	_	_
+41	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	44	nsubj	_	_
+42	by	by	AUX	Y	Mood=Cnd	44	aux	_	_
+43	tomu	to	DET	PFns3	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	45	obj	_	_
+44	mohlo	môcť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	39	acl	_	_
+45	zabrániť	zabrániť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	44	xcomp	_	_
+46	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s7
+# text = Proti jeho argumentom sa postavil Arthur Eddington , ktorý sa domnieval , že by niečo nevyhnutne kolapsu zabránilo .
+# orig_file_sentence diera002_tencerova_diera002_kandracova#7
+1	Proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	3	case	_	_
+2	jeho	jeho	DET	PUip3	Animacy=Inan|Case=Dat|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	argumentom	argument	NOUN	SSip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	5	obl	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	postavil	postaviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	Arthur	arthur	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+7	Eddington	eddington	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+8	,	,	PUNCT	Z	_	11	punct	_	_
+9	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	11	nsubj	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+11	domnieval	domnievať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
+12	,	,	PUNCT	Z	_	18	punct	_	_
+13	že	že	SCONJ	O	_	18	mark	_	_
+14	by	by	AUX	Y	Mood=Cnd	18	aux	_	_
+15	niečo	niečo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	18	nsubj	_	_
+16	nevyhnutne	nevyhnutne	ADV	Dx	Degree=Pos	18	advmod	_	_
+17	kolapsu	kolaps	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	18	obj	_	_
+18	zabránilo	zabrániť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	ccomp	_	_
+19	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s8
+# text = V roku 1939 Robert Oppenheimer a H . Snyder predpovedali , že masívne hviezdy by sa mohli stať obeťami dramatického gravitačného zrútenia .
+# orig_file_sentence diera002_tencerova_diera002_kandracova#8
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+3	1939	1939	NUM	0	NumForm=Digit	2	nummod	_	_
+4	Robert	robert	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+5	Oppenheimer	oppenheimer	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+6	a	a	CCONJ	O	_	9	cc	_	_
+7	H	h	X	W	Abbr=Yes	9	nmod	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+9	Snyder	snyder	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+10	predpovedali	predpovedať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+11	,	,	PUNCT	Z	_	17	punct	_	_
+12	že	že	SCONJ	O	_	17	mark	_	_
+13	masívne	masívny	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
+14	hviezdy	hviezda	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_
+15	by	by	AUX	Y	Mood=Cnd	17	aux	_	_
+16	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	18	expl:pv	_	_
+17	mohli	môcť	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	10	ccomp	_	_
+18	stať	stať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	17	xcomp	_	_
+19	obeťami	obeť	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	18	obj	_	_
+20	dramatického	dramatický	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+21	gravitačného	gravitačný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	zrútenia	zrútenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+23	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s9
+# text = Čierne diery by mohli prirodzene vzniknúť .
+# orig_file_sentence diera002_tencerova_diera002_kandracova#9
+1	Čierne	čierny	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
+2	diery	diera	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+3	by	by	AUX	Y	Mood=Cnd	4	aux	_	_
+4	mohli	môcť	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	prirodzene	prirodzene	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	vzniknúť	vzniknúť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+7	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s10
+# text = Také objekty boli krátky čas nazývané zmrznuté hviezdy , keďže zrútenie by bolo pozorované rapídne spomaľované a so silne sčervenaným spektrom v blízkosti Schwarzschildovho polomeru .
+# orig_file_sentence diera002_tencerova_diera002_kandracova#10
+1	Také	taký	DET	PAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	objekty	objekt	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+3	boli	byť	AUX	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+4	krátky	krátky	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	čas	čas	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+6	nazývané	nazývaný	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+7	zmrznuté	zmrznutý	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	hviezdy	hviezda	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	6	obl	_	_
+9	,	,	PUNCT	Z	_	14	punct	_	_
+10	keďže	keďže	SCONJ	O	_	14	mark	_	_
+11	zrútenie	zrútenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	14	nsubj:pass	_	_
+12	by	by	AUX	Y	Mood=Cnd	14	aux:pass	_	_
+13	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	pozorované	pozorovaný	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	6	obl	_	_
+15	rapídne	rapídne	ADV	Dx	Degree=Pos	16	advmod	_	_
+16	spomaľované	spomaľovaný	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	xcomp	_	_
+17	a	a	CCONJ	O	_	21	cc	_	_
+18	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	21	case	_	_
+19	silne	silne	ADV	Dx	Degree=Pos	20	advmod	_	_
+20	sčervenaným	sčervenaný	ADJ	Gtns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	21	amod	_	_
+21	spektrom	spektrum	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	14	conj	_	_
+22	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	23	case	_	_
+23	blízkosti	blízkosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	21	nmod	_	_
+24	Schwarzschildovho	schwarzschildov	ADJ	AFis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	polomeru	polomer	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+26	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s11
+# text = Tieto hypotetické objekty však neboli predmetom väčšieho záujmu až do neskorých 60 . rokov 20 . storočia .
+# orig_file_sentence diera002_tencerova_diera002_kandracova#11
+1	Tieto	tento	DET	PFip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+2	hypotetické	hypotetický	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	objekty	objekt	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+4	však	však	PART	T	_	6	advmod	_	_
+5	neboli	byť	AUX	VLepci-	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	6	cop	_	_
+6	predmetom	predmet	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+7	väčšieho	veľký	ADJ	AAis2y	Animacy=Inan|Case=Gen|Degree=Cmp|Gender=Masc|Number=Sing	8	amod	_	_
+8	záujmu	záujem	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	až	až	PART	T	_	14	advmod:emph	_	_
+10	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+11	neskorých	neskorý	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
+12	60	60	NUM	0	NumForm=Digit	14	nummod	_	_
+13	.	.	PUNCT	Z	_	12	punct	_	_
+14	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+15	20	20	NUM	0	NumForm=Digit	17	nummod	_	_
+16	.	.	PUNCT	Z	_	15	punct	_	_
+17	storočia	storočie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+18	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s12
+# text = Väčšina fyzikov si totiž myslela , že by boli špecifickou vlastnosťou silne symetrických riešení opísanom Schwarzschildom a že prírodný gravitačne kolapsujúci objekt by sa nestal čiernou dierou .
+# orig_file_sentence diera002_tencerova_diera002_kandracova#12
+1	Väčšina	väčšina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	fyzikov	fyzik	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	si	si	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+4	totiž	totiž	PART	T	_	5	advmod	_	_
+5	myslela	myslieť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	,	,	PUNCT	Z	_	11	punct	_	_
+7	že	že	SCONJ	O	_	11	mark	_	_
+8	by	by	AUX	Y	Mood=Cnd	11	aux	_	_
+9	boli	byť	AUX	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	11	cop	_	_
+10	špecifickou	špecifický	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	vlastnosťou	vlastnosť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	5	ccomp	_	_
+12	silne	silne	ADV	Dx	Degree=Pos	13	advmod	_	_
+13	symetrických	symetrický	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	14	amod	_	_
+14	riešení	riešenie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+15	opísanom	opísaný	ADJ	Gtfs7x:q	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Typo=Yes|VerbForm=Part|Voice=Pass	14	amod	_	_
+16	Schwarzschildom	schwarzschild	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	_
+17	a	a	CCONJ	O	_	25	cc	_	_
+18	že	že	SCONJ	O	_	25	mark	_	_
+19	prírodný	prírodný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+20	gravitačne	gravitačne	ADV	Dx	Degree=Pos	21	advmod	_	_
+21	kolapsujúci	kolapsujúci	ADJ	Gkis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	22	amod	_	_
+22	objekt	objekt	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+23	by	by	AUX	Y	Mood=Cnd	25	aux	_	_
+24	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	25	expl:pv	_	_
+25	nestal	stať	VERB	VLdsci-	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	11	conj	_	_
+26	čiernou	čierny	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	dierou	diera	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	25	obj	_	_
+28	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s13
+# text = Záujem o čierne diery znovu vzplanul v roku 1967 s pokrokom v oblasti teórie a pokusov .
+# orig_file_sentence diera002_tencerova_diera002_kandracova#13
+1	Záujem	záujem	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+3	čierne	čierny	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+4	diery	diera	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	1	nmod	_	_
+5	znovu	znovu	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	vzplanul	vzplanúť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+9	1967	1967	NUM	0	NumForm=Digit	8	nummod	_	_
+10	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	11	case	_	_
+11	pokrokom	pokrok	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+13	oblasti	oblasť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	12	fixed	_	_
+14	teórie	teória	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+15	a	a	CCONJ	O	_	16	cc	_	_
+16	pokusov	pokus	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	conj	_	_
+17	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s14
+# text = Stephen Hawking dokázal , že čierne diery sú všeobecnou vlastnosťou Einsteinovej teórie gravitácie a nie je možné sa im vyhnúť pri kolabovaní niektorých objektov .
+# orig_file_sentence diera002_tencerova_diera002_kandracova#14
+1	Stephen	stephen	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Hawking	hawking	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	dokázal	dokázať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	,	,	PUNCT	Z	_	10	punct	_	_
+5	že	že	SCONJ	O	_	10	mark	_	_
+6	čierne	čierny	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
+7	diery	diera	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+8	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	všeobecnou	všeobecný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	vlastnosťou	vlastnosť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	ccomp	_	_
+11	Einsteinovej	einsteinov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	teórie	teória	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	gravitácie	gravitácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	a	a	CCONJ	O	_	17	cc	_	_
+15	nie	nie	PART	T	_	17	advmod	_	_
+16	je	byť	AUX	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	možné	možný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	conj	_	_
+18	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	20	expl:pv	_	_
+19	im	ona	PRON	PFfp3	Case=Dat|Gender=Fem|Number=Plur|Person=3|PronType=Prs	20	obj	_	_
+20	vyhnúť	vyhnúť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	17	csubj	_	_
+21	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	22	case	_	_
+22	kolabovaní	kolabovanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+23	niektorých	niektorý	DET	PAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	24	det	_	_
+24	objektov	objekt	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+25	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s15
+# text = Záujem sa v astronomickej komunite obnovil s objavom pulzarov .
+# orig_file_sentence diera002_tencerova_diera002_kandracova#15
+1	Záujem	záujem	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+4	astronomickej	astronomický	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	komunite	komunita	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+6	obnovil	obnoviť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+8	objavom	objav	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+9	pulzarov	pulzar	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s16
+# text = Krátko nato teoretický fyzik Johnom Wheelerom zaviedol výraz „ čierna diera “ .
+# orig_file_sentence diera002_tencerova_diera002_kandracova#16
+1	Krátko	krátko	ADV	Dx	Degree=Pos	7	advmod	_	_
+2	nato	nato	ADV	Dx	Degree=Pos	1	advmod	_	_
+3	teoretický	teoretický	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	fyzik	fyzik	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+5	Johnom	john	PROPN	SSms1:rq	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+6	Wheelerom	wheeler	PROPN	SSms1:rq	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	zaviedol	zaviesť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	výraz	výraz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	„	„	PUNCT	Z	_	11	punct	_	_
+10	čierna	čierny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	diera	diera	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_
+12	“	“	PUNCT	Z	_	11	punct	_	_
+13	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s17
+# text = Dovtedy bol príležitostne použitý termín čierna hviezda .
+# orig_file_sentence diera002_tencerova_diera002_kandracova#17
+1	Dovtedy	dovtedy	ADV	PD	PronType=Dem	4	advmod	_	_
+2	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	aux	_	_
+3	príležitostne	príležitostne	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	použitý	použitý	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+5	termín	termín	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	čierna	čierny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	hviezda	hviezda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_
+8	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s18
+# text = Termín sa objavil v prvých častiach seriálu Star Trek a príležitostne sa používal po roku 1967 , najmä preto , že niektorí ľudia považovali termín „ čierna diera “ za obscénny po preložení napríklad do francúzštiny alebo ruštiny .
+# orig_file_sentence diera002_tencerova_diera002_kandracova#18
+1	Termín	termín	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	objavil	objaviť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+5	prvých	prvý	ADJ	NAfp6	Case=Loc|Gender=Fem|Number=Plur|NumType=Ord	6	amod	_	_
+6	častiach	časť	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	3	obl	_	_
+7	seriálu	seriál	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	Star	star	X	%	Foreign=Yes	7	nmod	_	_
+9	Trek	trek	X	%	Foreign=Yes	8	flat:foreign	_	_
+10	a	a	CCONJ	O	_	13	cc	_	_
+11	príležitostne	príležitostne	ADV	Dx	Degree=Pos	13	advmod	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pass	_	_
+13	používal	používať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+14	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+16	1967	1967	NUM	0	NumForm=Digit	15	nummod	_	_
+17	,	,	PUNCT	Z	_	19	punct	_	_
+18	najmä	najmä	PART	T	_	19	advmod:emph	_	_
+19	preto	preto	ADV	PD	PronType=Dem	13	advmod	_	_
+20	,	,	PUNCT	Z	_	24	punct	_	_
+21	že	že	SCONJ	O	_	24	mark	_	_
+22	niektorí	niektorý	DET	PAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	23	det	_	_
+23	ľudia	človek	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	_
+24	považovali	považovať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	19	advcl	_	_
+25	termín	termín	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
+26	„	„	PUNCT	Z	_	28	punct	_	_
+27	čierna	čierny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	diera	diera	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	25	nmod	_	_
+29	“	“	PUNCT	Z	_	28	punct	_	_
+30	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	31	case	_	_
+31	obscénny	obscénny	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	obl:arg	_	_
+32	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	33	case	_	_
+33	preložení	preloženie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	24	obl	_	_
+34	napríklad	napríklad	PART	T	_	36	advmod:emph	_	_
+35	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	36	case	_	_
+36	francúzštiny	francúzština	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	_
+37	alebo	alebo	CCONJ	O	_	38	cc	_	_
+38	ruštiny	ruština	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	36	conj	_	_
+39	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s19
+# text = Kvalitatívna fyzika
+# orig_file_sentence diera002_tencerova_diera002_kandracova#19
+1	Kvalitatívna	kvalitatívny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	fyzika	fyzika	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = s20
+# text = Teória čiernych dier je závislá od všeobecno ‐ relativitistickej predstavy o zakrivení časopriestoru : ich najpozoruhodnejšie vlastnosti závisia od zakrivenia geometrie vesmíru okolo nich .
+# orig_file_sentence diera002_tencerova_diera002_kandracova#20
+1	Teória	teória	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	čiernych	čierny	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
+3	dier	diera	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+4	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	závislá	závislý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+6	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+7	všeobecno	všeobecno	X	Q	Hyph=Yes	10	nmod	_	_
+8	‐	‐	PUNCT	Z	_	9	punct	_	_
+9	relativitistickej	relativitistický	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	conj	_	_
+10	predstavy	predstava	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl:arg	_	_
+11	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	zakrivení	zakrivenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	_
+13	časopriestoru	časopriestor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	:	:	PUNCT	Z	_	18	punct	_	_
+15	ich	ich	DET	PUfp1	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+16	najpozoruhodnejšie	pozoruhodný	ADJ	AAfp1z	Case=Nom|Degree=Sup|Gender=Fem|Number=Plur	17	amod	_	_
+17	vlastnosti	vlastnosť	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	_
+18	závisia	závisieť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
+19	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+20	zakrivenia	zakrivenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	18	obl:arg	_	_
+21	geometrie	geometria	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	vesmíru	vesmír	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	okolo	okolo	ADP	Eu2	AdpType=Prep|Case=Gen	24	case	_	_
+24	nich	ona	PRON	PFfp2	Case=Gen|Gender=Fem|Number=Plur|Person=3|PronType=Prs	22	nmod	_	_
+25	.	.	PUNCT	Z	_	5	punct	_	_
+

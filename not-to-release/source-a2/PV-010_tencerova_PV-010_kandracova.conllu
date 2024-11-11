@@ -1,0 +1,571 @@
+# sent_id = s1
+# text = Vláda prijme opatrenia na minimalizáciu možnosti vzniku korupcie a dopracuje systém kontroly zameraný na kontrolu použitia verejných prostriedkov , vrátane prostriedkov plynúcich z EÚ .
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#1
+1	Vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	prijme	prijať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	opatrenia	opatrenie	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
+4	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	minimalizáciu	minimalizácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_
+6	možnosti	možnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	vzniku	vznik	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	korupcie	korupcia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	dopracuje	dopracovať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	systém	systém	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	kontroly	kontrola	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	zameraný	zameraný	ADJ	Gtis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	amod	_	_
+14	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+15	kontrolu	kontrola	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	obl:arg	_	_
+16	použitia	použitie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	verejných	verejný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	_
+18	prostriedkov	prostriedok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+19	,	,	PUNCT	Z	_	21	punct	_	_
+20	vrátane	vrátane	ADP	Eu2	AdpType=Prep|Case=Gen	21	case	_	_
+21	prostriedkov	prostriedok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+22	plynúcich	plynúci	ADJ	Gkip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	21	amod	_	_
+23	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	24	case	_	_
+24	EÚ	eú	X	W	Abbr=Yes	22	advmod	_	_
+25	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s2
+# text = Vláda prijme opatrenia , ktoré zabránia možnosti subjektívneho rozhodovania štátneho zamestnanca vo všetkých oblastiach podnikania .
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#2
+1	Vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	prijme	prijať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	opatrenia	opatrenie	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
+4	,	,	PUNCT	Z	_	6	punct	_	_
+5	ktoré	ktorý	DET	PAnp1	Case=Nom|Gender=Neut|Number=Plur|PronType=Int,Rel	6	nsubj	_	_
+6	zabránia	zabrániť	VERB	VKdpc+	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	acl	_	_
+7	možnosti	možnosť	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	6	obj	_	_
+8	subjektívneho	subjektívny	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	rozhodovania	rozhodovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	štátneho	štátny	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	zamestnanca	zamestnanec	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	14	case	_	_
+13	všetkých	všetok	DET	PFfp6	Case=Loc|Gender=Fem|Number=Plur|PronType=Tot	14	det	_	_
+14	oblastiach	oblasť	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	9	nmod	_	_
+15	podnikania	podnikanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s3
+# text = Tieto opatrenia sa budú týkať najmä zmeny systému prideľovania licencií na dovoz a vývoz , vrátane jej administrácie a zabezpečenia princípu transparentnosti a verejnej kontroly pri uplatňovaní licenčných postupov , a to zjednodušením administratívneho procesu a zavedením povinností zverejňovať informácie o licenčnom konaní a zavedením registrov o udelených licenciách .
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#3
+1	Tieto	toto	DET	PFnp1	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	2	det	_	_
+2	opatrenia	opatrenie	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+4	budú	byť	AUX	VBepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	5	aux	_	_
+5	týkať	týkať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	_
+6	najmä	najmä	PART	T	_	7	advmod:emph	_	_
+7	zmeny	zmena	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obj	_	_
+8	systému	systém	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	prideľovania	prideľovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	licencií	licencia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	dovoz	dovoz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	vývoz	vývoz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	conj	_	_
+15	,	,	PUNCT	Z	_	18	punct	_	_
+16	vrátane	vrátane	ADP	Eu2	AdpType=Prep|Case=Gen	18	case	_	_
+17	jej	jej	DET	PUfs2	Case=Gen|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+18	administrácie	administrácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+19	a	a	CCONJ	O	_	20	cc	_	_
+20	zabezpečenia	zabezpečenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	18	conj	_	_
+21	princípu	princíp	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	transparentnosti	transparentnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	a	a	CCONJ	O	_	25	cc	_	_
+24	verejnej	verejný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	kontroly	kontrola	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	22	conj	_	_
+26	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	27	case	_	_
+27	uplatňovaní	uplatňovanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	25	nmod	_	_
+28	licenčných	licenčný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	29	amod	_	_
+29	postupov	postup	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
+30	,	,	PUNCT	Z	_	33	punct	_	_
+31	a	a	CCONJ	O	_	32	cc	_	_
+32	to	to	CCONJ	O	_	33	cc	_	_
+33	zjednodušením	zjednodušenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	27	nmod	_	_
+34	administratívneho	administratívny	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	procesu	proces	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
+36	a	a	CCONJ	O	_	37	cc	_	_
+37	zavedením	zavedenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	33	conj	_	_
+38	povinností	povinnosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	37	nmod	_	_
+39	zverejňovať	zverejňovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	38	acl	_	_
+40	informácie	informácia	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	39	obj	_	_
+41	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	43	case	_	_
+42	licenčnom	licenčný	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	43	amod	_	_
+43	konaní	konanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	40	nmod	_	_
+44	a	a	CCONJ	O	_	45	cc	_	_
+45	zavedením	zavedenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	37	conj	_	_
+46	registrov	register	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	45	nmod	_	_
+47	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	49	case	_	_
+48	udelených	udelený	ADJ	Gtfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	49	amod	_	_
+49	licenciách	licencia	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	46	nmod	_	_
+50	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s4
+# text = Vláda uplatní rovnaký postup pri priznávaní štátnej pomoci a zriadi register prijímateľov štátnej pomoci a register prijímateľov iných investičných stimulov .
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#4
+1	Vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	uplatní	uplatniť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	rovnaký	rovnaký	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	postup	postup	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	priznávaní	priznávanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_
+7	štátnej	štátny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	pomoci	pomoc	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	zriadi	zriadiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	register	register	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	prijímateľov	prijímateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	štátnej	štátny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	pomoci	pomoc	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	a	a	CCONJ	O	_	16	cc	_	_
+16	register	register	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	conj	_	_
+17	prijímateľov	prijímateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	iných	iný	DET	PAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	20	det	_	_
+19	investičných	investičný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	20	amod	_	_
+20	stimulov	stimul	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+21	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s5
+# text = Vláda zabezpečí plnú implementáciu príslušných nariadení EÚ pri využívaní predvstupových , ako aj štrukturálnych fondov EÚ so zameraním na princíp oddelenia projektovania od implementácie a implementáciu od financovania .
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#5
+1	Vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	zabezpečí	zabezpečiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	plnú	plný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	implementáciu	implementácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	príslušných	príslušný	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	_
+6	nariadení	nariadenie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
+7	EÚ	eú	X	W	Abbr=Yes	6	nmod	_	_
+8	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	využívaní	využívanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+10	predvstupových	predvstupový	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
+11	,	,	PUNCT	Z	_	14	punct	_	_
+12	ako	ako	SCONJ	O	_	14	cc	_	_
+13	aj	aj	CCONJ	O	_	14	advmod:emph	_	_
+14	štrukturálnych	štrukturálny	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	conj	_	_
+15	fondov	fond	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+16	EÚ	eú	X	W	Abbr=Yes	15	nmod	_	_
+17	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	18	case	_	_
+18	zameraním	zameranie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	9	nmod	_	_
+19	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	20	case	_	_
+20	princíp	princíp	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	nmod	_	_
+21	oddelenia	oddelenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	projektovania	projektovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	24	case	_	_
+24	implementácie	implementácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+25	a	a	CCONJ	O	_	26	cc	_	_
+26	implementáciu	implementácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	21	conj	_	_
+27	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	28	case	_	_
+28	financovania	financovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	26	orphan	_	_
+29	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s6
+# text = Sieťové odvetvia
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#6
+1	Sieťové	sieťový	ADJ	AAnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	2	amod	_	_
+2	odvetvia	odvetvie	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
+
+# sent_id = s7
+# text = Vláda urýchli liberalizáciu trhu a vytvorí konkurenčné prostredie v energetike .
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#7
+1	Vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	urýchli	urýchliť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	liberalizáciu	liberalizácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	trhu	trh	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	vytvorí	vytvoriť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	konkurenčné	konkurenčný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	prostredie	prostredie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	energetike	energetika	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
+11	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s8
+# text = Vláda vytvorí podmienky pre zriadenie operátora trhu pri obchodovaní s elektrinou , vrátane transparentných a nediskriminačných podmienok na trhu .
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#8
+1	Vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	vytvorí	vytvoriť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	podmienky	podmienka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+4	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	zriadenie	zriadenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	_
+6	operátora	operátor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	trhu	trh	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	obchodovaní	obchodovanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	_
+10	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	11	case	_	_
+11	elektrinou	elektrina	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	_
+12	,	,	PUNCT	Z	_	17	punct	_	_
+13	vrátane	vrátane	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+14	transparentných	transparentný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_
+15	a	a	CCONJ	O	_	16	cc	_	_
+16	nediskriminačných	nediskriminačný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	14	conj	_	_
+17	podmienok	podmienka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+18	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	trhu	trh	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	nmod	_	_
+20	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s9
+# text = Vláda ukončí dereguláciu energetického trhu ( vrátane cenovej oblasti ) a vytvorí podmienky pre prispôsobenie sa energetického sektoru novým podmienkam vnútorného trhu EÚ .
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#9
+1	Vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	ukončí	ukončiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dereguláciu	deregulácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	energetického	energetický	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	trhu	trh	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	(	(	PUNCT	Z	_	9	punct	_	_
+7	vrátane	vrátane	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+8	cenovej	cenový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	oblasti	oblasť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+10	)	)	PUNCT	Z	_	9	punct	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	vytvorí	vytvoriť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	podmienky	podmienka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	_
+14	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+15	prispôsobenie	prispôsobenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	13	nmod	_	_
+16	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+17	energetického	energetický	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	sektoru	sektor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+19	novým	nový	ADJ	AAfp3x	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	_
+20	podmienkam	podmienka	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	15	nmod	_	_
+21	vnútorného	vnútorný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	trhu	trh	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	EÚ	eú	X	W	Abbr=Yes	22	nmod	_	_
+24	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s10
+# text = Zváži motivačné pravidlá pre využívanie domácich primárnych energetických zdrojov , vrátane využívania obnoviteľných zdrojov energie .
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#10
+1	Zváži	zvážiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	motivačné	motivačný	ADJ	AAnp4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	3	amod	_	_
+3	pravidlá	pravidlo	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	_
+4	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	využívanie	využívanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	_
+6	domácich	domáci	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
+7	primárnych	primárny	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
+8	energetických	energetický	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
+9	zdrojov	zdroj	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	vrátane	vrátane	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+12	využívania	využívanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+13	obnoviteľných	obnoviteľný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
+14	zdrojov	zdroj	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	energie	energia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s11
+# text = Správa a privatizácia národného majetku
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#11
+1	Správa	správa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	a	a	CCONJ	O	_	3	cc	_	_
+3	privatizácia	privatizácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+4	národného	národný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	majetku	majetok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+
+# sent_id = s12
+# text = V súlade s politikou vlády orientovanou na zoštíhľovanie štátnej správy ministerstvo hospodárstva preberie agendu ministerstva pre správu a privatizáciu národného majetku SR .
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#12
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+2	súlade	súlad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	1	fixed	_	_
+4	politikou	politika	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_
+5	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	orientovanou	orientovaný	ADJ	Gtfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	4	amod	_	_
+7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+8	zoštíhľovanie	zoštíhľovanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	obl:arg	_	_
+9	štátnej	štátny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	správy	správa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	ministerstvo	ministerstvo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+12	hospodárstva	hospodárstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	preberie	prebrať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	agendu	agenda	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	ministerstva	ministerstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
+17	správu	správa	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	_
+18	a	a	CCONJ	O	_	19	cc	_	_
+19	privatizáciu	privatizácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	17	conj	_	_
+20	národného	národný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	majetku	majetok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+22	SR	sr	X	W	Abbr=Yes	21	nmod	_	_
+23	.	.	PUNCT	Z	_	13	punct	_	_
+
+# sent_id = s13
+# text = Vláda dokončí proces privatizácie za podmienok ekonomickej výhodnosti pre štát a dodržania transparentnosti a pravidiel hospodárskej súťaže .
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#13
+1	Vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	dokončí	dokončiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	proces	proces	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	privatizácie	privatizácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	za	za	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	podmienok	podmienka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	2	obl	_	_
+7	ekonomickej	ekonomický	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	výhodnosti	výhodnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+10	štát	štát	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	dodržania	dodržanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	8	conj	_	_
+13	transparentnosti	transparentnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	a	a	CCONJ	O	_	15	cc	_	_
+15	pravidiel	pravidlo	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	13	conj	_	_
+16	hospodárskej	hospodársky	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	súťaže	súťaž	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s14
+# text = Vláda zabezpečí presadzovanie záujmov štátu v už sprivatizovaných podnikoch s účasťou štátu a dokončí druhú etapu privatizácie v zdravotníctve .
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#14
+1	Vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	zabezpečí	zabezpečiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	presadzovanie	presadzovanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	záujmov	záujem	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	štátu	štát	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+7	už	už	ADV	Dx	Degree=Pos	8	advmod	_	_
+8	sprivatizovaných	sprivatizovaný	ADJ	Gtip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	podnikoch	podnik	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	nmod	_	_
+10	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	11	case	_	_
+11	účasťou	účasť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	_
+12	štátu	štát	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	dokončí	dokončiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+15	druhú	druhý	ADJ	NAfs4	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	16	amod	_	_
+16	etapu	etapa	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+17	privatizácie	privatizácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	zdravotníctve	zdravotníctvo	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	17	nmod	_	_
+20	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s15
+# text = C .
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#15
+1	C	c	X	W	Abbr=Yes	0	root	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s16
+# text = Doprava , pošta , telekomunikácie a rozvoj informačnej spoločnosti
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#16
+1	Doprava	doprava	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	,	,	PUNCT	Z	_	3	punct	_	_
+3	pošta	pošta	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+4	,	,	PUNCT	Z	_	3	punct	_	_
+5	telekomunikácie	telekomunikácia	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	3	orphan	_	_
+6	a	a	CCONJ	O	_	3	cc	_	_
+7	rozvoj	rozvoj	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	orphan	_	_
+8	informačnej	informačný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	spoločnosti	spoločnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+
+# sent_id = s17
+# text = Vláda vytvorí podmienky pre racionalizáciu a zefektívnenie informačných systémov , rozhodovacích a riadiacich procesov tak , aby viedli k znižovaniu administratívnej náročnosti rušením nepotrebných a viacnásobne vykonávaných neefektívnych riadiacich a správnych činností .
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#17
+1	Vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	vytvorí	vytvoriť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	podmienky	podmienka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+4	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	racionalizáciu	racionalizácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	zefektívnenie	zefektívnenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	5	conj	_	_
+8	informačných	informačný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
+9	systémov	systém	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+10	,	,	PUNCT	Z	_	14	punct	_	_
+11	rozhodovacích	rozhodovací	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
+12	a	a	CCONJ	O	_	13	cc	_	_
+13	riadiacich	riadiaci	ADJ	Gkip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	11	conj	_	_
+14	procesov	proces	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	conj	_	_
+15	tak	tak	ADV	PD	PronType=Dem	2	advmod	_	_
+16	,	,	PUNCT	Z	_	18	punct	_	_
+17	aby	aby	SCONJ	OY	Mood=Cnd	18	mark	_	_
+18	viedli	viesť	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	2	advcl	_	_
+19	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	20	case	_	_
+20	znižovaniu	znižovanie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	_
+21	administratívnej	administratívny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	náročnosti	náročnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+23	rušením	rušenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	20	nmod	_	_
+24	nepotrebných	nepotrebný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	32	amod	_	_
+25	a	a	CCONJ	O	_	27	cc	_	_
+26	viacnásobne	viacnásobne	NUM	ND	_	27	obl	_	_
+27	vykonávaných	vykonávaný	ADJ	Gtfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	24	conj	_	_
+28	neefektívnych	neefektívny	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	32	amod	_	_
+29	riadiacich	riadiaci	ADJ	Gkfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	32	amod	_	_
+30	a	a	CCONJ	O	_	31	cc	_	_
+31	správnych	správny	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	29	conj	_	_
+32	činností	činnosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_
+33	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s18
+# text = Zámerom vlády je eliminácia podmienok a činností rizikových pre pôsobenie korupcie v oblasti udeľovania licencií .
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#18
+1	Zámerom	zámer	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+2	vlády	vláda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	eliminácia	eliminácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+5	podmienok	podmienka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	činností	činnosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	conj	_	_
+8	rizikových	rizikový	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
+9	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+10	pôsobenie	pôsobenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	8	obl:arg	_	_
+11	korupcie	korupcia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+13	oblasti	oblasť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	12	fixed	_	_
+14	udeľovania	udeľovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+15	licencií	licencia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+16	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s19
+# text = Vláda vytvorí efektívny systém založený na dôslednej realizácií Plánu implementácie licenčnej politiky SR v rezorte dopravy , pošty a telekomunikácií .
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#19
+1	Vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	vytvorí	vytvoriť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	efektívny	efektívny	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	systém	systém	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	založený	založený	ADJ	Gtis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	4	amod	_	_
+6	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+7	dôslednej	dôsledný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	realizácií	realizácia	NOUN	SSfs6:q	Case=Loc|Gender=Fem|Number=Sing|Typo=Yes	5	obl:arg	_	_
+9	Plánu	plán	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	implementácie	implementácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	licenčnej	licenčný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	politiky	politika	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	SR	sr	X	W	Abbr=Yes	12	nmod	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	rezorte	rezort	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+16	dopravy	doprava	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	,	,	PUNCT	Z	_	18	punct	_	_
+18	pošty	pošta	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	conj	_	_
+19	a	a	CCONJ	O	_	20	cc	_	_
+20	telekomunikácií	telekomunikácia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	16	conj	_	_
+21	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s20
+# text = V súlade s doterajšími poznatkami z čerpania predvstupových fondov a očakávaným čerpaním štrukturálnych fondov a Kohézneho fondu vláda vytvorí efektívny a účinný systém vnútornej finančnej kontroly zameraný na odstránenie podmienok a činností umožňujúcich korupciu , najmä pri čerpaní finančných prostriedkov EÚ na rozvojové programy v tomto sektore .
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#20
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+2	súlade	súlad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	1	fixed	_	_
+4	doterajšími	doterajší	ADJ	AAip7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+5	poznatkami	poznatok	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	19	obl	_	_
+6	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	čerpania	čerpanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	predvstupových	predvstupový	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
+9	fondov	fond	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	a	a	CCONJ	O	_	12	cc	_	_
+11	očakávaným	očakávaný	ADJ	Gtns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	čerpaním	čerpanie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	5	conj	_	_
+13	štrukturálnych	štrukturálny	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
+14	fondov	fond	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	a	a	CCONJ	O	_	17	cc	_	_
+16	Kohézneho	kohézny	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	fondu	fond	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	conj	_	_
+18	vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+19	vytvorí	vytvoriť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	efektívny	efektívny	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+21	a	a	CCONJ	O	_	22	cc	_	_
+22	účinný	účinný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	conj	_	_
+23	systém	systém	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+24	vnútornej	vnútorný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+25	finančnej	finančný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	kontroly	kontrola	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+27	zameraný	zameraný	ADJ	Gtis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	23	amod	_	_
+28	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	29	case	_	_
+29	odstránenie	odstránenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	27	obl:arg	_	_
+30	podmienok	podmienka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	_
+31	a	a	CCONJ	O	_	32	cc	_	_
+32	činností	činnosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	30	conj	_	_
+33	umožňujúcich	umožňujúci	ADJ	Gkfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	30	amod	_	_
+34	korupciu	korupcia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	33	obj	_	_
+35	,	,	PUNCT	Z	_	38	punct	_	_
+36	najmä	najmä	PART	T	_	38	advmod:emph	_	_
+37	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	38	case	_	_
+38	čerpaní	čerpanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	33	obl	_	_
+39	finančných	finančný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	40	amod	_	_
+40	prostriedkov	prostriedok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	_
+41	EÚ	eú	X	W	Abbr=Yes	40	nmod	_	_
+42	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	44	case	_	_
+43	rozvojové	rozvojový	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	44	amod	_	_
+44	programy	program	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	40	nmod	_	_
+45	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	47	case	_	_
+46	tomto	tento	DET	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	47	det	_	_
+47	sektore	sektor	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	44	nmod	_	_
+48	.	.	PUNCT	Z	_	19	punct	_	_
+
+# sent_id = s21
+# text = Vláda bude venovať náležitú pozornosť procesom európskej integrácie v odvetviach dopravy , pošty a telekomunikácií a vytvorí zodpovedajúce administratívne a riadiace štruktúry s cieľom ukončiť proces aproximácie právnych predpisov a technických noriem SR s EÚ .
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#21
+1	Vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	bude	byť	AUX	VBesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	3	aux	_	_
+3	venovať	venovať	VERB	VIj+	Aspect=Imp,Perf|Polarity=Pos|VerbForm=Inf	0	root	_	_
+4	náležitú	náležitý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	pozornosť	pozornosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	procesom	proces	NOUN	SSip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	3	iobj	_	_
+7	európskej	európsky	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	integrácie	integrácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	odvetviach	odvetvie	NOUN	SSnp6	Case=Loc|Gender=Neut|Number=Plur	6	nmod	_	_
+11	dopravy	doprava	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	,	,	PUNCT	Z	_	13	punct	_	_
+13	pošty	pošta	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	conj	_	_
+14	a	a	CCONJ	O	_	15	cc	_	_
+15	telekomunikácií	telekomunikácia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	11	conj	_	_
+16	a	a	CCONJ	O	_	17	cc	_	_
+17	vytvorí	vytvoriť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+18	zodpovedajúce	zodpovedajúci	ADJ	Gkfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	22	amod	_	_
+19	administratívne	administratívny	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	_
+20	a	a	CCONJ	O	_	21	cc	_	_
+21	riadiace	riadiaci	ADJ	Gkfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	19	conj	_	_
+22	štruktúry	štruktúra	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
+23	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	24	case	_	_
+24	cieľom	cieľ	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	_
+25	ukončiť	ukončiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	24	acl	_	_
+26	proces	proces	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
+27	aproximácie	aproximácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	právnych	právny	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	29	amod	_	_
+29	predpisov	predpis	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
+30	a	a	CCONJ	O	_	32	cc	_	_
+31	technických	technický	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	32	amod	_	_
+32	noriem	norma	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	29	conj	_	_
+33	SR	sr	X	W	Abbr=Yes	32	nmod	_	_
+34	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	35	case	_	_
+35	EÚ	eú	X	W	Abbr=Yes	27	nmod	_	_
+36	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s22
+# text = Vláda pripraví a zabezpečí inštitucionálne podmienky pre efektívne pôsobenie SR ako členského štátu EÚ v európskych inštitúciách a zabezpečí aktívne pôsobenie SR v oblasti dopravy , pošty a telekomunikácií vo vrcholových a pracovných orgánoch medzinárodných vládnych organizácií .
+# orig_file_sentence PV-010_tencerova_PV-010_kandracova#22
+1	Vláda	vláda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	pripraví	pripraviť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	CCONJ	O	_	4	cc	_	_
+4	zabezpečí	zabezpečiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	inštitucionálne	inštitucionálny	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+6	podmienky	podmienka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+7	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+8	efektívne	efektívny	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	pôsobenie	pôsobenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	_
+10	SR	sr	X	W	Abbr=Yes	9	nmod	_	_
+11	ako	ako	SCONJ	O	_	13	mark	_	_
+12	členského	členský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	štátu	štát	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	xcomp	_	_
+14	EÚ	eú	X	W	Abbr=Yes	13	nmod	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+16	európskych	európsky	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_
+17	inštitúciách	inštitúcia	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	9	nmod	_	_
+18	a	a	CCONJ	O	_	19	cc	_	_
+19	zabezpečí	zabezpečiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+20	aktívne	aktívny	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	pôsobenie	pôsobenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
+22	SR	sr	X	W	Abbr=Yes	21	nmod	_	_
+23	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+24	oblasti	oblasť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	21	nmod	_	_
+25	dopravy	doprava	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	,	,	PUNCT	Z	_	27	punct	_	_
+27	pošty	pošta	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	25	conj	_	_
+28	a	a	CCONJ	O	_	29	cc	_	_
+29	telekomunikácií	telekomunikácia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	25	conj	_	_
+30	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	34	case	_	_
+31	vrcholových	vrcholový	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	34	amod	_	_
+32	a	a	CCONJ	O	_	33	cc	_	_
+33	pracovných	pracovný	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	31	conj	_	_
+34	orgánoch	orgán	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	21	nmod	_	_
+35	medzinárodných	medzinárodný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	37	amod	_	_
+36	vládnych	vládny	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	37	amod	_	_
+37	organizácií	organizácia	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	34	nmod	_	_
+38	.	.	PUNCT	Z	_	2	punct	_	_
+

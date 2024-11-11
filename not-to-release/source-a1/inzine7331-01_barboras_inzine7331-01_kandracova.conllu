@@ -1,0 +1,641 @@
+# sent_id = s1
+# text = Foto je len ilustračné .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#1
+1	Foto	foto	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	len	len	PART	T	_	2	advmod:emph	_	_
+4	ilustračné	ilustračný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+5	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s2
+# text = Nevieme , ako vyzerá pivnica Petra Pišťanka .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#2
+1	Nevieme	vedieť	VERB	VKepa-	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	,	,	PUNCT	ZIP	_	4	punct	_	_
+3	ako	ako	SCONJ	O	_	4	mark	_	_
+4	vyzerá	vyzerať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	pivnica	pivnica	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	obj	_	_
+6	Petra	peter	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+7	Pišťanka	pišťanek	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s3
+# text = Ale my by sme chceli takúto .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#3
+1	Ale	ale	PART	T	_	5	mark	_	_
+2	my	my	PRON	PPhp1	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+3	by	by	AUX	Y	Mood=Cnd	5	aux	_	_
+4	sme	byť	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	compound	_	_
+5	chceli	chcieť	VERB	VLepah+	Aspect=Imp|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	takúto	takýto	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+7	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s4
+# text = V dávnych predhistorických dobách sa naša zemská kôra vrásnila skoro tak , ako dnes vaľkáme cesto : vrstva cez vrstvu , a ešte raz a ešte raz .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#4
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+2	dávnych	dávny	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
+3	predhistorických	predhistorický	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+4	dobách	doba	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	9	obl:arg	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+6	naša	náš	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det	_	_
+7	zemská	zemský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	kôra	kôra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	obj	_	_
+9	vrásnila	vrásniť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	skoro	skoro	PART	T	_	9	advmod	_	_
+11	tak	tak	ADV	PD	PronType=Dem	10	mark	_	_
+12	,	,	PUNCT	ZIP	_	15	punct	_	_
+13	ako	ako	ADV	PD	PronType=Int,Rel	15	mark	_	_
+14	dnes	dnes	ADV	Dx	Degree=Pos	15	advmod	_	_
+15	vaľkáme	vaľkať	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+16	cesto	cesto	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+17	:	:	PUNCT	ZIP	_	20	punct	_	_
+18	vrstva	vrstva	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	20	obj	_	_
+19	cez	cez	ADP	Eu4	AdpType=Prep|Case=Acc	20	case	_	_
+20	vrstvu	vrstva	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	16	obl:arg	_	_
+21	,	,	PUNCT	ZIP	_	20	punct	_	_
+22	a	a	CCONJ	O	_	20	cc	_	_
+23	ešte	ešte	PART	T	_	24	advmod:emph	_	_
+24	raz	raz	ADV	NSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Mult	20	obj	_	_
+25	a	a	CCONJ	O	_	27	cc	_	_
+26	ešte	ešte	PART	T	_	27	cc	_	_
+27	raz	raz	ADV	NSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Mult	24	conj	_	_
+28	.	.	PUNCT	ZIP	_	9	punct	_	_
+
+# sent_id = s5
+# text = Nečudo , že pri takomto vaľkaní kde - tu ostala vzduchová bublina , nevyplnená dutina , skrátka jaskyňa .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#5
+1	Nečudo	nečudo	ADV	Dx	Degree=Pos	0	root	_	_
+2	,	,	PUNCT	ZIP	_	6	punct	_	_
+3	že	že	SCONJ	O	_	6	mark	_	_
+4	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+5	takomto	takýto	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
+6	vaľkaní	vaľkanie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	1	dep	_	_
+7	kde	kde	ADV	PD	PronType=Int,Rel	10	mark	_	_
+8	-	-	PUNCT	ZIP	_	10	punct	_	_
+9	tu	tu	ADV	PD	PronType=Dem	10	advmod	_	_
+10	ostala	ostať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	advcl	_	_
+11	vzduchová	vzduchový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	bublina	bublina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	_
+13	,	,	PUNCT	ZIP	_	15	punct	_	_
+14	nevyplnená	vyplnený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	dutina	dutina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	12	conj	_	_
+16	,	,	PUNCT	ZIP	_	18	punct	_	_
+17	skrátka	skrátka	PART	T	_	18	dep	_	_
+18	jaskyňa	jaskyňa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	12	conj	_	_
+19	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s6
+# text = Jaskyne ma vždy lákali .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#6
+1	Jaskyne	jaskyňa	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+2	ma	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+3	vždy	vždy	ADV	PD	PronType=Tot	4	advmod	_	_
+4	lákali	lákať	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s7
+# text = Nejaký psychoanalytik by možno vedel prečo .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#7
+1	Nejaký	nejaký	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	psychoanalytik	psychoanalytik	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	by	by	AUX	Y	Mood=Cnd	4	aux	_	_
+4	možno	možno	PART	T	_	0	root	_	_
+5	vedel	vedieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	ccomp	_	_
+6	prečo	prečo	ADV	PD	PronType=Int,Rel	5	obj	_	_
+7	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s8
+# text = Ja neviem .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#8
+1	Ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	neviem	vedieť	VERB	VKesa-	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s9
+# text = Prvá jaskyňa , ktorú som v živote navštívil , v rámci školského výletu , bola jaskyňa Driny neďaleko Smolenického zámku .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#9
+1	Prvá	prvý	ADJ	NAfs1	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	2	amod	_	_
+2	jaskyňa	jaskyňa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	15	obj	_	_
+3	,	,	PUNCT	ZIP	_	8	punct	_	_
+4	ktorú	ktorý	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	8	mark	_	_
+5	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	živote	život	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+8	navštívil	navštíviť	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	acl	_	_
+9	,	,	PUNCT	ZIP	_	8	punct	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	rámci	rámec	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl:arg	_	_
+12	školského	školský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	výletu	výlet	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obj	_	_
+14	,	,	PUNCT	ZIP	_	15	punct	_	_
+15	bola	byť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+16	jaskyňa	jaskyňa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	15	obj	_	_
+17	Driny	driny	PROPN	SSfp1:r	Case=Nom|Gender=Fem|Number=Plur	16	nmod	_	_
+18	neďaleko	neďaleko	ADP	Eu2	AdpType=Prep|Case=Gen	17	advmod	_	_
+19	Smolenického	smolenický	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	zámku	zámok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl:arg	_	_
+21	.	.	PUNCT	ZIP	_	15	punct	_	_
+
+# sent_id = s10
+# text = Nikdy nezabudnem na tú zvláštnu zmes strachu a vzrušenia , ktoré sme všetci pocítili po vstupe do rozľahlého , tajomne mĺkveho priestoru .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#10
+1	Nikdy	nikdy	ADV	PD	PronType=Neg	2	advmod	_	_
+2	nezabudnem	zabudnúť	VERB	VKdsa-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+4	tú	tá	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	zvláštnu	zvláštny	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	zmes	zmes	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obl:arg	_	_
+7	strachu	strach	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obj	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	vzrušenia	vzrušenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	7	conj	_	_
+10	,	,	PUNCT	ZIP	_	14	punct	_	_
+11	ktoré	ktorý	DET	PAns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	14	mark	_	_
+12	sme	byť	AUX	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	všetci	všetok	DET	PFmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	14	nsubj	_	_
+14	pocítili	pocítiť	VERB	VLdpah+	Aspect=Perf|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	9	acl	_	_
+15	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+16	vstupe	vstup	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+17	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	22	case	_	_
+18	rozľahlého	rozľahlý	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+19	,	,	PUNCT	ZIP	_	21	punct	_	_
+20	tajomne	tajomne	ADV	Dx	Degree=Pos	21	advmod	_	_
+21	mĺkveho	mĺkvy	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	conj	_	_
+22	priestoru	priestor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+23	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s11
+# text = Vzduch bol chladný , vlhký .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#11
+1	Vzduch	vzduch	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	bol	byť	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	chladný	chladný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+4	,	,	PUNCT	ZIP	_	5	punct	_	_
+5	vlhký	vlhký	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	_
+6	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s12
+# text = Naše hlasy sa donekonečna odrážali od orosených skál .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#12
+1	Naše	náš	DET	PFip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	hlasy	hlas	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+4	donekonečna	donekonečna	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	odrážali	odrážať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+7	orosených	orosený	ADJ	Gtfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	skál	skala	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	obl:arg	_	_
+9	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s13
+# text = Keď som dospel , zistil som , že podobný nedefinovateľne príjemný pocit vo mne vyvoláva aj návšteva vínnej pivnice -- ak je dosť tmavá , vlhká a chladná .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#13
+1	Keď	keď	SCONJ	O	_	3	mark	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	dospel	dospieť	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	advcl	_	_
+4	,	,	PUNCT	ZIP	_	5	punct	_	_
+5	zistil	zistiť	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_
+7	,	,	PUNCT	ZIP	_	15	punct	_	_
+8	že	že	SCONJ	O	_	15	mark	_	_
+9	podobný	podobný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	nedefinovateľne	nedefinovateľne	ADV	Dx	Degree=Pos	11	advmod	_	_
+11	príjemný	príjemný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	pocit	pocit	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	nsubj	_	_
+13	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	14	case	_	_
+14	mne	ja	PRON	PPhs6	Case=Loc|Number=Sing|Person=1|PronType=Prs	15	obl	_	_
+15	vyvoláva	vyvolávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+16	aj	aj	PART	T	_	15	advmod:emph	_	_
+17	návšteva	návšteva	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	15	obj	_	_
+18	vínnej	vínny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	pivnice	pivnica	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+20	--	--	PUNCT	ZIP	_	22	punct	_	_
+21	ak	ak	SCONJ	O	_	22	mark	_	_
+22	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+23	dosť	dosť	ADV	Dx	Degree=Pos	22	advmod	_	_
+24	tmavá	tmavý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+25	,	,	PUNCT	ZIP	_	26	punct	_	_
+26	vlhká	vlhký	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	24	conj	_	_
+27	a	a	CCONJ	O	_	28	cc	_	_
+28	chladná	chladný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	24	conj	_	_
+29	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s14
+# text = Sedieť alebo postávať v podzemnom priestore , ochutnávať rôzne vína , rozprávať sa na príjemné témy s príjemnými ľuďmi a vdychovať pritom vlhký a chladný vzduch , to by som asi dokázal robiť celý život .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#14
+1	Sedieť	sedieť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	_
+2	alebo	alebo	CCONJ	O	_	3	cc	_	_
+3	postávať	postávať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	conj	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+5	podzemnom	podzemný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	priestore	priestor	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+7	,	,	PUNCT	ZIP	_	8	punct	_	_
+8	ochutnávať	ochutnávať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	conj	_	_
+9	rôzne	rôzny	ADJ	AAnp4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	10	amod	_	_
+10	vína	víno	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	_
+11	,	,	PUNCT	ZIP	_	12	punct	_	_
+12	rozprávať	rozprávať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	conj	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+14	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	16	case	_	_
+15	príjemné	príjemný	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	_
+16	témy	téma	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	12	obl:arg	_	_
+17	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	19	case	_	_
+18	príjemnými	príjemný	ADJ	AAmp7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	_
+19	ľuďmi	človek	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	16	obl:arg	_	_
+20	a	a	CCONJ	O	_	21	cc	_	_
+21	vdychovať	vdychovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	conj	_	_
+22	pritom	pritom	ADV	Dx	Degree=Pos	21	advmod	_	_
+23	vlhký	vlhký	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+24	a	a	CCONJ	O	_	25	cc	_	_
+25	chladný	chladný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	conj	_	_
+26	vzduch	vzduch	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
+27	,	,	PUNCT	ZIP	_	32	punct	_	_
+28	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	32	discourse	_	_
+29	by	by	AUX	Y	Mood=Cnd	32	aux	_	_
+30	som	byť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	32	compound	_	_
+31	asi	asi	PART	T	_	32	advmod:emph	_	_
+32	dokázal	dokázať	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+33	robiť	robiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	32	xcomp	_	_
+34	celý	celý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	život	život	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	obj	_	_
+36	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s15
+# text = Vínna pivnica má istotne svoj predobraz v jaskyni , tak ako hrable majú svoj predobraz v ľudskej ruke a klávesnica počítača v písacom stroji .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#15
+1	Vínna	vínny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	pivnica	pivnica	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	istotne	istotne	ADV	Dx	Degree=Pos	3	advmod	_	_
+5	svoj	svoj	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	_
+6	predobraz	predobraz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	jaskyni	jaskyňa	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+9	,	,	PUNCT	ZIP	_	13	punct	_	_
+10	tak	tak	ADV	PD	PronType=Dem	13	mark	_	_
+11	ako	ako	ADV	PD	PronType=Int,Rel	12	mark	_	_
+12	hrable	hrable	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	13	obj	_	_
+13	majú	mať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+14	svoj	svoj	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	_	_
+15	predobraz	predobraz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+16	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	18	case	_	_
+17	ľudskej	ľudský	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	ruke	ruka	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+19	a	a	CCONJ	O	_	20	cc	_	_
+20	klávesnica	klávesnica	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	12	conj	_	_
+21	počítača	počítač	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+23	písacom	písací	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	stroji	stroj	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_
+25	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s16
+# text = Naši dávni predkovia využívali najprv prírodné jaskyne a až neskôr si stavali svoje umelé jaskyne - pivnice pri domoch .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#16
+1	Naši	náš	DET	PFmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	dávni	dávny	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	predkovia	predok	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	využívali	využívať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	najprv	najprv	ADV	Dx	Degree=Pos	4	advmod	_	_
+6	prírodné	prírodný	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
+7	jaskyne	jaskyňa	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+8	a	a	CCONJ	O	_	12	cc	_	_
+9	až	až	PART	T	_	12	advmod:emph	_	_
+10	neskôr	neskôr	ADV	Dx	Degree=Pos	12	advmod	_	_
+11	si	si	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+12	stavali	stavať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+13	svoje	svoj	DET	PFfp4	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	_	_
+14	umelé	umelý	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
+15	jaskyne	jaskyňa	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	_
+16	-	-	PUNCT	ZIP	_	15	punct	_	_
+17	pivnice	pivnica	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+18	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+19	domoch	dom	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	obl	_	_
+20	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s17
+# text = A tak aj ja -- v rámci prestavby svojho domu som si dal vykopať a zbudovať malú pivnicu .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#17
+1	A	a	PART	T	_	2	cc	_	_
+2	tak	tak	PART	T	_	13	advmod	_	_
+3	aj	aj	PART	T	_	13	advmod	_	_
+4	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+5	--	--	PUNCT	ZIP	_	13	punct	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	rámci	rámec	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl:arg	_	_
+8	prestavby	prestavba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	obj	_	_
+9	svojho	svoj	DET	PFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	_
+10	domu	dom	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	aux	_	_
+12	si	si	PRON	R	PronType=Prs|Reflex=Yes	14	expl:pv	_	_
+13	dal	dať	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+14	vykopať	vykopať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	13	xcomp	_	_
+15	a	a	CCONJ	O	_	16	cc	_	_
+16	zbudovať	zbudovať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	14	conj	_	_
+17	malú	malý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	pivnicu	pivnica	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+19	.	.	PUNCT	ZIP	_	13	punct	_	_
+
+# sent_id = s18
+# text = Neizolovanú , vlhkú , s udupanou zemou namiesto dlážky ( na to ešte príde dvadsaťcentimetrová vrstva hrubého kremičitého štrku ) .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#18
+1	Neizolovanú	izlovaný	ADJ	Gtfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	0	root	_	_
+2	,	,	PUNCT	ZIP	_	3	punct	_	_
+3	vlhkú	vlhký	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	1	conj	_	_
+4	,	,	PUNCT	ZIP	_	7	punct	_	_
+5	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	7	case	_	_
+6	udupanou	udupaný	ADJ	Gtfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	zemou	zem	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	1	conj	_	_
+8	namiesto	namiesto	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	dlážky	dlážka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	obl:arg	_	_
+10	(	(	PUNCT	ZIP	_	14	punct	_	_
+11	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	14	obl:arg	_	_
+13	ešte	ešte	PART	T	_	14	advmod:emph	_	_
+14	príde	prísť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+15	dvadsaťcentimetrová	dvadsaťcentimetrový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	vrstva	vrstva	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	14	obj	_	_
+17	hrubého	hrubý	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	kremičitého	kremičitý	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	štrku	štrk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obj	_	_
+20	)	)	PUNCT	ZIP	_	14	punct	_	_
+21	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s19
+# text = Tam budem mať svoju vinotéku .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#19
+1	Tam	tam	ADV	PD	PronType=Dem	2	advmod	_	_
+2	budem	byť	VERB	VBesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	mať	mať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
+4	svoju	svoj	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	_
+5	vinotéku	vinotéka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s20
+# text = Všade dookola je ešte stavenisko , aj moja jaskyňa ešte vonia maltou a cementom , no už teraz v nej trávim čoraz viac času .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#20
+1	Všade	všade	ADV	PD	PronType=Tot	2	advmod	_	_
+2	dookola	dookola	ADV	Dx	Degree=Pos	3	advmod	_	_
+3	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ešte	ešte	PART	T	_	3	advmod:emph	_	_
+5	stavenisko	stavenisko	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	3	obj	_	_
+6	,	,	PUNCT	ZIP	_	11	punct	_	_
+7	aj	aj	PART	T	_	11	advmod	_	_
+8	moja	môj	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det	_	_
+9	jaskyňa	jaskyňa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	11	obj	_	_
+10	ešte	ešte	PART	T	_	11	advmod:emph	_	_
+11	vonia	voňať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+12	maltou	malta	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	11	obj	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	cementom	cement	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	conj	_	_
+15	,	,	PUNCT	ZIP	_	21	punct	_	_
+16	no	no	CCONJ	O	_	21	cc	_	_
+17	už	už	PART	T	_	21	advmod:emph	_	_
+18	teraz	teraz	ADV	Dx	Degree=Pos	21	advmod	_	_
+19	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+20	nej	ona	PRON	PFfs6	Case=Loc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
+21	trávim	tváriť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+22	čoraz	čoraz	ADV	Dx	Degree=Pos	21	advmod	_	_
+23	viac	viac	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	24	obl	_	_
+24	času	čas	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	obj	_	_
+25	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s21
+# text = Len tak sedím sám v šere , vdychujem studený a vlhký vzduch , cez vrstvu zeme a betónu neprenikne zvonka do mojich uší ani hlások .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#21
+1	Len	len	PART	T	_	3	advmod	_	_
+2	tak	tak	PART	T	_	3	advmod	_	_
+3	sedím	sedieť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sám	sám	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	3	xcomp	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	šere	šero	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+7	,	,	PUNCT	ZIP	_	8	punct	_	_
+8	vdychujem	vdychovať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	studený	studený	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+10	a	a	CCONJ	O	_	11	cc	_	_
+11	vlhký	vlhký	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	conj	_	_
+12	vzduch	vzduch	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+13	,	,	PUNCT	ZIP	_	19	punct	_	_
+14	cez	cez	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+15	vrstvu	vrstva	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	19	obl:arg	_	_
+16	zeme	zem	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	15	obj	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	betónu	betón	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	conj	_	_
+19	neprenikne	preniknúť	VERB	VKdsc-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	conj	_	_
+20	zvonka	zvonka	ADV	Dx	Degree=Pos	19	advmod	_	_
+21	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	23	case	_	_
+22	mojich	môj	DET	PFnp2	Case=Gen|Gender=Neut|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	23	det	_	_
+23	uší	ucho	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	20	obl	_	_
+24	ani	ani	PART	T	_	23	cc	_	_
+25	hlások	hlások	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	obj	_	_
+26	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s22
+# text = Keď sa o polhodinu objavím v dome , čuduje sa moja žena , aký som čudne tichý a vyrovnaný .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#22
+1	Keď	keď	SCONJ	O	_	5	mark	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+3	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	4	case	_	_
+4	polhodinu	polhodina	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+5	objavím	objaviť	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	dome	dom	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+8	,	,	PUNCT	ZIP	_	9	punct	_	_
+9	čuduje	čudovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+11	moja	môj	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det	_	_
+12	žena	žena	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	obj	_	_
+13	,	,	PUNCT	ZIP	_	15	punct	_	_
+14	aký	aký	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	15	mark	_	_
+15	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux	_	_
+16	čudne	čudne	ADV	Dx	Degree=Pos	15	advmod	_	_
+17	tichý	tichý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+18	a	a	CCONJ	O	_	19	cc	_	_
+19	vyrovnaný	vyrovnaný	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	17	conj	_	_
+20	.	.	PUNCT	ZIP	_	9	punct	_	_
+
+# sent_id = s23
+# text = Taký som nikdy nebýval .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#23
+1	Taký	taký	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	nikdy	nikdy	ADV	PD	PronType=Neg	4	advmod	_	_
+4	nebýval	bývať	VERB	VLesam-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+5	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s24
+# text = Dnešná doba nás tak zamestnáva a napĺňa , že nám neumožňuje stráviť počas dňa ani tú polhodinku len so sebou samými .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#24
+1	Dnešná	dnešný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	doba	doba	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	nás	my	PRON	PPhp4	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
+4	tak	tak	ADV	PD	PronType=Dem	2	advmod	_	_
+5	zamestnáva	zamestnávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	napĺňa	napĺňať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
+8	,	,	PUNCT	ZIP	_	11	punct	_	_
+9	že	že	SCONJ	O	_	11	mark	_	_
+10	nám	my	PRON	PPhp3	Case=Dat|Number=Plur|Person=1|PronType=Prs	11	iobj	_	_
+11	neumožňuje	umožňovať	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+12	stráviť	stráviť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	11	xcomp	_	_
+13	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+14	dňa	deň	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+15	ani	ani	PART	T	_	17	advmod:emph	_	_
+16	tú	tá	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	polhodinku	polhodinka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+18	len	len	PART	T	_	17	advmod:emph	_	_
+19	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	20	case	_	_
+20	sebou	seba	PRON	PPhs7	Case=Ins|Number=Sing|PronType=Prs|Reflex=Yes	17	obl:arg	_	_
+21	samými	samý	DET	PAmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|PronType=Emp	20	xcomp	_	_
+22	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s25
+# text = Ak aj sme osamote , okolitý svet do nás búši zo všetkých strán , svojimi zvukmi , odbleskami , nutnosťou byť neustále v pohybe a dynamicky , interaktívne reagovať na čokoľvek .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#25
+1	Ak	ak	SCONJ	O	_	3	mark	_	_
+2	aj	aj	PART	T	_	3	advmod:emph	_	_
+3	sme	byť	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	osamote	osamote	ADV	Dx	Degree=Pos	3	advmod	_	_
+5	,	,	PUNCT	ZIP	_	10	punct	_	_
+6	okolitý	okolitý	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	svet	svet	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+8	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+9	nás	my	PRON	PPhp2	Case=Gen|Number=Plur|Person=1|PronType=Prs	10	obl:arg	_	_
+10	búši	búšiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+11	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	13	case	_	_
+12	všetkých	všetok	DET	PFfp2	Case=Gen|Gender=Fem|Number=Plur|PronType=Tot	13	det	_	_
+13	strán	strana	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	10	obl	_	_
+14	,	,	PUNCT	ZIP	_	16	punct	_	_
+15	svojimi	svoj	DET	PFip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	_
+16	zvukmi	zvuk	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	obj	_	_
+17	,	,	PUNCT	ZIP	_	18	punct	_	_
+18	odbleskami	odblesk	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	16	conj	_	_
+19	,	,	PUNCT	ZIP	_	10	punct	_	_
+20	nutnosťou	nutnosť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	16	conj	_	_
+21	byť	byť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	20	acl	_	_
+22	neustále	neustále	ADV	Dx	Degree=Pos	21	advmod	_	_
+23	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+24	pohybe	pohyb	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl:arg	_	_
+25	a	a	CCONJ	O	_	26	cc	_	_
+26	dynamicky	dynamicky	ADV	Dx	Degree=Pos	29	advmod	_	_
+27	,	,	PUNCT	ZIP	_	29	punct	_	_
+28	interaktívne	interaktívne	ADV	Dx	Degree=Pos	26	conj	_	_
+29	reagovať	reagovať	VERB	VIj+	Aspect=Imp,Perf|Polarity=Pos|VerbForm=Inf	16	conj	_	_
+30	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	31	case	_	_
+31	čokoľvek	čokoľvek	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	29	obl:arg	_	_
+32	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s26
+# text = Ešte aj na ten záchod si so sebou berieme Dzurindu a Schustera na stránkach novín .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#26
+1	Ešte	ešte	PART	T	_	2	advmod:emph	_	_
+2	aj	aj	PART	T	_	9	advmod:emph	_	_
+3	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+4	ten	ten	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	discourse	_	_
+5	záchod	záchod	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+6	si	si	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+7	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	8	case	_	_
+8	sebou	seba	PRON	PPhs7	Case=Ins|Number=Sing|PronType=Prs|Reflex=Yes	9	obl	_	_
+9	berieme	brať	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	Dzurindu	dzurinda	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	Schustera	schuster	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	conj	_	_
+13	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	stránkach	stránka	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	12	obl	_	_
+15	novín	noviny	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+16	.	.	PUNCT	ZIP	_	9	punct	_	_
+
+# sent_id = s27
+# text = Keby som bol podnikateľ , asi začnem vyrábať a predávať domáce jednomiestne jaskyne - kabíny i pre obyvateľov činžiakových bytov .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#27
+1	Keby	keby	SCONJ	OY	Mood=Cnd	2	mark	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	bol	byť	VERB	VLesam+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	advcl	_	_
+4	podnikateľ	podnikateľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
+5	,	,	PUNCT	ZIP	_	7	punct	_	_
+6	asi	asi	PART	T	_	7	advmod:emph	_	_
+7	začnem	začať	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	vyrábať	vyrábať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	7	xcomp	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	predávať	predávať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	8	conj	_	_
+11	domáce	domáci	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	_
+12	jednomiestne	jednomiestny	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_
+13	jaskyne	jaskyňa	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+14	-	-	PUNCT	ZIP	_	15	punct	_	_
+15	kabíny	kabína	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+16	i	i	PART	T	_	15	advmod:emph	_	_
+17	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	18	case	_	_
+18	obyvateľov	obyvateľ	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	15	obl:arg	_	_
+19	činžiakových	činžiakový	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	20	amod	_	_
+20	bytov	byt	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+21	.	.	PUNCT	ZIP	_	7	punct	_	_
+
+# sent_id = s28
+# text = Dokonale odhlučnené , tmavé , so vzduchotechnickým zariadením , udržiavajúcim správnu teplotu a vlhkosť vzduchu .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#28
+1	Dokonale	dokonale	ADV	Dx	Degree=Pos	2	advmod	_	_
+2	odhlučnené	odhlučnený	ADJ	Gtfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+3	,	,	PUNCT	ZIP	_	4	punct	_	_
+4	tmavé	tmavý	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	2	conj	_	_
+5	,	,	PUNCT	ZIP	_	8	punct	_	_
+6	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	8	case	_	_
+7	vzduchotechnickým	vzduchotechnický	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	zariadením	zariadenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	2	conj	_	_
+9	,	,	PUNCT	ZIP	_	2	punct	_	_
+10	udržiavajúcim	udržiavajúci	ADJ	Gkns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	7	amod	_	_
+11	správnu	správny	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	teplotu	teplota	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	vlhkosť	vlhkosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	conj	_	_
+15	vzduchu	vzduch	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s29
+# text = Polhodinka denne , a človek je ako znovuzrodený .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#29
+1	Polhodinka	polhodinka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	denne	denne	ADV	Dx	Degree=Pos	1	advmod	_	_
+3	,	,	PUNCT	ZIP	_	6	punct	_	_
+4	a	a	CCONJ	O	_	6	cc	_	_
+5	človek	človek	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	ako	ako	SCONJ	O	_	8	mark	_	_
+8	znovuzrodený	znovuzrodený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
+9	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s30
+# text = Kým to niekto nezačne vyrábať vo veľkom , skúste sem - tam navštíviť nejakú jaskyňu .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#30
+1	Kým	kým	SCONJ	O	_	4	mark	_	_
+2	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	discourse	_	_
+3	niekto	niekto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	4	iobj	_	_
+4	nezačne	začať	VERB	VKdsc-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+5	vyrábať	vyrábať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+6	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	7	case	_	_
+7	veľkom	veľký	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	obl	_	_
+8	,	,	PUNCT	ZIP	_	9	punct	_	_
+9	skúste	skúsiť	VERB	VMdpb+	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+10	sem	sem	ADV	PD	PronType=Dem	13	advmod	_	_
+11	-	-	PUNCT	ZIP	_	12	punct	_	_
+12	tam	tam	ADV	PD	PronType=Dem	10	conj	_	_
+13	navštíviť	navštíviť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	9	xcomp	_	_
+14	nejakú	nejaký	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
+15	jaskyňu	jaskyňa	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+16	.	.	PUNCT	ZIP	_	9	punct	_	_
+
+# sent_id = s31
+# text = Alebo vínnu pivnicu .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#31
+1	Alebo	alebo	CCONJ	O	_	3	mark	_	_
+2	vínnu	vínny	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	pivnicu	pivnica	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
+4	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s32
+# text = Ručím za výsledok .
+# orig_file_sentence inzine7331-01_barboras_inzine7331-01_kandracova#32
+1	Ručím	ručiť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+3	výsledok	výsledok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl:arg	_	_
+4	.	.	PUNCT	ZIP	_	1	punct	_	_
+

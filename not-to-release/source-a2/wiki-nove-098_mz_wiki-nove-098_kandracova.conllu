@@ -1,0 +1,296 @@
+# sent_id = s1
+# text = Nakš ‐ i Rustam
+# orig_file_sentence wiki-nove-098_mz_wiki-nove-098_kandracova#1
+1	Nakš	nakš	X	%	Foreign=Yes	0	root	_	_
+2	‐	‐	PUNCT	Z	_	1	punct	_	_
+3	i	i	CCONJ	O	_	1	nmod	_	_
+4	Rustam	rustam	X	%	Foreign=Yes	1	flat:foreign	_	_
+
+# sent_id = s2
+# text = Nakš ‐ i Rustam ( Rustamov obraz ) je pomenovanie skalnej steny neďaleko Stachru v Iráne , do ktorej sú vytesané hrobky achajmenovských kráľov a reliéfy z dôb prvých Sasánovcov .
+# orig_file_sentence wiki-nove-098_mz_wiki-nove-098_kandracova#2
+1	Nakš	nakš	X	%	Foreign=Yes	10	nsubj	_	_
+2	‐	‐	PUNCT	Z	_	1	punct	_	_
+3	i	i	CCONJ	O	_	1	nmod	_	_
+4	Rustam	rustam	X	%	Foreign=Yes	1	flat:foreign	_	_
+5	(	(	PUNCT	Z	_	7	punct	_	_
+6	Rustamov	rustamov	ADJ	AFis1x:r	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	obraz	obraz	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+8	)	)	PUNCT	Z	_	7	punct	_	_
+9	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	pomenovanie	pomenovanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+11	skalnej	skalný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	steny	stena	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	neďaleko	neďaleko	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+14	Stachru	stachr	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+16	Iráne	irán	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	_
+17	,	,	PUNCT	Z	_	21	punct	_	_
+18	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	19	case	_	_
+19	ktorej	ktorý	DET	PAfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Int,Rel	21	obl	_	_
+20	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	vytesané	vytesaný	ADJ	Gtop1x	Case=Nom|Degree=Pos|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	acl	_	_
+22	hrobky	hrobka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	21	nsubj	_	_
+23	achajmenovských	achajmenovský	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	24	amod	_	_
+24	kráľov	kráľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+25	a	a	CCONJ	O	_	26	cc	_	_
+26	reliéfy	reliéf	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	22	conj	_	_
+27	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	28	case	_	_
+28	dôb	doba	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	_
+29	prvých	prvý	ADJ	NAmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|NumType=Ord	30	amod	_	_
+30	Sasánovcov	sasánovec	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+31	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s3
+# text = Pred skalou stojí dvanásťmetrová veža Ka ‘ ba ‐ je Zardošt , o ktorej pôvodnom účele sa dodnes vedú vedecké debaty ; iste však plnila významné náboženské funkcie .
+# orig_file_sentence wiki-nove-098_mz_wiki-nove-098_kandracova#3
+1	Pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	2	case	_	_
+2	skalou	skala	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+3	stojí	stáť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dvanásťmetrová	dvanásťmetrový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	veža	veža	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+6	Ka	ka	X	%	Foreign=Yes	5	nmod	_	_
+7	‘	‘	PUNCT	Z	_	6	punct	_	_
+8	ba	ba	X	%	Foreign=Yes	6	flat:foreign	_	_
+9	‐	‐	PUNCT	Z	_	6	punct	_	_
+10	je	je	X	%	Foreign=Yes	6	flat:foreign	_	_
+11	Zardošt	zardošt	X	%	Foreign=Yes	6	flat:foreign	_	_
+12	,	,	PUNCT	Z	_	19	punct	_	_
+13	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+14	ktorej	ktorý	DET	PAfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Int,Rel	16	amod	_	_
+15	pôvodnom	pôvodný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	účele	účel	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	nmod	_	_
+17	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	19	expl:pass	_	_
+18	dodnes	dodnes	ADV	Dx	Degree=Pos	19	advmod	_	_
+19	vedú	viesť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	acl	_	_
+20	vedecké	vedecký	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	_
+21	debaty	debata	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	19	nsubj:pass	_	_
+22	;	;	PUNCT	Z	_	25	punct	_	_
+23	iste	iste	PART	T	_	25	advmod	_	_
+24	však	však	CCONJ	O	_	25	cc	_	_
+25	plnila	plniť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+26	významné	významný	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	_
+27	náboženské	náboženský	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	_
+28	funkcie	funkcia	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	25	obj	_	_
+29	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s4
+# text = Z achajmenovských hrobiek , vybudovaných zhruba desať metrov nad zemou a majúcich tvar gréckeho kríža , je možné bezpečne identifikovať iba hrobku kráľa Dareia I . vládnúceho v rokoch 522 / 521 ‐ 486 pred Kr .
+# orig_file_sentence wiki-nove-098_mz_wiki-nove-098_kandracova#4
+1	Z	z	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	achajmenovských	achajmenovský	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
+3	hrobiek	hrobka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	20	obl:arg	_	_
+4	,	,	PUNCT	Z	_	5	punct	_	_
+5	vybudovaných	vybudovaný	ADJ	Gtfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	3	amod	_	_
+6	zhruba	zhruba	PART	T	_	7	advmod:emph	_	_
+7	desať	desať	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+8	metrov	meter	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	nad	nad	ADP	Eu7	AdpType=Prep|Case=Ins	10	case	_	_
+10	zemou	zem	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	majúcich	majúci	ADJ	Gkfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	5	conj	_	_
+13	tvar	tvar	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	gréckeho	grécky	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	kríža	kríž	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	,	,	PUNCT	Z	_	5	punct	_	_
+17	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	možné	možný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+19	bezpečne	bezpečne	ADV	Dx	Degree=Pos	20	advmod	_	_
+20	identifikovať	identifikovať	VERB	VIj+	Aspect=Imp,Perf|Polarity=Pos|VerbForm=Inf	18	csubj	_	_
+21	iba	iba	PART	T	_	22	advmod:emph	_	_
+22	hrobku	hrobka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+23	kráľa	kráľ	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+24	Dareia	dareios	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+25	I	i	NUM	0	NumForm=Digit	24	nummod	_	_
+26	.	.	PUNCT	Z	_	25	punct	_	_
+27	vládnúceho	vládnúci	ADJ	Gkms2x:q	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Typo=Yes|VerbForm=Part|Voice=Act	24	amod	_	_
+28	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	29	case	_	_
+29	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	27	obl	_	_
+30	522	522	NUM	0	NumForm=Digit	29	nummod	_	_
+31	/	/	PUNCT	Z	_	32	punct	_	_
+32	521	521	NUM	0	NumForm=Digit	30	conj	_	_
+33	‐	‐	PUNCT	Z	_	34	punct	_	_
+34	486	486	NUM	0	NumForm=Digit	30	conj	_	_
+35	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	36	case	_	_
+36	Kr	kr	X	W	Abbr=Yes	29	nmod	_	_
+37	.	.	PUNCT	Z	_	18	punct	_	_
+
+# sent_id = s5
+# text = Ostatné tri sa väčšinou pripisujú Xerxovi I . , Artaxerxovi I . a Dareovi II . , tj . panovníkom z 5 . storočia pred Kr .
+# orig_file_sentence wiki-nove-098_mz_wiki-nove-098_kandracova#5
+1	Ostatné	ostatný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	dep	_	_
+2	tri	tri	NUM	NNfp1	Case=Nom|Gender=Fem|Number=Plur	5	dep	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+4	väčšinou	väčšinou	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	pripisujú	pripisovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	Xerxovi	xerxes	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	5	obj	_	_
+7	I	i	NUM	0	NumForm=Digit	6	nummod	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+9	,	,	PUNCT	Z	_	10	punct	_	_
+10	Artaxerxovi	artaxerxes	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	6	conj	_	_
+11	I	i	NUM	0	NumForm=Digit	10	nummod	_	_
+12	.	.	PUNCT	Z	_	11	punct	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	Dareovi	derios	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	6	conj	_	_
+15	II	ii	NUM	0	NumForm=Digit	14	nummod	_	_
+16	.	.	PUNCT	Z	_	15	punct	_	_
+17	,	,	PUNCT	Z	_	20	punct	_	_
+18	tj	tj	X	W	Abbr=Yes	20	cc	_	_
+19	.	.	PUNCT	Z	_	20	punct	_	_
+20	panovníkom	panovník	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	appos	_	_
+21	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	24	case	_	_
+22	5	5	NUM	0	NumForm=Digit	24	nummod	_	_
+23	.	.	PUNCT	Z	_	22	punct	_	_
+24	storočia	storočie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+25	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	26	case	_	_
+26	Kr	kr	X	W	Abbr=Yes	24	nmod	_	_
+27	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s6
+# text = Vo vnútri hrobky Dareia I . je rad postranných chodieb a miestností , ktoré by poskytli priestor prinajmenšom trom sarkofágom .
+# orig_file_sentence wiki-nove-098_mz_wiki-nove-098_kandracova#6
+1	Vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	2	case	_	_
+2	vnútri	vnútro	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+3	hrobky	hrobka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	Dareia	dareios	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	I	i	NUM	0	NumForm=Digit	4	nummod	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	rad	rad	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	postranných	postranný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
+10	chodieb	chodba	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+11	a	a	CCONJ	O	_	12	cc	_	_
+12	miestností	miestnosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	10	conj	_	_
+13	,	,	PUNCT	Z	_	16	punct	_	_
+14	ktoré	ktorý	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	16	nsubj	_	_
+15	by	by	AUX	Y	Mood=Cnd	16	aux	_	_
+16	poskytli	poskytnúť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
+17	priestor	priestor	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+18	prinajmenšom	prinajmenšom	PART	T	_	20	advmod:emph	_	_
+19	trom	tri	NUM	NNip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	20	nummod	_	_
+20	sarkofágom	sarkofág	NOUN	SSip3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	16	iobj	_	_
+21	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s7
+# text = O tom , kde bol pochovaný sám kráľ , sa pochopiteľne diskutuje .
+# orig_file_sentence wiki-nove-098_mz_wiki-nove-098_kandracova#7
+1	O	o	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	tom	to	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	12	obl:arg	_	_
+3	,	,	PUNCT	Z	_	6	punct	_	_
+4	kde	kde	ADV	PD	PronType=Int,Rel	6	advmod	_	_
+5	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	cop	_	_
+6	pochovaný	pochovaný	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	acl	_	_
+7	sám	sám	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	8	xcomp	_	_
+8	kráľ	kráľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+9	,	,	PUNCT	Z	_	6	punct	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pass	_	_
+11	pochopiteľne	pochopiteľne	PART	T	_	12	advmod	_	_
+12	diskutuje	diskutovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s8
+# text = Pozoruhodné sú aj monumentálne sasánovské reliéfy , najmä „ historický “ reliéf kráľa Šápúra I . z 3 . storočia po Kr .
+# orig_file_sentence wiki-nove-098_mz_wiki-nove-098_kandracova#8
+1	Pozoruhodné	pozoruhodný	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	_
+2	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	aj	aj	PART	T	_	6	advmod:emph	_	_
+4	monumentálne	monumentálny	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+5	sasánovské	sasánovský	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+6	reliéfy	reliéf	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+7	,	,	PUNCT	Z	_	12	punct	_	_
+8	najmä	najmä	PART	T	_	12	advmod:emph	_	_
+9	„	„	PUNCT	Z	_	10	punct	_	_
+10	historický	historický	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	“	“	PUNCT	Z	_	10	punct	_	_
+12	reliéf	reliéf	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+13	kráľa	kráľ	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+14	Šápúra	šápúr	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	I	i	NUM	0	NumForm=Digit	14	nummod	_	_
+16	.	.	PUNCT	Z	_	15	punct	_	_
+17	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+18	3	3	NUM	0	NumForm=Digit	20	nummod	_	_
+19	.	.	PUNCT	Z	_	18	punct	_	_
+20	storočia	storočie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+21	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	22	case	_	_
+22	Kr	kr	X	W	Abbr=Yes	20	nmod	_	_
+23	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s9
+# text = Sú na ňom okrem kráľa zobrazení aj rímski cisári Valerianus a Philippus Arabs , z ktorých prvého Šápúr zajal a druhého donútil k plateniu tribútu .
+# orig_file_sentence wiki-nove-098_mz_wiki-nove-098_kandracova#9
+1	Sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_
+2	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	ňom	on	PRON	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+4	okrem	okrem	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+5	kráľa	kráľ	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+6	zobrazení	zobrazený	ADJ	Gtmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+7	aj	aj	CCONJ	O	_	10	advmod:emph	_	_
+8	rímski	rímsky	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
+9	cisári	cisár	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nmod	_	_
+10	Valerianus	valerianus	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+11	a	a	CCONJ	O	_	13	cc	_	_
+12	Philippus	philippus	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
+13	Arabs	arabs	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_
+14	,	,	PUNCT	Z	_	19	punct	_	_
+15	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+16	ktorých	ktorý	DET	PAmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|PronType=Int,Rel	19	dep	_	_
+17	prvého	prvý	ADJ	NAms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	19	dep	_	_
+18	Šápúr	šápúr	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+19	zajal	zajať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
+20	a	a	CCONJ	O	_	22	cc	_	_
+21	druhého	druhý	ADJ	NAms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	22	dep	_	_
+22	donútil	donútiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	19	conj	_	_
+23	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	24	case	_	_
+24	plateniu	platenie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	22	obl:arg	_	_
+25	tribútu	tribút	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s10
+# text = V pozadí stojí popredný predstaviteľ zarathuštrovskej „ štátnej “ cirkvi , kňaz Kartír .
+# orig_file_sentence wiki-nove-098_mz_wiki-nove-098_kandracova#10
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	pozadí	pozadie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	stojí	stáť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	popredný	popredný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	predstaviteľ	predstaviteľ	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+6	zarathuštrovskej	zarathuštrovský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+7	„	„	PUNCT	Z	_	8	punct	_	_
+8	štátnej	štátny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	“	“	PUNCT	Z	_	8	punct	_	_
+10	cirkvi	cirkev	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+11	,	,	PUNCT	Z	_	13	punct	_	_
+12	kňaz	kňaz	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
+13	Kartír	kartír	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+14	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s11
+# text = Tiež králi Ardašír I . , Bahrám II . , Narsé a niekoľko ďalších ( identifikácia je sčasti sporná ) tu zanechali „ svoje “ reliéfy .
+# orig_file_sentence wiki-nove-098_mz_wiki-nove-098_kandracova#11
+1	Tiež	tiež	PART	T	_	3	cc	_	_
+2	králi	kráľ	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nmod	_	_
+3	Ardašír	ardašír	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+4	I	i	NUM	0	NumForm=Digit	3	nummod	_	_
+5	.	.	PUNCT	Z	_	4	punct	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	Bahrám	bahrám	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+8	II	ii	NUM	0	NumForm=Digit	7	nummod	_	_
+9	.	.	PUNCT	Z	_	8	punct	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	Narsé	narsé	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+12	a	a	CCONJ	O	_	13	cc	_	_
+13	niekoľko	niekoľko	DET	PUns1	Case=Nom|Gender=Neut|Number=Sing|NumType=Card|PronType=Ind	3	conj	_	_
+14	ďalších	ďalší	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_
+15	(	(	PUNCT	Z	_	19	punct	_	_
+16	identifikácia	identifikácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+17	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	sčasti	sčasti	ADV	Dx	Degree=Pos	19	advmod	_	_
+19	sporná	sporný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	parataxis	_	_
+20	)	)	PUNCT	Z	_	19	punct	_	_
+21	tu	tu	ADV	PD	PronType=Dem	22	advmod	_	_
+22	zanechali	zanechať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+23	„	„	PUNCT	Z	_	24	punct	_	_
+24	svoje	svoj	DET	PFip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	26	det	_	_
+25	“	“	PUNCT	Z	_	24	punct	_	_
+26	reliéfy	reliéf	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	22	obj	_	_
+27	.	.	PUNCT	Z	_	22	punct	_	_
+

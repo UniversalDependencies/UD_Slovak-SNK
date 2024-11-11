@@ -1,0 +1,349 @@
+# sent_id = s1
+# text = Náš kolega Mišo Hvorecký je brandista .
+# orig_file_sentence inzine7181-01_kandracova_inzine7181-01_tencerova#1
+1	Náš	náš	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	kolega	kolega	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+3	Mišo	mišo	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+4	Hvorecký	hvorecký	PROPN	SAms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	brandista	brandista	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+7	.	.	PUNCT	ZIP	_	6	punct	_	_
+
+# sent_id = s2
+# text = Má rád kvalitné značkové výrobky , vzrušuje ho tento svet .
+# orig_file_sentence inzine7181-01_kandracova_inzine7181-01_tencerova#2
+1	Má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	rád	rád	ADJ	AUms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	obj	_	_
+3	kvalitné	kvalitný	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+4	značkové	značkový	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+5	výrobky	výrobok	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+6	,	,	PUNCT	ZIP	_	7	punct	_	_
+7	vzrušuje	vzrušovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	tento	tento	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	svet	svet	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+11	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s3
+# text = Začal písať o značkách aj seriál , pretože patria neodmysliteľne k našej civilizácii .
+# orig_file_sentence inzine7181-01_kandracova_inzine7181-01_tencerova#3
+1	Začal	začať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	písať	písať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	xcomp	_	_
+3	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	značkách	značka	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	6	nmod	_	_
+5	aj	aj	PART	T	_	6	advmod:emph	_	_
+6	seriál	seriál	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+7	,	,	PUNCT	ZIP	_	9	punct	_	_
+8	pretože	pretože	SCONJ	O	_	9	mark	_	_
+9	patria	patriť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+10	neodmysliteľne	neodmysliteľne	ADV	Dx	Degree=Pos	9	advmod	_	_
+11	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	13	case	_	_
+12	našej	náš	DET	PFfs3	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	13	det	_	_
+13	civilizácii	civilizácia	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	9	obl:arg	_	_
+14	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s4
+# text = Za toto písanie si vyslúžil pohŕdanie u mnohých čitateľov .
+# orig_file_sentence inzine7181-01_kandracova_inzine7181-01_tencerova#4
+1	Za	za	ADP	Eu4	AdpType=Prep|Case=Acc	3	case	_	_
+2	toto	toto	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	písanie	písanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+4	si	si	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	vyslúžil	vyslúžiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	pohŕdanie	pohŕdanie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	u	u	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+8	mnohých	mnohý	ADJ	NAmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|NumType=Mult	9	amod	_	_
+9	čitateľov	čitateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+10	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s5
+# text = Vraj je snob , načo vyhadzovať kopu peňazí na značkové handry .
+# orig_file_sentence inzine7181-01_kandracova_inzine7181-01_tencerova#5
+1	Vraj	vraj	PART	T	_	3	advmod	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	snob	snob	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	,	,	PUNCT	ZIP	_	6	punct	_	_
+5	načo	načo	PRON	PD	PronType=Prs	6	obl	_	_
+6	vyhadzovať	vyhadzovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	conj	_	_
+7	kopu	kopa	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	peňazí	peniaze	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+10	značkové	značkový	ADJ	AAfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
+11	handry	handra	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	6	obl	_	_
+12	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s6
+# text = Nebudem písať o tom , že isté značky vždy patrili k istým societám a dokonca vytvárali ich štýl .
+# orig_file_sentence inzine7181-01_kandracova_inzine7181-01_tencerova#6
+1	Nebudem	byť	AUX	VBesa-	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Fut|VerbForm=Fin	2	aux	_	_
+2	písať	písať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	_
+3	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	tom	to	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	2	obl:arg	_	_
+5	,	,	PUNCT	ZIP	_	10	punct	_	_
+6	že	že	SCONJ	O	_	10	mark	_	_
+7	isté	istý	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	značky	značka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+9	vždy	vždy	ADV	PD	PronType=Tot	10	advmod	_	_
+10	patrili	patriť	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
+11	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	13	case	_	_
+12	istým	istý	DET	PAfp3	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
+13	societám	societa	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	10	obl:arg	_	_
+14	a	a	CCONJ	O	_	16	cc	_	_
+15	dokonca	dokonca	PART	T	_	16	advmod	_	_
+16	vytvárali	vytvárať	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	10	conj	_	_
+17	ich	ich	DET	PUis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+18	štýl	štýl	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+19	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s7
+# text = Od be - bopu cez hippies , punk až po techno generáciu .
+# orig_file_sentence inzine7181-01_kandracova_inzine7181-01_tencerova#7
+1	Od	od	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	be	be	X	Q	Hyph=Yes	0	root	_	_
+3	-	-	PUNCT	ZIP	_	4	punct	_	_
+4	bopu	bop	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	conj	_	_
+5	cez	cez	ADP	Eu4	AdpType=Prep|Case=Acc	6	case	_	_
+6	hippies	hippies	NOUN	SUfs4	Case=Acc|Gender=Fem|Number=Sing	2	dep	_	_
+7	,	,	PUNCT	ZIP	_	8	punct	_	_
+8	punk	punk	ADJ	AUfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	conj	_	_
+9	až	až	PART	T	_	12	advmod:emph	_	_
+10	po	po	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+11	techno	techno	ADJ	AUfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	generáciu	generácia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	dep	_	_
+13	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s8
+# text = Značka Levi Strauss patrí k popkultúre presne tak , ako gitara Fender Stratocaster alebo dídžejské gramofóny Technics .
+# orig_file_sentence inzine7181-01_kandracova_inzine7181-01_tencerova#8
+1	Značka	značka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	Levi	levi	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+3	Strauss	strauss	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+4	patrí	patriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	6	case	_	_
+6	popkultúre	popkultúra	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	4	obl:arg	_	_
+7	presne	presne	ADV	Dx	Degree=Pos	8	advmod	_	_
+8	tak	tak	ADV	PD	PronType=Dem	4	advmod	_	_
+9	,	,	PUNCT	ZIP	_	11	punct	_	_
+10	ako	ako	ADV	PD	PronType=Int,Rel	11	mark	_	_
+11	gitara	gitara	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	dep	_	_
+12	Fender	fender	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
+13	Stratocaster	stratocaster	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
+14	alebo	alebo	CCONJ	O	_	16	cc	_	_
+15	dídžejské	dídžejský	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
+16	gramofóny	gramofón	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	conj	_	_
+17	Technics	technics	X	%	Foreign=Yes	16	nmod	_	_
+18	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s9
+# text = Musím sa úprimne priznať , aj ja som veľký brandista .
+# orig_file_sentence inzine7181-01_kandracova_inzine7181-01_tencerova#9
+1	Musím	musieť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	úprimne	úprimne	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	priznať	priznať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	xcomp	_	_
+5	,	,	PUNCT	ZIP	_	10	punct	_	_
+6	aj	aj	PART	T	_	7	advmod:emph	_	_
+7	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	veľký	veľký	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	brandista	brandista	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+11	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s10
+# text = Radšej mám topánky Dr . Martens , ktoré dobre vyzerajú a dlho vydržia , ako produkty od Vietnamcov z trhu na Miletičovej ulici .
+# orig_file_sentence inzine7181-01_kandracova_inzine7181-01_tencerova#10
+1	Radšej	rád	ADJ	AUms1y	Animacy=Anim|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	2	obj	_	_
+2	mám	mať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	topánky	topánka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
+4	Dr	dr	X	W	Abbr=Yes	6	nmod	_	_
+5	.	.	PUNCT	ZIP	_	4	punct	_	_
+6	Martens	martens	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+7	,	,	PUNCT	ZIP	_	10	punct	_	_
+8	ktoré	ktorý	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	10	nsubj	_	_
+9	dobre	dobre	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	vyzerajú	vyzerať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	acl	_	_
+11	a	a	CCONJ	O	_	13	cc	_	_
+12	dlho	dlho	ADV	Dx	Degree=Pos	13	advmod	_	_
+13	vydržia	vydržať	VERB	VKdpc+	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	conj	_	_
+14	,	,	PUNCT	ZIP	_	10	punct	_	_
+15	ako	ako	SCONJ	O	_	16	mark	_	_
+16	produkty	produkt	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	dep	_	_
+17	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	18	case	_	_
+18	Vietnamcov	vietnamec	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+19	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+20	trhu	trh	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	23	case	_	_
+22	Miletičovej	miletičov	ADJ	AFfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	ulici	ulica	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	20	nmod	_	_
+24	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s11
+# text = Uprednostňujem značku Miles Davis pred trademarkom Elán , pretože má dlhšiu tradíciu , spoľahlivú kvalitu a je to , skrátka , iná cenová skupina .
+# orig_file_sentence inzine7181-01_kandracova_inzine7181-01_tencerova#11
+1	Uprednostňujem	uprednostňovať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	značku	značka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	Miles	miles	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+4	Davis	davis	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+5	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	6	case	_	_
+6	trademarkom	trademark	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl	_	_
+7	Elán	elán	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+8	,	,	PUNCT	ZIP	_	10	punct	_	_
+9	pretože	pretože	SCONJ	O	_	10	mark	_	_
+10	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+11	dlhšiu	dlhý	ADJ	AAfs4y	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	12	amod	_	_
+12	tradíciu	tradícia	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+13	,	,	PUNCT	ZIP	_	15	punct	_	_
+14	spoľahlivú	spoľahlivý	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	kvalitu	kvalita	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	conj	_	_
+16	a	a	CCONJ	O	_	24	cc	_	_
+17	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	24	cop	_	_
+18	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	24	nsubj	_	_
+19	,	,	PUNCT	ZIP	_	20	punct	_	_
+20	skrátka	skrátka	PART	T	_	24	advmod	_	_
+21	,	,	PUNCT	ZIP	_	20	punct	_	_
+22	iná	iný	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	24	det	_	_
+23	cenová	cenový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	skupina	skupina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	_
+25	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s12
+# text = Niekedy vyhľadávam aj značku Johann Sebastian Bach s rizikom , že ma budú odsudzovať všetci ne - brandisti , ktorým stačí no - name tovar z rádií .
+# orig_file_sentence inzine7181-01_kandracova_inzine7181-01_tencerova#12
+1	Niekedy	niekedy	ADV	PD	PronType=Ind	2	advmod	_	_
+2	vyhľadávam	vyhľadávať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	aj	aj	PART	T	_	4	advmod:emph	_	_
+4	značku	značka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	Johann	johann	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+6	Sebastian	sebastian	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+7	Bach	bach	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+8	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+9	rizikom	riziko	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	2	obl	_	_
+10	,	,	PUNCT	ZIP	_	14	punct	_	_
+11	že	že	SCONJ	O	_	14	mark	_	_
+12	ma	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	_
+13	budú	byť	AUX	VBepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	14	aux	_	_
+14	odsudzovať	odsudzovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	9	acl	_	_
+15	všetci	všetok	DET	PFmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	18	det	_	_
+16	ne	ne	X	Q	Hyph=Yes	18	nmod	_	_
+17	-	-	PUNCT	ZIP	_	16	punct	_	_
+18	brandisti	brandista	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+19	,	,	PUNCT	ZIP	_	21	punct	_	_
+20	ktorým	ktorý	DET	PAmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|PronType=Int,Rel	21	obj	_	_
+21	stačí	stačiť	VERB	VKjsc+	Aspect=Imp,Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	acl	_	_
+22	no	no	X	%	Foreign=Yes	25	nmod	_	_
+23	-	-	PUNCT	ZIP	_	22	punct	_	_
+24	name	name	X	%	Foreign=Yes	22	flat:foreign	_	_
+25	tovar	tovar	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+26	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	27	case	_	_
+27	rádií	rádio	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	25	nmod	_	_
+28	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s13
+# text = A mám rád cédečká a nestačia mi MP - trojky , aj keď budem určite obvinený z debility .
+# orig_file_sentence inzine7181-01_kandracova_inzine7181-01_tencerova#13
+1	A	a	PART	T	_	2	advmod	_	_
+2	mám	mať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	rád	rád	ADJ	AUms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	obj	_	_
+4	cédečká	cédečko	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	nestačia	stačiť	VERB	VKjpc-	Aspect=Imp,Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+8	MP	mp	X	W	Abbr=Yes	10	nmod	_	_
+9	-	-	PUNCT	ZIP	_	8	punct	_	_
+10	trojky	trojka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+11	,	,	PUNCT	ZIP	_	16	punct	_	_
+12	aj	aj	CCONJ	O	_	16	mark	_	_
+13	keď	keď	SCONJ	O	_	12	fixed	_	_
+14	budem	byť	AUX	VBesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	16	cop	_	_
+15	určite	určite	PART	T	_	16	advmod	_	_
+16	obvinený	obvinený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	advcl	_	_
+17	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	18	case	_	_
+18	debility	debilita	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	obl:arg	_	_
+19	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s14
+# text = Veď to je drahé a zbytočné .
+# orig_file_sentence inzine7181-01_kandracova_inzine7181-01_tencerova#14
+1	Veď	veď	PART	T	_	4	advmod	_	_
+2	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	drahé	drahý	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	zbytočné	zbytočný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	conj	_	_
+7	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s15
+# text = A potom mám ešte rád značku " vlastný byt v centre " a nemám rád druhotriedny tovar pod menom " prenajatý byt v Petržalke " .
+# orig_file_sentence inzine7181-01_kandracova_inzine7181-01_tencerova#15
+1	A	a	PART	T	_	3	advmod	_	_
+2	potom	potom	ADV	Dx	Degree=Pos	3	advmod	_	_
+3	mám	mať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ešte	ešte	PART	T	_	3	advmod	_	_
+5	rád	rád	ADJ	AUms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	obj	_	_
+6	značku	značka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	"	"	PUNCT	ZIP	_	9	punct	_	_
+8	vlastný	vlastný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	byt	byt	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	centre	centrum	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	9	nmod	_	_
+12	"	"	PUNCT	ZIP	_	9	punct	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	nemám	mať	VERB	VKesa-	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	conj	_	_
+15	rád	rád	ADJ	AUms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	obj	_	_
+16	druhotriedny	druhotriedny	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	tovar	tovar	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+18	pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	19	case	_	_
+19	menom	meno	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	17	nmod	_	_
+20	"	"	PUNCT	ZIP	_	22	punct	_	_
+21	prenajatý	prenajatý	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	22	amod	_	_
+22	byt	byt	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	_
+23	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+24	Petržalke	petržalka	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	22	nmod	_	_
+25	"	"	PUNCT	ZIP	_	22	punct	_	_
+26	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s16
+# text = Som spokojný so značkou " spoľahlivý , rovnocenný , monogamný vzťah " .
+# orig_file_sentence inzine7181-01_kandracova_inzine7181-01_tencerova#16
+1	Som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	spokojný	spokojný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+3	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	4	case	_	_
+4	značkou	značka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	2	obl:arg	_	_
+5	"	"	PUNCT	ZIP	_	11	punct	_	_
+6	spoľahlivý	spoľahlivý	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+7	,	,	PUNCT	ZIP	_	8	punct	_	_
+8	rovnocenný	rovnocenný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	conj	_	_
+9	,	,	PUNCT	ZIP	_	10	punct	_	_
+10	monogamný	monogamný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	conj	_	_
+11	vzťah	vzťah	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+12	"	"	PUNCT	ZIP	_	11	punct	_	_
+13	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s17
+# text = Asi sa budem musieť nad sebou zamyslieť .
+# orig_file_sentence inzine7181-01_kandracova_inzine7181-01_tencerova#17
+1	Asi	asi	PART	T	_	4	advmod	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+3	budem	byť	AUX	VBesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	4	aux	_	_
+4	musieť	musieť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	_
+5	nad	nad	ADP	Eu7	AdpType=Prep|Case=Ins	6	case	_	_
+6	sebou	seba	PRON	PPhs7	Case=Ins|Number=Sing|PronType=Prs|Reflex=Yes	7	obl:arg	_	_
+7	zamyslieť	zamyslieť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+8	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s18
+# text = Začínam byť vážne neznesiteľný snob .
+# orig_file_sentence inzine7181-01_kandracova_inzine7181-01_tencerova#18
+1	Začínam	začínať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	cop	_	_
+3	vážne	vážne	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	neznesiteľný	neznesiteľný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	snob	snob	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	xcomp	_	_
+6	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s19
+# text = Marian Jaslovský
+# orig_file_sentence inzine7181-01_kandracova_inzine7181-01_tencerova#19
+1	Marian	marian	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Jaslovský	jaslovský	PROPN	SAms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+

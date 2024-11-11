@@ -1,0 +1,309 @@
+# sent_id = s1
+# text = Vyšlo v OS – č . 2000 / 11 , ss . 32 - 38
+# orig_file_sentence durovic000_olejkarova_durovic000_bugajova#1
+1	Vyšlo	vyjsť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	OS	os	X	W	Abbr=Yes	1	advmod	_	_
+4	–	-	PUNCT	Z	_	3	punct	_	_
+5	č	č	X	W	Abbr=Yes	3	nmod	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	2000	2000	NUM	0	NumForm=Digit	5	nummod	_	_
+8	/	/	PUNCT	Z	_	7	punct	_	_
+9	11	11	NUM	0	NumForm=Digit	7	nummod	_	_
+10	,	,	PUNCT	Z	_	11	punct	_	_
+11	ss	ss	X	W	Abbr=Yes	3	dep	_	_
+12	.	.	PUNCT	Z	_	11	punct	_	_
+13	32	32	NUM	0	NumForm=Digit	11	nummod	_	_
+14	-	-	PUNCT	Z	_	15	punct	_	_
+15	38	38	NUM	0	NumForm=Digit	13	conj	_	_
+
+# sent_id = s2
+# text = slovenskej kultúrnej histórie
+# orig_file_sentence durovic000_olejkarova_durovic000_bugajova#2
+1	slovenskej	slovenský	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	kultúrnej	kultúrny	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	histórie	história	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = s3
+# text = Na históriu nášho jazyka sa možno pozerať z rôznych stanovísk .
+# orig_file_sentence durovic000_olejkarova_durovic000_bugajova#3
+1	Na	na	ADP	Eu4	AdpType=Prep|Case=Acc	2	case	_	_
+2	históriu	história	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obl:arg	_	_
+3	nášho	náš	DET	PFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
+4	jazyka	jazyk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+6	možno	možno	ADV	Dx	Degree=Pos	0	root	_	_
+7	pozerať	pozerať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	6	csubj	_	_
+8	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+9	rôznych	rôzny	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	10	amod	_	_
+10	stanovísk	stanovisko	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	7	obl	_	_
+11	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s4
+# text = Možno skúmať , ako sa náš jazyk vyvíjal z hypotetického spoločného slovanského prajazyka , alebo možno skúmať , čo sme my , Slováci , s naším jazykom robili , ako sme ho poznávali , popisovali , učili a neskôr i regulovali .
+# orig_file_sentence durovic000_olejkarova_durovic000_bugajova#4
+1	Možno	možno	ADV	Dx	Degree=Pos	0	root	_	_
+2	skúmať	skúmať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	csubj	_	_
+3	,	,	PUNCT	Z	_	8	punct	_	_
+4	ako	ako	ADV	PD	PronType=Int,Rel	8	mark	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+6	náš	náš	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det	_	_
+7	jazyk	jazyk	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	vyvíjal	vyvíjať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	ccomp	_	_
+9	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+10	hypotetického	hypotetický	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+11	spoločného	spoločný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+12	slovanského	slovanský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	prajazyka	prajazyk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl:arg	_	_
+14	,	,	PUNCT	Z	_	16	punct	_	_
+15	alebo	alebo	CCONJ	O	_	16	cc	_	_
+16	možno	možno	ADV	Dx	Degree=Pos	1	conj	_	_
+17	skúmať	skúmať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	16	csubj	_	_
+18	,	,	PUNCT	Z	_	28	punct	_	_
+19	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	28	mark	_	_
+20	sme	byť	AUX	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	28	aux	_	_
+21	my	my	PRON	PPhp1	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj	_	_
+22	,	,	PUNCT	Z	_	23	punct	_	_
+23	Slováci	slovák	PROPN	SSmp1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	appos	_	_
+24	,	,	PUNCT	Z	_	28	punct	_	_
+25	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	27	case	_	_
+26	naším	náš	DET	PFis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	27	det	_	_
+27	jazykom	jazyk	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	28	obl:arg	_	_
+28	robili	robiť	VERB	VLepah+	Aspect=Imp|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	17	ccomp	_	_
+29	,	,	PUNCT	Z	_	33	punct	_	_
+30	ako	ako	ADV	PD	PronType=Int,Rel	33	mark	_	_
+31	sme	byť	AUX	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	33	aux	_	_
+32	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	obj	_	_
+33	poznávali	poznávať	VERB	VLepah+	Aspect=Imp|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	28	conj	_	_
+34	,	,	PUNCT	Z	_	35	punct	_	_
+35	popisovali	popisovať	VERB	VLepah+	Aspect=Imp|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	33	conj	_	_
+36	,	,	PUNCT	Z	_	37	punct	_	_
+37	učili	učiť	VERB	VLepah+	Aspect=Imp|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	33	conj	_	_
+38	a	a	CCONJ	O	_	41	cc	_	_
+39	neskôr	neskôr	ADV	Dx	Degree=Pos	33	advmod	_	_
+40	i	i	CCONJ	O	_	41	advmod:emph	_	_
+41	regulovali	regulovať	VERB	VLepah+	Aspect=Imp|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	33	conj	_	_
+42	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s5
+# text = 0 . 1
+# orig_file_sentence durovic000_olejkarova_durovic000_bugajova#5
+1	0	0	NUM	0	NumForm=Digit	0	root	_	_
+2	.	.	PUNCT	Z	_	3	punct	_	_
+3	1	1	NUM	0	NumForm=Digit	1	conj	_	_
+
+# sent_id = s6
+# text = Niet pochybností , že od príchodu Slovanov na naše terajšie územie niekedy v VI . - VII . storočí sa tu hovorilo jazykom , presnejšie povedané dialektami praslovanského jazyka , ktoré sa kontinuitne rozvíjali do dnešných slovenských dialektov .
+# orig_file_sentence durovic000_olejkarova_durovic000_bugajova#6
+1	Niet	byť	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	pochybností	pochybnosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	1	nsubj	_	_
+3	,	,	PUNCT	Z	_	22	punct	_	_
+4	že	že	SCONJ	O	_	22	mark	_	_
+5	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	príchodu	príchod	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	_
+7	Slovanov	slovan	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	11	case	_	_
+9	naše	náš	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	11	det	_	_
+10	terajšie	terajší	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	územie	územie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	_
+12	niekedy	niekedy	ADV	PD	PronType=Ind	22	advmod	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	19	case	_	_
+14	VI	vi	NUM	0	NumForm=Digit	19	nummod	_	_
+15	.	.	PUNCT	Z	_	14	punct	_	_
+16	-	-	PUNCT	Z	_	17	punct	_	_
+17	VII	vii	NUM	0	NumForm=Digit	14	conj	_	_
+18	.	.	PUNCT	Z	_	17	punct	_	_
+19	storočí	storočie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	22	obl	_	_
+20	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	22	expl:pass	_	_
+21	tu	tu	ADV	PD	PronType=Dem	22	advmod	_	_
+22	hovorilo	hovoriť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	acl	_	_
+23	jazykom	jazyk	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	iobj	_	_
+24	,	,	PUNCT	Z	_	26	punct	_	_
+25	presnejšie	presne	ADV	Dy	Degree=Cmp	26	advmod	_	_
+26	povedané	povedaný	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	22	xcomp	_	_
+27	dialektami	dialekt	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	26	obj	_	_
+28	praslovanského	praslovanský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	jazyka	jazyk	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+30	,	,	PUNCT	Z	_	34	punct	_	_
+31	ktoré	ktorý	DET	PAip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	34	nsubj	_	_
+32	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	34	expl:pv	_	_
+33	kontinuitne	kontinuitne	ADV	Dx	Degree=Pos	34	advmod	_	_
+34	rozvíjali	rozvíjať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	27	acl	_	_
+35	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	38	case	_	_
+36	dnešných	dnešný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	38	amod	_	_
+37	slovenských	slovenský	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	38	amod	_	_
+38	dialektov	dialekt	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	obl	_	_
+39	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s7
+# text = Slovenskými sa tieto praslovanské dialekty stali vtedy , keď sa ľudia , ktorí nimi hovorili , začali sami seba začali pokladať za Slovákov a sami seba menovať Slovákmi , pretože – ako je to s mnohými inými slovanskými jazykmi – niet takej jazykovej vlastnosti , ktorú by mali všetky slovenské dialekty a len tieto dialekty , t . j . ktorou by sa odlišovali od všetkých iných slovanských dialektov .
+# orig_file_sentence durovic000_olejkarova_durovic000_bugajova#7
+1	Slovenskými	slovenský	ADJ	AAip7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	6	obj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+3	tieto	tento	DET	PFip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+4	praslovanské	praslovanský	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+5	dialekty	dialekt	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	stali	stať	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+7	vtedy	vtedy	ADV	PD	PronType=Dem	6	advmod	_	_
+8	,	,	PUNCT	Z	_	17	punct	_	_
+9	keď	keď	SCONJ	O	_	17	mark	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	17	expl:pv	_	_
+11	ľudia	človek	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+12	,	,	PUNCT	Z	_	15	punct	_	_
+13	ktorí	ktorý	DET	PAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	15	nsubj	_	_
+14	nimi	on	PRON	PFip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+15	hovorili	hovoriť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	11	acl	_	_
+16	,	,	PUNCT	Z	_	11	punct	_	_
+17	začali	začať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	6	advcl	_	_
+18	sami	sám	DET	PFmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Emp	19	xcomp	_	_
+19	seba	seba	PRON	PPhs2	Case=Gen|Number=Sing|PronType=Prs|Reflex=Yes	17	iobj	_	_
+20	začali	začať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	17	discourse	_	_
+21	pokladať	pokladať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	17	xcomp	_	_
+22	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	23	case	_	_
+23	Slovákov	slovák	PROPN	SSmp4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	21	obl:arg	_	_
+24	a	a	CCONJ	O	_	27	cc	_	_
+25	sami	sám	DET	PFmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Emp	26	xcomp	_	_
+26	seba	seba	PRON	PPhs4	Case=Acc|Number=Sing|PronType=Prs|Reflex=Yes	27	obj	_	_
+27	menovať	menovať	VERB	VIj+	Aspect=Imp,Perf|Polarity=Pos|VerbForm=Inf	21	conj	_	_
+28	Slovákmi	slovák	PROPN	SSmp7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	27	iobj	_	_
+29	,	,	PUNCT	Z	_	41	punct	_	_
+30	pretože	pretože	SCONJ	O	_	41	mark	_	_
+31	–	-	PUNCT	Z	_	39	punct	_	_
+32	ako	ako	SCONJ	O	_	39	mark	_	_
+33	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	39	cop	_	_
+34	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	39	nsubj	_	_
+35	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	39	case	_	_
+36	mnohými	mnohý	ADJ	NAip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|NumType=Mult	39	amod	_	_
+37	inými	iný	DET	PAip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|PronType=Ind	39	det	_	_
+38	slovanskými	slovanský	ADJ	AAip7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	39	amod	_	_
+39	jazykmi	jazyk	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	41	advcl	_	_
+40	–	-	PUNCT	Z	_	39	punct	_	_
+41	niet	byť	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+42	takej	taký	DET	PAfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	44	det	_	_
+43	jazykovej	jazykový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	44	amod	_	_
+44	vlastnosti	vlastnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	41	nsubj	_	_
+45	,	,	PUNCT	Z	_	48	punct	_	_
+46	ktorú	ktorý	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	48	obj	_	_
+47	by	by	AUX	Y	Mood=Cnd	48	aux	_	_
+48	mali	mať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	44	acl	_	_
+49	všetky	všetok	DET	PFip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	51	det	_	_
+50	slovenské	slovenský	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	51	amod	_	_
+51	dialekty	dialekt	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	48	nsubj	_	_
+52	a	a	CCONJ	O	_	55	cc	_	_
+53	len	len	PART	T	_	54	advmod:emph	_	_
+54	tieto	tento	DET	PFip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	55	det	_	_
+55	dialekty	dialekt	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	48	conj	_	_
+56	,	,	PUNCT	Z	_	64	punct	_	_
+57	t	t	X	W	Abbr=Yes	48	nsubj	_	_
+58	.	.	PUNCT	Z	_	57	punct	_	_
+59	j	j	X	W	Abbr=Yes	64	advmod	_	_
+60	.	.	PUNCT	Z	_	64	punct	_	_
+61	ktorou	ktorý	DET	PAfs7	Case=Ins|Gender=Fem|Number=Sing|PronType=Int,Rel	64	obj	_	_
+62	by	by	AUX	Y	Mood=Cnd	64	aux	_	_
+63	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	64	expl:pv	_	_
+64	odlišovali	odlišovať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	48	appos	_	_
+65	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	69	case	_	_
+66	všetkých	všetok	DET	PFip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	69	det	_	_
+67	iných	iný	DET	PAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	69	det	_	_
+68	slovanských	slovanský	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	69	amod	_	_
+69	dialektov	dialekt	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	64	obl:arg	_	_
+70	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s8
+# text = O tom , ako tieto dialekty vyzerali , nemáme až do 15 . storočia žiaden písomný doklad ( okrem niekoľkých miestnych mien v latinských listinách ) , a tak ich podoba je predmetom teoretickej jazykovednej rekonštrukcie ( Ľ . Novák , E . Paulíny ) .
+# orig_file_sentence durovic000_olejkarova_durovic000_bugajova#8
+1	O	o	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	tom	to	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	9	obl:arg	_	_
+3	,	,	PUNCT	Z	_	7	punct	_	_
+4	ako	ako	ADV	PD	PronType=Int,Rel	7	mark	_	_
+5	tieto	tento	DET	PFip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	dialekty	dialekt	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	vyzerali	vyzerať	VERB	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	2	acl	_	_
+8	,	,	PUNCT	Z	_	2	punct	_	_
+9	nemáme	mať	VERB	VKepa-	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	až	až	PART	T	_	14	advmod:emph	_	_
+11	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+12	15	15	NUM	0	NumForm=Digit	14	nummod	_	_
+13	.	.	PUNCT	Z	_	12	punct	_	_
+14	storočia	storočie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+15	žiaden	žiaden	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	17	det	_	_
+16	písomný	písomný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	doklad	doklad	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+18	(	(	PUNCT	Z	_	22	punct	_	_
+19	okrem	okrem	ADP	Eu2	AdpType=Prep|Case=Gen	22	case	_	_
+20	niekoľkých	niekoľký	DET	PUnp2	Case=Gen|Gender=Neut|Number=Plur|NumType=Card|PronType=Ind	22	det	_	_
+21	miestnych	miestny	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	22	amod	_	_
+22	mien	meno	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	17	obl	_	_
+23	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	25	case	_	_
+24	latinských	latinský	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	_
+25	listinách	listina	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	22	nmod	_	_
+26	)	)	PUNCT	Z	_	22	punct	_	_
+27	,	,	PUNCT	Z	_	33	punct	_	_
+28	a	a	CCONJ	O	_	33	cc	_	_
+29	tak	tak	CCONJ	O	_	33	cc	_	_
+30	ich	ich	DET	PUfs1	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	31	det	_	_
+31	podoba	podoba	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	33	nsubj	_	_
+32	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	33	cop	_	_
+33	predmetom	predmet	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	conj	_	_
+34	teoretickej	teoretický	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+35	jazykovednej	jazykovedný	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	rekonštrukcie	rekonštrukcia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	_
+37	(	(	PUNCT	Z	_	40	punct	_	_
+38	Ľ	ľ	X	W	Abbr=Yes	40	nmod	_	_
+39	.	.	PUNCT	Z	_	38	punct	_	_
+40	Novák	novák	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	36	dep	_	_
+41	,	,	PUNCT	Z	_	44	punct	_	_
+42	E	e	X	W	Abbr=Yes	44	nmod	_	_
+43	.	.	PUNCT	Z	_	42	punct	_	_
+44	Paulíny	paulíny	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	40	conj	_	_
+45	)	)	PUNCT	Z	_	40	punct	_	_
+46	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s9
+# text = Ako títo ľudia sami seba a svoj jazyk menovali nevieme až do XV . storočia
+# orig_file_sentence durovic000_olejkarova_durovic000_bugajova#9
+1	Ako	ako	ADV	PD	PronType=Int,Rel	9	mark	_	_
+2	títo	tento	DET	PFmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	ľudia	človek	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+4	sami	sám	DET	PFmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Emp	5	xcomp	_	_
+5	seba	seba	PRON	PPhs4	Case=Acc|Number=Sing|PronType=Prs|Reflex=Yes	9	obj	_	_
+6	a	a	CCONJ	O	_	8	cc	_	_
+7	svoj	svoj	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	_
+8	jazyk	jazyk	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	conj	_	_
+9	menovali	menovať	VERB	VLjpcm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	10	ccomp	_	_
+10	nevieme	vedieť	VERB	VKepa-	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	až	až	PART	T	_	15	advmod:emph	_	_
+12	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+13	XV	xv	NUM	0	NumForm=Digit	15	nummod	_	_
+14	.	.	PUNCT	Z	_	13	punct	_	_
+15	storočia	storočie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+
+# sent_id = s10
+# text = Napriek tomu – najmä v súvise s Veľkomoravským štátom a cyrilometodskou misiou – vzniklo tu množstvo „ vlasteneckej “ mytológie , lepšie povedané nezmyslov .
+# orig_file_sentence durovic000_olejkarova_durovic000_bugajova#10
+1	Napriek	napriek	ADP	Eu3	AdpType=Prep|Case=Dat	2	case	_	_
+2	tomu	to	DET	PFns3	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	14	obl	_	_
+3	–	-	PUNCT	Z	_	9	punct	_	_
+4	najmä	najmä	PART	T	_	9	advmod:emph	_	_
+5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+6	súvise	súvis	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	fixed	_	_
+7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	5	fixed	_	_
+8	Veľkomoravským	veľkomoravský	ADJ	AAis7x:r	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	štátom	štát	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+10	a	a	CCONJ	O	_	12	cc	_	_
+11	cyrilometodskou	cyrilometodský	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	misiou	misia	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	9	conj	_	_
+13	–	-	PUNCT	Z	_	9	punct	_	_
+14	vzniklo	vzniknúť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+15	tu	tu	ADV	PD	PronType=Dem	14	advmod	_	_
+16	množstvo	množstvo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+17	„	„	PUNCT	Z	_	18	punct	_	_
+18	vlasteneckej	vlastenecký	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+19	“	“	PUNCT	Z	_	18	punct	_	_
+20	mytológie	mytológia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+21	,	,	PUNCT	Z	_	24	punct	_	_
+22	lepšie	dobre	ADV	Dy	Degree=Cmp	23	advmod	_	_
+23	povedané	povedaný	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	24	dep	_	_
+24	nezmyslov	nezmysel	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	appos	_	_
+25	.	.	PUNCT	Z	_	14	punct	_	_
+

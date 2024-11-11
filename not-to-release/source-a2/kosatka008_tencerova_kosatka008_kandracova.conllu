@@ -1,0 +1,731 @@
+# sent_id = s1
+# text = Najznámejším prípadom " úspešného " útoku kosatky na loď je potopenie jachty Lucette ( 19 ton , dĺžka 50 metrov ) skoro ráno 15 . júna 1972 , 200 námorných míľ západne od Galapág .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#1
+1	Najznámejším	známy	ADJ	AAis7z	Animacy=Inan|Case=Ins|Degree=Sup|Gender=Masc|Number=Sing	2	amod	_	_
+2	prípadom	prípad	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+3	"	"	PUNCT	Z	_	4	punct	_	_
+4	úspešného	úspešný	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	"	"	PUNCT	Z	_	4	punct	_	_
+6	útoku	útok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+7	kosatky	kosatka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+9	loď	loď	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
+10	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+11	potopenie	potopenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+12	jachty	jachta	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	Lucette	lucette	PROPN	SUfs2:r	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	(	(	PUNCT	Z	_	13	punct	_	_
+15	19	19	NUM	0	NumForm=Digit	13	dep	_	_
+16	ton	tona	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	,	,	PUNCT	Z	_	18	punct	_	_
+18	dĺžka	dĺžka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	15	conj	_	_
+19	50	50	NUM	0	NumForm=Digit	18	nummod	_	_
+20	metrov	meter	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+21	)	)	PUNCT	Z	_	13	punct	_	_
+22	skoro	skoro	ADV	Dx	Degree=Pos	23	advmod	_	_
+23	ráno	ráno	ADV	Dx	Degree=Pos	11	advmod	_	_
+24	15	15	NUM	0	NumForm=Digit	26	nummod	_	_
+25	.	.	PUNCT	Z	_	24	punct	_	_
+26	júna	jún	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+27	1972	1972	NUM	0	NumForm=Digit	26	nummod	_	_
+28	,	,	PUNCT	Z	_	29	punct	_	_
+29	200	200	NUM	0	NumForm=Digit	11	nummod	_	_
+30	námorných	námorný	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	31	amod	_	_
+31	míľ	míľa	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	_
+32	západne	západne	ADV	Dx	Degree=Pos	31	advmod	_	_
+33	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	34	case	_	_
+34	Galapág	galapágy	PROPN	SSfp2:r	Case=Gen|Gender=Fem|Number=Plur	32	obl	_	_
+35	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s2
+# text = Na loď zaútočil asi dvadsaťčlenné stádo .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#2
+1	Na	na	ADP	Eu4	AdpType=Prep|Case=Acc	2	case	_	_
+2	loď	loď	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obl:arg	_	_
+3	zaútočil	zaútočiť	VERB	VLdscn+:q	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|Typo=Yes|VerbForm=Part	0	root	_	_
+4	asi	asi	PART	T	_	5	advmod:emph	_	_
+5	dvadsaťčlenné	dvadsaťčlenný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	stádo	stádo	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+7	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s3
+# text = Aj keď hneď potom , čo zistili svoj omyl , útok skončili , bolo už neskoro .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#3
+1	Aj	aj	CCONJ	O	_	12	mark	_	_
+2	keď	keď	SCONJ	O	_	1	fixed	_	_
+3	hneď	hneď	ADV	Dx	Degree=Pos	12	advmod	_	_
+4	potom	potom	ADV	Dx	Degree=Pos	12	advmod	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	7	nsubj	_	_
+7	zistili	zistiť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	12	advcl	_	_
+8	svoj	svoj	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	_
+9	omyl	omyl	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	,	,	PUNCT	Z	_	7	punct	_	_
+11	útok	útok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+12	skončili	skončiť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	14	advcl	_	_
+13	,	,	PUNCT	Z	_	12	punct	_	_
+14	bolo	byť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+15	už	už	PART	T	_	16	advmod:emph	_	_
+16	neskoro	neskoro	ADV	Dx	Degree=Pos	14	advmod	_	_
+17	.	.	PUNCT	Z	_	14	punct	_	_
+
+# sent_id = s4
+# text = Jeden z celkovo troch útokov bol vedený proti olovenému provu lode , ktorý samozrejme vydržal ( jeden člen posádky uvidel kosatku s ťažkým poranením hlavy , čo bol asi následok tohto útoku ) , ale drevená obšívka lode tvorená štvorcentimetrovými borovicovými doskami nevydržala .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#4
+1	Jeden	jeden	NUM	NFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+2	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+3	celkovo	celkovo	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	troch	tri	NUM	NNip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nummod	_	_
+5	útokov	útok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+6	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	vedený	vedený	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+8	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	10	case	_	_
+9	olovenému	olovený	ADJ	AAis3x	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	provu	prov	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	obl	_	_
+11	lode	loď	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	,	,	PUNCT	Z	_	15	punct	_	_
+13	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	15	nsubj	_	_
+14	samozrejme	samozrejme	PART	T	_	15	advmod	_	_
+15	vydržal	vydržať	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
+16	(	(	PUNCT	Z	_	20	punct	_	_
+17	jeden	jeden	NUM	NFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nummod	_	_
+18	člen	člen	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+19	posádky	posádka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	uvidel	uvidieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	15	acl	_	_
+21	kosatku	kosatka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+22	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	24	case	_	_
+23	ťažkým	ťažký	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	poranením	poranenie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	21	nmod	_	_
+25	hlavy	hlava	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	,	,	PUNCT	Z	_	30	punct	_	_
+27	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	30	nsubj	_	_
+28	bol	byť	AUX	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	30	cop	_	_
+29	asi	asi	PART	T	_	30	advmod:emph	_	_
+30	následok	následok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	conj	_	_
+31	tohto	tento	DET	PFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	32	det	_	_
+32	útoku	útok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+33	)	)	PUNCT	Z	_	20	punct	_	_
+34	,	,	PUNCT	Z	_	43	punct	_	_
+35	ale	ale	CCONJ	O	_	43	cc	_	_
+36	drevená	drevený	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+37	obšívka	obšívka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	43	nsubj	_	_
+38	lode	loď	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	_
+39	tvorená	tvorený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	38	amod	_	_
+40	štvorcentimetrovými	štvorcentimetrový	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	42	amod	_	_
+41	borovicovými	borovicový	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	42	amod	_	_
+42	doskami	doska	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	39	obj	_	_
+43	nevydržala	vydržať	VERB	VLdscf-	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	7	conj	_	_
+44	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s5
+# text = Loď sa potopila v priebehu 5 minút , ale posádka ju ešte stihla opustiť v záchranných člnoch a po 38 dňoch ju zachránila japonská rybárska loď Toka Maru II asi 400 míľ severo ‐ severozápadne od miesta stroskotania .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#5
+1	Loď	loď	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	potopila	potopiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	priebehu	priebeh	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	5	5	NUM	0	NumForm=Digit	7	nummod	_	_
+7	minút	minúta	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	,	,	PUNCT	Z	_	13	punct	_	_
+9	ale	ale	CCONJ	O	_	13	cc	_	_
+10	posádka	posádka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+11	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+12	ešte	ešte	PART	T	_	13	advmod	_	_
+13	stihla	stihnúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+14	opustiť	opustiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	13	xcomp	_	_
+15	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+16	záchranných	záchranný	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_
+17	člnoch	čln	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	obl	_	_
+18	a	a	CCONJ	O	_	23	cc	_	_
+19	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	20	case	_	_
+20	38	38	NUM	0	NumForm=Digit	23	obl	_	_
+21	dňoch	deň	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	20	nmod	_	_
+22	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+23	zachránila	zachrániť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	13	conj	_	_
+24	japonská	japonský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+25	rybárska	rybársky	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	loď	loď	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+27	Toka	toka	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	26	nmod	_	_
+28	Maru	maru	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	27	nmod	_	_
+29	II	II	NUM	0	NumForm=Digit	27	nummod	_	_
+30	asi	asi	PART	T	_	31	advmod:emph	_	_
+31	400	400	NUM	0	NumForm=Digit	23	obl	_	_
+32	míľ	míľa	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	_
+33	severo	severo	X	Q	Hyph=Yes	32	nmod	_	_
+34	‐	‐	PUNCT	Z	_	35	punct	_	_
+35	severozápadne	severozápadne	ADV	Dx	Degree=Pos	33	conj	_	_
+36	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	37	case	_	_
+37	miesta	miesto	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	33	nmod	_	_
+38	stroskotania	stroskotanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	37	nmod	_	_
+39	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s6
+# text = Zajatie
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#6
+1	Zajatie	zajatie	PROPN	SSns1:r	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+
+# sent_id = s7
+# text = Inteligencia kosatiek , schopnosť tréningu , dobrá povesť , hravosť v zajatí a ich majestátna veľkosť spravila predstavenia s nimi veľmi populárne .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#7
+1	Inteligencia	inteligencia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+2	kosatiek	kosatka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+3	,	,	PUNCT	Z	_	4	punct	_	_
+4	schopnosť	schopnosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+5	tréningu	tréning	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	dobrá	dobrý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	povesť	povesť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+9	,	,	PUNCT	Z	_	10	punct	_	_
+10	hravosť	hravosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	zajatí	zajatie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	_
+13	a	a	CCONJ	O	_	16	cc	_	_
+14	ich	ich	DET	PUfs1	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+15	majestátna	majestátny	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	veľkosť	veľkosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+17	spravila	spraviť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+18	predstavenia	predstavenie	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	17	obj	_	_
+19	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	20	case	_	_
+20	nimi	ona	PRON	PFfp7	Case=Ins|Gender=Fem|Number=Plur|Person=3|PronType=Prs	18	nmod	_	_
+21	veľmi	veľmi	ADV	Dx	Degree=Pos	22	advmod	_	_
+22	populárne	populárny	ADJ	AAnp4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	17	obj	_	_
+23	.	.	PUNCT	Z	_	17	punct	_	_
+
+# sent_id = s8
+# text = Prvé zajatie kosatky a jej predstavenie sa uskutočnilo vo Vancouveri v roku 1964 .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#8
+1	Prvé	prvý	ADJ	NAns1	Case=Nom|Gender=Neut|Number=Sing|NumType=Ord	2	amod	_	_
+2	zajatie	zajatie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+3	kosatky	kosatka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	a	a	CCONJ	O	_	6	cc	_	_
+5	jej	jej	DET	PUns1	Case=Nom|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	predstavenie	predstavenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+8	uskutočnilo	uskutočniť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	10	case	_	_
+10	Vancouveri	vancouver	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+13	1964	1964	NUM	0	NumForm=Digit	12	nummod	_	_
+14	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s9
+# text = Počas 15 rokov bolo sa na tento účel odchytilo z Tichého oceánu asi šesťdesiat alebo sedemdesiat jedincov .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#9
+1	Počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	15	15	NUM	0	NumForm=Digit	9	obl	_	_
+3	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	aux	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pass	_	_
+6	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+7	tento	tento	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	účel	účel	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+9	odchytilo	odchytiť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+11	Tichého	tichý	ADJ	AAis2x:r	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	oceánu	oceán	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+13	asi	asi	PART	T	_	14	advmod:emph	_	_
+14	šesťdesiat	šesťdesiat	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	9	nsubj:pass	_	_
+15	alebo	alebo	CCONJ	O	_	16	cc	_	_
+16	sedemdesiat	sedemdesiat	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	14	conj	_	_
+17	jedincov	jedinec	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+18	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s10
+# text = Na konci 70 ‐ tych rokov 20 . storočia a v prvej polovici 80 ‐ tych rokov sa kosatky obvykle chytali v islandských vodách ( 50 za 5 rokov do roku 1985 ) .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#10
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	konci	koniec	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_
+3	70	70	NUM	0	NumForm=Digit	5	nummod	_	_
+4	‐	‐	PUNCT	Z	_	3	punct	_	_
+5	tych	tych	X	Q	Hyph=Yes	6	nmod	_	_
+6	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+7	20	20	NUM	0	NumForm=Digit	9	nummod	_	_
+8	.	.	PUNCT	Z	_	7	punct	_	_
+9	storočia	storočie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+10	a	a	CCONJ	O	_	13	cc	_	_
+11	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+12	prvej	prvý	ADJ	NAfs6	Case=Loc|Gender=Fem|Number=Sing|NumType=Ord	13	amod	_	_
+13	polovici	polovica	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	2	conj	_	_
+14	80	80	NUM	0	NumForm=Digit	16	nummod	_	_
+15	‐	‐	PUNCT	Z	_	14	punct	_	_
+16	tych	tych	X	Q	Hyph=Yes	17	nmod	_	_
+17	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+18	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	21	expl:pass	_	_
+19	kosatky	kosatka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	21	nsubj:pass	_	_
+20	obvykle	obvykle	ADV	Dx	Degree=Pos	21	advmod	_	_
+21	chytali	chytať	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+22	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+23	islandských	islandský	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	_
+24	vodách	voda	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	21	obl	_	_
+25	(	(	PUNCT	Z	_	26	punct	_	_
+26	50	50	NUM	0	NumForm=Digit	21	obl	_	_
+27	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	28	case	_	_
+28	5	5	NUM	0	NumForm=Digit	21	obl	_	_
+29	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+30	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	31	case	_	_
+31	roku	rok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	obl	_	_
+32	1985	1985	NUM	0	NumForm=Digit	31	nummod	_	_
+33	)	)	PUNCT	Z	_	31	punct	_	_
+34	.	.	PUNCT	Z	_	21	punct	_	_
+
+# sent_id = s11
+# text = Od tej doby začali byť kosatky úspešne odchovávane v zajatí a odchyt v prírode sa vyskytuje ojedinelo .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#11
+1	Od	od	ADP	Eu2	AdpType=Prep|Case=Gen	3	case	_	_
+2	tej	tá	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	doby	doba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+4	začali	začať	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	8	aux:pass	_	_
+6	kosatky	kosatka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+7	úspešne	úspešne	ADV	Dx	Degree=Pos	8	advmod	_	_
+8	odchovávane	odchovávaný	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	4	obj	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	zajatí	zajatie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+11	a	a	CCONJ	O	_	16	cc	_	_
+12	odchyt	odchyt	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	prírode	príroda	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+16	vyskytuje	vyskytovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	_	_
+17	ojedinelo	ojedinelo	ADV	Dx	Degree=Pos	16	advmod	_	_
+18	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s12
+# text = U kosatiek v zajatí sa môžu vyvinúť patologické zmeny ako zrútenie chrbtovej plutvy , ktoré postihuje asi 60 ‐ 90 % chovaných samcov .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#12
+1	U	u	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	kosatiek	kosatka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	7	obl:arg	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	zajatí	zajatie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	2	nmod	_	_
+5	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+6	môžu	môcť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	vyvinúť	vyvinúť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+8	patologické	patologický	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
+9	zmeny	zmena	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+10	ako	ako	SCONJ	O	_	11	cc	_	_
+11	zrútenie	zrútenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	9	appos	_	_
+12	chrbtovej	chrbtový	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	plutvy	plutva	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	,	,	PUNCT	Z	_	16	punct	_	_
+15	ktoré	ktorý	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	16	nsubj	_	_
+16	postihuje	postihovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	acl	_	_
+17	asi	asi	PART	T	_	18	advmod:emph	_	_
+18	60	60	NUM	0	NumForm=Digit	16	obj	_	_
+19	‐	‐	PUNCT	Z	_	20	punct	_	_
+20	90	90	NUM	0	NumForm=Digit	18	conj	_	_
+21	%	%	SYM	Z	_	18	nmod	_	_
+22	chovaných	chovaný	ADJ	Gtmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	23	amod	_	_
+23	samcov	samec	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+24	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s13
+# text = V zajatí boli zaznamenané prípady kosatiek napadajúcich ľudí .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#13
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	zajatí	zajatie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	boli	byť	AUX	VLepci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	zaznamenané	zaznamenaný	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+5	prípady	prípad	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+6	kosatiek	kosatka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	napadajúcich	napádajúci	ADJ	Gkfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	6	amod	_	_
+8	ľudí	človek	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+9	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s14
+# text = V roku 1991 zabila skupina kosatiek vo vodnom parku Sealand of Victoria ( kde nebolo zamestnancom dovolené vstupovať do vody ku kosatkám ) trénerku Keltie Byrne .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#14
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	1991	1991	NUM	0	NumForm=Digit	2	nummod	_	_
+4	zabila	zabiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	skupina	skupina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+6	kosatiek	kosatka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	9	case	_	_
+8	vodnom	vodný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	parku	park	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+10	Sealand	sealand	X	%	Foreign=Yes	9	nmod	_	_
+11	of	of	X	%	Foreign=Yes	12	case	_	_
+12	Victoria	victoria	X	%	Foreign=Yes	10	flat:foreign	_	_
+13	(	(	PUNCT	Z	_	17	punct	_	_
+14	kde	kde	ADV	PD	PronType=Int,Rel	17	advmod	_	_
+15	nebolo	byť	AUX	VLescn-	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	17	aux:pass	_	_
+16	zamestnancom	zamestnanec	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	17	obj	_	_
+17	dovolené	dovolený	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	9	amod	_	_
+18	vstupovať	vstupovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	17	csubj:pass	_	_
+19	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	20	case	_	_
+20	vody	voda	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	18	obl	_	_
+21	ku	k	ADP	Ev3	AdpType=Voc|Case=Dat	22	case	_	_
+22	kosatkám	kosatka	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	18	obl:arg	_	_
+23	)	)	PUNCT	Z	_	17	punct	_	_
+24	trénerku	trénerka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	26	nmod	_	_
+25	Keltie	keltie	PROPN	SUfs4:r	Case=Acc|Gender=Fem|Number=Sing	26	nmod	_	_
+26	Byrne	byrne	PROPN	SUfs4:r	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+27	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s15
+# text = Zvieratá asi nevedeli , že človek nevydrží dlho pod vodou .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#15
+1	Zvieratá	zviera	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+2	asi	asi	PART	T	_	3	advmod:emph	_	_
+3	nevedeli	vedieť	VERB	VLepcn-	Aspect=Imp|Gender=Neut|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+4	,	,	PUNCT	Z	_	7	punct	_	_
+5	že	že	SCONJ	O	_	7	mark	_	_
+6	človek	človek	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	nevydrží	vydržať	VERB	VKdsc-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	dlho	dlho	ADV	Dx	Degree=Pos	7	advmod	_	_
+9	pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	10	case	_	_
+10	vodou	voda	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+11	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s16
+# text = V roku 1999 jedna z týchto kosatiek údajne zabila turistu , ktorý sa v noci vkradol do bazénu .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#16
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+3	1999	1999	NUM	0	NumForm=Digit	2	nummod	_	_
+4	jedna	jeden	NUM	NFfs1	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+5	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+6	týchto	táto	DET	PFfp2	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
+7	kosatiek	kosatka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+8	údajne	údajne	PART	T	_	9	advmod	_	_
+9	zabila	zabiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	turistu	turista	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	,	,	PUNCT	Z	_	16	punct	_	_
+12	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	16	nsubj	_	_
+13	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	noci	noc	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+16	vkradol	vkradnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
+17	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	18	case	_	_
+18	bazénu	bazén	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+19	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s17
+# text = ( Uvažuje sa však tiež , že turista mohol byť obeťou podchladenia ) .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#17
+1	(	(	PUNCT	Z	_	2	punct	_	_
+2	Uvažuje	uvažovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	2	expl:pass	_	_
+4	však	však	PART	T	_	2	advmod	_	_
+5	tiež	tiež	PART	T	_	2	advmod:emph	_	_
+6	,	,	PUNCT	Z	_	9	punct	_	_
+7	že	že	SCONJ	O	_	9	mark	_	_
+8	turista	turista	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	mohol	môcť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	ccomp	_	_
+10	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	11	cop	_	_
+11	obeťou	obeť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	9	xcomp	_	_
+12	podchladenia	podchladenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	)	)	PUNCT	Z	_	2	punct	_	_
+14	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s18
+# text = Na konci júla 2004 kosatka počas predstavenia parku SeaWorld v Texase strčila svojho trénera , ktorý sa o ňu staral už 10 rokov , pod vodu a tlačila ho proti okraju nádrže ; trénera sa podarilo zachrániť z dosahu zvieraťa až po niekoľkých minútach .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#18
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	konci	koniec	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+3	júla	júl	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	2004	2004	NUM	0	NumForm=Digit	3	nummod	_	_
+5	kosatka	kosatka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+6	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	predstavenia	predstavenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_
+8	parku	park	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	SeaWorld	seaworld	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+10	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	11	case	_	_
+11	Texase	texas	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+12	strčila	strčiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+13	svojho	svoj	DET	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	_	_
+14	trénera	tréner	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+15	,	,	PUNCT	Z	_	20	punct	_	_
+16	ktorý	ktorý	DET	PAms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	20	nsubj	_	_
+17	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	20	expl:pv	_	_
+18	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	19	case	_	_
+19	ňu	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obl:arg	_	_
+20	staral	starať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	acl	_	_
+21	už	už	PART	T	_	22	advmod:emph	_	_
+22	10	10	NUM	0	NumForm=Digit	20	obl	_	_
+23	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	,	,	PUNCT	Z	_	20	punct	_	_
+25	pod	pod	ADP	Eu4	AdpType=Prep|Case=Acc	26	case	_	_
+26	vodu	voda	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+27	a	a	CCONJ	O	_	28	cc	_	_
+28	tlačila	tlačiť	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	conj	_	_
+29	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+30	proti	proti	ADP	Eu3	AdpType=Prep|Case=Dat	31	case	_	_
+31	okraju	okraj	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	28	obl	_	_
+32	nádrže	nádrž	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+33	;	;	PUNCT	Z	_	36	punct	_	_
+34	trénera	tréner	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	37	obj	_	_
+35	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	36	expl:pv	_	_
+36	podarilo	podariť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	conj	_	_
+37	zachrániť	zachrániť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	36	csubj	_	_
+38	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	39	case	_	_
+39	dosahu	dosah	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	obl	_	_
+40	zvieraťa	zviera	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	39	nmod	_	_
+41	až	až	PART	T	_	43	advmod:emph	_	_
+42	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	44	case	_	_
+43	niekoľkých	niekoľko	DET	PUfp6	Case=Loc|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	44	det	_	_
+44	minútach	minúta	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	36	obl	_	_
+45	.	.	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = s19
+# text = Jeden z najznámejších prípadov agresie kosatky sa odohral v auguste 1989 , keď počas predstavenia jedna samica , Kandu V ( ktorá sa do tej doby pokladala za dominantnú samicu ) udrela inú , Corky II , ktorá bola dovezená z Marineworldu v Kalifornii asi mesiac pred incidentom .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#19
+1	Jeden	jeden	NUM	NFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+2	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+3	najznámejších	známy	ADJ	AAip2z	Animacy=Inan|Case=Gen|Degree=Sup|Gender=Masc|Number=Plur	4	amod	_	_
+4	prípadov	prípad	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+5	agresie	agresia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	kosatky	kosatka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+8	odohral	odohrať	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	auguste	august	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+11	1989	1989	NUM	0	NumForm=Digit	10	nummod	_	_
+12	,	,	PUNCT	Z	_	32	punct	_	_
+13	keď	keď	SCONJ	O	_	32	mark	_	_
+14	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	15	case	_	_
+15	predstavenia	predstavenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	32	obl	_	_
+16	jedna	jeden	NUM	NFfs1	Case=Nom|Gender=Fem|Number=Sing	17	nummod	_	_
+17	samica	samica	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	_
+18	,	,	PUNCT	Z	_	19	punct	_	_
+19	Kandu	kandu	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	17	appos	_	_
+20	V	v	NUM	0	NumForm=Digit	19	nummod	_	_
+21	(	(	PUNCT	Z	_	27	punct	_	_
+22	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	27	nsubj:pass	_	_
+23	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	27	expl:pass	_	_
+24	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	26	case	_	_
+25	tej	tá	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
+26	doby	doba	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	27	obl	_	_
+27	pokladala	pokladať	VERB	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	17	acl	_	_
+28	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	30	case	_	_
+29	dominantnú	dominantný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	samicu	samica	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	27	obl:arg	_	_
+31	)	)	PUNCT	Z	_	27	punct	_	_
+32	udrela	udrieť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
+33	inú	iný	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	32	dep	_	_
+34	,	,	PUNCT	Z	_	35	punct	_	_
+35	Corky	corky	PROPN	SUfs4:r	Case=Acc|Gender=Fem|Number=Sing	33	appos	_	_
+36	II	ii	NUM	0	NumForm=Digit	35	nummod	_	_
+37	,	,	PUNCT	Z	_	40	punct	_	_
+38	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	40	nsubj:pass	_	_
+39	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	40	aux:pass	_	_
+40	dovezená	dovezený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	33	amod	_	_
+41	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	42	case	_	_
+42	Marineworldu	marineworld	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	40	obl	_	_
+43	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	44	case	_	_
+44	Kalifornii	kalifornia	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	42	nmod	_	_
+45	asi	asi	PART	T	_	46	advmod:emph	_	_
+46	mesiac	mesiac	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	40	obl	_	_
+47	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	48	case	_	_
+48	incidentom	incident	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	46	nmod	_	_
+49	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = s20
+# text = Podľa svedectva počulo celé publikum hlasný mľaskavý zvuk .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#20
+1	Podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	svedectva	svedectvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+3	počulo	počuť	VERB	VLjscn+	Aspect=Imp,Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	celé	celý	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	publikum	publikum	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+6	hlasný	hlasný	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	mľaskavý	mľaskavý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	zvuk	zvuk	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+9	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s21
+# text = Aj keď sa tréneri najprv snažili pokračovať v predstavení , ukázalo sa , že Kandu V utrpela zranenie tepny blízko svojich čeľustí , z ktorého sa začala valiť krv .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#21
+1	Aj	aj	CCONJ	O	_	6	mark	_	_
+2	keď	keď	SCONJ	O	_	1	fixed	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+4	tréneri	tréner	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	najprv	najprv	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	snažili	snažiť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	11	advcl	_	_
+7	pokračovať	pokračovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	6	xcomp	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	predstavení	predstavenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	7	obl:arg	_	_
+10	,	,	PUNCT	Z	_	6	punct	_	_
+11	ukázalo	ukázať	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pass	_	_
+13	,	,	PUNCT	Z	_	17	punct	_	_
+14	že	že	SCONJ	O	_	17	mark	_	_
+15	Kandu	kandu	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+16	V	v	NUM	0	NumForm=Digit	15	nummod	_	_
+17	utrpela	utrpieť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	csubj:pass	_	_
+18	zranenie	zranenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+19	tepny	tepna	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	blízko	blízko	ADP	Eu2	AdpType=Prep|Case=Gen	22	case	_	_
+21	svojich	svoj	DET	PFfp2	Case=Gen|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	22	det	_	_
+22	čeľustí	čeľusť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+23	,	,	PUNCT	Z	_	27	punct	_	_
+24	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	25	case	_	_
+25	ktorého	ktorý	DET	PAns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Int,Rel	28	obl:arg	_	_
+26	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	28	expl:pv	_	_
+27	začala	začať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	18	acl	_	_
+28	valiť	valiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	27	xcomp	_	_
+29	krv	krv	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+30	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s22
+# text = Predstavenie ukončili a po 45 minútach krvácania zomrela .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#22
+1	Predstavenie	predstavenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+2	ukončili	ukončiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	CCONJ	O	_	8	cc	_	_
+4	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	45	45	NUM	0	NumForm=Digit	8	obl	_	_
+6	minútach	minúta	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	5	nmod	_	_
+7	krvácania	krvácanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	zomrela	zomrieť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+9	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s23
+# text = Odporcovia týchto predstavení chápali takéto incidenty ako potvrdenie svojej kritiky .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#23
+1	Odporcovia	odporca	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	týchto	toto	DET	PFnp2	Case=Gen|Gender=Neut|Number=Plur|PronType=Dem	3	det	_	_
+3	predstavení	predstavenie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+4	chápali	chápať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	takéto	takýto	DET	PAip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	incidenty	incident	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+7	ako	ako	SCONJ	O	_	8	cc	_	_
+8	potvrdenie	potvrdenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+9	svojej	svoj	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	_
+10	kritiky	kritika	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s24
+# text = SeaWorld pokračoval v praxi chovania kosatiek odchytených v prírode a stal sa terčom kritiky nadácie na ochranu zvierat v prirodzenom prostredí Born Free Foundation , predovšetkým kvôli pretrvávajúcemu zajatiu kosatky Corky , ktorú sa nadácia snaží vrátiť k jej rodine do stáda A5 v Britskej Kolumbii v Kanade [ 1 ] .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#24
+1	SeaWorld	seaworld	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	pokračoval	pokračovať	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+4	praxi	prax	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	2	obl:arg	_	_
+5	chovania	chovanie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	kosatiek	kosatka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	odchytených	odchytený	ADJ	Gtfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	prírode	príroda	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+10	a	a	CCONJ	O	_	11	cc	_	_
+11	stal	stať	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+13	terčom	terč	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obj	_	_
+14	kritiky	kritika	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	nadácie	nadácia	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	17	case	_	_
+17	ochranu	ochrana	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	_
+18	zvierat	zviera	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	_
+19	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	21	case	_	_
+20	prirodzenom	prirodzený	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	prostredí	prostredie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	18	nmod	_	_
+22	Born	born	X	%	Foreign=Yes	21	nmod	_	_
+23	Free	free	X	%	Foreign=Yes	22	flat:foreign	_	_
+24	Foundation	foundation	X	%	Foreign=Yes	22	flat:foreign	_	_
+25	,	,	PUNCT	Z	_	29	punct	_	_
+26	predovšetkým	predovšetkým	PART	T	_	29	advmod:emph	_	_
+27	kvôli	kvôli	ADP	Eu3	AdpType=Prep|Case=Dat	29	case	_	_
+28	pretrvávajúcemu	pretrvávajúci	ADJ	Gkns3x	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	29	amod	_	_
+29	zajatiu	zajatie	NOUN	SSns3	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+30	kosatky	kosatka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_
+31	Corky	corky	PROPN	SUfs2:r	Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	,	,	PUNCT	Z	_	36	punct	_	_
+33	ktorú	ktorý	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	37	obj	_	_
+34	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	36	expl:pv	_	_
+35	nadácia	nadácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	36	nsubj	_	_
+36	snaží	snažiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	31	acl	_	_
+37	vrátiť	vrátiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	36	xcomp	_	_
+38	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	40	case	_	_
+39	jej	jej	DET	PUfs3	Case=Dat|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	40	det	_	_
+40	rodine	rodina	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	37	obl	_	_
+41	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	42	case	_	_
+42	stáda	stádo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	37	obl	_	_
+43	A5	a5	X	W	Abbr=Yes	42	nmod	_	_
+44	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	46	case	_	_
+45	Britskej	britský	ADJ	AAfs6x:r	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	46	amod	_	_
+46	Kolumbii	kolumbia	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	42	nmod	_	_
+47	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	48	case	_	_
+48	Kanade	kanada	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	46	nmod	_	_
+49	[	[	PUNCT	Z	_	2	punct	_	_
+50	1	1	NUM	0	NumForm=Digit	2	dep	_	_
+51	]	]	PUNCT	Z	_	2	punct	_	_
+52	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s25
+# text = Film a kultúra
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#25
+1	Film	film	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	a	a	CCONJ	O	_	3	cc	_	_
+3	kultúra	kultúra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+
+# sent_id = s26
+# text = Na konci 70 . rokov 20 . storočia hrali kosatky vo fiktívnych príbehoch úlohu hltavých predátorov .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#26
+1	Na	na	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	konci	koniec	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+3	70	70	NUM	0	NumForm=Digit	5	nummod	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+5	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+6	20	20	NUM	0	NumForm=Digit	8	nummod	_	_
+7	.	.	PUNCT	Z	_	6	punct	_	_
+8	storočia	storočie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+9	hrali	hrať	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	kosatky	kosatka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+11	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	13	case	_	_
+12	fiktívnych	fiktívny	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_
+13	príbehoch	príbeh	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	_
+14	úlohu	úloha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+15	hltavých	hltavý	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
+16	predátorov	predátor	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+17	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s27
+# text = Najextrémnejším príkladom je film Orca , ktorý sa stretol iba so slabým záujmom verejnosti a ktorý rozpráva príbeh kosatky vydávajúcej sa na cestu zúrivej pomsty po tom , čo jej druha zabili ľudia ( ide o zrejmý pokus kopírovať úspech filmu Čeľuste ) .
+# orig_file_sentence kosatka008_tencerova_kosatka008_kandracova#27
+1	Najextrémnejším	extrémny	ADJ	AAis7z	Animacy=Inan|Case=Ins|Degree=Sup|Gender=Masc|Number=Sing	2	amod	_	_
+2	príkladom	príklad	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	film	film	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	Orca	orca	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_
+6	,	,	PUNCT	Z	_	9	punct	_	_
+7	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	9	nsubj	_	_
+8	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+9	stretol	stretnúť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	acl	_	_
+10	iba	iba	PART	T	_	12	advmod:emph	_	_
+11	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	13	case	_	_
+12	slabým	slabý	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	záujmom	záujem	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl:arg	_	_
+14	verejnosti	verejnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	a	a	CCONJ	O	_	17	cc	_	_
+16	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	17	nsubj	_	_
+17	rozpráva	rozprávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	conj	_	_
+18	príbeh	príbeh	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+19	kosatky	kosatka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	vydávajúcej	vydávajúci	ADJ	Gkfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	19	amod	_	_
+21	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	20	expl:pv	_	_
+22	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	23	case	_	_
+23	cestu	cesta	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
+24	zúrivej	zúrivý	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	pomsty	pomsta	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+26	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	27	case	_	_
+27	tom	to	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	20	obl	_	_
+28	,	,	PUNCT	Z	_	32	punct	_	_
+29	čo	čo	SCONJ	O	_	32	mark	_	_
+30	jej	jej	DET	PUms4	Animacy=Anim|Case=Acc|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	31	det	_	_
+31	druha	druh	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	32	obj	_	_
+32	zabili	zabiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	27	acl	_	_
+33	ľudia	človek	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	32	nsubj	_	_
+34	(	(	PUNCT	Z	_	35	punct	_	_
+35	ide	ísť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+36	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	38	case	_	_
+37	zrejmý	zrejmý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+38	pokus	pokus	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	obl:arg	_	_
+39	kopírovať	kopírovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	38	acl	_	_
+40	úspech	úspech	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	39	obj	_	_
+41	filmu	film	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	_
+42	Čeľuste	čeľusť	PROPN	SSfp1:r	Case=Nom|Gender=Fem|Number=Plur	41	nmod	_	_
+43	)	)	PUNCT	Z	_	35	punct	_	_
+44	.	.	PUNCT	Z	_	2	punct	_	_
+

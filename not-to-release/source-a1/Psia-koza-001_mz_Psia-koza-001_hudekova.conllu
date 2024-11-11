@@ -1,0 +1,386 @@
+# sent_id = s1
+# text = 1
+# orig_file_sentence Psia-koza-001_mz_Psia-koza-001_hudekova#1
+1	1	1	NUM	0	NumForm=Digit	0	root	_	_
+
+# sent_id = s2
+# text = Prítomnosť bytosti zvanej Hádes – u starých Grékov Hádes , u Rimanov Pluto – som zistil , keď ochorela Marga , moja manželka .
+# orig_file_sentence Psia-koza-001_mz_Psia-koza-001_hudekova#2
+1	Prítomnosť	prítomnosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	16	obj	_	_
+2	bytosti	bytosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	zvanej	zvaný	ADJ	Gtfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	amod	_	_
+4	Hádes	hádes	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	obl	_	_
+5	–	–	PUNCT	Z	_	8	punct	_	_
+6	u	u	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+7	starých	starý	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	Grékov	grék	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	dep	_	_
+9	Hádes	hádes	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	u	u	ADP	Eu2	AdpType=Prep|Case=Gen	12	case	_	_
+12	Rimanov	riman	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	_
+13	Pluto	pluto	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
+14	–	–	PUNCT	Z	_	8	punct	_	_
+15	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	zistil	zistiť	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+17	,	,	PUNCT	Z	_	19	punct	_	_
+18	keď	keď	SCONJ	O	_	19	mark	_	_
+19	ochorela	ochorieť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	16	advcl	_	_
+20	Marga	marga	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+21	,	,	PUNCT	Z	_	23	punct	_	_
+22	moja	môj	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	23	det	_	_
+23	manželka	manželka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	20	appos	_	_
+24	.	.	PUNCT	Z	_	16	punct	_	_
+
+# sent_id = s3
+# text = Presnejšie , moja bývalá manželka , pretože už zomrela , práve pred rokom .
+# orig_file_sentence Psia-koza-001_mz_Psia-koza-001_hudekova#3
+1	Presnejšie	presne	ADV	Dy	Degree=Cmp	0	root	_	_
+2	,	,	PUNCT	Z	_	1	punct	_	_
+3	moja	môj	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	_
+4	bývalá	bývalý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	manželka	manželka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	1	dep	_	_
+6	,	,	PUNCT	Z	_	5	punct	_	_
+7	pretože	pretože	SCONJ	O	_	9	mark	_	_
+8	už	už	ADV	Dx	Degree=Pos	9	advmod	_	_
+9	zomrela	zomrieť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	dep	_	_
+10	,	,	PUNCT	Z	_	13	punct	_	_
+11	práve	práve	ADV	Dx	Degree=Pos	13	advmod	_	_
+12	pred	pred	ADP	Eu7	AdpType=Prep|Case=Ins	13	case	_	_
+13	rokom	rok	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+14	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s4
+# text = Samozrejme , Hádes nebol mytologickým božstvom starých Grékov či Rimanov .
+# orig_file_sentence Psia-koza-001_mz_Psia-koza-001_hudekova#4
+1	Samozrejme	samozrejme	PART	T	_	6	advmod	_	_
+2	,	,	PUNCT	Z	_	1	punct	_	_
+3	Hádes	hádes	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	nebol	byť	AUX	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	6	cop	_	_
+5	mytologickým	mytologický	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	božstvom	božstvo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	0	root	_	_
+7	starých	starý	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	Grékov	grék	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	či	či	CCONJ	O	_	10	cc	_	_
+10	Rimanov	riman	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	_
+11	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s5
+# text = Bol to obyčajný príslušník nášho rodu pominuteľných stvorení , žijúcich na tomto svete , a ja sa už dobre nepamätám , kedy a za akých okolností som mu dal také meno .
+# orig_file_sentence Psia-koza-001_mz_Psia-koza-001_hudekova#5
+1	Bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	cop	_	_
+2	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	discourse	_	_
+3	obyčajný	obyčajný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	príslušník	príslušník	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	nášho	náš	DET	PFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
+6	rodu	rod	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	pominuteľných	pominuteľný	ADJ	AAnp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	8	amod	_	_
+8	stvorení	stvorenie	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+9	,	,	PUNCT	Z	_	10	punct	_	_
+10	žijúcich	žijúci	ADJ	Gknp2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	8	amod	_	_
+11	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+12	tomto	tento	DET	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	svete	svet	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+14	,	,	PUNCT	Z	_	10	punct	_	_
+15	a	a	CCONJ	O	_	20	cc	_	_
+16	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+17	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	20	expl:pv	_	_
+18	už	už	PART	T	_	20	advmod	_	_
+19	dobre	dobre	ADV	Dx	Degree=Pos	20	advmod	_	_
+20	nepamätám	pamätať	VERB	VKesa-	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	conj	_	_
+21	,	,	PUNCT	Z	_	29	punct	_	_
+22	kedy	kedy	ADV	PD	PronType=Int,Rel	29	advmod	_	_
+23	a	a	CCONJ	O	_	26	cc	_	_
+24	za	za	ADP	Eu2	AdpType=Prep|Case=Gen	26	case	_	_
+25	akých	aký	DET	PAfp2	Case=Gen|Gender=Fem|Number=Plur|PronType=Int,Rel	26	det	_	_
+26	okolností	okolnosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	22	conj	_	_
+27	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	iobj	_	_
+29	dal	dať	VERB	VLjsam+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	20	ccomp	_	_
+30	také	taký	DET	PAns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	31	det	_	_
+31	meno	meno	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	29	obj	_	_
+32	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s6
+# text = Možno som ho takto nazval v dôsledku toho , čo sa označuje ako myšlienková asociácia .
+# orig_file_sentence Psia-koza-001_mz_Psia-koza-001_hudekova#6
+1	Možno	možno	PART	T	_	5	advmod	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+4	takto	takto	ADV	PD	PronType=Dem	5	advmod	_	_
+5	nazval	nazvať	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+7	dôsledku	dôsledok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	fixed	_	_
+8	toho	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	_
+9	,	,	PUNCT	Z	_	12	punct	_	_
+10	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	12	mark	_	_
+11	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+12	označuje	označovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	acl	_	_
+13	ako	ako	SCONJ	O	_	15	cc	_	_
+14	myšlienková	myšlienkový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	asociácia	asociácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	12	obj	_	_
+16	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s7
+# text = Všetko bola len myšlienková asociácia , nič viac .
+# orig_file_sentence Psia-koza-001_mz_Psia-koza-001_hudekova#7
+1	Všetko	všetok	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	5	nsubj	_	_
+2	bola	byť	AUX	VLescf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	cop	_	_
+3	len	len	PART	T	_	5	advmod:emph	_	_
+4	myšlienková	myšlienkový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	asociácia	asociácia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+6	,	,	PUNCT	Z	_	7	punct	_	_
+7	nič	nič	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	5	conj	_	_
+8	viac	viac	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	5	dep	_	_
+9	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s8
+# text = Pritom však počúvam , že i Hádes zomrel .
+# orig_file_sentence Psia-koza-001_mz_Psia-koza-001_hudekova#8
+1	Pritom	pritom	CCONJ	O	_	3	advmod	_	_
+2	však	však	CCONJ	O	_	3	cc	_	_
+3	počúvam	počúvať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	,	,	PUNCT	Z	_	8	punct	_	_
+5	že	že	SCONJ	O	_	8	mark	_	_
+6	i	i	CCONJ	O	_	7	advmod:emph	_	_
+7	Hádes	hádes	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	zomrel	zomrieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	ccomp	_	_
+9	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s9
+# text = Už ho nevídam na jeho stálom mieste , necítim jeho pohľad a nevnímam jeho pochmúrny úsmev .
+# orig_file_sentence Psia-koza-001_mz_Psia-koza-001_hudekova#9
+1	Už	už	ADV	Dx	Degree=Pos	3	advmod	_	_
+2	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	nevídam	vídať	VERB	VKesa-	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+5	jeho	jeho	DET	PUns6	Case=Loc|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+6	stálom	stály	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	mieste	miesto	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+8	,	,	PUNCT	Z	_	9	punct	_	_
+9	necítim	cítiť	VERB	VKesa-	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	jeho	jeho	DET	PUis4	Animacy=Inan|Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	pohľad	pohľad	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	a	a	CCONJ	O	_	13	cc	_	_
+13	nevnímam	vnímať	VERB	VKesa-	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	conj	_	_
+14	jeho	jeho	DET	PUis4	Animacy=Inan|Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+15	pochmúrny	pochmúrny	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	úsmev	úsmev	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+17	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s10
+# text = Ale ja neverím tomu , čo sa hovorí .
+# orig_file_sentence Psia-koza-001_mz_Psia-koza-001_hudekova#10
+1	Ale	ale	CCONJ	O	_	3	cc	_	_
+2	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	neverím	veriť	VERB	VKesa-	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tomu	to	DET	PFns3	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	_
+5	,	,	PUNCT	Z	_	8	punct	_	_
+6	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	8	mark	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+8	hovorí	hovoriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	acl	_	_
+9	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s11
+# text = Chýry , podľa ktorých vraj zomrel počas mojej neprítomnosti , musia byť úskokom , ktorý ma má zmiasť , ktorý ma má zničiť .
+# orig_file_sentence Psia-koza-001_mz_Psia-koza-001_hudekova#11
+1	Chýry	chýr	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+2	,	,	PUNCT	Z	_	6	punct	_	_
+3	podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	ktorých	ktorý	DET	PAip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|PronType=Int,Rel	6	obl:arg	_	_
+5	vraj	vraj	PART	T	_	6	advmod	_	_
+6	zomrel	zomrieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	acl	_	_
+7	počas	počas	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+8	mojej	môj	DET	PFfs2	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det	_	_
+9	neprítomnosti	neprítomnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+10	,	,	PUNCT	Z	_	6	punct	_	_
+11	musia	musieť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	13	cop	_	_
+13	úskokom	úskok	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	xcomp	_	_
+14	,	,	PUNCT	Z	_	17	punct	_	_
+15	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	17	nsubj	_	_
+16	ma	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+17	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	acl	_	_
+18	zmiasť	zmiasť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	17	xcomp	_	_
+19	,	,	PUNCT	Z	_	22	punct	_	_
+20	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	22	nsubj	_	_
+21	ma	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	22	iobj	_	_
+22	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	conj	_	_
+23	zničiť	zničiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	22	xcomp	_	_
+24	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s12
+# text = V uličke vedúcej poza dom , kde bývam , je múr , kam sa vylepujú rôzne oznamy ; ide viac ‐ menej o to , aby sa na ňom objavilo oznámenie o mojej smrti .
+# orig_file_sentence Psia-koza-001_mz_Psia-koza-001_hudekova#12
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	uličke	ulička	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+3	vedúcej	vedúci	ADJ	Gkfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	2	amod	_	_
+4	poza	poza	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	_	_
+5	dom	dom	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+6	,	,	PUNCT	Z	_	8	punct	_	_
+7	kde	kde	ADV	PD	PronType=Int,Rel	8	advmod	_	_
+8	bývam	bývať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	acl	_	_
+9	,	,	PUNCT	Z	_	8	punct	_	_
+10	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	múr	múr	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	,	,	PUNCT	Z	_	15	punct	_	_
+13	kam	kam	ADV	PD	PronType=Int,Rel	15	advmod	_	_
+14	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+15	vylepujú	vylepovať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	acl	_	_
+16	rôzne	rôzny	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_
+17	oznamy	oznam	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+18	;	;	PUNCT	Z	_	19	punct	_	_
+19	ide	ísť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	conj	_	_
+20	viac	viac	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	_
+21	‐	‐	PUNCT	Z	_	22	punct	_	_
+22	menej	menej	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	20	conj	_	_
+23	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	24	case	_	_
+24	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	19	obl:arg	_	_
+25	,	,	PUNCT	Z	_	30	punct	_	_
+26	aby	aby	SCONJ	OY	Mood=Cnd	30	mark	_	_
+27	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	30	expl:pv	_	_
+28	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	29	case	_	_
+29	ňom	on	PRON	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obl	_	_
+30	objavilo	objaviť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	24	acl	_	_
+31	oznámenie	oznámenie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	30	nsubj	_	_
+32	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	34	case	_	_
+33	mojej	môj	DET	PFfs6	Case=Loc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	34	det	_	_
+34	smrti	smrť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	31	nmod	_	_
+35	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = s13
+# text = Vidím , že začínam strácať niť .
+# orig_file_sentence Psia-koza-001_mz_Psia-koza-001_hudekova#13
+1	Vidím	vidieť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	,	,	PUNCT	Z	_	4	punct	_	_
+3	že	že	SCONJ	O	_	4	mark	_	_
+4	začínam	začínať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	strácať	strácať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+6	niť	niť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s14
+# text = Chcem rozpovedať istý príbeh , a nechtiac ho zamotávam .
+# orig_file_sentence Psia-koza-001_mz_Psia-koza-001_hudekova#14
+1	Chcem	chcieť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	rozpovedať	rozpovedať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	xcomp	_	_
+3	istý	istý	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	príbeh	príbeh	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	,	,	PUNCT	Z	_	9	punct	_	_
+6	a	a	CCONJ	O	_	9	cc	_	_
+7	nechtiac	nechtiac	ADV	Dx	Degree=Pos	9	advmod	_	_
+8	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	zamotávam	zamotávať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+10	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s15
+# text = A čo je ešte horšie , zároveň ho znejasňujem .
+# orig_file_sentence Psia-koza-001_mz_Psia-koza-001_hudekova#15
+1	A	a	CCONJ	O	_	5	cc	_	_
+2	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	ešte	ešte	PART	T	_	5	advmod:emph	_	_
+5	horšie	zlý	ADJ	AAns1y	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	0	root	_	_
+6	,	,	PUNCT	Z	_	9	punct	_	_
+7	zároveň	zároveň	ADV	Dx	Degree=Pos	9	advmod	_	_
+8	ho	on	PRON	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	znejasňujem	znejasňovať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
+10	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s16
+# text = Ako je známe , nikto nemá rád zamotané veci , ktoré sú navyše nejasné .
+# orig_file_sentence Psia-koza-001_mz_Psia-koza-001_hudekova#16
+1	Ako	ako	SCONJ	O	_	3	mark	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	známe	známy	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	advcl	_	_
+4	,	,	PUNCT	Z	_	3	punct	_	_
+5	nikto	nikto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	6	nsubj	_	_
+6	nemá	mať	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	rád	rád	ADJ	AUms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	xcomp	_	_
+8	zamotané	zamotaný	ADJ	Gtfp4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	veci	vec	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	6	iobj	_	_
+10	,	,	PUNCT	Z	_	14	punct	_	_
+11	ktoré	ktorý	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	14	nsubj	_	_
+12	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	navyše	navyše	PART	T	_	14	advmod	_	_
+14	nejasné	nejasný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	acl	_	_
+15	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s17
+# text = Preto by bolo rozumné začať niečím jasnejším , nekomplikovaným , napríklad niečím o sebe .
+# orig_file_sentence Psia-koza-001_mz_Psia-koza-001_hudekova#17
+1	Preto	preto	ADV	PD	PronType=Dem	4	mark	_	_
+2	by	by	AUX	Y	Mood=Cnd	4	aux	_	_
+3	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	cop	_	_
+4	rozumné	rozumný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+5	začať	začať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	csubj	_	_
+6	niečím	niečo	PRON	PFns7	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind	5	obl	_	_
+7	jasnejším	jasný	ADJ	AAns7y	Case=Ins|Degree=Cmp|Gender=Neut|Number=Sing	6	amod	_	_
+8	,	,	PUNCT	Z	_	9	punct	_	_
+9	nekomplikovaným	komplikovaný	ADJ	Gtns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	7	conj	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	napríklad	napríklad	PART	T	_	12	cc	_	_
+12	niečím	niečo	PRON	PFns7	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind	6	appos	_	_
+13	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	14	case	_	_
+14	sebe	seba	PRON	PPhs6	Case=Loc|Number=Sing|PronType=Prs|Reflex=Yes	12	nmod	_	_
+15	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s18
+# text = Potom by azda bolo ľahšie sledovať tento príbeh , na ktorého nie veľmi sľubnom začiatku boli Margina smrť a takzvaný Hádes .
+# orig_file_sentence Psia-koza-001_mz_Psia-koza-001_hudekova#18
+1	Potom	potom	ADV	Dx	Degree=Pos	5	advmod	_	_
+2	by	by	AUX	Y	Mood=Cnd	5	aux	_	_
+3	azda	azda	PART	T	_	5	advmod	_	_
+4	bolo	byť	AUX	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	cop	_	_
+5	ľahšie	ľahko	ADV	Dy	Degree=Cmp	0	root	_	_
+6	sledovať	sledovať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	csubj	_	_
+7	tento	tento	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	príbeh	príbeh	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+9	,	,	PUNCT	Z	_	16	punct	_	_
+10	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+11	ktorého	ktorý	DET	PAis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Int,Rel	15	amod	_	_
+12	nie	nie	PART	T	_	13	advmod	_	_
+13	veľmi	veľmi	ADV	Dx	Degree=Pos	14	advmod	_	_
+14	sľubnom	sľubný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	začiatku	začiatok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+16	boli	byť	VERB	VLepco+	Aspect=Imp|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+17	Margina	margin	ADJ	AFfs1x:r	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	smrť	smrť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+19	a	a	CCONJ	O	_	21	cc	_	_
+20	takzvaný	takzvaný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	Hádes	hádes	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	conj	_	_
+22	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s19
+# text = Podľa možnosti by to malo byť komické .
+# orig_file_sentence Psia-koza-001_mz_Psia-koza-001_hudekova#19
+1	Podľa	podľa	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	možnosti	možnosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+3	by	by	AUX	Y	Mood=Cnd	5	aux	_	_
+4	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+5	malo	mať	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	byť	byť	AUX	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	7	cop	_	_
+7	komické	komický	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	xcomp	_	_
+8	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s20
+# text = Aby sa ľudia išli popukať od smiechu , nech sa spolu s nimi poriadne zasmejem aj ja .
+# orig_file_sentence Psia-koza-001_mz_Psia-koza-001_hudekova#20
+1	Aby	aby	SCONJ	OY	Mood=Cnd	4	mark	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+3	ľudia	človek	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	išli	ísť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	popukať	popukať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+6	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	smiechu	smiech	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+8	,	,	PUNCT	Z	_	15	punct	_	_
+9	nech	nech	SCONJ	O	_	15	mark	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+11	spolu	spolu	ADP	Eu7	AdpType=Prep|Case=Ins	13	case	_	_
+12	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	11	fixed	_	_
+13	nimi	on	PRON	PFmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	obl	_	_
+14	poriadne	poriadne	ADV	Dx	Degree=Pos	15	advmod	_	_
+15	zasmejem	zasmiať	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+16	aj	aj	PART	T	_	17	advmod:emph	_	_
+17	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+18	.	.	PUNCT	Z	_	4	punct	_	_
+

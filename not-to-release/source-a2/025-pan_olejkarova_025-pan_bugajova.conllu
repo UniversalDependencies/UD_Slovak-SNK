@@ -1,0 +1,234 @@
+# sent_id = s1
+# text = “ Pousilujem sa . “
+# orig_file_sentence 025-pan_olejkarova_025-pan_bugajova#1
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Pousilujem	pousilovať	VERB	VKdsa+	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+4	.	.	PUNCT	Z	_	2	punct	_	_
+5	“	“	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s2
+# text = John sa vystrel , vypäl hruď , ale bol nesmierne smutný .
+# orig_file_sentence 025-pan_olejkarova_025-pan_bugajova#2
+1	John	john	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	vystrel	vystrieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	,	,	PUNCT	Z	_	5	punct	_	_
+5	vypäl	vypnúť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+6	hruď	hruď	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	,	,	PUNCT	Z	_	11	punct	_	_
+8	ale	ale	CCONJ	O	_	11	cc	_	_
+9	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	cop	_	_
+10	nesmierne	nesmierne	ADV	Dx	Degree=Pos	11	advmod	_	_
+11	smutný	smutný	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	_
+12	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s3
+# text = Michael si utrel slzičku a Wendy ho ešte na rozlúčku pobozkala na líčko .
+# orig_file_sentence 025-pan_olejkarova_025-pan_bugajova#3
+1	Michael	michael	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	si	si	PRON	R	PronType=Prs|Reflex=Yes	3	iobj	_	_
+3	utrel	utrieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	slzičku	slzička	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	a	a	CCONJ	O	_	11	cc	_	_
+6	Wendy	wendy	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+7	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+8	ešte	ešte	PART	T	_	11	advmod:emph	_	_
+9	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+10	rozlúčku	rozlúčka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+11	pobozkala	pobozkať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+12	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+13	líčko	líčko	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
+14	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s4
+# text = Pirátsky kapitán mal už tých nežností akurát dosť .
+# orig_file_sentence 025-pan_olejkarova_025-pan_bugajova#4
+1	Pirátsky	pirátsky	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	kapitán	kapitán	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	mal	mať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	už	už	PART	T	_	3	advmod:emph	_	_
+5	tých	tá	DET	PFfp2	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+6	nežností	nežnosť	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	3	obj	_	_
+7	akurát	akurát	PART	T	_	8	advmod:emph	_	_
+8	dosť	dosť	ADV	Dx	Degree=Pos	3	advmod	_	_
+9	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s5
+# text = Dal jednému zo svojich mužov znamenie .
+# orig_file_sentence 025-pan_olejkarova_025-pan_bugajova#5
+1	Dal	dať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	jednému	jeden	NUM	NFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	iobj	_	_
+3	zo	z	ADP	Ev2	AdpType=Voc|Case=Gen	5	case	_	_
+4	svojich	svoj	DET	PFmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	_
+5	mužov	muž	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+6	znamenie	znamenie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+7	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s6
+# text = Ten schytil Wendy a sácal ju cez palubu k mostíku .
+# orig_file_sentence 025-pan_olejkarova_025-pan_bugajova#6
+1	Ten	ten	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	schytil	schytiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	Wendy	wendy	PROPN	SUfs4:r	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	a	a	CCONJ	O	_	5	cc	_	_
+5	sácal	sácať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	conj	_	_
+6	ju	ona	PRON	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	cez	cez	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+8	palubu	paluba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+9	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	10	case	_	_
+10	mostíku	mostík	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	obl	_	_
+11	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s7
+# text = “ Dolu s tebou ! “
+# orig_file_sentence 025-pan_olejkarova_025-pan_bugajova#7
+1	“	“	PUNCT	Z	_	2	punct	_	_
+2	Dolu	dolu	ADV	Dx	Degree=Pos	0	root	_	_
+3	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	4	case	_	_
+4	tebou	ty	PRON	PPhs7	Case=Ins|Number=Sing|Person=2|PronType=Prs	2	dep	_	_
+5	!	!	PUNCT	Z	_	2	punct	_	_
+6	“	“	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s8
+# text = Hook prikázal , aby chlapcov opäť pripútali k sťažňu , nech neprekážajú , keď budú jeho muži vliecť Wendy na mostík , čo viedol cez palubu .
+# orig_file_sentence 025-pan_olejkarova_025-pan_bugajova#8
+1	Hook	hook	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	prikázal	prikázať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	,	,	PUNCT	Z	_	7	punct	_	_
+4	aby	aby	SCONJ	OY	Mood=Cnd	7	mark	_	_
+5	chlapcov	chlapec	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+6	opäť	opäť	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	pripútali	pripútať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	2	ccomp	_	_
+8	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	9	case	_	_
+9	sťažňu	sťažeň	NOUN	SSis3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	obl	_	_
+10	,	,	PUNCT	Z	_	12	punct	_	_
+11	nech	nech	SCONJ	O	_	12	mark	_	_
+12	neprekážajú	prekážať	VERB	VKepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+13	,	,	PUNCT	Z	_	18	punct	_	_
+14	keď	keď	SCONJ	O	_	18	mark	_	_
+15	budú	byť	AUX	VBepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	18	aux	_	_
+16	jeho	jeho	DET	PUmp1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+17	muži	muž	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+18	vliecť	vliecť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	12	advcl	_	_
+19	Wendy	wendy	PROPN	SUfs4:r	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+20	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	21	case	_	_
+21	mostík	mostík	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
+22	,	,	PUNCT	Z	_	24	punct	_	_
+23	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	24	mark	_	_
+24	viedol	viesť	VERB	VLesci+	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	21	acl	_	_
+25	cez	cez	ADP	Eu4	AdpType=Prep|Case=Acc	26	case	_	_
+26	palubu	paluba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	24	obl	_	_
+27	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s9
+# text = Krutý kapitán nedočkavo hľadel , ako dievčina s hrdo vztýčenou hlavou pomaly kráča po mostíku nad temnou zčerenou morskou hladinou .
+# orig_file_sentence 025-pan_olejkarova_025-pan_bugajova#9
+1	Krutý	krutý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	kapitán	kapitán	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	nedočkavo	nedočkavo	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	hľadel	hľadieť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	,	,	PUNCT	Z	_	13	punct	_	_
+6	ako	ako	SCONJ	O	_	13	mark	_	_
+7	dievčina	dievčina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+8	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	11	case	_	_
+9	hrdo	hrdo	ADV	Dx	Degree=Pos	10	advmod	_	_
+10	vztýčenou	vztýčený	ADJ	Gtfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	hlavou	hlava	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	7	nmod	_	_
+12	pomaly	pomaly	ADV	Dx	Degree=Pos	13	advmod	_	_
+13	kráča	kráčať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+14	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	mostíku	mostík	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+16	nad	nad	ADP	Eu7	AdpType=Prep|Case=Ins	20	case	_	_
+17	temnou	temný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+18	zčerenou	zčerený	ADJ	Gtfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	20	amod	_	_
+19	morskou	morský	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	hladinou	hladina	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	_
+21	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s10
+# text = Za ňou vykrikovali krvilační piráti .
+# orig_file_sentence 025-pan_olejkarova_025-pan_bugajova#10
+1	Za	za	ADP	Eu7	AdpType=Prep|Case=Ins	2	case	_	_
+2	ňou	ona	PRON	PFfs7	Case=Ins|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+3	vykrikovali	vykrikovať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	krvilační	krvilačný	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+5	piráti	pirát	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+6	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s11
+# text = Hook sa usmial .
+# orig_file_sentence 025-pan_olejkarova_025-pan_bugajova#11
+1	Hook	hook	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	usmial	usmiať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s12
+# text = Nepoznal krajší pohľad , ako keď niekto kráča na koniec mostíka .
+# orig_file_sentence 025-pan_olejkarova_025-pan_bugajova#12
+1	Nepoznal	poznať	VERB	VLescm-	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+2	krajší	pekný	ADJ	AAis4y	Animacy=Inan|Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	3	amod	_	_
+3	pohľad	pohľad	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+4	,	,	PUNCT	Z	_	8	punct	_	_
+5	ako	ako	SCONJ	O	_	8	mark	_	_
+6	keď	keď	SCONJ	O	_	5	fixed	_	_
+7	niekto	niekto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
+8	kráča	kráčať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	acl	_	_
+9	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	_	_
+10	koniec	koniec	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+11	mostíka	mostík	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s13
+# text = Srdce mu od radosti poskočilo , keď Wendy urobila posledný krôčik a zmizla .
+# orig_file_sentence 025-pan_olejkarova_025-pan_bugajova#13
+1	Srdce	srdce	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+3	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	radosti	radosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+5	poskočilo	poskočiť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	,	,	PUNCT	Z	_	9	punct	_	_
+7	keď	keď	SCONJ	O	_	9	mark	_	_
+8	Wendy	wendy	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	urobila	urobiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	advcl	_	_
+10	posledný	posledný	ADJ	NAis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	11	amod	_	_
+11	krôčik	krôčik	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	a	a	CCONJ	O	_	13	cc	_	_
+13	zmizla	zmiznúť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	conj	_	_
+14	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s14
+# text = Krutá odplata
+# orig_file_sentence 025-pan_olejkarova_025-pan_bugajova#14
+1	Krutá	krutý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	odplata	odplata	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = s15
+# text = Kde toľkú opovážlivosť vzali , že na krstiny Zorničky ma nepozvali , hromy ‐ blesky oblohu križujte , sťa víchor ma tam privejte .
+# orig_file_sentence 025-pan_olejkarova_025-pan_bugajova#15
+1	Kde	kde	ADV	PD	PronType=Int,Rel	4	advmod	_	_
+2	toľkú	toľký	PRON	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs	3	nmod	_	_
+3	opovážlivosť	opovážlivosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+4	vzali	vziať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	,	,	PUNCT	Z	_	11	punct	_	_
+6	že	že	SCONJ	O	_	11	mark	_	_
+7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+8	krstiny	krstiny	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	11	obl	_	_
+9	Zorničky	zornička	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	ma	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+11	nepozvali	pozvať	VERB	VLdpcm-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	3	acl	_	_
+12	,	,	PUNCT	Z	_	17	punct	_	_
+13	hromy	hrom	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+14	‐	-	PUNCT	Z	_	15	punct	_	_
+15	blesky	blesk	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	conj	_	_
+16	oblohu	obloha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
+17	križujte	križovať	VERB	VMepb+	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	4	conj	_	_
+18	,	,	PUNCT	Z	_	23	punct	_	_
+19	sťa	sťa	SCONJ	O	_	23	mark	_	_
+20	víchor	víchor	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	iobj	_	_
+21	ma	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	23	obj	_	_
+22	tam	tam	ADV	PD	PronType=Dem	23	advmod	_	_
+23	privejte	priviať	VERB	VMdpb+	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	17	advcl	_	_
+24	.	.	PUNCT	Z	_	4	punct	_	_
+

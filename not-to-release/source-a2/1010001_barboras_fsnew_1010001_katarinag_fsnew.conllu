@@ -1,0 +1,876 @@
+# sent_id = s1
+# text = KNIHY
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#1
+1	KNIHY	kniha	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+
+# sent_id = s2
+# text = Stefan Zweig : Šachová novela - Schachnovelle
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#2
+1	Stefan	stefan	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Zweig	zweig	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	:	:	PUNCT	ZIP	_	2	punct	_	_
+4	Šachová	šachový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	novela	novela	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	_
+6	-	-	PUNCT	ZIP	_	7	punct	_	_
+7	Schachnovelle	schachnovelle	X	%	Foreign=Yes	5	conj	_	_
+
+# sent_id = s3
+# text = Petrus , Bratislava 2001 , preložila Alma Münzová
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#3
+1	Petrus	petrus	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	,	,	PUNCT	ZIP	_	1	punct	_	_
+3	Bratislava	bratislava	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	1	dep	_	_
+4	2001	2001	NUM	0	NumForm=Digit	1	dep	_	_
+5	,	,	PUNCT	ZIP	_	1	punct	_	_
+6	preložila	preložiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	dep	_	_
+7	Alma	alma	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_
+8	Münzová	münzová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+
+# sent_id = s4
+# text = V edícii bilingválnych knižiek vydavateľstva Petrus má po doterajšej angličtine premiéru aj nemčina .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#4
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	edícii	edícia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+3	bilingválnych	bilingválny	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+4	knižiek	knižka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+5	vydavateľstva	vydavateľstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	Petrus	petrus	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+7	má	mať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+9	doterajšej	doterajší	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	angličtine	angličtina	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	7	obl:arg	_	_
+11	premiéru	premiéra	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+12	aj	aj	CCONJ	O	_	13	advmod:emph	_	_
+13	nemčina	nemčina	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+14	.	.	PUNCT	ZIP	_	7	punct	_	_
+
+# sent_id = s5
+# text = Stefan Zweig , autor vynikajúcich románov Hviezdne hodiny ľudstva , Erasmus Rotterdamský , Mária Antoinetta či Joseph Fouché , jeden z tých nemeckých spisovateľov , ktorí museli po nástupe nacizmu v tridsiatych rokoch emigrovať , a nakoniec sám nevie nájsť východisko z tých krušných čias , sa predstavuje na slovenskom trhu Šachovou novelou .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#5
+1	Stefan	stefan	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Zweig	zweig	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	48	nsubj:pass	_	_
+3	,	,	PUNCT	ZIP	_	4	punct	_	_
+4	autor	autor	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+5	vynikajúcich	vynikajúci	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+6	románov	román	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	Hviezdne	hviezdny	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	hodiny	hodiny	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	6	nmod	_	_
+9	ľudstva	ľudstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	,	,	PUNCT	ZIP	_	12	punct	_	_
+11	Erasmus	erasmus	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_
+12	Rotterdamský	rotterdamský	PROPN	SAms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
+13	,	,	PUNCT	ZIP	_	15	punct	_	_
+14	Mária	mária	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	15	nmod	_	_
+15	Antoinetta	antoinetta	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	8	conj	_	_
+16	či	či	CCONJ	O	_	18	cc	_	_
+17	Joseph	joseph	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	_
+18	Fouché	fouché	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
+19	,	,	PUNCT	ZIP	_	4	punct	_	_
+20	jeden	jeden	NUM	NFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+21	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	24	case	_	_
+22	tých	ten	DET	PFmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	24	det	_	_
+23	nemeckých	nemecký	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	24	amod	_	_
+24	spisovateľov	spisovateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+25	,	,	PUNCT	ZIP	_	27	punct	_	_
+26	ktorí	ktorý	DET	PAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	27	nsubj	_	_
+27	museli	musieť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	24	acl	_	_
+28	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	29	case	_	_
+29	nástupe	nástup	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	34	obl	_	_
+30	nacizmu	nacizmus	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+31	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	33	case	_	_
+32	tridsiatych	tridsiaty	ADJ	NAip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|NumType=Ord	33	amod	_	_
+33	rokoch	rok	NOUN	SSip6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	29	nmod	_	_
+34	emigrovať	emigrovať	VERB	VIj+	Aspect=Imp,Perf|Polarity=Pos|VerbForm=Inf	27	xcomp	_	_
+35	,	,	PUNCT	ZIP	_	39	punct	_	_
+36	a	a	CCONJ	O	_	39	cc	_	_
+37	nakoniec	nakoniec	ADV	Dx	Degree=Pos	39	advmod	_	_
+38	sám	sám	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	39	nsubj	_	_
+39	nevie	vedieť	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	27	conj	_	_
+40	nájsť	nájsť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	39	xcomp	_	_
+41	východisko	východisko	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	40	obj	_	_
+42	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	45	case	_	_
+43	tých	ten	DET	PFip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	45	det	_	_
+44	krušných	krušný	ADJ	AAip2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	45	amod	_	_
+45	čias	čas	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	41	nmod	_	_
+46	,	,	PUNCT	ZIP	_	27	punct	_	_
+47	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	48	expl:pass	_	_
+48	predstavuje	predstavovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+49	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	51	case	_	_
+50	slovenskom	slovenský	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	51	amod	_	_
+51	trhu	trh	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	48	obl	_	_
+52	Šachovou	šachový	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	53	amod	_	_
+53	novelou	novela	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	48	obl:agent	_	_
+54	.	.	PUNCT	ZIP	_	48	punct	_	_
+
+# sent_id = s6
+# text = Zweigovo literárne majstrovstvo umocňuje grafická úprava knihy s prebalovými ilustráciami Ester Martinčekovej - Šimerovej .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#6
+1	Zweigovo	zweigov	ADJ	AFns4x:r	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+2	literárne	literárny	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	majstrovstvo	majstrovstvo	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+4	umocňuje	umocňovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	grafická	grafický	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	úprava	úprava	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+7	knihy	kniha	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	10	case	_	_
+9	prebalovými	prebalový	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
+10	ilustráciami	ilustrácia	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	6	nmod	_	_
+11	Ester	ester	PROPN	SUfs2:r	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+12	Martinčekovej	martinčeková	PROPN	SAfs2:r	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	-	-	PUNCT	ZIP	_	14	punct	_	_
+14	Šimerovej	šimerová	PROPN	SAfs2:r	Case=Gen|Gender=Fem|Number=Sing	12	conj	_	_
+15	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s7
+# text = A , samozrejme , bilingválne čítanie - pre fajnšmekrov šanca poznať Zweiga v jeho rodnom jazyku , pre adeptov nemčiny príťažlivá pomôcka , akou je pohodlná možnosť na kombinovaných dvojstranách porovnávať originál so slovenčinou .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#7
+1	A	a	PART	T	_	6	cc	_	_
+2	,	,	PUNCT	ZIP	_	6	punct	_	_
+3	samozrejme	samozrejme	PART	T	_	6	cc	_	_
+4	,	,	PUNCT	ZIP	_	6	punct	_	_
+5	bilingválne	bilingválny	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	čítanie	čítanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+7	-	-	PUNCT	ZIP	_	9	punct	_	_
+8	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+9	fajnšmekrov	fajnšmeker	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	6	appos	_	_
+10	šanca	šanca	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	_
+11	poznať	poznať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	10	acl	_	_
+12	Zweiga	zweig	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+14	jeho	jeho	DET	PUis6	Animacy=Inan|Case=Loc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+15	rodnom	rodný	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	jazyku	jazyk	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+17	,	,	PUNCT	ZIP	_	19	punct	_	_
+18	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	19	case	_	_
+19	adeptov	adept	NOUN	SSmp4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	9	conj	_	_
+20	nemčiny	nemčina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	príťažlivá	príťažlivý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	pomôcka	pomôcka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	_
+23	,	,	PUNCT	ZIP	_	25	punct	_	_
+24	akou	aký	DET	PAfs7	Case=Ins|Gender=Fem|Number=Sing|PronType=Int,Rel	25	det	_	_
+25	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	22	acl	_	_
+26	pohodlná	pohodlný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	možnosť	možnosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+28	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	30	case	_	_
+29	kombinovaných	kombinovaný	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	30	amod	_	_
+30	dvojstranách	dvojstrana	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	31	obl	_	_
+31	porovnávať	porovnávať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	27	acl	_	_
+32	originál	originál	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	_
+33	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	34	case	_	_
+34	slovenčinou	slovenčina	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	31	obl	_	_
+35	.	.	PUNCT	ZIP	_	6	punct	_	_
+
+# sent_id = s8
+# text = Snívali sa mi ruky tvoje ( Ľúbostné verše slovenských poetiek )
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#8
+1	Snívali	snívať	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	1	expl:pass	_	_
+3	mi	ja	PRON	PPhs3	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+4	ruky	ruka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	1	nsubj:pass	_	_
+5	tvoje	tvoj	DET	PFfp1	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	4	det	_	_
+6	(	(	PUNCT	ZIP	_	8	punct	_	_
+7	Ľúbostné	ľúbostný	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	verše	verš	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	dep	_	_
+9	slovenských	slovenský	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
+10	poetiek	poetka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+11	)	)	PUNCT	ZIP	_	8	punct	_	_
+
+# sent_id = s9
+# text = Slovenský spisovateľ , Bratislava 2001 , editorka Anna Blahová
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#9
+1	Slovenský	slovenský	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	spisovateľ	spisovateľ	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	,	,	PUNCT	ZIP	_	2	punct	_	_
+4	Bratislava	bratislava	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	_
+5	2001	2001	NUM	0	NumForm=Digit	2	dep	_	_
+6	,	,	PUNCT	ZIP	_	2	punct	_	_
+7	editorka	editorka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	9	nmod	_	_
+8	Anna	anna	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	9	nmod	_	_
+9	Blahová	blahová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	_
+
+# sent_id = s10
+# text = Dvanásť slovenských autoriek - Maša Haľamová , Helena Križanová - Brindzová , Krista Bendová , Lýdia Vadkerti - Gavorníková , Mila Haugová , Božena Trilecová , Jana Kantorová - Báliková , Daniela Hivešová , Dana Podracká , Anna Ondrejková , Viera Prokešová a Taťjana Lehenová ponúkajú verše o kráse , harmónii a neopakovateľnosti partnerského vzťahu , ale aj o tragike , ktorú vie spôsobiť aj ten najkrajší vzťah .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#10
+1	Dvanásť	dvanásť	NUM	NUfs1	Case=Nom|Gender=Fem|Number=Sing	46	nsubj	_	_
+2	slovenských	slovenský	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
+3	autoriek	autorka	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+4	-	-	PUNCT	ZIP	_	6	punct	_	_
+5	Maša	maša	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_
+6	Haľamová	haľamová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+7	,	,	PUNCT	ZIP	_	9	punct	_	_
+8	Helena	helena	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	9	nmod	_	_
+9	Križanová	križanová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
+10	-	-	PUNCT	ZIP	_	11	punct	_	_
+11	Brindzová	brindzová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	_
+12	,	,	PUNCT	ZIP	_	14	punct	_	_
+13	Krista	krista	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	14	nmod	_	_
+14	Bendová	bendová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
+15	,	,	PUNCT	ZIP	_	17	punct	_	_
+16	Lýdia	lýdia	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	17	nmod	_	_
+17	Vadkerti	vadkerti	PROPN	SUfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
+18	-	-	PUNCT	ZIP	_	19	punct	_	_
+19	Gavorníková	gavorníková	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	17	conj	_	_
+20	,	,	PUNCT	ZIP	_	22	punct	_	_
+21	Mila	mila	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	22	nmod	_	_
+22	Haugová	haugová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
+23	,	,	PUNCT	ZIP	_	25	punct	_	_
+24	Božena	božena	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	25	nmod	_	_
+25	Trilecová	trilecová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
+26	,	,	PUNCT	ZIP	_	28	punct	_	_
+27	Jana	jana	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	28	nmod	_	_
+28	Kantorová	kantorová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
+29	-	-	PUNCT	ZIP	_	30	punct	_	_
+30	Báliková	báliková	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	28	conj	_	_
+31	,	,	PUNCT	ZIP	_	33	punct	_	_
+32	Daniela	daniela	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	33	nmod	_	_
+33	Hivešová	hivešová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
+34	,	,	PUNCT	ZIP	_	36	punct	_	_
+35	Dana	dana	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	36	nmod	_	_
+36	Podracká	podracká	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
+37	,	,	PUNCT	ZIP	_	39	punct	_	_
+38	Anna	anna	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	39	nmod	_	_
+39	Ondrejková	ondrejková	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
+40	,	,	PUNCT	ZIP	_	42	punct	_	_
+41	Viera	viera	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	42	nmod	_	_
+42	Prokešová	prokešová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
+43	a	a	CCONJ	O	_	45	cc	_	_
+44	Taťjana	taťjana	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	45	nmod	_	_
+45	Lehenová	lehenová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
+46	ponúkajú	ponúkať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+47	verše	verš	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	46	obj	_	_
+48	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	49	case	_	_
+49	kráse	krása	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	47	obl:arg	_	_
+50	,	,	PUNCT	ZIP	_	51	punct	_	_
+51	harmónii	harmónia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	49	conj	_	_
+52	a	a	CCONJ	O	_	53	cc	_	_
+53	neopakovateľnosti	neopakovateľnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	49	conj	_	_
+54	partnerského	partnerský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	55	amod	_	_
+55	vzťahu	vzťah	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	53	nmod	_	_
+56	,	,	PUNCT	ZIP	_	60	punct	_	_
+57	ale	ale	CCONJ	O	_	60	cc	_	_
+58	aj	aj	PART	T	_	60	cc	_	_
+59	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	60	case	_	_
+60	tragike	tragika	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	49	conj	_	_
+61	,	,	PUNCT	ZIP	_	63	punct	_	_
+62	ktorú	ktorý	DET	PAfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	64	obj	_	_
+63	vie	vedieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	60	acl	_	_
+64	spôsobiť	spôsobiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	63	xcomp	_	_
+65	aj	aj	PART	T	_	66	cc	_	_
+66	ten	ten	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	68	det	_	_
+67	najkrajší	pekný	ADJ	AAis1z	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	68	amod	_	_
+68	vzťah	vzťah	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	63	nsubj	_	_
+69	.	.	PUNCT	ZIP	_	46	punct	_	_
+
+# sent_id = s11
+# text = " Obaja to myslíme dobre / aj s iným než vlastným svetom / len nie vždy sa dotyk podarí / bezbolestne . "
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#11
+1	"	"	PUNCT	ZIP	_	4	punct	_	_
+2	Obaja	oba	NUM	NNmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	_
+4	myslíme	myslieť	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	dobre	dobre	ADV	Dx	Degree=Pos	4	advmod	_	_
+6	/	/	PUNCT	ZIP	_	9	punct	_	_
+7	aj	aj	CCONJ	O	_	9	advmod:emph	_	_
+8	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	_	_
+9	iným	iný	DET	PAis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|PronType=Ind	4	dep	_	_
+10	než	než	SCONJ	O	_	12	mark	_	_
+11	vlastným	vlastný	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	svetom	svet	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_
+13	/	/	PUNCT	ZIP	_	9	punct	_	_
+14	len	len	CCONJ	O	_	4	cc	_	_
+15	nie	nie	PART	T	_	16	advmod	_	_
+16	vždy	vždy	ADV	PD	PronType=Tot	19	advmod	_	_
+17	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	19	expl:pass	_	_
+18	dotyk	dotyk	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj:pass	_	_
+19	podarí	podariť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+20	/	/	PUNCT	ZIP	_	21	punct	_	_
+21	bezbolestne	bezbolestne	ADV	Dx	Degree=Pos	19	advmod	_	_
+22	.	.	PUNCT	ZIP	_	4	punct	_	_
+23	"	"	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s12
+# text = Samko Tále : Kniha o cintoríne
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#12
+1	Samko	samko	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Tále	tále	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	:	:	PUNCT	ZIP	_	2	punct	_	_
+4	Kniha	kniha	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	_
+5	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	_	_
+6	cintoríne	cintorín	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+
+# sent_id = s13
+# text = L .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#13
+1	L	l	X	W	Abbr=Yes	0	root	_	_
+2	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s14
+# text = C .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#14
+1	C	c	X	W	Abbr=Yes	0	root	_	_
+2	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s15
+# text = A . , Levice 2001
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#15
+1	A	a	X	W	Abbr=Yes	0	root	_	_
+2	.	.	PUNCT	ZIP	_	1	punct	_	_
+3	,	,	PUNCT	ZIP	_	1	punct	_	_
+4	Levice	levice	PROPN	SSfp1:r	Case=Nom|Gender=Fem|Number=Plur	1	dep	_	_
+5	2001	2001	NUM	0	NumForm=Digit	1	dep	_	_
+
+# sent_id = s16
+# text = " Ja som teraz spisovateľom už druhýkrát , lebo ja som sa už raz stal spisovateľom .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#16
+1	"	"	PUNCT	ZIP	_	3	punct	_	_
+2	Ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	som	byť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	teraz	teraz	ADV	Dx	Degree=Pos	3	advmod	_	_
+5	spisovateľom	spisovateľ	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obj	_	_
+6	už	už	PART	T	_	7	advmod:emph	_	_
+7	druhýkrát	druhýkrát	ADV	ND	NumType=Mult	3	obl	_	_
+8	,	,	PUNCT	ZIP	_	15	punct	_	_
+9	lebo	lebo	CCONJ	O	_	15	mark	_	_
+10	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj:pass	_	_
+11	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	aux	_	_
+12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pass	_	_
+13	už	už	PART	T	_	14	advmod:emph	_	_
+14	raz	raz	ADV	Dx	Degree=Pos	15	advmod	_	_
+15	stal	stať	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	advcl	_	_
+16	spisovateľom	spisovateľ	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	obl:agent	_	_
+17	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s17
+# text = Vtedy som napísal Prvú knihu o cintoríne .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#17
+1	Vtedy	vtedy	ADV	PD	PronType=Dem	3	advmod	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	napísal	napísať	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	Prvú	prvý	ADJ	NAfs4	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	knihu	kniha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+7	cintoríne	cintorín	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+8	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s18
+# text = Dnes som sa stal zase spisovateľom , lebo prší a vtedy nezbieram kartóny , lebo prší . "
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#18
+1	Dnes	dnes	ADV	Dx	Degree=Pos	4	advmod	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pass	_	_
+4	stal	stať	VERB	VLdsam+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	zase	zase	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	spisovateľom	spisovateľ	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl:agent	_	_
+7	,	,	PUNCT	ZIP	_	9	punct	_	_
+8	lebo	lebo	CCONJ	O	_	9	mark	_	_
+9	prší	pršať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+10	a	a	CCONJ	O	_	12	cc	_	_
+11	vtedy	vtedy	ADV	PD	PronType=Dem	12	advmod	_	_
+12	nezbieram	zbierať	VERB	VKesa-	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	9	conj	_	_
+13	kartóny	kartón	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+14	,	,	PUNCT	ZIP	_	16	punct	_	_
+15	lebo	lebo	CCONJ	O	_	16	mark	_	_
+16	prší	pršať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+17	.	.	PUNCT	ZIP	_	4	punct	_	_
+18	"	"	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s19
+# text = Starý známy Samko Tále so svojou svojráznou životnou optikou a originálnym jazykom robí svojmu objaviteľovi a vydavateľovi radosť .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#19
+1	Starý	starý	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+2	známy	známy	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	Samko	samko	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+4	Tále	tále	PROPN	SFms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+5	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	9	case	_	_
+6	svojou	svoj	DET	PFfs7	Case=Ins|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	_
+7	svojráznou	svojrázny	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	životnou	životný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	optikou	optika	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	13	obl:arg	_	_
+10	a	a	CCONJ	O	_	12	cc	_	_
+11	originálnym	originálny	ADJ	AAis7x	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	jazykom	jazyk	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	conj	_	_
+13	robí	robiť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	svojmu	svoj	DET	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	_	_
+15	objaviteľovi	objaviteľ	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	13	iobj	_	_
+16	a	a	CCONJ	O	_	17	cc	_	_
+17	vydavateľovi	vydavateľ	NOUN	SSms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	15	conj	_	_
+18	radosť	radosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+19	.	.	PUNCT	ZIP	_	13	punct	_	_
+
+# sent_id = s20
+# text = Predať dnes z debutu slovenského autora , presnejšie autorky Daniely Kapitáňovej , 4500 kusov , to je silná káva vari aj pre samotného Samka .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#20
+1	Predať	predať	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	19	csubj	_	_
+2	dnes	dnes	ADV	Dx	Degree=Pos	1	advmod	_	_
+3	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	4	case	_	_
+4	debutu	debut	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl:arg	_	_
+5	slovenského	slovenský	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	autora	autor	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	,	,	PUNCT	ZIP	_	9	punct	_	_
+8	presnejšie	presne	ADV	Dy	Degree=Cmp	9	cc	_	_
+9	autorky	autorka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	appos	_	_
+10	Daniely	daniela	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+11	Kapitáňovej	kapitáňová	PROPN	SAfs2:r	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	,	,	PUNCT	ZIP	_	9	punct	_	_
+13	4500	4500	NUM	0	NumForm=Digit	1	obj	_	_
+14	kusov	kus	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	,	,	PUNCT	ZIP	_	16	punct	_	_
+16	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	appos	_	_
+17	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	silná	silný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	káva	káva	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+20	vari	vari	PART	T	_	24	cc	_	_
+21	aj	aj	PART	T	_	24	advmod:emph	_	_
+22	pre	pre	ADP	Eu4	AdpType=Prep|Case=Acc	24	case	_	_
+23	samotného	samotný	ADJ	AAms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	Samka	samko	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	19	obl:arg	_	_
+25	.	.	PUNCT	ZIP	_	19	punct	_	_
+
+# sent_id = s21
+# text = A tak je tu druhé vydanie , ktoré vychádza , ako vraví hrdina - rozprávač , " ohľadom podpory Kníhkupectva alter ego v Kežmarku a mediálneho partnera denníka SME " .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#21
+1	A	a	CCONJ	O	_	2	cc	_	_
+2	tak	tak	CCONJ	O	_	3	cc	_	_
+3	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tu	tu	ADV	PD	PronType=Dem	3	advmod	_	_
+5	druhé	druhý	ADJ	NAns1	Case=Nom|Gender=Neut|Number=Sing|NumType=Ord	6	amod	_	_
+6	vydanie	vydanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+7	,	,	PUNCT	ZIP	_	9	punct	_	_
+8	ktoré	ktorý	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	9	nsubj	_	_
+9	vychádza	vychádzať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	acl	_	_
+10	,	,	PUNCT	ZIP	_	12	punct	_	_
+11	ako	ako	SCONJ	O	_	12	mark	_	_
+12	vraví	vravieť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+13	hrdina	hrdina	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+14	-	-	PUNCT	ZIP	_	15	punct	_	_
+15	rozprávač	rozprávač	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
+16	,	,	PUNCT	ZIP	_	12	punct	_	_
+17	"	"	PUNCT	ZIP	_	19	punct	_	_
+18	ohľadom	ohľad	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	case	_	_
+19	podpory	podpora	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+20	Kníhkupectva	kníhkupectvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	alter	alter	X	%	Foreign=Yes	20	nmod	_	_
+22	ego	ego	X	%	Foreign=Yes	21	flat:foreign	_	_
+23	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	24	case	_	_
+24	Kežmarku	kežmarok	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	nmod	_	_
+25	a	a	CCONJ	O	_	27	cc	_	_
+26	mediálneho	mediálny	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	partnera	partner	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	conj	_	_
+28	denníka	denník	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	SME	sme	X	W	Abbr=Yes	28	nmod	_	_
+30	"	"	PUNCT	ZIP	_	19	punct	_	_
+31	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s22
+# text = Rudolf Dilong : Mladosť z očistca ( Životopis )
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#22
+1	Rudolf	rudolf	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Dilong	dilong	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	:	:	PUNCT	ZIP	_	2	punct	_	_
+4	Mladosť	mladosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	_
+5	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	očistca	očistec	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	(	(	PUNCT	ZIP	_	8	punct	_	_
+8	Životopis	životopis	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+9	)	)	PUNCT	ZIP	_	8	punct	_	_
+
+# sent_id = s23
+# text = Petrus , Bratislava 2001
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#23
+1	Petrus	petrus	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	,	,	PUNCT	ZIP	_	1	punct	_	_
+3	Bratislava	bratislava	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	1	dep	_	_
+4	2001	2001	NUM	0	NumForm=Digit	1	dep	_	_
+
+# sent_id = s24
+# text = " Nezačali ťa nenávidieť odvtedy , čo si sa stal kňazom ( čo by bolo v poriadku ) , ale od chvíle , keď vyňuchali v tebe básnika . "
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#24
+1	"	"	PUNCT	ZIP	_	2	punct	_	_
+2	Nezačali	začať	VERB	VLdpcm-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+3	ťa	ty	PRON	PPhs4	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	iobj	_	_
+4	nenávidieť	nenávidieť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
+5	odvtedy	odvtedy	ADV	PD	PronType=Dem	4	advmod	_	_
+6	,	,	PUNCT	ZIP	_	10	punct	_	_
+7	čo	čo	SCONJ	O	_	10	mark	_	_
+8	si	byť	AUX	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	10	expl:pass	_	_
+10	stal	stať	VERB	VLdsbm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	advcl	_	_
+11	kňazom	kňaz	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obl:agent	_	_
+12	(	(	PUNCT	ZIP	_	15	punct	_	_
+13	čo	čo	SCONJ	O	_	15	nsubj	_	_
+14	by	by	AUX	Y	Mood=Cnd	15	aux	_	_
+15	bolo	byť	VERB	VLescn+	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	10	parataxis	_	_
+16	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	poriadku	poriadok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+18	)	)	PUNCT	ZIP	_	15	punct	_	_
+19	,	,	PUNCT	ZIP	_	22	punct	_	_
+20	ale	ale	CCONJ	O	_	22	cc	_	_
+21	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	22	case	_	_
+22	chvíle	chvíľa	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	2	conj	_	_
+23	,	,	PUNCT	ZIP	_	25	punct	_	_
+24	keď	keď	SCONJ	O	_	25	mark	_	_
+25	vyňuchali	vyňuchať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	22	acl	_	_
+26	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	27	case	_	_
+27	tebe	ty	PRON	PPhs6	Case=Loc|Number=Sing|Person=2|PronType=Prs	25	obl	_	_
+28	básnika	básnik	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
+29	.	.	PUNCT	ZIP	_	2	punct	_	_
+30	"	"	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s25
+# text = Myšlienka Jakuba Demla čoby motto Dilongovej knižky .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#25
+1	Myšlienka	myšlienka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	Jakuba	jakub	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+3	Demla	demel	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	čoby	čoby	PART	TY	Mood=Cnd	5	cc	_	_
+5	motto	motto	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	1	dep	_	_
+6	Dilongovej	dilongov	ADJ	AFfs2x:r	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	knižky	knižka	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s26
+# text = A potom záverečné riadky : Rada neznámej dámy - Čítajte Dilonga , ostala nevypočutým želaním slovenského prekliateho básnika a smutného mnícha Rudolfa Dilonga .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#26
+1	A	a	CCONJ	O	_	2	cc	_	_
+2	potom	potom	ADV	Dx	Degree=Pos	0	root	_	_
+3	záverečné	záverečný	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	riadky	riadok	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	_
+5	:	:	PUNCT	ZIP	_	4	punct	_	_
+6	Rada	rada	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+7	neznámej	neznámy	ADJ	AAfs2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	dámy	dáma	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	-	-	PUNCT	ZIP	_	10	punct	_	_
+10	Čítajte	čítať	VERB	VMepb+	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	6	acl	_	_
+11	Dilonga	dilong	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	,	,	PUNCT	ZIP	_	10	punct	_	_
+13	ostala	ostať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	parataxis	_	_
+14	nevypočutým	vypočutý	ADJ	Gtns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	želaním	želanie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	13	obj	_	_
+16	slovenského	slovenský	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+17	prekliateho	prekliaty	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	básnika	básnik	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+19	a	a	CCONJ	O	_	21	cc	_	_
+20	smutného	smutný	ADJ	AAms2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	mnícha	mních	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	conj	_	_
+22	Rudolfa	rudolf	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+23	Dilonga	dilong	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+24	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s27
+# text = A možno aj tušenou obavou , že aj po tom , keď padnú politické zábrany a ideologické predpojatosti , ostane iba zakliatou trinástou komnatou slovenského literárneho života .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#27
+1	A	a	CCONJ	O	_	5	cc	_	_
+2	možno	možno	PART	T	_	5	cc	_	_
+3	aj	aj	PART	T	_	5	cc	_	_
+4	tušenou	tušený	ADJ	Gtfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	obavou	obava	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+6	,	,	PUNCT	ZIP	_	20	punct	_	_
+7	že	že	SCONJ	O	_	20	mark	_	_
+8	aj	aj	PART	T	_	10	advmod:emph	_	_
+9	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	10	case	_	_
+10	tom	to	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	20	obl	_	_
+11	,	,	PUNCT	ZIP	_	13	punct	_	_
+12	keď	keď	SCONJ	O	_	13	mark	_	_
+13	padnú	padnúť	VERB	VKdpc+	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+14	politické	politický	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
+15	zábrany	zábrana	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+16	a	a	CCONJ	O	_	18	cc	_	_
+17	ideologické	ideologický	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	_
+18	predpojatosti	predpojatosť	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	15	conj	_	_
+19	,	,	PUNCT	ZIP	_	13	punct	_	_
+20	ostane	ostať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	acl	_	_
+21	iba	iba	PART	T	_	24	advmod:emph	_	_
+22	zakliatou	zakliaty	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+23	trinástou	trinásty	ADJ	NAfs7	Case=Ins|Gender=Fem|Number=Sing|NumType=Ord	24	amod	_	_
+24	komnatou	komnata	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	20	obj	_	_
+25	slovenského	slovenský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+26	literárneho	literárny	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	života	život	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+28	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s28
+# text = Práve tento zápisník nám pomáha spoznávať Dilonga , žiaľ , ide o zápisník nedopísaný - z rokov 1939 až 1941 či 1942 .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#28
+1	Práve	práve	PART	T	_	2	advmod:emph	_	_
+2	tento	tento	DET	PFis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	zápisník	zápisník	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	nám	my	PRON	PPhp3	Case=Dat|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
+5	pomáha	pomáhať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	spoznávať	spoznávať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	xcomp	_	_
+7	Dilonga	dilong	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	,	,	PUNCT	ZIP	_	11	punct	_	_
+9	žiaľ	žiaľ	PART	T	_	11	cc	_	_
+10	,	,	PUNCT	ZIP	_	11	punct	_	_
+11	ide	ísť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	_
+12	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+13	zápisník	zápisník	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl:arg	_	_
+14	nedopísaný	dopísaný	ADJ	Gtis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Pass	13	amod	_	_
+15	-	-	PUNCT	ZIP	_	17	punct	_	_
+16	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+17	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	conj	_	_
+18	1939	1939	NUM	0	NumForm=Digit	17	nummod	_	_
+19	až	až	SCONJ	O	_	20	cc	_	_
+20	1941	1941	NUM	0	NumForm=Digit	18	conj	_	_
+21	či	či	CCONJ	O	_	22	cc	_	_
+22	1942	1942	NUM	0	NumForm=Digit	18	conj	_	_
+23	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s29
+# text = Jeanette Wintersonová : Vášeň
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#29
+1	Jeanette	jeanette	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_
+2	Wintersonová	wintersonová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	:	:	PUNCT	ZIP	_	2	punct	_	_
+4	Vášeň	vášeň	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	_
+
+# sent_id = s30
+# text = Argo , Praha 2001 , preložila Lenka Urbanová
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#30
+1	Argo	argo	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	,	,	PUNCT	ZIP	_	1	punct	_	_
+3	Praha	praha	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	1	dep	_	_
+4	2001	2001	NUM	0	NumForm=Digit	1	dep	_	_
+5	,	,	PUNCT	ZIP	_	1	punct	_	_
+6	preložila	preložiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	dep	_	_
+7	Lenka	lenka	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	_
+8	Urbanová	urbanová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+
+# sent_id = s31
+# text = Jeanette Wintersonová je v Británii vystavená paľbe kritiky .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#31
+1	Jeanette	jeanette	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_
+2	Wintersonová	wintersonová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	Británii	británia	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+6	vystavená	vystavený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+7	paľbe	paľba	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	6	obj	_	_
+8	kritiky	kritika	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	.	.	PUNCT	ZIP	_	6	punct	_	_
+
+# sent_id = s32
+# text = Je pravda , že nevraživosť čiastočne vyprovokovala sama , keď sebavedomo vyhlásila , že sa ako spisovateľka vyrovná Shakespearovi .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#32
+1	Je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	pravda	pravda	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	,	,	PUNCT	ZIP	_	7	punct	_	_
+4	že	že	SCONJ	O	_	7	mark	_	_
+5	nevraživosť	nevraživosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	7	obj	_	_
+6	čiastočne	čiastočne	ADV	Dx	Degree=Pos	7	advmod	_	_
+7	vyprovokovala	vyprovokovať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	csubj	_	_
+8	sama	sám	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Emp	7	nsubj	_	_
+9	,	,	PUNCT	ZIP	_	12	punct	_	_
+10	keď	keď	SCONJ	O	_	12	mark	_	_
+11	sebavedomo	sebavedomo	ADV	Dx	Degree=Pos	12	advmod	_	_
+12	vyhlásila	vyhlásiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	advcl	_	_
+13	,	,	PUNCT	ZIP	_	18	punct	_	_
+14	že	že	SCONJ	O	_	18	mark	_	_
+15	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	18	expl:pass	_	_
+16	ako	ako	SCONJ	O	_	17	case	_	_
+17	spisovateľka	spisovateľka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	18	obl	_	_
+18	vyrovná	vyrovnať	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+19	Shakespearovi	shakespeare	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	18	obj	_	_
+20	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s33
+# text = Jej román Vášeň je však skvelý .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#33
+1	Jej	jej	DET	PUis1	Animacy=Inan|Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	román	román	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	Vášeň	vášeň	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_
+4	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	však	však	CCONJ	O	_	6	cc	_	_
+6	skvelý	skvelý	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+7	.	.	PUNCT	ZIP	_	6	punct	_	_
+
+# sent_id = s34
+# text = Wintersonová v ňom vstupuje do minulosti , konkrétne na začiatok 19 . storočia , do čias Napoleona , rodiaceho sa romantizmu a na koniec éry veľkých šarlatánov typu Cagliostra či Casanovu .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#34
+1	Wintersonová	wintersonová	PROPN	SAfs1:r	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	3	case	_	_
+3	ňom	on	PRON	PFis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+4	vstupuje	vstupovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	6	case	_	_
+6	minulosti	minulosť	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+7	,	,	PUNCT	ZIP	_	8	punct	_	_
+8	konkrétne	konkrétne	ADV	Dx	Degree=Pos	6	advmod	_	_
+9	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+10	začiatok	začiatok	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+11	19	19	NUM	0	NumForm=Digit	13	nummod	_	_
+12	.	.	PUNCT	ZIP	_	11	punct	_	_
+13	storočia	storočie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+14	,	,	PUNCT	ZIP	_	8	punct	_	_
+15	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+16	čias	čas	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+17	Napoleona	napoleon	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	,	,	PUNCT	ZIP	_	19	punct	_	_
+19	rodiaceho	rodiaci	ADJ	Gkis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	17	conj	_	_
+20	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	19	expl:pass	_	_
+21	romantizmu	romantizmus	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	obj	_	_
+22	a	a	CCONJ	O	_	24	cc	_	_
+23	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	24	case	_	_
+24	koniec	koniec	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	conj	_	_
+25	éry	éra	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	veľkých	veľký	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	27	amod	_	_
+27	šarlatánov	šarlatán	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+28	typu	typ	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	Cagliostra	caglioster	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	či	či	CCONJ	O	_	31	cc	_	_
+31	Casanovu	casanova	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	29	conj	_	_
+32	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s35
+# text = Dejová stránka , ktorá je zaujímavá , však nie je na knihe tým najdôležitejším a najskvelejším .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#35
+1	Dejová	dejový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	stránka	stránka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	,	,	PUNCT	ZIP	_	6	punct	_	_
+4	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
+5	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	zaujímavá	zaujímavý	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	acl	_	_
+7	,	,	PUNCT	ZIP	_	6	punct	_	_
+8	však	však	CCONJ	O	_	2	cc	_	_
+9	nie	nie	PART	T	_	2	advmod	_	_
+10	je	byť	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	2	cc	_	_
+11	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	12	case	_	_
+12	knihe	kniha	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	2	obl:arg	_	_
+13	tým	to	DET	PFns7	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	_
+14	najdôležitejším	doležitý	ADJ	AAns7z	Case=Ins|Degree=Sup|Gender=Neut|Number=Sing	13	amod	_	_
+15	a	a	CCONJ	O	_	16	cc	_	_
+16	najskvelejším	skvelý	ADJ	AAns7z	Case=Ins|Degree=Sup|Gender=Neut|Number=Sing	14	conj	_	_
+17	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s36
+# text = Hlavné sú totiž bravúrne opisy , atmosféra Benátok a zlomkovité meditácie o povahe lásky , vášne a sexu .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#36
+1	Hlavné	hlavný	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	_
+2	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	totiž	totiž	PART	T	_	5	cc	_	_
+4	bravúrne	bravúrny	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+5	opisy	opis	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+6	,	,	PUNCT	ZIP	_	7	punct	_	_
+7	atmosféra	atmosféra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+8	Benátok	benátky	PROPN	SSfp2:r	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	a	a	CCONJ	O	_	11	cc	_	_
+10	zlomkovité	zlomkovitý	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
+11	meditácie	meditácia	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	5	conj	_	_
+12	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	povahe	povaha	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
+14	lásky	láska	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	,	,	PUNCT	ZIP	_	16	punct	_	_
+16	vášne	vášeň	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	conj	_	_
+17	a	a	CCONJ	O	_	18	cc	_	_
+18	sexu	sex	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	conj	_	_
+19	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s37
+# text = Všetko je zakomponované do jedného veľkého rámca , ktorým je hra .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#37
+1	Všetko	všetok	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	3	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	zakomponované	zakomponovaný	ADJ	Gtns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+5	jedného	jeden	NUM	NFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nummod	_	_
+6	veľkého	veľký	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	rámca	rámec	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+8	,	,	PUNCT	ZIP	_	10	punct	_	_
+9	ktorým	ktorý	DET	PAis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|PronType=Int,Rel	10	obj	_	_
+10	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	acl	_	_
+11	hra	hra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+12	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s38
+# text = Hra ako hazard , ako neustála a nepredvídateľná výmena , čosi , čo sa nás zmocňuje , čo je silnejšie než naša vôľa a ako také aj úplne nevyspytateľné .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#38
+1	Hra	hra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	ako	ako	SCONJ	O	_	3	mark	_	_
+3	hazard	hazard	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+4	,	,	PUNCT	ZIP	_	9	punct	_	_
+5	ako	ako	SCONJ	O	_	9	mark	_	_
+6	neustála	neustály	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+7	a	a	CCONJ	O	_	8	cc	_	_
+8	nepredvídateľná	nepredvídateľný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	conj	_	_
+9	výmena	výmena	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
+10	,	,	PUNCT	ZIP	_	11	punct	_	_
+11	čosi	čosi	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	3	conj	_	_
+12	,	,	PUNCT	ZIP	_	16	punct	_	_
+13	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	16	nsubj	_	_
+14	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+15	nás	my	PRON	PPhp2	Case=Gen|Number=Plur|Person=1|PronType=Prs	16	obj	_	_
+16	zmocňuje	zmocňovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	acl	_	_
+17	,	,	PUNCT	ZIP	_	20	punct	_	_
+18	čo	čo	PRON	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	20	nsubj	_	_
+19	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	silnejšie	silný	ADJ	AAns1y	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	16	conj	_	_
+21	než	než	SCONJ	O	_	23	mark	_	_
+22	naša	náš	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	23	det	_	_
+23	vôľa	vôľa	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	20	advcl	_	_
+24	a	a	CCONJ	O	_	20	cc	_	_
+25	ako	ako	SCONJ	O	_	26	mark	_	_
+26	také	taký	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	16	dep	_	_
+27	aj	aj	PART	T	_	28	cc	_	_
+28	úplne	úplne	ADV	Dx	Degree=Pos	29	advmod	_	_
+29	nevyspytateľné	nevyspytateľný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	dep	_	_
+30	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s39
+# text = Atmosféru okázalého benátskeho prostredia dotvárajú mýty o gondolieroch , záhadné veštby žobrákov a neustále balansovanie medzi vážnosťou a nevážnosťou , mýtom a faktom , rozumom a šialenstvom .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#39
+1	Atmosféru	atmosféra	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+2	okázalého	okázalý	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+3	benátskeho	benátsky	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	prostredia	prostredie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+5	dotvárajú	dotvárať	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	mýty	mýtus	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+7	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	gondolieroch	gondolier	NOUN	SSmp6	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	6	nmod	_	_
+9	,	,	PUNCT	ZIP	_	11	punct	_	_
+10	záhadné	záhadný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
+11	veštby	veštba	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	6	conj	_	_
+12	žobrákov	žobrák	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	a	a	CCONJ	O	_	15	cc	_	_
+14	neustále	neustály	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	15	obl	_	_
+15	balansovanie	balansovanie	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	6	conj	_	_
+16	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	17	case	_	_
+17	vážnosťou	vážnosť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	_
+18	a	a	CCONJ	O	_	19	cc	_	_
+19	nevážnosťou	nevážnosť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	17	conj	_	_
+20	,	,	PUNCT	ZIP	_	21	punct	_	_
+21	mýtom	mýtus	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	conj	_	_
+22	a	a	CCONJ	O	_	23	cc	_	_
+23	faktom	fakt	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	21	conj	_	_
+24	,	,	PUNCT	ZIP	_	25	punct	_	_
+25	rozumom	rozum	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	conj	_	_
+26	a	a	CCONJ	O	_	27	cc	_	_
+27	šialenstvom	šialenstvo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	25	conj	_	_
+28	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s40
+# text = " Hráš , vyhráš , hráš , prehráš .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#40
+1	"	"	PUNCT	ZIP	_	2	punct	_	_
+2	Hráš	hrať	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	ZIP	_	4	punct	_	_
+4	vyhráš	vyhrať	VERB	VKdsb+	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	,	,	PUNCT	ZIP	_	6	punct	_	_
+6	hráš	hrať	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	,	,	PUNCT	ZIP	_	8	punct	_	_
+8	prehráš	prehrať	VERB	VKdsb+	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s41
+# text = Hráš .
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#41
+1	Hráš	hrať	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s42
+# text = O vášeň a lásku . "
+# orig_file_sentence 1010001_barboras_fsnew_1010001_katarinag_fsnew#42
+1	O	o	ADP	Eu4	AdpType=Prep|Case=Acc	2	case	_	_
+2	vášeň	vášeň	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
+3	a	a	CCONJ	O	_	4	cc	_	_
+4	lásku	láska	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	2	conj	_	_
+5	.	.	PUNCT	ZIP	_	2	punct	_	_
+6	"	"	PUNCT	ZIP	_	2	punct	_	_
+

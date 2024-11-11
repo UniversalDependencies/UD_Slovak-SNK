@@ -1,0 +1,329 @@
+# sent_id = s1
+# text = Je hriech pokladať otázky alebo domýšľať sa odpovede ?
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#1
+1	Je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	case	_	_
+2	hriech	hriech	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	pokladať	pokladať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	csubj	_	_
+4	otázky	otázka	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+5	alebo	alebo	CCONJ	O	_	6	cc	_	_
+6	domýšľať	domýšľať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	conj	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+8	odpovede	odpoveď	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	6	discourse	_	_
+9	?	?	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s2
+# text = Kde tá ľudská duša drieme ?
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#2
+1	Kde	kde	ADV	PD	PronType=Int,Rel	5	advmod	_	_
+2	tá	tá	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+3	ľudská	ľudský	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	duša	duša	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	drieme	driemať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	?	?	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s3
+# text = Kráčame ako rak dozadu , dobro nestojí za námahu .
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#3
+1	Kráčame	kráčať	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ako	ako	SCONJ	O	_	3	mark	_	_
+3	rak	rak	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	dep	_	_
+4	dozadu	dozadu	ADV	Dx	Degree=Pos	1	advmod	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	dobro	dobro	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	nestojí	stáť	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+9	námahu	námaha	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	7	obl:arg	_	_
+10	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s4
+# text = Odsúdime vlastné ja lebo skutočne nechápeme , myslíme , že inou cestou ľahšie dosiahneme to čo chceme .
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#4
+1	Odsúdime	odsúdiť	VERB	VKdpa+	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	vlastné	vlastný	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	ja	ja	PRON	PPhs4	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+4	lebo	lebo	CCONJ	O	_	6	mark	_	_
+5	skutočne	skutočne	ADV	Dx	Degree=Pos	6	advmod	_	_
+6	nechápeme	chápať	VERB	VKepa-	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+7	,	,	PUNCT	Z	_	8	punct	_	_
+8	myslíme	myslieť	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	_
+9	,	,	PUNCT	Z	_	14	punct	_	_
+10	že	že	SCONJ	O	_	14	mark	_	_
+11	inou	iný	DET	PAfs7	Case=Ins|Gender=Fem|Number=Sing|PronType=Ind	12	det	_	_
+12	cestou	cesta	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_
+13	ľahšie	ľahko	ADV	Dy	Degree=Cmp	14	advmod	_	_
+14	dosiahneme	dosiahnuť	VERB	VKdpa+	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+15	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	14	obj	_	_
+16	čo	čo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	17	mark	_	_
+17	chceme	chcieť	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	acl	_	_
+18	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s5
+# text = Všetko je to márne , i tak to zaplaví a stiahne .
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#5
+1	Všetko	všetok	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	4	nsubj	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	discourse	_	_
+4	márne	márny	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	parataxis	_	_
+5	,	,	PUNCT	Z	_	9	punct	_	_
+6	i	i	CCONJ	O	_	9	cc	_	_
+7	tak	tak	PART	T	_	9	cc	_	_
+8	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	obj	_	_
+9	zaplaví	zaplaviť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	a	a	CCONJ	O	_	11	cc	_	_
+11	stiahne	stiahnuť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s6
+# text = Prečo sú aj vzdelaní ľudia hlúpi ( aj keď si myslia , že sú múdri ) ?
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#6
+1	Prečo	prečo	ADV	PD	PronType=Int,Rel	6	advmod	_	_
+2	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	aj	aj	PART	T	_	5	advmod:emph	_	_
+4	vzdelaní	vzdelaný	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+5	ľudia	človek	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	hlúpi	hlúpy	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	_
+7	(	(	PUNCT	Z	_	11	punct	_	_
+8	aj	aj	CCONJ	O	_	11	mark	_	_
+9	keď	keď	SCONJ	O	_	8	fixed	_	_
+10	si	si	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pass	_	_
+11	myslia	myslieť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+12	,	,	PUNCT	Z	_	15	punct	_	_
+13	že	že	SCONJ	O	_	15	mark	_	_
+14	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	múdri	múdry	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	11	ccomp	_	_
+16	)	)	PUNCT	Z	_	11	punct	_	_
+17	?	?	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = s7
+# text = Lebo . . .
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#7
+1	Lebo	lebo	PART	T	_	0	root	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+3	.	.	PUNCT	Z	_	1	punct	_	_
+4	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s8
+# text = Lebo sa naučili učiť , ale nie rozmýšľať .
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#8
+1	Lebo	lebo	PART	T	_	3	advmod	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pass	_	_
+3	naučili	naučiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	učiť	učiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+5	,	,	PUNCT	Z	_	8	punct	_	_
+6	ale	ale	CCONJ	O	_	8	cc	_	_
+7	nie	nie	PART	T	_	8	advmod	_	_
+8	rozmýšľať	rozmýšľať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	conj	_	_
+9	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s9
+# text = Prečo si veriaci myslia , že našli Boha ( aj keď nemajú šajnu ani o sebe ) ?
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#9
+1	Prečo	prečo	ADV	PD	PronType=Int,Rel	4	advmod	_	_
+2	si	si	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pass	_	_
+3	veriaci	veriaci	NOUN	SAmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+4	myslia	myslieť	VERB	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	,	,	PUNCT	Z	_	7	punct	_	_
+6	že	že	SCONJ	O	_	7	mark	_	_
+7	našli	nájsť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	4	ccomp	_	_
+8	Boha	boh	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	(	(	PUNCT	Z	_	12	punct	_	_
+10	aj	aj	CCONJ	O	_	12	advmod:emph	_	_
+11	keď	keď	SCONJ	O	_	12	mark	_	_
+12	nemajú	mať	VERB	VKepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+13	šajnu	šajn	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	ani	ani	PART	T	_	16	cc	_	_
+15	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+16	sebe	seba	PRON	PPhs6	Case=Loc|Number=Sing|PronType=Prs|Reflex=Yes	13	nmod	_	_
+17	)	)	PUNCT	Z	_	12	punct	_	_
+18	?	?	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s10
+# text = Lebo . . .
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#10
+1	Lebo	lebo	PART	T	_	0	root	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+3	.	.	PUNCT	Z	_	1	punct	_	_
+4	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s11
+# text = Lebo sa naučili rozumieť , ale nie cítiť .
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#11
+1	Lebo	lebo	PART	T	_	3	advmod	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pass	_	_
+3	naučili	naučiť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	rozumieť	rozumieť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+5	,	,	PUNCT	Z	_	8	punct	_	_
+6	ale	ale	CCONJ	O	_	8	cc	_	_
+7	nie	nie	PART	T	_	8	advmod	_	_
+8	cítiť	cítiť	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	conj	_	_
+9	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s12
+# text = Prečo je prečo ?
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#12
+1	Prečo	prečo	ADV	PD	PronType=Int,Rel	0	root	_	_
+2	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cc	_	_
+3	prečo	prečo	ADV	PD	PronType=Int,Rel	1	conj	_	_
+4	?	?	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s13
+# text = Lebo . . .
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#13
+1	Lebo	lebo	PART	T	_	0	root	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+3	.	.	PUNCT	Z	_	1	punct	_	_
+4	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s14
+# text = Prečo to tu píšem ?
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#14
+1	Prečo	prečo	ADV	PD	PronType=Int,Rel	4	advmod	_	_
+2	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	_
+3	tu	tu	PART	T	_	4	advmod	_	_
+4	píšem	písať	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	?	?	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s15
+# text = Lebo . . .
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#15
+1	Lebo	lebo	PART	T	_	0	root	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+3	.	.	PUNCT	Z	_	1	punct	_	_
+4	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s16
+# text = Lebo som strašne pomätený ateista . . .
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#16
+1	Lebo	lebo	PART	T	_	5	advmod	_	_
+2	som	byť	AUX	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	strašne	strašne	ADV	Dx	Degree=Pos	4	advmod	_	_
+4	pomätený	pomätený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	ateista	ateista	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	.	.	PUNCT	Z	_	5	punct	_	_
+7	.	.	PUNCT	Z	_	5	punct	_	_
+8	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s17
+# text = Prečo sa volá zbytočnosť potrebou a potreba zbytočnosťou .
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#17
+1	Prečo	prečo	ADV	PD	PronType=Int,Rel	3	advmod	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pass	_	_
+3	volá	volať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	zbytočnosť	zbytočnosť	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+5	potrebou	potreba	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+6	a	a	CCONJ	O	_	7	cc	_	_
+7	potreba	potreba	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
+8	zbytočnosťou	zbytočnosť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	7	orphan	_	_
+9	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s18
+# text = Lebo . . .
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#18
+1	Lebo	lebo	PART	T	_	0	root	_	_
+2	.	.	PUNCT	Z	_	1	punct	_	_
+3	.	.	PUNCT	Z	_	1	punct	_	_
+4	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s19
+# text = Lebo je tu veľa „ múdrych “ a „ veriacich “ .
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#19
+1	Lebo	lebo	PART	T	_	2	advmod	_	_
+2	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tu	tu	ADV	PD	PronType=Dem	2	advmod	_	_
+4	veľa	veľa	NUM	NUns1	Case=Nom|Gender=Neut|Number=Sing	2	obj	_	_
+5	„	„	PUNCT	Z	_	6	punct	_	_
+6	múdrych	múdry	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+7	“	“	PUNCT	Z	_	6	punct	_	_
+8	a	a	CCONJ	O	_	10	cc	_	_
+9	„	„	PUNCT	Z	_	10	punct	_	_
+10	veriacich	veriaci	ADJ	Gkmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	6	conj	_	_
+11	“	“	PUNCT	Z	_	10	punct	_	_
+12	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s20
+# text = Prečo je dnešný humor suchý ?
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#20
+1	Prečo	prečo	ADV	PD	PronType=Int,Rel	5	advmod	_	_
+2	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	dnešný	dnešný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	humor	humor	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	suchý	suchý	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+6	?	?	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s21
+# text = Aby sa ľudia mohli smiať .
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#21
+1	Aby	aby	SCONJ	OY	Mood=Cnd	4	mark	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+3	ľudia	človek	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	mohli	môcť	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	smiať	smiať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+6	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s22
+# text = Prečo niesme prirodzení ?
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#22
+1	Prečo	prečo	ADV	PD	PronType=Int,Rel	3	advmod	_	_
+2	niesme	byť	AUX	VKepa-:q	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|Typo=Yes|VerbForm=Fin	3	cop	_	_
+3	prirodzení	prirodzený	ADJ	AAmp1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	_
+4	?	?	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s23
+# text = Aby nás neobvinili z farizejstva .
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#23
+1	Aby	aby	SCONJ	OY	Mood=Cnd	3	mark	_	_
+2	nás	my	PRON	PPhp4	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obj	_	_
+3	neobvinili	obviniť	VERB	VLdpcm-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+4	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+5	farizejstva	farizejstvo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	3	obl:arg	_	_
+6	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = s24
+# text = Prečo existuje láska ?
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#24
+1	Prečo	prečo	ADV	PD	PronType=Int,Rel	2	advmod	_	_
+2	existuje	existovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	láska	láska	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+4	?	?	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = s25
+# text = Neviem , aby každý život aspoň za niečo stál ( keď už za nič nestojí ) ?
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#25
+1	Neviem	vedieť	VERB	VKesa-	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	,	,	PUNCT	Z	_	9	punct	_	_
+3	aby	aby	SCONJ	OY	Mood=Cnd	9	advmod:emph	_	_
+4	každý	každý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	5	det	_	_
+5	život	život	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+6	aspoň	aspoň	PART	T	_	8	advmod:emph	_	_
+7	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	8	case	_	_
+8	niečo	niečo	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	9	obl	_	_
+9	stál	stáť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	conj	_	_
+10	(	(	PUNCT	Z	_	15	punct	_	_
+11	keď	keď	SCONJ	O	_	15	mark	_	_
+12	už	už	PART	T	_	15	advmod:emph	_	_
+13	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+14	nič	nič	PRON	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	15	obl	_	_
+15	nestojí	stáť	VERB	VKesc-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+16	)	)	PUNCT	Z	_	15	punct	_	_
+17	?	?	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = s26
+# text = Prečo by nikdy nikto neuveril odpovediam ?
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#26
+1	Prečo	prečo	ADV	PD	PronType=Int,Rel	5	advmod	_	_
+2	by	by	AUX	Y	Mood=Cnd	5	advmod	_	_
+3	nikdy	nikdy	ADV	PD	PronType=Neg	5	advmod	_	_
+4	nikto	nikto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	5	nsubj	_	_
+5	neuveril	uveriť	VERB	VLdscm-	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+6	odpovediam	odpoveď	NOUN	SSfp3	Case=Dat|Gender=Fem|Number=Plur	5	obj	_	_
+7	?	?	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s27
+# text = Hlúpa otázka . . .
+# orig_file_sentence 2005-09-21-d-199_kandracova_2005-09-21-d-199_bugajova#27
+1	Hlúpa	hlúpy	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	otázka	otázka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	.	.	PUNCT	Z	_	2	punct	_	_
+4	.	.	PUNCT	Z	_	2	punct	_	_
+5	.	.	PUNCT	Z	_	2	punct	_	_
+

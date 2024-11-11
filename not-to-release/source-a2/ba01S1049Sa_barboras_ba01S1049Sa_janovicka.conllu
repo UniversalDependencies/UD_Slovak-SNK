@@ -1,0 +1,594 @@
+# sent_id = s1
+# text = Abrahám ( 18 . - 17 . stor . pr . n . l . ) je patriarcha , od ktorého Biblia odvodzuje židovský národ .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#1
+1	Abrahám	abrahám	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+2	(	(	PUNCT	ZIP	_	3	punct	_	_
+3	18	18	NUM	0	NumForm=Digit	1	dep	_	_
+4	.	.	PUNCT	ZIP	_	3	punct	_	_
+5	-	-	PUNCT	ZIP	_	6	punct	_	_
+6	17	17	NUM	0	NumForm=Digit	3	conj	_	_
+7	.	.	PUNCT	ZIP	_	6	punct	_	_
+8	stor	stor	X	W	Abbr=Yes	3	conj	_	_
+9	.	.	PUNCT	ZIP	_	8	punct	_	_
+10	pr	pr	X	W	Abbr=Yes	14	case	_	_
+11	.	.	PUNCT	ZIP	_	14	punct	_	_
+12	n	n	X	W	Abbr=Yes	14	nmod	_	_
+13	.	.	PUNCT	ZIP	_	12	punct	_	_
+14	l	l	X	W	Abbr=Yes	8	nmod	_	_
+15	.	.	PUNCT	ZIP	_	14	punct	_	_
+16	)	)	PUNCT	ZIP	_	3	punct	_	_
+17	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	patriarcha	patriarcha	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+19	,	,	PUNCT	ZIP	_	23	punct	_	_
+20	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	21	case	_	_
+21	ktorého	ktorý	DET	PAms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|PronType=Int,Rel	23	obl:arg	_	_
+22	Biblia	biblia	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+23	odvodzuje	odvodzovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	acl	_	_
+24	židovský	židovský	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	národ	národ	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+26	.	.	PUNCT	ZIP	_	18	punct	_	_
+
+# sent_id = s2
+# text = Jeho meno sa v Biblii uvádza dvojako .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#2
+1	Jeho	jeho	DET	PUns1	Case=Nom|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	meno	meno	NOUN	SSns1	Case=Nom|Gender=Neut|Number=Sing	6	nsubj:pass	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pass	_	_
+4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+5	Biblii	biblia	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+6	uvádza	uvádzať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	dvojako	dvojako	ADV	ND	NumType=Mult	6	obl	_	_
+8	.	.	PUNCT	ZIP	_	6	punct	_	_
+
+# sent_id = s3
+# text = Abrám ( vznešený otec ) , vyvolený za praotca Židov , dostáva od boha , Éla Šaddaia spolu s novým poslaním aj nové meno , stáva sa Abrahámom , teda otcom zástupov ( ľudová etymológia ) .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#3
+1	Abrám	abrám	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+2	(	(	PUNCT	ZIP	_	4	punct	_	_
+3	vznešený	vznešený	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	otec	otec	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+5	)	)	PUNCT	ZIP	_	4	punct	_	_
+6	,	,	PUNCT	ZIP	_	7	punct	_	_
+7	vyvolený	vyvolený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	1	amod	_	_
+8	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	9	case	_	_
+9	praotca	praotec	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	obl:arg	_	_
+10	Židov	žid	PROPN	SSmp2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	,	,	PUNCT	ZIP	_	7	punct	_	_
+12	dostáva	dostávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	_	_
+14	boha	boh	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	obl:arg	_	_
+15	,	,	PUNCT	ZIP	_	17	punct	_	_
+16	Éla	él	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+17	Šaddaia	šaddai	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	appos	_	_
+18	spolu	spolu	SCONJ	O	_	12	advmod	_	_
+19	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	18	case	_	_
+20	novým	nový	ADJ	AAns7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	poslaním	poslanie	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	18	obl	_	_
+22	aj	aj	PART	T	_	23	advmod:emph	_	_
+23	nové	nový	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	meno	meno	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+25	,	,	PUNCT	ZIP	_	26	punct	_	_
+26	stáva	stávať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	conj	_	_
+27	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	26	expl:pv	_	_
+28	Abrahámom	abrahám	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	26	obj	_	_
+29	,	,	PUNCT	ZIP	_	31	punct	_	_
+30	teda	teda	CCONJ	O	_	31	cc	_	_
+31	otcom	otec	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	28	appos	_	_
+32	zástupov	zástup	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	_
+33	(	(	PUNCT	ZIP	_	35	punct	_	_
+34	ľudová	ľudový	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
+35	etymológia	etymológia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	12	dep	_	_
+36	)	)	PUNCT	ZIP	_	35	punct	_	_
+37	.	.	PUNCT	ZIP	_	12	punct	_	_
+
+# sent_id = s4
+# text = Prostredníctvom Šéma je Abrahám Nóachovým potomkom z deviateho pokolenia .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#4
+1	Prostredníctvom	prostredníctvom	ADP	Eu2	AdpType=Prep|Case=Gen	2	case	_	_
+2	Šéma	šém	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+3	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	Abrahám	abrahám	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	Nóachovým	nóachov	ADJ	AFms7x:r	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	potomkom	potomok	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+7	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	9	case	_	_
+8	deviateho	deviaty	ADJ	NAns2	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord	9	amod	_	_
+9	pokolenia	pokolenie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+10	.	.	PUNCT	ZIP	_	6	punct	_	_
+
+# sent_id = s5
+# text = S rodinou svojho otca Teracha sa presťahoval z juhomezopotámskeho mesta Úr do Cháránu v severnej Mezopotámii .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#5
+1	S	s	ADP	Eu7	AdpType=Prep|Case=Ins	2	case	_	_
+2	rodinou	rodina	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+3	svojho	svoj	DET	PFms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	4	det	_	_
+4	otca	otec	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	Teracha	terach	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+7	presťahoval	presťahovať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+9	juhomezopotámskeho	juhomezopotámsky	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	mesta	mesto	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+11	Úr	úr	PROPN	SSis1:r	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
+12	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	13	case	_	_
+13	Cháránu	chárán	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	_	_
+15	severnej	severný	ADJ	AAfs6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	Mezopotámii	mezopotámia	PROPN	SSfs6:r	Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	_
+17	.	.	PUNCT	ZIP	_	7	punct	_	_
+
+# sent_id = s6
+# text = Mal sedemdesiatpäť rokov , keď dostal boží príkaz opustiť vlasť svojich predkov a odísť do Kanaánu .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#6
+1	Mal	mať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+2	sedemdesiatpäť	sedemdesiatpäť	NUM	NUip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obl	_	_
+3	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	,	,	PUNCT	ZIP	_	6	punct	_	_
+5	keď	keď	SCONJ	O	_	6	mark	_	_
+6	dostal	dostať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	1	advcl	_	_
+7	boží	boží	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	príkaz	príkaz	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+9	opustiť	opustiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	8	acl	_	_
+10	vlasť	vlasť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	svojich	svoj	DET	PFmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	_	_
+12	predkov	predok	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	odísť	odísť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	9	conj	_	_
+15	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	_	_
+16	Kanaánu	kanaán	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	_
+17	.	.	PUNCT	ZIP	_	1	punct	_	_
+
+# sent_id = s7
+# text = Abrahám sa tam s manželkou Sárou , synovcom Lótom a služobníctvom aj vydal .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#7
+1	Abrahám	abrahám	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+3	tam	tam	ADV	PD	PronType=Dem	13	advmod	_	_
+4	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	6	case	_	_
+5	manželkou	manželka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	_
+6	Sárou	sára	PROPN	SSfs7:r	Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_
+7	,	,	PUNCT	ZIP	_	9	punct	_	_
+8	synovcom	synovec	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_
+9	Lótom	lót	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	conj	_	_
+10	a	a	CCONJ	O	_	11	cc	_	_
+11	služobníctvom	služobníctvo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	6	conj	_	_
+12	aj	aj	PART	T	_	13	advmod	_	_
+13	vydal	vydať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+14	.	.	PUNCT	ZIP	_	13	punct	_	_
+
+# sent_id = s8
+# text = Keď v tej oblasti vypukol hladomor , presťahovali sa do Egypta .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#8
+1	Keď	keď	SCONJ	O	_	5	mark	_	_
+2	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	_	_
+3	tej	tá	DET	PFfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	oblasti	oblasť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+5	vypukol	vypuknúť	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	advcl	_	_
+6	hladomor	hladomor	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	,	,	PUNCT	ZIP	_	5	punct	_	_
+8	presťahovali	presťahovať	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+10	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	11	case	_	_
+11	Egypta	egypt	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+12	.	.	PUNCT	ZIP	_	8	punct	_	_
+
+# sent_id = s9
+# text = Tu Abrahám , aby ho nezabili , vyhlásil , že Sára je jeho sestra .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#9
+1	Tu	tu	ADV	PD	PronType=Dem	8	advmod	_	_
+2	Abrahám	abrahám	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+3	,	,	PUNCT	ZIP	_	6	punct	_	_
+4	aby	aby	SCONJ	OY	Mood=Cnd	6	mark	_	_
+5	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	nezabili	zabiť	VERB	VLdpco-	Aspect=Perf|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	8	advcl	_	_
+7	,	,	PUNCT	ZIP	_	6	punct	_	_
+8	vyhlásil	vyhlásiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+9	,	,	PUNCT	ZIP	_	14	punct	_	_
+10	že	že	SCONJ	O	_	14	mark	_	_
+11	Sára	sára	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+12	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	jeho	jeho	DET	PUfs1	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	sestra	sestra	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	8	ccomp	_	_
+15	.	.	PUNCT	ZIP	_	8	punct	_	_
+
+# sent_id = s10
+# text = Tak sa Sára dostala do faraónovho háremu a Abrahám bol bohato obdarovaný .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#10
+1	Tak	tak	CCONJ	O	_	4	advmod	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	Sára	sára	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	dostala	dostať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+6	faraónovho	faraónov	ADJ	AFis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	háremu	hárem	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+8	a	a	CCONJ	O	_	12	cc	_	_
+9	Abrahám	abrahám	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+10	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	12	cop	_	_
+11	bohato	bohato	ADV	Dx	Degree=Pos	12	advmod	_	_
+12	obdarovaný	obdarovaný	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	4	conj	_	_
+13	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s11
+# text = Boh vtedy potrestal faraóna ťažkými ranami , preto faraón vrátil Sáru Abrahámovi a vynnal ich z krajiny .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#11
+1	Boh	boh	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	vtedy	vtedy	ADV	PD	PronType=Dem	3	advmod	_	_
+3	potrestal	potrestať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	faraóna	faraón	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	obj	_	_
+5	ťažkými	ťažký	ADJ	AAfp7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+6	ranami	rana	NOUN	SSfp7	Case=Ins|Gender=Fem|Number=Plur	3	obl	_	_
+7	,	,	PUNCT	ZIP	_	10	punct	_	_
+8	preto	preto	ADV	PD	PronType=Dem	10	mark	_	_
+9	faraón	faraón	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	vrátil	vrátiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	advcl	_	_
+11	Sáru	sára	PROPN	SSfs4:r	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	Abrahámovi	abrahám	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	10	iobj	_	_
+13	a	a	CCONJ	O	_	14	cc	_	_
+14	vynnal	vyhnať	VERB	VLdscm+:q	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|Typo=Yes|VerbForm=Part	10	conj	_	_
+15	ich	on	PRON	PFop4	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
+16	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	17	case	_	_
+17	krajiny	krajina	NOUN	SSfs2	Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_
+18	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s12
+# text = ( Podobný príbeh sa stal aj v krajine Abímelecha ) .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#12
+1	(	(	PUNCT	ZIP	_	5	punct	_	_
+2	Podobný	podobný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	príbeh	príbeh	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+5	stal	stať	VERB	VLdsci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	aj	aj	PART	T	_	8	advmod:emph	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	_	_
+8	krajine	krajina	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+9	Abímelecha	abímelech	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	)	)	PUNCT	ZIP	_	5	punct	_	_
+11	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s13
+# text = V Kanaáne sa Abrahám a Lót rozišli , aby medzi nimi nevznikli spory o pastviny .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#13
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	Kanaáne	kanaán	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+4	Abrahám	abrahám	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+5	a	a	CCONJ	O	_	6	cc	_	_
+6	Lót	lót	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+7	rozišli	rozísť	VERB	VLdpcm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	,	,	PUNCT	ZIP	_	12	punct	_	_
+9	aby	aby	SCONJ	OY	Mood=Cnd	12	mark	_	_
+10	medzi	medzi	ADP	Eu7	AdpType=Prep|Case=Ins	11	case	_	_
+11	nimi	on	PRON	PFmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obl:arg	_	_
+12	nevznikli	vzniknúť	VERB	VLdpci-	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	7	advcl	_	_
+13	spory	spor	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+14	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	15	case	_	_
+15	pastviny	pastvina	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	13	nmod	_	_
+16	.	.	PUNCT	ZIP	_	7	punct	_	_
+
+# sent_id = s14
+# text = Lót si vybral úrodnejšiu oblasť okolo Sodomy a Gomory , zatiaľ čo Abrahám sa usadil pri Chebróne , kde si neskôr kúpil aj rodinnú hrobku .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#14
+1	Lót	lót	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	si	si	PRON	R	PronType=Prs|Reflex=Yes	3	obl	_	_
+3	vybral	vybrať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	úrodnejšiu	úrodnejší	ADJ	AAfs4y	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	5	amod	_	_
+5	oblasť	oblasť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	okolo	okolo	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	_	_
+7	Sodomy	sodoma	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	a	a	CCONJ	O	_	9	cc	_	_
+9	Gomory	gomora	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	7	conj	_	_
+10	,	,	PUNCT	ZIP	_	15	punct	_	_
+11	zatiaľ	zatiaľ	SCONJ	O	_	15	mark	_	_
+12	čo	čo	SCONJ	O	_	11	fixed	_	_
+13	Abrahám	abrahám	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+14	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+15	usadil	usadiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	advcl	_	_
+16	pri	pri	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	Chebróne	chebrón	PROPN	SSis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+18	,	,	PUNCT	ZIP	_	22	punct	_	_
+19	kde	kde	ADV	PD	PronType=Int,Rel	22	advmod	_	_
+20	si	si	PRON	R	PronType=Prs|Reflex=Yes	22	obl	_	_
+21	neskôr	neskôr	ADV	Dx	Degree=Pos	22	advmod	_	_
+22	kúpil	kúpiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+23	aj	aj	PART	T	_	25	advmod:emph	_	_
+24	rodinnú	rodinný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	hrobku	hrobka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+26	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s15
+# text = Keď sa dozvedel , že Lóta zajali nepriateľské vojská , išiel mu so svojimi ozbrojenými sluhami na pomoc a vyslobodil ho .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#15
+1	Keď	keď	SCONJ	O	_	3	mark	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	dozvedel	dozvedieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	advcl	_	_
+4	,	,	PUNCT	ZIP	_	7	punct	_	_
+5	že	že	SCONJ	O	_	7	mark	_	_
+6	Lóta	lót	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+7	zajali	zajať	VERB	VLdpcn+	Aspect=Perf|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	3	ccomp	_	_
+8	nepriateľské	nepriateľský	ADJ	AAnp1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	_
+9	vojská	vojsko	NOUN	SSnp1	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+10	,	,	PUNCT	ZIP	_	3	punct	_	_
+11	išiel	ísť	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	16	case	_	_
+14	svojimi	svoj	DET	PFmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	_
+15	ozbrojenými	ozbrojený	ADJ	AAmp7x	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
+16	sluhami	sluha	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	11	obl	_	_
+17	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	18	case	_	_
+18	pomoc	pomoc	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+19	a	a	CCONJ	O	_	20	cc	_	_
+20	vyslobodil	vyslobodiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	11	conj	_	_
+21	ho	on	PRON	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	.	.	PUNCT	ZIP	_	11	punct	_	_
+
+# sent_id = s16
+# text = Víťazne sa vracajúceho Abraháma privítal darmi Melchisedek .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#16
+1	Víťazne	víťazne	ADV	Dx	Degree=Pos	3	advmod	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	vracajúceho	vracajúci	ADJ	Gkms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	4	amod	_	_
+4	Abraháma	abrahám	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	privítal	privítať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	darmi	dar	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	_
+7	Melchisedek	melchisedek	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+8	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s17
+# text = Boh potom opäť Abrahámovi prislúbil , že z jeho potomkov urobí veľký národ .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#17
+1	Boh	boh	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	potom	potom	ADV	Dx	Degree=Pos	5	advmod	_	_
+3	opäť	opäť	ADV	Dx	Degree=Pos	5	advmod	_	_
+4	Abrahámovi	abrahám	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	5	iobj	_	_
+5	prislúbil	prisľúbiť	VERB	VLdscm+:q	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|Typo=Yes|VerbForm=Part	0	root	_	_
+6	,	,	PUNCT	ZIP	_	11	punct	_	_
+7	že	že	SCONJ	O	_	11	mark	_	_
+8	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	_	_
+9	jeho	jeho	DET	PUmp2	Animacy=Anim|Case=Gen|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	potomkov	potomok	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	obl:arg	_	_
+11	urobí	urobiť	VERB	VKdsc+	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+12	veľký	veľký	ADJ	AAis4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	národ	národ	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+14	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s18
+# text = Svoj sľub spečatil zmluvou .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#18
+1	Svoj	svoj	DET	PFis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	2	det	_	_
+2	sľub	sľub	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+3	spečatil	spečatiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+4	zmluvou	zmluva	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+5	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s19
+# text = Abrahám a Sára však nemali deti , preto Sára dala za ženu svoju slúžku Hagar , ktorá mu porodila syna Izmaela .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#19
+1	Abrahám	abrahám	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	a	a	CCONJ	O	_	3	cc	_	_
+3	Sára	sára	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+4	však	však	PART	T	_	5	advmod	_	_
+5	nemali	mať	VERB	VLepco-	Aspect=Imp|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part	0	root	_	_
+6	deti	dieťa	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	_
+7	,	,	PUNCT	ZIP	_	10	punct	_	_
+8	preto	preto	CCONJ	O	_	10	mark	_	_
+9	Sára	sára	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	dala	dať	VERB	VLjscf+	Aspect=Imp,Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	advcl	_	_
+11	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	ženu	žena	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+13	svoju	svoj	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	_	_
+14	slúžku	slúžka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	_
+15	Hagar	hagar	PROPN	SSfs1:r	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	_
+16	,	,	PUNCT	ZIP	_	19	punct	_	_
+17	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	19	nsubj	_	_
+18	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	iobj	_	_
+19	porodila	porodiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	15	acl	_	_
+20	syna	syn	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	21	nmod	_	_
+21	Izmaela	izmael	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+22	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s20
+# text = ( Abrahám sa neskôr oženil aj s Keturou , ktorá mu porodila viacero detí . )
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#20
+1	(	(	PUNCT	ZIP	_	5	punct	_	_
+2	Abrahám	abrahám	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+4	neskôr	neskôr	ADV	Dx	Degree=Pos	5	advmod	_	_
+5	oženil	oženiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	aj	aj	PART	T	_	8	advmod:emph	_	_
+7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	_	_
+8	Keturou	ketura	PROPN	SSfs7:r	Case=Ins|Gender=Fem|Number=Sing	5	obl:arg	_	_
+9	,	,	PUNCT	ZIP	_	12	punct	_	_
+10	ktorá	ktorý	DET	PAfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	12	nsubj	_	_
+11	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
+12	porodila	porodiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+13	viacero	viacero	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+14	detí	dieťa	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	_
+15	.	.	PUNCT	ZIP	_	5	punct	_	_
+16	)	)	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s21
+# text = Él Šaddai však sľubil Abrahámovi syna od Sáry a uzavrel s ním a s jeho potomstvom večnú zmluvu ( berit ) , ktorej obradom , znakom je obriezka .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#21
+1	Él	él	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+2	Šaddai	šaddai	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	však	však	CCONJ	O	_	4	cc	_	_
+4	sľubil	sľubiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+5	Abrahámovi	abrahám	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	iobj	_	_
+6	syna	syn	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	8	case	_	_
+8	Sáry	sára	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	a	a	CCONJ	O	_	10	cc	_	_
+10	uzavrel	uzavrieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	conj	_	_
+11	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	12	case	_	_
+12	ním	on	PRON	PFms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl:arg	_	_
+13	a	a	CCONJ	O	_	16	cc	_	_
+14	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	16	case	_	_
+15	jeho	jeho	DET	PUns7	Case=Ins|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+16	potomstvom	potomstvo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	12	conj	_	_
+17	večnú	večný	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	zmluvu	zmluva	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+19	(	(	PUNCT	ZIP	_	20	punct	_	_
+20	berit	berit	X	%	Foreign=Yes	18	appos	_	_
+21	)	)	PUNCT	ZIP	_	20	punct	_	_
+22	,	,	PUNCT	ZIP	_	24	punct	_	_
+23	ktorej	ktorý	DET	PAfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Int,Rel	24	amod	_	_
+24	obradom	obrad	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	acl	_	_
+25	,	,	PUNCT	ZIP	_	26	punct	_	_
+26	znakom	znak	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	24	appos	_	_
+27	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	24	cop	_	_
+28	obriezka	obriezka	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+29	.	.	PUNCT	ZIP	_	4	punct	_	_
+
+# sent_id = s22
+# text = Jedného dňa sa Abrahámovi zjavil sám boh v podobe troch mužov , aby potvrdil sľub o narodení syna , presvedčil sa o hriešnosti Sodomy a Gomory a zničil obidve hriešne mestá .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#22
+1	Jedného	jeden	NUM	NFis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nummod	_	_
+2	dňa	deň	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+4	Abrahámovi	abrahám	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	5	obj	_	_
+5	zjavil	zjaviť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	sám	sám	DET	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	7	xcomp	_	_
+7	boh	boh	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	podobe	podoba	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+10	troch	tri	NUM	NNmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nummod	_	_
+11	mužov	muž	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	,	,	PUNCT	ZIP	_	14	punct	_	_
+13	aby	aby	SCONJ	OY	Mood=Cnd	14	mark	_	_
+14	potvrdil	potvrdiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	advcl	_	_
+15	sľub	sľub	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+16	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	17	case	_	_
+17	narodení	narodenie	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	15	nmod	_	_
+18	syna	syn	NOUN	SSms2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	,	,	PUNCT	ZIP	_	20	punct	_	_
+20	presvedčil	presvedčiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	conj	_	_
+21	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	20	expl:pv	_	_
+22	o	o	ADP	Eu6	AdpType=Prep|Case=Loc	23	case	_	_
+23	hriešnosti	hriešnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	20	obl:arg	_	_
+24	Sodomy	sodoma	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	a	a	CCONJ	O	_	26	cc	_	_
+26	Gomory	gomora	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	24	conj	_	_
+27	a	a	CCONJ	O	_	28	cc	_	_
+28	zničil	zničiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	14	conj	_	_
+29	obidve	obidva	NUM	NNnp4	Case=Acc|Gender=Neut|Number=Plur	31	nummod	_	_
+30	hriešne	hriešny	ADJ	AAnp4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	31	amod	_	_
+31	mestá	mesto	NOUN	SSnp4	Case=Acc|Gender=Neut|Number=Plur	28	obj	_	_
+32	.	.	PUNCT	ZIP	_	5	punct	_	_
+
+# sent_id = s23
+# text = Abrahám mal sto rokov , keď sa narodil sľúbený syn Izák .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#23
+1	Abrahám	abrahám	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	mal	mať	VERB	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	sto	sto	NUM	NUnp4	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	_
+4	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	,	,	PUNCT	ZIP	_	8	punct	_	_
+6	keď	keď	SCONJ	O	_	8	mark	_	_
+7	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+8	narodil	narodiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	advcl	_	_
+9	sľúbený	sľúbený	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	syn	syn	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
+11	Izák	izák	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+12	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s24
+# text = Boh podrobil Abraháma skúške : prikázal mu , aby svojho milovaného syna obetoval .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#24
+1	Boh	boh	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	podrobil	podrobiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	Abraháma	abrahám	PROPN	SSms4:r	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	skúške	skúška	NOUN	SSfs3	Case=Dat|Gender=Fem|Number=Sing	2	iobj	_	_
+5	:	:	PUNCT	ZIP	_	6	punct	_	_
+6	prikázal	prikázať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
+7	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+8	,	,	PUNCT	ZIP	_	13	punct	_	_
+9	aby	aby	SCONJ	OY	Mood=Cnd	13	mark	_	_
+10	svojho	svoj	DET	PFms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	_	_
+11	milovaného	milovaný	ADJ	Gtms4x	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	syna	syn	NOUN	SSms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+13	obetoval	obetovať	VERB	VLjscm+	Animacy=Anim|Aspect=Imp,Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	6	ccomp	_	_
+14	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s25
+# text = Abrahám bol pripravený priniesť túto obeť , ale anjel boží mu v tom zabránil .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#25
+1	Abrahám	abrahám	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	cop	_	_
+3	pripravený	pripravený	ADJ	Gtms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	priniesť	priniesť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	_	_
+5	túto	táto	DET	PFfs4	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	obeť	obeť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	,	,	PUNCT	ZIP	_	14	punct	_	_
+8	ale	ale	CCONJ	O	_	14	cc	_	_
+9	anjel	anjel	NOUN	SSms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+10	boží	boží	ADJ	AAms1x	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+11	mu	on	PRON	PFms3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	tom	to	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	14	obl:arg	_	_
+14	zabránil	zabrániť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	3	conj	_	_
+15	.	.	PUNCT	ZIP	_	3	punct	_	_
+
+# sent_id = s26
+# text = Abrahám zomrel vo veku 175 rokov , keď sa Izákovi postaral o ženu v osobe Rebeky ( 1M 12 , 1 - 25 , 11 ) .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#26
+1	Abrahám	abrahám	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	zomrel	zomrieť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+3	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	4	case	_	_
+4	veku	vek	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	175	175	NUM	0	NumForm=Digit	4	nummod	_	_
+6	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	,	,	PUNCT	ZIP	_	11	punct	_	_
+8	keď	keď	SCONJ	O	_	11	mark	_	_
+9	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+10	Izákovi	izák	PROPN	SSms3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	11	obj	_	_
+11	postaral	postarať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	2	advcl	_	_
+12	o	o	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	_	_
+13	ženu	žena	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	11	obl:arg	_	_
+14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	15	case	_	_
+15	osobe	osoba	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	_
+16	Rebeky	rebeka	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	(	(	PUNCT	ZIP	_	18	punct	_	_
+18	1M	1m	X	Q	Hyph=Yes	2	dep	_	_
+19	12	12	NUM	0	NumForm=Digit	18	nummod	_	_
+20	,	,	PUNCT	ZIP	_	19	punct	_	_
+21	1	1	NUM	0	NumForm=Digit	19	nummod	_	_
+22	-	-	PUNCT	ZIP	_	23	punct	_	_
+23	25	25	NUM	0	NumForm=Digit	19	conj	_	_
+24	,	,	PUNCT	ZIP	_	23	punct	_	_
+25	11	11	NUM	0	NumForm=Digit	23	nummod	_	_
+26	)	)	PUNCT	ZIP	_	18	punct	_	_
+27	.	.	PUNCT	ZIP	_	2	punct	_	_
+
+# sent_id = s27
+# text = O Abrahámovi sa okrem Biblie nedočítame v nijakom historickom prameni .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#27
+1	O	o	ADP	Eu6	AdpType=Prep|Case=Loc	2	case	_	_
+2	Abrahámovi	abrahám	PROPN	SSms6:r	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	6	obl:arg	_	_
+3	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+4	okrem	okrem	ADP	Eu2	AdpType=Prep|Case=Gen	5	case	_	_
+5	Biblie	biblia	PROPN	SSfs2:r	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+6	nedočítame	dočítať	VERB	VKdpa-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	_	_
+8	nijakom	nijaký	DET	PAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Neg	10	det	_	_
+9	historickom	historický	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	prameni	prameň	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+11	.	.	PUNCT	ZIP	_	6	punct	_	_
+
+# sent_id = s28
+# text = Jeho osobu a s ňou spojené príbehy pokladá moderná kritika za povesti popretkávané mýtom .
+# orig_file_sentence ba01S1049Sa_barboras_ba01S1049Sa_janovicka#28
+1	Jeho	jeho	DET	PUfs4	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	osobu	osoba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+3	a	a	CCONJ	O	_	7	cc	_	_
+4	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	5	case	_	_
+5	ňou	ona	PRON	PFfs7	Case=Ins|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obl:arg	_	_
+6	spojené	spojený	ADJ	AAip4x	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+7	príbehy	príbeh	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	conj	_	_
+8	pokladá	pokladať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	moderná	moderný	ADJ	AAfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	kritika	kritika	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+11	za	za	ADP	Eu4	AdpType=Prep|Case=Acc	12	case	_	_
+12	povesti	povesť	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	8	obl:arg	_	_
+13	popretkávané	popretkávaný	ADJ	Gtfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	_	_
+14	mýtom	mýtus	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obj	_	_
+15	.	.	PUNCT	ZIP	_	8	punct	_	_
+

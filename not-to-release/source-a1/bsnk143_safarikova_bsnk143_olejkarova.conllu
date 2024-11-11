@@ -1,0 +1,140 @@
+# sent_id = s1
+# text = Dve obludné ženy s tehlovočervenými predlaktiami zloženými na zásterách sa zhovárali na podstienku .
+# orig_file_sentence bsnk143_safarikova_bsnk143_olejkarova#1
+1	Dve	dva	NUM	NNfp1	Case=Nom|Gender=Fem|Number=Plur	3	nummod	_	_
+2	obludné	obludný	ADJ	AAfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
+3	ženy	žena	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+4	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	6	case	_	_
+5	tehlovočervenými	tehlovočervený	ADJ	AAnp7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	_
+6	predlaktiami	predlaktie	NOUN	SSnp7	Case=Ins|Gender=Neut|Number=Plur	3	obl:arg	_	_
+7	zloženými	zložený	ADJ	Gtnp7x	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	_	_
+8	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	_	_
+9	zásterách	zástera	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	7	obl	_	_
+10	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	mark	_	_
+11	zhovárali	zhovárať	VERB	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+12	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	_	_
+13	podstienku	podstienok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+14	.	.	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = s2
+# text = Keď k nim Winston podišiel , zachytil útržky ich rozhovoru .
+# orig_file_sentence bsnk143_safarikova_bsnk143_olejkarova#2
+1	Keď	keď	SCONJ	O	_	3	mark	_	_
+2	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	3	case	_	_
+3	nim	ona	PRON	PFfp3	Case=Dat|Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	obl	_	_
+4	Winston	winston	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	podišiel	podísť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	7	parataxis	_	_
+6	,	,	PUNCT	Z	_	3	punct	_	_
+7	zachytil	zachytiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+8	útržky	útržok	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+9	ich	ich	DET	PUis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	rozhovoru	rozhovor	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s3
+# text = " Dobre , " vravím jej , " to je všetko pekné .
+# orig_file_sentence bsnk143_safarikova_bsnk143_olejkarova#3
+1	"	"	PUNCT	Z	_	12	punct	_	_
+2	Dobre	dobre	PART	T	_	12	advmod	_	_
+3	,	,	PUNCT	Z	_	12	punct	_	_
+4	"	"	PUNCT	Z	_	12	punct	_	_
+5	vravím	vravieť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	jej	ona	PRON	PFfs3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	,	,	PUNCT	Z	_	12	punct	_	_
+8	"	"	PUNCT	Z	_	12	punct	_	_
+9	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	12	nsubj	_	_
+10	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	všetko	všetok	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	12	obj	_	_
+12	pekné	pekný	ADJ	AAns1x	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	parataxis	_	_
+13	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s4
+# text = Lenže keby si bola na mojom mieste , urobila by si to na chlp ako ja .
+# orig_file_sentence bsnk143_safarikova_bsnk143_olejkarova#4
+1	Lenže	lenže	CCONJ	O	_	4	cc	_	_
+2	keby	keby	SCONJ	OY	Mood=Cnd	4	advmod	_	_
+3	si	byť	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	compound	_	_
+4	bola	byť	VERB	VLesbf+	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	9	parataxis	_	_
+5	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	_	_
+6	mojom	môj	DET	PFns6	Case=Loc|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det	_	_
+7	mieste	miesto	NOUN	SSns6	Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+8	,	,	PUNCT	Z	_	9	punct	_	_
+9	urobila	urobiť	VERB	VLdsbf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+10	by	by	AUX	Y	Mood=Cnd	9	ccomp	_	_
+11	si	byť	VERB	VKesb+	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	compound	_	_
+12	to	to	DET	PFns4	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	9	iobj	_	_
+13	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	14	case	_	_
+14	chlp	chlp	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+15	ako	ako	SCONJ	O	_	16	mark	_	_
+16	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	obj	_	_
+17	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = s5
+# text = Ľahko sa ti kritizuje , " vravím jej , " keď nemáš také problémy ako ja .
+# orig_file_sentence bsnk143_safarikova_bsnk143_olejkarova#5
+1	Ľahko	ľahko	ADV	Dx	Degree=Pos	4	advmod	_	_
+2	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	ti	ty	PRON	PPhs3	Case=Dat|Number=Sing|Person=2|PronType=Prs	4	obj	_	_
+4	kritizuje	kritizovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+5	,	,	PUNCT	Z	_	4	punct	_	_
+6	"	"	PUNCT	Z	_	7	punct	_	_
+7	vravím	vravieť	VERB	VKesa+	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	jej	ona	PRON	PFfs3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	,	,	PUNCT	Z	_	7	punct	_	_
+10	"	"	PUNCT	Z	_	7	punct	_	_
+11	keď	keď	SCONJ	O	_	12	mark	_	_
+12	nemáš	mať	VERB	VKesb-	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+13	také	taký	DET	PAip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	14	det	_	_
+14	problémy	problém	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+15	ako	ako	SCONJ	O	_	16	mark	_	_
+16	ja	ja	PRON	PPhs1	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	obj	_	_
+17	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = s6
+# text = "
+# orig_file_sentence bsnk143_safarikova_bsnk143_olejkarova#6
+1	"	"	PUNCT	Z	_	0	root	_	_
+
+# sent_id = s7
+# text = " Áno , " povedala tá druhá , " presne .
+# orig_file_sentence bsnk143_safarikova_bsnk143_olejkarova#7
+1	"	"	PUNCT	Z	_	5	punct	_	_
+2	Áno	áno	PART	T	_	5	dep	_	_
+3	,	,	PUNCT	Z	_	5	punct	_	_
+4	"	"	PUNCT	Z	_	5	punct	_	_
+5	povedala	povedať	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	tá	tá	DET	PFfs1	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	druhá	druhý	ADJ	NAfs1	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	5	nsubj	_	_
+8	,	,	PUNCT	Z	_	5	punct	_	_
+9	"	"	PUNCT	Z	_	5	punct	_	_
+10	presne	presne	PART	T	_	5	dep	_	_
+11	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = s8
+# text = Presne tak to je .
+# orig_file_sentence bsnk143_safarikova_bsnk143_olejkarova#8
+1	Presne	presne	PART	T	_	4	advmod	_	_
+2	tak	tak	ADV	PD	PronType=Dem	4	advmod	_	_
+3	to	to	DET	PFns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+4	je	byť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = s9
+# text = "
+# orig_file_sentence bsnk143_safarikova_bsnk143_olejkarova#9
+1	"	"	PUNCT	Z	_	0	root	_	_
+
+# sent_id = s10
+# text = Prenikavé hlasy však naraz zmĺkli akoby ich niekto uťal .
+# orig_file_sentence bsnk143_safarikova_bsnk143_olejkarova#10
+1	Prenikavé	prenikavý	ADJ	AAip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+2	hlasy	hlas	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	však	však	PART	T	_	2	cc	_	_
+4	naraz	naraz	ADV	Dx	Degree=Pos	2	advmod	_	_
+5	zmĺkli	zmĺknuť	VERB	VLdpci+	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	_	_
+6	akoby	akoby	SCONJ	OY	Mood=Cnd	9	mark	_	_
+7	ich	on	PRON	PFip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+8	niekto	niekto	PRON	PFms1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	9	nsubj	_	_
+9	uťal	uťať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	5	ccomp	_	_
+10	.	.	PUNCT	Z	_	5	punct	_	_
+
