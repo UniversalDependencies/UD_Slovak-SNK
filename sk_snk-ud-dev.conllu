@@ -5184,7 +5184,7 @@
 10	procedúry	procedúra	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	13	nsubj:pass	13:nsubj:pass	_
 11	boli	byť	AUX	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	13	aux:pass	13:aux:pass	_
 12	niekoľkokrát	niekoľkokrát	ADV	PD	NumType=Mult|PronType=Ind	13	obl	13:obl	_
-13	obídené	obídený	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	amod	6:amod	SpaceAfter=No
+13	obídené	obídený	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	acl	6:acl:že	SpaceAfter=No
 14	.	.	PUNCT	Z	_	4	punct	4:punct	_
 
 # sent_id = wikipedia:cernobyl002:cernobyl002-p1s2
@@ -5340,13 +5340,13 @@
 33	vrátane	vrátane	ADP	Eu2	AdpType=Prep|Case=Gen	36	case	36:case	_
 34	ručne	ručne	ADV	Dx	Degree=Pos	35	advmod	35:advmod	_
 35	ovládaných	ovládaný	ADJ	Gtfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	36	amod	36:amod	_
-36	tyčí	tyč	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	31	nmod	31:nmod:vrátane:gen	SpaceAfter=No
+36	tyčí	tyč	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	31	nmod	31:nmod:vrátane:gen|42:nsubj:pass	SpaceAfter=No
 37	,	,	PUNCT	Z	_	42	punct	42:punct	_
-38	ktoré	ktorý	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	42	nsubj:pass	42:nsubj:pass	_
+38	ktoré	ktorý	DET	PAfp1	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	42	nsubj:pass	36:ref	_
 39	boli	byť	AUX	VLepcf+	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	42	aux:pass	42:aux:pass	_
 40	predtým	predtým	ADV	Dx	Degree=Pos	42	advmod	42:advmod	_
 41	neobozretne	neobozretne	ADV	Dx	Degree=Pos	42	advmod	42:advmod	_
-42	vytiahnuté	vytiahnutý	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	36	amod	36:amod	SpaceAfter=No
+42	vytiahnuté	vytiahnutý	ADJ	Gtfp1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	36	acl:relcl	36:acl:relcl	SpaceAfter=No
 43	.	.	PUNCT	Z	_	7	punct	7:punct	_
 
 # sent_id = wikipedia:cernobyl002:cernobyl002-p6s9
@@ -7811,7 +7811,7 @@
 8	druhov	druh	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	6:nmod:gen	_
 9	veľrýb	veľryba	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	8	nmod	8:nmod:gen	_
 10	príliš	príliš	ADV	Dx	Degree=Pos	11	advmod	11:advmod	_
-11	zredukované	zredukovaný	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	2	amod	2:amod	_
+11	zredukované	zredukovaný	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	2	acl	2:acl:čo	_
 12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	15	expl:pv	15:expl:pv	_
 13	aj	aj	CCONJ	O	_	14	advmod:emph	14:advmod:emph	_
 14	kosatky	kosatka	NOUN	SSfp1	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	15:nsubj	_
@@ -9365,12 +9365,12 @@
 4	plynov	plyn	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	3:nmod:gen	_
 5	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 6	slnečný	slnečný	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	7:amod	_
-7	vietor	vietor	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	3:nsubj	SpaceAfter=No
+7	vietor	vietor	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	3:nsubj|12:nsubj:pass	SpaceAfter=No
 8	,	,	PUNCT	Z	_	12	punct	12:punct	_
-9	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	12	nsubj:pass	12:nsubj:pass	_
+9	ktorý	ktorý	DET	PAis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	12	nsubj:pass	7:ref	_
 10	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux:pass	12:aux:pass	_
 11	rýchlo	rýchlo	ADV	Dx	Degree=Pos	12	advmod	12:advmod	_
-12	zachytávaný	zachytávaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	7:amod	_
+12	zachytávaný	zachytávaný	ADJ	Gtis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	acl:relcl	7:acl:relcl	_
 13	mesačnou	mesačný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	14:amod	_
 14	gravitáciou	gravitácia	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	12	obl	12:obl:ins	SpaceAfter=No
 15	.	.	PUNCT	Z	_	3	punct	3:punct	_
