@@ -236,7 +236,7 @@
 5	domácnosti	domácnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	3	obl	3:obl:v:loc	_
 6	vždy	vždy	ADV	PD	PronType=Tot	3	advmod	3:advmod	_
 7	dostatok	dostatok	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	3:nsubj	_
-8	všetkého	všetok	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	7	amod	7:amod	SpaceAfter=No
+8	všetkého	všetok	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	7	nmod	7:nmod:gen	SpaceAfter=No
 9	.	.	PUNCT	Z	_	3	punct	3:punct	_
 
 # sent_id = wikipedia:wiki2367:wiki2367-p1s22
@@ -582,8 +582,8 @@
 7	stal	stať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
 8	členom	člen	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl:arg	7:obl:arg:ins	_
 9	Societas	societas	X	%	Foreign=Yes	8	nmod	8:nmod	_
-10	latina	latina	X	%	Foreign=Yes	9	flat:foreign	9:flat:foreign	_
-11	Jenensis	jenensis	X	%	Foreign=Yes	9	flat:foreign	9:flat:foreign	SpaceAfter=No
+10	latina	latina	X	%	Foreign=Yes	9	flat	9:flat	_
+11	Jenensis	jenensis	X	%	Foreign=Yes	9	flat	9:flat	SpaceAfter=No
 12	.	.	PUNCT	Z	_	7	punct	7:punct	_
 
 # sent_id = wikipedia:wiki2367:wiki2367-p1s91
@@ -855,9 +855,9 @@
 2	pod	pod	ADP	Eu7	AdpType=Prep|Case=Ins	3	case	3:case	_
 3	názvom	názov	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl	1:obl:pod:ins	_
 4	Písně	písně	X	%	Foreign=Yes	3	nmod	3:nmod	_
-5	světské	světské	X	%	Foreign=Yes	4	flat:foreign	4:flat:foreign	_
-6	lidu	lidu	X	%	Foreign=Yes	4	flat:foreign	4:flat:foreign	_
-7	slovenského	slovenský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	6:amod	_
+5	světské	světské	X	%	Foreign=Yes	4	flat	4:flat	_
+6	lidu	lidu	X	%	Foreign=Yes	4	flat	4:flat	_
+7	slovenského	slovenský	ADJ	AAis2x	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	6:nmod:gen	_
 8	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	9	case	9:case	_
 9	Uhřích	uhřích	X	%	Foreign=Yes	6	nmod	6:nmod:v:loc	SpaceAfter=No
 10	.	.	PUNCT	Z	_	1	punct	1:punct	_
@@ -2594,7 +2594,7 @@
 11	,	,	PUNCT	Z	_	15	punct	15:punct	_
 12	cez	cez	ADP	Eu4	AdpType=Prep|Case=Acc	13	case	13:case	_
 13	elementy	element	NOUN	SSfp4	Case=Acc|Gender=Fem|Number=Plur	17	obl	17:obl:cez:acc	_
-14	ktorej	ktorý	DET	PAfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Int,Rel	13	amod	13:amod	_
+14	ktorej	ktorý	DET	PAfs2	Case=Gen|Gender=Fem|Number=Sing|PronType=Int,Rel	13	nmod	13:nmod:gen	_
 15	chceme	chcieť	VERB	VKepa+	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	acl	10:acl	_
 16	postupne	postupne	ADV	Dx	Degree=Pos	17	advmod	17:advmod	_
 17	prechádzať	prechádzať	VERB	VIe+	Aspect=Imp|Polarity=Pos|VerbForm=Inf	15	xcomp	15:xcomp	SpaceAfter=No
@@ -3403,7 +3403,7 @@
 22	ako	ako	SCONJ	O	_	24	mark	24:mark	_
 23	"	"	PUNCT	Z	_	24	punct	24:punct	SpaceAfter=No
 24	terra	terra	X	%	Foreign=Yes	1	xcomp	1:xcomp	_
-25	Bozin	bozin	X	%	Foreign=Yes	24	flat:foreign	24:flat:foreign	SpaceAfter=No
+25	Bozin	bozin	X	%	Foreign=Yes	24	flat	24:flat	SpaceAfter=No
 26	"	"	PUNCT	Z	_	24	punct	24:punct	SpaceAfter=No
 27	.	.	PUNCT	Z	_	16	punct	16:punct	_
 
@@ -4202,7 +4202,7 @@
 3	taekkyonu	taekkyon	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	2:nmod:gen	_
 4	nemajú	mať	VERB	VKepc-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	veľa	veľa	NUM	NUns4	Case=Acc|Gender=Neut|Number=Sing	4	obj	4:obj	_
-6	spoločného	spoločný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	5:amod	_
+6	spoločného	spoločný	ADJ	AAns2x	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	nmod	5:nmod:gen	_
 7	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	case	8:case	_
 8	taekwondom	taekwondo	NOUN	SSns7	Case=Ins|Gender=Neut|Number=Sing	6	obl:arg	6:obl:arg:s:ins	SpaceAfter=No
 9	.	.	PUNCT	Z	_	4	punct	4:punct	_
@@ -5404,7 +5404,7 @@
 10	a	a	CCONJ	O	_	11	cc	11:cc	_
 11	hmotnosti	hmotnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	6	conj	4:nmod:o:loc|6:conj	_
 12	5700	5700	NUM	0	NumForm=Digit	11	nummod	11:nummod	_
-13	biliónov	bilión	NUM	NSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nummod	12:nummod	_
+13	biliónov	bilión	NUM	NSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	12:nmod:gen	_
 14	ton	tona	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	13	nmod	13:nmod:gen	SpaceAfter=No
 15	.	.	PUNCT	Z	_	3	punct	3:punct	_
 
@@ -6397,7 +6397,7 @@
 8	priateľov	priateľ	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	7:nmod:gen	_
 9	(	(	PUNCT	Z	_	10	punct	10:punct	SpaceAfter=No
 10	Filiki	filiki	X	%	Foreign=Yes	7	appos	7:appos	_
-11	Eteria	eteria	X	%	Foreign=Yes	10	flat:foreign	10:flat:foreign	SpaceAfter=No
+11	Eteria	eteria	X	%	Foreign=Yes	10	flat	10:flat	SpaceAfter=No
 12	)	)	PUNCT	Z	_	10	punct	10:punct	SpaceAfter=No
 13	,	,	PUNCT	Z	_	14	punct	14:punct	_
 14	založená	založený	ADJ	Gtfs1x	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	7:amod	_
@@ -8701,7 +8701,7 @@
 1	*	*	PUNCT	#	_	2	punct	2:punct	_
 2	Hlasy	hlasy	X	%	Foreign=Yes	0	root	0:root	_
 3	v	v	X	%	Foreign=Yes	4	case	4:case	_
-4	poušti	poušti	X	%	Foreign=Yes	2	flat:foreign	2:flat:foreign	_
+4	poušti	poušti	X	%	Foreign=Yes	2	flat	2:flat	_
 
 # sent_id = wikipedia2:wiki-nove-026:wiki_nove_026-p23s1
 # text = Jeho poviedky sú ironické a sentimentálne.
@@ -8725,9 +8725,9 @@
 # orig_file_sentence 006#50
 1	*	*	PUNCT	#	_	2	punct	2:punct	_
 2	Povídky	povídky	X	%	Foreign=Yes	0	root	0:root	_
-3	ironické	ironické	X	%	Foreign=Yes	2	flat:foreign	2:flat:foreign	_
+3	ironické	ironické	X	%	Foreign=Yes	2	flat	2:flat	_
 4	a	a	X	%	Foreign=Yes	5	cc	5:cc	_
-5	sentimentální	sentimentální	X	%	Foreign=Yes	3	conj	2:flat:foreign|3:conj	_
+5	sentimentální	sentimentální	X	%	Foreign=Yes	3	conj	2:flat|3:conj	_
 
 # sent_id = wikipedia2:wiki-nove-026:wiki_nove_026-p27s1
 # text = Divadelné hry
@@ -8769,14 +8769,14 @@
 1	*	*	PUNCT	#	_	3	punct	3:punct	_
 2	V	v	X	%	Foreign=Yes	3	case	3:case	_
 3	sudu	sudu	X	%	Foreign=Yes	0	root	0:root	_
-4	Diogenově	diogenově	X	%	Foreign=Yes	3	flat:foreign	3:flat:foreign	_
+4	Diogenově	diogenově	X	%	Foreign=Yes	3	flat	3:flat	_
 
 # sent_id = wikipedia2:wiki-nove-026:wiki_nove_026-p34s1
 # text = * Soud lásky
 # orig_file_sentence 006#57
 1	*	*	PUNCT	#	_	2	punct	2:punct	_
 2	Soud	soud	X	%	Foreign=Yes	0	root	0:root	_
-3	lásky	lásky	X	%	Foreign=Yes	2	flat:foreign	2:flat:foreign	_
+3	lásky	lásky	X	%	Foreign=Yes	2	flat	2:flat	_
 
 # sent_id = wikipedia2:wiki-nove-026:wiki_nove_026-p35s3
 # text = Táto historka sa medzi ľuďmi udomácnila, ale nie je pravdivá.
@@ -8808,7 +8808,7 @@
 # orig_file_sentence 006#60
 1	*	*	PUNCT	#	_	2	punct	2:punct	_
 2	Smrt	smrt	X	%	Foreign=Yes	0	root	0:root	_
-3	Odyssea	odyssea	X	%	Foreign=Yes	2	flat:foreign	2:flat:foreign	_
+3	Odyssea	odyssea	X	%	Foreign=Yes	2	flat	2:flat	_
 
 # sent_id = wikipedia2:wiki-nove-026:wiki_nove_026-p38s1
 # text = Literárna kritika
@@ -8821,8 +8821,8 @@
 # orig_file_sentence 006#62
 1	*	*	PUNCT	#	_	2	punct	2:punct	_
 2	Básnické	básnické	X	%	Foreign=Yes	0	root	0:root	_
-3	profily	profily	X	%	Foreign=Yes	2	flat:foreign	2:flat:foreign	_
-4	francouzské	francouzské	X	%	Foreign=Yes	2	flat:foreign	2:flat:foreign	_
+3	profily	profily	X	%	Foreign=Yes	2	flat	2:flat	_
+4	francouzské	francouzské	X	%	Foreign=Yes	2	flat	2:flat	_
 
 # sent_id = wikipedia2:wiki-nove-026:wiki_nove_026-p40s1
 # text = * O poezii Jana Nerudy
@@ -8830,8 +8830,8 @@
 1	*	*	PUNCT	#	_	2	punct	2:punct	_
 2	O	o	X	%	Foreign=Yes	0	root	0:root	_
 3	poezii	poezii	X	%	Foreign=Yes	2	dep	2:dep	_
-4	Jana	jana	X	%	Foreign=Yes	3	flat:foreign	3:flat:foreign	_
-5	Nerudy	nerudy	X	%	Foreign=Yes	4	flat:foreign	4:flat:foreign	_
+4	Jana	jana	X	%	Foreign=Yes	3	flat	3:flat	_
+5	Nerudy	nerudy	X	%	Foreign=Yes	4	flat	4:flat	_
 
 # sent_id = wikipedia2:wiki-nove-026:wiki_nove_026-p45s1
 # text = Jeho preklady sú jedny z najlepších.
@@ -10346,7 +10346,7 @@
 10	Sešitech	sešitech	X	%	Foreign=Yes	6	appos	6:appos	_
 11	alebo	alebo	CCONJ	O	_	12	cc	12:cc	_
 12	Mladé	mladé	X	%	Foreign=Yes	10	conj	6:appos|10:conj	_
-13	tvorbě	tvorbě	X	%	Foreign=Yes	12	flat:foreign	12:flat:foreign	SpaceAfter=No
+13	tvorbě	tvorbě	X	%	Foreign=Yes	12	flat	12:flat	SpaceAfter=No
 14	.	.	PUNCT	Z	_	4	punct	4:punct	_
 
 # sent_id = wikipedia2:wiki-nove-041:wiki_nove_041-p5s1
@@ -10492,7 +10492,7 @@
 3	vzniku	vznik	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	2:nmod:gen	_
 4	"	"	PUNCT	Z	_	5	punct	5:punct	SpaceAfter=No
 5	Národního	národního	X	%	Foreign=Yes	3	nmod	3:nmod|10:nsubj|13:nsubj:xsubj	_
-6	souručenství	souručenství	X	%	Foreign=Yes	5	flat:foreign	5:flat:foreign	SpaceAfter=No
+6	souručenství	souručenství	X	%	Foreign=Yes	5	flat	5:flat	SpaceAfter=No
 7	"	"	PUNCT	Z	_	5	punct	5:punct	SpaceAfter=No
 8	,	,	PUNCT	Z	_	10	punct	10:punct	_
 9	ktoré	ktorý	DET	PAns1	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	10	nsubj	5:ref	_
@@ -10905,14 +10905,14 @@
 1	*	*	PUNCT	#	_	5	punct	5:punct	_
 2	Hru	hra	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	5	obj	5:obj	_
 3	Dům	dům	X	%	Foreign=Yes	2	nmod	2:nmod	_
-4	radosti	radosti	X	%	Foreign=Yes	3	flat:foreign	3:flat:foreign	_
+4	radosti	radosti	X	%	Foreign=Yes	3	flat	3:flat	_
 5	uviedlo	uviesť	VERB	VLdscn+	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
 6	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	7	case	7:case	_
 7	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	5:obl:v:loc	_
 8	1993	1993	NUM	0	NumForm=Digit	7	nummod	7:nummod	_
 9	Divadlo	divadlo	X	%	Foreign=Yes	5	nsubj	5:nsubj	_
 10	Na	na	X	%	Foreign=Yes	11	case	11:case	_
-11	zábradlí	zábradlí	X	%	Foreign=Yes	9	flat:foreign	9:flat:foreign	_
+11	zábradlí	zábradlí	X	%	Foreign=Yes	9	flat	9:flat	_
 12	(	(	PUNCT	Z	_	5	punct	5:punct	SpaceAfter=No
 13	réžia	réžia	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	5	dep	5:dep	SpaceAfter=No
 14	:	:	PUNCT	Z	_	16	punct	16:punct	_
@@ -11345,9 +11345,9 @@
 3	Rashbolda	rashbold	PROPN	SSms2:r	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	1:nmod:gen	_
 4	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	5:case	_
 5	The	the	X	%	Foreign=Yes	1	nmod	1:nmod:v:loc	_
-6	Notion	notion	X	%	Foreign=Yes	5	flat:foreign	5:flat:foreign	_
-7	Club	club	X	%	Foreign=Yes	5	flat:foreign	5:flat:foreign	_
-8	Papers	papers	X	%	Foreign=Yes	5	flat:foreign	5:flat:foreign	_
+6	Notion	notion	X	%	Foreign=Yes	5	flat	5:flat	_
+7	Club	club	X	%	Foreign=Yes	5	flat	5:flat	_
+8	Papers	papers	X	%	Foreign=Yes	5	flat	5:flat	_
 9	(	(	PUNCT	Z	_	10	punct	10:punct	SpaceAfter=No
 10	príbeh	príbeh	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	5:appos	_
 11	z	z	ADP	Eu2	AdpType=Prep|Case=Gen	14	case	14:case	_
@@ -11355,11 +11355,11 @@
 13	.	.	PUNCT	Z	_	12	punct	12:punct	_
 14	zväzku	zväzok	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	10:nmod:z:gen	_
 15	The	the	X	%	Foreign=Yes	14	nmod	14:nmod	_
-16	History	history	X	%	Foreign=Yes	15	flat:foreign	15:flat:foreign	_
+16	History	history	X	%	Foreign=Yes	15	flat	15:flat	_
 17	of	of	X	%	Foreign=Yes	18	case	18:case	_
-18	Middle	middle	X	%	Foreign=Yes	15	flat:foreign	15:flat:foreign	_
+18	Middle	middle	X	%	Foreign=Yes	15	flat	15:flat	_
 19	‐	‐	PUNCT	Z	_	18	punct	18:punct	_
-20	earth	earth	X	%	Foreign=Yes	18	flat:foreign	18:flat:foreign	SpaceAfter=No
+20	earth	earth	X	%	Foreign=Yes	18	flat	18:flat	SpaceAfter=No
 21	)	)	PUNCT	Z	_	10	punct	10:punct	_
 22	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	24	cop	24:cop	_
 23	vtipnou	vtipný	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	24	amod	24:amod	_
@@ -11410,7 +11410,7 @@
 5	na	na	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	6:case	_
 6	farme	farma	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	2	obl	2:obl:na:loc	_
 7	Bag	bag	X	%	Foreign=Yes	6	nmod	6:nmod	_
-8	End	end	X	%	Foreign=Yes	7	flat:foreign	7:flat:foreign	_
+8	End	end	X	%	Foreign=Yes	7	flat	7:flat	_
 9	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	10	case	10:case	_
 10	Worcestershire	worcestershire	PROPN	SUis6:r	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	6:nmod:v:loc	SpaceAfter=No
 11	,	,	PUNCT	Z	_	15	punct	15:punct	_
@@ -11583,7 +11583,7 @@
 12	strelcom	strelec	NOUN	SSmp3	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	obl	6:obl:k:dat|19:obl	_
 13	(	(	PUNCT	Z	_	14	punct	14:punct	SpaceAfter=No
 14	Lancashiree	lancashiree	X	%	Foreign=Yes	12	appos	12:appos	_
-15	Fusiliers	fusiliers	X	%	Foreign=Yes	14	flat:foreign	14:flat:foreign	SpaceAfter=No
+15	Fusiliers	fusiliers	X	%	Foreign=Yes	14	flat	14:flat	SpaceAfter=No
 16	)	)	PUNCT	Z	_	14	punct	14:punct	SpaceAfter=No
 17	,	,	PUNCT	Z	_	19	punct	19:punct	_
 18	kde	kde	ADV	PD	PronType=Int,Rel	19	advmod	12:ref	_
@@ -11611,10 +11611,10 @@
 14	trojdielny	trojdielny	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	15:amod	_
 15	román	román	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	12:nsubj	_
 16	The	the	X	%	Foreign=Yes	15	nmod	15:nmod	_
-17	Lord	lord	X	%	Foreign=Yes	16	flat:foreign	16:flat:foreign	_
+17	Lord	lord	X	%	Foreign=Yes	16	flat	16:flat	_
 18	of	of	X	%	Foreign=Yes	19	case	19:case	_
-19	the	the	X	%	Foreign=Yes	16	flat:foreign	16:flat:foreign	_
-20	Rings	rings	X	%	Foreign=Yes	19	flat:foreign	19:flat:foreign	_
+19	the	the	X	%	Foreign=Yes	16	flat	16:flat	_
+20	Rings	rings	X	%	Foreign=Yes	19	flat	19:flat	_
 21	(	(	PUNCT	Z	_	15	punct	15:punct	SpaceAfter=No
 22	1954	1954	NUM	0	NumForm=Digit	15	dep	15:dep	_
 23	–	–	PUNCT	Z	_	24	punct	24:punct	_
@@ -13000,7 +13000,7 @@
 11	že	že	SCONJ	O	_	20	mark	20:mark	_
 12	udávané	udávaný	ADJ	Gtip1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	13	amod	13:amod	_
 13	počty	počet	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	20:nsubj	_
-14	popravených	popravený	ADJ	Gtmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	13	amod	13:amod	_
+14	popravených	popravený	ADJ	Gtmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	13	nmod	13:nmod:gen	_
 15	pomocou	pomocou	ADP	Eu2	AdpType=Prep|Case=Gen	16	case	16:case	_
 16	Zyklonu	zyklon	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	14:obl:pomocou:gen	_
 17	B	b	PROPN	W	Abbr=Yes	16	nmod	16:nmod	_
@@ -13457,8 +13457,8 @@
 6	zbierku	zbierka	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	4	obj	4:obj|14:obl:v:loc	_
 7	básni	báseň	NOUN	SSfp2:q	Case=Gen|Gender=Fem|Number=Plur|Typo=Yes	6	nmod	6:nmod:gen	_
 8	The	the	X	%	Foreign=Yes	6	nmod	6:nmod	_
-9	back	back	X	%	Foreign=Yes	8	flat:foreign	8:flat:foreign	_
-10	country	country	X	%	Foreign=Yes	8	flat:foreign	8:flat:foreign	SpaceAfter=No
+9	back	back	X	%	Foreign=Yes	8	flat	8:flat	_
+10	country	country	X	%	Foreign=Yes	8	flat	8:flat	SpaceAfter=No
 11	,	,	PUNCT	Z	_	14	punct	14:punct	_
 12	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	13:case	_
 13	ktorej	ktorý	DET	PAfs6	Case=Loc|Gender=Fem|Number=Sing|PronType=Int,Rel	14	obl	6:ref	_
@@ -13578,7 +13578,7 @@
 9	básni	báseň	NOUN	SSfp2:q	Case=Gen|Gender=Fem|Number=Plur|Typo=Yes	6	nmod	6:nmod:gen	_
 10	Danger	danger	X	%	Foreign=Yes	6	nmod	6:nmod	_
 11	on	on	X	%	Foreign=Yes	12	case	12:case	_
-12	Peaks	peaks	X	%	Foreign=Yes	10	flat:foreign	10:flat:foreign	SpaceAfter=No
+12	Peaks	peaks	X	%	Foreign=Yes	10	flat	10:flat	SpaceAfter=No
 13	.	.	PUNCT	Z	_	5	punct	5:punct	_
 
 # sent_id = wikipedia2:wiki-nove-065:wiki_nove_065-p25s1
@@ -14016,10 +14016,10 @@
 # text = The Art of Computer Programming
 # orig_file_sentence 009#83
 1	The	the	X	%	Foreign=Yes	0	root	0:root	_
-2	Art	art	X	%	Foreign=Yes	1	flat:foreign	1:flat:foreign	_
+2	Art	art	X	%	Foreign=Yes	1	flat	1:flat	_
 3	of	of	X	%	Foreign=Yes	4	case	4:case	_
-4	Computer	computer	X	%	Foreign=Yes	1	flat:foreign	1:flat:foreign	_
-5	Programming	programming	X	%	Foreign=Yes	4	flat:foreign	4:flat:foreign	_
+4	Computer	computer	X	%	Foreign=Yes	1	flat	1:flat	_
+5	Programming	programming	X	%	Foreign=Yes	4	flat	4:flat	_
 
 # sent_id = wikipedia2:wiki-nove-073:wiki_nove_073-p2s4
 # text = Paul Dirac či Albert Einstein.
@@ -14663,13 +14663,13 @@
 18	súčasnosti	súčasnosť	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	19	obl	19:obl:v:loc	_
 19	predstavuje	predstavovať	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_
 20	10	10	NUM	0	NumForm=Digit	19	obj	19:obj	_
-21	miliónov	milión	NUM	NSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nummod	20:nummod	_
+21	miliónov	milión	NUM	NSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	20:nmod:gen	_
 22	švédskych	švédsky	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	23	amod	23:amod	_
 23	korún	koruna	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	21	nmod	21:nmod:gen	_
 24	(	(	PUNCT	Z	_	26	punct	26:punct	SpaceAfter=No
 25	cca	cca	ADV	W	Abbr=Yes	26	advmod:emph	26:advmod:emph	_
 26	43	43	NUM	0	NumForm=Digit	20	appos	20:appos	_
-27	miliónov	milión	NUM	NSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nummod	26:nummod	_
+27	miliónov	milión	NUM	NSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	26:nmod:gen	_
 28	slovenských	slovenský	ADJ	AAfp2x	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	29	amod	29:amod	_
 29	korún	koruna	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	27	nmod	27:nmod:gen	SpaceAfter=No
 30	)	)	PUNCT	Z	_	26	punct	26:punct	SpaceAfter=No
@@ -15288,8 +15288,8 @@
 7	kalifornskom	kalifornský	ADJ	AAis6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	8:amod	_
 8	Institute	institute	X	%	Foreign=Yes	5	obl	5:obl:v:loc	_
 9	for	for	X	%	Foreign=Yes	10	case	10:case	_
-10	Historical	historical	X	%	Foreign=Yes	8	flat:foreign	8:flat:foreign	_
-11	Review	review	X	%	Foreign=Yes	10	flat:foreign	10:flat:foreign	SpaceAfter=No
+10	Historical	historical	X	%	Foreign=Yes	8	flat	8:flat	_
+11	Review	review	X	%	Foreign=Yes	10	flat	10:flat	SpaceAfter=No
 12	.	.	PUNCT	Z	_	5	punct	5:punct	_
 
 # sent_id = wikipedia2:wiki-nove-088:wiki_nove_088-p10s1
@@ -16277,7 +16277,7 @@
 5	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	6	case	6:case	_
 6	časopise	časopis	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	2:obl:v:loc	_
 7	Univerzita	univerzita	X	%	Foreign=Yes	6	nmod	6:nmod	_
-8	Karlova	karlov	X	%	Foreign=Yes	7	flat:foreign	7:flat:foreign	_
+8	Karlova	karlov	X	%	Foreign=Yes	7	flat	7:flat	_
 9	a	a	CCONJ	O	_	12	cc	12:cc	_
 10	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	12	case	12:case	_
 11	vojenskom	vojenský	ADJ	AAns6x	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	12:amod	_
