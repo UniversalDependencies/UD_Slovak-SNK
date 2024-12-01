@@ -94,7 +94,7 @@
 3	II	ii	NUM	0	NumForm=Digit	2	nummod	2:nummod	SpaceAfter=No
 4	.	.	PUNCT	Z	_	3	punct	3:punct	_
 5	vytiahol	vytiahnuť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
-6	po	po	ADP	Eu6	AdpType=Prep|Case=Loc	8	case	8:case	_
+6	po	po	ADP	Eu6	AdpType=Prep|Case=Loc|ExtPos=ADP	8	case	8:case	_
 7	pozdĺž	pozdĺž	ADP	Eu2	AdpType=Prep|Case=Gen	6	fixed	6:fixed	_
 8	Dunaja	dunaj	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	5:obl:po_pozdĺž:gen	_
 9	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	10:case	_
@@ -199,8 +199,8 @@
 3	5	5	NUM	0	NumForm=Digit	1	obj	1:obj	_
 4	detí	dieťa	NOUN	SSnp2	Case=Gen|Gender=Neut|Number=Plur	3	nmod	3:nmod:gen	SpaceAfter=No
 5	,	,	PUNCT	Z	_	10	punct	10:punct	_
-6	a	a	CCONJ	O	_	10	cc	10:cc	_
-7	to	to	PART	O	_	6	fixed	6:fixed	_
+6	a	a	CCONJ	O	ExtPos=CCONJ	10	cc	10:cc	_
+7	to	to	PART	PFns1	_	6	fixed	6:fixed	_
 8	už	už	ADV	Dx	Degree=Pos	9	advmod:emph	9:advmod:emph	_
 9	spomenutých	spomenutý	ADJ	Gtmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	10:amod	_
 10	súrodencov	súrodenec	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	appos	3:appos	_
@@ -434,7 +434,7 @@
 9	2	2	NUM	0	NumForm=Digit	10	nummod	10:nummod	_
 10	roky	rok	NOUN	SSip4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obl	6:obl:acc	SpaceAfter=No
 11	,	,	PUNCT	Z	_	16	punct	16:punct	_
-12	a	a	CCONJ	O	_	16	cc	16:cc	_
+12	a	a	CCONJ	O	ExtPos=CCONJ	16	cc	16:cc	_
 13	to	to	PART	PFns1	_	12	fixed	12:fixed	_
 14	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	16	case	16:case	_
 15	školských	školský	ADJ	AAip6x	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	16	amod	16:amod	_
@@ -1750,7 +1750,7 @@
 11	.	.	PUNCT	Z	_	10	punct	10:punct	_
 12	Kyjevskú	kyjevský	ADJ	AAfs4x:r	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	13:amod	_
 13	dohodu	dohoda	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	6	obj	6:obj|25:obl:ins	_
-14	spolu	spolu	ADP	Eu7	AdpType=Prep|Case=Ins	21	case	21:case	_
+14	spolu	spolu	ADP	Eu7	AdpType=Prep|Case=Ins|ExtPos=ADP	21	case	21:case	_
 15	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	14	fixed	14:fixed	_
 16	predstaviteľom	predstaviteľ	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	21	nmod	21:nmod:ins	_
 17	amerických	americký	ADJ	AAmp2x	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	18	amod	18:amod	_
@@ -1988,7 +1988,7 @@
 4	USA	usa	PROPN	W	Abbr=Yes	3	obj	3:obj|14:obl	SpaceAfter=No
 5	,	,	PUNCT	Z	_	14	punct	14:punct	_
 6	kde	kde	ADV	PD	PronType=Int,Rel	14	advmod	4:ref	_
-7	spolu	spolu	ADP	Eu7	AdpType=Prep|Case=Ins	9	case	9:case	_
+7	spolu	spolu	ADP	Eu7	AdpType=Prep|Case=Ins|ExtPos=ADP	9	case	9:case	_
 8	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	7	fixed	7:fixed	_
 9	Masarykom	masaryk	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	obl	14:obl:spolu_s:ins	_
 10	a	a	CCONJ	O	_	13	cc	13:cc	_
@@ -2834,7 +2834,7 @@
 # orig_file_sentence 002#59
 1	Dôležitý	dôležitý	ADJ	AAis1x	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	2:amod	_
 2	argument	argument	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	0:root	_
-3	v	v	ADP	Eu4	AdpType=Prep|Case=Acc	5	case	5:case	_
+3	v	v	ADP	Eu4	AdpType=Prep|Case=Acc|ExtPos=ADP	5	case	5:case	_
 4	prospech	prospech	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	fixed	3:fixed	_
 5	modelu	model	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	2:nmod:v_prospech:gen	_
 6	je	byť	AUX	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	2:cop	_
@@ -9092,7 +9092,7 @@
 # sent_id = wikipedia2:wiki-nove-030:wiki_nove_030-p4s6
 # text = Spolu s ním padli dve tretiny vojakov.
 # orig_file_sentence 006#83
-1	Spolu	spolu	ADP	Eu7	AdpType=Prep|Case=Ins	3	case	3:case	_
+1	Spolu	spolu	ADP	Eu7	AdpType=Prep|Case=Ins|ExtPos=ADP	3	case	3:case	_
 2	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	1	fixed	1:fixed	_
 3	ním	on	PRON	PFms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	4:obl:spolu_s:ins	_
 4	padli	padnúť	VERB	VLdpcf+	Aspect=Perf|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
@@ -9902,7 +9902,7 @@
 10	toho	to	DET	PFns2	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	11	det	11:det	_
 11	telesa	teleso	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	9	nmod	9:nmod:gen	_
 12	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	17	expl:pv	17:expl:pv	_
-13	spolu	spolu	ADV	Dx	Degree=Pos	16	case	16:case	_
+13	spolu	spolu	ADV	Dx	Degree=Pos|ExtPos=ADP	16	case	16:case	_
 14	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	13	fixed	13:fixed	_
 15	jeho	jeho	DET	PUip7	Animacy=Inan|Case=Ins|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	16:det	_
 16	pozostatkami	pozostatok	NOUN	SSip7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	17	obl	17:obl:spolu_s:ins	_
@@ -10024,7 +10024,7 @@
 4	hnutia	hnutie	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	3	nmod	3:nmod:gen	_
 5	priznávali	priznávať	VERB	VLepcm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
 6	,	,	PUNCT	Z	_	10	punct	10:punct	_
-7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc	10	case	10:case	_
+7	na	na	ADP	Eu4	AdpType=Prep|Case=Acc|ExtPos=ADP	10	case	10:case	_
 8	rozdiel	rozdiel	NOUN	SSis4	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	fixed	7:fixed	_
 9	od	od	ADP	Eu2	AdpType=Prep|Case=Gen	7	fixed	7:fixed	_
 10	katarov	katar	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	obl	5:obl:na_rozdiel_od:gen	SpaceAfter=No
@@ -11027,7 +11027,7 @@
 8	(	(	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
 9	1956	1956	NUM	0	NumForm=Digit	4	dep	4:dep	SpaceAfter=No
 10	)	)	PUNCT	Z	_	4	punct	4:punct	_
-11	spolu	spolu	ADV	Dx	Degree=Pos	15	case	15:case	_
+11	spolu	spolu	ADV	Dx	Degree=Pos|ExtPos=ADP	15	case	15:case	_
 12	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	11	fixed	11:fixed	_
 13	J	j	PROPN	W	Abbr=Yes	15	nmod	15:nmod	SpaceAfter=No
 14	.	.	PUNCT	Z	_	13	punct	13:punct	_
@@ -11387,7 +11387,7 @@
 5	odcestoval	odcestovať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
 6	do	do	ADP	Eu2	AdpType=Prep|Case=Gen	7	case	7:case	_
 7	Anglicka	anglicko	PROPN	SSns2:r	Case=Gen|Gender=Neut|Number=Sing	5	obl	5:obl:do:gen	_
-8	spolu	spolu	ADV	Dx	Degree=Pos	10	case	10:case	_
+8	spolu	spolu	ADV	Dx	Degree=Pos|ExtPos=ADP	10	case	10:case	_
 9	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	fixed	8:fixed	_
 10	matkou	matka	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	5	obl	5:obl:spolu_s:ins|14:nsubj|15:nsubj:xsubj	SpaceAfter=No
 11	,	,	PUNCT	Z	_	14	punct	14:punct	_
@@ -12004,7 +12004,7 @@
 # sent_id = wikipedia2:wiki-nove-056:wiki_nove_056-p9s3
 # text = Spolu s inými zajatcami boli deportovaní do dnešních provincií Fárs a Chúzistán, kde podľa kronikára Tabarího museli pracovať na stavbe priehrady blízko Šúštaru (tej sa potom vravelo „cisárska priehrada“).
 # orig_file_sentence 008#57
-1	Spolu	spolu	ADV	Dx	Degree=Pos	4	case	4:case	_
+1	Spolu	spolu	ADV	Dx	Degree=Pos|ExtPos=ADP	4	case	4:case	_
 2	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	1	fixed	1:fixed	_
 3	inými	iný	DET	PAmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|PronType=Ind	4	det	4:det	_
 4	zajatcami	zajatec	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	6	obl	6:obl:spolu_s:ins	_
@@ -12196,7 +12196,7 @@
 9	Parmúdom	parmúd	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	nmod	5:nmod:nad:ins|16:obj	SpaceAfter=No
 10	,	,	PUNCT	Z	_	16	punct	16:punct	_
 11	ktorého	ktorý	DET	PAms4	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	16	obj	9:ref	_
-12	spolu	spolu	ADV	Dx	Degree=Pos	15	case	15:case	_
+12	spolu	spolu	ADV	Dx	Degree=Pos|ExtPos=ADP	15	case	15:case	_
 13	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	12	fixed	12:fixed	_
 14	bohatou	bohatý	ADJ	AAfs7x	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	15:amod	_
 15	korisťou	korisť	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	16	obl	16:obl:spolu_s:ins	_
@@ -12617,7 +12617,7 @@
 10	hierarchii	hierarchia	NOUN	SSfs6	Case=Loc|Gender=Fem|Number=Sing	8	nmod	8:nmod:v:loc	_
 11	anjelov	anjel	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	10:nmod:gen	SpaceAfter=No
 12	,	,	PUNCT	Z	_	15	punct	15:punct	_
-13	spoločne	spoločne	ADV	Dx	Degree=Pos	15	case	15:case	_
+13	spoločne	spoločne	ADV	Dx	Degree=Pos|ExtPos=ADP	15	case	15:case	_
 14	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	13	fixed	13:fixed	_
 15	serafmi	seraf	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	4:obl:spoločne_s:ins	SpaceAfter=No
 16	.	.	PUNCT	Z	_	4	punct	4:punct	_
@@ -13414,7 +13414,7 @@
 4	.	.	PUNCT	Z	_	3	punct	3:punct	_
 5	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	2:nmod:gen	_
 6	vycestoval	vycestovať	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
-7	spolu	spolu	ADP	Eu7	AdpType=Prep|Case=Ins	10	case	10:case	_
+7	spolu	spolu	ADP	Eu7	AdpType=Prep|Case=Ins|ExtPos=ADP	10	case	10:case	_
 8	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	7	fixed	7:fixed	_
 9	Allenom	allen	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	nmod	10:nmod:ins	_
 10	Ginsbergom	ginsberg	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	6:obl:spolu_s:ins	_
@@ -13478,7 +13478,7 @@
 4	.	.	PUNCT	Z	_	3	punct	3:punct	_
 5	rokov	rok	NOUN	SSip2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	2:nmod:gen	_
 6	sa	sa	PRON	R	PronType=Prs|Reflex=Yes	11	expl:pv	11:expl:pv	_
-7	spolu	spolu	ADV	Dx	Degree=Pos	10	case	10:case	_
+7	spolu	spolu	ADV	Dx	Degree=Pos|ExtPos=ADP	10	case	10:case	_
 8	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	7	fixed	7:fixed	_
 9	svojou	svoj	DET	PFfs7	Case=Ins|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	10:det	_
 10	ženou	žena	NOUN	SSfs7	Case=Ins|Gender=Fem|Number=Sing	11	obl	11:obl:spolu_s:ins	_
@@ -13955,7 +13955,7 @@
 11	obranyschopnosť	obranyschopnosť	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	nmod	8:nmod:na:acc	SpaceAfter=No
 12	,	,	PUNCT	Z	_	17	punct	17:punct	_
 13	predovšetkým	predovšetkým	PART	T	_	17	advmod:emph	17:advmod:emph	_
-14	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc	17	case	17:case	_
+14	vo	v	ADP	Ev6	AdpType=Voc|Case=Loc|ExtPos=ADP	17	case	17:case	_
 15	vzťahu	vzťah	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	fixed	14:fixed	_
 16	k	k	ADP	Eu3	AdpType=Prep|Case=Dat	14	fixed	14:fixed	_
 17	Arabom	arab	PROPN	SSmp3:r	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	nmod	11:nmod:vo_vzťahu_k:dat|21:nsubj	SpaceAfter=No
@@ -14880,7 +14880,7 @@
 2	roku	rok	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	4:obl:v:loc	_
 3	1989	1989	NUM	0	NumForm=Digit	2	nummod	2:nummod	_
 4	založil	založiť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
-5	spolu	spolu	ADV	Dx	Degree=Pos	8	case	8:case	_
+5	spolu	spolu	ADV	Dx	Degree=Pos|ExtPos=ADP	8	case	8:case	_
 6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	5	fixed	5:fixed	_
 7	inými	iný	DET	PAmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|PronType=Ind	8	det	8:det	_
 8	disidentami	disident	NOUN	SSmp7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	4:obl:spolu_s:ins	_
@@ -15016,7 +15016,7 @@
 2	tu	tu	ADV	PD	PronType=Dem	4	advmod	4:advmod	_
 3	bol	byť	AUX	VLescm+	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	4	cop	4:cop	_
 4	spoluautorom	spoluautor	NOUN	SSms7	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	0:root	_
-5	spolu	spolu	ADV	Dx	Degree=Pos	8	case	8:case	_
+5	spolu	spolu	ADV	Dx	Degree=Pos|ExtPos=ADP	8	case	8:case	_
 6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	5	fixed	5:fixed	_
 7	Josefom	josef	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	nmod	8:nmod:ins	_
 8	Topolom	topol	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	4:obl:spolu_s:ins	_
@@ -16306,7 +16306,7 @@
 # orig_file_sentence 011#21
 1	Sofokles	sofokles	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	2:nsubj	_
 2	patrí	patriť	VERB	VKesc+	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	spolu	spolu	ADV	Dx	Degree=Pos	6	case	6:case	_
+3	spolu	spolu	ADV	Dx	Degree=Pos|ExtPos=ADP	6	case	6:case	_
 4	so	s	ADP	Ev7	AdpType=Voc|Case=Ins	3	fixed	3:fixed	_
 5	starším	starý	ADJ	AAms7y	Animacy=Anim|Case=Ins|Degree=Cmp|Gender=Masc|Number=Sing	6	amod	6:amod	_
 6	Aischylom	aischylos	PROPN	SSms7:r	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	obl	2:obl:spolu_s:ins	_
@@ -16435,7 +16435,7 @@
 # sent_id = wikipedia2:wiki-nove-097:wiki_nove_097-p4s3
 # text = V súlade s plánom pritom posilili svoj útvar po krídlach šíku.
 # orig_file_sentence 011#28
-1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc	4	case	4:case	_
+1	V	v	ADP	Eu6	AdpType=Prep|Case=Loc|ExtPos=ADP	4	case	4:case	_
 2	súlade	súlad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	1:fixed	_
 3	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	1	fixed	1:fixed	_
 4	plánom	plán	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	6:obl:v_súlade_s:ins	_
@@ -16963,7 +16963,7 @@
 6	druhom	druhý	ADJ	NAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|NumType=Ord	7	amod	7:amod	_
 7	protokole	protokol	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	8:obl:v:loc	_
 8	vyjadril	vyjadriť	VERB	VLdscm+	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
-9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	13	case	13:case	_
+9	v	v	ADP	Eu6	AdpType=Prep|Case=Loc|ExtPos=ADP	13	case	13:case	_
 10	súlade	súlad	NOUN	SSis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	fixed	9:fixed	_
 11	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	9	fixed	9:fixed	_
 12	týmto	tento	DET	PFis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	13	det	13:det	_

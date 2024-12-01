@@ -50,6 +50,7 @@ subset and conversion to Universal Dependencies was done by Dan Zeman.
   * Adjectives heading clauses are acl(:relcl) rather than amod.
   * Non-agreeing postponed determiners are now mostly nmod.
   * No longer distinguishing flat:foreign from flat.
+  * Fixed multiword expressions need the ExtPos feature.
 * 2024-05-15 v2.14
   * Added the enhanced relation subtype nsubj:xsubj.
   * More restrictive use of orphans and empty nodes: Not in non-verbal coordinated sentences.
