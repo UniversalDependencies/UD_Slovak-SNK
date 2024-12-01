@@ -2641,9 +2641,9 @@
 3	známe	známy	ADJ	AAns4x	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	4:amod	_
 4	zníženie	zníženie	NOUN	SSns4	Case=Acc|Gender=Neut|Number=Sing	1	obj	1:obj	_
 5	daní	daň	NOUN	SSfp2	Case=Gen|Gender=Fem|Number=Plur	4	nmod	4:nmod:gen	_
-6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins	8	mark	8:mark	_
+6	s	s	ADP	Eu7	AdpType=Prep|Case=Ins|ExtPos=ADP	8	case	8:case	_
 7	cieľom	cieľ	NOUN	SSis7	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	fixed	6:fixed	_
-8	oživiť	oživiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	advcl	1:advcl:s_cieľom	_
+8	oživiť	oživiť	VERB	VId+	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	advcl	1:advcl	_
 9	americkú	americký	ADJ	AAfs4x	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	10:amod	_
 10	spotrebu	spotreba	NOUN	SSfs4	Case=Acc|Gender=Fem|Number=Sing	8	obj	8:obj	SpaceAfter=No
 11	.	.	PUNCT	Z	_	1	punct	1:punct	_
@@ -2714,7 +2714,7 @@
 # sent_id = wikipedia:bush-005:bush_005-p1s3
 # text = Zatiaľ čo v poslednom roku vlády Billa Clintona vykazoval federálny rozpočet ročný prebytok 230 miliárd dolárov, počas Bushovej vlády sa premenil prebytok na deficit.
 # orig_file_sentence 002#85
-1	Zatiaľ	zatiaľ	SCONJ	O	_	9	mark	9:mark	_
+1	Zatiaľ	zatiaľ	SCONJ	O	ExtPos=SCONJ	9	mark	9:mark	_
 2	čo	čo	SCONJ	O	_	1	fixed	1:fixed	_
 3	v	v	ADP	Eu6	AdpType=Prep|Case=Loc	5	case	5:case	_
 4	poslednom	posledný	ADJ	NAis6	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|NumType=Ord	5	amod	5:amod	_
@@ -3718,7 +3718,7 @@
 5	neľudských	neľudský	ADJ	AAfp6x	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	6:amod	_
 6	podmienkach	podmienka	NOUN	SSfp6	Case=Loc|Gender=Fem|Number=Plur	3	obl:arg	3:obl:arg:o:loc	SpaceAfter=No
 7	,	,	PUNCT	Z	_	20	punct	20:punct	_
-8	aj	aj	CCONJ	O	_	20	mark	20:mark	_
+8	aj	aj	CCONJ	O	ExtPos=SCONJ	20	mark	20:mark	_
 9	keď	keď	SCONJ	O	_	8	fixed	8:fixed	_
 10	kontrola	kontrola	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	20:nsubj	_
 11	senátorov	senátor	NOUN	SSmp2	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	10:nmod:gen	_
@@ -7532,7 +7532,7 @@
 # sent_id = wikipedia:kosatka005:kosatka005-p5s3
 # text = Zatiaľ čo lososy sú obvykle lovené jednotlivcom alebo malou skupinkou, slede sú často chytané technikou kolotočového kŕmenia.
 # orig_file_sentence 005#70
-1	Zatiaľ	zatiaľ	SCONJ	O	_	6	mark	6:mark	_
+1	Zatiaľ	zatiaľ	SCONJ	O	ExtPos=SCONJ	6	mark	6:mark	_
 2	čo	čo	SCONJ	O	_	1	fixed	1:fixed	_
 3	lososy	losos	NOUN	SSip1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj:pass	6:nsubj:pass	_
 4	sú	byť	AUX	VKepc+	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux:pass	6:aux:pass	_
@@ -8056,7 +8056,7 @@
 3	škvrna	škvrna	NOUN	SSfs1	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	4:nsubj	_
 4	zachytila	zachytiť	VERB	VLdscf+	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part	0	root	0:root	_
 5	a	a	CCONJ	O	_	23	cc	23:cc	_
-6	aj	aj	CCONJ	O	_	11	mark	11:mark	_
+6	aj	aj	CCONJ	O	ExtPos=SCONJ	11	mark	11:mark	_
 7	keď	keď	SCONJ	O	_	6	fixed	6:fixed	_
 8	jeho	jeho	DET	PUmp1	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	9:det	_
 9	členovia	člen	NOUN	SSmp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	11:nsubj	_
@@ -9283,7 +9283,7 @@
 8	svetla	svetlo	NOUN	SSns2	Case=Gen|Gender=Neut|Number=Sing	6	nmod	6:nmod:gen	_
 9	nenájdeme	nájsť	VERB	VKdpa-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 10	,	,	PUNCT	Z	_	17	punct	17:punct	_
-11	aj	aj	CCONJ	O	_	17	mark	17:mark	_
+11	aj	aj	CCONJ	O	ExtPos=SCONJ	17	mark	17:mark	_
 12	keď	keď	SCONJ	O	_	11	fixed	11:fixed	_
 13	okraj	okraj	NOUN	SSis1	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	17:nsubj	_
 14	krátera	kráter	NOUN	SSis2	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	13:nmod:gen	_
@@ -12181,7 +12181,7 @@
 9	blízko	blízko	ADP	Eu2	AdpType=Prep|Case=Gen	10	case	10:case	_
 10	Chalkedonu	chalkedon	PROPN	SSis2:r	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	8:nmod:blízko:gen	SpaceAfter=No
 11	,	,	PUNCT	Z	_	22	punct	22:punct	_
-12	zatiaľ	zatiaľ	SCONJ	O	_	22	mark	22:mark	_
+12	zatiaľ	zatiaľ	SCONJ	O	ExtPos=SCONJ	22	mark	22:mark	_
 13	čo	čo	SCONJ	O	_	12	fixed	12:fixed	_
 14	Fokas	fokas	PROPN	SSms1:r	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	18:obl:arg:dat|22:nsubj	SpaceAfter=No
 15	,	,	PUNCT	Z	_	18	punct	18:punct	_

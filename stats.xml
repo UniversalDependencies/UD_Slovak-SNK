@@ -17,7 +17,7 @@
   <tags unique="17">
     <tag name="ADJ">9474</tag><!-- veľký, prvý, celý, nový, ďalší, druhý, dobrý, starý, posledný, slovenský -->
     <tag name="ADP">8612</tag><!-- v, na, s, z, do, o, k, po, za, od -->
-    <tag name="ADV">4445</tag><!-- veľmi, potom, tu, tam, kde, tak, opäť, vtedy, ako, nikdy -->
+    <tag name="ADV">4444</tag><!-- veľmi, potom, tu, tam, kde, tak, opäť, vtedy, ako, nikdy -->
     <tag name="AUX">3723</tag><!-- byť, by, bývať -->
     <tag name="CCONJ">3376</tag><!-- a, ale, aj, alebo, i, ani, či, však, lebo, no -->
     <tag name="DET">4404</tag><!-- to, ktorý, jeho, svoj, ten, všetok, môj, jej, táto, tento -->
@@ -28,13 +28,13 @@
     <tag name="PRON">6435</tag><!-- sa, ja, on, ona, si, čo, ty, my, niečo, nič -->
     <tag name="PROPN">4830</tag><!-- maja, chris, winston, aladin, vilko, Mauglí, jazmína, lori, bush, marga -->
     <tag name="PUNCT">19130</tag><!-- ., ,, “, !, ?, ", ), (, :, „ -->
-    <tag name="SCONJ">1865</tag><!-- že, keď, ako, aby, ak, kým, keby, akoby, čo, pretože -->
+    <tag name="SCONJ">1866</tag><!-- že, keď, ako, aby, ak, kým, keby, akoby, čo, pretože -->
     <tag name="SYM">23</tag><!-- %, +, =, – -->
     <tag name="VERB">14068</tag><!-- mať, byť, povedať, môcť, chcieť, ísť, vedieť, musieť, prísť, stať -->
     <tag name="X">496</tag><!-- o, tzv, sv, po, česko, km, c, r, the, č -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="63">
+  <feats unique="64">
     <feat name="Abbr" value="Yes" upos="ADV,PROPN,X">404</feat><!-- j, tzv, sv, SR, USA, EÚ, P, c, r, A -->
     <feat name="AdpType" value="Prep" upos="ADP">8156</feat><!-- na, v, do, s, z, o, po, za, k, od -->
     <feat name="AdpType" value="Voc" upos="ADP">456</feat><!-- vo, so, zo, ku, nado, odo, predo, bezo, podo -->
@@ -54,8 +54,9 @@
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">240</feat><!-- viac, lepšie, bližšie, dlhšie, vyššie, menej, nižšie, radšej, silnejšie, starší -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">12017</feat><!-- veľmi, potom, opäť, teraz, stále, už, dnes, neskôr, dobre, celý -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">189</feat><!-- najlepšie, najradšej, najväčším, najčastejšie, najviac, najväčšie, najvýznamnejších, najdôležitejšie, najlepšia, najlepší -->
-    <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,X">90</feat><!-- v, spolu, na, s, smerom, vzhľadom, Z, po, pod, spoločne -->
+    <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,X">91</feat><!-- v, spolu, na, s, smerom, vzhľadom, Z, po, pod, spoločne -->
     <feat name="ExtPos" value="CCONJ" upos="CCONJ">4</feat><!-- a -->
+    <feat name="ExtPos" value="SCONJ" upos="CCONJ,SCONJ">35</feat><!-- aj, i, zatiaľ -->
     <feat name="Foreign" value="Yes" upos="X">241</feat><!-- the, of, REUTERS, Energy, Evangelium, Film, Grazie, Harken, International, Lara -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">19029</feat><!-- bola, jej, ju, Maja, jeho, vláda, povedala, ktorá, chvíľu, mama -->
     <feat name="Gender" value="Masc" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">24414</feat><!-- bol, ho, mu, roku, ktorý, mal, jeho, povedal, ich, ten -->
@@ -80,7 +81,7 @@
     <feat name="Polarity" value="Neg" upos="ADJ,AUX,VERB">1345</feat><!-- je, nebola, nemal, nemala, neviem, nebolo, nebol, nemohla, nevidel, nebude -->
     <feat name="Polarity" value="Pos" upos="ADJ,AUX,VERB">17457</feat><!-- som, je, bol, sme, bola, bolo, sú, bude, mal, boli -->
     <feat name="Poss" value="Yes" upos="DET">1257</feat><!-- jeho, jej, ich, svoje, svojej, môj, svojho, svojich, svoju, moja -->
-    <feat name="PronType" value="Dem" upos="ADV,DET">2260</feat><!-- to, tu, tam, ten, tak, tom, vtedy, toho, tomu, tejto -->
+    <feat name="PronType" value="Dem" upos="ADV,DET">2259</feat><!-- to, tu, tam, ten, tak, tom, vtedy, toho, tomu, tejto -->
     <feat name="PronType" value="Emp" upos="DET">60</feat><!-- sám, sama, samé, sami, samo, samom, samej, samého, samých, samým -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">585</feat><!-- niečo, niekoľko, iné, nejaký, niekedy, niektoré, akýsi, niekto, iných, nejaké -->
     <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">1162</feat><!-- čo, ktoré, ktorý, kde, ktorá, ako, kto, ktorí, ktorú, prečo -->
@@ -110,8 +111,8 @@
     <dep name="appos">295</dep>
     <dep name="aux">2037</dep>
     <dep name="aux:pass">102</dep>
-    <dep name="case">8611</dep>
-    <dep name="cc">3303</dep>
+    <dep name="case">8612</dep>
+    <dep name="cc">3302</dep>
     <dep name="ccomp">1261</dep>
     <dep name="compound">5</dep>
     <dep name="conj">4104</dep>
@@ -124,10 +125,10 @@
     <dep name="discourse">46</dep>
     <dep name="expl:pass">221</dep>
     <dep name="expl:pv">2623</dep>
-    <dep name="fixed">189</dep>
+    <dep name="fixed">190</dep>
     <dep name="flat">99</dep>
     <dep name="iobj">88</dep>
-    <dep name="mark">1950</dep>
+    <dep name="mark">1949</dep>
     <dep name="nmod">7003</dep>
     <dep name="nsubj">7122</dep>
     <dep name="nsubj:pass">220</dep>
