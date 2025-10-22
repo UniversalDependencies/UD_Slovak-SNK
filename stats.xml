@@ -5,30 +5,30 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>10604</sentences><tokens>106043</tokens><words>106097</words><fused>54</fused></total>
-    <train><sentences>8483</sentences><tokens>80575</tokens><words>80628</words><fused>53</fused></train>
-    <dev><sentences>1060</sentences><tokens>12733</tokens><words>12733</words><fused>0</fused></dev>
-    <test><sentences>1061</sentences><tokens>12735</tokens><words>12736</words><fused>1</fused></test>
+    <total><sentences>10604</sentences><tokens>106043</tokens><words>106372</words><fused>329</fused></total>
+    <train><sentences>8483</sentences><tokens>80575</tokens><words>80874</words><fused>299</fused></train>
+    <dev><sentences>1060</sentences><tokens>12733</tokens><words>12754</words><fused>21</fused></dev>
+    <test><sentences>1061</sentences><tokens>12735</tokens><words>12744</words><fused>9</fused></test>
   </size>
-  <lemmas unique="14210" /><!-- ., ,, byť, sa, a, “, v, na, ja, on, to, s, že, z, do -->
-  <forms unique="25897" /><!-- ., ,, a, sa, “, na, v, som, to, je, že, do, s, z, o -->
-  <fusions unique="9" /><!-- naňho, naň, doň, preňho, doňho, uňho, oňho, poňho, zaňho -->
+  <lemmas unique="14208" /><!-- ., ,, byť, sa, a, “, v, na, ja, on, to, s, že, z, do -->
+  <forms unique="25895" /><!-- ., ,, a, sa, “, na, v, som, to, je, že, do, s, z, o -->
+  <fusions unique="13" /><!-- aby, akoby, keby, naňho, naň, doň, preňho, doňho, uňho, Niežeby, oňho, poňho, zaňho -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">9474</tag><!-- veľký, prvý, celý, nový, ďalší, druhý, dobrý, starý, posledný, slovenský -->
     <tag name="ADP">8612</tag><!-- v, na, s, z, do, o, k, po, za, od -->
-    <tag name="ADV">4420</tag><!-- veľmi, potom, tu, tam, kde, tak, opäť, vtedy, nikdy, teraz -->
-    <tag name="AUX">3723</tag><!-- byť, by, bývať -->
+    <tag name="ADV">4408</tag><!-- veľmi, potom, tu, tam, kde, tak, opäť, vtedy, nikdy, teraz -->
+    <tag name="AUX">3998</tag><!-- byť, by, bývať -->
     <tag name="CCONJ">3383</tag><!-- a, ale, aj, alebo, i, ani, či, však, lebo, no -->
     <tag name="DET">4404</tag><!-- to, ktorý, jeho, svoj, ten, všetok, môj, jej, táto, tento -->
     <tag name="INTJ">66</tag><!-- mhm, haló, pozor, bum, aha, amen, klap, ach, pche, preboha -->
     <tag name="NOUN">21661</tag><!-- rok, vláda, deň, človek, chvíľa, oko, ruka, mama, tvár, život -->
     <tag name="NUM">1573</tag><!-- jeden, dva, tri, oba, ii, 1, štyri, 11, 2, mnoho -->
-    <tag name="PART">1909</tag><!-- aj, však, nie, len, už, až, a, iba, ani, ešte -->
+    <tag name="PART">1908</tag><!-- aj, však, nie, len, už, až, a, iba, ani, ešte -->
     <tag name="PRON">6433</tag><!-- sa, ja, on, ona, si, čo, ty, my, niečo, nič -->
     <tag name="PROPN">4830</tag><!-- maja, chris, winston, aladin, vilko, Mauglí, jazmína, lori, bush, marga -->
     <tag name="PUNCT">19130</tag><!-- ., ,, “, !, ?, ", ), (, :, „ -->
-    <tag name="SCONJ">1892</tag><!-- že, keď, ako, aby, ak, kým, čo, keby, akoby, pretože -->
+    <tag name="SCONJ">1905</tag><!-- že, keď, ako, aby, ak, kým, čo, pretože, hoci, než -->
     <tag name="SYM">25</tag><!-- %, +, =, °, – -->
     <tag name="VERB">14068</tag><!-- mať, byť, povedať, môcť, chcieť, ísť, vedieť, musieť, prísť, stať -->
     <tag name="X">494</tag><!-- o, tzv, sv, po, česko, km, c, r, the, č -->
@@ -64,7 +64,7 @@
     <feat name="Gender[psor]" value="Fem" upos="DET">155</feat><!-- jej -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET">325</feat><!-- jeho, ich, jej -->
     <feat name="Hyph" value="Yes" upos="ADV,X">123</feat><!-- O, po, česko, San, rostovsko, v, KLIP, El, a, al -->
-    <feat name="Mood" value="Cnd" upos="ADV,AUX,PART,SCONJ">460</feat><!-- aby, by, akoby, keby, Niežeby -->
+    <feat name="Mood" value="Cnd" upos="AUX,SCONJ">462</feat><!-- by, aby -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">277</feat><!-- pozri, poď, počkajte, počkaj, Prestaň, daj, nerob, pustite, čujte, Dotkni -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">5950</feat><!-- som, je, sme, sú, bude, si, má, ste, ide, môže -->
     <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">12637</feat><!-- sme, sú, ich, boli, ktoré, jeho, nás, nich, oči, ste -->
@@ -94,7 +94,7 @@
     <feat name="Tense" value="Pres" upos="AUX,VERB">5719</feat><!-- som, je, sme, sú, si, má, ste, ide, môže, mám -->
     <feat name="Typo" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,VERB">133</feat><!-- svojim, Winton, básni, kliniec, koalícia, ktorý, s, zo, AN, Ake -->
     <feat name="VerbForm" value="Conv" upos="VERB">21</feat><!-- cítiac, Hľadajúc, Nehovoriac, Zostupujúc, bežiac, kašlúc, kľajúc, lapajúc, ležiac, listujúc -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">6227</feat><!-- som, je, sme, sú, bude, si, má, ste, ide, môže -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">6502</feat><!-- som, je, by, sme, sú, bude, si, má, ste, ide -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">1317</feat><!-- byť, povedať, mať, ísť, podporovať, robiť, stať, venovať, pokračovať, hľadať -->
     <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">11235</feat><!-- bol, bola, bolo, mal, boli, povedal, povedala, mala, odvetil, spýtal -->
     <feat name="Voice" value="Act" upos="ADJ">220</feat><!-- nasledujúcich, nasledujúci, nasledujúcej, týkajúcich, Lietajúca, krútiace, nasledujúcom, predchádzajúce, predsedajúci, provokujúce -->
@@ -106,21 +106,21 @@
     <dep name="acl:relcl">725</dep>
     <dep name="advcl">863</dep>
     <dep name="advcl:pred">228</dep>
-    <dep name="advmod">4850</dep>
+    <dep name="advmod">4837</dep>
     <dep name="advmod:emph">910</dep>
     <dep name="amod">7992</dep>
     <dep name="appos">295</dep>
-    <dep name="aux">2037</dep>
+    <dep name="aux">2312</dep>
     <dep name="aux:pass">102</dep>
     <dep name="case">8612</dep>
-    <dep name="cc">3342</dep>
+    <dep name="cc">3340</dep>
     <dep name="ccomp">1261</dep>
     <dep name="compound">5</dep>
     <dep name="conj">4104</dep>
     <dep name="cop">1583</dep>
     <dep name="csubj">164</dep>
     <dep name="csubj:pass">21</dep>
-    <dep name="dep">605</dep>
+    <dep name="dep">604</dep>
     <dep name="det">2548</dep>
     <dep name="det:numgov">43</dep>
     <dep name="discourse">46</dep>
@@ -129,7 +129,7 @@
     <dep name="fixed">156</dep>
     <dep name="flat">99</dep>
     <dep name="iobj">88</dep>
-    <dep name="mark">1956</dep>
+    <dep name="mark">1972</dep>
     <dep name="nmod">7016</dep>
     <dep name="nsubj">7122</dep>
     <dep name="nsubj:pass">220</dep>

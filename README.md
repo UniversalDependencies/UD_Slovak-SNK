@@ -48,6 +48,7 @@ subset and conversion to Universal Dependencies was done by Dan Zeman.
 
 * 2025-11-15 v2.17
   * Optional depictives are now annotated with "advcl:pred" (previously "xcomp").
+  * Conditional subjunctions split to SCONJ+AUX (the same is done in Czech).
 * 2025-05-15 v2.16
   * Adjectives heading clauses are acl(:relcl) rather than amod.
   * Non-agreeing postponed determiners are now mostly nmod.
