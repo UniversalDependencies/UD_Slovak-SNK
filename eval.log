@@ -1,13 +1,17 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Slovak-SNK:
-commit 545bdee085242c02ca3aed4aa6aae7393734ecdb
-Merge: c45836b 98dc19f
+commit cab84fca965278185af3190a09513c89cf8f85a2
+Merge: c5d31d1 c3dd2f1
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 106097 of 106097 words (nodes).
-Size: min(0, log((N/1000)**2)) = 9.32870754001624.
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'sk_snk'
+Language code (from CoNLL-U file name) = 'sk'
+Found the following data files: sk_snk-ud-dev.conllu, sk_snk-ud-test.conllu, sk_snk-ud-train.conllu
+Size: counted 106372 of 106372 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.33388476876138.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,14 +19,10 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 80013 out of 106097 total words have one or more features.
+Features: 79989 out of 106372 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi:
-               TOTAL       1583
-Udapi: found 1583 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 106097 words.
 Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sk --max-err=10 UD_Slovak-SNK/sk_snk-ud-dev.conllu
 *** PASSED ***
@@ -31,14 +31,13 @@ Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sk --max-err=10 UD_Slovak-SNK/sk_snk-ud-train.conllu
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.166666666666667) = 0.0128205128205128
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.675234367986386) = 0.173137017432407
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.850796912259536) = 0.261783665310627
-(weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.736861084683435) * (availability=1) * (validity=1) = 0.736861084683435
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.166666666666667) = 0.0185185185185185
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.67560910829898) = 0.250225595666289
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{udeprels}=0.691891891891892) = 0.0768768768768769
+(TOTAL score=0.686361731802425) * (availability=1) * (validity=1) = 0.686361731802425
 STARS = 3.5
-UD_Slovak-SNK	0.736861084683435	3.5
+UD_Slovak-SNK	0.686361731802425	3.5
