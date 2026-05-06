@@ -36,6 +36,11 @@ Universal Dependencies guidelines. The original treebank was prepared by a team
 led by Katarína Gajdošová and Mária Šimková. Selection of sentences for this
 subset and conversion to Universal Dependencies was done by Dan Zeman.
 
+# Acknowledgements
+
+The improvements done in 2023–2026 benefited from
+the COST Action CA21167 [UniDive](https://unidive.lisn.upsaclay.fr/).
+
 ## References
 
 * Daniel Zeman (2017):
